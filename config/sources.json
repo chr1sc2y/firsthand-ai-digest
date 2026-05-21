@@ -1,7 +1,7 @@
 {
   "site": {
-    "repo":     "chr1sc2y/ai-daily-digest",
-    "repo_url": "https://github.com/chr1sc2y/ai-daily-digest"
+    "repo":     "chr1sc2y/firsthand-ai-digest",
+    "repo_url": "https://github.com/chr1sc2y/firsthand-ai-digest"
   },
   "x_users": [
     { "name": "Andrej Karpathy",     "handle": "karpathy",       "role": "Eureka Labs / ex-OpenAI, Tesla" },

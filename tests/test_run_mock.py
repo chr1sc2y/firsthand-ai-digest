@@ -13,7 +13,7 @@ def test_run_with_mock_data_writes_html(tmp_path):
 
     html = output.read_text(encoding="utf-8")
     assert status == 0
-    assert "AI Daily Digest" in html
+    assert "Firsthand AI Digest" in html
     assert "Sam Altman" in html
     assert "OpenAI Blog" in html
     assert "Latent Space" in html

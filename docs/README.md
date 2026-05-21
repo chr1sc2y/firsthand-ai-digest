@@ -1,4 +1,4 @@
-# AI Daily Digest — Documentation
+# Firsthand AI Digest — Documentation
 
 > Engineering reference for the project. Inspired by Harness's
 > Engineering docs: every module, every external service, and every
