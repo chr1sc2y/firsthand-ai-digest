@@ -19,7 +19,7 @@ def _load():
 
 def test_sources_file_is_valid_json():
     data = _load()
-    for key in ("x_users", "github_trending", *RSS_CATEGORIES):
+    for key in ("x_users", *RSS_CATEGORIES):
         assert key in data, f"{key} missing from sources.json"
 
 
@@ -61,17 +61,6 @@ def test_youtube_feeds_use_channel_id_format():
     data = _load()
     for entry in data["youtube"]:
         assert "channel_id=" in entry["rss"], entry
-
-
-def test_github_trending_block_has_required_fields():
-    data = _load()
-    cfg = data["github_trending"]
-    assert isinstance(cfg.get("topics"), list) and cfg["topics"]
-    for t in cfg["topics"]:
-        assert isinstance(t, str) and t
-    assert isinstance(cfg.get("min_stars"), int) and cfg["min_stars"] >= 0
-    assert isinstance(cfg.get("lookback_days"), int) and cfg["lookback_days"] >= 1
-    assert isinstance(cfg.get("max_repos"), int) and cfg["max_repos"] >= 1
 
 
 def test_secrets_example_exists_and_has_required_keys():

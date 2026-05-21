@@ -2,8 +2,10 @@ name: Daily Digest
 
 on:
   schedule:
-    # Every 3 hours on Asia/Shanghai segment boundaries.
-    - cron: "0 1,4,7,10,13,16,19,22 * * *"
+    # Every 6 hours on Asia/Shanghai segment boundaries (00, 06, 12, 18 BJT
+    # → 16, 22, 04, 10 UTC). Halving the cadence vs the original 3-hour
+    # cron keeps Apify usage inside the free monthly credit.
+    - cron: "0 4,10,16,22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,7 +40,6 @@ jobs:
       - name: Generate config/secrets.json
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          GH_TRENDING_TOKEN: ${{ secrets.GH_TRENDING_TOKEN }}
         run: |
           if [ -z "$APIFY_TOKEN" ]; then
             echo "::error::Repository secret APIFY_TOKEN is not set."
@@ -54,8 +55,8 @@ jobs:
                   {
                       "apify_token": os.environ["APIFY_TOKEN"],
                       "apify_actor": "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
-                      "apify_lookback_hours": 3,
-                      "github_token": os.environ.get("GH_TRENDING_TOKEN", ""),
+                      "apify_lookback_hours": 6,
+                      "apify_monthly_budget_usd": 4.0,
                   },
                   indent=2,
               )
@@ -65,20 +66,20 @@ jobs:
           PY
 
       - name: Compute segment window
-        run: python scripts/segment_window.py --github-env "$GITHUB_ENV"
+        run: python scripts/segment_window.py --hours 6 --github-env "$GITHUB_ENV"
 
       - name: Build digest segment
         run: |
           python scripts/run.py \
             --verbose \
-            --hours 3 \
-            --blog-hours 3 \
-            --release-hours 3 \
-            --video-hours 3 \
-            --podcast-hours 3 \
+            --hours 6 \
+            --blog-hours 6 \
+            --video-hours 6 \
+            --podcast-hours 6 \
             --window-start "$DIGEST_WINDOW_START" \
             --window-end "$DIGEST_WINDOW_END" \
             --data-output "$DIGEST_SEGMENT_PATH" \
+            --skip-empty-segment \
             --output dist/index.html
 
       - name: Build archive and site

@@ -17,7 +17,6 @@ def test_run_with_mock_data_writes_html(tmp_path):
     assert "Sam Altman" in html
     assert "OpenAI Blog" in html
     assert "Latent Space" in html
-    assert "example/agent-runtime" in html
     assert "Google DeepMind" in html
 
 
@@ -53,7 +52,6 @@ def test_run_with_mock_data_writes_normalized_json(tmp_path):
         "x": 2,
         "blogs": 2,
         "podcasts": 1,
-        "releases": 1,
         "videos": 1,
     }
     assert payload["items"]["x"][0]["source_name"] == "Sam Altman"
@@ -84,3 +82,30 @@ def test_run_with_mock_data_writes_window_metadata(tmp_path):
         "start": "2026-05-21T09:00:00+00:00",
         "end": "2026-05-21T12:00:00+00:00",
     }
+
+
+def test_run_skip_empty_segment_does_not_write_when_all_categories_empty(tmp_path):
+    output = tmp_path / "index.html"
+    data_output = tmp_path / "segment.json"
+
+    # A window in the distant past — the mock data is generated relative
+    # to "now", so every item gets filtered out and all four counts hit 0.
+    status = run.main(
+        [
+            "--mock-data",
+            "--output",
+            output.as_posix(),
+            "--data-output",
+            data_output.as_posix(),
+            "--skip-empty-segment",
+            "--window-start",
+            "2000-01-01T00:00:00Z",
+            "--window-end",
+            "2000-01-01T06:00:00Z",
+        ]
+    )
+
+    assert status == 0
+    assert not data_output.exists(), "empty segment should not have been written"
+    # The HTML is still produced (so the site never goes blank).
+    assert output.exists()

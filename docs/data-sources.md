@@ -6,8 +6,9 @@ What we fetch, where it lives, and how stable it is.
 
 - **Provider**: Apify actor [`kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest`](
   https://apify.com/kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest)
-- **Cost**: ~$0.25 per 1k tweets; each 3-hour run batches all handles into
-  one actor call and then clips locally.
+- **Cost**: ~$0.25 per 1k tweets; each 6-hour run batches all handles into
+  one actor call and then clips locally. The 6-hour cadence keeps the
+  per-month spend inside Apify's free $5 monthly platform credit.
 - **Input mode**: one batched Apify Actor run with `searchTerms[]`, using
   Twitter search syntax like `from:sama since_time:<unix> until_time:<unix>`.
 - **Stability**: backed by Apify's rotating proxy pool; survives X's
@@ -59,30 +60,6 @@ author / keywords match a configured X leader's name or `@handle`. Pass
 | The MAD Podcast with Matt Turck         | Anchor                             |
 | AI & I (Every / Dan Shipper)            | Transistor                         |
 
-## GitHub Trending
-
-GitHub does not publish an official trending RSS, so we proxy it with
-the [Search API](https://docs.github.com/rest/search/search#search-repositories):
-
-```
-GET /search/repositories?q=topic:<t>+stars:>=N+pushed:>=YYYY-MM-DD&sort=stars
-```
-
-Run once per topic; merge results by `full_name`; cap at `max_repos`.
-
-Defaults (see [`config/sources.json`](../config/sources.json) →
-`github_trending`):
-
-- topics: `llm`, `ai-agents`, `generative-ai`, `agentic-ai`, `rag`,
-  `transformers`, `vector-database`
-- `min_stars`: 2000
-- `lookback_days`: 14
-- `max_repos`: 20
-
-Rate limit: 10 req/min unauthenticated, 30/min with a token. Drop a
-`github_token` (any classic PAT, no scopes needed) into
-`config/secrets.json` if you ever hit a 403.
-
 ## YouTube
 
 YouTube exposes a free per-channel Atom feed at:
@@ -110,11 +87,12 @@ To find a channel ID: visit the channel page, view source, search for
 
 | Category | Cron | Window |
 |----------|------|--------|
-| X / posts        | every 3 h | exact 3 h segment |
-| Blogs            | every 3 h | exact 3 h segment |
-| Trending repos   | every 3 h | exact 3 h segment |
-| YouTube videos   | every 3 h | exact 3 h segment |
-| Podcasts         | every 3 h | exact 3 h segment |
+| X / posts        | every 6 h | exact 6 h segment |
+| Blogs            | every 6 h | exact 6 h segment |
+| YouTube videos   | every 6 h | exact 6 h segment |
+| Podcasts         | every 6 h | exact 6 h segment |
 
-Knobs: `--hours`, `--blog-hours`, `--release-hours`, `--video-hours`,
-`--podcast-hours`.
+Knobs: `--hours`, `--blog-hours`, `--video-hours`, `--podcast-hours`.
+
+The 6-hour cadence is chosen so that the monthly Apify spend stays inside
+the free $5 platform credit (≈ 20k tweets / month).

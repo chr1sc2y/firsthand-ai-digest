@@ -302,7 +302,6 @@ CLIENT_JS = r"""
     ["posts", "Posts", "x"],
     ["blogs", "Blogs & Long-form", "blogs"],
     ["podcasts", "Podcasts", "podcasts"],
-    ["releases", "Trending Repos", "releases"],
     ["videos", "YouTube", "videos"]
   ];
   let archiveItems = [];
@@ -345,7 +344,7 @@ CLIENT_JS = r"""
   }
 
   function tag(kind) {
-    return {x: "Post", blogs: "Blog", podcasts: "Podcast", releases: "Trending", videos: "Video"}[kind] || "Item";
+    return {x: "Post", blogs: "Blog", podcasts: "Podcast", videos: "Video"}[kind] || "Item";
   }
 
   function card(item) {
@@ -467,7 +466,7 @@ CLIENT_JS = r"""
       archiveItems = [];
       payloads.filter(Boolean).forEach((payload) => {
         const items = payload.items || {};
-        Object.entries({x: "x", blogs: "blogs", podcasts: "podcasts", releases: "releases", videos: "videos"}).forEach(([kind, key]) => {
+        Object.entries({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}).forEach(([kind, key]) => {
           (items[key] || []).forEach((item) => archiveItems.push(Object.assign({}, item, {kind})));
         });
       });
@@ -540,7 +539,6 @@ def _card(item: dict) -> str:
         "x": "Post",
         "podcast": "Podcast",
         "blog": "Blog",
-        "release": "Trending",
         "video": "Video",
     }.get(kind, kind.title() or "Item")
 
@@ -584,13 +582,11 @@ def render(
     x_items: list[dict],
     podcast_items: list[dict],
     blog_items: list[dict] | None = None,
-    release_items: list[dict] | None = None,
     video_items: list[dict] | None = None,
     site: dict | None = None,
     interactive: bool = False,
 ) -> str:
     blog_items = blog_items or []
-    release_items = release_items or []
     video_items = video_items or []
     site = site or {}
     repo = site.get("repo", "")
@@ -601,7 +597,6 @@ def render(
         ("posts", "Posts", x_items),
         ("blogs", "Blogs & Long-form", blog_items),
         ("podcasts", "Podcasts", podcast_items),
-        ("releases", "Trending Repos", release_items),
         ("videos", "YouTube", video_items),
     ]
 

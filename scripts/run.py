@@ -5,7 +5,7 @@ Usage:
 
 Pipeline (stable order, see docs/architecture.md):
     1. Fetch X posts via Apify
-    2. Fetch generic RSS feeds: blogs, GitHub releases, YouTube channels
+    2. Fetch generic RSS feeds: blogs, YouTube channels
     3. Fetch podcasts (RSS + leader keyword filter)
     4. Apply per-category time-window filter
     5. Dedup by canonical URL across categories
@@ -27,7 +27,6 @@ HERE = Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
     sys.path.insert(0, str(HERE))
 
-import fetch_github_trending  # noqa: E402
 import fetch_podcasts  # noqa: E402
 import fetch_rss  # noqa: E402
 import fetch_x  # noqa: E402
@@ -97,7 +96,6 @@ def _data_payload(
     x_items: list[dict],
     blog_items: list[dict],
     podcast_items: list[dict],
-    release_items: list[dict],
     video_items: list[dict],
     window_start: datetime | None = None,
     window_end: datetime | None = None,
@@ -109,14 +107,12 @@ def _data_payload(
             "x": len(x_items),
             "blogs": len(blog_items),
             "podcasts": len(podcast_items),
-            "releases": len(release_items),
             "videos": len(video_items),
         },
         "items": {
             "x": [_jsonable_item(i) for i in x_items],
             "blogs": [_jsonable_item(i) for i in blog_items],
             "podcasts": [_jsonable_item(i) for i in podcast_items],
-            "releases": [_jsonable_item(i) for i in release_items],
             "videos": [_jsonable_item(i) for i in video_items],
         },
     }
@@ -128,7 +124,7 @@ def _data_payload(
     return payload
 
 
-def _mock_items(now: datetime) -> tuple[list[dict], list[dict], list[dict], list[dict], list[dict]]:
+def _mock_items(now: datetime) -> tuple[list[dict], list[dict], list[dict], list[dict]]:
     """Deterministic-ish sample payload for local smoke tests and screenshots."""
 
     def item(kind: str, source: str, title: str, summary: str, link: str, hours_ago: int,
@@ -200,18 +196,6 @@ def _mock_items(now: datetime) -> tuple[list[dict], list[dict], list[dict], list
             role="Featuring Sam Altman",
         )
     ]
-    release_items = [
-        item(
-            "release",
-            "example/agent-runtime",
-            "A compact runtime for AI agent workflows",
-            "12,480 stars · Tools for tracing, retrying, and inspecting multi-step agent runs.",
-            "https://github.com/example/agent-runtime",
-            18,
-            role="example/agent-runtime",
-            author="example",
-        )
-    ]
     video_items = [
         item(
             "video",
@@ -223,7 +207,7 @@ def _mock_items(now: datetime) -> tuple[list[dict], list[dict], list[dict], list
             role="Channel · Google DeepMind",
         )
     ]
-    return x_items, blog_items, release_items, video_items, podcast_items
+    return x_items, blog_items, video_items, podcast_items
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -235,8 +219,6 @@ def main(argv: list[str] | None = None) -> int:
                         help="Window for X posts.")
     parser.add_argument("--blog-hours", type=int, default=24 * 7,
                         help="Window for blog posts (default 7 days).")
-    parser.add_argument("--release-hours", type=int, default=24 * 7,
-                        help="Window for GitHub releases (default 7 days).")
     parser.add_argument("--video-hours", type=int, default=24 * 7,
                         help="Window for YouTube videos (default 7 days).")
     parser.add_argument("--podcast-hours", type=int, default=24 * 30,
@@ -247,6 +229,10 @@ def main(argv: list[str] | None = None) -> int:
                         help="Render built-in sample data without network calls or secrets.")
     parser.add_argument("--data-output", type=Path,
                         help="Optional JSON path for the normalized digest data.")
+    parser.add_argument("--skip-empty-segment", action="store_true",
+                        help="If --data-output is set and all four categories are "
+                             "empty, do not write the segment file. Prevents diluting "
+                             "the archive with all-zero segments after a fetch outage.")
     parser.add_argument("--window-start",
                         help="UTC ISO timestamp for an inclusive global data window start.")
     parser.add_argument("--window-end",
@@ -277,33 +263,30 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.mock_data:
         log.info("Mock: rendering built-in sample data; no network calls.")
-        x_items, blog_items, release_items, video_items, podcast_items = _mock_items(now)
+        x_items, blog_items, video_items, podcast_items = _mock_items(now)
     else:
         # ---- 1. X posts -------------------------------------------------------
         log.info("X: fetching for %d users...", len(config.get("x_users", [])))
-        x_items = fetch_x.fetch_all(
-            users=config.get("x_users", []),
-            max_items=args.max_per_source,
-            since=window_start,
-            until=window_end,
-        )
+        try:
+            x_items = fetch_x.fetch_all(
+                users=config.get("x_users", []),
+                max_items=args.max_per_source,
+                since=window_start,
+                until=window_end,
+            )
+        except Exception as exc:
+            # X is the most likely category to fail (paid API, rate limits,
+            # missing token). Don't take the rest of the digest down with it.
+            log.error("X: fetch failed, continuing without posts: %s", exc)
+            x_items = []
 
-        # ---- 2. Blogs / Releases / YouTube (generic RSS) ----------------------
+        # ---- 2. Blogs / YouTube (generic RSS) ---------------------------------
         log.info("Blogs: fetching %d feeds...", len(config.get("blogs", [])))
         blog_items = fetch_rss.fetch_many(
             config.get("blogs", []),
             kind="blog",
             max_items=args.max_per_source,
             role_template="By {publisher}",
-        )
-
-        log.info("Releases: fetching trending AI repos...")
-        trending_cfg = config.get("github_trending", {}) or {}
-        release_items = fetch_github_trending.fetch_trending(
-            topics=trending_cfg.get("topics"),
-            min_stars=trending_cfg.get("min_stars", 1000),
-            lookback_days=trending_cfg.get("lookback_days", 14),
-            max_repos=trending_cfg.get("max_repos", 20),
         )
 
         log.info("YouTube: fetching %d channels...", len(config.get("youtube", [])))
@@ -327,63 +310,63 @@ def main(argv: list[str] | None = None) -> int:
     if window_start and window_end:
         x_items       = [i for i in x_items       if _within_range(i, window_start, window_end)]
         blog_items    = [i for i in blog_items    if _within_range(i, window_start, window_end)]
-        release_items = [i for i in release_items if _within_range(i, window_start, window_end)]
         video_items   = [i for i in video_items   if _within_range(i, window_start, window_end)]
         podcast_items = [i for i in podcast_items if _within_range(i, window_start, window_end)]
     else:
         x_items       = [i for i in x_items       if _within_window(i, now - timedelta(hours=args.hours))]
         blog_items    = [i for i in blog_items    if _within_window(i, now - timedelta(hours=args.blog_hours))]
-        release_items = [i for i in release_items if _within_window(i, now - timedelta(hours=args.release_hours))]
         video_items   = [i for i in video_items   if _within_window(i, now - timedelta(hours=args.video_hours))]
         podcast_items = [i for i in podcast_items if _within_window(i, now - timedelta(hours=args.podcast_hours))]
 
     # ---- 5. Dedup by canonical URL (cross-category) -----------------------
     # X items are kept untouched (handles can quote-tweet links from other
     # categories; we want to see both the tweet and the underlying post).
-    deduped = fetch_rss.dedup(blog_items + release_items + video_items + podcast_items)
+    deduped = fetch_rss.dedup(blog_items + video_items + podcast_items)
     blog_items    = [i for i in deduped if i["kind"] == "blog"]
-    release_items = [i for i in deduped if i["kind"] == "release"]
     video_items   = [i for i in deduped if i["kind"] == "video"]
     podcast_items = [i for i in deduped if i["kind"] == "podcast"]
 
     # ---- 6. Sort and render -----------------------------------------------
-    x_items, blog_items, release_items, video_items, podcast_items = (
+    x_items, blog_items, video_items, podcast_items = (
         _sort_desc(x_items),
         _sort_desc(blog_items),
-        _sort_desc(release_items),
         _sort_desc(video_items),
         _sort_desc(podcast_items),
     )
 
     log.info(
-        "Render: %d posts, %d blogs, %d podcasts, %d releases, %d videos",
-        len(x_items), len(blog_items), len(podcast_items),
-        len(release_items), len(video_items),
+        "Render: %d posts, %d blogs, %d podcasts, %d videos",
+        len(x_items), len(blog_items), len(podcast_items), len(video_items),
     )
 
     if args.data_output:
-        payload = _data_payload(
-            generated_at=now,
-            x_items=x_items,
-            blog_items=blog_items,
-            podcast_items=podcast_items,
-            release_items=release_items,
-            video_items=video_items,
-            window_start=window_start,
-            window_end=window_end,
-        )
-        args.data_output.parent.mkdir(parents=True, exist_ok=True)
-        args.data_output.write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
-        log.info("Wrote data %s", args.data_output)
+        total_items = len(x_items) + len(blog_items) + len(podcast_items) + len(video_items)
+        if args.skip_empty_segment and total_items == 0:
+            log.warning(
+                "All four categories are empty; skipping write of %s "
+                "(--skip-empty-segment).", args.data_output,
+            )
+        else:
+            payload = _data_payload(
+                generated_at=now,
+                x_items=x_items,
+                blog_items=blog_items,
+                podcast_items=podcast_items,
+                video_items=video_items,
+                window_start=window_start,
+                window_end=window_end,
+            )
+            args.data_output.parent.mkdir(parents=True, exist_ok=True)
+            args.data_output.write_text(
+                json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            log.info("Wrote data %s", args.data_output)
 
     html_text = render_html.render(
         x_items=x_items,
         podcast_items=podcast_items,
         blog_items=blog_items,
-        release_items=release_items,
         video_items=video_items,
         site=config.get("site") or {},
     )

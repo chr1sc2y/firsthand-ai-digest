@@ -1,13 +1,15 @@
 """Generic RSS / Atom feed fetcher.
 
 Used by ``fetch_podcasts`` for podcast feeds and directly by ``run.py`` for
-blogs, GitHub Releases and YouTube channel feeds. All of those expose
-RFC-822 / Atom XML, so a single parser works for every category.
+blogs and YouTube channel feeds. All of those expose RFC-822 / Atom XML, so
+a single parser works for every category.
 """
 from __future__ import annotations
 
 import logging
 import re
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import timezone
 from typing import Iterable
 
@@ -21,6 +23,11 @@ USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+
+# Cap concurrency low enough that a single misbehaving host can't starve
+# the rest of the feeds and so we stay polite to free RSS endpoints.
+_FETCH_PARALLELISM = 8
+_RETRIES = 2
 
 
 def fetch_feed(rss_url: str, timeout: int = 12) -> list[dict]:
@@ -37,8 +44,17 @@ def fetch_feed(rss_url: str, timeout: int = 12) -> list[dict]:
             "published": datetime | None,  # always tz-aware (UTC if missing)
         }
     """
-    resp = requests.get(rss_url, headers={"User-Agent": USER_AGENT}, timeout=timeout)
-    resp.raise_for_status()
+    last_exc: Exception | None = None
+    for attempt in range(_RETRIES + 1):
+        try:
+            resp = requests.get(rss_url, headers={"User-Agent": USER_AGENT}, timeout=timeout)
+            resp.raise_for_status()
+            break
+        except requests.RequestException as exc:
+            last_exc = exc
+            if attempt >= _RETRIES:
+                raise
+            time.sleep(0.5 * (2 ** attempt))
     parsed = feedparser.parse(resp.content)
 
     items: list[dict] = []
@@ -71,6 +87,8 @@ def fetch_feed(rss_url: str, timeout: int = 12) -> list[dict]:
                 "published": published,
             }
         )
+    if last_exc is not None:
+        log.debug("fetch_feed recovered after retry for %s", rss_url)
     return items
 
 
@@ -81,28 +99,37 @@ def fetch_many(
     max_items: int = 5,
     role_template: str = "",
 ) -> list[dict]:
-    """Fetch every feed in ``feeds`` (each: ``{name, rss, ...}``) and tag the
-    items with our common ``kind`` / ``source_*`` fields used by the renderer.
+    """Fetch every feed in ``feeds`` in parallel and tag the items with our
+    common ``kind`` / ``source_*`` fields used by the renderer.
 
     ``role_template`` is a Python format string evaluated with the source dict
-    (e.g. ``"Hosted by {host}"`` or ``"Releases · {repo}"``). Empty string =
+    (e.g. ``"Hosted by {host}"`` or ``"Channel · {channel}"``). Empty string =
     leave ``source_role`` blank.
     """
-    out: list[dict] = []
-    failed: list[str] = []
-    total = 0
-    for src in feeds:
-        url = src.get("rss")
-        if not url:
-            continue
-        total += 1
-        try:
-            items = fetch_feed(url)
-        except Exception as exc:  # pragma: no cover - network failures
-            log.warning("[%s] feed failed for %s: %s", kind, src.get("name"), exc)
-            failed.append(src.get("name") or url)
-            continue
+    sources = [src for src in feeds if src.get("rss")]
+    if not sources:
+        return []
 
+    results: dict[int, tuple[dict, list[dict] | None]] = {}
+    failed: list[str] = []
+    workers = min(_FETCH_PARALLELISM, len(sources))
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futures = {ex.submit(fetch_feed, src["rss"]): (idx, src) for idx, src in enumerate(sources)}
+        for fut in as_completed(futures):
+            idx, src = futures[fut]
+            try:
+                results[idx] = (src, fut.result())
+            except Exception as exc:  # pragma: no cover - network failures
+                log.warning("[%s] feed failed for %s: %s", kind, src.get("name"), exc)
+                failed.append(src.get("name") or src.get("rss") or "?")
+                results[idx] = (src, None)
+
+    out: list[dict] = []
+    # Iterate in original feed order for deterministic output.
+    for idx in range(len(sources)):
+        src, items = results.get(idx, (None, None))
+        if not src or items is None:
+            continue
         log.debug("[%s] %s -> %d items", kind, src.get("name"), len(items))
         for item in items[:max_items]:
             item["kind"] = kind
@@ -115,7 +142,7 @@ def fetch_many(
             out.append(item)
     if failed:
         log.error(
-            "[%s] %d/%d feed(s) failed: %s", kind, len(failed), total, ", ".join(failed)
+            "[%s] %d/%d feed(s) failed: %s", kind, len(failed), len(sources), ", ".join(failed)
         )
     return out
 

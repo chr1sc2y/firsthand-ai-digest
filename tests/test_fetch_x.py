@@ -224,6 +224,7 @@ def test_fetch_all_attaches_source_metadata(monkeypatch, tmp_path):
         return [{"kind": "x", "title": "t", "summary": "t", "link": "https://x.com/sama/status/1", "author": handles[0], "published": datetime.now(timezone.utc)}]
 
     monkeypatch.setattr(fetch_x, "_fetch_apify_batch", fake_apify)
+    monkeypatch.setattr(fetch_x, "_monthly_usage_usd", lambda token: 0.0)
 
     users = [{"name": "Sam Altman", "handle": "sama", "role": "CEO, OpenAI"}]
     out = fetch_x.fetch_all(users, max_items=3)
@@ -231,3 +232,45 @@ def test_fetch_all_attaches_source_metadata(monkeypatch, tmp_path):
     assert out[0]["source_name"] == "Sam Altman"
     assert out[0]["source_role"] == "CEO, OpenAI"
     assert out[0]["source_handle"] == "sama"
+
+
+def test_fetch_all_skips_when_monthly_budget_exceeded(monkeypatch, tmp_path):
+    secrets_file = _write_secrets(
+        tmp_path,
+        {"apify_token": "real_token", "apify_monthly_budget_usd": 4.0},
+    )
+    monkeypatch.setattr(fetch_x, "SECRETS_PATH", secrets_file)
+
+    called = {"n": 0}
+
+    def fake_apify(*a, **kw):
+        called["n"] += 1
+        return []
+
+    monkeypatch.setattr(fetch_x, "_fetch_apify_batch", fake_apify)
+    # Pretend we've already spent $4.50 this cycle.
+    monkeypatch.setattr(fetch_x, "_monthly_usage_usd", lambda token: 4.5)
+
+    users = [{"name": "Sam Altman", "handle": "sama", "role": "CEO, OpenAI"}]
+    out = fetch_x.fetch_all(users)
+    assert out == []
+    assert called["n"] == 0  # batch fetch must not run
+
+
+def test_fetch_all_continues_when_usage_check_fails(monkeypatch, tmp_path):
+    secrets_file = _write_secrets(tmp_path, {"apify_token": "real_token"})
+    monkeypatch.setattr(fetch_x, "SECRETS_PATH", secrets_file)
+
+    called = {"n": 0}
+
+    def fake_apify(handles, max_items, token, actor, lookback_hours, since=None, until=None):
+        called["n"] += 1
+        return []
+
+    monkeypatch.setattr(fetch_x, "_fetch_apify_batch", fake_apify)
+    # Billing API hiccup: usage check returns None. We should not block
+    # the fetch on a transient meta-API failure.
+    monkeypatch.setattr(fetch_x, "_monthly_usage_usd", lambda token: None)
+
+    fetch_x.fetch_all([{"name": "Sam", "handle": "sama"}])
+    assert called["n"] == 1

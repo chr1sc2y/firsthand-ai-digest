@@ -1,4 +1,9 @@
-"""Compute the latest complete 3-hour Asia/Shanghai digest segment."""
+"""Compute the latest complete Asia/Shanghai digest segment.
+
+Defaults to 6-hour buckets (00, 06, 12, 18 BJT) so we run the X scraper
+4 times a day instead of 8 — keeps Apify usage inside the free monthly
+credit.
+"""
 from __future__ import annotations
 
 import argparse
@@ -6,7 +11,7 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 
-def latest_complete_window(now: datetime, *, hours: int = 3) -> tuple[datetime, datetime]:
+def latest_complete_window(now: datetime, *, hours: int = 6) -> tuple[datetime, datetime]:
     bucket_hour = (now.hour // hours) * hours
     end = now.replace(hour=bucket_hour, minute=0, second=0, microsecond=0)
     start = end - timedelta(hours=hours)
@@ -16,7 +21,7 @@ def latest_complete_window(now: datetime, *, hours: int = 3) -> tuple[datetime, 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Emit GitHub Actions env vars for a digest segment.")
     parser.add_argument("--timezone", default="Asia/Shanghai")
-    parser.add_argument("--hours", type=int, default=3)
+    parser.add_argument("--hours", type=int, default=6)
     parser.add_argument("--github-env", help="Path to $GITHUB_ENV.")
     args = parser.parse_args()
 

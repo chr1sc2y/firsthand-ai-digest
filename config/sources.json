@@ -29,6 +29,7 @@
     { "name": "Aditya Agarwal",      "handle": "adityaag",       "role": "Partner, South Park Commons" },
     { "name": "Sam Altman",          "handle": "sama",           "role": "CEO, OpenAI" },
     { "name": "Dario Amodei",        "handle": "DarioAmodei",    "role": "CEO, Anthropic" },
+    { "name": "Elon Musk",           "handle": "elonmusk",       "role": "CEO, Tesla / xAI" },
     { "name": "Claude",              "handle": "claudeai",       "role": "Anthropic's Claude" }
   ],
   "podcasts": [
@@ -48,12 +49,6 @@
     { "name": "Lilian Weng",         "rss": "https://lilianweng.github.io/index.xml",            "publisher": "Lilian Weng" },
     { "name": "Import AI (Jack Clark)", "rss": "https://jack-clark.net/feed/",                   "publisher": "Jack Clark" }
   ],
-  "github_trending": {
-    "topics":        ["llm", "ai-agents", "generative-ai", "agentic-ai", "rag", "transformers", "vector-database"],
-    "min_stars":     2000,
-    "lookback_days": 14,
-    "max_repos":     20
-  },
   "youtube": [
     { "name": "Lex Fridman",         "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA", "channel": "Lex Fridman" },
     { "name": "Dwarkesh Patel",      "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZa18YV7qayTh-MRIrBhDpA", "channel": "Dwarkesh Patel" },

@@ -8,10 +8,16 @@ purpose — secrets live in the file only.
 Schema of ``config/secrets.json``::
 
     {
-      "apify_token":           "apify_api_xxx...",
-      "apify_actor":           "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
-      "apify_lookback_hours":  24
+      "apify_token":             "apify_api_xxx...",
+      "apify_actor":             "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+      "apify_monthly_budget_usd": 4.0
     }
+
+``apify_monthly_budget_usd`` is a soft cap on this month's Apify spend.
+Before each batch run we query ``GET /v2/users/me/usage/monthly``; if
+the current cycle has already used more than this many USD we skip the
+X fetch entirely and return an empty list. Default is 4.0 USD which
+keeps us inside the platform's free $5 monthly credit.
 
 In CI (GitHub Actions) the workflow generates ``config/secrets.json`` on the
 fly from the ``APIFY_TOKEN`` repository secret — see ``.github/workflows/daily.yml``.
@@ -37,6 +43,7 @@ DEFAULT_APIFY_ACTOR = (
     "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest"
 )
 DEFAULT_LOOKBACK_HOURS = 24
+DEFAULT_MONTHLY_BUDGET_USD = 4.0
 MOCK_TEXT_MARKERS = (
     "From KaitoEasyAPI, a reminder:",
     "Thus, we returned N pieces of mock data",
@@ -145,6 +152,29 @@ def _search_term(handle: str, since: datetime, until: datetime) -> str:
     return f"from:{handle} since_time:{int(since.timestamp())} until_time:{int(until.timestamp())}"
 
 
+def _monthly_usage_usd(token: str, *, timeout: int = 15) -> float | None:
+    """Return this Apify cycle's spend in USD, or None on any failure.
+
+    We never let a billing-API hiccup take down the digest run. Callers
+    treat ``None`` as "skip the budget check" (we'd rather fetch than
+    silently produce empty segments).
+    """
+    try:
+        resp = requests.get(
+            "https://api.apify.com/v2/users/me/usage/monthly",
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=timeout,
+        )
+        resp.raise_for_status()
+        data = resp.json().get("data") or {}
+        # Pre-discount is the most conservative reading; we want to stop
+        # before billing kicks in, not after.
+        return float(data.get("totalUsageCreditsUsdBeforeVolumeDiscount") or 0.0)
+    except (requests.RequestException, ValueError, TypeError) as exc:
+        log.warning("X[apify]: monthly-usage check failed: %s", exc)
+        return None
+
+
 def _fetch_apify_batch(
     handles: list[str],
     max_items: int,
@@ -203,9 +233,15 @@ def _fetch_apify(
     token: str,
     actor: str,
     lookback_hours: int,
+    since: datetime | None = None,
+    until: datetime | None = None,
 ) -> list[dict]:
-    """Backward-compatible single-handle wrapper around the batch scraper."""
-    return _fetch_apify_batch([handle], max_items, token, actor, lookback_hours)
+    """Backward-compatible single-handle wrapper around the batch scraper.
+
+    Kept because the unit-test suite imports it directly. New callers should
+    use ``_fetch_apify_batch``.
+    """
+    return _fetch_apify_batch([handle], max_items, token, actor, lookback_hours, since, until)
 
 
 def fetch_user(
@@ -232,13 +268,10 @@ def fetch_user(
 
 def fetch_all(
     users: list[dict],
-    instances=None,
     max_items: int = 5,
     since: datetime | None = None,
     until: datetime | None = None,
 ) -> list[dict]:
-    # ``instances`` kept for backward compatibility; not used.
-    log.info("X provider: apify")
     secrets = _load_secrets()
     token = secrets.get("apify_token")
     if not token or token.startswith("apify_api_xxx"):
@@ -248,6 +281,19 @@ def fetch_all(
         )
     actor = secrets.get("apify_actor") or DEFAULT_APIFY_ACTOR
     lookback = int(secrets.get("apify_lookback_hours") or DEFAULT_LOOKBACK_HOURS)
+
+    # Soft monthly-budget guard. If usage already exceeds the cap, skip
+    # the X fetch entirely so we never silently overshoot the free credit.
+    budget = float(secrets.get("apify_monthly_budget_usd") or DEFAULT_MONTHLY_BUDGET_USD)
+    used = _monthly_usage_usd(token)
+    if used is not None and used >= budget:
+        log.error(
+            "X[apify]: monthly usage $%.2f >= budget $%.2f, skipping X fetch.",
+            used, budget,
+        )
+        return []
+    if used is not None:
+        log.info("X[apify]: monthly usage $%.4f / budget $%.2f", used, budget)
 
     out: list[dict] = []
     users_by_handle = {_normalize_handle(user["handle"]): user for user in users}

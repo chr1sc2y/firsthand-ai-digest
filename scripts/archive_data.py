@@ -30,8 +30,8 @@ import fetch_rss  # noqa: E402
 import render_html  # noqa: E402
 
 ROOT = HERE.parent
-SEGMENT_HOURS = ("00", "03", "06", "09", "12", "15", "18", "21")
-KINDS = ("x", "blogs", "podcasts", "releases", "videos")
+SEGMENT_HOURS = ("00", "06", "12", "18")
+KINDS = ("x", "blogs", "podcasts", "videos")
 PROVIDER_MOCK_MARKERS = (
     "From KaitoEasyAPI, a reminder:",
     "Thus, we returned N pieces of mock data",
@@ -82,7 +82,7 @@ def flatten_items(payloads: list[dict]) -> dict[str, list[dict]]:
         for kind in KINDS:
             out[kind].extend(items.get(kind) or [])
     out["x"] = dedup_by_link_or_text([item for item in out["x"] if usable_x_item(item)])
-    for kind in ("blogs", "podcasts", "releases", "videos"):
+    for kind in ("blogs", "podcasts", "videos"):
         out[kind] = fetch_rss.dedup(out[kind])
     for kind in KINDS:
         out[kind] = sorted(
@@ -105,11 +105,13 @@ def dedup_by_link_or_text(items: list[dict]) -> list[dict]:
     out: list[dict] = []
     for item in items:
         link = fetch_rss.canonical_url(item.get("link", ""))
+        # When the link is missing, fall back to (handle, summary). We
+        # intentionally exclude `published` here: Apify can re-emit the same
+        # tweet across overlapping segments with sub-second timestamp drift.
         key = link or "|".join(
             [
                 str(item.get("source_handle") or ""),
                 str(item.get("summary") or ""),
-                str(item.get("published") or ""),
             ]
         )
         if key in seen:
@@ -272,7 +274,6 @@ def render_latest(data_dir: Path, dist_dir: Path, *, hours: int = 24) -> None:
         x_items=items["x"],
         blog_items=items["blogs"],
         podcast_items=items["podcasts"],
-        release_items=items["releases"],
         video_items=items["videos"],
         site=json.loads((ROOT / "config" / "sources.json").read_text(encoding="utf-8")).get("site") or {},
         interactive=True,
@@ -285,16 +286,27 @@ def render_latest(data_dir: Path, dist_dir: Path, *, hours: int = 24) -> None:
 
 
 def copy_data_to_dist(data_dir: Path, dist_dir: Path) -> None:
+    """Atomically swap dist/data with a fresh copy of data_dir.
+
+    We write to a sibling ``data._new`` first, then rename the old ``data`` out
+    of the way before promoting the new tree. This avoids a window where
+    ``dist/data`` is missing (e.g. mid-deploy) on rerender failures.
+    """
     if not data_dir.exists():
         return
     target = dist_dir / "data"
-    tmp = dist_dir / "data._tmp"
-    if tmp.exists():
-        shutil.rmtree(tmp)
-    shutil.copytree(data_dir, tmp)
+    new = dist_dir / "data._new"
+    old = dist_dir / "data._old"
+    if new.exists():
+        shutil.rmtree(new)
+    if old.exists():
+        shutil.rmtree(old)
+    shutil.copytree(data_dir, new)
     if target.exists():
-        shutil.rmtree(target)
-    tmp.rename(target)
+        target.rename(old)
+    new.rename(target)
+    if old.exists():
+        shutil.rmtree(old)
 
 
 def main(argv: list[str] | None = None) -> int:

@@ -67,26 +67,16 @@ def test_fetch_all_podcasts_pipeline():
 
 
 @pytest.mark.integration
-def test_blogs_releases_youtube_pipeline():
-    """End-to-end: fetch blogs/youtube via fetch_rss + trending via API."""
-    import fetch_github_trending
-
+def test_blogs_youtube_pipeline():
+    """End-to-end: fetch blogs and youtube via fetch_rss."""
     data = _load()
     blogs = fetch_rss.fetch_many(data["blogs"], kind="blog", max_items=2,
                                  role_template="By {publisher}")
     videos = fetch_rss.fetch_many(data["youtube"], kind="video", max_items=2,
                                   role_template="Channel · {channel}")
-    trending_cfg = data.get("github_trending", {})
-    releases = fetch_github_trending.fetch_trending(
-        topics=trending_cfg.get("topics"),
-        min_stars=trending_cfg.get("min_stars", 1000),
-        lookback_days=trending_cfg.get("lookback_days", 14),
-        max_repos=5,
-    )
 
     assert blogs, "no blog entries parsed"
-    assert releases, "no trending repos returned"
     assert videos, "no video entries parsed"
-    for item in blogs + releases + videos:
-        assert item["kind"] in {"blog", "release", "video"}
+    for item in blogs + videos:
+        assert item["kind"] in {"blog", "video"}
         assert item["source_name"]
