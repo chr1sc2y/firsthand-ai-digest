@@ -13,11 +13,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import shutil
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+log = logging.getLogger(__name__)
 
 HERE = Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
@@ -60,7 +63,11 @@ def jsonable_item(item: dict) -> dict:
 
 
 def load_payload(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log.warning("Failed to load payload from %s: %s", path, exc)
+        return {}
 
 
 def write_json(path: Path, payload: dict) -> None:
