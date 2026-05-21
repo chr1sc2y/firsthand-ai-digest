@@ -65,11 +65,13 @@ def fetch_all(
     """
     leader_patterns = _build_keywords(leaders or [])
     out: list[dict] = []
+    failed: list[str] = []
     for pod in podcasts:
         try:
             items = _fetch_feed(pod["rss"])
         except Exception as exc:  # pragma: no cover - network failures
             log.warning("Podcast fetch failed for %s: %s", pod.get("name"), exc)
+            failed.append(pod.get("name") or pod.get("rss") or "?")
             continue
 
         kept: list[dict] = []
@@ -97,4 +99,6 @@ def fetch_all(
                 break
 
         out.extend(kept)
+    if failed:
+        log.error("Podcast: %d feed(s) failed: %s", len(failed), ", ".join(failed))
     return out

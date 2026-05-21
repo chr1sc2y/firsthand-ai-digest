@@ -89,14 +89,18 @@ def fetch_many(
     leave ``source_role`` blank.
     """
     out: list[dict] = []
+    failed: list[str] = []
+    total = 0
     for src in feeds:
         url = src.get("rss")
         if not url:
             continue
+        total += 1
         try:
             items = fetch_feed(url)
         except Exception as exc:  # pragma: no cover - network failures
             log.warning("[%s] feed failed for %s: %s", kind, src.get("name"), exc)
+            failed.append(src.get("name") or url)
             continue
 
         log.debug("[%s] %s -> %d items", kind, src.get("name"), len(items))
@@ -109,6 +113,10 @@ def fetch_many(
             except KeyError:
                 item["source_role"] = ""
             out.append(item)
+    if failed:
+        log.error(
+            "[%s] %d/%d feed(s) failed: %s", kind, len(failed), total, ", ".join(failed)
+        )
     return out
 
 
