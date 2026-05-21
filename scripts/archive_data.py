@@ -285,11 +285,16 @@ def render_latest(data_dir: Path, dist_dir: Path, *, hours: int = 24) -> None:
 
 
 def copy_data_to_dist(data_dir: Path, dist_dir: Path) -> None:
+    if not data_dir.exists():
+        return
     target = dist_dir / "data"
+    tmp = dist_dir / "data._tmp"
+    if tmp.exists():
+        shutil.rmtree(tmp)
+    shutil.copytree(data_dir, tmp)
     if target.exists():
         shutil.rmtree(target)
-    if data_dir.exists():
-        shutil.copytree(data_dir, target)
+    tmp.rename(target)
 
 
 def main(argv: list[str] | None = None) -> int:
