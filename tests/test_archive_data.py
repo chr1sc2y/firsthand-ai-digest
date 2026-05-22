@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -74,3 +74,32 @@ def test_archive_builds_index_and_daily_for_complete_day(tmp_path, monkeypatch):
     assert len(index["segments"]) == 4
     assert len(index["daily"]) == 1
     assert (dist_dir / "data" / "index.json").exists()
+
+
+def test_prune_merged_segments_only_deletes_old_days_with_daily(tmp_path):
+    data_dir = tmp_path / "data"
+    today = date(2026, 5, 22)
+
+    # Old day with daily rollup → should be pruned.
+    _write(data_dir / "segments" / "2026-05-19" / "00.json", {"items": {}})
+    _write(data_dir / "daily" / "2026-05-19.json", {"date": "2026-05-19"})
+
+    # Old day without daily rollup → keep (safety).
+    _write(data_dir / "segments" / "2026-05-18" / "00.json", {"items": {}})
+
+    # Recent days (within keep window) → keep regardless of daily.
+    _write(data_dir / "segments" / "2026-05-21" / "00.json", {"items": {}})
+    _write(data_dir / "daily" / "2026-05-21.json", {"date": "2026-05-21"})
+    _write(data_dir / "segments" / "2026-05-22" / "12.json", {"items": {}})
+
+    # Non-date directory should be left alone.
+    (data_dir / "segments" / "junk").mkdir(parents=True)
+
+    removed = archive_data.prune_merged_segments(data_dir, keep_days=2, today=today)
+
+    assert [p.name for p in removed] == ["2026-05-19"]
+    assert not (data_dir / "segments" / "2026-05-19").exists()
+    assert (data_dir / "segments" / "2026-05-18").exists()
+    assert (data_dir / "segments" / "2026-05-21").exists()
+    assert (data_dir / "segments" / "2026-05-22").exists()
+    assert (data_dir / "segments" / "junk").exists()

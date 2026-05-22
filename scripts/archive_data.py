@@ -16,7 +16,7 @@ import json
 import logging
 import shutil
 import sys
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -162,6 +162,43 @@ def merge_complete_daily(data_dir: Path) -> list[Path]:
         write_json(out_path, daily)
         written.append(out_path)
     return written
+
+
+def prune_merged_segments(
+    data_dir: Path,
+    *,
+    keep_days: int = 2,
+    today: date | None = None,
+) -> list[Path]:
+    """Remove segment directories already captured by a daily rollup.
+
+    A day's segments are deleted only when both hold:
+    - ``data/daily/<day>.json`` exists (so we won't lose data), and
+    - the day is older than ``keep_days`` days from ``today`` (UTC).
+
+    The "latest N hours" render at ``render_latest`` reads raw segments so
+    short ranges (3h / 6h / 12h / 24h) keep 6h granularity. Anything older
+    than that window is fully represented in the daily rollup, so the
+    segment files become dead weight in the repo.
+    """
+    segments_root = data_dir / "segments"
+    if not segments_root.exists():
+        return []
+    today = today or datetime.now(timezone.utc).date()
+    cutoff = today - timedelta(days=keep_days)
+    removed: list[Path] = []
+    for day_dir in sorted(p for p in segments_root.iterdir() if p.is_dir()):
+        try:
+            day = date.fromisoformat(day_dir.name)
+        except ValueError:
+            continue
+        if day >= cutoff:
+            continue
+        if not (data_dir / "daily" / f"{day.isoformat()}.json").exists():
+            continue
+        shutil.rmtree(day_dir)
+        removed.append(day_dir)
+    return removed
 
 
 def build_index(data_dir: Path, *, tz_name: str = "Asia/Shanghai") -> dict:
@@ -315,9 +352,16 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--dist-dir", type=Path, default=ROOT / "dist")
     parser.add_argument("--timezone", default="Asia/Shanghai")
     parser.add_argument("--render-hours", type=int, default=24)
+    parser.add_argument("--keep-segment-days", type=int, default=2,
+                        help="Keep raw segments for this many days; older days "
+                             "are pruned once their daily rollup exists.")
     args = parser.parse_args(argv)
 
     merge_complete_daily(args.data_dir)
+    pruned = prune_merged_segments(args.data_dir, keep_days=args.keep_segment_days)
+    if pruned:
+        log.info("Pruned %d merged segment day(s): %s",
+                 len(pruned), ", ".join(p.name for p in pruned))
     build_index(args.data_dir, tz_name=args.timezone)
     render_latest(args.data_dir, args.dist_dir, hours=args.render_hours)
     copy_data_to_dist(args.data_dir, args.dist_dir)
