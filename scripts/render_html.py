@@ -13,278 +13,262 @@ from datetime import datetime, timezone
 CSS = """
 :root {
   color-scheme: light dark;
-  --bg: #fafaf7;
-  --bg-elev: #ffffff;
-  --ink: #111111;
-  --ink-2: #5b5b5b;
-  --ink-3: #8a8a8a;
-  --rule: rgba(0,0,0,0.08);
-  --accent: #ff5a1f;
-  --tag-bg: rgba(0,0,0,0.04);
-  --serif: "Iowan Old Style", "Apple Garamond", "Baskerville", "Times New Roman", serif;
-  --sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
-  --mono: "SF Mono", ui-monospace, "JetBrains Mono", Menlo, monospace;
+  --bg: #f2f2f7;
+  --surface: #ffffff;
+  --surface-2: #f8f8fc;
+  --ink: #1c1c1e;
+  --ink-2: #636366;
+  --ink-3: #aeaeb2;
+  --border: rgba(0,0,0,0.06);
+  --shadow: 0 2px 12px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.05);
+  --shadow-hover: 0 20px 48px rgba(0,0,0,0.16), 0 4px 16px rgba(0,0,0,0.10);
+  --blog: #1d4ed8;
+  --pod:  #7c3aed;
+  --vid:  #dc2626;
+  --x:    #6b7280;
+  --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --mono: "SF Mono", ui-monospace, Menlo, monospace;
+  --radius: 16px;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #0e0e0c;
-    --bg-elev: #16161420;
-    --ink: #f4f1ea;
-    --ink-2: #b8b4a9;
-    --ink-3: #7a766c;
-    --rule: rgba(255,255,255,0.10);
-    --accent: #ff7a45;
-    --tag-bg: rgba(255,255,255,0.06);
+    --bg: #000000;
+    --surface: #1c1c1e;
+    --surface-2: #2c2c2e;
+    --ink: #ffffff;
+    --ink-2: #ebebf5cc;
+    --ink-3: #ebebf599;
+    --border: rgba(255,255,255,0.08);
+    --shadow: 0 2px 12px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-hover: 0 20px 48px rgba(0,0,0,0.65), 0 4px 16px rgba(0,0,0,0.45);
+    --x: #9ca3af;
   }
 }
-* { box-sizing: border-box; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
 html, body {
-  margin: 0; padding: 0;
   background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
-  line-height: 1.55;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
 }
-a { color: inherit; }
-
-/* --- Hero top row (title + GitHub links) --- */
-.hero .gh {
-  display: flex; align-items: center; gap: 8px;
-  flex-shrink: 0;
-  padding-top: 12px;
-}
-.hero .gh a {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 6px 12px;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
-  text-decoration: none;
-  color: var(--ink);
-  font-size: 12px; font-weight: 500;
-  background: var(--bg-elev);
-  transition: border-color .15s ease, transform .15s ease;
-}
-.hero .gh a:hover { border-color: var(--accent); transform: translateY(-1px); }
-.hero .gh a svg { width: 14px; height: 14px; }
-.hero .gh a.primary { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-.hero .gh a.primary:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
-
-@media (max-width: 720px) {
-  .hero .gh { padding-top: 8px; }
-}
+a { color: inherit; text-decoration: none; }
 
 /* --- Hero --- */
 .hero {
-  max-width: 1180px; margin: 0 auto;
-  padding: 48px 32px;
-}
-.hero-top {
-  display: flex; align-items: flex-start; justify-content: space-between;
-  gap: 24px; flex-wrap: wrap;
+  max-width: 1280px; margin: 0 auto;
+  padding: 56px 24px 40px;
 }
 .hero h1 {
-  font-family: var(--serif);
-  font-weight: 500;
-  font-size: clamp(48px, 7vw, 92px);
-  line-height: 1.02;
-  letter-spacing: -0.02em;
-  margin: 0 0 24px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: clamp(40px, 5.5vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  margin-bottom: 16px;
 }
-.hero h1 em { font-style: italic; color: var(--accent); }
-.hero p.lede {
-  font-family: var(--serif);
-  font-size: clamp(18px, 1.6vw, 22px);
-  line-height: 1.45;
-  color: var(--ink-2);
-  max-width: 640px;
-  margin: 0;
+.hero h1 em { font-style: normal; color: var(--blog); }
+.hero .lede {
+  font-family: var(--sans);
+  font-size: 16px; line-height: 1.55;
+  color: var(--ink-2); max-width: 500px; margin: 0;
 }
-.rangebar-wrap {
-  max-width: 1180px; margin: 0 auto;
-  padding: 24px 32px 0;
-  border-top: 1px solid var(--rule);
+
+/* --- Divider --- */
+.hero-divider {
+  max-width: 1280px; margin: 0 auto; padding: 0 24px;
 }
-.rangebar {
-  display: flex; flex-wrap: wrap; gap: 8px;
+.hero-divider hr { border: none; border-top: 1px solid var(--border); margin: 0; }
+
+/* --- Filter bar --- */
+.filter-bar {
+  max-width: 1280px; margin: 0 auto;
+  padding: 20px 24px 12px;
+  display: flex; flex-direction: column;
+  align-items: flex-start; gap: 10px;
 }
-.rangebar button {
-  appearance: none;
-  border: 1px solid var(--rule);
-  background: var(--tag-bg);
-  color: var(--ink-2);
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 8px 11px;
-  border-radius: 4px;
-  cursor: pointer;
+.seg {
+  display: flex; gap: 0;
+  background: var(--surface-2);
+  border-radius: 999px; padding: 3px;
+  border: 1px solid var(--border);
 }
-.rangebar button:hover {
-  color: var(--ink);
-  border-color: var(--accent);
+.seg button {
+  appearance: none; border: none; background: none;
+  padding: 6px 18px; border-radius: 999px;
+  font-size: 13px; font-weight: 500;
+  color: var(--ink-2); cursor: pointer;
+  transition: all .15s;
 }
-.rangebar button.active {
-  color: var(--bg);
-  background: var(--accent);
-  border-color: var(--accent);
+.seg button.active { background: var(--surface); color: var(--ink); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+
+.time-seg {
+  display: flex; gap: 0;
+  background: var(--surface-2); border-radius: 999px; padding: 3px;
+  border: 1px solid var(--border);
 }
-.rangebar .range-status {
-  align-self: center;
-  margin-left: 6px;
-  color: var(--ink-3);
-  font-family: var(--mono);
-  font-size: 11px;
+.time-seg button {
+  appearance: none; border: none; background: none;
+  padding: 5px 12px; border-radius: 999px;
+  font-family: var(--mono); font-size: 11px;
+  color: var(--ink-3); cursor: pointer;
+  transition: all .15s;
+}
+.time-seg button.active { background: var(--ink); color: var(--bg); }
+.filter-bar .range-status {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  padding-left: 4px;
 }
 
 /* --- Layout --- */
-.shell {
-  max-width: 1180px; margin: 0 auto;
-  padding: 56px 32px 96px;
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 64px;
-}
-@media (max-width: 880px) {
-  .shell { grid-template-columns: 1fr; gap: 32px; padding: 40px 24px 64px; }
-  .sidenav { position: static !important; }
-}
-@media (max-width: 720px) {
-  .hero { padding: 32px 20px; }
-  .rangebar-wrap { padding: 20px 20px 0; }
-}
-
-.sidenav {
-  position: sticky; top: 24px; align-self: start;
-  font-family: var(--sans); font-size: 13px;
-}
-.sidenav .label {
-  color: var(--ink-3); margin-bottom: 12px;
-  font-family: var(--mono); font-size: 11px;
-  letter-spacing: 0.06em; text-transform: uppercase;
-}
-.sidenav ol {
-  list-style: none; padding: 0; margin: 0;
-  border-left: 1px solid var(--rule);
-}
-.sidenav a {
-  display: flex; justify-content: space-between; align-items: baseline;
-  padding: 8px 14px;
-  color: var(--ink-2); text-decoration: none;
-  border-left: 1px solid transparent; margin-left: -1px;
-  transition: color .15s ease, border-color .15s ease;
-}
-.sidenav a:hover { color: var(--ink); border-left-color: var(--accent); }
-.sidenav a .n { color: var(--ink-3); font-family: var(--mono); font-size: 11px; }
-
-/* --- Section --- */
-section + section { margin-top: 88px; }
-section header.s-head {
+.page { max-width: 1280px; margin: 0 auto; padding: 0 24px 80px; }
+.section { margin-bottom: 56px; }
+.section-head {
   display: flex; align-items: baseline; justify-content: space-between;
-  border-bottom: 1px solid var(--rule);
-  padding-bottom: 12px; margin-bottom: 28px;
+  margin-bottom: 20px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
 }
-section header.s-head h2 {
-  font-family: var(--serif);
-  font-weight: 500;
-  font-size: 32px;
-  letter-spacing: -0.01em;
-  margin: 0;
-}
-section header.s-head .count {
-  font-family: var(--mono); font-size: 12px;
-  letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3);
+.section-head h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.015em; }
+.section-head .count {
+  font-family: var(--mono); font-size: 12px; color: var(--ink-3);
+  letter-spacing: 0.04em; text-transform: uppercase;
 }
 
-/* --- Cards --- */
-.feed {
+/* --- Card grid --- */
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1px;
-  background: var(--rule);
-  border: 1px solid var(--rule);
-  border-radius: 4px;
-  overflow: hidden;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
 }
-.entry {
-  background: var(--bg);
-  padding: 24px 22px 20px;
-  display: flex; flex-direction: column;
-  transition: background .2s ease;
-}
-.entry:hover { background: var(--bg-elev); }
+@media (min-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 780px)  { .grid { grid-template-columns: 1fr 1fr; gap: 14px; } }
+@media (max-width: 520px)  { .grid { grid-template-columns: 1fr; } }
 
-.entry .row {
-  display: flex; align-items: center; gap: 12px;
-  margin-bottom: 14px;
+/* --- Card --- */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: transform .35s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow .35s ease;
+  cursor: pointer;
+  position: relative; z-index: 1;
+  height: 100%;
 }
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: var(--shadow-hover);
+  z-index: 10;
+}
+
+.card-stripe {
+  height: 5px; flex-shrink: 0;
+  transition: height .25s ease;
+}
+.card:hover .card-stripe { height: 7px; }
+.stripe-blogs    { background: linear-gradient(90deg, #1d4ed8, #3b82f6); }
+.stripe-podcasts { background: linear-gradient(90deg, #7c3aed, #a855f7); }
+.stripe-videos   { background: linear-gradient(90deg, #dc2626, #f97316); }
+.stripe-x        { background: linear-gradient(90deg, #9ca3af, #c4c4c8); }
+@media (prefers-color-scheme: dark) {
+  .stripe-x { background: linear-gradient(90deg, #6b7280, #9ca3af); }
+}
+
+.card-body { padding: 22px 22px 16px; flex: 1; display: flex; flex-direction: column; }
+
+/* --- Avatar row --- */
+.card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
 .avatar {
-  width: 32px; height: 32px; border-radius: 50%;
+  width: 38px; height: 38px; border-radius: 50%;
   background: var(--ink); color: var(--bg);
-  font-family: var(--mono); font-size: 11px; font-weight: 600;
+  font-family: var(--mono); font-size: 12px; font-weight: 700;
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
-  letter-spacing: 0;
 }
-.who { display: flex; flex-direction: column; min-width: 0; flex: 1; }
-.who .name {
-  font-weight: 600; font-size: 14px; line-height: 1.2;
+.card-who { min-width: 0; flex: 1; }
+.card-name {
+  font-size: 14px; font-weight: 600; line-height: 1.2;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.who .role {
-  color: var(--ink-3); font-size: 12px; line-height: 1.3;
+.card-role {
+  font-size: 12px; color: var(--ink-3);
   font-family: var(--mono); letter-spacing: 0.02em;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.tag {
-  font-family: var(--mono);
-  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--ink-2); background: var(--tag-bg);
-  padding: 3px 8px; border-radius: 3px;
-  flex-shrink: 0;
+
+/* --- Badge --- */
+.card-badge {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 3px 8px; border-radius: 4px;
+  flex-shrink: 0; font-family: var(--mono);
+}
+.badge-blogs    { background: #eff6ff; color: #1d4ed8; }
+.badge-podcasts { background: #f5f3ff; color: #7c3aed; }
+.badge-videos   { background: #fef2f2; color: #dc2626; }
+.badge-x        { background: #f3f4f6; color: #6b7280; }
+@media (prefers-color-scheme: dark) {
+  .badge-blogs    { background: #1e3a8a22; color: #93c5fd; }
+  .badge-podcasts { background: #4c1d9522; color: #c4b5fd; }
+  .badge-videos   { background: #7f1d1d22; color: #fca5a5; }
+  .badge-x        { background: rgba(255,255,255,0.07); color: #9ca3af; }
 }
 
-.entry .title {
-  font-family: var(--serif);
-  font-size: 19px; line-height: 1.3;
-  font-weight: 500; letter-spacing: -0.005em;
-  margin: 2px 0 10px;
-  color: var(--ink);
+/* --- Title (blogs/podcasts/videos only) --- */
+.card-title {
+  font-size: 16px; font-weight: 600; line-height: 1.3;
+  margin-bottom: 10px; letter-spacing: -0.005em;
 }
-.entry .summary {
-  color: var(--ink-2); font-size: 14px; line-height: 1.55;
-  display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical;
-  overflow: hidden;
-  flex: 1;
+
+/* --- Summary --- */
+.card-summary {
+  font-size: 14px; color: var(--ink-2); line-height: 1.6;
+  flex: 1; overflow: visible;
+  word-break: break-word; overflow-wrap: anywhere;
 }
-.entry .summary :where(img, video, iframe) { display: none; }
-.entry .foot {
-  margin-top: 16px; padding-top: 12px;
-  border-top: 1px solid var(--rule);
+
+/* --- Foot --- */
+.card-foot {
   display: flex; align-items: center; justify-content: space-between;
-  font-family: var(--mono); font-size: 11px;
-  color: var(--ink-3); letter-spacing: 0.02em;
+  margin-top: 16px; padding-top: 12px;
+  border-top: 1px solid var(--border);
 }
-.entry .open {
-  color: var(--accent); text-decoration: none; font-weight: 500;
+.card-time { font-family: var(--mono); font-size: 11px; color: var(--ink-3); }
+.card-link {
+  font-size: 12px; font-weight: 600; color: var(--blog);
+  display: flex; align-items: center; gap: 3px;
+  transition: color .12s;
 }
-.entry .open:hover { text-decoration: underline; text-underline-offset: 3px; }
+.card-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.card-link-podcasts { color: var(--pod); }
+.card-link-videos   { color: var(--vid); }
+.card-link-x        { color: var(--x); }
 
+/* --- Empty state --- */
 .empty {
   grid-column: 1 / -1;
   text-align: center; color: var(--ink-3);
   padding: 48px 24px;
   font-family: var(--mono); font-size: 13px;
   letter-spacing: 0.04em; text-transform: uppercase;
-  background: var(--bg);
+  background: var(--surface);
+  border-radius: var(--radius);
 }
 
-footer.page-foot {
-  display: none;
+/* --- Responsive hero --- */
+@media (max-width: 640px) {
+  .hero { padding: 36px 20px 28px; }
+  .hero-divider { padding: 0 20px; }
+  .filter-bar { padding: 16px 20px 12px; }
+  .page { padding: 0 20px 64px; }
 }
+
+/* --- Touch: no scale --- */
+@media (hover: none) { .card:hover { transform: none; } }
+
+footer.page-foot { display: none; }
 """
 
 CLIENT_JS = r"""
@@ -299,10 +283,10 @@ CLIENT_JS = r"""
     { id: "7d", label: "7d", hours: 168 }
   ];
   const kinds = [
-    ["posts", "Posts", "x"],
-    ["blogs", "Blogs & Long-form", "blogs"],
-    ["podcasts", "Podcasts", "podcasts"],
-    ["videos", "YouTube", "videos"]
+    ["blogs",    "Blogs & Long-form", "blogs"],
+    ["podcasts",  "Podcasts",         "podcasts"],
+    ["videos",    "Videos",           "videos"],
+    ["posts",     "Posts",            "x"]
   ];
   let archiveItems = [];
   let latestEnd = null;
@@ -340,11 +324,31 @@ CLIENT_JS = r"""
     if (!value) return "";
     const dt = new Date(value);
     if (Number.isNaN(dt.getTime())) return "";
-    return dt.toISOString().replace("T", " ").replace(".000Z", " UTC").replace("Z", " UTC");
+    const pad = (n) => String(n).padStart(2, "0");
+    let tz = "";
+    try {
+      const parts = new Intl.DateTimeFormat(undefined, { timeZoneName: "short" }).formatToParts(dt);
+      const part = parts.find((p) => p.type === "timeZoneName");
+      if (part && part.value) tz = " " + part.value;
+    } catch (err) { /* ignore */ }
+    return dt.getFullYear() + "-" + pad(dt.getMonth() + 1) + "-" + pad(dt.getDate()) + " " +
+           pad(dt.getHours()) + ":" + pad(dt.getMinutes()) + ":" + pad(dt.getSeconds()) + tz;
   }
 
   function tag(kind) {
     return {x: "Post", blogs: "Blog", podcasts: "Podcast", videos: "Video"}[kind] || "Item";
+  }
+
+  function badgeClass(kind) {
+    return "badge-" + ({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}[kind] || "x");
+  }
+
+  function stripeClass(kind) {
+    return "stripe-" + ({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}[kind] || "x");
+  }
+
+  function linkClass(kind) {
+    return "card-link-" + ({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}[kind] || "x");
   }
 
   function card(item) {
@@ -356,25 +360,33 @@ CLIENT_JS = r"""
     const summary = stripHtml(item.summary);
     const link = text(item.link);
     const titleBlock = item.kind !== "x" && title
-      ? `<div class="title">${escapeHtml(title)}</div>`
+      ? `<div class="card-title">${escapeHtml(title)}</div>`
       : "";
     const openLink = link
-      ? `<a class="open" href="${escapeHtml(link)}" target="_blank" rel="noreferrer noopener">Open ↗</a>`
+      ? `<a class="card-link ${linkClass(item.kind)}" href="${escapeHtml(link)}" target="_blank" rel="noreferrer noopener">Open ↗</a>`
       : "";
-    return `<article class="entry">
-  <div class="row">
-    <div class="avatar">${escapeHtml(initials(name))}</div>
-    <div class="who">
-      <span class="name">${escapeHtml(name)}</span>
-      <span class="role">${escapeHtml(role)}</span>
+    const label = tag(item.kind);
+    const linkLabel = {Blog: "Read article ↗", Podcast: "Listen ↗", Video: "Watch ↗", Post: "Open ↗"}[label] || "Open ↗";
+    const openHtml = link
+      ? `<a class="card-link ${linkClass(item.kind)}" href="${escapeHtml(link)}" target="_blank" rel="noreferrer noopener">${linkLabel}</a>`
+      : "";
+    return `<article class="card">
+  <div class="card-stripe ${stripeClass(item.kind)}"></div>
+  <div class="card-body">
+    <div class="card-top">
+      <div class="avatar">${escapeHtml(initials(name))}</div>
+      <div class="card-who">
+        <div class="card-name">${escapeHtml(name)}</div>
+        <div class="card-role">${escapeHtml(role)}</div>
+      </div>
+      <span class="card-badge ${badgeClass(item.kind)}">${escapeHtml(label)}</span>
     </div>
-    <span class="tag">${escapeHtml(tag(item.kind))}</span>
-  </div>
-  ${titleBlock}
-  <div class="summary">${escapeHtml(summary)}</div>
-  <div class="foot">
-    <span class="when">${escapeHtml(fmtTime(item.published))}</span>
-    ${openLink}
+    ${titleBlock}
+    <div class="card-summary">${escapeHtml(summary)}</div>
+    <div class="card-foot">
+      <span class="card-time" data-iso="${escapeHtml(text(item.published))}">${escapeHtml(fmtTime(item.published))}</span>
+      ${openHtml}
+    </div>
   </div>
 </article>`;
   }
@@ -425,7 +437,7 @@ CLIENT_JS = r"""
     const range = ranges.find((r) => r.id === rangeId) || ranges[3];
     const items = filtered(range.hours);
     if (!items) return;
-    document.querySelectorAll(".rangebar button").forEach((button) => {
+    document.querySelectorAll(".time-seg button").forEach((button) => {
       button.classList.toggle("active", button.dataset.range === range.id);
     });
     const byKind = {};
@@ -435,16 +447,10 @@ CLIENT_JS = r"""
     });
     const sections = kinds.map(([slug, title, kind]) => {
       const rows = byKind[kind] || [];
-      const body = rows.length
-        ? `<div class="feed">${rows.map(card).join("")}</div>`
-        : '<div class="feed"><div class="empty">No fresh items in window</div></div>';
-      return `<section id="${slug}"><header class="s-head"><h2>${escapeHtml(title)}</h2><span class="count">${String(rows.length).padStart(2, "0")} items</span></header>${body}</section>`;
+      if (!rows.length) return "";
+      return `<div class="section" id="${slug}"><div class="section-head"><h2>${escapeHtml(title)}</h2><span class="count">${String(rows.length).padStart(2, "0")} items</span></div><div class="grid">${rows.map(card).join("")}</div></div>`;
     }).join("");
-    document.querySelector("main").innerHTML = sections;
-    document.querySelector(".sidenav ol").innerHTML = kinds.map(([slug, title, kind]) => {
-      const rows = byKind[kind] || [];
-      return `<li><a href="#${slug}"><span>${escapeHtml(title)}</span><span class="n">${String(rows.length).padStart(2, "0")}</span></a></li>`;
-    }).join("");
+    document.querySelector(".page").innerHTML = sections;
     const status = document.querySelector(".range-status");
     if (status) status.textContent = "Loaded " + items.length + " items";
   }
@@ -466,7 +472,7 @@ CLIENT_JS = r"""
       archiveItems = [];
       payloads.filter(Boolean).forEach((payload) => {
         const items = payload.items || {};
-        Object.entries({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}).forEach(([kind, key]) => {
+        Object.entries({x: "x", blogs: "blogs", podcasts: "podcasts", videos: "videos"}).forEach(([key, kind]) => {
           (items[key] || []).forEach((item) => archiveItems.push(Object.assign({}, item, {kind})));
         });
       });
@@ -483,8 +489,20 @@ CLIENT_JS = r"""
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".rangebar button").forEach((button) => {
+    document.querySelectorAll(".time-seg button").forEach((button) => {
       button.addEventListener("click", () => renderRange(button.dataset.range));
+    });
+    document.querySelectorAll(".seg button").forEach((button) => {
+      button.addEventListener("click", function () {
+        document.querySelectorAll(".seg button").forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        const kindLabel = this.textContent.trim();
+        const mapping = {"Blogs": "blogs", "Podcasts": "podcasts", "Videos": "videos", "Posts": "posts"};
+        const target = mapping[kindLabel];
+        document.querySelectorAll(".section").forEach(s => {
+          s.style.display = (!target || s.id === target) ? "" : "none";
+        });
+      });
     });
     loadArchive();
   });
@@ -511,9 +529,9 @@ def _strip_html(text: str) -> str:
     return text.strip()
 
 
-def _fmt_time(dt: datetime | None) -> str:
+def _coerce_utc(dt) -> datetime | None:
     if not dt:
-        return ""
+        return None
     if isinstance(dt, str):
         text = dt.strip()
         if text.endswith("Z"):
@@ -521,10 +539,24 @@ def _fmt_time(dt: datetime | None) -> str:
         try:
             dt = datetime.fromisoformat(text)
         except ValueError:
-            return ""
+            return None
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-    return dt.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    return dt.astimezone(timezone.utc)
+
+
+def _fmt_time(dt) -> str:
+    coerced = _coerce_utc(dt)
+    if not coerced:
+        return ""
+    return coerced.strftime("%Y-%m-%d %H:%M:%S UTC")
+
+
+def _iso_time(dt) -> str:
+    coerced = _coerce_utc(dt)
+    if not coerced:
+        return ""
+    return coerced.isoformat()
 
 
 def _card(item: dict) -> str:
@@ -533,13 +565,15 @@ def _card(item: dict) -> str:
     title = _strip_html(item.get("title", ""))
     summary = _strip_html(item.get("summary", ""))
     link = item.get("link", "")
-    when = _fmt_time(item.get("published"))
+    published = item.get("published")
+    when = _fmt_time(published)
+    iso = _iso_time(published)
     kind = item.get("kind", "")
     tag_label = {
         "x": "Post",
-        "podcast": "Podcast",
-        "blog": "Blog",
-        "video": "Video",
+        "podcasts": "Podcast",
+        "blogs": "Blog",
+        "videos": "Video",
     }.get(kind, kind.title() or "Item")
 
     if kind == "x" and item.get("source_handle"):
@@ -547,32 +581,42 @@ def _card(item: dict) -> str:
     else:
         role_text = html.escape(role)
 
+    link_label = {
+        "Blog": "Read article ↗",
+        "Podcast": "Listen ↗",
+        "Video": "Watch ↗",
+        "Post": "Open ↗",
+    }.get(tag_label, "Open ↗")
+
     open_link = (
-        f'<a class="open" href="{html.escape(link)}" target="_blank" rel="noreferrer noopener">Open ↗</a>'
+        f'<a class="card-link card-link-{html.escape(kind)}" href="{html.escape(link)}" target="_blank" rel="noreferrer noopener">{link_label}</a>'
         if link else ""
     )
 
     title_block = (
-        f'<div class="title">{html.escape(title)}</div>'
+        f'<div class="card-title">{html.escape(title)}</div>'
         if kind != "x" and title
         else ""
     )
 
     return f"""
-<article class="entry">
-  <div class="row">
-    <div class="avatar">{html.escape(_initials(name))}</div>
-    <div class="who">
-      <span class="name">{html.escape(name)}</span>
-      <span class="role">{role_text}</span>
+<article class="card">
+  <div class="card-stripe stripe-{html.escape(kind)}"></div>
+  <div class="card-body">
+    <div class="card-top">
+      <div class="avatar">{html.escape(_initials(name))}</div>
+      <div class="card-who">
+        <div class="card-name">{html.escape(name)}</div>
+        <div class="card-role">{role_text}</div>
+      </div>
+      <span class="card-badge badge-{html.escape(kind)}">{tag_label}</span>
     </div>
-    <span class="tag">{tag_label}</span>
-  </div>
-  {title_block}
-  <div class="summary">{html.escape(summary)}</div>
-  <div class="foot">
-    <span class="when">{html.escape(when)}</span>
-    {open_link}
+    {title_block}
+    <div class="card-summary">{html.escape(summary)}</div>
+    <div class="card-foot">
+      <span class="card-time" data-iso="{html.escape(iso)}">{html.escape(when)}</span>
+      {open_link}
+    </div>
   </div>
 </article>
 """.strip()
@@ -594,45 +638,24 @@ def render(
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")  # used in meta tag
 
     sections_meta = [
-        ("posts", "Posts", x_items),
-        ("blogs", "Blogs & Long-form", blog_items),
-        ("podcasts", "Podcasts", podcast_items),
-        ("videos", "YouTube", video_items),
+        ("blogs",    "Blogs & Long-form", blog_items),
+        ("podcasts", "Podcasts",          podcast_items),
+        ("videos",   "Videos",             video_items),
+        ("posts",    "Posts",              x_items),
     ]
 
     def _section(slug: str, title: str, items: list[dict]) -> str:
         if not items:
-            body = '<div class="feed"><div class="empty">No fresh items in window</div></div>'
-        else:
-            body = '<div class="feed">' + "\n".join(_card(i) for i in items) + "</div>"
+            return ""
+        body = '<div class="grid">' + "\n".join(_card(i) for i in items) + "</div>"
         return (
-            f'<section id="{slug}">'
-            f'<header class="s-head"><h2>{html.escape(title)}</h2>'
-            f'<span class="count">{len(items):02d} items</span></header>'
-            f"{body}</section>"
+            f'<div class="section" id="{slug}">'
+            f'<div class="section-head"><h2>{html.escape(title)}</h2>'
+            f'<span class="count">{len(items):02d} items</span></div>'
+            f"{body}</div>"
         )
 
     sections = "".join(_section(s, t, items) for s, t, items in sections_meta)
-
-    nav_items = "".join(
-        f'<li><a href="#{s}"><span>{html.escape(t)}</span><span class="n">{len(items):02d}</span></a></li>'
-        for s, t, items in sections_meta
-    )
-
-    gh_block = ""
-    if repo_url:
-        gh_block = (
-            '<span class="gh">'
-            f'<a href="{html.escape(repo_url)}" target="_blank" rel="noreferrer noopener" aria-label="Star on GitHub">'
-            '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">'
-            '<path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>'
-            '</svg>Star</a>'
-            f'<a class="primary" href="{html.escape(repo_url)}" target="_blank" rel="noreferrer noopener" aria-label="View on GitHub">'
-            '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">'
-            '<path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>'
-            '</svg>GitHub</a>'
-            '</span>'
-        )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -645,14 +668,12 @@ def render(
 </head>
 <body>
 <header class="hero">
-  <div class="hero-top">
-    <h1><em>Firsthand</em> AI Digest</h1>
-    {gh_block}
-  </div>
-  <p class="lede">Posts, blogs, podcasts, repos, and videos from the people building AI. Auto-curated straight from the source.</p>
+  <h1><em>Firsthand</em> AI Digest</h1>
+  <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
 </header>
-<div class="rangebar-wrap">
-  <div class="rangebar" aria-label="Time range">
+<div class="hero-divider"><hr /></div>
+<div class="filter-bar">
+  <div class="time-seg" aria-label="Time range">
     <button type="button" data-range="3h">3h</button>
     <button type="button" data-range="6h">6h</button>
     <button type="button" data-range="12h">12h</button>
@@ -661,17 +682,48 @@ def render(
     <button type="button" data-range="7d">7d</button>
     <span class="range-status">{'Loading 7d archive' if interactive else ''}</span>
   </div>
+  <div class="seg" aria-label="Content type">
+    <button type="button" class="active">All</button>
+    <button type="button">Blogs</button>
+    <button type="button">Podcasts</button>
+    <button type="button">Videos</button>
+    <button type="button">Posts</button>
+  </div>
 </div>
-<div class="shell">
-  <nav class="sidenav">
-    <div class="label">Sections</div>
-    <ol>{nav_items}</ol>
-  </nav>
-  <main>
-    {sections}
-  </main>
+<div class="page">
+  {sections}
 </div>
 <footer class="page-foot"></footer>
+<script>
+(function () {{
+  function fmtLocal(iso) {{
+    if (!iso) return "";
+    var dt = new Date(iso);
+    if (isNaN(dt.getTime())) return "";
+    var pad = function (n) {{ return String(n).padStart(2, "0"); }};
+    var tz = "";
+    try {{
+      var parts = new Intl.DateTimeFormat(undefined, {{ timeZoneName: "short" }}).formatToParts(dt);
+      var part = parts.find(function (p) {{ return p.type === "timeZoneName"; }});
+      if (part && part.value) tz = " " + part.value;
+    }} catch (e) {{ /* ignore */ }}
+    return dt.getFullYear() + "-" + pad(dt.getMonth() + 1) + "-" + pad(dt.getDate()) + " " +
+           pad(dt.getHours()) + ":" + pad(dt.getMinutes()) + ":" + pad(dt.getSeconds()) + tz;
+  }}
+  function apply(root) {{
+    (root || document).querySelectorAll(".card-time[data-iso]").forEach(function (el) {{
+      var out = fmtLocal(el.getAttribute("data-iso"));
+      if (out) el.textContent = out;
+    }});
+  }}
+  if (document.readyState === "loading") {{
+    document.addEventListener("DOMContentLoaded", function () {{ apply(); }});
+  }} else {{
+    apply();
+  }}
+  window.__applyLocalTime = apply;
+}})();
+</script>
 {CLIENT_JS if interactive else ''}
 </body>
 </html>

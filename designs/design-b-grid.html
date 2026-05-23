@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Design B — Dense Grid (Apple News / Product style)</title>
+<style>
+/* ===== DESIGN B: Apple-inspired dense grid =====
+   Reference: Apple News, App Store featured grid, Notion Gallery
+   Key ideas: 3 columns on desktop, large cards with full text,
+   hover expands card + reveals all content, high-signal content first.
+   Section order: Blogs → Podcasts → Videos → Posts.
+*/
+
+:root {
+  --bg: #f2f2f7;
+  --surface: #ffffff;
+  --surface-2: #f8f8fc;
+  --ink: #1c1c1e;
+  --ink-2: #636366;
+  --ink-3: #aeaeb2;
+  --border: rgba(0,0,0,0.06);
+  --shadow: 0 2px 12px rgba(0,0,0,0.07), 0 1px 3px rgba(0,0,0,0.05);
+  --shadow-hover: 0 20px 48px rgba(0,0,0,0.16), 0 4px 16px rgba(0,0,0,0.10);
+  --blog: #1d4ed8;
+  --pod:  #7c3aed;
+  --vid:  #dc2626;
+  --x:      #6b7280;
+  --sans:   -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --mono:   "SF Mono", ui-monospace, Menlo, monospace;
+  --radius: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --surface: #1c1c1e;
+    --surface-2: #2c2c2e;
+    --ink: #ffffff;
+    --ink-2: #ebebf5cc;
+    --ink-3: #ebebf599;
+    --border: rgba(255,255,255,0.08);
+    --shadow: 0 2px 12px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3);
+    --shadow-hover: 0 20px 48px rgba(0,0,0,0.65), 0 4px 16px rgba(0,0,0,0.45);
+    --x: #9ca3af;
+  }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+
+/* === Hero === */
+.hero {
+  max-width: 1280px; margin: 0 auto;
+  padding: 56px 24px 40px;
+}
+.hero h1 {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: clamp(40px, 5.5vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  margin-bottom: 16px;
+}
+.hero h1 em {
+  font-style: normal;
+  color: var(--blog);
+}
+.hero .lede {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-width: 500px;
+  margin-bottom: 0;
+}
+
+/* === Divider === */
+.hero-divider {
+  max-width: 1280px; margin: 0 auto;
+  padding: 0 24px;
+}
+.hero-divider hr {
+  border: none; border-top: 1px solid var(--border); margin: 0;
+}
+
+/* === Filter bar (between hero and content) === */
+.filter-bar {
+  max-width: 1280px; margin: 0 auto;
+  padding: 20px 24px 12px;
+  display: flex; flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.seg {
+  display: flex; gap: 0;
+  background: var(--surface-2);
+  border-radius: 999px; padding: 3px;
+  border: 1px solid var(--border);
+}
+.seg button {
+  appearance: none; border: none; background: none;
+  padding: 6px 18px; border-radius: 999px;
+  font-size: 13px; font-weight: 500;
+  color: var(--ink-2); cursor: pointer;
+  transition: all .15s;
+}
+.seg button.active { background: var(--surface); color: var(--ink); box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+
+.time-seg {
+  display: flex; gap: 0;
+  background: var(--surface-2); border-radius: 999px; padding: 3px;
+  border: 1px solid var(--border);
+}
+.time-seg button {
+  appearance: none; border: none; background: none;
+  padding: 5px 12px; border-radius: 999px;
+  font-family: var(--mono); font-size: 11px;
+  color: var(--ink-3); cursor: pointer;
+  transition: all .15s;
+}
+.time-seg button.active { background: var(--ink); color: var(--bg); }
+
+/* === Layout === */
+.page { max-width: 1280px; margin: 0 auto; padding: 0 24px 80px; }
+.section { margin-bottom: 56px; }
+.section-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: 20px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.section-head h2 { font-size: 22px; font-weight: 700; letter-spacing: -0.015em; }
+.section-head a { font-size: 14px; color: var(--blog); font-weight: 500; }
+
+/* === Card grid — 3 columns on desktop === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+}
+@media (min-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 780px)  { .grid { grid-template-columns: 1fr 1fr; gap: 14px; } }
+@media (max-width: 520px)  { .grid { grid-template-columns: 1fr; } }
+
+/* === Card === */
+.card-wrap {
+  perspective: 800px;
+}
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: transform .35s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow .35s ease;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: var(--shadow-hover);
+  z-index: 10;
+}
+
+/* --- Colour stripe --- */
+.card-stripe {
+  height: 5px;
+  flex-shrink: 0;
+  transition: height .25s ease;
+}
+.card:hover .card-stripe { height: 7px; }
+.stripe-blog { background: linear-gradient(90deg, #1d4ed8, #3b82f6); }
+.stripe-pod  { background: linear-gradient(90deg, #7c3aed, #a855f7); }
+.stripe-vid  { background: linear-gradient(90deg, #dc2626, #f97316); }
+.stripe-x    { background: linear-gradient(90deg, #9ca3af, #c4c4c8); }
+
+/* --- Card body --- */
+.card-body {
+  padding: 22px 22px 16px;
+  flex: 1;
+  display: flex; flex-direction: column;
+}
+
+/* --- Avatar row --- */
+.card-top {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+}
+.avatar {
+  width: 38px; height: 38px; border-radius: 50%;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--mono); font-size: 12px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.card-who { min-width: 0; flex: 1; }
+.card-name {
+  font-size: 14px; font-weight: 600; line-height: 1.2;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.card-role {
+  font-size: 12px; color: var(--ink-3);
+  font-family: var(--mono); letter-spacing: 0.02em;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+/* --- Badge --- */
+.card-badge {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 3px 8px; border-radius: 4px;
+  flex-shrink: 0; font-family: var(--mono);
+}
+.badge-blog { background: #eff6ff; color: #1d4ed8; }
+.badge-pod  { background: #f5f3ff; color: #7c3aed; }
+.badge-vid  { background: #fef2f2; color: #dc2626; }
+.badge-x    { background: #f3f4f6; color: #6b7280; }
+@media (prefers-color-scheme: dark) {
+  .badge-blog { background: #1e3a8a22; color: #93c5fd; }
+  .badge-pod  { background: #4c1d9522; color: #c4b5fd; }
+  .badge-vid  { background: #7f1d1d22; color: #fca5a5; }
+  .badge-x    { background: rgba(255,255,255,0.07); color: #9ca3af; }
+}
+
+/* --- Title (Blogs/Podcasts/Videos only) --- */
+.card-title {
+  font-size: 16px; font-weight: 600; line-height: 1.3;
+  margin-bottom: 10px; letter-spacing: -0.005em;
+}
+
+/* --- Summary --- */
+.card-summary {
+  font-size: 14px; color: var(--ink-2); line-height: 1.6;
+  flex: 1;
+  /* default: fully visible, no clamp */
+  overflow: visible;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* --- Foot --- */
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 16px; padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.card-time {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+}
+.card-link {
+  font-size: 12px; font-weight: 600; color: var(--blog);
+  display: flex; align-items: center; gap: 3px;
+  transition: color .12s;
+}
+.card-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.card-link-pod { color: var(--pod); }
+.card-link-vid { color: var(--vid); }
+.card-link-x   { color: var(--x); }
+
+/* =========================================
+   HOVER EXPANSION — shows card enlarged
+   The card scales up, and we ensure text is
+   fully visible with no clipping.
+   ========================================= */
+@media (hover: hover) {
+  /* On devices with hover (not touch), card scales on hover */
+  .card:hover .card-summary {
+    /* already visible by default; this ensures it stays visible */
+  }
+}
+
+/* Touch devices: no scale, just tap */
+@media (hover: none) {
+  .card:hover { transform: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1><em>Firsthand</em> AI Digest</h1>
+  <p class="lede">Posts, blogs, podcasts and videos from the people building AI — straight from the source.</p>
+</div>
+
+<div class="hero-divider"><hr /></div>
+
+<div class="filter-bar">
+  <div class="time-seg">
+    <button>3h</button>
+    <button>6h</button>
+    <button>12h</button>
+    <button class="active">24h</button>
+    <button>3d</button>
+    <button>7d</button>
+  </div>
+  <div class="seg">
+    <button class="active">All</button>
+    <button>Blogs</button>
+    <button>Podcasts</button>
+    <button>Videos</button>
+    <button>Posts</button>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- ========== BLOGS (highest signal/noise — first) ========== -->
+  <div class="section" id="blogs">
+    <div class="section-head">
+      <h2>Blogs &amp; Long-form</h2>
+      <a href="#" style="color:#1d4ed8">See all 04 →</a>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-stripe stripe-blog"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#cf4500">AN</div>
+            <div class="card-who">
+              <div class="card-name">Anthropic</div>
+              <div class="card-role">anthropic.com</div>
+            </div>
+            <span class="card-badge badge-blog">Blog</span>
+          </div>
+          <div class="card-title">Constitutional AI: Harmlessness from AI Feedback</div>
+          <div class="card-summary">We present Constitutional AI (CAI), a method for training AI systems to be helpful, harmless, and honest using AI-generated feedback instead of human labels for harmlessness. The approach works by first generating responses using a set of principles drawn from a "constitution", then asking the AI to critique and revise its own outputs using that same constitution — a self-supervised process that scales better than relying solely on human annotators.</div>
+          <div class="card-foot">
+            <span class="card-time">3h ago</span>
+            <a class="card-link" href="#" target="_blank">Read article ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-blog"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#10a37f">OA</div>
+            <div class="card-who">
+              <div class="card-name">OpenAI</div>
+              <div class="card-role">openai.com</div>
+            </div>
+            <span class="card-badge badge-blog">Blog</span>
+          </div>
+          <div class="card-title">Reasoning Models and the Path to AGI</div>
+          <div class="card-summary">Our o3 series marks a significant step toward models that can genuinely reason, plan, and self-correct. In this post we explain the architecture decisions — chain-of-thought supervision, step-level verifiers, and search over reasoning traces — and what they mean for safety.</div>
+          <div class="card-foot">
+            <span class="card-time">8h ago</span>
+            <a class="card-link" href="#" target="_blank">Read article ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-blog"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#1a73e8">GD</div>
+            <div class="card-who">
+              <div class="card-name">Google DeepMind</div>
+              <div class="card-role">deepmind.google</div>
+            </div>
+            <span class="card-badge badge-blog">Blog</span>
+          </div>
+          <div class="card-title">Gemini 2.0: Multimodal Understanding at Scale</div>
+          <div class="card-summary">Gemini 2.0 introduces native audio and image generation alongside text, with significantly improved reasoning on scientific and mathematical benchmarks. The unified architecture processes multiple modalities in a single forward pass, removing the need for separate vision and audio encoders.</div>
+          <div class="card-foot">
+            <span class="card-time">14h ago</span>
+            <a class="card-link" href="#" target="_blank">Read article ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-blog"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#9333ea">MS</div>
+            <div class="card-who">
+              <div class="card-name">Meta AI</div>
+              <div class="card-role">ai.meta.com</div>
+            </div>
+            <span class="card-badge badge-blog">Blog</span>
+          </div>
+          <div class="card-title">Llama 4: Open-weight Models at Frontier Scale</div>
+          <div class="card-summary">We're releasing Llama 4, our most capable open-weight model series. Trained on 40T tokens with a mixture-of-experts architecture, Llama 4 matches or exceeds proprietary models on MMLU, HumanEval, and multilingual benchmarks while remaining available for research and commercial use.</div>
+          <div class="card-foot">
+            <span class="card-time">20h ago</span>
+            <a class="card-link" href="#" target="_blank">Read article ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ========== PODCASTS ========== -->
+  <div class="section" id="podcasts">
+    <div class="section-head">
+      <h2>Podcasts</h2>
+      <a href="#" style="color:#7c3aed">See all 02 →</a>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-stripe stripe-pod"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#1c1c1e">LL</div>
+            <div class="card-who">
+              <div class="card-name">Lex Fridman</div>
+              <div class="card-role">lexfridman.com</div>
+            </div>
+            <span class="card-badge badge-pod">Podcast</span>
+          </div>
+          <div class="card-title">Sam Altman: OpenAI, AGI, and the Future of Humanity</div>
+          <div class="card-summary">A wide-ranging 3-hour conversation about the state of AI development, the timeline to AGI, OpenAI's mission, and what it means to build something that could fundamentally change civilization. Altman speaks candidly about the pressure, the uncertainty, and why he still believes the benefits outweigh the risks.</div>
+          <div class="card-foot">
+            <span class="card-time">5h ago</span>
+            <a class="card-link card-link-pod" href="#" target="_blank">Listen ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-pod"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#111827">HC</div>
+            <div class="card-who">
+              <div class="card-name">Hard Fork</div>
+              <div class="card-role">nytimes.com</div>
+            </div>
+            <span class="card-badge badge-pod">Podcast</span>
+          </div>
+          <div class="card-title">The AI Regulation Wars: Who Controls the Future?</div>
+          <div class="card-summary">Kevin Roose and Casey Newton discuss the latest moves by the EU, US Congress, and tech companies to shape AI regulation — why nobody seems to agree on what rules make sense, how China's approach differs, and what the next 12 months of policy battles will look like.</div>
+          <div class="card-foot">
+            <span class="card-time">18h ago</span>
+            <a class="card-link card-link-pod" href="#" target="_blank">Listen ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ========== VIDEOS ========== -->
+  <div class="section" id="videos">
+    <div class="section-head">
+      <h2>Videos</h2>
+      <a href="#" style="color:#dc2626">See all 02 →</a>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-stripe stripe-vid"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#cc0000">YB</div>
+            <div class="card-who">
+              <div class="card-name">Yannic Kilcher</div>
+              <div class="card-role">youtube.com</div>
+            </div>
+            <span class="card-badge badge-vid">Video</span>
+          </div>
+          <div class="card-title">Claude 4 Deep Dive: Architecture, Benchmarks, and What It Means</div>
+          <div class="card-summary">A technical breakdown of Claude 4's reported capabilities, including the new reasoning architecture, extended context handling, and how it stacks up against GPT-5 and Gemini 2.0 on agentic coding and math benchmarks.</div>
+          <div class="card-foot">
+            <span class="card-time">6h ago</span>
+            <a class="card-link card-link-vid" href="#" target="_blank">Watch ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-vid"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#ff0000">AI</div>
+            <div class="card-who">
+              <div class="card-name">AI Explained</div>
+              <div class="card-role">youtube.com</div>
+            </div>
+            <span class="card-badge badge-vid">Video</span>
+          </div>
+          <div class="card-title">The State of AI Agents in 2026 — What Actually Works?</div>
+          <div class="card-summary">A comprehensive survey of the agent landscape: code agents, browser agents, research agents, and multi-agent systems. Which frameworks are production-ready, what's still academic, and the missing pieces that keep agents from being truly autonomous.</div>
+          <div class="card-foot">
+            <span class="card-time">12h ago</span>
+            <a class="card-link card-link-vid" href="#" target="_blank">Watch ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+  <!-- ========== POSTS (highest noise — last) ========== -->
+  <div class="section" id="posts">
+    <div class="section-head">
+      <h2>Posts</h2>
+      <a href="#" style="color:var(--x)">See all 06 →</a>
+    </div>
+    <div class="grid">
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#111">SW</div>
+            <div class="card-who">
+              <div class="card-name">Sam Witteveen</div>
+              <div class="card-role">@samwitteveen</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">Just tested Claude 4 on a complex multi-step reasoning task. The improvement in maintaining context over very long chains is remarkable — you can now trust the model to hold state instead of engineering around its limitations. This changes how I think about agent design entirely.</div>
+          <div class="card-foot">
+            <span class="card-time">2h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#1a1a2e">DH</div>
+            <div class="card-who">
+              <div class="card-name">Demis Hassabis</div>
+              <div class="card-role">@demishassabis</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">AlphaFold 3 has now been used by over 2 million researchers worldwide. What started as a protein structure prediction tool is now accelerating drug discovery in ways we hadn't imagined. Science moves fast when you remove the bottlenecks.</div>
+          <div class="card-foot">
+            <span class="card-time">4h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#0f172a">IH</div>
+            <div class="card-who">
+              <div class="card-name">Ilya Sutskever</div>
+              <div class="card-role">@ilyasut</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">The next frontier is not more parameters. It's better training signal. We've been optimizing the wrong objective for years, and the evidence is becoming impossible to ignore.</div>
+          <div class="card-foot">
+            <span class="card-time">6h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#1a0533">YL</div>
+            <div class="card-who">
+              <div class="card-name">Yann LeCun</div>
+              <div class="card-role">@ylecun</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">LLMs are not and will not be the path to AGI. They lack the world model that biological intelligence builds through embodied interaction. This is not a capability gap — it's a structural one. We need fundamentally different architectures.</div>
+          <div class="card-foot">
+            <span class="card-time">9h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#172554">AK</div>
+            <div class="card-who">
+              <div class="card-name">Andrej Karpathy</div>
+              <div class="card-role">@karpathy</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">Been running "vibe coding" experiments where the AI just writes everything and I only describe intent. The productivity is insane but the result is code I don't fully understand. I've shipped features 10x faster — but also bugs I couldn't have written myself. That's either the future or a liability, probably both.</div>
+          <div class="card-foot">
+            <span class="card-time">11h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-stripe stripe-x"></div>
+        <div class="card-body">
+          <div class="card-top">
+            <div class="avatar" style="background:#1c1917">SA</div>
+            <div class="card-who">
+              <div class="card-name">Sam Altman</div>
+              <div class="card-role">@sama</div>
+            </div>
+            <span class="card-badge badge-x">Post</span>
+          </div>
+          <div class="card-summary">AGI might be closer than most people think. Not because we have it — we don't — but because the rate of capability improvement has consistently outpaced even our internal projections. The models have been surprising us for three years running.</div>
+          <div class="card-foot">
+            <span class="card-time">14h ago</span>
+            <a class="card-link card-link-x" href="#" target="_blank">Open ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

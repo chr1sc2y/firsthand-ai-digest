@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Design A — Compact List (Anthropic style)</title>
+<style>
+/* ===== DESIGN A: Anthropic-inspired compact list =====
+   Reference: Claude.ai, Anthropic's product UI, Linear
+   Key ideas: extreme restraint, monochrome, dense horizontal rows,
+   top tab navigation, no card borders — just separators.
+*/
+
+:root {
+  --bg: #f9f9f8;
+  --surface: #ffffff;
+  --ink: #0d0d0d;
+  --ink-2: #52524e;
+  --ink-3: #a3a39f;
+  --border: rgba(0,0,0,0.07);
+  --accent: #cf4500;       /* Anthropic coral */
+  --accent-soft: #fff1ec;
+  --tag-x: #e8f4ff;
+  --tag-x-ink: #0066cc;
+  --tag-blog: #f0fdf4;
+  --tag-blog-ink: #15803d;
+  --tag-pod: #fdf4ff;
+  --tag-pod-ink: #9333ea;
+  --tag-vid: #fff7ed;
+  --tag-vid-ink: #c2410c;
+  --sans: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+  --mono: "SF Mono", ui-monospace, Menlo, monospace;
+  --radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a09;
+    --surface: #111110;
+    --ink: #f0ede6;
+    --ink-2: #9e9b94;
+    --ink-3: #5a5852;
+    --border: rgba(255,255,255,0.08);
+    --accent: #ff6b35;
+    --accent-soft: #1a0a00;
+    --tag-x: #0a1a2e;
+    --tag-x-ink: #60a5fa;
+    --tag-blog: #052e16;
+    --tag-blog-ink: #4ade80;
+    --tag-pod: #1a0533;
+    --tag-pod-ink: #c084fc;
+    --tag-vid: #1c0a00;
+    --tag-vid-ink: #fb923c;
+  }
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+
+/* === Top bar === */
+.topbar {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.topbar-inner {
+  max-width: 960px; margin: 0 auto;
+  display: flex; align-items: center;
+  padding: 0 24px; height: 52px; gap: 32px;
+}
+.brand {
+  font-size: 13px; font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.brand em { color: var(--accent); font-style: normal; }
+
+/* === Tab nav === */
+.tabs {
+  display: flex; gap: 2px; flex: 1;
+}
+.tabs a {
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  font-size: 13px; font-weight: 500;
+  color: var(--ink-3);
+  transition: color .12s, background .12s;
+  white-space: nowrap;
+}
+.tabs a:hover { color: var(--ink); background: var(--border); }
+.tabs a.active { color: var(--ink); background: var(--surface);
+  box-shadow: 0 0 0 1px var(--border); }
+
+/* === Time range === */
+.time-pill {
+  display: flex; gap: 2px; align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 3px;
+  flex-shrink: 0;
+}
+.time-pill button {
+  appearance: none; border: none; background: none;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-family: var(--mono); font-size: 11px;
+  color: var(--ink-3); cursor: pointer;
+  transition: color .12s, background .12s;
+}
+.time-pill button:hover { color: var(--ink); }
+.time-pill button.active { background: var(--ink); color: var(--bg); }
+
+/* === Hero === */
+.hero {
+  max-width: 960px; margin: 0 auto;
+  padding: 48px 24px 36px;
+  border-bottom: 1px solid var(--border);
+}
+.hero h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+.hero h1 em { font-style: normal; color: var(--accent); }
+.hero p {
+  color: var(--ink-2); font-size: 14px; line-height: 1.6;
+  max-width: 520px;
+}
+
+/* === Section === */
+.section {
+  max-width: 960px; margin: 0 auto;
+  padding: 0 24px;
+}
+.section-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 28px 0 4px;
+  position: sticky; top: 52px; z-index: 90;
+  background: var(--bg);
+}
+.section-head h2 {
+  font-size: 11px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink-3);
+  font-family: var(--mono);
+}
+.section-head .count {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+}
+
+/* === List rows === */
+.list { border-top: 1px solid var(--border); }
+
+.row {
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  gap: 0 14px;
+  align-items: start;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background .1s;
+  border-radius: 0;
+}
+.row:hover { background: var(--surface); margin: 0 -12px; padding: 14px 12px; border-radius: var(--radius); border-bottom-color: transparent; }
+
+.avatar {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--mono); font-size: 10px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.row-body { min-width: 0; }
+.row-meta {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 4px; flex-wrap: wrap;
+}
+.row-name {
+  font-size: 13px; font-weight: 600; color: var(--ink);
+}
+.row-handle {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+}
+.row-tag {
+  font-size: 10px; font-weight: 600;
+  padding: 1px 7px; border-radius: 4px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  font-family: var(--mono);
+}
+.tag-x    { background: var(--tag-x);    color: var(--tag-x-ink); }
+.tag-blog { background: var(--tag-blog); color: var(--tag-blog-ink); }
+.tag-pod  { background: var(--tag-pod);  color: var(--tag-pod-ink); }
+.tag-vid  { background: var(--tag-vid);  color: var(--tag-vid-ink); }
+
+.row-title {
+  font-size: 14px; font-weight: 600;
+  color: var(--ink); line-height: 1.35;
+  margin-bottom: 4px;
+}
+.row-summary {
+  font-size: 13px; color: var(--ink-2); line-height: 1.55;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.row-right {
+  display: flex; flex-direction: column; align-items: flex-end;
+  gap: 8px; flex-shrink: 0; padding-top: 1px;
+}
+.row-time {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-3);
+  white-space: nowrap;
+}
+.row-link {
+  font-size: 11px; font-weight: 600; color: var(--accent);
+  padding: 3px 8px; border-radius: 4px;
+  border: 1px solid currentColor;
+  opacity: 0.8;
+  transition: opacity .1s;
+}
+.row-link:hover { opacity: 1; }
+
+@media (max-width: 640px) {
+  .row { grid-template-columns: 28px 1fr; }
+  .row-right { grid-column: 2; flex-direction: row; justify-content: space-between; margin-top: 8px; }
+  .topbar-inner { gap: 16px; }
+  .tabs a { padding: 6px 8px; }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <div class="brand"><em>Firsthand</em> AI Digest</div>
+    <nav class="tabs">
+      <a href="#posts" class="active">Posts</a>
+      <a href="#blogs">Blogs</a>
+      <a href="#podcasts">Podcasts</a>
+      <a href="#videos">Videos</a>
+    </nav>
+    <div class="time-pill">
+      <button>3h</button>
+      <button>6h</button>
+      <button>12h</button>
+      <button class="active">24h</button>
+      <button>3d</button>
+      <button>7d</button>
+    </div>
+  </div>
+</div>
+
+<div class="hero">
+  <h1><em>Firsthand</em> AI Digest</h1>
+  <p>Posts, blogs, podcasts and videos from the people building AI. Auto-curated straight from the source.</p>
+</div>
+
+<!-- POSTS -->
+<div class="section" id="posts">
+  <div class="section-head">
+    <h2>Posts</h2>
+    <span class="count">08 items</span>
+  </div>
+  <div class="list">
+
+    <div class="row">
+      <div class="avatar">SW</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Sam Witteveen</span>
+          <span class="row-handle">@samwitteveen</span>
+          <span class="row-tag tag-x">Post</span>
+        </div>
+        <div class="row-summary">Just tested Claude 4 on a complex multi-step reasoning task. The improvement in maintaining context over very long chains is remarkable. This changes how I think about agent design — you can now trust the model to hold state instead of engineering around its limitations.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">2h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">DH</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Demis Hassabis</span>
+          <span class="row-handle">@demishassabis</span>
+          <span class="row-tag tag-x">Post</span>
+        </div>
+        <div class="row-summary">Excited to share that AlphaFold 3 has now been used by over 2 million researchers worldwide. What started as a protein structure prediction tool is now accelerating drug discovery in ways we hadn't imagined. Science moves fast when you remove the bottlenecks.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">4h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">IH</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Ilya Sutskever</span>
+          <span class="row-handle">@ilyasut</span>
+          <span class="row-tag tag-x">Post</span>
+        </div>
+        <div class="row-summary">The next frontier is not more parameters. It's better training signal. We've been optimizing the wrong objective for years, and the evidence is becoming impossible to ignore.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">6h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">YL</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Yann LeCun</span>
+          <span class="row-handle">@ylecun</span>
+          <span class="row-tag tag-x">Post</span>
+        </div>
+        <div class="row-summary">LLMs are not and will not be the path to AGI. They lack the world model that biological intelligence builds through embodied interaction. This is not a capability gap — it's a structural one. We need fundamentally different architectures.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">9h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">AK</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Andrej Karpathy</span>
+          <span class="row-handle">@karpathy</span>
+          <span class="row-tag tag-x">Post</span>
+        </div>
+        <div class="row-summary">Been running "vibe coding" experiments where the AI just writes everything and I only describe intent. The productivity is insane but the result is code I don't fully understand. That's either the future or a liability, probably both.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">11h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- BLOGS -->
+<div class="section" id="blogs">
+  <div class="section-head">
+    <h2>Blogs &amp; Long-form</h2>
+    <span class="count">04 items</span>
+  </div>
+  <div class="list">
+
+    <div class="row">
+      <div class="avatar">AN</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Anthropic</span>
+          <span class="row-handle">anthropic.com</span>
+          <span class="row-tag tag-blog">Blog</span>
+        </div>
+        <div class="row-title">Constitutional AI: Harmlessness from AI Feedback</div>
+        <div class="row-summary">We present Constitutional AI (CAI), a method for training AI systems to be helpful, harmless, and honest using AI-generated feedback instead of human labels for harmlessness.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">3h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">OA</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">OpenAI</span>
+          <span class="row-handle">openai.com</span>
+          <span class="row-tag tag-blog">Blog</span>
+        </div>
+        <div class="row-title">Reasoning Models and the Path to AGI</div>
+        <div class="row-summary">Our o3 series marks a significant step toward models that can genuinely reason, plan, and self-correct. In this post we explain the architecture decisions and what they mean for safety.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">8h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">GD</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Google DeepMind</span>
+          <span class="row-handle">deepmind.google</span>
+          <span class="row-tag tag-blog">Blog</span>
+        </div>
+        <div class="row-title">Gemini 2.0: Multimodal Understanding at Scale</div>
+        <div class="row-summary">Gemini 2.0 introduces native audio and image generation alongside text, with significantly improved reasoning on scientific and mathematical benchmarks.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">14h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- PODCASTS -->
+<div class="section" id="podcasts">
+  <div class="section-head">
+    <h2>Podcasts</h2>
+    <span class="count">02 items</span>
+  </div>
+  <div class="list">
+
+    <div class="row">
+      <div class="avatar">LL</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Lex Fridman</span>
+          <span class="row-handle">lexfridman.com</span>
+          <span class="row-tag tag-pod">Podcast</span>
+        </div>
+        <div class="row-title">Sam Altman: OpenAI, AGI, and the Future of Humanity</div>
+        <div class="row-summary">A wide-ranging conversation about the state of AI development, the timeline to AGI, OpenAI's mission, and what it means to build something that could fundamentally change civilization.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">5h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="avatar">HC</div>
+      <div class="row-body">
+        <div class="row-meta">
+          <span class="row-name">Hard Fork</span>
+          <span class="row-handle">nytimes.com</span>
+          <span class="row-tag tag-pod">Podcast</span>
+        </div>
+        <div class="row-title">The AI Regulation Wars: Who Controls the Future?</div>
+        <div class="row-summary">Kevin Roose and Casey Newton discuss the latest moves by the EU, US Congress, and tech companies to shape AI regulation — and why nobody seems to agree on what rules make sense.</div>
+      </div>
+      <div class="row-right">
+        <span class="row-time">18h ago</span>
+        <a class="row-link" href="#" target="_blank">↗ Open</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
