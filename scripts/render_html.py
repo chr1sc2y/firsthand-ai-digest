@@ -422,7 +422,7 @@ CLIENT_JS = r"""
   }
 
   function renderRange(rangeId) {
-    const range = ranges.find((r) => r.id === rangeId) || ranges[3];
+    const range = ranges.find((r) => r.id === rangeId) || ranges[4];
     const items = filtered(range.hours);
     if (!items) return;
     document.querySelectorAll(".time-seg button").forEach((button) => {
@@ -469,7 +469,7 @@ CLIENT_JS = r"""
       latestEnd = endValues.length
         ? new Date(Math.max.apply(null, endValues))
         : (itemValues.length ? new Date(Math.max.apply(null, itemValues)) : new Date());
-      renderRange("24h");
+      renderRange("3d");
     } catch (err) {
       // archive unavailable — showing server-rendered content only
     }
@@ -661,8 +661,8 @@ def render(
     <button type="button" data-range="3h">3h</button>
     <button type="button" data-range="6h">6h</button>
     <button type="button" data-range="12h">12h</button>
-    <button class="active" type="button" data-range="24h">24h</button>
-    <button type="button" data-range="3d">3d</button>
+    <button type="button" data-range="24h">24h</button>
+    <button class="active" type="button" data-range="3d">3d</button>
     <button type="button" data-range="7d">7d</button>
   </div>
   <div class="seg" aria-label="Content type">
