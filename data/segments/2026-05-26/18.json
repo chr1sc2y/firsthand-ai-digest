@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-26T18:26:53.194631+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Starlink coming to American Airlines! 💫",
+        "summary": "Starlink coming to American Airlines! 💫",
+        "link": "https://x.com/elonmusk/status/2059302994890440961",
+        "author": "elonmusk",
+        "published": "2026-05-26T15:57:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Our Gemini for Science tools could help scientists unlock their next breakthrough. 🧬 https://t.co/ENTKmsIQp3",
+        "summary": "Our Gemini for Science tools could help scientists unlock their next breakthrough. 🧬 https://t.co/ENTKmsIQp3",
+        "link": "https://x.com/GoogleDeepMind/status/2059302777818325236",
+        "author": "GoogleDeepMind",
+        "published": "2026-05-26T15:56:56+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "Codex for analyzing and organizing your Slack:",
+        "summary": "Codex for analyzing and organizing your Slack:",
+        "link": "https://x.com/gdb/status/2059301458873659819",
+        "author": "gdb",
+        "published": "2026-05-26T15:51:42+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Mostly true. What matters is securing the long-term future of consciousness, both on Earth and other heavenly bodies. \n\n",
+        "summary": "Mostly true. What matters is securing the long-term future of consciousness, both on Earth and other heavenly bodies. \n\nWe cannot just focus on Earth, because there are irreducible external (eg massive meteor) and internal (eg global nuclear war) cataclysmic risks. \n\nThe Moon is faster to make self-growing, but is more susceptible to problems on Earth. Mars will take longer to make self-growing, because it is so hard to reach, but is more secure from Earth disasters for that same reason. \n\nBoth the Moon and Mars should have self-growing civilizations. Making this happen is the prime directive of SpaceX.",
+        "link": "https://x.com/elonmusk/status/2059299542277697565",
+        "author": "elonmusk",
+        "published": "2026-05-26T15:44:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Six Claude projects that all came from the same question: “why not?”",
+        "summary": "Six Claude projects that all came from the same question: “why not?”",
+        "link": "https://x.com/claudeai/status/2059292334714466595",
+        "author": "claudeai",
+        "published": "2026-05-26T15:15:27+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "This is pretty annoying https://t.co/MedLiLPTP9",
+        "summary": "This is pretty annoying https://t.co/MedLiLPTP9",
+        "link": "https://x.com/petergyang/status/2059290769824084083",
+        "author": "petergyang",
+        "published": "2026-05-26T15:09:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Paste screenshots into Grok Build",
+        "summary": "Paste screenshots into Grok Build",
+        "link": "https://x.com/elonmusk/status/2059287487273382024",
+        "author": "elonmusk",
+        "published": "2026-05-26T14:56:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Developer productivity is hard to manage.",
+        "summary": "Developer productivity is hard to manage.",
+        "link": "https://x.com/fchollet/status/2059287178937848158",
+        "author": "fchollet",
+        "published": "2026-05-26T14:54:57+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "There are entire companies experiencing maximum AI psychosis in very public ways.\n\nIt’s wild that it might actually be g",
+        "summary": "There are entire companies experiencing maximum AI psychosis in very public ways.\n\nIt’s wild that it might actually be good for business. Or fatal… remains to be seen.",
+        "link": "https://x.com/amasad/status/2059275765502320761",
+        "author": "amasad",
+        "published": "2026-05-26T14:09:36+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Amazing entrepreneurial energy in the Replit community in London.\n\nEveryone had a story for how they transformed their l",
+        "summary": "Amazing entrepreneurial energy in the Replit community in London.\n\nEveryone had a story for how they transformed their lives with Replit and AI. Starting startups, scaling businesses to millions in revenue, and building useful tools for their communities.",
+        "link": "https://x.com/amasad/status/2059246318682317178",
+        "author": "amasad",
+        "published": "2026-05-26T12:12:35+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "SynthID has already watermarked over 100 billion pieces of content, but transparency is a team sport.\n\nThat’s why we’re ",
+        "summary": "SynthID has already watermarked over 100 billion pieces of content, but transparency is a team sport.\n\nThat’s why we’re partnering with @OpenAI, @ElevenLabs and Kakao to add SynthID watermarking to their models – accelerating the industry-wide momentum we started with @NVIDIA. https://t.co/QnshYx3EfE",
+        "link": "https://x.com/GoogleDeepMind/status/2059235181274202500",
+        "author": "GoogleDeepMind",
+        "published": "2026-05-26T11:28:20+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Microsoft Copilot Cowork Exfiltrates Files",
+        "summary": "<p><strong><a href=\"https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files\">Microsoft Copilot Cowork Exfiltrates Files</a></strong></p>\nThe biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data.</p>\n<p>In this case Microsoft Copilot Cowork (yes, that's <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/\">a real product name</a>) was allowing agents to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images:</p>\n<blockquote>\n<p>Because these messages can contain external images that trigger network requests to external websites, data can be exfiltrated when a user opens a compromised message sent by the agent.</p>\n</blockquote>\n<p>Since OneDrive can create pre-authenticated download links, a successful prompt injection could cause those links to be leaked, allowing files to be downloaded by the attacker.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48272354\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/exfiltration-attacks\">exfiltration-attacks</a>, <a href=\"https://simonwillison.net/tags/lethal-trifecta\">lethal-trifecta</a></p>",
+        "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/",
+        "author": "",
+        "keywords": "microsoft security ai prompt-injection generative-ai llms exfiltration-attacks lethal-trifecta",
+        "published": "2026-05-26T15:36:48+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Quoting Paul Graham",
+        "summary": "<blockquote cite=\"https://twitter.com/paulg/status/2058844147092488401\"><p>A lot of the emails I get from founders are now written in a hard-hitting journalistic style. I know they're written by AI, because no founder ever wrote this way before. And once you realize something is written by AI, it's hard not to ignore it.</p>\n<p>I have never knowingly finished reading an email signed by a human but written by AI. It feels like being lied to, and who would stand for that?</p>\n<p>[<a href=\"https://twitter.com/paulg/status/2058863028523659390\">...</a>] It makes me think less of the author. It means they can't write well unaided (or feel they can't), and that they're trying to trick me. </p>\n<p>It's not impressive to use AI to write stuff for you; any teenager can do that.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/paulg/status/2058844147092488401\">Paul Graham</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/paul-graham\">paul-graham</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/May/26/paul-graham/",
+        "author": "",
+        "keywords": "writing ai-misuse paul-graham generative-ai ai llms",
+        "published": "2026-05-26T15:02:30+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 458: Reckoning with the future; and a singularity story",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/05/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-gTwoS6.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. This issue consists of a lengthy essay based on a speech I recently gave, and a fictional story attempting to think through what a positive singularity might look [&#8230;]",
+        "link": "https://jack-clark.net/2026/05/26/import-ai-458-reckoning-with-the-future-and-a-singularity-story/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-05-26T12:32:03+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-05-26T10:00:00+00:00",
+    "end": "2026-05-26T16:00:00+00:00"
+  }
+}
