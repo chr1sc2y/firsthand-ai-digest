@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-01T15:57:16.966256+00:00",
+  "counts": {
+    "x": 5,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Indian Dynamism.\n \n@arctusaerospace https://t.co/BlqExiWYMp",
+        "summary": "Indian Dynamism.\n \n@arctusaerospace https://t.co/BlqExiWYMp",
+        "link": "https://x.com/adityaag/status/2061312610172051900",
+        "author": "adityaag",
+        "published": "2026-06-01T05:03:18+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2061311438099218808",
+        "author": "elonmusk",
+        "published": "2026-06-01T04:58:38+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "True:\n\n“They gave stock to everyone. There are a bunch of highly skilled workers that we on X never think of, like Tube ",
+        "summary": "True:\n\n“They gave stock to everyone. There are a bunch of highly skilled workers that we on X never think of, like Tube Benders, Orbital Tube Welders, Cleanroom Technicians, etc. that are going to make significant fortunes.”",
+        "link": "https://x.com/elonmusk/status/2061308444519571869",
+        "author": "elonmusk",
+        "published": "2026-06-01T04:46:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Bullseye",
+        "summary": "Bullseye",
+        "link": "https://x.com/elonmusk/status/2061299911195537555",
+        "author": "elonmusk",
+        "published": "2026-06-01T04:12:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2061299684501758437",
+        "author": "elonmusk",
+        "published": "2026-06-01T04:11:56+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "May 2026 newsletter",
+        "summary": "<p>I just sent out the May edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a>. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-05-may.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Al got expensive, and Anthropic had a really good month</li>\n<li>The model releases were a little disappointing</li>\n<li>Conferences and podcasts</li>\n<li>I launched Datasette Agent and made a lot of progress on Datasette</li>\n<li>What I'm using, May 2026 edition</li>\n<li>Miscellaneous extras</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-04-april.md\">a copy of the April newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/1/may-newsletter/",
+        "author": "",
+        "keywords": "newsletter",
+        "published": "2026-06-01T04:45:00+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-01T04:00:00+00:00",
+    "end": "2026-06-01T10:00:00+00:00"
+  }
+}
