@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-02T14:04:38.626579+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 1,
+    "podcasts": 1,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Off by 100x 😂😂😂",
+        "summary": "Off by 100x 😂😂😂",
+        "link": "https://x.com/amasad/status/2061721162200293665",
+        "author": "amasad",
+        "published": "2026-06-02T08:06:44+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "All accessories to the murder must go to prison for a long time",
+        "summary": "All accessories to the murder must go to prison for a long time",
+        "link": "https://x.com/elonmusk/status/2061704965639618851",
+        "author": "elonmusk",
+        "published": "2026-06-02T07:02:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2061699465216659899",
+        "author": "elonmusk",
+        "published": "2026-06-02T06:40:31+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Tesla IPO market cap was 0.1% of its current value",
+        "summary": "Tesla IPO market cap was 0.1% of its current value",
+        "link": "https://x.com/elonmusk/status/2061699109527195862",
+        "author": "elonmusk",
+        "published": "2026-06-02T06:39:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2061698820975804560",
+        "author": "elonmusk",
+        "published": "2026-06-02T06:37:58+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "RAGE",
+        "summary": "RAGE",
+        "link": "https://x.com/elonmusk/status/2061697349643329852",
+        "author": "elonmusk",
+        "published": "2026-06-02T06:32:07+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "vibecon",
+        "summary": "vibecon",
+        "link": "https://x.com/amasad/status/2061673231309058241",
+        "author": "amasad",
+        "published": "2026-06-02T04:56:17+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Schrep and the Gigascale team are building something special.\n\nThey have been incredible partners to @southpkcommons por",
+        "summary": "Schrep and the Gigascale team are building something special.\n\nThey have been incredible partners to @southpkcommons portfolio companies.\n\n@schrep is someone who I have looked up to for a long time and I am very excited to continue to collaborate with him.",
+        "link": "https://x.com/adityaag/status/2061664255007469881",
+        "author": "adityaag",
+        "published": "2026-06-02T04:20:36+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "As we enter the era of AI agents, one of the defining questions is how you develop competitive advantage when your compe",
+        "summary": "As we enter the era of AI agents, one of the defining questions is how you develop competitive advantage when your competitor has access to the same AI models and intelligence as you. \n\nThe companies that are able to best harness their internal institutional knowledge, existing data assets, and domain-specific workflows -- connected with AI -- will be those that are able to stay ahead in the future.\n\nWhether a company decides to build out the tech stacks themselves, or leverage a variety of best-in-class tools is certainly one core variable. But the key is to find the way that the enterprise can capture and protect the value created by their unique data, processes, and expertise over the long run. Each industry will have their own version of this, and the competitive advantage will vary by vertical.\n\nWe’re increasingly seeing this at Box, where customers want to ensure that they can take advantage of their institutional knowledge and have the flexibility of bringing any AI model and intelligence to their data at any time. This is a pattern that will increasingly become a core principle of strategy in the future.",
+        "link": "https://x.com/levie/status/2061662386680127688",
+        "author": "levie",
+        "published": "2026-06-02T04:13:11+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Pasted File Editor",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/pasted-file-editor\">Pasted File Editor</a></p>\n        <p>I really like how you can paste a large volume of text into <a href=\"https://claude.ail\">claude.ai</a> (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead.</p>\n<p>I decided to have Codex desktop <a href=\"https://gist.github.com/simonw/74c79119b487a5acce18b4dcc26b9f79\">build me a version of that</a> as a prototype.</p>\n<p>You can also open files directly - including images which will be shown as thumbnails - or drag files onto the textarea.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/",
+        "author": "",
+        "keywords": "javascript tools ai-assisted-programming claude codex",
+        "published": "2026-06-02T04:13:36+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Knowing what your customers want, all the time: Listen Labs' Alfred Wahlforss",
+        "summary": "Alfred Wahlforss, co-founder and CEO of Listen Labs, is building an AI agent that interviews your customers at a scale no focus group ever could—thousands of voice conversations at once, drawn from an audience of 30 million people. A year after launch, Listen serves hundreds of Fortune 100s to Startups including Microsoft, Google, NBC Universal, P&G, Anthropic, Cursor, and Cognition. Alfred explains the counterintuitive finding underneath it all: people are often more honest with an AI than a human interviewer, opening up to a non-judgmental entity that costs less and never makes them feel rushed. He walks through why interview transcripts—not credit card data or behavioral logs—turn out to be the richest fuel for predicting how customers will behave, how Listen back-tests its simulations to know which questions it can and can't answer, and why 80% of the company's engineering goes into building the right audience. As AGI makes building trivial, Alfred argues the scarce resource becomes knowing what to build. That's the loop Listen wants to own.",
+        "link": "",
+        "author": "Sequoia Capital",
+        "keywords": "",
+        "published": "2026-06-02T09:00:00+00:00",
+        "kind": "podcast",
+        "source_name": "Training Data",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "Training Data"
+      }
+    ],
+    "videos": [
+      {
+        "title": "A Second Nobel Prize for AlphaFold? 🧬🏆 #alphafold #deepmind #nobelprize #science #ai",
+        "summary": "Check the pinned comment for the link to the full interview. We're discussing whether a \"second order Nobel\" prize is on the horizon for AI-driven science. With over 3 million researchers already using AlphaFold, the real-world impact is already historic. Hear what the experts think about what comes next for scientific discovery! 🔬",
+        "link": "https://www.youtube.com/shorts/MOviZKtFeHM",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-02T07:13:59+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "What Are Tensors?",
+        "summary": "Scalars, vectors, matrices.Scalars, vectors, matrices... Tensors are just numbers organized by shape. They're the numerical representation of your input that every ML model operates on.\n#TransformersJS #JavaScript #MachineLearning #AI #WebAI #Tensors",
+        "link": "https://www.youtube.com/shorts/rHsw8wgqdBA",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-02T06:37:35+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-02T04:00:00+00:00",
+    "end": "2026-06-02T10:00:00+00:00"
+  }
+}
