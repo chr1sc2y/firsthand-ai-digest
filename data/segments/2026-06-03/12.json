@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-03T14:40:19.858158+00:00",
+  "counts": {
+    "x": 10,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "codex for computer work is growing very fast",
+        "summary": "codex for computer work is growing very fast",
+        "link": "https://x.com/gdb/status/2062080673632895138",
+        "author": "gdb",
+        "published": "2026-06-03T07:55:18+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2062072932915130428",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:24:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good Starship highlights video https://t.co/ropm7YWMLq",
+        "summary": "Good Starship highlights video https://t.co/ropm7YWMLq",
+        "link": "https://x.com/elonmusk/status/2062071886218219737",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:20:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Trust Grok",
+        "summary": "Trust Grok",
+        "link": "https://x.com/elonmusk/status/2062068744067953019",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:07:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "That’s what it comes down to",
+        "summary": "That’s what it comes down to",
+        "link": "https://x.com/elonmusk/status/2062066523779535244",
+        "author": "elonmusk",
+        "published": "2026-06-03T06:59:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly right",
+        "summary": "Exactly right",
+        "link": "https://x.com/elonmusk/status/2062063312242893187",
+        "author": "elonmusk",
+        "published": "2026-06-03T06:46:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "probably the best reward function for reasoning efficiency i've seen",
+        "summary": "probably the best reward function for reasoning efficiency i've seen",
+        "link": "https://x.com/swyx/status/2062060142489973010",
+        "author": "swyx",
+        "published": "2026-06-03T06:33:43+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with",
+        "summary": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
+        "link": "https://x.com/thsottiaux/status/2062057881424506950",
+        "author": "thsottiaux",
+        "published": "2026-06-03T06:24:44+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Your whole business laid out on a canvas.",
+        "summary": "Your whole business laid out on a canvas.",
+        "link": "https://x.com/amasad/status/2062048812345291259",
+        "author": "amasad",
+        "published": "2026-06-03T05:48:42+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. https://t.co/aF02kkUekW",
+        "summary": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. https://t.co/aF02kkUekW",
+        "link": "https://x.com/joshwoodward/status/2062025667852812583",
+        "author": "joshwoodward",
+        "published": "2026-06-03T04:16:44+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-03T04:00:00+00:00",
+    "end": "2026-06-03T10:00:00+00:00"
+  }
+}
