@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-03T23:44:27.326905+00:00",
+  "counts": {
+    "x": 0,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "It's time to fly | Codex",
+        "summary": "Welcome to the new frontier of building.\n\nTake on more tasks, move effortlessly across projects, and ship faster.\n\nTry Codex for free today:\nhttps://openai.com/codex/",
+        "link": "https://www.youtube.com/watch?v=bJcA23ckzcY",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-03T19:11:26+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Meet the AI \"Co-Scientist\" Changing Everything 🤖🧪 #ai",
+        "summary": "",
+        "link": "https://www.youtube.com/shorts/iz7elwbqZVI",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-03T17:00:19+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-03T16:00:00+00:00",
+    "end": "2026-06-03T22:00:00+00:00"
+  }
+}
