@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T19:50:32.914362+00:00",
+  "source_segments": [
+    "segments/2026-06-03/00.json",
+    "segments/2026-06-03/06.json",
+    "segments/2026-06-03/12.json",
+    "segments/2026-06-03/18.json"
+  ],
+  "counts": {
+    "x": 23,
+    "blogs": 5,
+    "podcasts": 2,
+    "videos": 5
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "▲ + ❄️ \n\nGenerating frontends on top of your business data is one of the killer apps of coding AI. \n\nThe genie is out of",
+        "summary": "▲ + ❄️ \n\nGenerating frontends on top of your business data is one of the killer apps of coding AI. \n\nThe genie is out of the bottle. Never going back to clunky and rigid dashboards.\n\n@vercel already ran on Snowflake. But with @v0 and @nextjs, we’re now getting 1000x the value.",
+        "link": "https://x.com/rauchg/status/2062199585322529108",
+        "author": "rauchg",
+        "published": "2026-06-03T15:47:49+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "My AI skills now grade themselves and get better the more I use them.\n\nMy new tutorial walks through exactly how to buil",
+        "summary": "My AI skills now grade themselves and get better the more I use them.\n\nMy new tutorial walks through exactly how to build skills with:\n\n→ An eval loop to have AI fix its own mistakes\n→ Memory so the skill improves over time\n\nSkills are honestly incredible for encoding your knowledge and taste, and I can't get enough of them.\n\n📌 Watch now: https://t.co/u434ytNSZd",
+        "link": "https://x.com/petergyang/status/2062181445746192497",
+        "author": "petergyang",
+        "published": "2026-06-03T14:35:44+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "You know what to do 🗽 https://t.co/ITh1o0ETNa",
+        "summary": "You know what to do 🗽 https://t.co/ITh1o0ETNa",
+        "link": "https://x.com/rauchg/status/2062179592367227174",
+        "author": "rauchg",
+        "published": "2026-06-03T14:28:22+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2062176753045602490",
+        "author": "elonmusk",
+        "published": "2026-06-03T14:17:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what",
+        "summary": "Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, or grasped? \n\nIf so, you will go far.",
+        "link": "https://x.com/danshipper/status/2062144269285023839",
+        "author": "danshipper",
+        "published": "2026-06-03T12:08:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "codex for computer work is growing very fast",
+        "summary": "codex for computer work is growing very fast",
+        "link": "https://x.com/gdb/status/2062080673632895138",
+        "author": "gdb",
+        "published": "2026-06-03T07:55:18+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2062072932915130428",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:24:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good Starship highlights video https://t.co/ropm7YWMLq",
+        "summary": "Good Starship highlights video https://t.co/ropm7YWMLq",
+        "link": "https://x.com/elonmusk/status/2062071886218219737",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:20:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Trust Grok",
+        "summary": "Trust Grok",
+        "link": "https://x.com/elonmusk/status/2062068744067953019",
+        "author": "elonmusk",
+        "published": "2026-06-03T07:07:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "That’s what it comes down to",
+        "summary": "That’s what it comes down to",
+        "link": "https://x.com/elonmusk/status/2062066523779535244",
+        "author": "elonmusk",
+        "published": "2026-06-03T06:59:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly right",
+        "summary": "Exactly right",
+        "link": "https://x.com/elonmusk/status/2062063312242893187",
+        "author": "elonmusk",
+        "published": "2026-06-03T06:46:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "probably the best reward function for reasoning efficiency i've seen",
+        "summary": "probably the best reward function for reasoning efficiency i've seen",
+        "link": "https://x.com/swyx/status/2062060142489973010",
+        "author": "swyx",
+        "published": "2026-06-03T06:33:43+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with",
+        "summary": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
+        "link": "https://x.com/thsottiaux/status/2062057881424506950",
+        "author": "thsottiaux",
+        "published": "2026-06-03T06:24:44+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Your whole business laid out on a canvas.",
+        "summary": "Your whole business laid out on a canvas.",
+        "link": "https://x.com/amasad/status/2062048812345291259",
+        "author": "amasad",
+        "published": "2026-06-03T05:48:42+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. https://t.co/aF02kkUekW",
+        "summary": "✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. https://t.co/aF02kkUekW",
+        "link": "https://x.com/joshwoodward/status/2062025667852812583",
+        "author": "joshwoodward",
+        "published": "2026-06-03T04:16:44+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Matt's guide is great but this line is pretty funny: \n\n\"They're so lit up by being able to build anything that they don'",
+        "summary": "Matt's guide is great but this line is pretty funny: \n\n\"They're so lit up by being able to build anything that they don't do anything else. Then they launch and there are no users.\" 😆 https://t.co/Cu6i8e8WWN",
+        "link": "https://x.com/petergyang/status/2062018242789670929",
+        "author": "petergyang",
+        "published": "2026-06-03T03:47:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Build and launch apps to your team, using Codex:",
+        "summary": "Build and launch apps to your team, using Codex:",
+        "link": "https://x.com/gdb/status/2061988413105156128",
+        "author": "gdb",
+        "published": "2026-06-03T01:48:42+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "As token budgets take on a larger part of operating expenses over time, model routing is the inevitable conclusion. This",
+        "summary": "As token budgets take on a larger part of operating expenses over time, model routing is the inevitable conclusion. This is also one of the biggest areas of differentiation for the applied AI layer over time. \n\nBy understanding the different work patterns in your domain, and having strong evals for that domain, you’ll be able to cost/performance optimize effectively.\n\nWe’re still likely at the point where most use-cases will need frontier performance for the foreseeable future; but soon you will be able to peel off individual use-cases and send them to lower cost models once the quality is sufficient for the task.\n\nEnterprises individually trying to figure this out themselves at scale will likely not be possible, so the products that can intelligently route these workflows to the right tier of model will be in a strong position to aggregate more demand.",
+        "link": "https://x.com/levie/status/2061974298760495132",
+        "author": "levie",
+        "published": "2026-06-03T00:52:37+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "theUSshould lead on AI by continuing to develop the very best models, making sure they're safe, and getting cyber tools ",
+        "summary": "theUSshould lead on AI by continuing to develop the very best models, making sure they're safe, and getting cyber tools into the hands of trusted defenders.\n\nthe new EO gets the balance right.",
+        "link": "https://x.com/sama/status/2061973280655904815",
+        "author": "sama",
+        "published": "2026-06-03T00:48:34+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Lucas joined us four years ago to sell ads. \n\nHe’s leaving having lead a team of designers who consistently set the bar ",
+        "summary": "Lucas joined us four years ago to sell ads. \n\nHe’s leaving having lead a team of designers who consistently set the bar for taste and creative direction in AI. Much of what makes @every distinctive visually came from his brain—and you can see his influence across the AI ecosystem. \n\nAs a founder, there nothing more rewarding than seeing someone like Lucas win—he’s going to do big things. \n\nAnd I am incredibly excited about the team and design culture he built @every that will continue to be inspired by his example and bar for excellence",
+        "link": "https://x.com/danshipper/status/2061962774918373592",
+        "author": "danshipper",
+        "published": "2026-06-03T00:06:49+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Have to give the Devin/Windsurf team flowers for staying disciplied through the ups and downs and keeping at it.\n\nI know",
+        "summary": "Have to give the Devin/Windsurf team flowers for staying disciplied through the ups and downs and keeping at it.\n\nI know many AI native builders who love Devin now. Will hopefully find some more time to try it myself.",
+        "link": "https://x.com/petergyang/status/2061936952400814392",
+        "author": "petergyang",
+        "published": "2026-06-02T22:24:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Today’s news all comes down to this: we’re putting our relentless hill-climbing machine at your service. From launching ",
+        "summary": "Today’s news all comes down to this: we’re putting our relentless hill-climbing machine at your service. From launching top tier models to helping you make them your own, our commitment as a platform company is to keep you at the absolute frontier. For all the details: https://t.co/v65eop5Ixq",
+        "link": "https://x.com/mustafasuleyman/status/2061934667096596657",
+        "author": "mustafasuleyman",
+        "published": "2026-06-02T22:15:08+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "YES-CODE\n\nAn entire category of software, \"no-code\", was built under the presumption that code is expensive, difficult, ",
+        "summary": "YES-CODE\n\nAn entire category of software, \"no-code\", was built under the presumption that code is expensive, difficult, and scarce.\n\nCoding agents have forever changed the equation. Code is now cheap, easy, and abundant.\n\nI remember @cramforce being asked by an analyst long ago: \"soo, is @vercel like a no-code platform?\" Without hesitation he goes \"no, it's the absolute opposite. It's a yes-code platform.\" 😁\n\nA key thing we set out to do was to be uncompromising in quality and sophistication of the things you could host. No-code solutions took shortcuts and set hard ceilings, typically on performance and sophistication.\n\nOur mission is to create the easiest cloud for agents that you never graduate from.\n\nPS: welcome https://t.co/WTKvpexJtD to Vercel!",
+        "link": "https://x.com/rauchg/status/2061934154732974376",
+        "author": "rauchg",
+        "published": "2026-06-02T22:13:06+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Uber Caps Usage of AI Tools Like Claude Code to Manage Costs",
+        "summary": "<p><strong><a href=\"https://www.bloomberg.com/news/articles/2026-06-02/uber-caps-usage-of-ai-tools-like-claude-code-to-cut-costs\">Uber Caps Usage of AI Tools Like Claude Code to Manage Costs</a></strong></p>\nI wrote <a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#the-ai-failure-stories-around-this-are-pretty-thin\">the other day</a> about Uber blowing its 2026 AI budget in four months, and how that wasn't particularly surprising given they would have set that budget in 2025, before anyone could have predicted how popular token-burning coding agents were about to become.</p>\n<p>Natalie Lung for Bloomberg:</p>\n<blockquote>\n<p>The rideshare giant is limiting all employees to $1,500 in monthly token spending per AI coding tool, an Uber spokesperson said in response to a Bloomberg News inquiry. That means spending on one tool doesn’t have a bearing on the budget for another. The limits, which have been instituted in recent months, only apply to agentic coding software such as Cursor or Anthropic PBC’s Claude Code.</p>\n</blockquote>\n<p>A $1,500 monthly limit per tool strikes me as a rational policy response to over-spending, and <em>much</em> more sensible than those <a href=\"https://en.wikipedia.org/wiki/Token_maxxing\">tokenmaxxing</a> leaderboards encouraging employees to compete for as much AI usage as possible.</p>\n<p>It's also interesting in that it hints at a real dollar value for what Uber is getting out of these tools. If we assume two actively used tools per engineer that's $3,000 * 12 = $36,000 cap per engineer per year. Levels.fyi lists <a href=\"https://www.levels.fyi/companies/uber/salaries/software-engineer?country=254\">the median yearly compensation package for Uber software engineers in the USA</a> at $330,000.</p>\n<p>That means each employee's AI spending cap is ~11% of that median compensation package.</p>\n<p>I <a href=\"https://simonwillison.net/2026/May/27/product-market-fit/#enterprise-customers-are-now-paying-api-prices\">noted</a> that my own token usage comes to about $1,000/month against each of Anthropic and OpenAI - which currently costs me just $100 per provider thanks to their generous subsidized plans for individual subscribers. Those plans are no longer available to larger companies like Uber.</p>\n<p>Their new policy means if I were working at Uber I'd still have ~$500/month of tokens to spare for each of those tools, given my current usage patterns.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/uber\">uber</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+        "author": "",
+        "keywords": "ai generative-ai llms llm-pricing coding-agents uber",
+        "published": "2026-06-03T12:01:27+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "OpenAI public policy agenda",
+        "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+        "link": "https://openai.com/index/public-policy-agenda",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-06-03T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "A blueprint for democratic governance of frontier AI",
+        "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+        "link": "https://openai.com/index/frontier-safety-blueprint",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-06-03T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Microsoft's new MAI models",
+        "summary": "<p>Microsoft <a href=\"https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/\">announced two new text LLMs</a> this morning - <strong><a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">MAI-Thinking-1</a></strong> (reasoning, 1T parameters, 35B active, available to \"select early partners\") and <strong><a href=\"https://microsoft.ai/news/introducingmai-code-1-flash/\">MAI-Code-1-Flash</a></strong> (137B Parameters, 5B active, \"purpose-built for GitHub Copilot and VS Code to deliver high performance and lower cost [...] rolling out to GitHub Copilot individual users in Visual Studio Code\"). I've not been able to try either of them just yet.</p>\n<p><strike>It's very interesting to see Microsoft releasing models with such low parameter counts, especially given how expensive larger models are to access right now. They claim MAI-Thinking-1 \"is preferred to Sonnet 4.6 in our blind human side-by-side evaluations\", which is impressive for a 35B model seeing as I frequently run models larger than that on my own laptop.</strike> (UPDATE: I got this entirely wrong, see note below.)</p>\n<p>Also <a href=\"https://microsoft.ai/news/introducing-mai-thinking-1/\">of note</a>:</p>\n<blockquote>\n<p>We trained [MAI-Thinking-1] from the ground up on enterprise grade, clean and commercially licensed data, without distillation from third-party models.</p>\n</blockquote>\n<p>And for <a href=\"https://microsoft.ai/news/introducingmai-code-1-flash/\">MAI-Code-1-Flash</a> as well:</p>\n<blockquote>\n<p>It is built end-to-end by Microsoft using clean and appropriately licensed data.</p>\n</blockquote>\n<p>I would <em>very much</em> like to learn more about this \"appropriately licensed\" data! Could these be the first generally useful code-specialist models that didn't train on an unlicensed dump of the web? (<strong>Update</strong>: the answer is no, see note below.)</p>\n<p><strong>Update</strong>: My initial published notes got the size of the models wrong. I misread Microsoft's announcements and interpreted the MoE active parameter count as the total parameter count, but the <a href=\"https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF\">model card for MAI-Code-1-Flash</a> lists it as 137B with 5B active and the <a href=\"https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf\">MAI-Thinking-1 technical paper</a> reveals it to be a 1T model with 35B active.</p>\n<p>I deeply regret this error.</p>\n<p><strong>Update 2</strong>: That technical paper describes the training data in some detail from page 80 onwards. It has the same licensing problems as all of the other major LLMs: it's trained on a crawl of the public web:</p>\n<blockquote>\n<p>The majority of our web HTML corpus comes from a proprietary crawl. After initial page discovery and selection, approximately 1.2 trillion pages are crawled and parsed. [...] In addition to Microsoft standard policy Sec. 2.4, we apply UT1 block list (Prigent, 2026) to remove adult content and piracy-related domains. In all, this filtering reduces the corpus from 1.2 trillion pages to 794 billion pages. Given the prevalence of AI-generated content on the web, we also score pages with a proprietary AI-content detection model and use manual inspection to identify domains with extensive AI-generated content; those domains are filtered out of the training corpus.</p>\n<p>[...]</p>\n<p>We process Common Crawl with the same pipeline. [...] After filtering, deduplication, merging with the proprietary web corpus, and a final round of exact-URL and content-level fuzzy deduplication, the Common Crawl portion contains 24.2 billion pages.</p>\n</blockquote>\n<p>I did not cover this one at all well, which is somewhat ironic since I was at the Microsoft Build conference when I wrote this up! I'm sorry for not digging deeper before publishing my initial notes.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/",
+        "author": "",
+        "keywords": "llm-release generative-ai ai microsoft llms training-data",
+        "published": "2026-06-02T22:21:52+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "California Brown Pelican",
+        "summary": "<p><img alt=\"California Brown Pelican\" src=\"https://static.inaturalist.org/photos/671786719/large.jpg\" /></p><p>California Brown Pelican, in Fort Mason, CA, US</p><p>I'm at the <a href=\"https://build.microsoft.com/\">Microsoft Build</a> conference today, held at <a href=\"https://en.wikipedia.org/wiki/Fort_Mason\">Fort Mason</a> in San Francisco. There are California Brown Pelicans diving into the water directly behind venue!</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/2/sighting-367841339/",
+        "author": "",
+        "keywords": "microsoft ai generative-ai llms llm-release",
+        "published": "2026-06-02T18:17:03+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Ep 89: AI Research Legend’s Honest Assessment of Where We Are",
+        "summary": "This episode with Lukasz Kaiser, co-author of the seminal \"Attention Is All You Need\" transformer paper and former researcher at both Google Brain and OpenAI, is a wide-ranging conversation about the fundamental limits of current AI architectures and whether transformers will continue to dominate or eventually give way to something new. Lukasz brings a rare dual perspective: deep belief in how far the current paradigm has taken us (he's an enthusiastic daily Codex user who's seen 10x productivity gains in his own research), while maintaining genuine intellectual humility about whether transformers can truly generalize the way humans do. The episode weaves together questions about data efficiency, the non-verifiable RL frontier, the coding agent revolution, the open vs. closed source gap, and what the next architectural leap might look like: all filtered through the lens of someone who helped build the foundation the entire field is standing on.",
+        "link": "https://unsupervised-learning.simplecast.com/episodes/ep-89-ai-research-legends-honest-assessment-of-where-we-are-3Qm7Jv8G",
+        "author": "Jacob Effron, Lukasz Kaiser",
+        "keywords": "",
+        "published": "2026-06-03T12:50:11+00:00",
+        "kind": "podcast",
+        "source_name": "Unsupervised Learning",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "Unsupervised Learning"
+      },
+      {
+        "title": "The SaaS Apocalypse Is a Goldmine With Figma’s Matt Colyer",
+        "summary": "<p>Most AI design tools give you a text box.<br />Matt Colyer thinks that’s the wrong interface for design.<br />Colyer, director of product management for developers at Figma, argues that great design requires a diamond-shaped process: First you diverge, generating as many ideas as possible, then you converge around the best ones. Chat is linear, which makes it good for iterating on one design but not good at generating lots of options. Figma’s new on-canvas agent is a first attempt at fixing that.<br />Dan Shipper talked with Colyer for AI &amp; I about why the text box is the wrong interface for generative design, how Figma’s MCP server is closing the loop between code and design, and why “review” has become the biggest bottleneck in AI-assisted product work.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!<br />To hear more from Dan Shipper:<br />Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper</p><p>Timestamps:<br />1:03 - Introduction<br />2:15 - Why the SaaSpocalypse narrative has it backwards<br />5:27 - Matt’s email agent origin story<br />13:21 - Divergent vs. convergent design thinking<br />17:39 - Figma’s MCP server<br />19:45 - Why design agents need personalization<br />22:09 - Every problem is a context problem<br />25:12 - Apple and Google as the reigning kings of context<br />28:18 - Why review is the new bottleneck</p><p>Links to resources mentioned in the episode:<br />Matt Colyer on X: https://x.com/mcolyer<br />Figma: https://figma.com<br />Figma MCP server: https://www.figma.com/blog/introducing-figma-mcp-server/</p>",
+        "link": "https://share.transistor.fm/s/6e84af87",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-06-03T02:50:00+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Train AI Robots Without Writing Code! (Introducing LeLab)",
+        "summary": "Welcome to LeLab, the official graphical user interface (GUI) for the LeRobot library!\nLeLab Documentation & Install Command: https://huggingface.co/docs/lerobot/main/en/lelab\n\nIn this video, we show you how to take your AI robotics projects from assembly to autonomy without writing a single line of code. LeLab makes it incredibly easy to configure your arms, teleoperate, collect datasets, and train models.\n\n🔗 Important Links & Resources:\nLeRobot Hub Repository: https://huggingface.co/lerobot\nJoin the Hugging Face Community: https://huggingface.co/\n\n⏱️ Timestamps:\n0:00 - Introducing LeLab:\n0:24 - How to Install and Launch LeLab\n0:32 - Robot Configuration & Calibration\n1:11 - Adding Cameras\n1:21 - Teleoperation\n1:50 - Collecting data\n2:55 - Uploading to HF Hub & Visualization\n3:09 - Training: Local and HF Jobs\n4:00 - Testing Checkpoints Live on the Robot (3K vs 30K steps)\n4:37 - Share Your Feedback!",
+        "link": "https://www.youtube.com/watch?v=VqyKUuW9V1g",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-03T14:30:19+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "Claude Opus 4.8: Lying Machine No More?",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\nAnthropic's Opus 4.8: https://www.anthropic.com/news/claude-opus-4-8\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "link": "https://www.youtube.com/watch?v=ypL7kUiw_LM",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-03T13:49:31+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "How to Create an LLM Dataset | FineWeb Overview",
+        "summary": "A deep dive into how Hugging Face created the FineWeb dataset: starting from Common Crawl snapshots, extracting high-quality text from raw web data, filtering noisy content, deduplicating at web scale, and building FineWeb-Edu with model-assisted educational quality filtering.\n\n---\n🔗 Links\n- FineWeb dataset: https://huggingface.co/datasets/HuggingFaceFW/fineweb\n- FineWeb-Edu dataset: https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu\n- FineWeb paper: https://arxiv.org/abs/2406.17557\n- FineWeb blog post: https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1\n- Common Crawl: https://commoncrawl.org/\n- Trafilatura: https://trafilatura.readthedocs.io/\n\n---\n👋 Connect with me\n- My website: https://alejandro-ao.com/\n- X (Twitter): https://x.com/_alejandroao\n- LinkedIn: https://www.linkedin.com/in/alejandro-ao/\n\n---\n🤓 Topics Covered\n- FineWeb dataset creation pipeline\n- Common Crawl filtering and deduplication\n- FineWeb-Edu educational data filtering\n\n---\n⏱️ Timestamps\n00:00 Introduction\n00:52 Why FineWeb matters\n02:58 Common Crawl as data source\n06:10 Base filtering techniques\n07:17 Deduplication within snapshots\n13:05 C4-style quality filters\n17:20 FineWeb-Edu extraction\n21:41 Key lessons learned\n24:21 Synthetic data on the web\n28:39 Conclusion",
+        "link": "https://www.youtube.com/watch?v=vB9pHTZKoGQ",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-02T16:43:34+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "Turn the world into cheese (or anything really) with this camera.",
+        "summary": "Build guide: https://github.com/openai/imagegencam",
+        "link": "https://www.youtube.com/watch?v=09-krjdFfis",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-02T16:30:09+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Build and share apps in Codex",
+        "summary": "Starting in preview for business and enterprise customers, Codex can now create and share interactive, hosted websites and apps.\n\nSites are a new kind of canvas for your ideas. Codex can take your ideas, analysis, and plans and turn them into dashboards, planners, review workspaces, project boards, galleries, and lightweight tools. Today, sites can be shared with anyone in your workspace via URL, giving teams a shared place to explore work, contribute input, track progress, and make decisions together.",
+        "link": "https://www.youtube.com/watch?v=5UlRL_ImvQ0",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-02T16:29:33+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}
