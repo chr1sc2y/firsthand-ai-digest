@@ -1,0 +1,473 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T18:16:40.258269+00:00",
+  "source_segments": [
+    "segments/2026-06-04/00.json",
+    "segments/2026-06-04/06.json",
+    "segments/2026-06-04/12.json",
+    "segments/2026-06-04/18.json"
+  ],
+  "counts": {
+    "x": 34,
+    "blogs": 1,
+    "podcasts": 2,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Well said  https://t.co/ks2LNlMy4C",
+        "summary": "Well said  https://t.co/ks2LNlMy4C",
+        "link": "https://x.com/elonmusk/status/2062561362719498706",
+        "author": "elonmusk",
+        "published": "2026-06-04T15:45:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\n",
+        "summary": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\nHis working thesis: the most underrated moat in AI is trust, and earning it takes craft, care, and obsession. https://t.co/xxGDgonNzS",
+        "link": "https://x.com/claudeai/status/2062558332695556378",
+        "author": "claudeai",
+        "published": "2026-06-04T15:33:21+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "The future of America is small businesses that can build faster than ever before with agents. Glad to support this with ",
+        "summary": "The future of America is small businesses that can build faster than ever before with agents. Glad to support this with up to $25m in Computer credits ahead of America’s 250th anniversary 🇺🇸🇺🇸🇺🇸",
+        "link": "https://x.com/AravSrinivas/status/2062557684529070223",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T15:30:47+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "wondering if @_catwu has an update on this chart post opus 4.8 https://t.co/cMZMuEZe5H",
+        "summary": "wondering if @_catwu has an update on this chart post opus 4.8 https://t.co/cMZMuEZe5H",
+        "link": "https://x.com/swyx/status/2062556733164175747",
+        "author": "swyx",
+        "published": "2026-06-04T15:27:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/LRwFkKpB0x",
+        "summary": "https://t.co/LRwFkKpB0x",
+        "link": "https://x.com/elonmusk/status/2062548455570985377",
+        "author": "elonmusk",
+        "published": "2026-06-04T14:54:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We’re bringing all connectors required to spin up and run a business from scratch inside Perplexity Computer. It’s going",
+        "summary": "We’re bringing all connectors required to spin up and run a business from scratch inside Perplexity Computer. It’s going to be possible for anyone with an idea and a small team of high agency people to build fast growing valuable companies faster than ever before with Computer.",
+        "link": "https://x.com/AravSrinivas/status/2062548410478334091",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T14:53:56+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "It's pretty annoying that Codex uses agents.md and Claude Code uses Claude.md.\n\nThere should be some industry standards ",
+        "summary": "It's pretty annoying that Codex uses agents.md and Claude Code uses Claude.md.\n\nThere should be some industry standards to this stuff?",
+        "link": "https://x.com/petergyang/status/2062537281693757734",
+        "author": "petergyang",
+        "published": "2026-06-04T14:09:42+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitr",
+        "summary": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡",
+        "link": "https://x.com/rauchg/status/2062535454130676193",
+        "author": "rauchg",
+        "published": "2026-06-04T14:02:26+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Expert call transcripts now inside Perplexity Computer for deep financial research and analysis",
+        "summary": "Expert call transcripts now inside Perplexity Computer for deep financial research and analysis",
+        "link": "https://x.com/AravSrinivas/status/2062508810737238417",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T12:16:34+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Computer on all Windows machines soon",
+        "summary": "Computer on all Windows machines soon",
+        "link": "https://x.com/AravSrinivas/status/2062486252990128293",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T10:46:56+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/8T0sVlzKQz",
+        "summary": "https://t.co/8T0sVlzKQz",
+        "link": "https://x.com/elonmusk/status/2062424194219114745",
+        "author": "elonmusk",
+        "published": "2026-06-04T06:40:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Hadamard thought in image space",
+        "summary": "Hadamard thought in image space",
+        "link": "https://x.com/elonmusk/status/2062423834217898323",
+        "author": "elonmusk",
+        "published": "2026-06-04T06:38:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over",
+        "summary": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+        "link": "https://x.com/thsottiaux/status/2062423528927015414",
+        "author": "thsottiaux",
+        "published": "2026-06-04T06:37:41+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers",
+        "summary": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation!",
+        "link": "https://x.com/_catwu/status/2062408623565984209",
+        "author": "_catwu",
+        "published": "2026-06-04T05:38:28+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/TIYVuTTRlp",
+        "summary": "https://t.co/TIYVuTTRlp",
+        "link": "https://x.com/elonmusk/status/2062400773838024882",
+        "author": "elonmusk",
+        "published": "2026-06-04T05:07:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Very excited to welcome Harshit Madan and Rohan Choudhary to the team!\n\nhttps://t.co/3k23GK5Rdp",
+        "summary": "Very excited to welcome Harshit Madan and Rohan Choudhary to the team!\n\nhttps://t.co/3k23GK5Rdp",
+        "link": "https://x.com/adityaag/status/2062400706448081342",
+        "author": "adityaag",
+        "published": "2026-06-04T05:07:00+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine 1.5 at rank 1",
+        "summary": "Grok Imagine 1.5 at rank 1",
+        "link": "https://x.com/elonmusk/status/2062392619418959901",
+        "author": "elonmusk",
+        "published": "2026-06-04T04:34:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2062391451393392851",
+        "author": "elonmusk",
+        "published": "2026-06-04T04:30:14+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Here’s the video of my talk at MS Build: Build the thing that builds the thing. https://t.co/lJuv2twhFe",
+        "summary": "Here’s the video of my talk at MS Build: Build the thing that builds the thing. https://t.co/lJuv2twhFe",
+        "link": "https://x.com/steipete/status/2062390654022332691",
+        "author": "steipete",
+        "published": "2026-06-04T04:27:03+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "you guys know where this is going right https://t.co/xPo8yualmd",
+        "summary": "you guys know where this is going right https://t.co/xPo8yualmd",
+        "link": "https://x.com/swyx/status/2062371515937800468",
+        "author": "swyx",
+        "published": "2026-06-04T03:11:01+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "App to App Store in 48 hours!",
+        "summary": "App to App Store in 48 hours!",
+        "link": "https://x.com/amasad/status/2062369124609892655",
+        "author": "amasad",
+        "published": "2026-06-04T03:01:30+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "SpaceX",
+        "summary": "SpaceX",
+        "link": "https://x.com/elonmusk/status/2062368716730564785",
+        "author": "elonmusk",
+        "published": "2026-06-04T02:59:53+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2062363827602362838",
+        "author": "elonmusk",
+        "published": "2026-06-04T02:40:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok Voice",
+        "summary": "Try Grok Voice",
+        "link": "https://x.com/elonmusk/status/2062362681038999875",
+        "author": "elonmusk",
+        "published": "2026-06-04T02:35:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cursor is hiring design engineers.\n\nlooking for people with taste, systems thinking, and deep care for fast, polished ex",
+        "summary": "Cursor is hiring design engineers.\n\nlooking for people with taste, systems thinking, and deep care for fast, polished experiences – especially folks excited to build the tools that help designers, engineers, and agents ship quality code.\n\nknow someone? tag them or DM me 📧",
+        "link": "https://x.com/ryolu_/status/2062352329903665471",
+        "author": "ryolu_",
+        "published": "2026-06-04T01:54:46+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "Grok on Cloudflare",
+        "summary": "Grok on Cloudflare",
+        "link": "https://x.com/elonmusk/status/2062346295256527350",
+        "author": "elonmusk",
+        "published": "2026-06-04T01:30:47+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "These are so fun!",
+        "summary": "These are so fun!",
+        "link": "https://x.com/joshwoodward/status/2062341366999601185",
+        "author": "joshwoodward",
+        "published": "2026-06-04T01:11:12+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. \n\nJust take",
+        "summary": "The jobs data coming out continues to suggest the opposite of what a lot of people had thought would happen. \n\nJust take engineering, as the prime example of the area with greatest AI impact (and perceived risk). Most companies now have far more software projects than ever before because of AI, and effectively only engineers are going to be the ones doing that work. \n\nYou can get by for a while by being non-technical building software, but eventually someone has to understand what the thing is that got built, has to maintain it, has to fix security issues that come up, upgrade the systems beneath it, and so on. That’s all jobs.\n\nNow apply that to a number of other job functions. AI is going to cause companies to hire more in sales because agents can let them process more leads and do more customer research. AI will cause an explosion of new marketing roles because of how much more efficient it is to launch campaigns and target. The list goes on.\n\nAI is going to have the opposite effect that lots of people thought on jobs.",
+        "link": "https://x.com/levie/status/2062335852379066698",
+        "author": "levie",
+        "published": "2026-06-04T00:49:18+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on https://t.co/tN74yJZsfd",
+        "summary": "Grok Imagine Video on @vercel AI Gateway – the top image-to-video model on https://t.co/tN74yJZsfd",
+        "link": "https://x.com/rauchg/status/2062332963636060313",
+        "author": "rauchg",
+        "published": "2026-06-04T00:37:49+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too ma",
+        "summary": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
+        "link": "https://x.com/thsottiaux/status/2062329981548802523",
+        "author": "thsottiaux",
+        "published": "2026-06-04T00:25:58+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "How do I make Codex the default tab when I open the ChatGPT app",
+        "summary": "How do I make Codex the default tab when I open the ChatGPT app",
+        "link": "https://x.com/petergyang/status/2062327484499317124",
+        "author": "petergyang",
+        "published": "2026-06-04T00:16:03+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "It’s time to fly!\n\nExcited to share the first short brand film for Codex. Catch it airing during Game 1 of the NBA Final",
+        "summary": "It’s time to fly!\n\nExcited to share the first short brand film for Codex. Catch it airing during Game 1 of the NBA Finals tonight.\n\nhttps://t.co/1J4Epczj8T",
+        "link": "https://x.com/thsottiaux/status/2062310660806205901",
+        "author": "thsottiaux",
+        "published": "2026-06-03T23:09:12+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! ht",
+        "summary": "We have over 1300 people on the waitlist for today's OpenClaw event - will be livestreamed on Twitch and Discord tho! https://t.co/agbyZ79S0z",
+        "link": "https://x.com/steipete/status/2062307384018829768",
+        "author": "steipete",
+        "published": "2026-06-03T22:56:10+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok models on @Cloudflare's AI Gateway!",
+        "summary": "Try Grok models on @Cloudflare's AI Gateway!",
+        "link": "https://x.com/xai/status/2062294202625696081",
+        "author": "xai",
+        "published": "2026-06-03T22:03:48+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "How Endava is redesigning software delivery around AI agents",
+        "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+        "link": "https://openai.com/index/endava-frontiers",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-04T12:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+        "summary": "<p>Are we witnessing the first real signs of AI becoming a scientist? In this episode of The MAD Podcast, Matt Turck sits down with Dan Roberts, lead of the Foundations of Reinforcement Learning team at OpenAI, to explore one of the biggest shifts happening in AI: the rise of reasoning models, test-time compute, and reinforcement learning as engines of scientific discovery. Dan brings a rare perspective - from theoretical physics, black holes, quantum information, and deep learning theory - to explain how models are learning to “think,” why language may be such a powerful foundation for intelligence, what recent AI math breakthroughs really mean, and whether we are beginning to see AI systems that can contribute to science itself.</p><p><br /></p><p>(00:00) Intro: AI's wild week in mathematics</p><p>(01:21) What OpenAI's Foundations of RL team does</p><p>(03:08) Dan's journey: from black holes and quantum gravity to frontier AI</p><p>(07:04) Are AI systems becoming useful for real science?</p><p>(08:21) The AI math moment: Erdős, OpenAI, DeepMind, and Anthropic</p><p>(08:52) Why the OpenAI result was an act of exploration</p><p>(10:25) OpenAI vs. DeepMind: informal reasoning vs. formal proof</p><p>(12:13) RL 101: learning by doing, not just watching</p><p>(15:10) Why reinforcement learning works</p><p>(15:58) How RL breaks: sparse feedback and long-horizon tasks</p><p>(17:03) RLHF: how human feedback shaped early language models</p><p>(18:48) Move 37, self-play, and the search for novel strategies</p><p>(22:16) Explore vs. exploit in scientific discovery</p><p>(24:49) Why RL may now be \"the cake,\" not the cherry on top</p><p>(25:46) Why RL started working with large language models</p><p>(27:29) Is RL \"sucking supervision through a straw\"?</p><p>(28:47) Why language may be the grounding layer for intelligence</p><p>(31:46) A contrarian take on the Bitter Lesson</p><p>(32:41) What test-time compute actually is</p><p>(34:50) How RL gives models the ability to think</p><p>(35:40) Verifiable rewards, math, coding, and the messy real world</p><p>(38:00) What physics can teach us about AI</p><p>(42:08) Is there a thermodynamics of AI?</p><p>(43:08) From Erdős problems to Einstein-level AI</p><p>(45:16) Is AI already doing original science?</p><p>(45:51) How far are we from AI automating AI research?</p><p>(47:41) Why Dan is excited about the future of science</p>",
+        "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Dan-Roberts-Why-AI-Can-Now-Make-Discoveries-e3ka0se",
+        "author": "Matt Turck",
+        "keywords": "",
+        "published": "2026-06-04T12:30:00+00:00",
+        "kind": "podcast",
+        "source_name": "The MAD Podcast with Matt Turck",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "The MAD Podcast with Matt Turck"
+      },
+      {
+        "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+        "summary": "What does it mean for a business to truly operate at the AI frontier? In a special crossover episode at Microsoft Build, Sarah Guo and Elad Gil team up with Latent Space host “swyx” to talk with Microsoft Chairman and CEO Satya Nadella about the future of AI platforms, software development, and the tech ecosystem. Satya reflects on the latest breakthroughs from Microsoft Build, the strategic shift toward multi-model harnesses, and why private evaluations (evals) are now a company’s most important intellectual property. They also discuss how autonomous AI agents are reshaping the role of software engineers, the durability of SaaS business models, and why showing communities the ROI on data centers is so critical. Plus, Satya shares his thoughts on the economic and societal impacts of the token economy, as well as the future of AI-driven education startups.\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @satyanadella | @Microsoft | @latentspacepod | @swyx\n\nChapters:\n\n00:00 – Satya Nadella Introduction\n\n01:48 – Reflections from Microsoft Build\n\n03:12 – Microsoft’s AI Training Strategy\n\n05:48 – Complexity of Real-World Deployment of AI\n\n07:33 – Augmenting Human Capital\n\n09:37 – Harnesses for Enterprise\n\n11:49 – Developer Value\n\n15:09 – Can Everybody Operate at the Frontier with Their Frontier Intelligence?\n\n15:51 – Modern Definition of IP\n\n17:38 – Future of Vendor vs. Enterprise Agents\n\n21:48 – Near-Term Predictions on Model Pricing\n\n24:02 – Durability of SaaS\n\n25:58 – What Satya’s Building\n\n28:18 – Future of Engineering Roles\n\n30:54 – How Microsoft Can Be More Ambitious\n\n34:36 – Data Centers and Community Impact\n\n38:01 – AI’s Impact on Society\n\n39:52 - AI and Education\n\n42:28 – Conclusion",
+        "link": "",
+        "author": "Conviction",
+        "keywords": "",
+        "published": "2026-06-04T07:00:00+00:00",
+        "kind": "podcast",
+        "source_name": "No Priors",
+        "source_role": "Featuring Swyx",
+        "source_handle": "No Priors"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Build Small Hackathon",
+        "summary": "The pace of AI over the last year has been anxiety-inducing. Labs release larger and larger models that do more of the things that make us feel human — writing, drawing, speaking, coding. No wonder more than half of us think the risks of AI outweigh the benefits.\n\nWe're sponsoring a hackathon to take things back to how they felt in 2021 — when models were small enough to tinker with, and the vibe was fun and hopeful about how this technology could improve our lives.\n\nThis hackathon is different. Rather than using a giant LLM to ship yet another B2B SaaS, we want you to think small. Armed with only 32 billion parameters, solve a problem someone you know is facing — or build something whimsical.",
+        "link": "https://www.youtube.com/watch?v=7otgeJXailY",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-03T22:21:07+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "It's time to fly | Codex",
+        "summary": "Welcome to the new frontier of building.\n\nTake on more tasks, move effortlessly across projects, and ship faster.\n\nTry Codex for free today:\nhttps://openai.com/codex/",
+        "link": "https://www.youtube.com/watch?v=bJcA23ckzcY",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-03T19:11:26+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Meet the AI \"Co-Scientist\" Changing Everything 🤖🧪 #ai",
+        "summary": "",
+        "link": "https://www.youtube.com/shorts/iz7elwbqZVI",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-03T17:00:19+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  }
+}

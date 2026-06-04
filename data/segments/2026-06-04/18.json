@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-04T18:16:40.258269+00:00",
+  "counts": {
+    "x": 10,
+    "blogs": 1,
+    "podcasts": 1,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Well said  https://t.co/ks2LNlMy4C",
+        "summary": "Well said  https://t.co/ks2LNlMy4C",
+        "link": "https://x.com/elonmusk/status/2062561362719498706",
+        "author": "elonmusk",
+        "published": "2026-06-04T15:45:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\n",
+        "summary": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\nHis working thesis: the most underrated moat in AI is trust, and earning it takes craft, care, and obsession. https://t.co/xxGDgonNzS",
+        "link": "https://x.com/claudeai/status/2062558332695556378",
+        "author": "claudeai",
+        "published": "2026-06-04T15:33:21+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "The future of America is small businesses that can build faster than ever before with agents. Glad to support this with ",
+        "summary": "The future of America is small businesses that can build faster than ever before with agents. Glad to support this with up to $25m in Computer credits ahead of America’s 250th anniversary 🇺🇸🇺🇸🇺🇸",
+        "link": "https://x.com/AravSrinivas/status/2062557684529070223",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T15:30:47+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "wondering if @_catwu has an update on this chart post opus 4.8 https://t.co/cMZMuEZe5H",
+        "summary": "wondering if @_catwu has an update on this chart post opus 4.8 https://t.co/cMZMuEZe5H",
+        "link": "https://x.com/swyx/status/2062556733164175747",
+        "author": "swyx",
+        "published": "2026-06-04T15:27:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/LRwFkKpB0x",
+        "summary": "https://t.co/LRwFkKpB0x",
+        "link": "https://x.com/elonmusk/status/2062548455570985377",
+        "author": "elonmusk",
+        "published": "2026-06-04T14:54:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We’re bringing all connectors required to spin up and run a business from scratch inside Perplexity Computer. It’s going",
+        "summary": "We’re bringing all connectors required to spin up and run a business from scratch inside Perplexity Computer. It’s going to be possible for anyone with an idea and a small team of high agency people to build fast growing valuable companies faster than ever before with Computer.",
+        "link": "https://x.com/AravSrinivas/status/2062548410478334091",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T14:53:56+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "It's pretty annoying that Codex uses agents.md and Claude Code uses Claude.md.\n\nThere should be some industry standards ",
+        "summary": "It's pretty annoying that Codex uses agents.md and Claude Code uses Claude.md.\n\nThere should be some industry standards to this stuff?",
+        "link": "https://x.com/petergyang/status/2062537281693757734",
+        "author": "petergyang",
+        "published": "2026-06-04T14:09:42+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitr",
+        "summary": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡",
+        "link": "https://x.com/rauchg/status/2062535454130676193",
+        "author": "rauchg",
+        "published": "2026-06-04T14:02:26+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Expert call transcripts now inside Perplexity Computer for deep financial research and analysis",
+        "summary": "Expert call transcripts now inside Perplexity Computer for deep financial research and analysis",
+        "link": "https://x.com/AravSrinivas/status/2062508810737238417",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T12:16:34+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Computer on all Windows machines soon",
+        "summary": "Computer on all Windows machines soon",
+        "link": "https://x.com/AravSrinivas/status/2062486252990128293",
+        "author": "AravSrinivas",
+        "published": "2026-06-04T10:46:56+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "How Endava is redesigning software delivery around AI agents",
+        "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+        "link": "https://openai.com/index/endava-frontiers",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-04T12:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+        "summary": "<p>Are we witnessing the first real signs of AI becoming a scientist? In this episode of The MAD Podcast, Matt Turck sits down with Dan Roberts, lead of the Foundations of Reinforcement Learning team at OpenAI, to explore one of the biggest shifts happening in AI: the rise of reasoning models, test-time compute, and reinforcement learning as engines of scientific discovery. Dan brings a rare perspective - from theoretical physics, black holes, quantum information, and deep learning theory - to explain how models are learning to “think,” why language may be such a powerful foundation for intelligence, what recent AI math breakthroughs really mean, and whether we are beginning to see AI systems that can contribute to science itself.</p><p><br /></p><p>(00:00) Intro: AI's wild week in mathematics</p><p>(01:21) What OpenAI's Foundations of RL team does</p><p>(03:08) Dan's journey: from black holes and quantum gravity to frontier AI</p><p>(07:04) Are AI systems becoming useful for real science?</p><p>(08:21) The AI math moment: Erdős, OpenAI, DeepMind, and Anthropic</p><p>(08:52) Why the OpenAI result was an act of exploration</p><p>(10:25) OpenAI vs. DeepMind: informal reasoning vs. formal proof</p><p>(12:13) RL 101: learning by doing, not just watching</p><p>(15:10) Why reinforcement learning works</p><p>(15:58) How RL breaks: sparse feedback and long-horizon tasks</p><p>(17:03) RLHF: how human feedback shaped early language models</p><p>(18:48) Move 37, self-play, and the search for novel strategies</p><p>(22:16) Explore vs. exploit in scientific discovery</p><p>(24:49) Why RL may now be \"the cake,\" not the cherry on top</p><p>(25:46) Why RL started working with large language models</p><p>(27:29) Is RL \"sucking supervision through a straw\"?</p><p>(28:47) Why language may be the grounding layer for intelligence</p><p>(31:46) A contrarian take on the Bitter Lesson</p><p>(32:41) What test-time compute actually is</p><p>(34:50) How RL gives models the ability to think</p><p>(35:40) Verifiable rewards, math, coding, and the messy real world</p><p>(38:00) What physics can teach us about AI</p><p>(42:08) Is there a thermodynamics of AI?</p><p>(43:08) From Erdős problems to Einstein-level AI</p><p>(45:16) Is AI already doing original science?</p><p>(45:51) How far are we from AI automating AI research?</p><p>(47:41) Why Dan is excited about the future of science</p>",
+        "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Dan-Roberts-Why-AI-Can-Now-Make-Discoveries-e3ka0se",
+        "author": "Matt Turck",
+        "keywords": "",
+        "published": "2026-06-04T12:30:00+00:00",
+        "kind": "podcast",
+        "source_name": "The MAD Podcast with Matt Turck",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "The MAD Podcast with Matt Turck"
+      }
+    ],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-04T10:00:00+00:00",
+    "end": "2026-06-04T16:00:00+00:00"
+  }
+}
