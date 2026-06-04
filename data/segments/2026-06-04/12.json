@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-04T12:44:56.093482+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 0,
+    "podcasts": 1,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "https://t.co/8T0sVlzKQz",
+        "summary": "https://t.co/8T0sVlzKQz",
+        "link": "https://x.com/elonmusk/status/2062424194219114745",
+        "author": "elonmusk",
+        "published": "2026-06-04T06:40:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Hadamard thought in image space",
+        "summary": "Hadamard thought in image space",
+        "link": "https://x.com/elonmusk/status/2062423834217898323",
+        "author": "elonmusk",
+        "published": "2026-06-04T06:38:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over",
+        "summary": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+        "link": "https://x.com/thsottiaux/status/2062423528927015414",
+        "author": "thsottiaux",
+        "published": "2026-06-04T06:37:41+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers",
+        "summary": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation!",
+        "link": "https://x.com/_catwu/status/2062408623565984209",
+        "author": "_catwu",
+        "published": "2026-06-04T05:38:28+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/TIYVuTTRlp",
+        "summary": "https://t.co/TIYVuTTRlp",
+        "link": "https://x.com/elonmusk/status/2062400773838024882",
+        "author": "elonmusk",
+        "published": "2026-06-04T05:07:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Very excited to welcome Harshit Madan and Rohan Choudhary to the team!\n\nhttps://t.co/3k23GK5Rdp",
+        "summary": "Very excited to welcome Harshit Madan and Rohan Choudhary to the team!\n\nhttps://t.co/3k23GK5Rdp",
+        "link": "https://x.com/adityaag/status/2062400706448081342",
+        "author": "adityaag",
+        "published": "2026-06-04T05:07:00+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine 1.5 at rank 1",
+        "summary": "Grok Imagine 1.5 at rank 1",
+        "link": "https://x.com/elonmusk/status/2062392619418959901",
+        "author": "elonmusk",
+        "published": "2026-06-04T04:34:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2062391451393392851",
+        "author": "elonmusk",
+        "published": "2026-06-04T04:30:14+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Here’s the video of my talk at MS Build: Build the thing that builds the thing. https://t.co/lJuv2twhFe",
+        "summary": "Here’s the video of my talk at MS Build: Build the thing that builds the thing. https://t.co/lJuv2twhFe",
+        "link": "https://x.com/steipete/status/2062390654022332691",
+        "author": "steipete",
+        "published": "2026-06-04T04:27:03+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+        "summary": "What does it mean for a business to truly operate at the AI frontier? In a special crossover episode at Microsoft Build, Sarah Guo and Elad Gil team up with Latent Space host “swyx” to talk with Microsoft Chairman and CEO Satya Nadella about the future of AI platforms, software development, and the tech ecosystem. Satya reflects on the latest breakthroughs from Microsoft Build, the strategic shift toward multi-model harnesses, and why private evaluations (evals) are now a company’s most important intellectual property. They also discuss how autonomous AI agents are reshaping the role of software engineers, the durability of SaaS business models, and why showing communities the ROI on data centers is so critical. Plus, Satya shares his thoughts on the economic and societal impacts of the token economy, as well as the future of AI-driven education startups.\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @satyanadella | @Microsoft | @latentspacepod | @swyx\n\nChapters:\n\n00:00 – Satya Nadella Introduction\n\n01:48 – Reflections from Microsoft Build\n\n03:12 – Microsoft’s AI Training Strategy\n\n05:48 – Complexity of Real-World Deployment of AI\n\n07:33 – Augmenting Human Capital\n\n09:37 – Harnesses for Enterprise\n\n11:49 – Developer Value\n\n15:09 – Can Everybody Operate at the Frontier with Their Frontier Intelligence?\n\n15:51 – Modern Definition of IP\n\n17:38 – Future of Vendor vs. Enterprise Agents\n\n21:48 – Near-Term Predictions on Model Pricing\n\n24:02 – Durability of SaaS\n\n25:58 – What Satya’s Building\n\n28:18 – Future of Engineering Roles\n\n30:54 – How Microsoft Can Be More Ambitious\n\n34:36 – Data Centers and Community Impact\n\n38:01 – AI’s Impact on Society\n\n39:52 - AI and Education\n\n42:28 – Conclusion",
+        "link": "",
+        "author": "Conviction",
+        "keywords": "",
+        "published": "2026-06-04T07:00:00+00:00",
+        "kind": "podcast",
+        "source_name": "No Priors",
+        "source_role": "Featuring Swyx",
+        "source_handle": "No Priors"
+      }
+    ],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-04T04:00:00+00:00",
+    "end": "2026-06-04T10:00:00+00:00"
+  }
+}
