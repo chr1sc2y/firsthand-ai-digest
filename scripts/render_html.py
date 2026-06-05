@@ -91,21 +91,13 @@ a { color: inherit; text-decoration: none; }
   flex-wrap: wrap;
   align-items: center; gap: 10px;
 }
-.ai-briefs {
+.ai-brief-latest {
   max-width: 1180px; margin: 0 auto;
-  padding: 4px 24px 28px;
+  padding: 2px 24px 22px;
 }
-.ai-briefs h2 {
-  font-size: 13px; font-weight: 600;
-  color: var(--ink-2);
-  margin-bottom: 11px;
-}
-.ai-brief-list {
-  display: flex; flex-wrap: wrap; gap: 8px;
-}
-.ai-brief-link {
-  display: inline-flex; align-items: center;
-  min-height: 34px; padding: 7px 13px;
+.ai-brief-latest-link {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 36px; padding: 8px 16px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface-2);
@@ -113,8 +105,20 @@ a { color: inherit; text-decoration: none; }
   font-size: 13px; font-weight: 600;
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow);
+  text-decoration: none;
 }
-.ai-brief-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ai-brief-latest-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.ai-brief-latest-link .tag {
+  font-size: 10px; font-weight: 700; letter-spacing: .02em;
+  padding: 1px 6px; border-radius: 999px;
+  background: rgba(0,0,0,0.06); color: var(--ink-3);
+}
+@media (prefers-color-scheme: dark) {
+  .ai-brief-latest-link .tag { background: rgba(255,255,255,0.12); }
+}
 .seg {
   display: flex; gap: 0;
   background: rgba(0,0,0,0.05);
@@ -188,10 +192,19 @@ a { color: inherit; text-decoration: none; }
 }
 
 .card-stripe {
-  height: 1px; flex-shrink: 0;
+  height: 7px; flex-shrink: 0;
   background: var(--border);
 }
-.stripe-blogs, .stripe-podcasts, .stripe-videos, .stripe-x { background: var(--border); }
+.stripe-blogs, .stripe-blog { background: #0a84ff; }
+.stripe-podcasts, .stripe-podcast { background: #bf5af2; }
+.stripe-videos, .stripe-video { background: #ff453a; }
+.stripe-x, .stripe-post { background: #34c759; }
+@media (prefers-color-scheme: dark) {
+  .stripe-blogs, .stripe-blog { background: #2997ff; }
+  .stripe-podcasts, .stripe-podcast { background: #bf5af2; }
+  .stripe-videos, .stripe-video { background: #ff6961; }
+  .stripe-x, .stripe-post { background: #30d158; }
+}
 
 .card-body { padding: 20px 20px 16px; flex: 1; display: flex; flex-direction: column; }
 
@@ -278,7 +291,7 @@ a { color: inherit; text-decoration: none; }
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
   .filter-bar { padding: 16px 20px 12px; }
-  .ai-briefs { padding: 6px 20px 22px; }
+  .ai-brief-latest { padding: 2px 20px 18px; }
   .page { padding: 0 20px 64px; }
 }
 
@@ -653,7 +666,7 @@ def _card(item: dict) -> str:
 """.strip()
 
 
-def _ai_brief_links(limit: int = 14) -> str:
+def _ai_brief_links() -> str:
     if not BRIEF_INDEX.exists():
         return ""
     try:
@@ -661,29 +674,21 @@ def _ai_brief_links(limit: int = 14) -> str:
     except (OSError, json.JSONDecodeError):
         return ""
     briefs = payload.get("briefs", [])
-    if not isinstance(briefs, list):
+    if not isinstance(briefs, list) or not briefs:
         return ""
-
-    rows = []
-    for brief in briefs[:limit]:
-        if not isinstance(brief, dict):
-            continue
-        date = str(brief.get("date", "")).strip()
-        path = str(brief.get("path", "")).strip()
-        if not date or not path:
-            continue
-        label = f"{date} AI 解读"
-        rows.append(
-            f'<a class="ai-brief-link" href="{html.escape(path)}">'
-            f"{html.escape(label)}</a>"
-        )
-    if not rows:
+    latest = briefs[0]
+    if not isinstance(latest, dict):
         return ""
+    date = str(latest.get("date", "")).strip()
+    path = str(latest.get("path", "")).strip()
+    if not date or not path:
+        return ""
+    # Homepage: English only, only latest, no other briefs exposed
+    label = f"Latest AI Brief — {date}"
     return (
         '<!-- AI_BRIEFS_START -->'
-        '<section class="ai-briefs" aria-label="Daily AI interpretations">'
-        "<h2>AI 解读</h2>"
-        f'<div class="ai-brief-list">{"".join(rows)}</div>'
+        '<section class="ai-brief-latest" aria-label="Latest AI interpretation">'
+        f'<a class="ai-brief-latest-link" href="{html.escape(path)}">{html.escape(label)} <span class="tag">EN</span></a>'
         "</section>"
         '<!-- AI_BRIEFS_END -->'
     )

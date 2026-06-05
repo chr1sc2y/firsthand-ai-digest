@@ -21,21 +21,13 @@ AI_BRIEFS_CSS_END = "/* AI_BRIEFS_CSS_END */"
 
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
-.ai-briefs {{
+.ai-brief-latest {{
   max-width: 1180px; margin: 0 auto;
-  padding: 4px 24px 28px;
+  padding: 2px 24px 22px;
 }}
-.ai-briefs h2 {{
-  font-size: 13px; font-weight: 600;
-  color: var(--ink-2);
-  margin-bottom: 11px;
-}}
-.ai-brief-list {{
-  display: flex; flex-wrap: wrap; gap: 8px;
-}}
-.ai-brief-link {{
-  display: inline-flex; align-items: center;
-  min-height: 34px; padding: 7px 13px;
+.ai-brief-latest-link {{
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 36px; padding: 8px 16px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface-2);
@@ -43,10 +35,22 @@ AI_BRIEFS_CSS = f"""
   font-size: 13px; font-weight: 600;
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow);
+  text-decoration: none;
 }}
-.ai-brief-link:hover {{ text-decoration: underline; text-underline-offset: 3px; }}
+.ai-brief-latest-link:hover {{
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}}
+.ai-brief-latest-link .tag {{
+  font-size: 10px; font-weight: 700; letter-spacing: .02em;
+  padding: 1px 6px; border-radius: 999px;
+  background: rgba(0,0,0,0.06); color: var(--ink-3);
+}}
+@media (prefers-color-scheme: dark) {{
+  .ai-brief-latest-link .tag {{ background: rgba(255,255,255,0.12); }}
+}}
 @media (max-width: 640px) {{
-  .ai-briefs {{ padding: 6px 20px 22px; }}
+  .ai-brief-latest {{ padding: 2px 20px 18px; }}
 }}
 {AI_BRIEFS_CSS_END}
 """.strip()
@@ -86,23 +90,23 @@ def _write_index(payload: dict) -> None:
     BRIEF_INDEX.write_text(text, encoding="utf-8")
 
 
-def _section_html(payload: dict, limit: int = 14) -> str:
-    rows = []
-    for brief in payload.get("briefs", [])[:limit]:
-        date = str(brief.get("date", "")).strip()
-        path = str(brief.get("path", "")).strip()
-        if not date or not path:
-            continue
-        rows.append(
-            f'<a class="ai-brief-link" href="{path}">{date} AI 解读</a>'
-        )
-    if not rows:
+def _section_html(payload: dict) -> str:
+    briefs = payload.get("briefs", [])
+    if not isinstance(briefs, list) or not briefs:
         return ""
+    latest = briefs[0]
+    if not isinstance(latest, dict):
+        return ""
+    date = str(latest.get("date", "")).strip()
+    path = str(latest.get("path", "")).strip()
+    if not date or not path:
+        return ""
+    # Homepage only: latest English link, do not expose other/old briefs or CN toggle here
+    label = f"Latest AI Brief — {date}"
     return (
         f"{AI_BRIEFS_START}\n"
-        '<section class="ai-briefs" aria-label="Daily AI interpretations">\n'
-        "  <h2>AI 解读</h2>\n"
-        f'  <div class="ai-brief-list">{"".join(rows)}</div>\n'
+        '<section class="ai-brief-latest" aria-label="Latest AI interpretation">\n'
+        f'  <a class="ai-brief-latest-link" href="{path}">{label} <span class="tag">EN</span></a>\n'
         "</section>\n"
         f"{AI_BRIEFS_END}"
     )
@@ -164,6 +168,16 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
     target = BRIEF_DIR / data_target.name
     shutil.copy2(source, data_target)
     shutil.copy2(data_target, target)
+
+    # Also publish companion Chinese version (if exists) so lang switch works from dist/
+    zh_source = DATA_BRIEF_DIR / f"{brief_date}-ai-brief-zh.html"
+    if zh_source.exists():
+        zh_data_target = DATA_BRIEF_DIR / zh_source.name  # already is
+        zh_dist_target = BRIEF_DIR / zh_source.name
+        # ensure zh is also in data (in case source was external) and dist
+        if not zh_data_target.exists() or zh_source.resolve() != zh_data_target.resolve():
+            shutil.copy2(zh_source, zh_data_target)
+        shutil.copy2(zh_data_target, zh_dist_target)
 
     payload = _load_index()
     _upsert_brief(
