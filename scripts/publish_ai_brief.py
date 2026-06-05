@@ -19,6 +19,12 @@ AI_BRIEFS_END = "<!-- AI_BRIEFS_END -->"
 AI_BRIEFS_CSS_START = "/* AI_BRIEFS_CSS_START */"
 AI_BRIEFS_CSS_END = "/* AI_BRIEFS_CSS_END */"
 
+# AI analysis (the interpreted briefs) are served on a dedicated subdomain
+# distinct from the main "Firsthand AI Digest" aggregator.
+# Update these two constants to switch the name.
+AI_ANALYSIS_DOMAIN = "brief.ai.prov1dence.top"
+AI_CARD_LABEL = "Latest AI Brief"
+
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
 .ai-brief-card {{
@@ -112,12 +118,11 @@ def _section_html(payload: dict) -> str:
         return ""
     # Homepage only: latest English link, do not expose other/old briefs or CN toggle here.
     # Markup matches the new sidebar card. AI analysis on dedicated subdomain.
-    ai_base = "https://digest.ai.prov1dence.top/"
-    href = ai_base + path.lstrip("/")
+    href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
     return (
         f"{AI_BRIEFS_START}\n"
-        '<div class="ai-brief-card" aria-label="Latest AI Digest">\n'
-        '  <div class="ai-label">Latest AI Digest</div>\n'
+        f'<div class="ai-brief-card" aria-label="{AI_CARD_LABEL}">\n'
+        f'  <div class="ai-label">{AI_CARD_LABEL}</div>\n'
         f'  <a class="ai-link" href="{href}"><span class="tag">EN</span> →</a>\n'
         "</div>\n"
         f"{AI_BRIEFS_END}"

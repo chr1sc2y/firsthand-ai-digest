@@ -14,6 +14,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BRIEF_INDEX = ROOT / "data" / "ai-briefs" / "index.json"
 
+# AI analysis (the interpreted briefs) are served on a dedicated subdomain
+# distinct from the main "Firsthand AI Digest" aggregator.
+# Update these two constants to switch the name.
+AI_ANALYSIS_DOMAIN = "brief.ai.prov1dence.top"
+AI_CARD_LABEL = "Latest AI Brief"
+
 CSS = """
 :root {
   color-scheme: light dark;
@@ -772,12 +778,11 @@ def _ai_brief_links() -> str:
     # Homepage: English only, only latest, no other briefs exposed.
     # Placed in sidebar for better visual hierarchy.
     # AI analysis pages are served from a dedicated subdomain.
-    ai_base = "https://digest.ai.prov1dence.top/"
-    href = ai_base + path.lstrip("/")
+    href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
     return (
         '<!-- AI_BRIEFS_START -->'
-        '<div class="ai-brief-card" aria-label="Latest AI Digest">'
-        '<div class="ai-label">Latest AI Digest</div>'
+        f'<div class="ai-brief-card" aria-label="{AI_CARD_LABEL}">'
+        f'<div class="ai-label">{AI_CARD_LABEL}</div>'
         f'<a class="ai-link" href="{html.escape(href)}"><span class="tag">EN</span> →</a>'
         '</div>'
         '<!-- AI_BRIEFS_END -->'
