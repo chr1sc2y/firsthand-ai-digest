@@ -1,20 +1,11 @@
-"""Render the collected items into a single self-contained HTML page.
-
-Design language: restrained Apple-style editorial grid with quiet surfaces,
-system typography, and minimal chroma.
-"""
-from __future__ import annotations
-
-import html
-import json
-import re
-from datetime import datetime, timezone
-from pathlib import Path
-
-ROOT = Path(__file__).resolve().parent.parent
-BRIEF_INDEX = ROOT / "data" / "ai-briefs" / "index.json"
-
-CSS = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="digest-generated" content="2026-06-05 03:25:47 UTC" />
+<title>Firsthand AI Digest</title>
+<style>
 :root {
   color-scheme: light dark;
   --bg: #f5f5f7;
@@ -382,9 +373,115 @@ a { color: inherit; text-decoration: none; }
 }
 
 footer.page-foot { display: none; }
-"""
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1><em>Firsthand</em> AI Digest</h1>
+  <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
+</header>
+<div class="hero-divider"><hr /></div>
+<div class="content-layout">
+  <aside class="sidebar">
+    <!-- AI_BRIEFS_START --><div class="ai-brief-card" aria-label="Latest AI interpretation"><div class="ai-label">Daily AI Interpretation</div><a class="ai-link" href="ai-briefs/2026-06-05-ai-brief.html">2026-06-05 <span class="tag">EN</span> →</a></div><!-- AI_BRIEFS_END -->
+    <div class="filter-groups">
+      <div class="filter-group">
+        <div class="filter-label">Time</div>
+        <div class="time-seg" aria-label="Time range">
+          <button type="button" data-range="3h">3h</button>
+          <button type="button" data-range="6h">6h</button>
+          <button type="button" data-range="12h">12h</button>
+          <button class="active" type="button" data-range="24h">24h</button>
+          <button type="button" data-range="3d">3d</button>
+          <button type="button" data-range="7d">7d</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <div class="filter-label">Type</div>
+        <div class="seg" aria-label="Content type">
+          <button type="button" class="active">All</button>
+          <button type="button">Blogs</button>
+          <button type="button">Podcasts</button>
+          <button type="button">Videos</button>
+          <button type="button">Posts</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="main-content">
+    <div class="page">
+      <div class="section" id="blogs"><div class="section-head"><h2>Blogs &amp; Long-form</h2><span class="count">01 items</span></div><div class="grid"><article class="card">
+  <div class="card-stripe stripe-blogs"></div>
+  <div class="card-body">
+    <div class="card-top">
+      <div class="avatar">SW</div>
+      <div class="card-who">
+        <div class="card-name">Simon Willison</div>
+        <div class="card-role">Builder</div>
+      </div>
+      <span class="card-badge badge-blogs">Blog</span>
+    </div>
+    <div class="card-title">Long post title</div>
+    <div class="card-summary">This is a longer summary for the blog card to demonstrate the layout.</div>
+    <div class="card-foot">
+      <span class="card-time" data-iso="2026-06-04T22:25:47.232738+00:00">2026-06-04 22:25:47 UTC</span>
+      <a class="card-link card-link-blogs" href="https://example.com" target="_blank" rel="noreferrer noopener">Read article ↗</a>
+    </div>
+  </div>
+</article></div></div><div class="section" id="posts"><div class="section-head"><h2>Posts</h2><span class="count">01 items</span></div><div class="grid"><article class="card">
+  <div class="card-stripe stripe-x"></div>
+  <div class="card-body">
+    <div class="card-top">
+      <div class="avatar">EL</div>
+      <div class="card-who">
+        <div class="card-name">Elon</div>
+        <div class="card-role">@elon · Builder</div>
+      </div>
+      <span class="card-badge badge-x">Post</span>
+    </div>
+    
+    <div class="card-summary">Some summary here about AI.</div>
+    <div class="card-foot">
+      <span class="card-time" data-iso="2026-06-05T01:25:47.232738+00:00">2026-06-05 01:25:47 UTC</span>
+      <a class="card-link card-link-x" href="https://example.com" target="_blank" rel="noreferrer noopener">Open ↗</a>
+    </div>
+  </div>
+</article></div></div>
+    </div>
+  </div>
+</div>
+<footer class="page-foot"></footer>
+<script>
+(function () {
+  function fmtLocal(iso) {
+    if (!iso) return "";
+    var dt = new Date(iso);
+    if (isNaN(dt.getTime())) return "";
+    var pad = function (n) { return String(n).padStart(2, "0"); };
+    var tz = "";
+    try {
+      var parts = new Intl.DateTimeFormat(undefined, { timeZoneName: "short" }).formatToParts(dt);
+      var part = parts.find(function (p) { return p.type === "timeZoneName"; });
+      if (part && part.value) tz = " " + part.value;
+    } catch (e) { /* ignore */ }
+    return dt.getFullYear() + "-" + pad(dt.getMonth() + 1) + "-" + pad(dt.getDate()) + " " +
+           pad(dt.getHours()) + ":" + pad(dt.getMinutes()) + ":" + pad(dt.getSeconds()) + tz;
+  }
+  function apply(root) {
+    (root || document).querySelectorAll(".card-time[data-iso]").forEach(function (el) {
+      var out = fmtLocal(el.getAttribute("data-iso"));
+      if (out) el.textContent = out;
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", function () { apply(); });
+  } else {
+    apply();
+  }
+  window.__applyLocalTime = apply;
+})();
+</script>
 
-CLIENT_JS = r"""
 <script>
 (function () {
   const ranges = [
@@ -638,262 +735,6 @@ CLIENT_JS = r"""
   });
 })();
 </script>
-"""
 
-
-def _initials(name: str) -> str:
-    parts = [p for p in re.split(r"\s+", name.strip()) if p]
-    if not parts:
-        return "?"
-    if len(parts) == 1:
-        return parts[0][:2].upper()
-    return (parts[0][0] + parts[-1][0]).upper()
-
-
-def _strip_html(text: str) -> str:
-    if not text:
-        return ""
-    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = html.unescape(text)
-    return text.strip()
-
-
-def _coerce_utc(dt) -> datetime | None:
-    if not dt:
-        return None
-    if isinstance(dt, str):
-        text = dt.strip()
-        if text.endswith("Z"):
-            text = text[:-1] + "+00:00"
-        try:
-            dt = datetime.fromisoformat(text)
-        except ValueError:
-            return None
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-    return dt.astimezone(timezone.utc)
-
-
-def _fmt_time(dt) -> str:
-    coerced = _coerce_utc(dt)
-    if not coerced:
-        return ""
-    return coerced.strftime("%Y-%m-%d %H:%M:%S UTC")
-
-
-def _iso_time(dt) -> str:
-    coerced = _coerce_utc(dt)
-    if not coerced:
-        return ""
-    return coerced.isoformat()
-
-
-def _card(item: dict) -> str:
-    name = item.get("source_name") or item.get("author") or "Unknown"
-    role = item.get("source_role", "")
-    title = _strip_html(item.get("title", ""))
-    summary = _strip_html(item.get("summary", ""))
-    link = item.get("link", "")
-    published = item.get("published")
-    when = _fmt_time(published)
-    iso = _iso_time(published)
-    kind = item.get("kind", "")
-    tag_label = {
-        "x": "Post",
-        "podcasts": "Podcast",
-        "blogs": "Blog",
-        "videos": "Video",
-    }.get(kind, kind.title() or "Item")
-
-    if kind == "x" and item.get("source_handle"):
-        role_text = f'@{html.escape(item["source_handle"])} · {html.escape(role)}'
-    else:
-        role_text = html.escape(role)
-
-    link_label = {
-        "Blog": "Read article ↗",
-        "Podcast": "Listen ↗",
-        "Video": "Watch ↗",
-        "Post": "Open ↗",
-    }.get(tag_label, "Open ↗")
-
-    open_link = (
-        f'<a class="card-link card-link-{html.escape(kind)}" href="{html.escape(link)}" target="_blank" rel="noreferrer noopener">{link_label}</a>'
-        if link else ""
-    )
-
-    title_block = (
-        f'<div class="card-title">{html.escape(title)}</div>'
-        if kind != "x" and title
-        else ""
-    )
-
-    return f"""
-<article class="card">
-  <div class="card-stripe stripe-{html.escape(kind)}"></div>
-  <div class="card-body">
-    <div class="card-top">
-      <div class="avatar">{html.escape(_initials(name))}</div>
-      <div class="card-who">
-        <div class="card-name">{html.escape(name)}</div>
-        <div class="card-role">{role_text}</div>
-      </div>
-      <span class="card-badge badge-{html.escape(kind)}">{tag_label}</span>
-    </div>
-    {title_block}
-    <div class="card-summary">{html.escape(summary)}</div>
-    <div class="card-foot">
-      <span class="card-time" data-iso="{html.escape(iso)}">{html.escape(when)}</span>
-      {open_link}
-    </div>
-  </div>
-</article>
-""".strip()
-
-
-def _ai_brief_links() -> str:
-    if not BRIEF_INDEX.exists():
-        return ""
-    try:
-        payload = json.loads(BRIEF_INDEX.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError):
-        return ""
-    briefs = payload.get("briefs", [])
-    if not isinstance(briefs, list) or not briefs:
-        return ""
-    latest = briefs[0]
-    if not isinstance(latest, dict):
-        return ""
-    date = str(latest.get("date", "")).strip()
-    path = str(latest.get("path", "")).strip()
-    if not date or not path:
-        return ""
-    # Homepage: English only, only latest, no other briefs exposed.
-    # Placed in sidebar for better visual hierarchy.
-    return (
-        '<!-- AI_BRIEFS_START -->'
-        '<div class="ai-brief-card" aria-label="Latest AI interpretation">'
-        '<div class="ai-label">Daily AI Interpretation</div>'
-        f'<a class="ai-link" href="{html.escape(path)}">{html.escape(date)} <span class="tag">EN</span> →</a>'
-        '</div>'
-        '<!-- AI_BRIEFS_END -->'
-    )
-
-
-def render(
-    x_items: list[dict],
-    podcast_items: list[dict],
-    blog_items: list[dict] | None = None,
-    video_items: list[dict] | None = None,
-    site: dict | None = None,
-    interactive: bool = False,
-) -> str:
-    blog_items = blog_items or []
-    video_items = video_items or []
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")  # used in meta tag
-
-    sections_meta = [
-        ("blogs",    "Blogs & Long-form", blog_items),
-        ("podcasts", "Podcasts",          podcast_items),
-        ("videos",   "Videos",             video_items),
-        ("posts",    "Posts",              x_items),
-    ]
-
-    def _section(slug: str, title: str, items: list[dict]) -> str:
-        if not items:
-            return ""
-        body = '<div class="grid">' + "\n".join(_card(i) for i in items) + "</div>"
-        return (
-            f'<div class="section" id="{slug}">'
-            f'<div class="section-head"><h2>{html.escape(title)}</h2>'
-            f'<span class="count">{len(items):02d} items</span></div>'
-            f"{body}</div>"
-        )
-
-    sections = "".join(_section(s, t, items) for s, t, items in sections_meta)
-    ai_brief_links = _ai_brief_links()
-
-    return f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="digest-generated" content="{html.escape(generated)}" />
-<title>Firsthand AI Digest</title>
-<style>{CSS}</style>
-</head>
-<body>
-<header class="hero">
-  <h1><em>Firsthand</em> AI Digest</h1>
-  <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
-</header>
-<div class="hero-divider"><hr /></div>
-<div class="content-layout">
-  <aside class="sidebar">
-    {ai_brief_links}
-    <div class="filter-groups">
-      <div class="filter-group">
-        <div class="filter-label">Time</div>
-        <div class="time-seg" aria-label="Time range">
-          <button type="button" data-range="3h">3h</button>
-          <button type="button" data-range="6h">6h</button>
-          <button type="button" data-range="12h">12h</button>
-          <button class="active" type="button" data-range="24h">24h</button>
-          <button type="button" data-range="3d">3d</button>
-          <button type="button" data-range="7d">7d</button>
-        </div>
-      </div>
-      <div class="filter-group">
-        <div class="filter-label">Type</div>
-        <div class="seg" aria-label="Content type">
-          <button type="button" class="active">All</button>
-          <button type="button">Blogs</button>
-          <button type="button">Podcasts</button>
-          <button type="button">Videos</button>
-          <button type="button">Posts</button>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <div class="main-content">
-    <div class="page">
-      {sections}
-    </div>
-  </div>
-</div>
-<footer class="page-foot"></footer>
-<script>
-(function () {{
-  function fmtLocal(iso) {{
-    if (!iso) return "";
-    var dt = new Date(iso);
-    if (isNaN(dt.getTime())) return "";
-    var pad = function (n) {{ return String(n).padStart(2, "0"); }};
-    var tz = "";
-    try {{
-      var parts = new Intl.DateTimeFormat(undefined, {{ timeZoneName: "short" }}).formatToParts(dt);
-      var part = parts.find(function (p) {{ return p.type === "timeZoneName"; }});
-      if (part && part.value) tz = " " + part.value;
-    }} catch (e) {{ /* ignore */ }}
-    return dt.getFullYear() + "-" + pad(dt.getMonth() + 1) + "-" + pad(dt.getDate()) + " " +
-           pad(dt.getHours()) + ":" + pad(dt.getMinutes()) + ":" + pad(dt.getSeconds()) + tz;
-  }}
-  function apply(root) {{
-    (root || document).querySelectorAll(".card-time[data-iso]").forEach(function (el) {{
-      var out = fmtLocal(el.getAttribute("data-iso"));
-      if (out) el.textContent = out;
-    }});
-  }}
-  if (document.readyState === "loading") {{
-    document.addEventListener("DOMContentLoaded", function () {{ apply(); }});
-  }} else {{
-    apply();
-  }}
-  window.__applyLocalTime = apply;
-}})();
-</script>
-{CLIENT_JS if interactive else ''}
 </body>
 </html>
-"""

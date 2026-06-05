@@ -21,36 +21,45 @@ AI_BRIEFS_CSS_END = "/* AI_BRIEFS_CSS_END */"
 
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
-.ai-brief-latest {{
-  max-width: 1180px; margin: 0 auto;
-  padding: 2px 24px 22px;
-}}
-.ai-brief-latest-link {{
-  display: inline-flex; align-items: center; gap: 8px;
-  min-height: 36px; padding: 8px 16px;
-  border: 1px solid var(--border);
-  border-radius: 999px;
+.ai-brief-card {{
   background: var(--surface-2);
-  color: var(--accent);
-  font-size: 13px; font-weight: 600;
-  backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
   box-shadow: var(--shadow);
-  text-decoration: none;
+  max-width: 260px;
 }}
-.ai-brief-latest-link:hover {{
+.ai-brief-card .ai-label {{
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 6px;
+}}
+.ai-brief-card .ai-link {{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  line-height: 1.3;
+}}
+.ai-brief-card .ai-link:hover {{
   text-decoration: underline;
   text-underline-offset: 2px;
 }}
-.ai-brief-latest-link .tag {{
-  font-size: 10px; font-weight: 700; letter-spacing: .02em;
-  padding: 1px 6px; border-radius: 999px;
-  background: rgba(0,0,0,0.06); color: var(--ink-3);
-}}
-@media (prefers-color-scheme: dark) {{
-  .ai-brief-latest-link .tag {{ background: rgba(255,255,255,0.12); }}
+.ai-brief-card .tag {{
+  font-size: 9px;
+  font-weight: 700;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: rgba(0, 113, 227, 0.1);
+  color: var(--accent);
 }}
 @media (max-width: 640px) {{
-  .ai-brief-latest {{ padding: 2px 20px 18px; }}
+  .ai-brief-card {{ max-width: none; }}
 }}
 {AI_BRIEFS_CSS_END}
 """.strip()
@@ -101,13 +110,14 @@ def _section_html(payload: dict) -> str:
     path = str(latest.get("path", "")).strip()
     if not date or not path:
         return ""
-    # Homepage only: latest English link, do not expose other/old briefs or CN toggle here
-    label = f"Latest AI Brief — {date}"
+    # Homepage only: latest English link, do not expose other/old briefs or CN toggle here.
+    # Markup matches the new sidebar card for the main renderer.
     return (
         f"{AI_BRIEFS_START}\n"
-        '<section class="ai-brief-latest" aria-label="Latest AI interpretation">\n'
-        f'  <a class="ai-brief-latest-link" href="{path}">{label} <span class="tag">EN</span></a>\n'
-        "</section>\n"
+        '<div class="ai-brief-card" aria-label="Latest AI interpretation">\n'
+        '  <div class="ai-label">Daily AI Interpretation</div>\n'
+        f'  <a class="ai-link" href="{path}">{date} <span class="tag">EN</span> →</a>\n'
+        "</div>\n"
         f"{AI_BRIEFS_END}"
     )
 
