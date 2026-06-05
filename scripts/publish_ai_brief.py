@@ -111,12 +111,14 @@ def _section_html(payload: dict) -> str:
     if not date or not path:
         return ""
     # Homepage only: latest English link, do not expose other/old briefs or CN toggle here.
-    # Markup matches the new sidebar card for the main renderer.
+    # Markup matches the new sidebar card. AI analysis on dedicated subdomain.
+    ai_base = "https://digest.ai.prov1dence.top/"
+    href = ai_base + path.lstrip("/")
     return (
         f"{AI_BRIEFS_START}\n"
-        '<div class="ai-brief-card" aria-label="Latest AI interpretation">\n'
-        '  <div class="ai-label">Daily AI Interpretation</div>\n'
-        f'  <a class="ai-link" href="{path}">{date} <span class="tag">EN</span> →</a>\n'
+        '<div class="ai-brief-card" aria-label="Latest AI Digest">\n'
+        '  <div class="ai-label">Latest AI Digest</div>\n'
+        f'  <a class="ai-link" href="{href}"><span class="tag">EN</span> →</a>\n'
         "</div>\n"
         f"{AI_BRIEFS_END}"
     )

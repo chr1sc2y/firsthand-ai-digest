@@ -377,7 +377,7 @@ a { color: inherit; text-decoration: none; }
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
   .filter-bar { padding: 16px 20px 12px; }
-  .ai-brief-latest { padding: 2px 20px 18px; }
+  .ai-brief-card { max-width: none; }
   .page { padding: 0 20px 64px; }
 }
 
@@ -771,11 +771,14 @@ def _ai_brief_links() -> str:
         return ""
     # Homepage: English only, only latest, no other briefs exposed.
     # Placed in sidebar for better visual hierarchy.
+    # AI analysis pages are served from a dedicated subdomain.
+    ai_base = "https://digest.ai.prov1dence.top/"
+    href = ai_base + path.lstrip("/")
     return (
         '<!-- AI_BRIEFS_START -->'
-        '<div class="ai-brief-card" aria-label="Latest AI interpretation">'
-        '<div class="ai-label">Daily AI Interpretation</div>'
-        f'<a class="ai-link" href="{html.escape(path)}">{html.escape(date)} <span class="tag">EN</span> →</a>'
+        '<div class="ai-brief-card" aria-label="Latest AI Digest">'
+        '<div class="ai-label">Latest AI Digest</div>'
+        f'<a class="ai-link" href="{html.escape(href)}"><span class="tag">EN</span> →</a>'
         '</div>'
         '<!-- AI_BRIEFS_END -->'
     )
