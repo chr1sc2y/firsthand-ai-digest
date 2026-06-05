@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-05T08:08:01.663363+00:00",
+  "counts": {
+    "x": 17,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI ",
+        "summary": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool.",
+        "link": "https://x.com/petergyang/status/2062743491365544361",
+        "author": "petergyang",
+        "published": "2026-06-05T03:49:06+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced",
+        "summary": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way.",
+        "link": "https://x.com/petergyang/status/2062740262338929110",
+        "author": "petergyang",
+        "published": "2026-06-05T03:36:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2062738346229506370",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:28:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Corruption",
+        "summary": "Corruption",
+        "link": "https://x.com/elonmusk/status/2062738253925515344",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:28:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip ins",
+        "summary": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+        "link": "https://x.com/thsottiaux/status/2062734215494664697",
+        "author": "thsottiaux",
+        "published": "2026-06-05T03:12:15+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Vote them out",
+        "summary": "Vote them out",
+        "link": "https://x.com/elonmusk/status/2062733952729726994",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:11:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario ",
+        "summary": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI:\n\n“There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.”\n\nAI lowers the barrier dramatically to allowing us to do more. As a result of that, we have far more ideas than we can pursue, and for the ones that we want to pursue we’re ultimately limited by our ability to go take on the surrounding work to execute those ideas. There’s almost no amount of AI progress that can happen where that goes away.\n\nAI is going to let us build much more software, launch more marketing campaigns, research more drugs, and so on. All of this work, even when augmented by agents, still ultimately requires people to manage.",
+        "link": "https://x.com/levie/status/2062728257359790292",
+        "author": "levie",
+        "published": "2026-06-05T02:48:34+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "SpaceX",
+        "summary": "SpaceX",
+        "link": "https://x.com/elonmusk/status/2062716424615862315",
+        "author": "elonmusk",
+        "published": "2026-06-05T02:01:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Summer camp assistant Hermes Agent to the rescue @NousResearch https://t.co/a70a5mCmSV",
+        "summary": "Summer camp assistant Hermes Agent to the rescue @NousResearch https://t.co/a70a5mCmSV",
+        "link": "https://x.com/petergyang/status/2062685858109800510",
+        "author": "petergyang",
+        "published": "2026-06-05T00:00:06+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Even 2010 tbh",
+        "summary": "Even 2010 tbh",
+        "link": "https://x.com/elonmusk/status/2062676432162078967",
+        "author": "elonmusk",
+        "published": "2026-06-04T23:22:38+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Love this Gemini feature on my macOS app!",
+        "summary": "Love this Gemini feature on my macOS app!",
+        "link": "https://x.com/joshwoodward/status/2062667951485108354",
+        "author": "joshwoodward",
+        "published": "2026-06-04T22:48:56+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Some more dumb questions about Codex:\n\n1. I use it on my primary laptop which I don't keep on all the time so I don't li",
+        "summary": "Some more dumb questions about Codex:\n\n1. I use it on my primary laptop which I don't keep on all the time so I don't like setting up cron jobs there. \n\nCan I set up the app on my Mac Mini too and run all the cron jobs through that? I have a feeling it's gonna replace OpenClaw/Hermes for me then.\n\n2. Is the image gen feature on Codex basically free? It's using ChatGPT Images 2?\n\n3. Anyone tried generating images first and then using @HeyGen hyperframes to generate videos?",
+        "link": "https://x.com/petergyang/status/2062662500928421960",
+        "author": "petergyang",
+        "published": "2026-06-04T22:27:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "man the early days of the internet were so special",
+        "summary": "man the early days of the internet were so special",
+        "link": "https://x.com/sama/status/2062661191969972645",
+        "author": "sama",
+        "published": "2026-06-04T22:22:05+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "build and publish web apps with chatgpt!\n\ni really wish i had this when i was a kid, but i do miss hypercard.",
+        "summary": "build and publish web apps with chatgpt!\n\ni really wish i had this when i was a kid, but i do miss hypercard.",
+        "link": "https://x.com/sama/status/2062661071761211561",
+        "author": "sama",
+        "published": "2026-06-04T22:21:36+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "big upgrade to chatgpt memory rolling out today!",
+        "summary": "big upgrade to chatgpt memory rolling out today!",
+        "link": "https://x.com/sama/status/2062660086787613116",
+        "author": "sama",
+        "published": "2026-06-04T22:17:41+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to",
+        "summary": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb",
+        "link": "https://x.com/_catwu/status/2062659533047259212",
+        "author": "_catwu",
+        "published": "2026-06-04T22:15:29+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this.",
+        "summary": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this.",
+        "link": "https://x.com/adityaag/status/2062655784127971565",
+        "author": "adityaag",
+        "published": "2026-06-04T22:00:35+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+        "summary": "<p><strong><a href=\"https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against\">AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</a></strong></p>\nCharity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams:</p>\n<blockquote>\n<p>The enthusiasts are <em>not wrong</em>. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, existential threat.</p>\n<p>The skeptics are also <em>not wrong</em>. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, institutional knowledge evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat.</p>\n</blockquote>\n<p>Charity recommends treating this as both a leadership challenge and an engineering challenge. The key issue:</p>\n<blockquote>\n<p>There is no natural feedback loop connecting enthusiasts with skeptics.</p>\n</blockquote>\n<p>Designing feedback loops to help \"mend the gap in shared reality\" between the two groups is a fascinating organizational design problem.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/ri4flr/ai_enthusiasts_are_race_against_time_ai\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/charity-majors\">charity-majors</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/",
+        "author": "",
+        "keywords": "ai charity-majors agentic-engineering",
+        "published": "2026-06-04T23:55:27+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-04T22:00:00+00:00",
+    "end": "2026-06-05T04:00:00+00:00"
+  }
+}
