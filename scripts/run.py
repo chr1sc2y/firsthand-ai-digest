@@ -381,8 +381,9 @@ def main(argv: list[str] | None = None) -> int:
     cname = ROOT / "CNAME"
     output_cname = args.output.parent / "CNAME"
     if cname.exists():
-        shutil.copy2(cname, output_cname)
-        log.info("Copied CNAME to %s", output_cname)
+        if cname.resolve() != output_cname.resolve():
+            shutil.copy2(cname, output_cname)
+            log.info("Copied CNAME to %s", output_cname)
     elif output_cname.exists():
         output_cname.unlink()
         log.info("Removed stale CNAME from %s", output_cname)

@@ -759,7 +759,7 @@ def _card(item: dict) -> str:
 """.strip()
 
 
-def _ai_brief_links() -> str:
+def _latest_ai_brief_path() -> str:
     if not BRIEF_INDEX.exists():
         return ""
     try:
@@ -776,15 +776,37 @@ def _ai_brief_links() -> str:
     path = str(latest.get("path", "")).strip()
     if not date or not path:
         return ""
+    return "/" + path.lstrip("/")
+
+
+def _ai_brief_links() -> str:
+    path = _latest_ai_brief_path()
+    if not path:
+        return ""
     # Homepage: English only, only latest, no other briefs exposed.
     # "insight" link is now placed next to the hero title (right side) for better balance.
     # AI analysis pages served from dedicated subdomain.
-    href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
+    href = f"https://{AI_ANALYSIS_DOMAIN}{path}"
     return (
         '<!-- AI_BRIEFS_START -->'
         f'<a class="insight-link" href="{html.escape(href)}">insight</a>'
         '<!-- AI_BRIEFS_END -->'
     )
+
+
+def _insight_root_redirect_script() -> str:
+    path = _latest_ai_brief_path()
+    if not path:
+        return ""
+    return f"""<script>
+(function() {{
+  const {{ hostname, pathname }} = window.location;
+  if (hostname === "{AI_ANALYSIS_DOMAIN}" && (pathname === "/" || pathname === "/index.html")) {{
+    location.replace("{html.escape(path)}");
+  }}
+}})();
+</script>
+"""
 
 
 def render(
@@ -819,6 +841,7 @@ def render(
 
     sections = "".join(_section(s, t, items) for s, t, items in sections_meta)
     ai_brief_links = _ai_brief_links()
+    insight_redirect = _insight_root_redirect_script()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -828,6 +851,7 @@ def render(
 <meta name="digest-generated" content="{html.escape(generated)}" />
 <title>Firsthand AI Digest</title>
 <style>{CSS}</style>
+{insight_redirect}
 </head>
 <body>
 <header class="hero">

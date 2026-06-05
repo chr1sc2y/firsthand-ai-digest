@@ -71,6 +71,53 @@ It does not need `APIFY_TOKEN`; scheduled data fetching still belongs to
 The first deploy may take a few minutes for Let's Encrypt to issue the
 cert.
 
+### Insight subdomain
+
+The homepage links the latest AI interpretation brief to the standalone
+Insight Pages repository:
+
+```text
+https://insight.ai.prov1dence.top/<brief-path>
+```
+
+The main digest repository remains bound to `ai.prov1dence.top`; the separate
+[`chr1sc2y/firsthand-ai-insight`](https://github.com/chr1sc2y/firsthand-ai-insight)
+repository is bound to `insight.ai.prov1dence.top`.
+
+Build the local Insight repository from committed briefs with:
+
+```bash
+python scripts/sync_insight_site.py \
+  --target-dir /Users/zintrulcre/repo/firsthand-ai-insight
+```
+
+This copies `data/ai-briefs/` into the Insight repo, writes a root redirect to
+the latest English brief, writes `CNAME`, and installs a minimal GitHub Pages
+workflow for the Insight repo.
+
+To let `.github/workflows/daily.yml` sync the Insight repo automatically after
+the scheduled digest build, create a main-repo secret named
+`INSIGHT_REPO_TOKEN`. It must be a token that can write to
+`chr1sc2y/firsthand-ai-insight`; the default `GITHUB_TOKEN` for
+`firsthand-ai-digest` cannot write to a different repository.
+
+For the subdomain to work publicly, DNS must publish:
+
+```text
+CNAME  insight.ai  chr1sc2y.github.io
+```
+
+Check propagation with:
+
+```bash
+dig @1.1.1.1 +short insight.ai.prov1dence.top CNAME
+dig @8.8.8.8 +short insight.ai.prov1dence.top CNAME
+```
+
+Both should return `chr1sc2y.github.io.`. If public DNS is correct but HTTPS
+still fails, check the Pages settings in `firsthand-ai-insight` and ensure its
+custom domain is `insight.ai.prov1dence.top` with HTTPS enabled.
+
 ## Tests
 
 ```bash

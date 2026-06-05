@@ -31,6 +31,18 @@ def test_run_with_mock_data_copies_root_cname(tmp_path):
     assert output_cname.read_text(encoding="utf-8") == "ai.prov1dence.top\n"
 
 
+def test_run_with_mock_data_allows_output_next_to_root_cname(tmp_path, monkeypatch):
+    monkeypatch.setattr(run, "ROOT", tmp_path)
+    (tmp_path / "CNAME").write_text("ai.prov1dence.top\n", encoding="utf-8")
+    output = tmp_path / "preview-index.html"
+
+    status = run.main(["--mock-data", "--output", output.as_posix()])
+
+    assert status == 0
+    assert output.exists()
+    assert (tmp_path / "CNAME").read_text(encoding="utf-8") == "ai.prov1dence.top\n"
+
+
 def test_run_with_mock_data_writes_normalized_json(tmp_path):
     output = tmp_path / "index.html"
     data_output = tmp_path / "data" / "2026-05-21.json"
