@@ -22,26 +22,27 @@ AI_BRIEFS_CSS_END = "/* AI_BRIEFS_CSS_END */"
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
 .ai-briefs {{
-  max-width: 1280px; margin: 0 auto;
-  padding: 8px 24px 24px;
+  max-width: 1180px; margin: 0 auto;
+  padding: 4px 24px 28px;
 }}
 .ai-briefs h2 {{
-  font-size: 14px; font-weight: 700;
+  font-size: 13px; font-weight: 600;
   color: var(--ink-2);
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 }}
 .ai-brief-list {{
   display: flex; flex-wrap: wrap; gap: 8px;
 }}
 .ai-brief-link {{
   display: inline-flex; align-items: center;
-  min-height: 32px; padding: 6px 12px;
+  min-height: 34px; padding: 7px 13px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: var(--surface);
-  color: var(--blog);
+  background: var(--surface-2);
+  color: var(--accent);
   font-size: 13px; font-weight: 600;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
 }}
 .ai-brief-link:hover {{ text-decoration: underline; text-underline-offset: 3px; }}
 @media (max-width: 640px) {{
