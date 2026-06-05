@@ -35,45 +35,25 @@ AI_CARD_LABEL = "Latest AI Insight"
 
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
-.ai-brief-card {{
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 14px 16px;
-  margin-bottom: 18px;
-  box-shadow: var(--shadow);
-  max-width: 260px;
-}}
-.ai-brief-card .ai-label {{
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--ink-3);
-  margin-bottom: 6px;
-}}
-.ai-brief-card .ai-link {{
-  display: block;
-  font-size: 14px;
+.insight-link {{
+  font-size: 0.22em;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
-  line-height: 1.3;
-}}
-.ai-brief-card .ai-link:hover {{
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}}
-.ai-brief-card .tag {{
-  font-size: 9px;
-  font-weight: 700;
-  padding: 0 5px;
+  white-space: nowrap;
+  background: rgba(0, 113, 227, 0.08);
+  padding: 2px 9px;
   border-radius: 999px;
-  background: rgba(0, 113, 227, 0.1);
-  color: var(--accent);
+  letter-spacing: 1px;
+  transition: background .15s, color .15s;
+  line-height: 1;
+}}
+.insight-link:hover {{
+  text-decoration: underline;
+  background: rgba(0, 113, 227, 0.15);
 }}
 @media (max-width: 640px) {{
-  .ai-brief-card {{ max-width: none; }}
+  .insight-link {{ font-size: 0.2em; padding: 1px 6px; }}
 }}
 {AI_BRIEFS_CSS_END}
 """.strip()
@@ -129,10 +109,7 @@ def _section_html(payload: dict) -> str:
     href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
     return (
         f"{AI_BRIEFS_START}\n"
-        f'<div class="ai-brief-card" aria-label="{AI_CARD_LABEL}">\n'
-        f'  <div class="ai-label">{AI_CARD_LABEL}</div>\n'
-        f'  <a class="ai-link" href="{href}"><span class="tag">EN</span> →</a>\n'
-        "</div>\n"
+        f'<a class="insight-link" href="{href}">insight</a>\n'
         f"{AI_BRIEFS_END}"
     )
 

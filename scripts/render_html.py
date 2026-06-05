@@ -83,6 +83,10 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.04;
   letter-spacing: 0;
   margin-bottom: 18px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
 }
 .hero h1 em { font-style: normal; color: var(--ink); }
 .hero .lede {
@@ -111,41 +115,23 @@ a { color: inherit; text-decoration: none; }
   position: sticky;
   top: 16px;
 }
-.ai-brief-card {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 14px 16px;
-  margin-bottom: 18px;
-  box-shadow: var(--shadow);
-}
-.ai-brief-card .ai-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: var(--ink-3);
-  margin-bottom: 6px;
-}
-.ai-brief-card .ai-link {
-  display: block;
-  font-size: 14px;
+.insight-link {
+  font-size: 0.22em;
   font-weight: 600;
   color: var(--accent);
   text-decoration: none;
-  line-height: 1.3;
-}
-.ai-brief-card .ai-link:hover {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-.ai-brief-card .tag {
-  font-size: 9px;
-  font-weight: 700;
-  padding: 0 5px;
+  white-space: nowrap;
+  background: rgba(0, 113, 227, 0.08);
+  padding: 2px 9px;
   border-radius: 999px;
-  background: rgba(0, 113, 227, 0.1);
-  color: var(--accent);
+  letter-spacing: 1px;
+  align-self: flex-end;
+  transition: background .15s, color .15s;
+  line-height: 1;
+}
+.insight-link:hover {
+  text-decoration: underline;
+  background: rgba(0, 113, 227, 0.15);
 }
 
 .filter-groups {
@@ -391,7 +377,14 @@ a { color: inherit; text-decoration: none; }
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
   .filter-bar { padding: 16px 20px 12px; }
-  .ai-brief-card { max-width: none; }
+  .insight-link { font-size: 0.2em; padding: 1px 6px; }
+  .hero h1 {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .insight-link {
+    align-self: flex-start;
+  }
   .page { padding: 0 20px 64px; }
 }
 
@@ -784,15 +777,12 @@ def _ai_brief_links() -> str:
     if not date or not path:
         return ""
     # Homepage: English only, only latest, no other briefs exposed.
-    # Placed in sidebar for better visual hierarchy.
-    # AI analysis pages are served from a dedicated subdomain.
+    # "insight" link is now placed next to the hero title (right side) for better balance.
+    # AI analysis pages served from dedicated subdomain.
     href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
     return (
         '<!-- AI_BRIEFS_START -->'
-        f'<div class="ai-brief-card" aria-label="{AI_CARD_LABEL}">'
-        f'<div class="ai-label">{AI_CARD_LABEL}</div>'
-        f'<a class="ai-link" href="{html.escape(href)}"><span class="tag">EN</span> →</a>'
-        '</div>'
+        f'<a class="insight-link" href="{html.escape(href)}">insight</a>'
         '<!-- AI_BRIEFS_END -->'
     )
 
@@ -841,13 +831,15 @@ def render(
 </head>
 <body>
 <header class="hero">
-  <h1><em>Firsthand</em> AI Digest</h1>
+  <h1>
+    <em>Firsthand</em> AI Digest
+    {ai_brief_links}
+  </h1>
   <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
 </header>
 <div class="hero-divider"><hr /></div>
 <div class="content-layout">
   <aside class="sidebar">
-    {ai_brief_links}
     <div class="filter-groups">
       <div class="filter-group">
         <div class="filter-label">Time</div>
