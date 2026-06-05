@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T17:56:05.499129+00:00",
+  "source_segments": [
+    "segments/2026-06-05/00.json",
+    "segments/2026-06-05/06.json",
+    "segments/2026-06-05/12.json",
+    "segments/2026-06-05/18.json"
+  ],
+  "counts": {
+    "x": 30,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 8
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related sub",
+        "summary": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related subscription and credit issues.\nhttps://t.co/Vyqnn17RzG",
+        "link": "https://x.com/OpenAI/status/2062927046448431587",
+        "author": "OpenAI",
+        "published": "2026-06-05T15:58:29+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Sometimes speed is just impatience disguised as ambition. https://t.co/NQ32ApE7sD",
+        "summary": "Sometimes speed is just impatience disguised as ambition. https://t.co/NQ32ApE7sD",
+        "link": "https://x.com/adityaag/status/2062917027103130013",
+        "author": "adityaag",
+        "published": "2026-06-05T15:18:41+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Users who interact with a misleading post that is subsequently corrected by @CommunityNotes will receive an 𝕏 Chat messa",
+        "summary": "Users who interact with a misleading post that is subsequently corrected by @CommunityNotes will receive an 𝕏 Chat message of the CN to correct any misperception",
+        "link": "https://x.com/elonmusk/status/2062905215125233995",
+        "author": "elonmusk",
+        "published": "2026-06-05T14:31:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Crazy times",
+        "summary": "Crazy times",
+        "link": "https://x.com/amasad/status/2062902535153910081",
+        "author": "amasad",
+        "published": "2026-06-05T14:21:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for",
+        "summary": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\"\n\n2. Make it easy to trigger\n\n“Write a clear skill description using this pattern: Use when the user wants to [do this].”\n\n3. Add evals\n\n\"Create an evals md with 10 pass/fail checks for common errors in the skill's output.\"\n\n4. Add memory\n\n\"Create a memory md to capture one-sentence learnings from past chats using this skill.\"\n\n5. Build a skill to edit skills\n\n\"Create a skill that cleans up other skills by removing duplicate or stale instructions, vague rules, and AI slop.\"\n\n📌 Watch my full walkthrough here: https://t.co/u434ytNSZd",
+        "link": "https://x.com/petergyang/status/2062899832965255443",
+        "author": "petergyang",
+        "published": "2026-06-05T14:10:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Build was super fun! Here's a video recap of my presentation. Check it out: https://t.co/tS4K5nOJF9",
+        "summary": "Build was super fun! Here's a video recap of my presentation. Check it out: https://t.co/tS4K5nOJF9",
+        "link": "https://x.com/mustafasuleyman/status/2062891924453818418",
+        "author": "mustafasuleyman",
+        "published": "2026-06-05T13:38:56+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "chat is he cooked https://t.co/INeB6qGfvt",
+        "summary": "chat is he cooked https://t.co/INeB6qGfvt",
+        "link": "https://x.com/swyx/status/2062854555562565741",
+        "author": "swyx",
+        "published": "2026-06-05T11:10:26+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Isomorphic\n\nlikely that every single person in that game was already familiar with this https://t.co/Df87JcQzob",
+        "summary": "Isomorphic\n\nlikely that every single person in that game was already familiar with this https://t.co/Df87JcQzob",
+        "link": "https://x.com/swyx/status/2062847219322270172",
+        "author": "swyx",
+        "published": "2026-06-05T10:41:17+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "29 more Starlink satellites. \n\nOver 10,000 in orbit now.",
+        "summary": "29 more Starlink satellites. \n\nOver 10,000 in orbit now.",
+        "link": "https://x.com/elonmusk/status/2062796377055187258",
+        "author": "elonmusk",
+        "published": "2026-06-05T07:19:15+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok supports worktrees",
+        "summary": "Grok supports worktrees",
+        "link": "https://x.com/elonmusk/status/2062796095764234421",
+        "author": "elonmusk",
+        "published": "2026-06-05T07:18:08+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Build updates",
+        "summary": "Grok Build updates",
+        "link": "https://x.com/elonmusk/status/2062795562265550876",
+        "author": "elonmusk",
+        "published": "2026-06-05T07:16:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok model improvement",
+        "summary": "Grok model improvement",
+        "link": "https://x.com/elonmusk/status/2062795019551957383",
+        "author": "elonmusk",
+        "published": "2026-06-05T07:13:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes, SPLC is a criminal organization",
+        "summary": "Yes, SPLC is a criminal organization",
+        "link": "https://x.com/elonmusk/status/2062752172450681051",
+        "author": "elonmusk",
+        "published": "2026-06-05T04:23:36+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI ",
+        "summary": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool.",
+        "link": "https://x.com/petergyang/status/2062743491365544361",
+        "author": "petergyang",
+        "published": "2026-06-05T03:49:06+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced",
+        "summary": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way.",
+        "link": "https://x.com/petergyang/status/2062740262338929110",
+        "author": "petergyang",
+        "published": "2026-06-05T03:36:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2062738346229506370",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:28:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Corruption",
+        "summary": "Corruption",
+        "link": "https://x.com/elonmusk/status/2062738253925515344",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:28:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip ins",
+        "summary": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+        "link": "https://x.com/thsottiaux/status/2062734215494664697",
+        "author": "thsottiaux",
+        "published": "2026-06-05T03:12:15+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Vote them out",
+        "summary": "Vote them out",
+        "link": "https://x.com/elonmusk/status/2062733952729726994",
+        "author": "elonmusk",
+        "published": "2026-06-05T03:11:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario ",
+        "summary": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI:\n\n“There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.”\n\nAI lowers the barrier dramatically to allowing us to do more. As a result of that, we have far more ideas than we can pursue, and for the ones that we want to pursue we’re ultimately limited by our ability to go take on the surrounding work to execute those ideas. There’s almost no amount of AI progress that can happen where that goes away.\n\nAI is going to let us build much more software, launch more marketing campaigns, research more drugs, and so on. All of this work, even when augmented by agents, still ultimately requires people to manage.",
+        "link": "https://x.com/levie/status/2062728257359790292",
+        "author": "levie",
+        "published": "2026-06-05T02:48:34+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "SpaceX",
+        "summary": "SpaceX",
+        "link": "https://x.com/elonmusk/status/2062716424615862315",
+        "author": "elonmusk",
+        "published": "2026-06-05T02:01:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Summer camp assistant Hermes Agent to the rescue @NousResearch https://t.co/a70a5mCmSV",
+        "summary": "Summer camp assistant Hermes Agent to the rescue @NousResearch https://t.co/a70a5mCmSV",
+        "link": "https://x.com/petergyang/status/2062685858109800510",
+        "author": "petergyang",
+        "published": "2026-06-05T00:00:06+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Even 2010 tbh",
+        "summary": "Even 2010 tbh",
+        "link": "https://x.com/elonmusk/status/2062676432162078967",
+        "author": "elonmusk",
+        "published": "2026-06-04T23:22:38+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Love this Gemini feature on my macOS app!",
+        "summary": "Love this Gemini feature on my macOS app!",
+        "link": "https://x.com/joshwoodward/status/2062667951485108354",
+        "author": "joshwoodward",
+        "published": "2026-06-04T22:48:56+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Some more dumb questions about Codex:\n\n1. I use it on my primary laptop which I don't keep on all the time so I don't li",
+        "summary": "Some more dumb questions about Codex:\n\n1. I use it on my primary laptop which I don't keep on all the time so I don't like setting up cron jobs there. \n\nCan I set up the app on my Mac Mini too and run all the cron jobs through that? I have a feeling it's gonna replace OpenClaw/Hermes for me then.\n\n2. Is the image gen feature on Codex basically free? It's using ChatGPT Images 2?\n\n3. Anyone tried generating images first and then using @HeyGen hyperframes to generate videos?",
+        "link": "https://x.com/petergyang/status/2062662500928421960",
+        "author": "petergyang",
+        "published": "2026-06-04T22:27:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "man the early days of the internet were so special",
+        "summary": "man the early days of the internet were so special",
+        "link": "https://x.com/sama/status/2062661191969972645",
+        "author": "sama",
+        "published": "2026-06-04T22:22:05+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "build and publish web apps with chatgpt!\n\ni really wish i had this when i was a kid, but i do miss hypercard.",
+        "summary": "build and publish web apps with chatgpt!\n\ni really wish i had this when i was a kid, but i do miss hypercard.",
+        "link": "https://x.com/sama/status/2062661071761211561",
+        "author": "sama",
+        "published": "2026-06-04T22:21:36+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "big upgrade to chatgpt memory rolling out today!",
+        "summary": "big upgrade to chatgpt memory rolling out today!",
+        "link": "https://x.com/sama/status/2062660086787613116",
+        "author": "sama",
+        "published": "2026-06-04T22:17:41+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to",
+        "summary": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb",
+        "link": "https://x.com/_catwu/status/2062659533047259212",
+        "author": "_catwu",
+        "published": "2026-06-04T22:15:29+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this.",
+        "summary": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this.",
+        "link": "https://x.com/adityaag/status/2062655784127971565",
+        "author": "adityaag",
+        "published": "2026-06-04T22:00:35+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting Andreas Kling",
+        "summary": "<blockquote cite=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\"><p>We will no longer accept public pull requests. [...]</p>\n<p>A substantial patch used to imply substantial effort, and that effort was a reasonable proxy for good faith. That assumption no longer holds. [...]</p>\n<p>Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. Ladybird is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the consequences.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\">Andreas Kling</a>, Changing How We Develop Ladybird</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ladybird\">ladybird</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/andreas-kling\">andreas-kling</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/5/andreas-kling/",
+        "author": "",
+        "keywords": "ladybird ai-ethics open-source generative-ai ai andreas-kling llms",
+        "published": "2026-06-05T11:10:05+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+        "summary": "<p><strong><a href=\"https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against\">AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</a></strong></p>\nCharity Majors neatly captures the dynamic between AI enthusiasts and AI skeptics, both of whom are trying to build great software, often in the same teams:</p>\n<blockquote>\n<p>The enthusiasts are <em>not wrong</em>. We are starting to see real, non-imaginary, discontinuous leaps in capabilities from teams that lean in hard to working with AI. And this does not feel like a normal technology cycle where you can wait for the dust to settle; teams that sit this out while competitors are hustling could be out of business before the dust settles. That’s a real, existential threat.</p>\n<p>The skeptics are also <em>not wrong</em>. When you ship code faster than engineers can read it, in domains where nobody has full context, you are making withdrawals from a trust account that took years to build. Reliability degrades, institutional knowledge evaporates. You end up with systems nobody understands, products burbling into incoherence, and on-call rotations that grind people up and spit them out. That is ALSO a real existential threat.</p>\n</blockquote>\n<p>Charity recommends treating this as both a leadership challenge and an engineering challenge. The key issue:</p>\n<blockquote>\n<p>There is no natural feedback loop connecting enthusiasts with skeptics.</p>\n</blockquote>\n<p>Designing feedback loops to help \"mend the gap in shared reality\" between the two groups is a fascinating organizational design problem.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/ri4flr/ai_enthusiasts_are_race_against_time_ai\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/charity-majors\">charity-majors</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/",
+        "author": "",
+        "keywords": "ai charity-majors agentic-engineering",
+        "published": "2026-06-04T23:55:27+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Quoting Emanuel Maiberg, 404 Media",
+        "summary": "<blockquote cite=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\"><p>After this story was published Google's spokesperson reached out and asked us to publish a slightly different version of that statement. The new statement no longer stated that \"it's critical that we maintain humans in the loop.\"</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.404media.co/google-employees-internally-share-memes-about-how-its-ai-sucks/\">Emanuel Maiberg, 404 Media</a>, Google Employees Internally Share Memes About How Its AI Sucks</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/google\">google</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/4/a-slightly-different-version/",
+        "author": "",
+        "keywords": "ai-ethics journalism ai google",
+        "published": "2026-06-04T16:38:29+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "DeepMind’s New AI Found A Strange New Way To Think",
+        "summary": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://github.com/google-deepmind/alphaproof-nexus-results\nhttps://arxiv.org/html/2605.22763v1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "link": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-05T15:50:26+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "The 200 Year Old AI Forecast – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=4VInvvTcVCU",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-05T14:15:17+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "1Password One Shots with Codex",
+        "summary": "“With Codex, it’s helped us get to feature launches faster,” Nancy Wang. \n\nThe 1Password team is going from idea to prototype in one shot. 💥 \n\n\"What's been eye opening for our engineers is really that shortening of the life cycle between planning and being able to actually see a feature in production.\"\n\n☑️ Check out Codex for every role: https://lnkd.in/dnxrM282",
+        "link": "https://www.youtube.com/watch?v=xZ5J81Lwyk8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-05T13:01:28+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Codex is your BFF when things are everything, everywhere, all at once 💫",
+        "summary": "Zapier is a remote first company, so their team is working across multiple tools like Slack, Google Docs and Coda. For Ryan Fitzgerald, Codex is the one piece that pulls it all together. \n\n➡️ https://lnkd.in/dnxrM282",
+        "link": "https://www.youtube.com/shorts/BdBxQz8e-o8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-04T20:27:50+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "What Codex Unlocks for Zapier",
+        "summary": "Zapier is a remote first company, so their team is working across multiple tools like Slack, Google Docs and Coda. For Ryan Fitzgerald, Codex is the one piece that pulls it all together. \n\nThe headline: Codex is your BFF when things are everything, everywhere, all at once 💫 \n\n➡️ https://lnkd.in/dnxrM282",
+        "link": "https://www.youtube.com/watch?v=DDnGhZ01PqM",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-04T20:25:18+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Codex for Sales Teams: Moving Faster to Solve Customer Problems",
+        "summary": "Check out the quick ways Ashton and our sales team are leaning into Codex for prep work, ultimately delivering a better customer experience. \n\n✅ Pulls data for customer queries in 5 minutes\n✅ Creates demos & prototypes for customer convos \n✅ Sends recurring Slack updates with account specific headlines \n✅ Writes in Ashton's tone of voice  \n\nCodex is for every role, tool and workflow: https://lnkd.in/dnxrM282",
+        "link": "https://www.youtube.com/watch?v=U2C55LC0ZLM",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-04T19:32:57+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Build and share interactive prototypes in Codex",
+        "summary": "The Product Design plugin for Codex helps teams move from a rough idea to a prototype they can see, refine, and share for feedback.\n\nWith a single install, Codex becomes more useful for product design work, helping teams explore directions, build prototypes, and iterate faster.\n\nLearn more: https://openai.com/index/codex-for-every-role-tool-workflow/\nTry the plugin today: https://chatgpt.com/plugins/share/37f657dbc41f408d9b05b52d30b8b527",
+        "link": "https://www.youtube.com/watch?v=_9ImjmzAyus",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-04T18:06:29+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "How a reasoning model cracked an 80-year-old math problem — the OpenAI Podcast Ep. 20",
+        "summary": "Last month AI found something mathematicians had missed for decades. Reasoning researchers Alexander Wei, Hongxun Wu, and Lijie Chen join the podcast to discuss how a general-purpose model helped disprove an 80-year-old conjecture from famed mathematician Paul Erdős. \n\nThey walk through the moment the result started looking real, what it took to verify the proof, and what’s happened since sharing the discovery with the world. They also explore what this means for the future of math and for researchers learning to work with AI.\n\nChapters\n\n0:44 AI and the International Math Olympiad and International Olympiad of Informatics\n6:35 An OpenAI model disproves the Erdős unit distance conjecture\n8:33 Running the model and checking the proof\n11:04 Why general models matter for discovery\n15:55 Creativity, tools, and how the proof worked\n18:25 Why AI should feel empowering for mathematicians\n22:31 Advice for researchers using AI\n27:24 What comes next for math and AI research\n37:30 Cryptography, quantum computing, and the future",
+        "link": "https://www.youtube.com/watch?v=wNWz5Hbh5VQ",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-04T17:00:35+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}

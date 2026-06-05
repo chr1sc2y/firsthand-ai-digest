@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-05T17:56:05.499129+00:00",
+  "counts": {
+    "x": 8,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related sub",
+        "summary": "An issue caused some user accounts to be incorrectly suspended. \n\nWe’re restoring access and working through related subscription and credit issues.\nhttps://t.co/Vyqnn17RzG",
+        "link": "https://x.com/OpenAI/status/2062927046448431587",
+        "author": "OpenAI",
+        "published": "2026-06-05T15:58:29+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Sometimes speed is just impatience disguised as ambition. https://t.co/NQ32ApE7sD",
+        "summary": "Sometimes speed is just impatience disguised as ambition. https://t.co/NQ32ApE7sD",
+        "link": "https://x.com/adityaag/status/2062917027103130013",
+        "author": "adityaag",
+        "published": "2026-06-05T15:18:41+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Users who interact with a misleading post that is subsequently corrected by @CommunityNotes will receive an 𝕏 Chat messa",
+        "summary": "Users who interact with a misleading post that is subsequently corrected by @CommunityNotes will receive an 𝕏 Chat message of the CN to correct any misperception",
+        "link": "https://x.com/elonmusk/status/2062905215125233995",
+        "author": "elonmusk",
+        "published": "2026-06-05T14:31:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Crazy times",
+        "summary": "Crazy times",
+        "link": "https://x.com/amasad/status/2062902535153910081",
+        "author": "amasad",
+        "published": "2026-06-05T14:21:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for",
+        "summary": "How to build AI skills that check their own work and improve over time:\n\n1. Give it context\n\nAsk AI: \"Create a skill for this [repeated task]. Here are examples of good output so it knows what good looks like.\"\n\n2. Make it easy to trigger\n\n“Write a clear skill description using this pattern: Use when the user wants to [do this].”\n\n3. Add evals\n\n\"Create an evals md with 10 pass/fail checks for common errors in the skill's output.\"\n\n4. Add memory\n\n\"Create a memory md to capture one-sentence learnings from past chats using this skill.\"\n\n5. Build a skill to edit skills\n\n\"Create a skill that cleans up other skills by removing duplicate or stale instructions, vague rules, and AI slop.\"\n\n📌 Watch my full walkthrough here: https://t.co/u434ytNSZd",
+        "link": "https://x.com/petergyang/status/2062899832965255443",
+        "author": "petergyang",
+        "published": "2026-06-05T14:10:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Build was super fun! Here's a video recap of my presentation. Check it out: https://t.co/tS4K5nOJF9",
+        "summary": "Build was super fun! Here's a video recap of my presentation. Check it out: https://t.co/tS4K5nOJF9",
+        "link": "https://x.com/mustafasuleyman/status/2062891924453818418",
+        "author": "mustafasuleyman",
+        "published": "2026-06-05T13:38:56+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "chat is he cooked https://t.co/INeB6qGfvt",
+        "summary": "chat is he cooked https://t.co/INeB6qGfvt",
+        "link": "https://x.com/swyx/status/2062854555562565741",
+        "author": "swyx",
+        "published": "2026-06-05T11:10:26+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Isomorphic\n\nlikely that every single person in that game was already familiar with this https://t.co/Df87JcQzob",
+        "summary": "Isomorphic\n\nlikely that every single person in that game was already familiar with this https://t.co/Df87JcQzob",
+        "link": "https://x.com/swyx/status/2062847219322270172",
+        "author": "swyx",
+        "published": "2026-06-05T10:41:17+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting Andreas Kling",
+        "summary": "<blockquote cite=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\"><p>We will no longer accept public pull requests. [...]</p>\n<p>A substantial patch used to imply substantial effort, and that effort was a reasonable proxy for good faith. That assumption no longer holds. [...]</p>\n<p>Whether code was typed by hand is beside the point. What matters is who is responsible for it once it enters the browser. Ladybird is becoming a browser for real users. The people introducing changes to it must be the people who decide those changes belong in the project, and who will answer for the consequences.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://ladybird.org/posts/changing-how-we-develop-ladybird/\">Andreas Kling</a>, Changing How We Develop Ladybird</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ladybird\">ladybird</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/andreas-kling\">andreas-kling</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/5/andreas-kling/",
+        "author": "",
+        "keywords": "ladybird ai-ethics open-source generative-ai ai andreas-kling llms",
+        "published": "2026-06-05T11:10:05+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "DeepMind’s New AI Found A Strange New Way To Think",
+        "summary": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://github.com/google-deepmind/alphaproof-nexus-results\nhttps://arxiv.org/html/2605.22763v1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "link": "https://www.youtube.com/watch?v=Dkqzqw8rxXI",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-05T15:50:26+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "The 200 Year Old AI Forecast – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=4VInvvTcVCU",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-05T14:15:17+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "1Password One Shots with Codex",
+        "summary": "“With Codex, it’s helped us get to feature launches faster,” Nancy Wang. \n\nThe 1Password team is going from idea to prototype in one shot. 💥 \n\n\"What's been eye opening for our engineers is really that shortening of the life cycle between planning and being able to actually see a feature in production.\"\n\n☑️ Check out Codex for every role: https://lnkd.in/dnxrM282",
+        "link": "https://www.youtube.com/watch?v=xZ5J81Lwyk8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-05T13:01:28+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-05T10:00:00+00:00",
+    "end": "2026-06-05T16:00:00+00:00"
+  }
+}
