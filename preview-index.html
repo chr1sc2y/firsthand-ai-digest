@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="digest-generated" content="2026-06-05 09:36:42 UTC" />
+<meta name="digest-generated" content="2026-06-05 15:40:56 UTC" />
 <title>Firsthand AI Digest</title>
 <style>
 :root {
@@ -60,10 +60,7 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.04;
   letter-spacing: 0;
   margin-bottom: 18px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
+  max-width: 920px;
 }
 .hero h1 em { font-style: normal; color: var(--ink); }
 .hero .lede {
@@ -91,24 +88,56 @@ a { color: inherit; text-decoration: none; }
 .sidebar {
   position: sticky;
   top: 16px;
+  display: grid;
+  gap: 18px;
+}
+.insight-callout {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface-2);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
 .insight-link {
-  font-size: 0.22em;
-  font-weight: 600;
-  color: var(--accent);
+  display: grid;
+  gap: 6px;
+  padding: 14px;
   text-decoration: none;
-  white-space: nowrap;
-  background: rgba(0, 113, 227, 0.08);
-  padding: 2px 9px;
-  border-radius: 999px;
-  letter-spacing: 1px;
-  align-self: flex-end;
-  transition: background .15s, color .15s;
-  line-height: 1;
+  color: var(--accent);
+  transition: background .15s, box-shadow .15s, transform .15s;
 }
 .insight-link:hover {
-  text-decoration: underline;
-  background: rgba(0, 113, 227, 0.15);
+  background: rgba(0, 113, 227, 0.07);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+.insight-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.insight-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--ink);
+}
+.insight-arrow {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+.insight-note {
+  font-size: 12px;
+  line-height: 1.38;
+  color: var(--ink-2);
 }
 
 .filter-groups {
@@ -169,6 +198,9 @@ a { color: inherit; text-decoration: none; }
   .sidebar {
     position: static;
     order: -1; /* AI + filters on top on mobile */
+  }
+  .insight-callout {
+    max-width: 520px;
   }
   .filter-groups {
     grid-template-columns: 1fr 1fr;
@@ -353,15 +385,8 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 640px) {
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
-  .filter-bar { padding: 16px 20px 12px; }
-  .insight-link { font-size: 0.2em; padding: 1px 6px; }
-  .hero h1 {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .insight-link {
-    align-self: flex-start;
-  }
+  .content-layout { padding: 0 20px 56px; }
+  .filter-groups { gap: 10px; }
   .page { padding: 0 20px 64px; }
 }
 
@@ -379,15 +404,13 @@ footer.page-foot { display: none; }
 </head>
 <body>
 <header class="hero">
-  <h1>
-    <em>Firsthand</em> AI Digest
-    <!-- AI_BRIEFS_START --><a class="insight-link" href="https://insight.ai.prov1dence.top/ai-briefs/2026-06-05-ai-brief.html">insight</a><!-- AI_BRIEFS_END -->
-  </h1>
+  <h1><em>Firsthand</em> AI Digest</h1>
   <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
 </header>
 <div class="hero-divider"><hr /></div>
 <div class="content-layout">
   <aside class="sidebar">
+    <!-- AI_BRIEFS_START --><section class="insight-callout" aria-label="Latest AI insight"><a class="insight-link" href="https://insight.ai.prov1dence.top/ai-briefs/2026-06-05-ai-brief.html" aria-label="Latest AI Insight, daily interpreted brief from the last 24 hours"><span class="insight-kicker">Analysis</span><span class="insight-title">Latest AI Insight<span class="insight-arrow" aria-hidden="true">-&gt;</span></span><span class="insight-note">Daily interpreted brief from the last 24 hours.</span></a></section><!-- AI_BRIEFS_END -->
     <div class="filter-groups">
       <div class="filter-group">
         <div class="filter-label">Time</div>
@@ -428,7 +451,7 @@ footer.page-foot { display: none; }
     <div class="card-title">Building reliable agentic systems</div>
     <div class="card-summary">A practical look at tool use, handoffs, and measuring model behavior before broad release.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-04T21:36:42.966342+00:00">2026-06-04 21:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-05T03:40:56.157944+00:00">2026-06-05 03:40:56 UTC</span>
       <a class="card-link card-link-blog" href="https://openai.com/blog/mock-agentic-systems" target="_blank" rel="noreferrer noopener">Read article ↗</a>
     </div>
   </div>
@@ -447,7 +470,7 @@ footer.page-foot { display: none; }
     <div class="card-title">Notes on prompt injection and product boundaries</div>
     <div class="card-summary">A field note on isolating untrusted text and keeping user intent explicit in AI applications.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-03T21:36:42.966342+00:00">2026-06-03 21:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-04T03:40:56.157944+00:00">2026-06-04 03:40:56 UTC</span>
       <a class="card-link card-link-blog" href="https://simonwillison.net/mock/prompt-injection" target="_blank" rel="noreferrer noopener">Read article ↗</a>
     </div>
   </div>
@@ -465,7 +488,7 @@ footer.page-foot { display: none; }
     <div class="card-title">Sam Altman on agents in production</div>
     <div class="card-summary">A conversation about product pressure, evaluation loops, and the long tail of model behavior.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-02T09:36:42.966342+00:00">2026-06-02 09:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-02T15:40:56.157944+00:00">2026-06-02 15:40:56 UTC</span>
       <a class="card-link card-link-podcast" href="https://www.latent.space/p/mock-agents" target="_blank" rel="noreferrer noopener">Listen ↗</a>
     </div>
   </div>
@@ -483,7 +506,7 @@ footer.page-foot { display: none; }
     <div class="card-title">Research update: reasoning models</div>
     <div class="card-summary">A short briefing on recent reasoning-model experiments and benchmark behavior.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-04T13:36:42.966342+00:00">2026-06-04 13:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-04T19:40:56.157944+00:00">2026-06-04 19:40:56 UTC</span>
       <a class="card-link card-link-video" href="https://www.youtube.com/watch?v=mock-video" target="_blank" rel="noreferrer noopener">Watch ↗</a>
     </div>
   </div>
@@ -501,7 +524,7 @@ footer.page-foot { display: none; }
     
     <div class="card-summary">We are seeing agents move from demos into real daily workflows. The next step is reliability, not flash.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-05T07:36:42.966342+00:00">2026-06-05 07:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-05T13:40:56.157944+00:00">2026-06-05 13:40:56 UTC</span>
       <a class="card-link card-link-x" href="https://x.com/sama/status/mock-1" target="_blank" rel="noreferrer noopener">Open ↗</a>
     </div>
   </div>
@@ -520,7 +543,7 @@ footer.page-foot { display: none; }
     
     <div class="card-summary">Small, understandable evals remain the fastest way to make model-powered products less mysterious.</div>
     <div class="card-foot">
-      <span class="card-time" data-iso="2026-06-05T04:36:42.966342+00:00">2026-06-05 04:36:42 UTC</span>
+      <span class="card-time" data-iso="2026-06-05T10:40:56.157944+00:00">2026-06-05 10:40:56 UTC</span>
       <a class="card-link card-link-x" href="https://x.com/karpathy/status/mock-2" target="_blank" rel="noreferrer noopener">Open ↗</a>
     </div>
   </div>

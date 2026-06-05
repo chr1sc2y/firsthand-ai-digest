@@ -29,7 +29,7 @@ Flip between time windows (3h · 6h · 12h · 24h · 3d · 7d) to see what's fre
 
 ## Daily AI interpretations
 
-The Codex automation `每日 AI 资讯 24 小时深度报告` publishes its English HTML brief into `data/ai-briefs/` after each run. The build copies those briefs into `dist/ai-briefs/`, and the homepage shows the latest links as `yyyy-mm-dd AI 解读`, so the daily analysis is reachable directly from the site.
+The Codex automation `每日 AI 资讯 24 小时深度报告` publishes its English HTML brief into `data/ai-briefs/` after each run. The build copies those briefs into `dist/ai-briefs/`, and the homepage surfaces the newest brief as an independent `Latest AI Insight` entry, so the daily analysis is reachable directly without affecting the main digest title.
 
 ---
 

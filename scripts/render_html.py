@@ -83,10 +83,7 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.04;
   letter-spacing: 0;
   margin-bottom: 18px;
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
+  max-width: 920px;
 }
 .hero h1 em { font-style: normal; color: var(--ink); }
 .hero .lede {
@@ -114,24 +111,56 @@ a { color: inherit; text-decoration: none; }
 .sidebar {
   position: sticky;
   top: 16px;
+  display: grid;
+  gap: 18px;
+}
+.insight-callout {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface-2);
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
 .insight-link {
-  font-size: 0.22em;
-  font-weight: 600;
-  color: var(--accent);
+  display: grid;
+  gap: 6px;
+  padding: 14px;
   text-decoration: none;
-  white-space: nowrap;
-  background: rgba(0, 113, 227, 0.08);
-  padding: 2px 9px;
-  border-radius: 999px;
-  letter-spacing: 1px;
-  align-self: flex-end;
-  transition: background .15s, color .15s;
-  line-height: 1;
+  color: var(--accent);
+  transition: background .15s, box-shadow .15s, transform .15s;
 }
 .insight-link:hover {
-  text-decoration: underline;
-  background: rgba(0, 113, 227, 0.15);
+  background: rgba(0, 113, 227, 0.07);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-1px);
+}
+.insight-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+.insight-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: var(--sans);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.18;
+  color: var(--ink);
+}
+.insight-arrow {
+  flex: 0 0 auto;
+  color: var(--accent);
+}
+.insight-note {
+  font-size: 12px;
+  line-height: 1.38;
+  color: var(--ink-2);
 }
 
 .filter-groups {
@@ -192,6 +221,9 @@ a { color: inherit; text-decoration: none; }
   .sidebar {
     position: static;
     order: -1; /* AI + filters on top on mobile */
+  }
+  .insight-callout {
+    max-width: 520px;
   }
   .filter-groups {
     grid-template-columns: 1fr 1fr;
@@ -376,15 +408,8 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 640px) {
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
-  .filter-bar { padding: 16px 20px 12px; }
-  .insight-link { font-size: 0.2em; padding: 1px 6px; }
-  .hero h1 {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .insight-link {
-    align-self: flex-start;
-  }
+  .content-layout { padding: 0 20px 56px; }
+  .filter-groups { gap: 10px; }
   .page { padding: 0 20px 64px; }
 }
 
@@ -784,12 +809,20 @@ def _ai_brief_links() -> str:
     if not path:
         return ""
     # Homepage: English only, only latest, no other briefs exposed.
-    # "insight" link is now placed next to the hero title (right side) for better balance.
-    # AI analysis pages served from dedicated subdomain.
+    # AI analysis pages are served from a dedicated subdomain and presented
+    # as a separate homepage callout, not part of the title lockup.
     href = f"https://{AI_ANALYSIS_DOMAIN}{path}"
     return (
         '<!-- AI_BRIEFS_START -->'
-        f'<a class="insight-link" href="{html.escape(href)}">insight</a>'
+        '<section class="insight-callout" aria-label="Latest AI insight">'
+        f'<a class="insight-link" href="{html.escape(href)}" '
+        'aria-label="Latest AI Insight, daily interpreted brief from the last 24 hours">'
+        '<span class="insight-kicker">Analysis</span>'
+        f'<span class="insight-title">{html.escape(AI_CARD_LABEL)}'
+        '<span class="insight-arrow" aria-hidden="true">-&gt;</span></span>'
+        '<span class="insight-note">Daily interpreted brief from the last 24 hours.</span>'
+        '</a>'
+        '</section>'
         '<!-- AI_BRIEFS_END -->'
     )
 
@@ -855,15 +888,13 @@ def render(
 </head>
 <body>
 <header class="hero">
-  <h1>
-    <em>Firsthand</em> AI Digest
-    {ai_brief_links}
-  </h1>
+  <h1><em>Firsthand</em> AI Digest</h1>
   <p class="lede">Posts, blogs, podcasts and videos from the people building AI &mdash; straight from the source.</p>
 </header>
 <div class="hero-divider"><hr /></div>
 <div class="content-layout">
   <aside class="sidebar">
+    {ai_brief_links}
     <div class="filter-groups">
       <div class="filter-group">
         <div class="filter-label">Time</div>
