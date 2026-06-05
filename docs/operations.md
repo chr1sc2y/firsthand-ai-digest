@@ -91,9 +91,9 @@ python scripts/sync_insight_site.py \
   --target-dir /Users/zintrulcre/repo/firsthand-ai-insight
 ```
 
-This copies `data/ai-briefs/` into the Insight repo, writes a root redirect to
-the latest English brief, writes `CNAME`, and installs a minimal GitHub Pages
-workflow for the Insight repo.
+This copies `data/ai-briefs/` into the Insight repo, writes a root `index.html`
+that displays the latest English brief, writes `CNAME`, and installs a minimal
+GitHub Pages workflow for the Insight repo.
 
 To let `.github/workflows/daily.yml` sync the Insight repo automatically after
 the scheduled digest build, create a main-repo secret named
