@@ -346,6 +346,25 @@ def copy_data_to_dist(data_dir: Path, dist_dir: Path) -> None:
         shutil.rmtree(old)
 
 
+def copy_ai_briefs_to_dist(data_dir: Path, dist_dir: Path) -> None:
+    source = data_dir / "ai-briefs"
+    if not source.exists():
+        return
+    target = dist_dir / "ai-briefs"
+    new = dist_dir / "ai-briefs._new"
+    old = dist_dir / "ai-briefs._old"
+    if new.exists():
+        shutil.rmtree(new)
+    if old.exists():
+        shutil.rmtree(old)
+    shutil.copytree(source, new)
+    if target.exists():
+        target.rename(old)
+    new.rename(target)
+    if old.exists():
+        shutil.rmtree(old)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Build digest data archive and site.")
     parser.add_argument("--data-dir", type=Path, default=ROOT / "data")
@@ -365,6 +384,7 @@ def main(argv: list[str] | None = None) -> int:
     build_index(args.data_dir, tz_name=args.timezone)
     render_latest(args.data_dir, args.dist_dir, hours=args.render_hours)
     copy_data_to_dist(args.data_dir, args.dist_dir)
+    copy_ai_briefs_to_dist(args.data_dir, args.dist_dir)
     return 0
 
 

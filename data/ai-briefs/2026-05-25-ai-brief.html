@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief · 2026-05-25</title>
+  <style>
+    :root {
+      --bg: #f6f4ef;
+      --ink: #1e2528;
+      --muted: #627174;
+      --line: #d8d2c7;
+      --card: #fffdfa;
+      --blue: #21606f;
+      --green: #34704a;
+      --red: #9a3b30;
+      --gold: #9b6b1b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.55 ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--blue); text-decoration: none; border-bottom: 1px solid rgba(33, 96, 111, .25); }
+    a:hover { border-bottom-color: currentColor; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
+      gap: 24px;
+      align-items: end;
+      padding: 20px 0 26px;
+      border-bottom: 2px solid var(--ink);
+    }
+    h1 { margin: 0 0 10px; font-size: 34px; line-height: 1.05; letter-spacing: 0; }
+    h2 { margin: 0 0 12px; font-size: 18px; }
+    h3 { margin: 0 0 8px; font-size: 16px; }
+    p { margin: 0 0 10px; }
+    .dek { max-width: 760px; color: var(--muted); font-size: 17px; }
+    .meta {
+      display: grid;
+      gap: 8px;
+      padding: 14px;
+      background: #ebe5d8;
+      border: 1px solid var(--line);
+    }
+    .meta div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid rgba(30,37,40,.12); padding-bottom: 5px; }
+    .meta div:last-child { border-bottom: 0; padding-bottom: 0; }
+    .label { color: var(--muted); }
+    .value { font-weight: 700; text-align: right; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; margin-top: 18px; }
+    .panel, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+    }
+    .span-12 { grid-column: span 12; }
+    .span-8 { grid-column: span 8; }
+    .span-6 { grid-column: span 6; }
+    .span-4 { grid-column: span 4; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .kpi { padding: 14px; border: 1px solid var(--line); background: #fbf8f1; border-radius: 8px; }
+    .num { display: block; font-size: 28px; font-weight: 800; line-height: 1; }
+    .small { color: var(--muted); font-size: 13px; }
+    .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 12px; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; font-size: 12px; color: var(--muted); background: #faf6ed; }
+    .tag.fact { color: var(--green); border-color: rgba(52,112,74,.35); }
+    .tag.limited { color: var(--red); border-color: rgba(154,59,48,.35); }
+    .tag.infer { color: var(--gold); border-color: rgba(155,107,27,.35); }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 5px 0; }
+    .items { display: grid; gap: 12px; }
+    .item-title { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+    .item-title strong { font-size: 17px; }
+    .conf { font-size: 12px; font-weight: 700; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+    .high { color: var(--green); background: rgba(52,112,74,.1); }
+    .medium { color: var(--gold); background: rgba(155,107,27,.12); }
+    .low { color: var(--red); background: rgba(154,59,48,.1); }
+    .source-list { columns: 2; column-gap: 28px; font-size: 13px; }
+    .source-list li { break-inside: avoid; margin-bottom: 7px; }
+    .trend { border-left: 4px solid var(--blue); padding-left: 12px; }
+    .note { color: var(--muted); font-size: 13px; }
+    @media (max-width: 860px) {
+      .wrap { padding: 18px; }
+      header, .grid, .kpis { display: block; }
+      .meta, .panel, .card, .kpi { margin-top: 12px; }
+      .source-list { columns: 1; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <section>
+        <h1>Firsthand AI Digest: 24-Hour Brief</h1>
+        <p class="dek">A compact source-checked readout of the latest Firsthand AI Digest window. Facts below are tied to original sources where accessible; X/video items are marked limited when only public embeds, descriptions, or linked show notes were retrievable.</p>
+      </section>
+      <aside class="meta" aria-label="Run metadata">
+        <div><span class="label">Execution</span><span class="value">2026-05-25 07:01 CST</span></div>
+        <div><span class="label">Coverage</span><span class="value">2026-05-24 07:01 to 2026-05-25 07:01 CST</span></div>
+        <div><span class="label">Index</span><span class="value"><a href="https://ai.prov1dence.top/">Firsthand AI Digest</a></span></div>
+      </aside>
+    </header>
+
+    <section class="grid">
+      <div class="panel span-12">
+        <div class="kpis">
+          <div class="kpi"><span class="num">28</span><span class="small">Firsthand items in window</span></div>
+          <div class="kpi"><span class="num">28</span><span class="small">First-layer original sources</span></div>
+          <div class="kpi"><span class="num">2</span><span class="small">Fully fetched first-layer originals</span></div>
+          <div class="kpi"><span class="num">26</span><span class="small">Limited first-layer originals</span></div>
+        </div>
+        <p class="note" style="margin-top:12px">Deepening pass added accessible secondary/original context: Armin Ronacher's full post, the Dwarkesh full-episode transcript and YouTube metadata, Twitter oEmbed text for public posts, GitHub API metadata for <a href="https://github.com/openai/codex">openai/codex</a>, and the <a href="https://release.bar/steipete">ReleaseBar</a> product page. X images, replies, videos, and complete thread context were not fully accessible.</p>
+      </div>
+
+      <section class="panel span-8">
+        <h2>Executive Summary</h2>
+        <ul>
+          <li><strong>Agent quality is becoming a maintainer burden.</strong> Armin Ronacher's <a href="https://lucumr.pocoo.org/2026/5/24/pi-oss/">Building Pi With Pi</a> argues that AI-expanded bug reports and local workaround-heavy patches create extra work for open-source maintainers.</li>
+          <li><strong>The developer-agent discourse is shifting from novelty to operating model.</strong> Posts by <a href="https://x.com/petergyang/status/2058555226479866312">Peter Yang</a>, <a href="https://x.com/levie/status/2058582370253701432">Aaron Levie</a>, and <a href="https://x.com/danshipper/status/2058592843707396250">Dan Shipper</a> circle the same question: how to turn agents into durable work systems without mistaking demos for production value.</li>
+          <li><strong>RL/search remains central to reasoning debates.</strong> Dwarkesh Patel's <a href="https://www.dwarkesh.com/p/eric-jang">Eric Jang episode transcript</a> connects AlphaGo-style search, self-play, and automated research loops to current uncertainty about LLM reasoning.</li>
+          <li><strong>Codex mindshare is visible but noisy.</strong> Public X posts mention Codex prompts, open-source availability, and comparative usage; these are weak market signals because the underlying sample methods and images were only partially accessible.</li>
+        </ul>
+      </section>
+
+      <aside class="panel span-4">
+        <h2>Confidence Notes</h2>
+        <p><span class="tag fact">Fact</span> Strongest claims come from full web pages: <a href="https://lucumr.pocoo.org/2026/5/24/pi-oss/">Ronacher</a>, <a href="https://simonwillison.net/2026/May/24/usborne-mad-house/">Willison</a>, and the <a href="https://www.dwarkesh.com/p/eric-jang">Dwarkesh transcript</a>.</p>
+        <p><span class="tag infer">Inference</span> Trend judgments aggregate many public posts, so they should be read as directional signals.</p>
+        <p><span class="tag limited">Limited</span> X-only items are based on oEmbed text and Firsthand excerpts, not logged-in thread inspection.</p>
+      </aside>
+
+      <section class="span-12 items">
+        <h2>Themed Cards</h2>
+
+        <article class="card">
+          <div class="item-title"><strong>Open source under AI-generated issue pressure</strong><span class="conf high">High confidence</span></div>
+          <div class="tagrow"><span class="tag fact">Fact</span><span class="tag">Open source</span><span class="tag">Coding agents</span></div>
+          <p><strong>What happened:</strong> Simon Willison highlighted Ronacher's complaint about AI-rewritten issue reports; Ronacher's original post says Pi maintainers use issue text as inputs to Pi sessions and that bad AI-written diagnoses can mislead the agent investigation itself (<a href="https://simonwillison.net/2026/May/24/armin-ronacher/">Willison quote</a>, <a href="https://lucumr.pocoo.org/2026/5/24/pi-oss/">full post</a>).</p>
+          <p><strong>Analysis:</strong> The important shift is not "AI makes bad issues"; it is that issue trackers are becoming prompt surfaces. Maintainers now need contributor norms that preserve raw observations, exact logs, and known-unknown boundaries.</p>
+          <p><strong>Implication:</strong> Developer-tool teams should add issue templates that separate observed facts from AI-generated hypotheses, and agent workflows should explicitly discard unverified user-provided diagnoses.</p>
+        </article>
+
+        <article class="card">
+          <div class="item-title"><strong>Agents as startup operating systems</strong><span class="conf medium">Medium confidence</span></div>
+          <div class="tagrow"><span class="tag limited">Limited</span><span class="tag">Startups</span><span class="tag">Agent ops</span></div>
+          <p><strong>What happened:</strong> Peter Yang posted clips and notes from a Ryan Carson episode about running a startup solo with AI agents, including agent use for email triage, scheduling, sales outreach, and coding workflows (<a href="https://x.com/petergyang/status/2058555226479866312">post 1</a>, <a href="https://x.com/petergyang/status/2058609058714968194">post 2</a>).</p>
+          <p><strong>Analysis:</strong> The claim is culturally important but not yet operationally proven from the accessible material. Treat "build the system that builds the MVP" as a useful founder heuristic, not evidence that headcount can be durably replaced.</p>
+          <p><strong>Implication:</strong> Startups should document agent onboarding, permissions, evaluation checklists, and rollback paths before giving agents email, calendar, repository, or customer-contact access.</p>
+        </article>
+
+        <article class="card">
+          <div class="item-title"><strong>CEO AI demos versus enterprise last mile</strong><span class="conf medium">Medium confidence</span></div>
+          <div class="tagrow"><span class="tag limited">Limited</span><span class="tag">Enterprise</span><span class="tag">Governance</span></div>
+          <p><strong>What happened:</strong> Aaron Levie argued that CEOs can overestimate AI because they see happy-path demos without the downstream verification, integration, and production work (<a href="https://x.com/levie/status/2058582370253701432">public post</a>).</p>
+          <p><strong>Analysis:</strong> This lines up with Ronacher's maintainer experience: the failure mode is not model incapability alone, but unmanaged confidence at the boundary between generated output and real systems.</p>
+          <p><strong>Implication:</strong> Enterprise buyers should demand evidence of review cost, exception handling, audit trails, and workflow fit, not just prototype speed.</p>
+        </article>
+
+        <article class="card">
+          <div class="item-title"><strong>AlphaGo as a lens on LLM reasoning</strong><span class="conf high">High confidence</span></div>
+          <div class="tagrow"><span class="tag fact">Fact</span><span class="tag">Research</span><span class="tag">RL</span></div>
+          <p><strong>What happened:</strong> A Dwarkesh Clips video points to the full Eric Jang episode. The full transcript frames AlphaGo as a worked example of search, learning from experience, and self-play; it also discusses why MCTS is straightforward in Go but harder for open-ended LLM reasoning (<a href="https://www.youtube.com/watch?v=xoLxmsiJl9c">clip</a>, <a href="https://www.youtube.com/watch?v=X_ZVSPcZhtw">full YouTube episode</a>, <a href="https://www.dwarkesh.com/p/eric-jang">transcript</a>).</p>
+          <p><strong>Analysis:</strong> The episode is not a breaking product launch; it is a useful research map. It highlights a core uncertainty: whether forward search can return in LLM systems despite language's huge action space.</p>
+          <p><strong>Implication:</strong> Researchers should watch small-budget Go/MCTS work as a testbed for reasoning ideas, especially where verifiers and local improvement signals are clear.</p>
+        </article>
+
+        <article class="card">
+          <div class="item-title"><strong>Codex visibility: open-source and self-improvement prompts</strong><span class="conf medium">Medium confidence</span></div>
+          <div class="tagrow"><span class="tag limited">Limited</span><span class="tag">Developer tools</span><span class="tag">Codex</span></div>
+          <p><strong>What happened:</strong> Greg Brockman reposted a Codex self-improvement prompt and separately noted that Codex is open source; GitHub API metadata confirms <a href="https://github.com/openai/codex">openai/codex</a> is an Apache-2.0 repository described as a lightweight terminal coding agent (<a href="https://x.com/gdb/status/2058598608224858442">prompt post</a>, <a href="https://x.com/gdb/status/2058381548383096994">open-source post</a>).</p>
+          <p><strong>Analysis:</strong> The attention is real, but the accessible posts do not prove adoption quality. The more durable signal is that users are now trying to make Codex inspect prior sessions, memories, and automation patterns to create smaller reusable skills.</p>
+          <p><strong>Implication:</strong> Tool builders should prioritize memory hygiene, provenance, and reusable workflow packaging over one-off prompt tricks.</p>
+        </article>
+
+        <article class="card">
+          <div class="item-title"><strong>AI-built retro tool as cultural signal</strong><span class="conf high">High confidence</span></div>
+          <div class="tagrow"><span class="tag fact">Fact</span><span class="tag">Tools</span><span class="tag">Education</span></div>
+          <p><strong>What happened:</strong> Simon Willison used Claude to recreate the 1983 Usborne "Mad House" game as a vanilla JavaScript artifact, linking the playable tool and Usborne's computer-book archive (<a href="https://simonwillison.net/2026/May/24/usborne-mad-house/">Willison post</a>, <a href="https://tools.simonwillison.net/usborne-mad-house">tool</a>, <a href="https://usborne.com/us/books/computer-and-coding-books">Usborne archive</a>).</p>
+          <p><strong>Analysis:</strong> This is small but illustrative: AI coding turns historical media into interactive software quickly. The value is strongest when the output has a narrow spec, visible behavior, and low safety risk.</p>
+        </article>
+      </section>
+
+      <section class="panel span-6">
+        <h2>Cross-Event Trend Judgments</h2>
+        <p class="trend"><strong>Agent discourse moved down-stack.</strong> The window is less about new frontier models and more about operational friction: issue quality, agent onboarding, memory reuse, workflow ownership, and production verification.</p>
+        <p class="trend"><strong>Public metrics remain weak.</strong> Mentions of Codex, Claude Code, Replit, and OpenClaw show attention, but X posts and screenshots are not enough to infer durable usage or quality.</p>
+        <p class="trend"><strong>Human judgment is being repositioned.</strong> Across Ronacher, Levie, and Jang, the recurring point is that AI changes where judgment is needed, not whether judgment is needed.</p>
+      </section>
+
+      <section class="panel span-6">
+        <h2>Concrete Implications</h2>
+        <ul>
+          <li><strong>Developers:</strong> keep bug reports factual; separate logs, repro steps, and AI guesses.</li>
+          <li><strong>Startups:</strong> treat agents as onboarded systems with credentials, evals, and supervision, not magic headcount.</li>
+          <li><strong>Researchers:</strong> use Go/MCTS/autoresearch loops as cheap sandboxes for reasoning and verifier experiments.</li>
+          <li><strong>Enterprise buyers:</strong> evaluate AI tools on review burden, controls, integration depth, and exception cost.</li>
+        </ul>
+      </section>
+
+      <section class="panel span-6">
+        <h2>24-72 Hour Watchlist</h2>
+        <ul>
+          <li>Whether Pi/Earendil publishes concrete issue-template or maintainer tooling changes after the Ronacher post.</li>
+          <li>Follow-up evidence from the Ryan Carson/Peter Yang agent-startup episode: workflows, failure cases, costs, and permissions.</li>
+          <li>More Codex memory/skill automation examples, especially ones that show reproducible before/after productivity gains.</li>
+          <li>Any public AutoGo repository or tutorial release connected to the Dwarkesh/Jang episode.</li>
+          <li>Clarification of the comparative "Codex vs Claude Code" sample behind Guillermo Rauch's reply analysis.</li>
+        </ul>
+      </section>
+
+      <section class="panel span-6">
+        <h2>Source Limitations</h2>
+        <ul>
+          <li>X posts were available through oEmbed/public snippets, but not full authenticated thread views, images, replies, or videos.</li>
+          <li>The Dwarkesh clip had only title, description, and metadata; analysis relies on the linked full episode transcript and show notes.</li>
+          <li>Claude share content for the Mad House prompt was JavaScript/login limited, so the report uses Willison's article and the playable output.</li>
+          <li>Several Elon Musk and non-AI lifestyle/politics posts were counted by the digest but excluded from substantive AI trend analysis.</li>
+        </ul>
+      </section>
+
+      <section class="panel span-12">
+        <h2>Source Map</h2>
+        <ol class="source-list">
+          <li><a href="https://ai.prov1dence.top/">Firsthand AI Digest index</a></li>
+          <li><a href="https://simonwillison.net/2026/May/24/armin-ronacher/">Simon Willison: Armin Ronacher quote</a></li>
+          <li><a href="https://lucumr.pocoo.org/2026/5/24/pi-oss/">Armin Ronacher: Building Pi With Pi</a></li>
+          <li><a href="https://simonwillison.net/2026/May/24/usborne-mad-house/">Simon Willison: Mad House</a></li>
+          <li><a href="https://tools.simonwillison.net/usborne-mad-house">Mad House playable tool</a></li>
+          <li><a href="https://usborne.com/us/books/computer-and-coding-books">Usborne computer books archive</a></li>
+          <li><a href="https://www.youtube.com/watch?v=xoLxmsiJl9c">Dwarkesh Clips: Learns Go</a></li>
+          <li><a href="https://www.youtube.com/watch?v=X_ZVSPcZhtw">Dwarkesh full episode on YouTube</a></li>
+          <li><a href="https://www.dwarkesh.com/p/eric-jang">Dwarkesh transcript: Eric Jang</a></li>
+          <li><a href="https://evjang.com/2026/02/04/rocks.html">Eric Jang: As Rocks May Think</a></li>
+          <li><a href="https://x.com/petergyang/status/2058555226479866312">Peter Yang: agent startup episode</a></li>
+          <li><a href="https://x.com/petergyang/status/2058609058714968194">Peter Yang: seed round / agents clip</a></li>
+          <li><a href="https://x.com/levie/status/2058582370253701432">Aaron Levie: CEO AI psychosis</a></li>
+          <li><a href="https://x.com/danshipper/status/2058592843707396250">Dan Shipper: After Automation interview</a></li>
+          <li><a href="https://x.com/lennysan/status/2058591865205866826">Lenny Rachitsky: Dan Shipper episode post</a></li>
+          <li><a href="https://x.com/gdb/status/2058598608224858442">Greg Brockman: Codex self-improvement prompt</a></li>
+          <li><a href="https://x.com/gdb/status/2058381548383096994">Greg Brockman: Codex open source</a></li>
+          <li><a href="https://github.com/openai/codex">openai/codex GitHub repository</a></li>
+          <li><a href="https://x.com/steipete/status/2058381186884411473">Peter Steinberger: GitHub dashboard post</a></li>
+          <li><a href="https://release.bar/steipete">ReleaseBar dashboard</a></li>
+          <li><a href="https://x.com/rauchg/status/2058353051073970416">Guillermo Rauch: reply analysis</a></li>
+          <li><a href="https://x.com/amasad/status/2058418731840159953">Amjad Masad: Replit MVP quote</a></li>
+          <li><a href="https://x.com/thsottiaux/status/2058432994621436296">Tibo: Codex and users reminder</a></li>
+        </ol>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

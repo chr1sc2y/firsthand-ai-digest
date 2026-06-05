@@ -6,8 +6,13 @@ category stripes, unified sans-serif typography, and hover-expand cards.
 from __future__ import annotations
 
 import html
+import json
 import re
 from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+BRIEF_INDEX = ROOT / "data" / "ai-briefs" / "index.json"
 
 CSS = """
 :root {
@@ -87,6 +92,29 @@ a { color: inherit; text-decoration: none; }
   display: flex; flex-direction: column;
   align-items: flex-start; gap: 10px;
 }
+.ai-briefs {
+  max-width: 1280px; margin: 0 auto;
+  padding: 8px 24px 24px;
+}
+.ai-briefs h2 {
+  font-size: 14px; font-weight: 700;
+  color: var(--ink-2);
+  margin-bottom: 10px;
+}
+.ai-brief-list {
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.ai-brief-link {
+  display: inline-flex; align-items: center;
+  min-height: 32px; padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--blog);
+  font-size: 13px; font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+.ai-brief-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .seg {
   display: flex; gap: 0;
   background: var(--surface-2);
@@ -256,6 +284,7 @@ a { color: inherit; text-decoration: none; }
   .hero { padding: 36px 20px 28px; }
   .hero-divider { padding: 0 20px; }
   .filter-bar { padding: 16px 20px 12px; }
+  .ai-briefs { padding: 6px 20px 22px; }
   .page { padding: 0 20px 64px; }
 }
 
@@ -630,6 +659,42 @@ def _card(item: dict) -> str:
 """.strip()
 
 
+def _ai_brief_links(limit: int = 14) -> str:
+    if not BRIEF_INDEX.exists():
+        return ""
+    try:
+        payload = json.loads(BRIEF_INDEX.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return ""
+    briefs = payload.get("briefs", [])
+    if not isinstance(briefs, list):
+        return ""
+
+    rows = []
+    for brief in briefs[:limit]:
+        if not isinstance(brief, dict):
+            continue
+        date = str(brief.get("date", "")).strip()
+        path = str(brief.get("path", "")).strip()
+        if not date or not path:
+            continue
+        label = f"{date} AI 解读"
+        rows.append(
+            f'<a class="ai-brief-link" href="{html.escape(path)}">'
+            f"{html.escape(label)}</a>"
+        )
+    if not rows:
+        return ""
+    return (
+        '<!-- AI_BRIEFS_START -->'
+        '<section class="ai-briefs" aria-label="Daily AI interpretations">'
+        "<h2>AI 解读</h2>"
+        f'<div class="ai-brief-list">{"".join(rows)}</div>'
+        "</section>"
+        '<!-- AI_BRIEFS_END -->'
+    )
+
+
 def render(
     x_items: list[dict],
     podcast_items: list[dict],
@@ -661,6 +726,7 @@ def render(
         )
 
     sections = "".join(_section(s, t, items) for s, t, items in sections_meta)
+    ai_brief_links = _ai_brief_links()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -694,6 +760,7 @@ def render(
     <button type="button">Posts</button>
   </div>
 </div>
+{ai_brief_links}
 <div class="page">
   {sections}
 </div>

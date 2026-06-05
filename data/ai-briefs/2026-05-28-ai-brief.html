@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief - 2026-05-28</title>
+  <style>
+    :root {
+      --ink: #1d2528;
+      --muted: #5a666b;
+      --line: #d9e0df;
+      --bg: #f7f8f5;
+      --panel: #ffffff;
+      --accent: #0f766e;
+      --accent-2: #a7343f;
+      --warn: #a16207;
+      --good: #147a45;
+      --soft: #e9f3f1;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    a { color: #075985; text-decoration: none; border-bottom: 1px solid rgba(7,89,133,.28); }
+    a:hover { border-bottom-color: currentColor; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 44px; }
+    header {
+      display: grid;
+      grid-template-columns: 1.4fr .9fr;
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+    .hero, .panel, .card, .implication {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: 0 1px 0 rgba(0,0,0,.03);
+    }
+    .hero { padding: 24px; }
+    .kicker { color: var(--accent); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+    h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 46px); line-height: 1.02; letter-spacing: 0; }
+    h2 { margin: 0 0 12px; font-size: 19px; }
+    h3 { margin: 0 0 8px; font-size: 16px; }
+    p { margin: 0 0 10px; }
+    .lede { color: var(--muted); max-width: 860px; font-size: 16px; }
+    .metrics { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; padding: 14px; }
+    .metric { background: #f1f5f3; border: 1px solid #dfe6e3; border-radius: 7px; padding: 12px; }
+    .metric b { display: block; font-size: 24px; line-height: 1.05; }
+    .metric span { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
+    .wide { grid-column: span 2; }
+    .panel, .card, .implication { padding: 16px; }
+    .tagrow { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 11px; }
+    .tag { font-size: 12px; border: 1px solid var(--line); background: #f5f7f6; padding: 3px 7px; border-radius: 999px; color: #425056; }
+    .tag.good { color: var(--good); background: #edf8f1; border-color: #cbe8d5; }
+    .tag.warn { color: var(--warn); background: #fff7df; border-color: #eed898; }
+    .tag.red { color: var(--accent-2); background: #fff0f1; border-color: #efc9cd; }
+    .summary-list { display: grid; gap: 10px; }
+    .summary-list div { padding-left: 12px; border-left: 3px solid var(--accent); }
+    .fact { font-size: 13px; color: var(--muted); margin-top: 10px; }
+    .mini { font-size: 13px; color: var(--muted); }
+    .source-note { border-left: 3px solid var(--warn); padding-left: 12px; color: #4b3a10; background: #fffaf0; padding-top: 10px; padding-bottom: 10px; }
+    .trend { background: var(--soft); border-color: #c9dfdb; }
+    .implications { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+    ul { margin: 8px 0 0 18px; padding: 0; }
+    li { margin: 5px 0; }
+    footer { margin-top: 18px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) {
+      header, .grid, .implications { grid-template-columns: 1fr; }
+      .wide { grid-column: auto; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <section class="hero">
+        <div class="kicker">Firsthand AI Digest - 24 hour brief</div>
+        <h1>Agents moved from demos into operations, procurement, and maintenance pressure.</h1>
+        <p class="lede">Coverage window: 2026-05-27 07:01 to 2026-05-28 07:01 Asia/Shanghai. Execution time: 2026-05-28 07:01 CST. This brief uses Firsthand AI Digest as the index and prioritizes original or near-primary sources where accessible.</p>
+      </section>
+      <section class="panel metrics" aria-label="run metrics">
+        <div class="metric"><b>31</b><span>Firsthand items in window</span></div>
+        <div class="metric"><b>31</b><span>first-layer original links</span></div>
+        <div class="metric"><b>2</b><span>fully fetched first-layer pages</span></div>
+        <div class="metric"><b>29</b><span>metadata / X / video limited</span></div>
+        <div class="metric"><b>8+</b><span>supporting primary pages opened</span></div>
+        <div class="metric"><b>24-72h</b><span>watchlist horizon</span></div>
+      </section>
+    </header>
+
+    <section class="grid">
+      <article class="panel wide">
+        <h2>Executive Summary</h2>
+        <div class="summary-list">
+          <div><strong>Enterprise AI buying is becoming procurement-layered.</strong> Anthropic is extending Claude Marketplace so committed spend can be applied to Claude-powered partner tools including Augment Code, Bolt, CodeRabbit, Hebbia, and Legora, according to the <a href="https://x.com/claudeai/status/2059662933924123044">Claude post</a> and the <a href="https://claude.com/platform/marketplace">Claude Marketplace page</a>.</div>
+          <div><strong>AI-assisted security work is stressing maintainers.</strong> Daniel Stenberg reports curl security submissions are far above 2024/2025 rates, higher quality, and mentally taxing even though recent curl findings remain mostly low or medium severity; Simon Willison surfaced the post through his <a href="https://simonwillison.net/2026/May/26/the-pressure/">link blog</a>, and the primary post is <a href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">here</a>.</div>
+          <div><strong>AI workflows keep moving closer to local, browser, and agent runtimes.</strong> Hugging Face published a Transformers.js explainer video, backed by <a href="https://github.com/huggingface/transformers.js">Transformers.js</a> and <a href="https://huggingface.co/docs/transformers.js/index">docs</a>; OpenClaw-related posts point to portable media/audio building blocks such as <a href="https://rastermill.com/">Rastermill</a> and <a href="https://github.com/openclaw/libopus-wasm">libopus-wasm</a>.</div>
+          <div><strong>Reliability remains a live constraint.</strong> OpenAI investigated elevated API and ChatGPT latency, while the official <a href="https://status.openai.com/incidents/h8k827q7">status incident</a> records an API degraded-performance event from 14:47 to 20:06 on May 27, 2026.</div>
+        </div>
+      </article>
+
+      <aside class="panel source-note">
+        <h2>Access Notes</h2>
+        <p>X full thread context, media, replies, and login-only expansion were not accessible. Public X oEmbed text was available for selected posts and is treated as limited source material.</p>
+        <p>YouTube transcript tooling was unavailable; video analysis relies on title, public description/chapter text captured by Firsthand, oEmbed metadata, and linked docs/repos.</p>
+      </aside>
+    </section>
+
+    <section class="grid" aria-label="important items">
+      <article class="card">
+        <div class="tagrow"><span class="tag good">Product</span><span class="tag">High confidence</span></div>
+        <h3>NotebookLM gets automatic Google Drive syncing</h3>
+        <p><strong>Fact:</strong> Google says NotebookLM can automatically sync Google Docs, Sheets, and Slides sources from Drive, respect permission revocations, and remove deleted Drive files from notebooks.</p>
+        <p><strong>Analysis:</strong> This reduces stale-context risk for teams using notebooks as living research workspaces. It also makes access governance more important because NotebookLM now mirrors Drive state rather than a one-time upload snapshot.</p>
+        <p class="fact">Sources: <a href="https://x.com/joshwoodward/status/2059665697618493706">Josh Woodward public post</a>, <a href="https://workspaceupdates.googleblog.com/2026/05/keep-your-sources-up-to-date-with-automatic-Drive-syncing-in-NotebookLM.html?m=1">Google Workspace Updates</a>.</p>
+      </article>
+
+      <article class="card">
+        <div class="tagrow"><span class="tag good">Enterprise</span><span class="tag">High confidence</span></div>
+        <h3>Claude Marketplace adds more vertical agent products</h3>
+        <p><strong>Fact:</strong> Claude announced new Marketplace entries for Augment Code, Bolt, CodeRabbit, Hebbia, and Legora. Anthropic's Marketplace page frames the program as a way to use existing Anthropic commitments for partner solutions.</p>
+        <p><strong>Inference:</strong> This shifts competition from model APIs alone toward budget-routing and procurement control. Startups integrated deeply with a frontier model vendor may gain enterprise distribution, but also inherit platform risk.</p>
+        <p class="fact">Sources: <a href="https://x.com/claudeai/status/2059662933924123044">Claude public post</a>, <a href="https://claude.com/platform/marketplace">Claude Marketplace</a>.</p>
+      </article>
+
+      <article class="card">
+        <div class="tagrow"><span class="tag warn">Security</span><span class="tag">High confidence</span></div>
+        <h3>curl maintainer pressure from AI-assisted reports</h3>
+        <p><strong>Fact:</strong> Daniel Stenberg says curl's security report volume is 4-5x 2024 and about double 2025, with more detailed and credible reports. He also says recent curl vulnerabilities have generally been low or medium severity.</p>
+        <p><strong>Analysis:</strong> AI can improve vulnerability discovery, but the operational load lands on maintainers. Projects need triage funding, validation tooling, and clearer disclosure expectations, not just more reports.</p>
+        <p class="fact">Sources: <a href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">Daniel Stenberg</a>, <a href="https://simonwillison.net/2026/May/26/the-pressure/">Simon Willison link post</a>, <a href="https://curl.se/docs/CVE-2023-38545.html">curl CVE-2023-38545 reference</a>.</p>
+      </article>
+
+      <article class="card">
+        <div class="tagrow"><span class="tag">Developer tools</span><span class="tag warn">Video limited</span></div>
+        <h3>Transformers.js education focuses on client-side AI mental models</h3>
+        <p><strong>Fact:</strong> Hugging Face posted a YouTube explainer on Transformers.js covering ONNX, quantization, model loading, preprocessing/postprocessing, and the pipeline API. The project README confirms browser/Node support, ONNX Runtime, pipeline APIs, WebGPU options, and quantized dtypes.</p>
+        <p><strong>Analysis:</strong> Browser-side inference is becoming less exotic. The near-term opportunity is small, task-specific models in web apps, not replacing large server models.</p>
+        <p class="fact">Sources: <a href="https://www.youtube.com/watch?v=A_6UOxQSvvY">YouTube video</a>, <a href="https://github.com/huggingface/transformers.js">Transformers.js GitHub</a>, <a href="https://huggingface.co/docs/transformers.js/index">docs</a>.</p>
+      </article>
+
+      <article class="card">
+        <div class="tagrow"><span class="tag red">Reliability</span><span class="tag">Medium confidence</span></div>
+        <h3>OpenAI latency incident and Codex fleet simplification</h3>
+        <p><strong>Fact:</strong> OpenAI's status page records a May 27 API incident that was resolved at 20:06. A public Tibo post separately said the team was investigating elevated latencies across API and ChatGPT. Another public post said GPT-5.2 and GPT-5.3-Codex will be sunset in Codex on June 2 for ChatGPT logins, while remaining available on the API.</p>
+        <p><strong>Uncertainty:</strong> The Codex model sunset claim is from public X/oEmbed and secondary search visibility, not a full OpenAI docs page opened during this run.</p>
+        <p class="fact">Sources: <a href="https://status.openai.com/incidents/h8k827q7">OpenAI Status</a>, <a href="https://x.com/thsottiaux/status/2059651958710120733">latency post</a>, <a href="https://x.com/thsottiaux/status/2059650685948551384">model sunset post</a>, <a href="https://openai.com/index/introducing-gpt-5-3-codex/">GPT-5.3-Codex background</a>.</p>
+      </article>
+
+      <article class="card">
+        <div class="tagrow"><span class="tag">Agent stack</span><span class="tag warn">X-limited</span></div>
+        <h3>OpenClaw ecosystem posts show agent runtime hardening</h3>
+        <p><strong>Fact:</strong> Public posts from Peter Steinberger point to an autoreview skill, Rastermill image processing, and libopus-wasm. The linked sources show a structured code-review skill, pixel-budget guarded image processing, and single-file WASM Opus bindings for browser/Node audio.</p>
+        <p><strong>Analysis:</strong> Agent products are filling in unglamorous runtime primitives: media safety, audio capture, and pre-merge review. These are table-stakes for long-running desktop or meeting agents.</p>
+        <p class="fact">Sources: <a href="https://x.com/steipete/status/2059453909819654554">autoreview post</a>, <a href="https://github.com/openclaw/agent-skills/blob/main/skills/autoreview/SKILL.md">autoreview skill</a>, <a href="https://rastermill.com/">Rastermill</a>, <a href="https://github.com/openclaw/libopus-wasm">libopus-wasm</a>.</p>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="panel trend wide">
+        <h2>Cross-event Trend Judgment</h2>
+        <p><strong>Fact pattern:</strong> The day's most substantive items cluster around agent adoption infrastructure: marketplaces, source syncing, browser/local inference, code review skills, media/audio libraries, and reliability incidents.</p>
+        <p><strong>Judgment:</strong> The center of gravity is shifting from "can the model do it?" to "can the surrounding system keep context fresh, govern spend, survive outages, process untrusted inputs, and reduce review load?" That is a product and operations phase, not just a benchmark phase.</p>
+      </article>
+      <article class="panel">
+        <h2>Lower-signal Items</h2>
+        <p class="mini">Several X-only posts were too brief or context-limited for deep analysis: one-word reactions, general AI labor takes, event promotion, and short commentary from Elon Musk, Sam Altman, Dan Shipper, Amjad Masad, Aravind Srinivas, swyx, Guillermo Rauch, and others. They are counted in the 31 items but not promoted to core cards.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2 style="margin-top:18px">Concrete Implications</h2>
+      <div class="implications">
+        <div class="implication">
+          <h3>Developers</h3>
+          <ul>
+            <li>Expect more client-side AI primitives in normal web stacks.</li>
+            <li>Add review, input-size, and media-processing safeguards around agents.</li>
+            <li>Watch Codex model availability if workflows depend on older ChatGPT-login models.</li>
+          </ul>
+        </div>
+        <div class="implication">
+          <h3>Startups</h3>
+          <ul>
+            <li>Claude Marketplace suggests partner distribution can become a sales channel.</li>
+            <li>Procurement alignment may matter as much as model differentiation.</li>
+            <li>Vertical workflows with governance hooks look stronger than generic wrappers.</li>
+          </ul>
+        </div>
+        <div class="implication">
+          <h3>Researchers</h3>
+          <ul>
+            <li>Security triage load is a measurable human-systems bottleneck.</li>
+            <li>Evaluation should include maintainer cost, false positives, and disclosure quality.</li>
+            <li>Small-model web inference remains a practical deployment research area.</li>
+          </ul>
+        </div>
+        <div class="implication">
+          <h3>Enterprise Buyers</h3>
+          <ul>
+            <li>Ask vendors how committed AI spend, billing, and data controls interact.</li>
+            <li>Check whether notebook/source tools honor deletion and permission changes.</li>
+            <li>Reliability SLAs should include model-specific and account-tier caveats.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="panel wide">
+        <h2>24-72 Hour Watchlist</h2>
+        <ul>
+          <li>Whether NotebookLM Drive sync ramps from the stated initial rollout to broader availability without permission regressions.</li>
+          <li>Any official OpenAI documentation confirming or clarifying the June 2 Codex model availability change.</li>
+          <li>Follow-up from curl or other open-source maintainers on triage funding and AI-assisted vulnerability disclosure norms.</li>
+          <li>New Claude Marketplace partner announcements and whether customers can actually route committed spend without long procurement cycles.</li>
+          <li>GitHub/Vercel/GitHub-status follow-up if the infrastructure outage commentary maps to a documented incident report.</li>
+        </ul>
+      </article>
+      <article class="panel">
+        <h2>Confidence</h2>
+        <p><strong>High:</strong> Google NotebookLM sync, Anthropic Marketplace positioning, curl pressure, OpenAI API status incident, Transformers.js repo/docs.</p>
+        <p><strong>Medium:</strong> X-first product claims where public oEmbed text was available but full thread/media was not.</p>
+        <p><strong>Low:</strong> One-line commentary posts and posts whose meaning depends on images, replies, or deleted/authenticated context.</p>
+      </article>
+    </section>
+
+    <footer>
+      Generated from <a href="https://ai.prov1dence.top/">Firsthand AI Digest</a> plus direct source checks. Source pack: ai-providence-source-pack-2026-05-28.md.
+    </footer>
+  </main>
+</body>
+</html>

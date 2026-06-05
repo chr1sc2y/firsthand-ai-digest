@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Brief - June 1, 2026</title>
+  <style>
+    :root {
+      --bg: #f7f7f4;
+      --ink: #1e2329;
+      --muted: #5d6673;
+      --line: #d9ded6;
+      --panel: #ffffff;
+      --blue: #215c8f;
+      --green: #276d50;
+      --red: #9a3d35;
+      --gold: #8a691d;
+      --shadow: 0 12px 30px rgba(30, 35, 41, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1160px; margin: 0 auto; padding: 28px 20px 48px; }
+    header {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .hero, .panel, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .hero { padding: 26px; }
+    .kicker {
+      color: var(--green);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    h1 { margin: 0 0 12px; font-size: 34px; line-height: 1.1; letter-spacing: 0; }
+    h2 { margin: 0 0 14px; font-size: 20px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: 0; }
+    p { margin: 0 0 10px; }
+    .summary { color: var(--muted); font-size: 16px; max-width: 780px; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .metric {
+      background: #fcfcfa;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .metric strong { display: block; font-size: 28px; line-height: 1; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .panel { padding: 18px; margin-bottom: 16px; }
+    .card { padding: 16px; box-shadow: none; }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 12px;
+      margin: 0 6px 8px 0;
+      background: #fbfbf8;
+    }
+    .fact { border-left: 4px solid var(--blue); }
+    .analysis { border-left: 4px solid var(--green); }
+    .limited { border-left: 4px solid var(--gold); }
+    .risk { border-left: 4px solid var(--red); }
+    ul { margin: 8px 0 0 18px; padding: 0; }
+    li { margin: 6px 0; }
+    .small { color: var(--muted); font-size: 13px; }
+    .source-list a { display: inline-block; margin: 0 10px 8px 0; }
+    .watch { display: grid; grid-template-columns: 80px 1fr; gap: 10px; align-items: start; }
+    .time { color: var(--green); font-weight: 700; }
+    footer { color: var(--muted); font-size: 12px; margin-top: 18px; }
+    @media (max-width: 860px) {
+      header, .grid, .two { grid-template-columns: 1fr; }
+      h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <section class="hero">
+        <div class="kicker">Firsthand AI Digest - 24h brief</div>
+        <h1>AI builders leaned into agents, biosecurity, and revenue realism</h1>
+        <p class="summary">This run found a narrow but useful signal: OpenAI is turning frontier bio models into gated biodefense programs, AI agent workflows are being discussed through concrete developer anecdotes, and Anthropic revenue commentary is becoming more careful about what "run rate" means.</p>
+      </section>
+      <section class="panel">
+        <h2>Run Stats</h2>
+        <div class="metrics">
+          <div class="metric"><strong>23</strong><span>Firsthand items</span></div>
+          <div class="metric"><strong>33</strong><span>sources checked</span></div>
+          <div class="metric"><strong>4</strong><span>readable primary/near-primary pages</span></div>
+          <div class="metric"><strong>29</strong><span>limited or metadata-only sources</span></div>
+        </div>
+        <p class="small">Executed 2026-06-01 07:01 Asia/Shanghai. Coverage window: 2026-05-31 07:01 to 2026-06-01 07:01 Asia/Shanghai.</p>
+      </section>
+    </header>
+
+    <section class="panel">
+      <h2>Executive Summary</h2>
+      <div class="two">
+        <div class="card fact">
+          <h3>Facts</h3>
+          <p>OpenAI announced Rosalind Biodefense and expanded trusted GPT-Rosalind access for select U.S. government and allied public-health or biodefense partners, with named launch participants including Fourth Eon, LLNL, Johns Hopkins APL, and CEPI <a href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/">source</a>.</p>
+          <p>Simon Willison highlighted Reuters Breakingviews' explanation of Anthropic's run-rate revenue calculation, pointing to different treatment of consumption and subscription revenue <a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/">source</a>.</p>
+        </div>
+        <div class="card analysis">
+          <h3>Analysis</h3>
+          <p>The strongest signal is not a new general model release; it is operationalization. Frontier labs are converting model capability into controlled programs, while developer discourse is shifting from demos to agent workflow ergonomics, limits, modular tooling, and computer-use reliability.</p>
+          <p>Confidence is medium-high for official/blog-page claims and low-to-medium for X-only items because public oEmbed text was available but full threads, replies, media, and quote context were not.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Most Important Items</h2>
+      <div class="grid">
+        <article class="card fact">
+          <span class="tag">Biosecurity</span><span class="tag">OpenAI</span>
+          <h3>Rosalind Biodefense becomes a gated deployment channel</h3>
+          <p><strong>Fact:</strong> OpenAI says Rosalind Biodefense will sponsor GPT-Rosalind access and support trusted developers building biodefense applications, including work on epidemiological modeling, early detection, screening, preparedness, and public-health workflows <a href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/">OpenAI</a>.</p>
+          <p><strong>Inference:</strong> The access model is designed to turn risky biological capability into defender advantage without making advanced workflows broadly available.</p>
+          <p><strong>Uncertainty:</strong> No independent evaluation results or concrete performance benchmarks were provided in the accessible announcement.</p>
+        </article>
+        <article class="card analysis">
+          <span class="tag">AI economics</span><span class="tag">Anthropic</span>
+          <h3>Revenue run-rate claims get more scrutiny</h3>
+          <p><strong>Fact:</strong> Willison relayed Reuters Breakingviews' description of Anthropic's run-rate math: recent consumption sales are annualized differently from subscription revenue <a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/">Simon Willison</a>; Reuters' March article also framed Anthropic's revenue disclosures as hard to compare with lifetime sales <a href="https://www.breakingviews.com/columns/considered-view/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/">Reuters Breakingviews</a>.</p>
+          <p><strong>Analysis:</strong> Buyers and investors should treat AI ARR-style numbers as a metric requiring definitions, not as self-evident recurring SaaS revenue.</p>
+          <p><strong>Uncertainty:</strong> Reuters full text was not fully accessible in this environment; this card uses the accessible Willison quotation and search-visible Reuters metadata.</p>
+        </article>
+        <article class="card limited">
+          <span class="tag">Developer agents</span><span class="tag">Codex</span>
+          <h3>Agent work shows up as everyday engineering workflow</h3>
+          <p><strong>Fact:</strong> Public X oEmbeds captured developer claims about Codex writing ad-hoc codemods for a TypeScript migration <a href="https://x.com/steipete/status/2061115471760441692">post</a>, Codex computer use feeling compelling <a href="https://x.com/gdb/status/2060978248792907818">post</a>, and Codex limits being reset for paid ChatGPT subscriptions <a href="https://x.com/thsottiaux/status/2061106703446450392">post</a>.</p>
+          <p><strong>Analysis:</strong> The practical frontier is moving toward multi-step local work: codemods, browser control, and faster iteration loops.</p>
+          <p><strong>Uncertainty:</strong> These are anecdotal public posts; no benchmark, changelog, or product documentation was available for most claims.</p>
+        </article>
+        <article class="card limited">
+          <span class="tag">Voice</span><span class="tag">Realtime</span>
+          <h3>Realtime voice-control demos remain high-signal but hard to verify</h3>
+          <p><strong>Fact:</strong> Greg Brockman linked to a GPT Realtime 2 demo <a href="https://x.com/gdb/status/2060955146952077653">post</a>, and the expanded linked post described controlling a computer by voice <a href="https://twitter.com/FarzaTV/status/2060865350036750847">linked post</a>.</p>
+          <p><strong>Analysis:</strong> If robust, voice plus computer use points toward operating-system-level agent interfaces, but evidence here is demo metadata rather than a reproducible release note.</p>
+          <p><strong>Uncertainty:</strong> The video content, comments, and any follow-up thread were not fully accessible.</p>
+        </article>
+        <article class="card fact">
+          <span class="tag">OpenClaw</span><span class="tag">Agent stack</span>
+          <h3>OpenClaw is positioning around modular agent tooling</h3>
+          <p><strong>Fact:</strong> Peter Steinberger's public post said OpenClaw should be modular and lean <a href="https://x.com/steipete/status/2061072753998856696">post</a>. A Luma event page for "OpenClaw: After Hours @ GitHub" describes a San Francisco builder gathering focused on agentic systems, maintainers, demos, and technical conversation <a href="https://luma.com/OpenClaw-GitHub">Luma</a>.</p>
+          <p><strong>Analysis:</strong> Agent ecosystems are converging on tool selection and execution environment design rather than maximal tool counts.</p>
+          <p><strong>Uncertainty:</strong> The event page is accessible, but project roadmap details were not included.</p>
+        </article>
+        <article class="card risk">
+          <span class="tag">Enterprise</span><span class="tag">Labor market</span>
+          <h3>Enterprise AI narrative emphasizes reinvestment, not only cuts</h3>
+          <p><strong>Fact:</strong> Aaron Levie's public post argued that many enterprise leaders are growing AI-related roles or reinvesting efficiency savings into new business areas <a href="https://x.com/levie/status/2060923684295221390">post</a>, linking to a David Sacks post citing an Apollo economist claim of no AI-related job-loss evidence <a href="https://twitter.com/davidsacks/status/2060895086859407406">linked post</a>.</p>
+          <p><strong>Analysis:</strong> This is a counterweight to layoff-only narratives, but it is executive commentary rather than labor-market data.</p>
+          <p><strong>Uncertainty:</strong> The underlying economist source and chart data were not independently accessible from the post fragment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Trend Judgments</h2>
+      <div class="two">
+        <div class="card analysis">
+          <h3>Cross-event read</h3>
+          <ul>
+            <li><strong>Operational containment:</strong> OpenAI's trusted bio access and recent Anthropic sandboxing discourse point to capability gating as a product feature, not just a policy footnote.</li>
+            <li><strong>Agent usability:</strong> Codex and OpenClaw mentions cluster around daily engineering work, tool minimalism, limits, and computer control.</li>
+            <li><strong>Metric discipline:</strong> AI revenue claims are increasingly being interrogated through definitions, time windows, and cost structure.</li>
+          </ul>
+        </div>
+        <div class="card limited">
+          <h3>Source limitations</h3>
+          <ul>
+            <li>X full threads, quote-post context, media, replies, and comments were not accessible; public oEmbed text was used where available.</li>
+            <li>Video demos had no accessible transcripts or captions in this run, so analysis relies on titles, oEmbed text, and linked-post fragments.</li>
+            <li>Reuters full article access was limited; only the Willison quote and search-visible metadata were used for claims.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Implications</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Developers</h3>
+          <p>Expect agent value to come from narrower, better-scoped tools and repeatable workflows: codemods, browser control, and project-specific skills matter more than broad demos.</p>
+        </div>
+        <div class="card">
+          <h3>Startups</h3>
+          <p>OpenClaw-style modularity and AI-assisted launch velocity suggest room for tooling around agent evaluation, tool hygiene, and workflow-specific automation.</p>
+        </div>
+        <div class="card">
+          <h3>Researchers</h3>
+          <p>Biosecurity deployments need public evaluation evidence: the important open question is whether GPT-Rosalind materially improves defensive workflows under strong safeguards.</p>
+        </div>
+        <div class="card">
+          <h3>Enterprise buyers</h3>
+          <p>Ask vendors to define "run rate," usage-based revenue, seat revenue, safety controls, and exfiltration boundaries before comparing platforms.</p>
+        </div>
+        <div class="card">
+          <h3>Security teams</h3>
+          <p>Agent adoption raises practical containment questions: credential availability, filesystem scope, network egress, and human approval boundaries should be specified explicitly.</p>
+        </div>
+        <div class="card">
+          <h3>Policy teams</h3>
+          <p>The OpenAI bio program is a live test case for gated frontier access, trusted developers, and government partnerships in dual-use domains.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>24-72 Hour Watchlist</h2>
+      <div class="watch"><div class="time">24h</div><div>Look for official OpenAI follow-up on GPT-Rosalind eligibility, evaluation, or partner case studies after the announcement <a href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/">source</a>.</div></div>
+      <div class="watch"><div class="time">48h</div><div>Watch whether Codex limit/reset posts are followed by product documentation, changelog entries, or measurable developer workflow examples <a href="https://x.com/thsottiaux/status/2061106703446450392">source</a>.</div></div>
+      <div class="watch"><div class="time">72h</div><div>Track OpenClaw event follow-ups for demos, roadmap details, or reusable agent execution patterns from the GitHub gathering <a href="https://luma.com/OpenClaw-GitHub">source</a>.</div></div>
+    </section>
+
+    <section class="panel">
+      <h2>Source Links</h2>
+      <p class="source-list">
+        <a href="https://ai.prov1dence.top/">Firsthand AI Digest</a>
+        <a href="https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense/">OpenAI Rosalind Biodefense</a>
+        <a href="https://simonwillison.net/2026/May/31/anthropic-run-rate/">Simon Willison / Anthropic run rate</a>
+        <a href="https://www.breakingviews.com/columns/considered-view/anthropic-gives-lesson-ai-revenue-hallucination-2026-03-10/">Reuters Breakingviews</a>
+        <a href="https://luma.com/OpenClaw-GitHub">OpenClaw Luma event</a>
+        <a href="https://x.com/steipete/status/2061115471760441692">Codex codemod post</a>
+        <a href="https://x.com/gdb/status/2060978248792907818">Codex computer-use post</a>
+        <a href="https://x.com/gdb/status/2060955146952077653">GPT Realtime 2 post</a>
+        <a href="https://x.com/levie/status/2060923684295221390">Enterprise AI labor post</a>
+      </p>
+    </section>
+
+    <footer>
+      Generated from Firsthand AI Digest index data plus manually checked source pages and public X oEmbed fragments. Facts, inference, and analysis are labeled separately where the evidence quality differs.
+    </footer>
+  </main>
+</body>
+</html>

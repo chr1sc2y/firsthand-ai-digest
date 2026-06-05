@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief - 2026-05-31</title>
+  <style>
+    :root {
+      --ink: #202124;
+      --muted: #5f6368;
+      --line: #d9dde3;
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --accent: #0b6e69;
+      --accent-2: #8a4d16;
+      --good: #17633a;
+      --warn: #9a5b00;
+      --soft: #eef6f5;
+      --soft-2: #fff4e4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    a { color: #0b5cad; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 28px 20px 44px; }
+    header {
+      display: grid;
+      gap: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    .eyebrow { color: var(--accent); font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .08em; }
+    h1 { margin: 0; font-size: clamp(30px, 5vw, 54px); line-height: 1.02; letter-spacing: 0; }
+    h2 { font-size: 20px; margin: 0 0 10px; }
+    h3 { font-size: 17px; margin: 0 0 8px; }
+    p { margin: 0 0 10px; }
+    .sub { max-width: 860px; color: var(--muted); font-size: 16px; }
+    .metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+    .metric { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+    .metric b { display: block; font-size: 26px; line-height: 1; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 14px; align-items: start; }
+    .section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-bottom: 14px; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .card { border: 1px solid var(--line); border-radius: 8px; padding: 14px; background: #fff; }
+    .tag { display: inline-flex; align-items: center; border-radius: 999px; padding: 3px 8px; font-size: 12px; font-weight: 700; background: var(--soft); color: var(--accent); margin-bottom: 8px; }
+    .tag.warn { background: var(--soft-2); color: var(--accent-2); }
+    .meta { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+    .facts { margin: 10px 0 0; padding-left: 18px; }
+    .facts li { margin: 6px 0; }
+    .note { border-left: 4px solid var(--warn); padding: 10px 12px; background: #fff9ef; color: #4d3510; border-radius: 0 8px 8px 0; }
+    .ok { color: var(--good); font-weight: 700; }
+    .lim { color: var(--warn); font-weight: 700; }
+    .cols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+    .mini { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 8px; vertical-align: top; }
+    th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+    footer { color: var(--muted); font-size: 12px; padding-top: 12px; }
+    @media (max-width: 820px) {
+      .metrics, .cards, .grid, .cols { grid-template-columns: 1fr; }
+      .wrap { padding: 22px 14px 34px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div>
+        <div class="eyebrow">Daily Firsthand AI Digest</div>
+        <h1>Containment, browser-side agents, and AI adoption pressure</h1>
+      </div>
+      <p class="sub">Execution time: <strong>2026-05-31 07:01 Asia/Shanghai</strong>. Coverage window: <strong>2026-05-30 07:01 to 2026-05-31 07:01 Asia/Shanghai</strong>, filtered by Firsthand/source timestamps where available.</p>
+      <div class="metrics">
+        <div class="metric"><b>26</b><span>Firsthand items in window</span></div>
+        <div class="metric"><b>26</b><span>first-layer original links</span></div>
+        <div class="metric"><b>4 / 22</b><span>full-ish vs limited first-layer sources</span></div>
+        <div class="metric"><b>8</b><span>secondary source candidates checked</span></div>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Executive Summary</h2>
+      <p>The strongest signal is operational, not model-announcement driven: teams are converging on <strong>agent containment, cost controls, and workflow-specific defaults</strong> as AI systems move from demos into longer-running work.</p>
+      <p>Anthropic’s containment write-up, surfaced by <a href="https://simonwillison.net/2026/May/30/how-we-contain-claude/">Simon Willison</a>, gives the clearest primary-source detail: Claude products use different boundaries across <a href="https://www.anthropic.com/engineering/how-we-contain-claude">gVisor, Seatbelt, bubblewrap, VMs, filesystem controls, and egress controls</a>. Simon’s <a href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/">Pyodide ASGI experiment</a> shows the other side of the same trend: developers are using agents to compress exploratory systems work into working prototypes with tests.</p>
+      <p>Consumer and social posts were mostly accessible only through public oEmbed text. I treat those as weak evidence: useful for noticing product and narrative direction, insufficient for claims about adoption, performance, or financial impact.</p>
+    </section>
+
+    <div class="grid">
+      <section class="section">
+        <h2>Most Important Items</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="tag">Security / Agents</div>
+            <h3>Anthropic documents Claude containment architectures</h3>
+            <div class="meta">Primary source: <a href="https://www.anthropic.com/engineering/how-we-contain-claude">Anthropic Engineering</a>; indexed via <a href="https://simonwillison.net/2026/May/30/how-we-contain-claude/">Simon Willison</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> Anthropic frames agent risk as likelihood times blast radius, and says containment is needed because human approval prompts degrade under fatigue.</li>
+              <li><strong>Fact:</strong> It reports Claude Code auto mode catches roughly 83% of overeager behaviors, while Claude Opus 4.7 sees low single-attempt prompt-injection success on Gray Swan’s benchmark.</li>
+              <li><strong>Fact:</strong> Claude.ai uses gVisor; Claude Code uses OS-level sandboxing on macOS/Linux; Cowork uses full VMs.</li>
+              <li><strong>Analysis:</strong> The important product bar is shifting from “can the agent code?” to “can the vendor bound damage when it does?”</li>
+            </ul>
+            <div class="mini"><span class="ok">Confidence: high.</span> Anthropic and Simon pages were readable. Vendor claims still deserve independent validation.</div>
+          </article>
+
+          <article class="card">
+            <div class="tag">Developer Tools</div>
+            <h3>Sandbox Runtime becomes an ecosystem artifact</h3>
+            <div class="meta">Source: <a href="https://github.com/anthropic-experimental/sandbox-runtime">anthropic-experimental/sandbox-runtime</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> The repo describes a lightweight OS-level sandbox using macOS sandbox-exec, Linux bubblewrap, and proxy-based network filtering.</li>
+              <li><strong>Fact:</strong> The README positions it for agents, local MCP servers, shell commands, and arbitrary processes.</li>
+              <li><strong>Inference:</strong> Open-sourcing containment plumbing makes “agent safety by default” more likely to become a developer-platform expectation, not just a vendor promise.</li>
+            </ul>
+            <div class="mini"><span class="ok">Confidence: high.</span> GitHub README was accessible; implementation quality was not audited in this run.</div>
+          </article>
+
+          <article class="card">
+            <div class="tag">Research Prototype</div>
+            <h3>Python ASGI apps run in-browser via Pyodide and service workers</h3>
+            <div class="meta">Sources: <a href="https://simonwillison.net/2026/May/30/pyodide-asgi-browser/">Simon post</a>, <a href="https://raw.githubusercontent.com/simonw/research/main/pyodide-asgi-browser/README.md">research README</a>, <a href="https://github.com/simonw/research/pull/112">PR #112</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> The demo intercepts same-origin requests under <code>/app/</code> and routes them through an ASGI bridge running in Pyodide.</li>
+              <li><strong>Fact:</strong> The README reports FastAPI and Datasette demos, local vendoring of Pyodide/wheels, and 27 passing tests across Python and Playwright layers.</li>
+              <li><strong>Analysis:</strong> This is not a production platform yet, but it is a concrete demonstration of “backend logic as local browser artifact,” useful for offline demos, docs, and secure inspection environments.</li>
+            </ul>
+            <div class="mini"><span class="ok">Confidence: high.</span> Repo and PR metadata were accessible; I did not run the demo.</div>
+          </article>
+
+          <article class="card">
+            <div class="tag warn">Video / Science</div>
+            <h3>OpenAI frames AI as widening scientific search</h3>
+            <div class="meta">Sources: <a href="https://www.youtube.com/watch?v=cdflu9ZXZGE">YouTube video</a>, <a href="https://x.com/OpenAI/status/2060451757818601808">OpenAI X post</a>, <a href="https://x.com/gdb/status/2060611636767998241">Greg Brockman X post</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> The YouTube metadata says Terence Tao discusses AI helping mathematicians experiment, explore ideas, and collaborate; Mark Chen discusses tools for research breakthroughs at scale.</li>
+              <li><strong>Fact:</strong> OpenAI’s public X text says AI can give researchers freedom to pursue “crazier” ideas.</li>
+              <li><strong>Analysis:</strong> The strategic message is “AI as search amplifier” rather than “AI replaces scientists.”</li>
+            </ul>
+            <div class="mini"><span class="lim">Confidence: medium-low.</span> No full transcript/captions were retrieved; analysis relies on title, description, and public post text.</div>
+          </article>
+
+          <article class="card">
+            <div class="tag warn">Cost Controls</div>
+            <h3>Per-API-key spend caps surface as AI Gateway hygiene</h3>
+            <div class="meta">Sources: <a href="https://x.com/rauchg/status/2060787704166776927">Guillermo Rauch</a>, linked <a href="https://x.com/manishrc/status/2060667173643616392">public oEmbed text</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> Rauch posted “Per-API Key spend caps on AI Gateway.”</li>
+              <li><strong>Fact:</strong> The linked public post frames the value as experimentation without accidentally spending production credits.</li>
+              <li><strong>Analysis:</strong> Budget isolation is becoming a first-class agent/LLM platform feature because long-running tool calls can turn mistakes into real spend quickly.</li>
+            </ul>
+            <div class="mini"><span class="lim">Confidence: medium.</span> X oEmbeds were readable; product docs or changelog details were not found from the t.co path.</div>
+          </article>
+
+          <article class="card">
+            <div class="tag warn">Adoption / Culture</div>
+            <h3>AI enthusiasm and rejection coexist in developer circles</h3>
+            <div class="meta">Sources: <a href="https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/">Simon link post</a>, <a href="https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/">Chad Whitacre post</a>, <a href="https://openpath.quest/2026/spitting-out-the-agentic-kool-aid/">earlier essay</a>, <a href="https://simonwillison.net/2026/May/30/daniel-jalkut/">Daniel Jalkut quote</a>.</div>
+            <ul class="facts">
+              <li><strong>Fact:</strong> Chad Whitacre says AI was the last straw in stepping away from tech/open source; the page itself exposes mainly a short note and links.</li>
+              <li><strong>Fact:</strong> His earlier essay is accessible and describes intense Claude Code use followed by discomfort with agentic coding.</li>
+              <li><strong>Analysis:</strong> This is a retention and community-health signal: powerful tools can also increase alienation, especially for open-source maintainers.</li>
+            </ul>
+            <div class="mini"><span class="lim">Confidence: medium.</span> Simon’s excerpts and the earlier essay were readable; the retirement letter appears scan/image-based and was not fully machine-readable.</div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="section">
+        <h2>Source Access Notes</h2>
+        <p><span class="ok">Readable enough for claims:</span> Simon Willison pages, Anthropic engineering post, Anthropic sandbox-runtime README, Simon research README/PR metadata, OpenPath earlier essay, selected public X oEmbeds, YouTube metadata.</p>
+        <p><span class="lim">Limited:</span> full X threads, media, replies, authenticated context, and YouTube transcript/captions. t.co expansion often ended at X 403 pages, so linked-media claims are cautious.</p>
+        <div class="note">The Firsthand homepage was used as the index. Substantive judgments above are based on opened original or near-primary sources where possible, not just digest summaries.</div>
+      </aside>
+    </div>
+
+    <section class="section">
+      <h2>Cross-Event Trend Judgments</h2>
+      <div class="cols">
+        <div>
+          <h3>Agents are entering the risk-management phase</h3>
+          <p><strong>Facts:</strong> Anthropic details containment layers; Vercel-related posts discuss spend caps; Cursor auto-review is praised for explaining command risk.</p>
+          <p><strong>Analysis:</strong> The buyer question is moving toward bounded autonomy: permissions, costs, network, filesystem, and audit trails.</p>
+        </div>
+        <div>
+          <h3>Tool defaults matter as much as raw model quality</h3>
+          <p><strong>Facts:</strong> Peter Yang noted different Opus 4.8 output in Claude Code versus regular Claude; Tibo described GPT-5.x increments as capability and token-efficiency improvements.</p>
+          <p><strong>Inference:</strong> UX, system prompts, and domain defaults are now competitive surface area.</p>
+        </div>
+        <div>
+          <h3>Research and education remain narrative frontiers</h3>
+          <p><strong>Facts:</strong> OpenAI/Tao content emphasizes scientific exploration; Kevin Weil amplified Brilliant/Koji AI tutor messaging.</p>
+          <p><strong>Analysis:</strong> These are high-upside narratives, but today’s accessible evidence is mostly product/vision messaging rather than measured outcomes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Concrete Implications</h2>
+      <table>
+        <thead><tr><th>Audience</th><th>What to do next</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td>Developers</td><td>Put AI agents in least-privilege sandboxes; separate read/write/network rights; test local agent hooks before trust prompts.</td><td>Anthropic’s incidents show pre-trust parsing and hidden configuration are real attack surfaces.</td></tr>
+          <tr><td>Startups</td><td>Build boring controls around exciting agents: spend caps, scoped API keys, workspace boundaries, rollback, and audit logs.</td><td>Procurement will increasingly ask how damage and cost are bounded.</td></tr>
+          <tr><td>Researchers</td><td>Treat AI as a search and experimentation amplifier, but record provenance and failed branches.</td><td>The OpenAI/Tao framing is strongest when paired with reproducible research workflows.</td></tr>
+          <tr><td>Enterprise buyers</td><td>Ask vendors to document containment architecture, prompt-injection benchmarks, egress policy, and human approval failure modes.</td><td>“Human in the loop” is not enough when users approve most prompts.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>24-72 Hour Watchlist</h2>
+      <ul class="facts">
+        <li>Look for follow-up documentation or changelog details on Vercel AI Gateway per-key spend caps beyond the public X posts.</li>
+        <li>Watch whether Anthropic’s sandbox-runtime gets security review, ecosystem integrations, or early vulnerability reports.</li>
+        <li>Check for a transcript of the Terence Tao/OpenAI video; current analysis should be revisited if full remarks become available.</li>
+        <li>Track whether Simon’s Pyodide ASGI work becomes a Datasette Lite feature, an upstream Datasette fix, or remains a research demo.</li>
+        <li>Monitor Codex/GPT-5.x adoption hints from OpenAI staff posts, but avoid overreading dashboard screenshots or teaser posts without product data.</li>
+      </ul>
+    </section>
+
+    <footer>
+      Generated from Firsthand AI Digest and opened source material. Source pack: <a href="ai-providence-source-pack-2026-05-31.md">ai-providence-source-pack-2026-05-31.md</a>.
+    </footer>
+  </main>
+</body>
+</html>

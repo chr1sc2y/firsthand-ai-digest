@@ -27,6 +27,10 @@ The 6-hour cadence is calibrated to keep [Apify](https://apify.com/) usage insid
 
 Flip between time windows (3h · 6h · 12h · 24h · 3d · 7d) to see what's fresh or catch up on the week.
 
+## Daily AI interpretations
+
+The Codex automation `每日 AI 资讯 24 小时深度报告` publishes its English HTML brief into `data/ai-briefs/` after each run. The build copies those briefs into `dist/ai-briefs/`, and the homepage shows the latest links as `yyyy-mm-dd AI 解读`, so the daily analysis is reachable directly from the site.
+
 ---
 
 ## Quick start

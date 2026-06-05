@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief - 2026-05-30</title>
+  <style>
+    :root {
+      --ink: #182026;
+      --muted: #65717b;
+      --line: #d9e0e4;
+      --paper: #fbfcfb;
+      --panel: #ffffff;
+      --teal: #167c80;
+      --green: #4f7b37;
+      --red: #b64b45;
+      --gold: #a66f19;
+      --blue: #3868a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.45;
+    }
+    a { color: #0b5f8a; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 44px; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(280px, .8fr);
+      gap: 20px;
+      align-items: stretch;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 20px;
+    }
+    h1 { margin: 0; font-size: clamp(30px, 5vw, 54px); line-height: 1; letter-spacing: 0; max-width: 820px; }
+    h2 { margin: 34px 0 12px; font-size: 22px; }
+    h3 { margin: 0 0 8px; font-size: 17px; }
+    p { margin: 0 0 10px; }
+    .lede { margin-top: 14px; color: var(--muted); max-width: 760px; font-size: 16px; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      align-content: start;
+    }
+    .metric, .card, .note, .tablebox {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .metric { padding: 13px; min-height: 86px; }
+    .metric strong { display: block; font-size: 25px; line-height: 1.1; }
+    .metric span { display: block; margin-top: 6px; color: var(--muted); font-size: 13px; }
+    .strip { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 0; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #eef4f3;
+      color: #235a5d;
+      border: 1px solid #c9dedc;
+      font-size: 13px;
+      font-weight: 650;
+    }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .card { padding: 15px; border-top: 4px solid var(--teal); min-height: 265px; }
+    .card.blue { border-top-color: var(--blue); }
+    .card.green { border-top-color: var(--green); }
+    .card.gold { border-top-color: var(--gold); }
+    .card.red { border-top-color: var(--red); }
+    .tagline { color: var(--muted); font-size: 13px; margin-bottom: 10px; }
+    .label { font-size: 12px; font-weight: 750; text-transform: uppercase; color: var(--muted); letter-spacing: .04em; margin-top: 12px; }
+    ul { margin: 8px 0 0; padding-left: 18px; }
+    li { margin: 4px 0; }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .note { padding: 16px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { text-align: left; vertical-align: top; padding: 10px; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+    tr:last-child td { border-bottom: 0; }
+    .tablebox { overflow: auto; }
+    .confidence { font-weight: 750; }
+    .high { color: var(--green); }
+    .medium { color: var(--gold); }
+    .limited { color: var(--red); }
+    footer { margin-top: 26px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 860px) {
+      header, .grid, .two { grid-template-columns: 1fr; }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .wrap { padding: 20px 14px 34px; }
+      .metrics { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <section>
+        <h1>Firsthand AI Digest: 24-Hour Brief</h1>
+        <p class="lede">A source-grounded, skimmable read of the AI items indexed by <a href="https://ai.prov1dence.top/">Firsthand AI Digest</a>, filtered to the last 24 hours and checked against original or near-primary sources where accessible.</p>
+        <div class="strip">
+          <span class="pill">Execution: 2026-05-30 07:01 CST</span>
+          <span class="pill">Window: 2026-05-29 07:01 to 2026-05-30 07:01 CST</span>
+          <span class="pill">English brief</span>
+        </div>
+      </section>
+      <aside class="metrics" aria-label="Run metrics">
+        <div class="metric"><strong>23</strong><span>Firsthand items in window</span></div>
+        <div class="metric"><strong>34</strong><span>Original or near-primary surfaces checked</span></div>
+        <div class="metric"><strong>12</strong><span>Readable enough for substantive factual analysis</span></div>
+        <div class="metric"><strong>22</strong><span>Limited, metadata-only, X-only, or no-transcript sources</span></div>
+      </aside>
+    </header>
+
+    <section>
+      <h2>Executive Summary</h2>
+      <div class="two">
+        <div class="note">
+          <p><strong>Fact pattern.</strong> The day was concentrated around three themes: Anthropic's Claude Opus 4.8 and reported business momentum, OpenAI's clinical and biodefense deployments, and practical developer tooling around agents and local/web ML. Anthropic's official launch says Opus 4.8 is available at the same price with better coding, agentic, and professional-work performance, while fast mode for 4.8 is now cheaper than prior fast-mode pricing <a href="https://www.anthropic.com/news/claude-opus-4-8">source</a>.</p>
+          <p><strong>Inference.</strong> The product cycle is shifting from headline model jumps toward reliability, quota management, and enterprise operations. That inference is supported by OpenAI's hospital operations case study <a href="https://openai.com/index/boston-childrens-hospital">source</a>, Anthropic's emphasis on honesty and long-running work <a href="https://www.anthropic.com/news/claude-opus-4-8">source</a>, Google's Gemini quota-fix thread as exposed by X oEmbed <a href="https://x.com/joshwoodward/status/2060171610922058142">source</a>, and the Google/Kaggle agent course registration page <a href="https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google?utm_source=fnf&utm_medium=x&utm_campaign=google-cloud-may&utm_term=peter-yang&utm_content=5-day-vibe-coding">source</a>.</p>
+        </div>
+        <div class="note">
+          <p><strong>Uncertainty.</strong> Full X thread context, replies, media, and some expanded links were not accessible. YouTube analysis relies on oEmbed metadata plus Firsthand-captured descriptions and chapter lists; no captions/transcripts were available locally. Axios links and some OpenAI/X t.co expansions were blocked or access-limited, so revenue and model-update claims from those surfaces are treated cautiously unless backed by accessible primary pages.</p>
+          <p><strong>Bottom line.</strong> The strongest signals are practical: agent reliability, developer-tool integration, clinical workflow automation, and biodefense access controls matter more this cycle than benchmark deltas alone.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Most Important Items</h2>
+      <div class="grid">
+        <article class="card blue">
+          <h3>OpenAI at Boston Children's</h3>
+          <p class="tagline">Healthcare operations and rare-disease diagnosis</p>
+          <p><span class="label">Facts</span> OpenAI says Boston Children's used OpenAI technology to help diagnose more than 40 rare-disease cases, saved more than 60,000 hours, delivered over $7M in value, and deployed more than 50 automation workflows <a href="https://openai.com/index/boston-childrens-hospital">source</a>.</p>
+          <p><span class="label">Analysis</span> This is less about a single "AI doctor" and more about production workflow density: intake, admin load reduction, care coordination, and specialist support. For enterprise buyers, the measurable hours/value framing is the notable part.</p>
+          <p><span class="confidence high">Confidence: high.</span> Primary OpenAI page accessible; hospital-side independent verification was not found in this run.</p>
+        </article>
+
+        <article class="card red">
+          <h3>OpenAI Rosalind Biodefense</h3>
+          <p class="tagline">Frontier biosecurity access for trusted defenders</p>
+          <p><span class="label">Facts</span> OpenAI's X post says it is launching Rosalind Biodefense and expanding trusted access to GPT-Rosalind for selected U.S. government and allied public-health or biodefense partners <a href="https://x.com/OpenAI/status/2060376598642405492">source</a>. The linked OpenAI page was access-limited from the t.co redirect in this environment.</p>
+          <p><span class="label">Analysis</span> This is a safety-governance story as much as a model story: the key claim is selective access for defensive biology work, not broad public release. Treat capability details as incomplete until the full announcement is accessible.</p>
+          <p><span class="confidence medium">Confidence: medium.</span> Public X oEmbed text was accessible; full linked page was blocked.</p>
+        </article>
+
+        <article class="card green">
+          <h3>Claude Opus 4.8</h3>
+          <p class="tagline">Incremental model upgrade, stronger reliability pitch</p>
+          <p><span class="label">Facts</span> Anthropic says Opus 4.8 improves coding, agentic tasks, and professional work; is available at the same price; adds user control over task effort on claude.ai; and supports Claude Code dynamic workflows for large-scale problems <a href="https://www.anthropic.com/news/claude-opus-4-8">source</a>.</p>
+          <p><span class="label">Analysis</span> Simon Willison's read highlights the unusual candor: "modest but tangible" improvement and stronger uncertainty-flagging, including Anthropic's claim that Opus 4.8 is around four times less likely than its predecessor to let flaws in generated code pass without comment <a href="https://simonwillison.net/2026/May/28/claude-opus-4-8/">source</a>.</p>
+          <p><span class="confidence high">Confidence: high.</span> Official launch and system-card-linked commentary were accessible.</p>
+        </article>
+
+        <article class="card gold">
+          <h3>Anthropic Revenue Run-Rate</h3>
+          <p class="tagline">$65B financing context and infrastructure pressure</p>
+          <p><span class="label">Facts</span> Simon Willison cites Anthropic's Series H announcement as saying run-rate revenue crossed $47B earlier in May, after $30B in April and $14B in February <a href="https://simonwillison.net/2026/May/29/anthropic/">source</a>. Anthropic's Series H page says it raised $65B at a $965B post-money valuation <a href="https://www.anthropic.com/news/series-h">source</a>.</p>
+          <p><span class="label">Analysis</span> The growth story is entangled with compute supply: Anthropic separately announced multiple-gigawatt Google/Broadcom TPU capacity starting in 2027 and describes demand as accelerating <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute">source</a>.</p>
+          <p><span class="confidence medium">Confidence: medium-high.</span> Financing claims are primary; revenue accounting remains private-company self-reporting.</p>
+        </article>
+
+        <article class="card">
+          <h3>Datasette 1.0a31</h3>
+          <p class="tagline">Write SQL and shared stored queries</p>
+          <p><span class="label">Facts</span> Datasette 1.0a31 adds permissioned write-SQL execution and stored queries that can be private or shared; it analyzes SQL to check affected tables and required permissions <a href="https://datasette.io/blog/2026/sql-write-queries/">source</a>. Simon Willison's release note links the release and frames this as a headline alpha feature <a href="https://simonwillison.net/2026/May/29/datasette/">source</a>.</p>
+          <p><span class="label">Analysis</span> This makes Datasette more operational, but it raises permission-design stakes. Teams should test write paths, internal DB persistence, and audit expectations before enabling this outside trusted users.</p>
+          <p><span class="confidence high">Confidence: high.</span> Project blog and release note were readable.</p>
+        </article>
+
+        <article class="card blue">
+          <h3>GPT-5.5 Instant Revision</h3>
+          <p class="tagline">Sycophancy, factuality, multilingual quality</p>
+          <p><span class="label">Facts</span> Greg Brockman's X post pointed to a post by Michelle Pokrass saying OpenAI shipped a new version of GPT-5.5 instant, improving sycophancy, factuality, and multilingual performance <a href="https://x.com/michpokrass/status/2060219759682330970">source</a>. Greg's original post was accessible through X oEmbed only <a href="https://x.com/gdb/status/2060294896918094152">source</a>.</p>
+          <p><span class="label">Analysis</span> The important signal is not a benchmark release; it is rapid behavioral patching of a default/instant model. Developers should re-run regression evals for tone, instruction-following, and multilingual behavior if they depend on ChatGPT-adjacent model behavior.</p>
+          <p><span class="confidence medium">Confidence: medium.</span> Public X text accessible; no detailed release note found in this run.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Other Signals</h2>
+      <div class="tablebox">
+        <table>
+          <thead><tr><th>Signal</th><th>What Was Verified</th><th>Read</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Claude Opus 4.8 video analysis</td>
+              <td>AI Explained video metadata and Firsthand description/chapters were available; no transcript. The video focuses on system-card highlights, uncertainty, benchmarks, cyber/misalignment notes, fast mode, and dynamic workflows.</td>
+              <td><a href="https://www.youtube.com/watch?v=aJvP3nXWkwM">YouTube</a></td>
+            </tr>
+            <tr>
+              <td>Transformers.js short</td>
+              <td>Hugging Face oEmbed confirms the short title. Firsthand text says it explains ONNX, onnxruntime, model files, caching, tensors, and pipelines; no transcript available.</td>
+              <td><a href="https://www.youtube.com/shorts/A5K8xCut_ks">YouTube</a></td>
+            </tr>
+            <tr>
+              <td>Google AI Agents course</td>
+              <td>Peter Yang's X post says Google's free 5-day course is back and links to a Kaggle registration page for a vibe-coding-with-agents competition/course.</td>
+              <td><a href="https://x.com/petergyang/status/2060149158615609474">X</a> / <a href="https://www.kaggle.com/competitions/5-day-ai-agents-intensive-vibecoding-course-with-google?utm_source=fnf&utm_medium=x&utm_campaign=google-cloud-may&utm_term=peter-yang&utm_content=5-day-vibe-coding">Kaggle</a></td>
+            </tr>
+            <tr>
+              <td>Gemini quotas</td>
+              <td>Josh Woodward's public X oEmbed says Google is rolling out fixes so Gemini quota feels more predictable; full thread details were not available.</td>
+              <td><a href="https://x.com/joshwoodward/status/2060171610922058142">X</a></td>
+            </tr>
+            <tr>
+              <td>Token-maxxing concern</td>
+              <td>Dan Shipper linked Azeem Azhar's argument that general-purpose technologies can sit inside firms before results show, analogizing AI to electricity. Thread/media context unavailable.</td>
+              <td><a href="https://x.com/danshipper/status/2060382815821209801">X</a> / <a href="https://x.com/azeem/status/2060000498913247688">linked X</a></td>
+            </tr>
+            <tr>
+              <td>Grok Build updates</td>
+              <td>Elon Musk posted a t.co link to daily Grok Build version updates. The t.co redirect was blocked in this environment, so no product claims should be made beyond the post text.</td>
+              <td><a href="https://x.com/elonmusk/status/2060167696998867414">X</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Trend Judgments</h2>
+      <div class="grid">
+        <div class="note">
+          <h3>Reliability is the release axis</h3>
+          <p>Claude Opus 4.8, GPT-5.5 instant revision, and Gemini quota fixes all point to behavioral reliability and predictable use as the current product battleground. Benchmarks still matter, but the visible fixes are about trust, limits, and work completion.</p>
+        </div>
+        <div class="note">
+          <h3>Enterprise proof is becoming operational</h3>
+          <p>OpenAI's Boston Children's case emphasizes hours saved, value delivered, and workflows deployed, while Anthropic's financing narrative leans on enterprise adoption and compute capacity. Buyers should ask for deployment metrics, not just model cards.</p>
+        </div>
+        <div class="note">
+          <h3>Agents are being normalized</h3>
+          <p>Claude Code dynamic workflows, Datasette's write-query permissions, and Google's agent course show agent workflows moving from demos into tooling, education, and admin controls.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Implications</h2>
+      <div class="tablebox">
+        <table>
+          <thead><tr><th>Audience</th><th>Concrete Takeaway</th></tr></thead>
+          <tbody>
+            <tr><td>Developers</td><td>Re-run evals when "instant" or hosted models silently improve. Add tests for sycophancy, factuality, multilingual outputs, and long-running agent behavior.</td></tr>
+            <tr><td>Startups</td><td>Operational proof points are winning attention. Package AI products around measurable time saved, error reduction, and controlled workflow rollout.</td></tr>
+            <tr><td>Researchers</td><td>Reliability claims deserve replication: uncertainty flagging, flaw detection, and abstention behavior are now product differentiators, not side metrics.</td></tr>
+            <tr><td>Enterprise buyers</td><td>Ask vendors for quota predictability, audit logs, access controls, and cost ceilings. Anthropic-scale spend anecdotes and compute deals make uncontrolled usage a procurement risk.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>24-72 Hour Watchlist</h2>
+      <ul>
+        <li>OpenAI Rosalind Biodefense: look for the full public announcement, eligibility rules, model-access constraints, and third-party governance details.</li>
+        <li>Claude Opus 4.8: watch independent coding-agent and long-context reliability evals, especially claims around flaw detection and uncertainty flagging.</li>
+        <li>Anthropic financing: track whether new reporting clarifies revenue recognition, gross margin, and compute commitments behind the $47B run-rate claim.</li>
+        <li>GPT-5.5 instant: watch for official release notes or API-facing model-version details beyond X posts.</li>
+        <li>Gemini quotas: monitor whether user-facing quota predictability improves and whether Google documents exact plan-level changes.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Source Access Notes</h2>
+      <p>Readable primary or near-primary sources included OpenAI Boston Children's, Anthropic Opus 4.8, Anthropic Series H, Anthropic Google/Broadcom compute, Simon Willison's Anthropic and Claude posts, Simon's llm-anthropic release note, Datasette's 1.0a31 blog, public X oEmbeds, YouTube oEmbeds, and the Kaggle course page. Limited sources included full X threads/media/replies, YouTube transcripts/captions, Axios pages, some t.co redirects, and one OpenAI t.co-linked Rosalind page that returned access limitations here.</p>
+    </section>
+
+    <footer>
+      Generated from <a href="ai-providence-source-pack-2026-05-30.md">ai-providence-source-pack-2026-05-30.md</a>. Facts are linked to accessible sources; interpretation is labeled as analysis or inference where appropriate.
+    </footer>
+  </main>
+</body>
+</html>

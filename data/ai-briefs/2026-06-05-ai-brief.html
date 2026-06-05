@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firsthand AI Brief - 2026-06-05</title>
+<style>
+:root{--bg:#f6f7fb;--ink:#17202a;--muted:#647083;--card:#fff;--line:#dfe5ee;--blue:#2457d6;--green:#147c5a;--amber:#9a6200;--red:#b42318;--shadow:0 8px 28px rgba(30,42,62,.08)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1180px;margin:0 auto;padding:32px 20px 56px}.hero{display:grid;grid-template-columns:1.4fr .8fr;gap:20px;align-items:end;margin-bottom:18px}.eyebrow{color:var(--blue);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase}.hero h1{font-size:42px;line-height:1.05;margin:8px 0 10px;letter-spacing:-.02em}.hero p{margin:0;color:var(--muted);max-width:720px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.metric,.card,.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow)}.metric{padding:14px}.metric strong{display:block;font-size:26px;line-height:1}.metric span{color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}.card{padding:16px}.card h3{font-size:18px;line-height:1.2;margin:4px 0 8px}.tag{display:inline-block;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:700;background:#eef3ff;color:var(--blue)}.tag.green{background:#e9f7f1;color:var(--green)}.tag.amber{background:#fff5df;color:var(--amber)}.tag.red{background:#fff0ee;color:var(--red)}.card p,.panel p{margin:8px 0;color:#344054}.card ul,.panel ul{margin:8px 0 0;padding-left:18px}.card li,.panel li{margin:4px 0}.panel{padding:18px;margin-top:14px}.panel h2{font-size:20px;margin:0 0 8px}.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}.note{font-size:13px;color:var(--muted)}.confidence{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}@media(max-width:860px){.hero,.cols{grid-template-columns:1fr}.metrics,.grid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.metrics,.grid{grid-template-columns:1fr}.hero h1{font-size:32px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Firsthand AI Digest - 24 hour interpretation</div>
+      <h1>Agents moved from demos into operating systems for work.</h1>
+      <p>Execution time: 2026-06-05 08:58 CST. Coverage window: 2026-06-04 07:05:49 to 2026-06-05 07:05:49 Asia/Shanghai. This brief separates facts from inference and marks X/video limitations explicitly.</p>
+    </div>
+    <div class="metrics">
+      <div class="metric"><strong>34</strong><span>Firsthand items</span></div>
+      <div class="metric"><strong>34</strong><span>first-layer sources</span></div>
+      <div class="metric"><strong>6</strong><span>readable primary/metadata sources</span></div>
+      <div class="metric"><strong>28</strong><span>limited or fragmentary sources</span></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Executive Summary</h2>
+    <p><strong>Fact:</strong> The strongest verified signals were OpenAI's Endava enterprise case study, Anthropic's self-service analytics post, and The MAD Podcast show notes with OpenAI's Dan Roberts. Together they point to a shift from "AI tools in teams" toward <em>agent-managed workflows</em>: software delivery, analytics, research exploration, small-business formation, and developer environments are being reframed as places where agents continuously operate.</p>
+    <p><strong>Analysis:</strong> The day was less about a new frontier model and more about productization pressure: enterprises are trying to reorganize delivery around agents, data teams are turning analytics into governed agent workflows, Perplexity is pitching "Computer" as a company-building surface, and Codex reliability/brand posts show that developer-agent products are entering mainstream demand and scrutiny.</p>
+    <p class="note"><strong>Source limitation:</strong> OpenAI's page blocked direct browserless fetch but was readable through the Jina reader. X full threads, images, replies, and authenticated context were not available; YouTube transcripts/captions were not retrieved, so video analysis uses title and description metadata only.</p>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <span class="tag">Enterprise agents</span>
+      <h3>OpenAI/Endava: AI-native delivery is now an org design story</h3>
+      <p><strong>Fact:</strong> OpenAI's Endava article says Endava made OpenAI its enterprise AI platform, giving employees access to ChatGPT Enterprise and Codex, and frames agentic workflows as a redesign of software delivery rather than a coding-only upgrade. <a href="https://openai.com/index/endava-frontiers">OpenAI source</a> / <a href="https://r.jina.ai/http://r.jina.ai/http://https://openai.com/index/endava-frontiers/">reader fallback</a></p>
+      <p><strong>Inference:</strong> The bottleneck moves from code generation to requirements, business analysis, planning, and coordination. Enterprise buyers should evaluate whether adjacent processes can keep pace with AI-assisted engineering.</p>
+      <div class="confidence">Confidence: Medium-high. Primary article readable via reader fallback; direct OpenAI page returned Cloudflare/403 in this environment.</div>
+    </article>
+
+    <article class="card">
+      <span class="tag green">Data operations</span>
+      <h3>Anthropic: analytics agents need governed context, not raw warehouse access</h3>
+      <p><strong>Fact:</strong> Anthropic says 95% of its business analytics queries are automated through Claude with roughly 95% aggregate accuracy, and argues the remaining problem is context/verification rather than mere code generation. <a href="https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude">Anthropic blog</a></p>
+      <p><strong>Analysis:</strong> This is a concrete playbook for enterprise analytics agents: semantic layers, lineage, freshness checks, evals, ablations, and online validation matter more than giving an LLM thousands of old SQL files.</p>
+      <div class="confidence">Confidence: High. Full article page was accessible.</div>
+    </article>
+
+    <article class="card">
+      <span class="tag green">AI science</span>
+      <h3>OpenAI RL discussion: discovery depends on test-time compute and verifiers</h3>
+      <p><strong>Fact:</strong> The MAD Podcast show notes frame Dan Roberts' conversation around reasoning models, test-time compute, reinforcement learning, AI math breakthroughs, and whether systems can contribute to science. <a href="https://podcasters.spotify.com/pod/show/firstmark/episodes/OpenAIs-Dan-Roberts-Why-AI-Can-Now-Make-Discoveries-e3ka0se">Spotify show notes</a></p>
+      <p><strong>Analysis:</strong> The noteworthy point is not "AI is a scientist" as a broad claim; it is the more constrained thesis that RL plus verifiable feedback can turn exploration into useful scientific search in domains with checkable progress.</p>
+      <div class="confidence">Confidence: Medium. Show notes/chapters were accessible; no full transcript was available.</div>
+    </article>
+
+    <article class="card">
+      <span class="tag amber">Startup tooling</span>
+      <h3>Perplexity Computer is being positioned as an agentic company builder</h3>
+      <p><strong>Fact:</strong> Aravind Srinivas posted that Perplexity is bringing connectors needed to run a business from scratch into Computer, adding expert-call transcripts for financial research, Windows availability, and up to $25M in Computer credits for small businesses. <a href="https://x.com/AravSrinivas/status/2062548410478334091">connectors post</a> <a href="https://x.com/AravSrinivas/status/2062508810737238417">transcripts post</a> <a href="https://x.com/AravSrinivas/status/2062557684529070223">credits post</a></p>
+      <p><strong>Inference:</strong> The competitive surface is expanding from answer engines to workflow computers with business data connectors and vertical research inputs.</p>
+      <div class="confidence">Confidence: Medium-low. Public oEmbed text was available; linked media and any fuller thread context were not.</div>
+    </article>
+
+    <article class="card">
+      <span class="tag amber">Developer agents</span>
+      <h3>Codex demand is becoming mainstream enough for reliability resets and brand ads</h3>
+      <p><strong>Fact:</strong> Tibo posted that three small Codex reliability incidents affected the previous 24 hours and that paid-plan usage limits were reset; another post introduced a Codex brand film airing during NBA Finals Game 1. <a href="https://x.com/thsottiaux/status/2062329981548802523">reliability post</a> <a href="https://x.com/thsottiaux/status/2062310660806205901">brand-film post</a> <a href="https://www.youtube.com/watch?v=bJcA23ckzcY">YouTube metadata</a></p>
+      <p><strong>Analysis:</strong> Reliability has become a product feature, not an ops footnote. If agentic coding is advertised to mainstream audiences, outages and quota behavior will shape trust quickly.</p>
+      <div class="confidence">Confidence: Medium. X oEmbed and YouTube title/description were accessible; no internal incident detail or video transcript was available.</div>
+    </article>
+
+    <article class="card">
+      <span class="tag red">Media models</span>
+      <h3>Grok Imagine signals distribution via Cloudflare and Vercel AI Gateway</h3>
+      <p><strong>Fact:</strong> Elon Musk posted "Grok Imagine 1.5 at rank 1" and "Grok on Cloudflare"; Guillermo Rauch posted that Grok Imagine Video is on Vercel AI Gateway. <a href="https://x.com/elonmusk/status/2062392619418959901">ranking post</a> <a href="https://x.com/elonmusk/status/2062346295256527350">Cloudflare post</a> <a href="https://x.com/rauchg/status/2062332963636060313">Vercel AI Gateway post</a></p>
+      <p><strong>Inference:</strong> Image/video models are competing through routing infrastructure and developer gateways, not only model quality. Treat ranking claims cautiously until the linked leaderboard is directly verified.</p>
+      <div class="confidence">Confidence: Low-medium. Claims came from public posts; full leaderboard page and linked media were not independently read.</div>
+    </article>
+  </section>
+
+  <section class="cols">
+    <div class="panel">
+      <h2>Cross-event Trend Judgments</h2>
+      <ul>
+        <li><strong>Agents are becoming work surfaces:</strong> Endava, Anthropic, Perplexity, and Codex all point to agents embedded in delivery, analytics, research, and company operations.</li>
+        <li><strong>Trust is the recurring moat:</strong> Anthropic's validation stack, Claude's Lovable/trust framing, and Codex reliability resets all converge on confidence, not raw capability.</li>
+        <li><strong>Developer infrastructure is fragmenting:</strong> posts about AGENTS.md vs Claude.md, Vercel runtimes, Cursor hiring, and Codex reliability show the need for conventions around agent-readable project context.</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h2>Concrete Implications</h2>
+      <ul>
+        <li><strong>Developers:</strong> add durable agent instructions, evals, and rollback paths; reliability will matter as much as prompt cleverness.</li>
+        <li><strong>Startups:</strong> workflow ownership beats thin wrappers; Perplexity Computer and Vercel Gateway suggest distribution will be tied to connectors and runtime surfaces.</li>
+        <li><strong>Researchers:</strong> prioritize verifiable domains where RL/test-time compute can be measured, not just narrated.</li>
+        <li><strong>Enterprise buyers:</strong> ask vendors for semantic layers, provenance, eval methodology, and incident-reset policies before scaling agents.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>24-72 Hour Watchlist</h2>
+    <ul>
+      <li>Whether OpenAI posts more details around the "little vectors" / Codex campaign and reliability follow-up.</li>
+      <li>Whether Perplexity publishes non-X details for Computer connectors, Windows rollout, credits eligibility, and expert-call transcript sources.</li>
+      <li>Whether Anthropic's analytics-agent post prompts follow-up benchmarks or implementation examples from external data teams.</li>
+      <li>Whether Grok Imagine ranking and Gateway availability become reproducible through public leaderboards or developer docs.</li>
+      <li>Whether agent context-file conventions move from social complaints toward a practical shared standard.</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2>Source Access Notes</h2>
+    <p>Readable or substantive sources: OpenAI Endava via Jina reader fallback, Anthropic analytics blog, Spotify MAD Podcast show notes, YouTube metadata for Build Small Hackathon, Codex brand film, and AI co-scientist short. Limited sources: most X posts were accessible only through public oEmbed text; X full threads, media, replies, quote-post context, and authenticated pages were unavailable. YouTube captions/transcripts were not retrieved.</p>
+  </section>
+</main>
+</body>
+</html>

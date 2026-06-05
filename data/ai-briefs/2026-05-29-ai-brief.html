@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief - 2026-05-29</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --ink: #15171a;
+      --muted: #5b6472;
+      --line: #d9e0ea;
+      --panel: #ffffff;
+      --blue: #22577a;
+      --green: #2f7d59;
+      --red: #a94442;
+      --gold: #9a6a18;
+      --violet: #6b4fa3;
+      --cyan: #147b8f;
+      --shadow: 0 12px 32px rgba(30, 45, 70, .09);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 14px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef3f8 0, #f8fafc 260px);
+    }
+    a { color: var(--blue); font-weight: 650; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+    header { padding: 28px 0 16px; border-bottom: 1px solid var(--line); }
+    .eyebrow { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
+    h1 { margin: 6px 0 8px; font-size: clamp(28px, 4vw, 48px); line-height: 1.05; letter-spacing: 0; }
+    .sub { max-width: 920px; color: var(--muted); font-size: 16px; }
+    .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 18px 0 8px; }
+    .stat, .card, .note, .watch { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); }
+    .stat { padding: 12px; }
+    .num { font-size: 24px; font-weight: 800; }
+    .label { color: var(--muted); font-size: 12px; }
+    main { padding: 18px 0 34px; }
+    .grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 16px; align-items: start; }
+    .section { margin-top: 16px; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    h3 { font-size: 15px; margin: 0 0 8px; }
+    .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .note { padding: 14px; }
+    .note b { display: block; margin-bottom: 4px; }
+    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .card { padding: 14px; position: relative; overflow: hidden; }
+    .card:before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: var(--blue); }
+    .card.green:before { background: var(--green); }
+    .card.red:before { background: var(--red); }
+    .card.gold:before { background: var(--gold); }
+    .card.violet:before { background: var(--violet); }
+    .card.cyan:before { background: var(--cyan); }
+    .meta { color: var(--muted); font-size: 12px; margin-bottom: 8px; }
+    .pill { display: inline-block; border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; margin-right: 5px; background: #f8fafc; color: var(--muted); font-size: 11px; }
+    .claim { margin: 8px 0; }
+    .claim span { color: var(--muted); font-weight: 700; }
+    ul { margin: 8px 0 0; padding-left: 18px; }
+    li { margin: 5px 0; }
+    .trend { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .watch { padding: 12px; border-left: 5px solid var(--cyan); }
+    .table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; box-shadow: var(--shadow); }
+    .table th, .table td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .table th { font-size: 12px; color: var(--muted); background: #f1f5f9; }
+    .table tr:last-child td { border-bottom: 0; }
+    footer { color: var(--muted); font-size: 12px; padding: 8px 0 30px; }
+    @media (max-width: 880px) {
+      .stats, .summary, .cards, .trend, .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Firsthand AI Digest 24-hour brief</div>
+      <h1>Agents move from demos to operating policy</h1>
+      <div class="sub">Execution time: 2026-05-29 07:00 CST. Coverage window: 2026-05-28 07:00 to 2026-05-29 07:00 CST, mapped to source timestamps where available. Firsthand's rendered 24-hour page was generated earlier and still showed older cards; this brief filters by real source time, adds the in-window No Priors duplicate that the helper script missed, and excludes older Simon, AI &amp; I, and YouTube cards.</div>
+      <div class="stats">
+        <div class="stat"><div class="num">20</div><div class="label">Firsthand cards in window, 19 unique</div></div>
+        <div class="stat"><div class="num">25</div><div class="label">Original or near-primary surfaces checked</div></div>
+        <div class="stat"><div class="num">7</div><div class="label">Readable enough for factual analysis</div></div>
+        <div class="stat"><div class="num">18</div><div class="label">Limited, metadata, embed, or no transcript</div></div>
+        <div class="stat"><div class="num">16</div><div class="label">X posts, all embed-limited</div></div>
+      </div>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="section summary">
+      <div class="note"><b>Executive read</b> The strongest signal is not a new benchmark. It is institutional adaptation: SQLite creates agent-facing contribution rules, enterprise leaders describe deployment bottlenecks, and OpenAI/Codex references appear in tax, bug-triage, and persistent-workflow patterns.</div>
+      <div class="note"><b>Access caveat</b> X full threads, media, replies, and quote context were not available. Video and podcast analysis relies on accessible descriptions, chapters, oEmbed metadata, and show notes unless noted otherwise.</div>
+      <div class="note"><b>Confidence</b> High for direct blog, forum, podcast-show-note, and official-page claims. Medium to low for claims based only on X oEmbed text, t.co expansions, or Firsthand summaries.</div>
+    </section>
+
+    <div class="grid">
+      <section class="section">
+        <h2>Most Important Items</h2>
+        <div class="cards">
+          <article class="card red">
+            <div class="meta"><span class="pill">Governance</span><span class="pill">High confidence</span> Simon Willison, SQLite sources</div>
+            <h3>SQLite draws a line around agentic code</h3>
+            <div class="claim"><span>Fact:</span> Simon Willison reports SQLite added an <a href="https://github.com/sqlite/sqlite/blob/master/AGENTS.md">AGENTS.md</a> that says the project does not accept agentic code, while still accepting reproducible agentic bug reports; the SQLite team also split machine-generated reports into a <a href="https://sqlite.org/bugs/forum">dedicated bug forum</a>.</div>
+            <div class="claim"><span>Analysis:</span> Mature open source projects are starting to separate agent-generated signal from agent-generated work product. The key issue is review cost, legal provenance, and reproducibility, not anti-AI sentiment.</div>
+            <div class="claim"><span>Uncertainty:</span> The brief relies on <a href="https://simonwillison.net/2026/May/27/sqlite-agents/">Willison's link post</a>, the visible forum, and accessible repository pages, not private maintainer discussion.</div>
+          </article>
+
+          <article class="card green">
+            <div class="meta"><span class="pill">Enterprise</span><span class="pill">Medium-high confidence</span> Spotify show page, Levie X post</div>
+            <h3>Enterprise AI bottleneck shifts to implementation</h3>
+            <div class="claim"><span>Fact:</span> The MAD Podcast page for Aaron Levie lists chapters on token cost shock, access control, data bottlenecks, headless software, internal forward-deployed engineers, and startup opportunities (<a href="https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-Enterprise-AI-2026-Aaron-Levie-on-Tokenmaxxing--Rise-of-Headless--and-AI-Proofing-Your-Job-e3k0gsp">source</a>). Levie separately posted that AI deployment roles may be far larger than expected (<a href="https://x.com/levie/status/2059839815273824423">X</a>).</div>
+            <div class="claim"><span>Analysis:</span> Enterprises are no longer asking whether agents are useful. They are paying for integration, policy, observability, workflow redesign, and model-change management.</div>
+            <div class="claim"><span>Uncertainty:</span> No full transcript was accessible, so details beyond the published description and chapters should be treated as show-note level.</div>
+          </article>
+
+          <article class="card cyan">
+            <div class="meta"><span class="pill">Agent safety</span><span class="pill">Medium confidence</span> Firsthand and podcast metadata</div>
+            <h3>Agent security becomes an enterprise category</h3>
+            <div class="claim"><span>Fact:</span> Firsthand included two duplicate No Priors cards, "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan", with chapters on agent permissions, proxies, custom models, phased rollout, and model trust. Firsthand exposed no outbound link for either card.</div>
+            <div class="claim"><span>Analysis:</span> The framing matches the SQLite and Levie items: agents require an operating layer for permissions, context, intent monitoring, and rollback, not just better model calls.</div>
+            <div class="claim"><span>Uncertainty:</span> The source link was missing on Firsthand and no full transcript was retrieved, so this is based on Firsthand's visible podcast description and chapters.</div>
+          </article>
+
+          <article class="card gold">
+            <div class="meta"><span class="pill">Developer tooling</span><span class="pill">Medium confidence</span> X embed plus expanded link</div>
+            <h3>Agent-heavy teams hit platform limits first</h3>
+            <div class="claim"><span>Fact:</span> Peter Steinberger posted about <a href="https://octopool.dev/">octopool</a>, a Cloudflare Worker that pools GitHub tokens and app installations behind a shared read cache, after hitting GitHub rate limits (<a href="https://x.com/steipete/status/2059989719870558309">X</a>).</div>
+            <div class="claim"><span>Analysis:</span> Agentic engineering increases read traffic against GitHub, CI, and dependency systems. The resulting infrastructure work looks mundane but becomes critical for reliability and cost.</div>
+            <div class="claim"><span>Uncertainty:</span> The X thread itself is limited to oEmbed text; the linked octopool page was reachable.</div>
+          </article>
+
+          <article class="card">
+            <div class="meta"><span class="pill">OpenAI/Codex</span><span class="pill">Mixed confidence</span> Official page plus X embeds</div>
+            <h3>Codex is being framed as a workflow substrate</h3>
+            <div class="claim"><span>Fact:</span> Greg Brockman linked to OpenAI's tax-agent post (<a href="https://openai.com/index/building-self-improving-tax-agents-with-codex/">official page</a>) and asked users to report ChatGPT bugs while saying the team and Codex were working to resolve them (<a href="https://x.com/gdb/status/2059831475495899191">X</a>). Dan Shipper described Codex "pulse", "log", "inbox", and "router" threads as power-user patterns (<a href="https://x.com/danshipper/status/2059975090855428571">X</a>).</div>
+            <div class="claim"><span>Analysis:</span> The product story is moving from coding assistant to persistent operational worker. The risk is context sprawl, thread routing mistakes, and invisible automation debt.</div>
+            <div class="claim"><span>Uncertainty:</span> Most Codex workflow examples here are X-only and should be read as public practitioner signals, not official roadmap.</div>
+          </article>
+        </div>
+      </section>
+
+      <aside class="section">
+        <h2>Source Ledger</h2>
+        <table class="table">
+          <tr><th>Surface</th><th>Status</th></tr>
+          <tr><td><a href="https://ai.prov1dence.top/">Firsthand AI Digest</a></td><td>Rendered page parsed directly; 20 cards matched the execution-time window, 19 unique after a No Priors duplicate.</td></tr>
+          <tr><td><a href="https://simonwillison.net/2026/May/27/sqlite-agents/">SQLite AGENTS.md</a>, <a href="https://sqlite.org/forum/forumpost/2e7a8d6ba4b46d8315e80fd4a1e2feb40948dff5b7b11d5ba9cea5cb40aa252b">forum split</a></td><td>Readable.</td></tr>
+          <tr><td><a href="https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-Enterprise-AI-2026-Aaron-Levie-on-Tokenmaxxing--Rise-of-Headless--and-AI-Proofing-Your-Job-e3k0gsp">MAD Podcast</a></td><td>Description and chapters readable; no transcript.</td></tr>
+          <tr><td>No Priors Onyx episode</td><td>Firsthand description only; outbound link missing; duplicate card counted once as a unique item.</td></tr>
+          <tr><td>Older rendered cards</td><td>Simon product-market-fit, AI &amp; I, and two YouTube cards were visible on the stale page but excluded by source timestamp.</td></tr>
+          <tr><td>16 X posts</td><td>Public oEmbed and t.co expansion only; no full thread/media/replies.</td></tr>
+        </table>
+      </aside>
+    </div>
+
+    <section class="section">
+      <h2>Cross-event Trend Judgments</h2>
+      <div class="trend">
+        <div class="note"><b>1. Agent acceptance is becoming conditional.</b> SQLite accepts reproducible agentic bug reports but rejects agentic code; enterprises want agents but require access controls, observability, and workflow redesign. This is a policy transition, not a capability transition.</div>
+        <div class="note"><b>2. The next scarce layer is orchestration.</b> Levie, No Priors, Dan Shipper, and Steinberger all point to the same operational surface: routing, permissions, rate limits, review, and human checkpoints.</div>
+        <div class="note"><b>3. AI cost talk is moving from token price to usage shape.</b> "Tokenmaxxing", CI-scale QA, and GitHub rate limits all suggest agent adoption creates bursty, infrastructure-heavy workloads.</div>
+        <div class="note"><b>4. Creative and office workflows still need collaboration primitives.</b> Peter Yang's HTML-slides posts and Aravind Srinivas's Perplexity Computer comment imply that AI-generated artifacts need manual editing, comments, permissions, and document-native affordances.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implications</h2>
+      <div class="summary">
+        <div class="note"><b>Developers</b> Add explicit AGENTS.md rules, reproducible test expectations, provenance notes, and rate-limit budgets before inviting agents into shared repositories.</div>
+        <div class="note"><b>Startups</b> Build around agent control planes, audit ledgers, workflow migration, cost observability, and team collaboration around AI-produced artifacts.</div>
+        <div class="note"><b>Researchers</b> Independent, uncontaminated benchmarks and agent-security evaluations matter more as models saturate public tasks and enter enterprise systems.</div>
+        <div class="note"><b>Enterprise buyers</b> Evaluate vendors on identity, access control, data boundaries, rollback, logging, and change management, not only model quality.</div>
+        <div class="note"><b>Open-source maintainers</b> Separate machine-generated reports from human support flows, require minimal repros, and make contribution provenance unambiguous.</div>
+        <div class="note"><b>Product teams</b> Treat agents as persistent workers with queues, inboxes, scopes, and owners. A chat UI alone will not be enough.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>24-72 Hour Watchlist</h2>
+      <div class="trend">
+        <div class="watch">Watch whether SQLite's bug forum keeps producing useful fixes or becomes a moderation burden.</div>
+        <div class="watch">Track follow-up discussion on enterprise "tokenmaxxing" and whether vendors ship clearer agent cost controls.</div>
+        <div class="watch">Look for accessible transcript or source link for the No Priors Onyx episode, since Firsthand exposed the description but not the outbound source.</div>
+        <div class="watch">Check whether Perplexity Computer plus Microsoft Office gets an official demo, not just the X-level claim.</div>
+        <div class="watch">Monitor whether octopool publishes adoption notes or GitHub policy concerns around pooled tokens.</div>
+        <div class="watch">Revisit X-only items if full threads become accessible, especially SpaceX's training-stack claim and Grok Build updates.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>All In-window Firsthand Items</h2>
+      <table class="table">
+        <tr><th>Time UTC</th><th>Item</th><th>Access basis</th></tr>
+        <tr><td>2026-05-27 23:44</td><td><a href="https://simonwillison.net/2026/May/27/sqlite-agents/">sqlite AGENTS.md</a></td><td>Full page plus SQLite sources.</td></tr>
+        <tr><td>2026-05-28 11:30</td><td><a href="https://podcasters.spotify.com/pod/show/firstmark/episodes/State-of-Enterprise-AI-2026-Aaron-Levie-on-Tokenmaxxing--Rise-of-Headless--and-AI-Proofing-Your-Job-e3k0gsp">State of Enterprise AI 2026</a></td><td>Show notes and chapters.</td></tr>
+        <tr><td>2026-05-28 10:00</td><td>No Priors: Building an AI Guardian for Enterprise</td><td>Two duplicate Firsthand cards; source link missing.</td></tr>
+        <tr><td>2026-05-28 15:08</td><td><a href="https://x.com/AravSrinivas/status/2060015359206514772">Perplexity Computer and MS Office</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 14:55</td><td><a href="https://x.com/petergyang/status/2060012011128488238">HTML presentation collaboration limits</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 13:52</td><td><a href="https://x.com/steipete/status/2059996262477222153">claw release CI ledger</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 13:26</td><td><a href="https://x.com/steipete/status/2059989719870558309">octopool</a></td><td>X oEmbed plus <a href="https://octopool.dev/">expanded link</a>.</td></tr>
+        <tr><td>2026-05-28 12:28</td><td><a href="https://x.com/danshipper/status/2059975090855428571">Codex power-user thread patterns</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 11:14</td><td><a href="https://x.com/amasad/status/2059956487846260975">ChatEU</a></td><td>X oEmbed plus expanded X link only.</td></tr>
+        <tr><td>2026-05-28 06:45</td><td><a href="https://x.com/thsottiaux/status/2059888697471078544">Independent benchmark comment</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 06:27</td><td><a href="https://x.com/elonmusk/status/2059884150187053488">SpaceX C training stack claim</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 05:47</td><td><a href="https://x.com/drfeifei/status/2059874169224147126">Fei-Fei Li Brown honorary doctorate</a></td><td>X oEmbed only; low relevance to AI product trend.</td></tr>
+        <tr><td>2026-05-28 05:44</td><td><a href="https://x.com/elonmusk/status/2059873440212124071">Grok Build improvements</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 05:04</td><td><a href="https://x.com/thsottiaux/status/2059863358023864468">Future of ChatGPT and Codex</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 03:53</td><td><a href="https://x.com/adityaag/status/2059845424450863594">Bangalore/movie post</a></td><td>X oEmbed only; not analyzed as AI news.</td></tr>
+        <tr><td>2026-05-28 03:30</td><td><a href="https://x.com/levie/status/2059839815273824423">AI deployment job multiplier</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 02:57</td><td><a href="https://x.com/gdb/status/2059831475495899191">ChatGPT bug reporting</a></td><td>X oEmbed only.</td></tr>
+        <tr><td>2026-05-28 01:00</td><td><a href="https://x.com/petergyang/status/2059801947503530365">/slides skill video</a></td><td>X oEmbed plus expanded YouTube link; no transcript.</td></tr>
+        <tr><td>2026-05-27 23:49</td><td><a href="https://x.com/gdb/status/2059784106955993236">Self-improving tax agents</a></td><td>X oEmbed plus <a href="https://openai.com/index/building-self-improving-tax-agents-with-codex/">official OpenAI page</a>.</td></tr>
+      </table>
+    </section>
+  </main>
+  <footer class="wrap">Generated from Firsthand AI Digest and original-source checks. Facts link to sources; inference and analysis are labeled separately.</footer>
+</body>
+</html>

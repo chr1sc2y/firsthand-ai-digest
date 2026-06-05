@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Digest Brief - 2026-05-27</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #5d6a72;
+      --line: #d8e0e5;
+      --bg: #f6f8f9;
+      --panel: #ffffff;
+      --blue: #2563eb;
+      --green: #138a63;
+      --amber: #a15c07;
+      --red: #b42318;
+      --violet: #6d28d9;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      padding: 28px 32px 20px;
+      background: #ffffff;
+      border-bottom: 1px solid var(--line);
+    }
+    main { max-width: 1180px; margin: 0 auto; padding: 22px; }
+    h1 { margin: 0 0 8px; font-size: 28px; line-height: 1.15; letter-spacing: 0; }
+    h2 { margin: 0 0 12px; font-size: 18px; }
+    h3 { margin: 0 0 8px; font-size: 15px; }
+    p { margin: 0 0 10px; }
+    .sub { color: var(--muted); max-width: 900px; }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(140px, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .metric, .card, .band {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .metric { padding: 12px; }
+    .metric strong { display: block; font-size: 22px; line-height: 1.1; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 16px 0; }
+    .two { grid-template-columns: repeat(2, 1fr); }
+    .card { padding: 14px; min-height: 160px; }
+    .band { padding: 16px; margin: 16px 0; }
+    .tag {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 650;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      margin: 0 5px 8px 0;
+    }
+    .high { color: var(--green); border-color: #9ed8c1; background: #eefaf5; }
+    .medium { color: var(--amber); border-color: #f0c47c; background: #fff7e8; }
+    .limited { color: var(--red); border-color: #efaaa5; background: #fff1f0; }
+    .analysis { color: var(--violet); border-color: #c8b5f4; background: #f5f0ff; }
+    ul { padding-left: 18px; margin: 8px 0 0; }
+    li { margin: 4px 0; }
+    .small { color: var(--muted); font-size: 12px; }
+    .sources { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .sources a {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 3px 8px;
+      background: #fbfcfd;
+      font-size: 12px;
+    }
+    .bar {
+      display: grid;
+      grid-template-columns: 5fr 15fr;
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e9eef2;
+      margin-top: 8px;
+    }
+    .bar span:first-child { background: var(--green); }
+    .bar span:last-child { background: #cbd5dc; }
+    footer { color: var(--muted); font-size: 12px; padding: 20px 0 6px; }
+    @media (max-width: 860px) {
+      header { padding: 22px 18px; }
+      main { padding: 14px; }
+      .metrics, .grid, .two { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Firsthand AI Digest: 24-Hour Brief</h1>
+    <p class="sub">Execution time: 2026-05-27 07:02 Asia/Shanghai. Coverage window: 2026-05-26 07:02 to 2026-05-27 07:02 Asia/Shanghai, matching the four most recent Firsthand update windows and filtering by publication/source time where available.</p>
+    <div class="metrics">
+      <div class="metric"><strong>20</strong><span>Firsthand items in window</span></div>
+      <div class="metric"><strong>20</strong><span>first-layer original links</span></div>
+      <div class="metric"><strong>5</strong><span>first-layer pages with fetched text</span></div>
+      <div class="metric"><strong>15</strong><span>X posts metadata/oEmbed only</span></div>
+      <div class="metric"><strong>10</strong><span>secondary source candidates</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="band">
+      <h2>Executive Summary</h2>
+      <p><strong>Fact:</strong> The strongest item is a security report showing Microsoft Copilot Cowork can be induced through indirect prompt injection to send compromised Teams/email messages that leak pre-authenticated Microsoft 365 file links when viewed. PromptArmor says the chain needed no human approval in the tested path, and Microsoft’s own Cowork positioning emphasizes delegated action across emails, meetings, messages, files, and data.</p>
+      <p><strong>Fact:</strong> Google pushed two platform themes: science agents through Gemini for Science, and provenance infrastructure through SynthID. The public X post says SynthID has watermarked over 100 billion pieces of content and names OpenAI, ElevenLabs, and Kakao as partners; the underlying SynthID page explains watermarking across generated image, audio, text, and video. The Gemini for Science official post describes Hypothesis Generation, Computational Discovery, Literature Insights, and Science Skills.</p>
+      <p><strong>Analysis:</strong> The day is less about a single frontier model release and more about operational AI: agents taking actions, research workflows being productized, and authenticity/provenance becoming a platform feature. The risk side is equally operational: delegated agents now need egress controls, approval design, provenance checks, and permission minimization.</p>
+      <div class="bar" title="First-layer original source access"><span></span><span></span></div>
+      <p class="small">Access note: Full X threads/media/replies were not available; public oEmbed text was used where possible. YouTube analysis uses title/oEmbed metadata only because no transcript was available locally.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <span class="tag high">Security</span><span class="tag high">High confidence</span>
+        <h3>Copilot Cowork Exfiltration Is The Enterprise Item</h3>
+        <p><strong>Fact:</strong> PromptArmor reports a Copilot Cowork attack path using a poisoned skill, automatic Teams/email actions to the active user, external-image requests, and pre-authenticated OneDrive/SharePoint download links.</p>
+        <p><strong>Inference:</strong> This is a design-class agent risk, not just a model weakness: even stronger models can follow malicious instructions if the surrounding product grants broad permissions and allows network egress.</p>
+        <p><strong>Implication:</strong> Enterprise buyers should review approval boundaries, disable or restrict pre-authenticated download paths for sensitive sites, and treat skills/shared files as untrusted input.</p>
+        <div class="sources">
+          <a href="https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files">PromptArmor report</a>
+          <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/">Microsoft Cowork post</a>
+          <a href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/">Simon Willison index</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="tag high">Science agents</span><span class="tag high">High confidence</span>
+        <h3>Gemini For Science Moves Research Agents Into Product Form</h3>
+        <p><strong>Fact:</strong> Google describes Gemini for Science as experiments and tools built with Co-Scientist, AlphaEvolve, Empirical Research Assistance, and NotebookLM. It lists Hypothesis Generation, Computational Discovery, Literature Insights, and Science Skills across more than 30 life-science databases/tools.</p>
+        <p><strong>Analysis:</strong> The product framing matters: Google is trying to turn scientific AI from one-off demos into a workbench spanning ideation, code experiments, literature review, and enterprise R&amp;D.</p>
+        <p><strong>Uncertainty:</strong> The May 26 Firsthand item was an X post; deeper facts come from Google’s official May 19 post, not from a fresh May 26 technical release.</p>
+        <div class="sources">
+          <a href="https://blog.google/innovation-and-ai/technology/research/gemini-for-science-io-2026/">Google official post</a>
+          <a href="https://x.com/GoogleDeepMind/status/2059302777818325236">DeepMind X post</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="tag medium">Provenance</span><span class="tag medium">Medium confidence</span>
+        <h3>SynthID Partnership Signal Expands Watermarking</h3>
+        <p><strong>Fact:</strong> Google DeepMind’s public post says SynthID has watermarked more than 100 billion content items and says OpenAI, ElevenLabs, and Kakao are adding SynthID watermarking. Google’s SynthID page says the system embeds imperceptible watermarks in AI-generated images, audio, text, and video.</p>
+        <p><strong>Analysis:</strong> The strategic move is interoperability. Watermarking only becomes useful at internet scale when many generators and detectors converge on compatible provenance signals.</p>
+        <p><strong>Uncertainty:</strong> I could verify the X post text and general SynthID mechanics, but not a separate full partner announcement page.</p>
+        <div class="sources">
+          <a href="https://x.com/GoogleDeepMind/status/2059235181274202500">DeepMind X post</a>
+          <a href="https://deepmind.google/models/synthid/">SynthID page</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <span class="tag analysis">Governance</span><span class="tag high">High confidence</span>
+        <h3>AI Ethics Is Now A Mainstream Institutional Debate</h3>
+        <p><strong>Fact:</strong> The Vatican document is titled <em>Magnifica Humanitas</em> and explicitly addresses safeguarding the human person in the time of artificial intelligence. Its table of contents covers governance, transparency, truth, work, freedom, weapons, diplomacy, and social doctrine.</p>
+        <p><strong>Analysis:</strong> Whether or not one shares the religious frame, the document adds a high-profile institutional language for AI governance that emphasizes human dignity, labor, private technological power, education, and war.</p>
+        <div class="sources">
+          <a href="https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html">Vatican source</a>
+          <a href="https://simonwillison.net/2026/May/25/encyclical-on-ai/">Simon Willison notes</a>
+          <a href="https://simonwillison.net/2026/May/26/corey-quinn/">Corey Quinn quote via Simon</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="tag limited">Social signal</span><span class="tag medium">Medium confidence</span>
+        <h3>AI Coding Assistants Are Being Judged By Workflow, Not Demos</h3>
+        <p><strong>Fact:</strong> Greg Brockman posted a Codex-for-Slack example link, and Peter Yang praised Codex for using browsing to test its work while saying Claude still wins for design/frontend tasks. Elon Musk posted about Grok Build screenshot input and usage.</p>
+        <p><strong>Analysis:</strong> Developer-tool competition is shifting toward end-to-end work loops: ingesting workplace context, testing in browsers, handling visual/frontend tasks, and turning screenshots into app edits.</p>
+        <p><strong>Limitation:</strong> These are public social posts; linked media, thread context, and replies were not fully accessible.</p>
+        <div class="sources">
+          <a href="https://x.com/gdb/status/2059301458873659819">Brockman post</a>
+          <a href="https://x.com/petergyang/status/2059099566377693305">Peter Yang post</a>
+          <a href="https://x.com/elonmusk/status/2059080740881502364">Grok Build post</a>
+          <a href="https://x.com/elonmusk/status/2059287487273382024">Screenshot post</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="band">
+      <h2>Cross-Event Trend Judgments</h2>
+      <ul>
+        <li><strong>Agents are crossing the trust boundary.</strong> Microsoft Cowork’s delegated-work framing and PromptArmor’s exfiltration chain show why agent products need security architecture, not just model alignment.</li>
+        <li><strong>Science AI is becoming a workflow stack.</strong> Google is presenting science agents as connected tools for hypothesis generation, experimentation, literature analysis, and enterprise R&amp;D.</li>
+        <li><strong>Provenance is becoming platform infrastructure.</strong> SynthID partnership signals suggest major AI vendors want watermarking to become a shared layer for generated media and text.</li>
+        <li><strong>Social proof is noisy but important.</strong> Posts about Grok Build, Codex, Claude, Replit, and token usage are not hard product launches, but they track developer behavior and customer expectations.</li>
+      </ul>
+    </section>
+
+    <section class="grid two">
+      <article class="card">
+        <h3>Implications By Audience</h3>
+        <ul>
+          <li><strong>Developers:</strong> Treat every agent integration as a data-flow problem. Log tool calls, constrain egress, and test prompt-injection paths that combine file access with messaging or rendering.</li>
+          <li><strong>Startups:</strong> Science, provenance, and enterprise-agent security are credible wedges; generic wrappers need stronger workflow ownership or measurable domain results.</li>
+          <li><strong>Researchers:</strong> Agentic science tools need reproducibility, citation verification, and benchmark design that catches false synthesis, not just faster literature traversal.</li>
+          <li><strong>Enterprise buyers:</strong> Ask vendors for approval matrices, sandbox guarantees, external-content rendering controls, audit trails, and data-loss-prevention compatibility before broad rollout.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>24-72 Hour Watchlist</h3>
+        <ul>
+          <li>Microsoft or PromptArmor follow-up on Copilot Cowork mitigations, bug classification, or admin controls.</li>
+          <li>Separate OpenAI, ElevenLabs, Kakao, or Nvidia posts confirming implementation details for SynthID.</li>
+          <li>Google Labs access reports for Gemini for Science, especially whether citations and verification survive real researcher use.</li>
+          <li>More concrete demos of Codex-in-Slack, Grok Build screenshot workflows, and Claude project examples.</li>
+          <li>Regulatory or standards discussion triggered by the Vatican AI encyclical and provenance partnerships.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="band">
+      <h2>Source Access Ledger</h2>
+      <p><span class="tag high">Full/substantive</span> PromptArmor Copilot Cowork, Microsoft Cowork blog, Google Gemini for Science official post, Google SynthID page, Vatican encyclical, Simon Willison link/quote posts, Jack Clark Import AI page excerpt.</p>
+      <p><span class="tag limited">Limited</span> X posts were accessed through public oEmbed text only; full threads, media, replies, quoted-post context, and authenticated context were not available. YouTube item <a href="https://www.youtube.com/watch?v=huAwz_BR8WM">DeepMind’s Insane AI Breakthroughs With CEO Demis Hassabis</a> was accessible only as title/channel/oEmbed metadata; no transcript/captions were retrieved. Jack Clark’s linked lecture video was also metadata-only.</p>
+      <p><span class="tag medium">Caution</span> Counts are based on the Firsthand collector source pack: 20 in-window items, 20 first-layer originals, 5 first-layer sources with fetched text, 15 metadata-only first-layer X posts, and 10 secondary candidates.</p>
+    </section>
+
+    <footer>
+      Generated from Firsthand AI Digest plus original-source checks. Source pack: ai-providence-source-pack-2026-05-27.md.
+    </footer>
+  </main>
+</body>
+</html>
