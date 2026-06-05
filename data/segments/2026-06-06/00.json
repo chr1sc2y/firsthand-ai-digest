@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-05T23:10:23.506652+00:00",
+  "counts": {
+    "x": 19,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Agent filesystem state can now be read, written and mounted independently of Sandbox lifecycle.\n\nWe’ve been developing a",
+        "summary": "Agent filesystem state can now be read, written and mounted independently of Sandbox lifecycle.\n\nWe’ve been developing a novel virtual storage infrastructure solution for all our compute products.\n\nStorage that’s decoupled, but attachable to Builds, Functions, Sandboxes &amp; more.",
+        "link": "https://x.com/rauchg/status/2063009510503932181",
+        "author": "rauchg",
+        "published": "2026-06-05T21:26:10+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": ".@ArtificialAnalysis’ graph shows that MAI-Transcribe-1 is in a league of its own https://t.co/pcOk0uVOnd",
+        "summary": ".@ArtificialAnalysis’ graph shows that MAI-Transcribe-1 is in a league of its own https://t.co/pcOk0uVOnd",
+        "link": "https://x.com/mustafasuleyman/status/2063003166950441377",
+        "author": "mustafasuleyman",
+        "published": "2026-06-05T21:00:58+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Codex papercuts 📉\nCodex adoption 📈",
+        "summary": "Codex papercuts 📉\nCodex adoption 📈",
+        "link": "https://x.com/thsottiaux/status/2062997768470474765",
+        "author": "thsottiaux",
+        "published": "2026-06-05T20:39:31+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "America's leading open-source model, Nemotron 3 Ultra, is now available on Perplexity for all Pro and Max users. Give it",
+        "summary": "America's leading open-source model, Nemotron 3 Ultra, is now available on Perplexity for all Pro and Max users. Give it a shot!",
+        "link": "https://x.com/AravSrinivas/status/2062985621363401123",
+        "author": "AravSrinivas",
+        "published": "2026-06-05T19:51:15+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "New Anthropic Science Blog: Making Claude a chemist.\n\nTo manipulate a molecule, chemists first need to understand its st",
+        "summary": "New Anthropic Science Blog: Making Claude a chemist.\n\nTo manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy.\n\nWe found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more: https://t.co/1jUvz7wdhV",
+        "link": "https://x.com/AnthropicAI/status/2062979607448682731",
+        "author": "AnthropicAI",
+        "published": "2026-06-05T19:27:21+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink",
+        "summary": "Starlink",
+        "link": "https://x.com/elonmusk/status/2062972771487953130",
+        "author": "elonmusk",
+        "published": "2026-06-05T19:00:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Better memory = Shorter prompts = More utility per token",
+        "summary": "Better memory = Shorter prompts = More utility per token",
+        "link": "https://x.com/thsottiaux/status/2062966625733861752",
+        "author": "thsottiaux",
+        "published": "2026-06-05T18:35:46+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I meant `uv add openai-codex`. Obviously.",
+        "summary": "I meant `uv add openai-codex`. Obviously.",
+        "link": "https://x.com/thsottiaux/status/2062961096760447392",
+        "author": "thsottiaux",
+        "published": "2026-06-05T18:13:48+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Just interviewed @mvanhorn and I'm so inspired.\n\nI had no idea that he has no CS degree or real engineering background.\n",
+        "summary": "Just interviewed @mvanhorn and I'm so inspired.\n\nI had no idea that he has no CS degree or real engineering background.\n\nDespite that, he has shipped so many awesome projects and contributed to repos like Python and Go.\n\nHe does swear by @every's Compound Engineering for making good plans and shipping good code: https://t.co/L8JrNQfyPb\n\n📌 Will clean up the interview and share soon on my YouTube: https://t.co/1C6pbWzPYn",
+        "link": "https://x.com/petergyang/status/2062959766314582064",
+        "author": "petergyang",
+        "published": "2026-06-05T18:08:30+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2062953758313644460",
+        "author": "elonmusk",
+        "published": "2026-06-05T17:44:38+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "3 weeks left til @aidotengineer world's fair!\n\nif you want to get on this year's map of top ai engineering companies, th",
+        "summary": "3 weeks left til @aidotengineer world's fair!\n\nif you want to get on this year's map of top ai engineering companies, theres a few spots left\n\nwe are sold out of:\n- presenting sponsors\n- model lab sponsors\n- platinum sponsors\n- gold sponsors\n\nthe big spots left are for the official afterparties - welcome reception, networking night, and world cup quarterfinal bundles\n\nif interested - drop a note to sponsorships@ai.engineer detailing size/scale of interest\n\n(below is 2025, we are recruiting 2026 now)\n\nif you are attending - BOOK YOUR HOTELS BY TMR AS THE ROOM BLOCK DISCOUNT EXPIRES TMR",
+        "link": "https://x.com/swyx/status/2062952591869493684",
+        "author": "swyx",
+        "published": "2026-06-05T17:40:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Use the Skills API to make all your agents and platforms smarter.\n\nThink of it as the npm registry for agent capabilitie",
+        "summary": "Use the Skills API to make all your agents and platforms smarter.\n\nThink of it as the npm registry for agent capabilities and extensibility. Free and open.",
+        "link": "https://x.com/rauchg/status/2062951924677128455",
+        "author": "rauchg",
+        "published": "2026-06-05T17:37:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "🤔 \n\nCan’t think of a single time this happened",
+        "summary": "🤔 \n\nCan’t think of a single time this happened",
+        "link": "https://x.com/elonmusk/status/2062948898319040749",
+        "author": "elonmusk",
+        "published": "2026-06-05T17:25:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "These are all common sense!",
+        "summary": "These are all common sense!",
+        "link": "https://x.com/elonmusk/status/2062948705972486385",
+        "author": "elonmusk",
+        "published": "2026-06-05T17:24:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "They should change their name to the Southern False Flag Center!",
+        "summary": "They should change their name to the Southern False Flag Center!",
+        "link": "https://x.com/elonmusk/status/2062947259411468561",
+        "author": "elonmusk",
+        "published": "2026-06-05T17:18:49+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "NitroGen just won CVPR Best Paper Honorable Mention!! We are making strides towards general-purpose embodied agents that",
+        "summary": "NitroGen just won CVPR Best Paper Honorable Mention!! We are making strides towards general-purpose embodied agents that master not only the real world physics, but also all possible physics across a multiverse of simulations. \n\nIt’s been 4 years since MineDojo, our first embodied agent in Minecraft, won NeurIPS Best Paper. Congrats to everyone on the team!!",
+        "link": "https://x.com/DrJimFan/status/2062942941363286048",
+        "author": "DrJimFan",
+        "published": "2026-06-05T17:01:39+00:00",
+        "source_name": "Jim Fan",
+        "source_role": "Senior Research Scientist, NVIDIA",
+        "source_handle": "DrJimFan"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel is partnering with and integrating Shopify.\n\nStarting with @v0, you can now prompt a Next.js + Shopify store in s",
+        "summary": "Vercel is partnering with and integrating Shopify.\n\nStarting with @v0, you can now prompt a Next.js + Shopify store in seconds.\n\nThe old tradeoff was “easy monolith” or “costly headless”. No more. Easy @nextjs Shopify storefronts with no scale or sophistication ceiling. https://t.co/GPScJlO9Lt",
+        "link": "https://x.com/rauchg/status/2062931028579078430",
+        "author": "rauchg",
+        "published": "2026-06-05T16:14:19+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "how i hit inbox 0 every day with Codex: https://t.co/Pka8rcw2vQ",
+        "summary": "how i hit inbox 0 every day with Codex: https://t.co/Pka8rcw2vQ",
+        "link": "https://x.com/danshipper/status/2062927700218859686",
+        "author": "danshipper",
+        "published": "2026-06-05T16:01:05+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Reminder.",
+        "summary": "Reminder.",
+        "link": "https://x.com/ylecun/status/2062927632597971240",
+        "author": "ylecun",
+        "published": "2026-06-05T16:00:49+00:00",
+        "source_name": "Yann LeCun",
+        "source_role": "Chief AI Scientist, Meta",
+        "source_handle": "ylecun"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Build Small Hackathon",
+        "summary": "The pace of AI over the last year has been anxiety-inducing. Labs release larger and larger models that do more of the things that make us feel human — writing, drawing, speaking, coding. No wonder more than half of us think the risks of AI outweigh the benefits.\n\nWe're sponsoring a hackathon to take things back to how they felt in 2021 — when models were small enough to tinker with, and the vibe was fun and hopeful about how this technology could improve our lives.\n\nThis hackathon is different. Rather than using a giant LLM to ship yet another B2B SaaS, we want you to think small. Armed with only 32 billion parameters, solve a problem someone you know is facing — or build something whimsical.",
+        "link": "https://www.youtube.com/watch?v=7otgeJXailY",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-05T17:52:53+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "Introducing Sites in Codex",
+        "summary": "Sites in Codex lets anyone on your team turn an idea into a secure application and publish it in minutes. Build internal tools, mini apps, and shareable resources with hosting, authentication, storage, and database support included.\n\nSee how teams can use Sites to prepare for executive business reviews, upcoming events, and internal investment decisions, and more and then share and refine those apps across their workspace.",
+        "link": "https://www.youtube.com/watch?v=VRvC5smyzso",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-05T17:42:23+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-05T16:00:00+00:00",
+    "end": "2026-06-05T22:00:00+00:00"
+  }
+}
