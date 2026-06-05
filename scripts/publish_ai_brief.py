@@ -24,14 +24,14 @@ AI_BRIEFS_CSS_END = "/* AI_BRIEFS_CSS_END */"
 # Update these two constants + update demos if needed.
 #
 # Good alternatives (subdomain prefix + card text):
-#   brief.ai.prov1dence.top  + "Latest AI Brief"     (current, matches file names *-ai-brief.html)
-#   insight.ai.prov1dence.top + "Latest AI Insight"
+#   insight.ai.prov1dence.top + "Latest AI Insight"  (CURRENT)
+#   brief.ai.prov1dence.top  + "Latest AI Brief"     (matches file names *-ai-brief.html)
 #   lens.ai.prov1dence.top   + "Latest AI Lens"      (nice metaphor)
 #   pulse.ai.prov1dence.top  + "Latest AI Pulse"
 #   distill.ai.prov1dence.top + "Latest AI Distill"
 #   synth.ai.prov1dence.top  + "Latest AI Synth"
-AI_ANALYSIS_DOMAIN = "brief.ai.prov1dence.top"
-AI_CARD_LABEL = "Latest AI Brief"
+AI_ANALYSIS_DOMAIN = "insight.ai.prov1dence.top"
+AI_CARD_LABEL = "Latest AI Insight"
 
 AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_START}
