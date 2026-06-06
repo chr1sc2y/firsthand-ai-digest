@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-06T11:27:23.283225+00:00",
+  "counts": {
+    "x": 0,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [],
+    "blogs": [
+      {
+        "title": "micropython-wasm 0.1a2",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">micropython-wasm 0.1a2</a></p>\n        <p>I added a CLI to <code>micropython-wasm</code> (<a href=\"https://github.com/simonw/micropython-wasm/issues/7\">issue #7</a>), inspired by the first draft of <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/\">the blog entry</a> when I realized it would be a great way to illustrate the <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself\">Try it yourself</a> section.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/micropython\">micropython</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/6/micropython-wasm/",
+        "author": "",
+        "keywords": "python sandboxing webassembly micropython",
+        "published": "2026-06-06T04:26:06+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "AI Agents as \"Games Masters\"? 🎮🔥",
+        "summary": "Check the pinned comment for the link to the full interview. Could AI agents eventually become the \"Games Master\" driving your gaming storylines? We explore the concept of AI assisting players or creating dynamic, non-scripted narratives. Discover how AI is currently being tested inside immersive game environments to change how we play. 🧠 \nHashtags: #aiingames #gaming #ai #gamedev #futuretech",
+        "link": "https://www.youtube.com/shorts/82m7YqosdgU",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-06T06:20:46+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-06T04:00:00+00:00",
+    "end": "2026-06-06T10:00:00+00:00"
+  }
+}
