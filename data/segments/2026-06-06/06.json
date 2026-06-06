@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-06T06:53:28.523168+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "so much more fun to use a computer via codex",
+        "summary": "so much more fun to use a computer via codex",
+        "link": "https://x.com/gdb/status/2063102501847757197",
+        "author": "gdb",
+        "published": "2026-06-06T03:35:41+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "go Knicks!!",
+        "summary": "go Knicks!!",
+        "link": "https://x.com/danshipper/status/2063100104274280597",
+        "author": "danshipper",
+        "published": "2026-06-06T03:26:10+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "I hear a version of this almost daily.",
+        "summary": "I hear a version of this almost daily.",
+        "link": "https://x.com/amasad/status/2063089288997491063",
+        "author": "amasad",
+        "published": "2026-06-06T02:43:11+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "a smarter alternative to \"always use plan mode\": \n\nalways frame your task as a question, so that the model is invited to",
+        "summary": "a smarter alternative to \"always use plan mode\": \n\nalways frame your task as a question, so that the model is invited to push back and rate the quality of the idea/suggest alternatives, rather than blindly execute what you SAID to do \n\n(which is often not precisely what you MEANT)\n\nliterally just appending \"?\" to the end of your prompt often does it",
+        "link": "https://x.com/swyx/status/2063082950317486133",
+        "author": "swyx",
+        "published": "2026-06-06T02:18:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink connecting schools in Bolivia",
+        "summary": "Starlink connecting schools in Bolivia",
+        "link": "https://x.com/elonmusk/status/2063073142306750576",
+        "author": "elonmusk",
+        "published": "2026-06-06T01:39:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Replit x Shopify!",
+        "summary": "Replit x Shopify!",
+        "link": "https://x.com/amasad/status/2063065480878063694",
+        "author": "amasad",
+        "published": "2026-06-06T01:08:35+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "email integration with chatgpt",
+        "summary": "email integration with chatgpt",
+        "link": "https://x.com/gdb/status/2063056196735504796",
+        "author": "gdb",
+        "published": "2026-06-06T00:31:41+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Coding is basically the pinnacle of what you could reasonably automate with AI, and yet we still need human engineers to",
+        "summary": "Coding is basically the pinnacle of what you could reasonably automate with AI, and yet we still need human engineers to oversee agents for them to be effective.\n\nThe AI models are trained on an incredible amount of sophisticated code. The users are highly technical and can use the latest tools quickly. The work is “verifiable” because you can test an app. The outcomes are often removed from the quality of the code (you can have sloppy code but the app can still work). And the context for the agent is often already digitized and sitting in the codebase. \n\nThat’s an incredible amount of benefits that AI coding agents get to work with. Some of those apply to knowledge work, but most don’t in areas where the work needs to be fully reviewed to be useful, or where data isn’t as abundantly digitized. This makes the job for agents in knowledge work more complicated.\n\nSo if with all of that, engineers still remain in very high demand, the risks are going to be less than what’s perceived for other areas of knowledge work. Agents will let people do far more than they did before, but the people don’t go away.",
+        "link": "https://x.com/levie/status/2063055332545540096",
+        "author": "levie",
+        "published": "2026-06-06T00:28:15+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "designing in code is now as easy as:\nclick, chat, hold shift to multi-select.\n\nworks best with Composer 2.5",
+        "summary": "designing in code is now as easy as:\nclick, chat, hold shift to multi-select.\n\nworks best with Composer 2.5",
+        "link": "https://x.com/ryolu_/status/2063038983408615435",
+        "author": "ryolu_",
+        "published": "2026-06-05T23:23:17+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "i love being (for now) bdfl for aie because i can do cheeky shit like the AGI pills we did in london and also this https",
+        "summary": "i love being (for now) bdfl for aie because i can do cheeky shit like the AGI pills we did in london and also this https://t.co/dXoPfxlKd0",
+        "link": "https://x.com/swyx/status/2063029941202239645",
+        "author": "swyx",
+        "published": "2026-06-05T22:47:21+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "We've doubled usage limits in Claude Cowork for the next month.\n\nDelegate bigger, more complex tasks to Claude. https://",
+        "summary": "We've doubled usage limits in Claude Cowork for the next month.\n\nDelegate bigger, more complex tasks to Claude. https://t.co/ivHZuaMbZV",
+        "link": "https://x.com/claudeai/status/2063018337567670285",
+        "author": "claudeai",
+        "published": "2026-06-05T22:01:15+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Running Python code in a sandbox with MicroPython and WASM",
+        "summary": "<p>I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called <a href=\"https://github.com/simonw/micropython-wasm\">micropython-wasm</a>, and I'm using it for a code execution sandbox plugin for <a href=\"https://github.com/datasette/datasette-agent\">Datasette Agent</a> called <a href=\"https://github.com/datasette/datasette-agent-micropython\">datasette-agent-micropython</a>.</p>\n<ul>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#why-do-i-want-a-sandbox-\">Why do I want a sandbox?</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#what-i-want-from-a-sandbox\">What I want from a sandbox</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#webassembly-looks-really-promising-here\">WebAssembly looks really promising here</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#micropython-in-webassembly\">MicroPython in WebAssembly</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#building-the-first-version\">Building the first version</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself\">Try it yourself</a></li>\n  <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#should-you-trust-my-vibe-coded-sandbox-\">Should you trust my vibe-coded sandbox?</a></li>\n</ul>\n<h4 id=\"why-do-i-want-a-sandbox-\">Why do I want a sandbox?</h4>\n<p>My key open source projects - <a href=\"https://datasette.io/\">Datasette</a>, <a href=\"https://llm.datasette.io/\">LLM</a>, even <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a> - all support plugins.</p>\n<p>I absolutely love plugins as a mechanism for extending software. A carefully designed plugin system reduces the risk involved in trying new things to almost nothing - even the wildest ideas won't leave a lasting influence on the core application itself. My software can grow a new feature overnight and I don't even have to review a pull request!</p>\n<p>There's one major drawback: my plugin systems all use Python and <a href=\"https://pluggy.readthedocs.io/en/latest/\">Pluggy</a>, and plugin code executes with full privileges within my applications. A buggy or malicious plugin could break everything or leak private data.</p>\n<p>I'd love to be able to run plugin-style code in an environment where it is unable to read unapproved files, connect to a network, or generally operate in a way that's risky or harmful to the rest of the application or the user's computer.</p>\n<p>My interest covers more than just plugins. For Datasette in particular there are many features I'd like to support where arbitrary code execution would be useful. I've already experimented with this for <a href=\"https://enrichments.datasette.io/\">Datasette Enrichments</a>, where code can be used to transform values stored in a table. I'd love to build a mechanism where you can run code on a schedule that fetches JSON from an approved location, runs a tiny bit of code to reformat it into a list of dictionaries, then inserts those as rows in a SQLite database table.</p>\n<h4 id=\"what-i-want-from-a-sandbox\">What I want from a sandbox</h4>\n<p>My goal is to execute code safely within my own Python applications. Here's what I need:</p>\n<ul>\n<li>Dependencies that <strong>cleanly install from PyPI</strong>, including binary wheels across multiple platforms if necessary. I don't want people using my software to have to take any extra steps beyond directly installing my Python package.</li>\n<li>Executed code must be subject to both <strong>memory</strong> and <strong>CPU</strong> limits. I don't want <code>while True: s += \"longer string\"</code> to crash my application or the user's computer.</li>\n<li>\n<strong>File access must be strictly controlled</strong>. Either no filesystem access at all or I get to define exactly which files can be read and which files can be written to.</li>\n<li>\n<strong>Network access is controlled as well</strong>. Sandboxed code should not be able to communicate with anything without going through a layer I fully control.</li>\n<li>Support for interaction with <strong>host functions</strong>. A sandbox isn't much use if I can't carefully expose selected platform features to the code that it's running.</li>\n<li>It has to be <strong>robust, supported, and clearly documented</strong>. I've lost count of the number of sandbox projects I've seen in repos with warnings that they aren't actively maintained!</li>\n</ul>\n<h4 id=\"webassembly-looks-really-promising-here\">WebAssembly looks really promising here</h4>\n<p>Web browsers operate in the most hostile environment imaginable when it comes to malicious code. Their job is to download <em>and execute</em> untrusted code from the web on almost every page load.</p>\n<p>Given this, JavaScript engines should be excellent candidates for sandboxes. Sadly those engines are also extremely complicated, and are not designed for easy embedding in other projects. Most of the v8-in-Python projects I've seen are infrequently maintained and come with warnings not to use them with completely untrusted code.</p>\n<p>WebAssembly is a <em>much better</em> candidate. It was designed from the start to support all of the characteristics I care about and has been tested in browsers for nearly a decade. The <a href=\"https://pypi.org/project/wasmtime\">wasmtime</a> Python library is actively maintained and has binary wheels.</p>\n<h4 id=\"micropython-in-webassembly\">MicroPython in WebAssembly</h4>\n<p>WebAssembly engines like wasmtime run WebAssembly binaries. Some programming languages like Rust are easy to compile directly to WebAssembly. Dynamic languages like JavaScript and Python are harder - they support language primitives like <code>eval()</code>, which means they need a full interpreter available at runtime.</p>\n<p>To run Python we need a full Python interpreter compiled to WebAssembly, wired up in a way that makes it easy to feed it code, hook up host functions and access the results.</p>\n<p>Pyodide offers an outstanding package for running Python using WebAssembly in the browser, but using Pyodide in server-side Python isn't supported. The most recent advice I could find was <a href=\"https://github.com/pyodide/pyodide/discussions/5145\">from October 2024</a> stating \"Pyodide is built by the Emscripten toolchain and can only run in a browser or Node.js\".</p>\n<p>The other day I decided to take a look at <a href=\"https://micropython.org\">MicroPython</a> as an option for this. The MicroPython site says:</p>\n<blockquote>\n<p>MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments.</p>\n</blockquote>\n<p>WebAssembly sure feels like a constrained environment to me!</p>\n<h4 id=\"building-the-first-version\">Building the first version</h4>\n<p>I had GPT-5.5 Pro <a href=\"https://chatgpt.com/share/6a1e2a5c-58b8-8328-ba1c-0e6aadb0a051\">do some research for me</a>, which turned up <a href=\"https://github.com/micropython/micropython/pull/13676\">this PR against MicroPython</a> by <a href=\"https://github.com/yamt\">Yamamoto Takahashi</a> titled \"Experimental WASI support for ports/unix\".</p>\n<p>It then produced this <a href=\"https://github.com/simonw/micropython-wasm/blob/c08fbd2276b15dc8c9bdff82845f750971f45647/research.md\">research.md document</a>, so I let Codex Desktop and GPT-5.5 high <a href=\"https://gist.github.com/simonw/27461a16d76f28f8619c609444d544fe\">loose on it</a> to see what would happen:</p>\n<blockquote>\n<p><code>read the research.md document and build this. You will probably need to write a script that compiles a custom WASM version of MicroPython as part of this project - fetch the MicroPython code to a /tmp directory for this as part of that script.</code></p>\n</blockquote>\n<p>It worked. I now had a prototype Python library that could execute Python code inside a WebAssembly sandbox!</p>\n<p>The trickiest piece to solve was persistent interpreter state. The WASM build we are using here exposes a single entry point which starts the interpreter, runs the code and then stops the interpreter at the end.</p>\n<p>This works fine for one-off scripts, but for Datasette Agent I want variables and functions to stay resident in memory so I can reuse them across multiple code execution calls.</p>\n<p>A neat thing about working with coding agents is that you can get from an idea to a proof of concept quickly. I prompted:</p>\n<blockquote>\n<p><code>For keeping variables resident: what if we ran code inside micropython itself which called a host function get_next_python_code() and then passed that to eval() - and that host function blocked until new code was available, maybe by running in a thread with a queue? Could that or a similar idea help here?</code></p>\n</blockquote>\n<p>After some iteration we got to a version of this that works! In Python code you can now do this:</p>\n<pre><span class=\"pl-k\">from</span> <span class=\"pl-s1\">micropython_wasm</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">MicroPythonSession</span>\n\n<span class=\"pl-k\">with</span> <span class=\"pl-en\">MicroPythonSession</span>() <span class=\"pl-k\">as</span> <span class=\"pl-s1\">session</span>:\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">session</span>.<span class=\"pl-c1\">run</span>(<span class=\"pl-s\">\"x = 10<span class=\"pl-cce\">\\n</span>print(x)\"</span>).<span class=\"pl-c1\">stdout</span>)\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">session</span>.<span class=\"pl-c1\">run</span>(<span class=\"pl-s\">\"x += 5<span class=\"pl-cce\">\\n</span>print(x)\"</span>).<span class=\"pl-c1\">stdout</span>)\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">session</span>.<span class=\"pl-c1\">run</span>(<span class=\"pl-s\">\"print(x * 2)\"</span>).<span class=\"pl-c1\">stdout</span>)</pre>\n<p>Under the hood this starts a thread, sets up a request queue and then sends messages to that queue for the <code>session.run()</code> command, each time waiting on a reply queue for the result of that execution. Inside WASM the MicroPython interpreter blocks waiting for a <code>__session_next__()</code> host function to return the next line of code, which it runs <code>eval()</code> on before calling <code>__session_result__({\"id\": request_id, \"ok\": True})</code> when each block has been successfully executed.</p>\n<p>The other piece of complexity was supporting host functions, so my Python library could selectively expose functions that could then be called by code running in MicroPython.</p>\n<p>Codex ended up solving this with <a href=\"https://github.com/simonw/micropython-wasm/blob/0.1a1/micropython_wasm/usercmodule/host/hostmodule.c\">78 lines of C</a>, which ends up compiled into the <a href=\"https://github.com/simonw/micropython-wasm/blob/0.1a1/micropython_wasm/artifacts/micropython-wasi.wasm\">362KB WebAssembly blob</a> I'm distributing with the package.</p>\n<p>I am by no means a C programmer, but I've read the C and had two different models explain it to me (here's <a href=\"https://claude.ai/share/62f74371-cc3c-44f2-b406-33d03513de9e\">Claude's explanation</a>) and I've subjected it to a barrage of tests.</p>\n<p>The great thing about working with WebAssembly is that if the C turns out to be fatally flawed the worst that can happen is the WebAssembly execution will fail with an exception. I can live with that risk.</p>\n<p>Memory limits are directly supported by wasmtime. CPU limits are a little harder: wasmtime offers a \"fuel\" concept to limit how many operations a WebAssembly call can execute, and that's the correct fit for this problem, but the units are hard to reason about. I'm experimenting with a 20 million default \"fuel\" setting now but I'm not confident that it's the most appropriate value.</p>\n<h4 id=\"try-it-yourself\">Try it yourself</h4>\n<p>The <code>micropython-wasm</code> alpha is now <a href=\"https://pypi.org/project/micropython-wasm\">live on PyPI</a>.</p>\n<p>You can try it from your own Python code as <a href=\"https://github.com/simonw/micropython-wasm\">described in the README</a>. I've also added a simple CLI mode in <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">version 0.1a2</a> which means you can try it using <code>uvx</code> without first installing it like so:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx micropython-wasm -c <span class=\"pl-s\"><span class=\"pl-pds\">'</span>print(\"Hello world\")<span class=\"pl-pds\">'</span></span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> To see it run out of fuel:</span>\nuvx micropython-wasm -c <span class=\"pl-s\"><span class=\"pl-pds\">'</span>s = \"\"; while True: s += \"longer\"<span class=\"pl-pds\">'</span></span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Outputs: micropython-wasm: guest exited with code 1</span></pre></div>\n<p>You can also try it in <a href=\"https://agent.datasette.io/\">Datasette Agent</a> like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx llm keys <span class=\"pl-c1\">set</span> openai\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Paste in an OpenAI key, then:</span>\nuvx --with datasette-agent \\\n  --with datasette-agent-micropython \\\n  --prerelease allow \\\n  datasette --internal internal.db \\\n    -s plugins.datasette-llm.default_model gpt-5.5 \\\n    --root -o</pre></div>\n<p>Then navigate to <a href=\"http://127.0.0.1:8001/-/agent\">http://127.0.0.1:8001/-/agent</a> and run the prompt:</p>\n<blockquote>\n<p><code>show me some micropython</code></p>\n</blockquote>\n\n<p><img alt=\"Screenshot of a chat application interface with a dark blue-grey header reading &quot;home&quot; on the left and &quot;root&quot; with a hamburger menu icon on the right. Below is a navigation row with &quot;← Back&quot; and &quot;Chat&quot; on the left and an &quot;EXPORT&quot; button on the right. A blue user message bubble reads &quot;show me some micropython&quot;. Below it a collapsed thinking section reads &quot;▸Thinking: … to show the result clearly. After that, I can wrap up with a brief explanation!&quot; followed by a &quot;▶ Tool: execute_micropython&quot; label. A code block follows: &quot;# A tiny MicroPython example: blink-style logic + Fibonacci&quot; / &quot;def fib(n):&quot; / &quot;    a, b = 0, 1&quot; / &quot;    out = []&quot; / &quot;    for _ in range(n):&quot; / &quot;        out.append(a)&quot; / &quot;        a, b = b, a + b&quot; / &quot;    return out&quot; / 'print(&quot;Hello from MicroPython!&quot;)' / 'print(&quot;First 10 Fibonacci numbers:&quot;, fib(10))' / &quot;# MicroPython often runs on microcontrollers, e.g.:&quot; / &quot;# from machine import Pin&quot; / &quot;# led = Pin(2, Pin.OUT)&quot; / &quot;# led.value(1)  # turn LED on&quot; / &quot;# led.value(0)  # turn LED off&quot;. Below a horizontal divider is the output: &quot;Hello from MicroPython!&quot; / &quot;First 10 Fibonacci numbers: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]&quot;, followed by a &quot;▶ Result: execute_micropython&quot; label. At the bottom is a text input field with placeholder &quot;Type a message...&quot; and a blue &quot;Send&quot; button.\" src=\"https://static.simonwillison.net/static/2026/micropython-in-datasette-agent.jpg\" /></p>\n\n<h4 id=\"should-you-trust-my-vibe-coded-sandbox-\">Should you trust my vibe-coded sandbox?</h4>\n<p>Having complained about immature, loosely-maintained sandboxing libraries, it's deeply ironic that I've now built my own!</p>\n<p>I deliberately slapped an alpha release version on it, and I'm not ready to recommend it to anyone who isn't willing to take a significant risk.</p>\n<p>I've put it through enough testing that I'm OK using it myself. I've shipped my first plugin that uses it, <a href=\"https://github.com/datasette/datasette-agent-micropython\">datasette-agent-micropython</a>. I've also locked GPT-5.5 xhigh in that Datasette Agent plugin and <a href=\"https://gist.github.com/simonw/5de497c44d25f9fd459c8aa2c959fe4a\">challenged it to break out of the sandbox</a> and so far it has not managed to.</p>\n<p>I'm hoping this implementation can convince some companies with professional security teams and high-stakes problems to commit to using Python in WebAssembly as a sandboxing approach and open source their own solutions.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/codex\">codex</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/micropython\">micropython</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/",
+        "author": "",
+        "keywords": "python sandboxing ai datasette webassembly generative-ai llms ai-assisted-programming codex datasette-agent micropython",
+        "published": "2026-06-06T03:53:34+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "OpenAI Help: Lockdown Mode",
+        "summary": "<p><strong><a href=\"https://help.openai.com/en/articles/20001061-lockdown-mode\">OpenAI Help: Lockdown Mode</a></strong></p>\nOpenAI first teased this <a href=\"https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/\">in February</a>, but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\":</p>\n<blockquote>\n<p>Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content ChatGPT processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response.</p>\n</blockquote>\n<p>This looks really good to me.</p>\n<p>The <a href=\"https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/\">Lethal Trifecta</a> occurs when an LLM system has access to all three of access to private data, exposure to untrusted content and a way to steal data and transmit it back to the attacker.</p>\n<p>The only way to solve the trifecta is to cut off one of the three legs, and by far the easiest leg to restrict without making your LLM systems far less useful is the exfiltration vectors to steal data.</p>\n<p>It looks to me like lockdown mode directly attacks that leg, using mechanisms that are deterministic and, crucially, are not evaluated by AI systems that themselves can be subverted by sufficiently devious attacks.</p>\n<p>The existence of lockdown mode does however imply that ChatGPT, in its default settings, does <em>not</em> provide robust protection against sufficiently determined data exfiltration attacks!\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/lethal-trifecta\">lethal-trifecta</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/",
+        "author": "",
+        "keywords": "security ai openai prompt-injection llms lethal-trifecta",
+        "published": "2026-06-05T23:56:40+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-05T22:00:00+00:00",
+    "end": "2026-06-06T04:00:00+00:00"
+  }
+}
