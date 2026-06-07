@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-07T23:05:22.338556+00:00",
+  "counts": {
+    "x": 6,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2063741293834985766",
+        "author": "elonmusk",
+        "published": "2026-06-07T21:54:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I have had the chance to go through two IPOs (Meta and Dropbox).\n\nFabulous wealth tends to amplify deeper desires, not c",
+        "summary": "I have had the chance to go through two IPOs (Meta and Dropbox).\n\nFabulous wealth tends to amplify deeper desires, not create new ones.\n\nThe mainstream narrative is: \"Early Employees make lots of money and buy mansions and go to the beach\".\n\nFor some: Yes, they want to chill. That is great. I am happy for them.\n\nBut for a lot of folks, it is a chance to do even crazier and wackier stuff. Start new things. Fund new things. Keep the crazy loop of Silicon Valley going.\n\nIt's going to be awesome to have a lot of folks with liquidity in the coming months. \n\nOnwards!.",
+        "link": "https://x.com/adityaag/status/2063731771284619521",
+        "author": "adityaag",
+        "published": "2026-06-07T21:16:11+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "releasing tmr - the biggest code eval launch of the year\n\nglad to have played a small part in defining the agenda for th",
+        "summary": "releasing tmr - the biggest code eval launch of the year\n\nglad to have played a small part in defining the agenda for this very critical next phase in koding https://t.co/KEoMOHorUE",
+        "link": "https://x.com/swyx/status/2063723477199376626",
+        "author": "swyx",
+        "published": "2026-06-07T20:43:13+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on",
+        "summary": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on failed payments or credit card updates.\n\nAnd we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …\n\nhttps://t.co/OougSipbBX",
+        "link": "https://x.com/rauchg/status/2063714700618334260",
+        "author": "rauchg",
+        "published": "2026-06-07T20:08:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate",
+        "summary": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.”",
+        "link": "https://x.com/gdb/status/2063705280270021087",
+        "author": "gdb",
+        "published": "2026-06-07T19:30:55+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.\n\n@kunchenguid, ex-Meta L8 engineer, is no",
+        "summary": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.\n\n@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:\n\n→ Code review & QA\n→ Merge gates and team handoffs\n\nWhen output jumps 10x, the old workflows starts to crack.\n\nThe answer is to build systems that streamline planning, validation, review, and merging as much as possible.\n\n📌 Watch him talk more about it here:\nhttps://t.co/UaoPKjbSC0",
+        "link": "https://x.com/petergyang/status/2063682464921604189",
+        "author": "petergyang",
+        "published": "2026-06-07T18:00:15+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-07T16:00:00+00:00",
+    "end": "2026-06-07T22:00:00+00:00"
+  }
+}
