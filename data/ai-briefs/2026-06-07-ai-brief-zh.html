@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI 解读 - 2026-06-07</title>
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --ink: #17201b;
+      --muted: #647067;
+      --line: #dce2dc;
+      --card: #ffffff;
+      --green: #0f6b4d;
+      --blue: #285a8e;
+      --amber: #9b5a10;
+      --red: #8f3434;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
+    header { display: grid; grid-template-columns: 1.35fr .65fr; gap: 18px; align-items: stretch; margin-bottom: 18px; }
+    .hero, .panel, .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+    .hero { padding: 28px; }
+    .eyebrow { color: var(--green); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 8px 0 10px; font-size: clamp(30px, 5vw, 54px); line-height: 1.08; letter-spacing: 0; }
+    h2 { margin: 0 0 12px; font-size: 20px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: 0; }
+    p { margin: 0 0 10px; }
+    .dek { color: var(--muted); max-width: 760px; font-size: 17px; }
+    .panel { padding: 18px; }
+    .metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .metric { border-top: 3px solid var(--green); padding-top: 9px; }
+    .metric strong { display: block; font-size: 28px; line-height: 1; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin-top: 14px; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+    .card { padding: 17px; min-height: 100%; }
+    .tagrow { display: flex; gap: 7px; flex-wrap: wrap; margin: 0 0 10px; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; color: var(--muted); font-size: 12px; background: #fbfcfa; }
+    .tag.fact { color: var(--green); border-color: #a9cdbc; }
+    .tag.limited { color: var(--amber); border-color: #e1c28d; }
+    .tag.infer { color: var(--blue); border-color: #acc2d7; }
+    .big { font-size: 24px; line-height: 1.22; font-weight: 760; margin-bottom: 10px; }
+    .muted { color: var(--muted); }
+    .section-title {
+      grid-column: span 12;
+      margin: 18px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: .08em;
+    }
+    .section-title:after { content: ""; height: 1px; background: var(--line); flex: 1; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 7px 0; }
+    .source-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .source-list a { display: block; border: 1px solid var(--line); border-radius: 6px; padding: 9px 10px; background: #fbfcfa; overflow-wrap: anywhere; }
+    .note { border-left: 4px solid var(--amber); padding-left: 12px; color: #5e4a25; }
+    .confidence { margin-top: 12px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 860px) {
+      header { grid-template-columns: 1fr; }
+      .span-4, .span-6, .span-8 { grid-column: span 12; }
+      .source-list { grid-template-columns: 1fr; }
+      .hero { padding: 22px; }
+    }
+  .lang-switch{position:fixed;top:18px;right:18px;z-index:50;display:flex;gap:4px;background:rgba(255,255,255,.86);border:1px solid var(--line,#dfe5ee);border-radius:999px;padding:4px;backdrop-filter:blur(18px);box-shadow:0 4px 18px rgba(30,42,62,.10)}.lang-switch a{border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;color:var(--muted,#647083);text-decoration:none}.lang-switch a.active{background:var(--blue,var(--green,#2457d6));color:#fff}@media(max-width:560px){.lang-switch{position:static;margin:14px 20px 0;display:inline-flex}}</style>
+</head>
+<body>
+<nav class="lang-switch" aria-label="Language"><a href="2026-06-07-ai-brief.html">EN</a><a class="active" href="2026-06-07-ai-brief-zh.html">中文</a></nav>
+  <div class="wrap">
+    <header>
+      <section class="hero">
+        <div class="eyebrow">Firsthand AI Digest - 24 小时解读</div>
+        <h1>AI 的重点从新奇演示转向运行成本与本地执行。</h1>
+        <p class="dek">6 月 7 日窗口没有太多正式模型发布，但对应用层很有信号价值：企业开始关心 token 成本，Perplexity 把本地模型与 Intel AI PC 绑定，开发者也在把 AI 助手当成日常工作基础设施。</p>
+      </section>
+      <aside class="panel">
+        <h2>运行信息</h2>
+        <p><strong>执行时间：</strong>2026-06-07 12:44 CST / 04:44 UTC</p>
+        <p><strong>覆盖窗口：</strong>2026-06-06 12:44 CST 至 2026-06-07 12:44 CST</p>
+        <div class="metrics">
+          <div class="metric"><strong>10</strong><span>Digest 条目</span></div>
+          <div class="metric"><strong>10</strong><span>原始来源</span></div>
+          <div class="metric"><strong>8</strong><span>X 帖子可通过公开渲染读取</span></div>
+          <div class="metric"><strong>2</strong><span>YouTube 来源无完整转录</span></div>
+        </div>
+      </aside>
+    </header>
+
+    <main class="grid">
+      <div class="section-title">执行摘要</div>
+      <section class="card span-8">
+        <p class="big">最强信号是：AI 采用压力正在从“用哪个前沿模型”转向“哪个模型、在哪里执行、边际成本是多少”。</p>
+        <p><strong>事实：</strong>Aaron Levie 称 token 成本已经成为企业客户的热门议题，并预测具备工作流专属 eval 的应用层公司会通过模型路由形成差异化（<a href="https://x.com/levie/status/2063320673217609936">来源</a>）。Aravind Srinivas 表示 Perplexity 正与 Intel 合作，把 Personal Computer、本地模型和混合推理带到 Intel Core Ultra Series 3 笔记本（<a href="https://x.com/AravSrinivas/status/2063341557923901584">来源</a>）；Intel 开发者材料也把 hybrid AI 描述为可在本地、云端或两者组合中运行，以服务安全和性能需求（<a href="https://www.intel.com/content/www/us/en/developer/topic-technology/ai-pc/local-first-hybrid-ai.html">Intel</a>）。</p>
+        <p><strong>分析：</strong>短期机会不只是模型访问，而是编排层：路由、本地隐私边界、eval 体系、以及理解工作流的成本控制。</p>
+      </section>
+      <aside class="card span-4">
+        <h3>来源质量</h3>
+        <p class="note">主要 X 帖子的正文可通过公开渲染页读取，但回复、完整 quote 上下文和媒体只部分可见。YouTube 视频只能获得标题、描述和公开页面元数据；本次没有可靠的完整转录。</p>
+        <p class="confidence">整体置信度：来源事实为中等，视频解读为中低；“token 经济性与混合推理正在汇合”这一跨事件趋势置信度较高。</p>
+      </aside>
+
+      <div class="section-title">重点条目</div>
+      <article class="card span-6">
+        <div class="tagrow"><span class="tag fact">事实</span><span class="tag infer">分析</span><span class="tag">企业 AI</span></div>
+        <h3><a href="https://x.com/levie/status/2063320673217609936">Token 成本把模型路由推向应用层核心</a></h3>
+        <p><strong>事实：</strong>Levie 表示企业正在集中讨论 token 成本，应用 AI 公司会把工作流子任务路由给合适模型以形成差异化。</p>
+        <p><strong>推断：</strong>这有利于拥有领域 eval、成本可观测性和任务分类能力的供应商。单纯的“前沿模型 wrapper”如果无法证明更低成本和可衡量结果，会面临利润压力。</p>
+        <p class="confidence">不确定性：这是公开帖子，没有附带企业支出调查或统计数据。</p>
+      </article>
+
+      <article class="card span-6">
+        <div class="tagrow"><span class="tag fact">事实</span><span class="tag infer">分析</span><span class="tag">AI PC</span></div>
+        <h3><a href="https://x.com/AravSrinivas/status/2063341557923901584">Perplexity-Intel 指向本地/云端混合推理</a></h3>
+        <p><strong>事实：</strong>Srinivas 感谢 Intel 和 Lip-Bu Tan，称双方正把 Perplexity Personal Computer、本地模型和混合推理带到 Intel Core Ultra Series 3 笔记本。该帖引用了 Tan 的 Computex keynote 线程。</p>
+        <p><strong>分析：</strong>本地执行正在被包装成隐私、低延迟和云成本缓解方案。开发者需要把任务表达成可由编排器在 NPU/GPU/CPU 与云模型之间拆分的形式。</p>
+        <p class="confidence">置信度：中等；X 帖子可读，但产品时间表和能力细节仍需要正式产品文档。</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">事实</span><span class="tag">开发者工作流</span></div>
+        <h3><a href="https://x.com/petergyang/status/2063353542103167369">手机上的 Codex 使用成为随手工作模式</a></h3>
+        <p><strong>事实：</strong>Peter Yang 描述自己周末在孩子活动间隙躲到角落里用手机向 Codex 口述。</p>
+        <p><strong>分析：</strong>这虽小，但说明 agentic coding 正从 IDE 专属会话扩展到语音和移动场景。</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">事实</span><span class="tag limited">转录受限</span><span class="tag">游戏</span></div>
+        <h3><a href="https://www.youtube.com/shorts/82m7YqosdgU">AI agent 作为游戏主持人</a></h3>
+        <p><strong>事实：</strong>Two Minute Papers 短视频讨论 agent 是否能驱动游戏剧情，并提到动态、非脚本化叙事。</p>
+        <p><strong>分析：</strong>这更像产品/设计信号，而非技术发布。关键问题是游戏工作室如何评估实时 agent gameplay 的安全、成本、延迟和作者控制。</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">事实</span><span class="tag limited">转录受限</span><span class="tag">经济</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=85S8Byf-Ing">AI 宏观冲击讨论仍需谨慎</a></h3>
+        <p><strong>事实：</strong>Dwarkesh Clips 发布了 Alex Imas 和 Phil Trammell 的 “Will AI Crash the Economy? Debunking Citrini”，并指向完整节目。</p>
+        <p><strong>分析：</strong>在没有完整转录的情况下，安全结论只能停留在议题层面：AI 宏观风险论点正在被公开检验，但本次无法核验具体论证。</p>
+      </article>
+
+      <div class="section-title">次级信号</div>
+      <section class="card span-6">
+        <h3>智能与记忆式能力的区别</h3>
+        <p><strong>事实：</strong>Francois Chollet 在短帖中区分了“静态能力”和适应性（<a href="https://x.com/fchollet/status/2063350697626845639">来源</a>）。</p>
+        <p><strong>分析：</strong>这延续了 benchmark 争论：扩大知识并不等于系统能在迁移、主动适应和新任务上表现出智能。</p>
+      </section>
+      <section class="card span-6">
+        <h3>非核心 AI 帖子不应过度加权</h3>
+        <p><strong>事实：</strong>Amjad Masad 发布了关于 VC 行为和 “Vibecon” 的帖子（<a href="https://x.com/amasad/status/2063344460705288401">来源</a>、<a href="https://x.com/amasad/status/2063300737296400516">来源</a>），Elon Musk 发布了关于生育率趋势的评论（<a href="https://x.com/elonmusk/status/2063333492449009867">来源</a>、<a href="https://x.com/elonmusk/status/2063296176246427655">来源</a>）。</p>
+        <p><strong>分析：</strong>这些更像创始人/媒体注意力信号，而不是直接 AI 产品或研究事件。只有当创始人网络、劳动力预期和公共叙事影响 AI 公司策略时，它们才值得纳入观察。</p>
+      </section>
+
+      <div class="section-title">具体影响</div>
+      <section class="card span-4">
+        <h3>开发者</h3>
+        <ul>
+          <li>按工作流度量 token 成本，而不是只看单次模型调用。</li>
+          <li>设计任务时预留路由空间，让系统可选择本地、低价或前沿模型执行。</li>
+          <li>AI 编码界面会继续扩展到语音和移动场景。</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>创业公司</h3>
+        <ul>
+          <li>领域 eval 和路由策略会成为防御性资产。</li>
+          <li>本地/云端混合是隐私敏感垂直领域的切入点。</li>
+          <li>不要在没有可测成本和质量控制的情况下销售 agentic 功能。</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>研究者</h3>
+        <ul>
+          <li>适应性仍是不同于知识规模的独立能力轴。</li>
+          <li>游戏 agent 需要评估叙事质量、控制、安全和玩家信任，而不只是 reward。</li>
+          <li>AI 宏观经济论断在进入运营决策前需要更强实证基础。</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>企业买家</h3>
+        <ul>
+          <li>要求供应商说明路由逻辑、eval 证据和成本归因。</li>
+          <li>用真实隐私、延迟和管理约束测试本地推理承诺。</li>
+          <li>为编排和治理预留预算，而不只是购买模型订阅。</li>
+        </ul>
+      </section>
+
+      <div class="section-title">24-72 小时观察清单</div>
+      <section class="card span-8">
+        <ul>
+          <li>Perplexity 或 Intel 是否发布 Personal Computer、支持的 Series 3 SKU、本地模型、路由策略和可用性细节。</li>
+          <li>是否出现更多关于模型路由、eval 驱动编排和 token 成本仪表盘的企业帖子或产品发布。</li>
+          <li>Dwarkesh 经济风险讨论是否提供转录或完整节目，以验证 “Debunking Citrini” 的具体论证。</li>
+          <li>游戏 agent 是否从概念短视频进入可衡量的 gameplay 系统演示。</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>趋势判断</h3>
+        <p>应用 AI 层越来越像一个控制平面：选择模型、执行地点、成本档位和隐私边界。赢家更可能是把 eval、路由和用户上下文整合起来的产品，而不是只依赖单一模型供应商。</p>
+      </section>
+
+      <div class="section-title">原始来源</div>
+      <section class="card span-12">
+        <div class="source-list">
+          <a href="https://www.youtube.com/watch?v=85S8Byf-Ing">Dwarkesh Clips - Will AI Crash the Economy?</a>
+          <a href="https://www.youtube.com/shorts/82m7YqosdgU">Two Minute Papers - AI Agents as Game Masters</a>
+          <a href="https://x.com/petergyang/status/2063353542103167369">Peter Yang - mobile Codex workflow</a>
+          <a href="https://x.com/fchollet/status/2063350697626845639">Francois Chollet - adaptability vs knowledge</a>
+          <a href="https://x.com/amasad/status/2063344460705288401">Amjad Masad - VC/founder network post</a>
+          <a href="https://x.com/AravSrinivas/status/2063341557923901584">Aravind Srinivas - Perplexity and Intel hybrid inference</a>
+          <a href="https://x.com/elonmusk/status/2063333492449009867">Elon Musk - fertility commentary / WSJ card</a>
+          <a href="https://x.com/levie/status/2063320673217609936">Aaron Levie - token costs and model routing</a>
+          <a href="https://x.com/amasad/status/2063300737296400516">Amjad Masad - Vibecon post</a>
+          <a href="https://x.com/elonmusk/status/2063296176246427655">Elon Musk - India fertility commentary</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

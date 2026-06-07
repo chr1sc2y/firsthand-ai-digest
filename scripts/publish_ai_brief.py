@@ -58,6 +58,26 @@ AI_BRIEFS_CSS = f"""
 {AI_BRIEFS_CSS_END}
 """.strip()
 
+LANG_SWITCH_CSS = (
+    ".lang-switch{position:fixed;top:18px;right:18px;z-index:50;display:flex;"
+    "gap:4px;background:rgba(255,255,255,.86);border:1px solid var(--line,#dfe5ee);"
+    "border-radius:999px;padding:4px;backdrop-filter:blur(18px);"
+    "box-shadow:0 4px 18px rgba(30,42,62,.10)}"
+    ".lang-switch a{border-radius:999px;padding:6px 10px;font-size:12px;"
+    "font-weight:800;color:var(--muted,#647083);text-decoration:none}"
+    ".lang-switch a.active{background:var(--blue,var(--green,#2457d6));color:#fff}"
+    "@media(max-width:560px){.lang-switch{position:static;margin:14px 20px 0;"
+    "display:inline-flex}}"
+)
+LANG_SWITCH_RE = re.compile(
+    r"\s*<nav\b[^>]*class=[\"'][^\"']*\blang-switch\b[^\"']*[\"'][\s\S]*?</nav>",
+    re.IGNORECASE,
+)
+LANG_SWITCH_CSS_RE = re.compile(
+    r"\.lang-switch\{[\s\S]*?@media\(max-width:560px\)\{\.lang-switch\{[\s\S]*?\}\}",
+    re.IGNORECASE,
+)
+
 
 def _brief_date(path: Path, explicit_date: str | None) -> str:
     if explicit_date:
@@ -123,6 +143,38 @@ def _replace_between(text: str, start: str, end: str, replacement: str) -> str |
     return text[:start_index] + replacement + text[end_index:]
 
 
+def _language_switch_html(*, date: str, language: str) -> str:
+    english = f"{date}-ai-brief.html"
+    chinese = f"{date}-ai-brief-zh.html"
+    en_class = ' class="active"' if language == "en" else ""
+    zh_class = ' class="active"' if language == "zh" else ""
+    return (
+        '<nav class="lang-switch" aria-label="Language">'
+        f'<a{en_class} href="{english}">EN</a>'
+        f'<a{zh_class} href="{chinese}">中文</a>'
+        "</nav>"
+    )
+
+
+def _inject_language_switch(text: str, *, date: str, language: str) -> str:
+    text = LANG_SWITCH_RE.sub("", text, count=1)
+    text = LANG_SWITCH_CSS_RE.sub("", text, count=1)
+    if "</style>" in text:
+        text = text.replace("</style>", f"{LANG_SWITCH_CSS}</style>", 1)
+    elif "</head>" in text:
+        text = text.replace("</head>", f"<style>{LANG_SWITCH_CSS}</style></head>", 1)
+    else:
+        text = f"<style>{LANG_SWITCH_CSS}</style>{text}"
+
+    switch = _language_switch_html(date=date, language=language)
+    if "<body>" in text:
+        return text.replace("<body>", f"<body>\n{switch}", 1)
+    body_match = re.search(r"<body\b[^>]*>", text, re.IGNORECASE)
+    if body_match:
+        return text[: body_match.end()] + "\n" + switch + text[body_match.end() :]
+    return switch + "\n" + text
+
+
 def _refresh_homepage(payload: dict) -> None:
     homepage = DIST / "index.html"
     if not homepage.exists():
@@ -168,14 +220,22 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
     BRIEF_DIR.mkdir(parents=True, exist_ok=True)
     data_target = DATA_BRIEF_DIR / f"{brief_date}-ai-brief.html"
     target = BRIEF_DIR / data_target.name
-    shutil.copy2(source, data_target)
+    zh_source = DATA_BRIEF_DIR / f"{brief_date}-ai-brief-zh.html"
+    has_chinese_companion = zh_source.exists()
+    english_html = source.read_text(encoding="utf-8")
+    if has_chinese_companion:
+        english_html = _inject_language_switch(english_html, date=brief_date, language="en")
+    data_target.write_text(english_html, encoding="utf-8")
     shutil.copy2(data_target, target)
 
     # Also publish companion Chinese version (if exists) so lang switch works from dist/
-    zh_source = DATA_BRIEF_DIR / f"{brief_date}-ai-brief-zh.html"
-    if zh_source.exists():
+    if has_chinese_companion:
         zh_data_target = DATA_BRIEF_DIR / zh_source.name  # already is
         zh_dist_target = BRIEF_DIR / zh_source.name
+        chinese_html = _inject_language_switch(
+            zh_source.read_text(encoding="utf-8"), date=brief_date, language="zh"
+        )
+        zh_data_target.write_text(chinese_html, encoding="utf-8")
         # ensure zh is also in data (in case source was external) and dist
         if not zh_data_target.exists() or zh_source.resolve() != zh_data_target.resolve():
             shutil.copy2(zh_source, zh_data_target)
