@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Firsthand AI Brief - 2026-06-07</title>
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --ink: #17201b;
+      --muted: #647067;
+      --line: #dce2dc;
+      --card: #ffffff;
+      --green: #0f6b4d;
+      --blue: #285a8e;
+      --amber: #9b5a10;
+      --red: #8f3434;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.45;
+    }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
+    header {
+      display: grid;
+      grid-template-columns: 1.35fr .65fr;
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+    .hero, .panel, .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .hero { padding: 28px; }
+    .eyebrow { color: var(--green); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { margin: 8px 0 10px; font-size: clamp(30px, 5vw, 56px); line-height: .98; letter-spacing: 0; }
+    h2 { margin: 0 0 12px; font-size: 20px; letter-spacing: 0; }
+    h3 { margin: 0 0 8px; font-size: 17px; letter-spacing: 0; }
+    p { margin: 0 0 10px; }
+    .dek { color: var(--muted); max-width: 760px; font-size: 17px; }
+    .panel { padding: 18px; }
+    .metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .metric { border-top: 3px solid var(--green); padding-top: 9px; }
+    .metric strong { display: block; font-size: 28px; line-height: 1; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; margin-top: 14px; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+    .card { padding: 17px; min-height: 100%; }
+    .tagrow { display: flex; gap: 7px; flex-wrap: wrap; margin: 0 0 10px; }
+    .tag { border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; color: var(--muted); font-size: 12px; background: #fbfcfa; }
+    .tag.fact { color: var(--green); border-color: #a9cdbc; }
+    .tag.limited { color: var(--amber); border-color: #e1c28d; }
+    .tag.infer { color: var(--blue); border-color: #acc2d7; }
+    .big {
+      font-size: 24px;
+      line-height: 1.12;
+      font-weight: 760;
+      margin-bottom: 10px;
+    }
+    .muted { color: var(--muted); }
+    .section-title {
+      grid-column: span 12;
+      margin: 18px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: .08em;
+    }
+    .section-title:after { content: ""; height: 1px; background: var(--line); flex: 1; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 7px 0; }
+    .source-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .source-list a {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 9px 10px;
+      background: #fbfcfa;
+      overflow-wrap: anywhere;
+    }
+    .note { border-left: 4px solid var(--amber); padding-left: 12px; color: #5e4a25; }
+    .confidence { margin-top: 12px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 860px) {
+      header { grid-template-columns: 1fr; }
+      .span-4, .span-6, .span-8 { grid-column: span 12; }
+      .source-list { grid-template-columns: 1fr; }
+      .hero { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <section class="hero">
+        <div class="eyebrow">Firsthand AI Digest - 24h interpretation</div>
+        <h1>AI moved from novelty toward operating cost and local execution.</h1>
+        <p class="dek">The June 7 window was light on formal lab releases but useful for reading the applied layer: enterprises are worrying about token spend, Perplexity is tying local models to Intel AI PCs, and builders are normalizing AI assistants as everyday workflow infrastructure.</p>
+      </section>
+      <aside class="panel">
+        <h2>Run Metadata</h2>
+        <p><strong>Execution:</strong> 2026-06-07 12:44 CST / 04:44 UTC</p>
+        <p><strong>Coverage:</strong> 2026-06-06 12:44 CST to 2026-06-07 12:44 CST</p>
+        <div class="metrics">
+          <div class="metric"><strong>10</strong><span>Digest items</span></div>
+          <div class="metric"><strong>10</strong><span>Original sources</span></div>
+          <div class="metric"><strong>8</strong><span>X posts opened via public render</span></div>
+          <div class="metric"><strong>2</strong><span>YouTube sources transcript-limited</span></div>
+        </div>
+      </aside>
+    </header>
+
+    <main class="grid">
+      <div class="section-title">Executive Summary</div>
+      <section class="card span-8">
+        <p class="big">The strongest signal is that AI adoption pressure is shifting from "which frontier model?" to "which model, where, and at what marginal cost?"</p>
+        <p><strong>Facts:</strong> Aaron Levie argued that token costs have become a hot enterprise topic and predicted model routing will become a differentiator for applied AI companies with strong workflow-specific evals (<a href="https://x.com/levie/status/2063320673217609936">source</a>). Aravind Srinivas said Perplexity is working with Intel to bring Personal Computer, local models, and hybrid inference to Intel Core Ultra Series 3 laptops (<a href="https://x.com/AravSrinivas/status/2063341557923901584">source</a>); Intel's own developer material frames hybrid AI as local, cloud, or combined execution for security and performance (<a href="https://www.intel.com/content/www/us/en/developer/topic-technology/ai-pc/local-first-hybrid-ai.html">Intel</a>).</p>
+        <p><strong>Analysis:</strong> The near-term opportunity is orchestration, not just raw model access: routing, local privacy boundaries, eval harnesses, and workflow-aware cost controls are becoming product features.</p>
+      </section>
+      <aside class="card span-4">
+        <h3>Source Quality</h3>
+        <p class="note">X posts were readable through public rendered pages for the main text, but replies, full quote context, and linked media were only partially accessible. YouTube videos exposed titles/descriptions and public page metadata; no reliable full transcript was available in this run.</p>
+        <p class="confidence">Overall confidence: medium for source facts, medium-low for video interpretation, high for the cross-event trend that token economics and hybrid inference are converging.</p>
+      </aside>
+
+      <div class="section-title">Most Important Items</div>
+      <article class="card span-6">
+        <div class="tagrow"><span class="tag fact">Fact</span><span class="tag infer">Analysis</span><span class="tag">Enterprise AI</span></div>
+        <h3><a href="https://x.com/levie/status/2063320673217609936">Token costs push model routing into the applied AI layer</a></h3>
+        <p><strong>Fact:</strong> Levie says token costs are now central in enterprise conversations and that applied AI companies will differentiate by routing workflow sub-tasks to the right model.</p>
+        <p><strong>Inference:</strong> This favors vendors that own domain evals, cost observability, and task taxonomies. Generic "frontier model wrapper" products face margin pressure unless they can prove cheaper, measurable outcomes.</p>
+        <p class="confidence">Uncertainty: public post only; no survey or enterprise spending data attached.</p>
+      </article>
+
+      <article class="card span-6">
+        <div class="tagrow"><span class="tag fact">Fact</span><span class="tag infer">Analysis</span><span class="tag">AI PCs</span></div>
+        <h3><a href="https://x.com/AravSrinivas/status/2063341557923901584">Perplexity-Intel points to hybrid local/cloud inference</a></h3>
+        <p><strong>Fact:</strong> Srinivas thanked Intel and Lip-Bu Tan for work on bringing Perplexity Personal Computer with local models and hybrid inference to Intel Core Ultra Series 3 laptops. The post quotes Tan's Computex keynote thread.</p>
+        <p><strong>Analysis:</strong> Local execution is being positioned as privacy, latency, and cloud-cost relief. The developer implication is that apps may need to express tasks in a way an orchestrator can split across NPU/GPU/CPU and cloud models.</p>
+        <p class="confidence">Confidence: medium; the X post is readable, but product timelines and exact capabilities require primary product docs.</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">Fact</span><span class="tag">Developer workflow</span></div>
+        <h3><a href="https://x.com/petergyang/status/2063353542103167369">Mobile Codex use becomes a casual builder pattern</a></h3>
+        <p><strong>Fact:</strong> Peter Yang described dictating to Codex on the phone during weekend downtime.</p>
+        <p><strong>Analysis:</strong> This is a small but telling adoption marker: agentic coding is moving from IDE-only sessions into ambient voice/mobile workflows.</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">Fact</span><span class="tag limited">Transcript limited</span><span class="tag">Games</span></div>
+        <h3><a href="https://www.youtube.com/shorts/82m7YqosdgU">AI agents as game masters</a></h3>
+        <p><strong>Fact:</strong> The Two Minute Papers short asks whether agents could drive gaming storylines and mentions dynamic, non-scripted narratives.</p>
+        <p><strong>Analysis:</strong> Treat this as a product/design signal, not a technical release. The actionable question is how studios evaluate safety, cost, latency, and authorial control for live agentic gameplay.</p>
+      </article>
+
+      <article class="card span-4">
+        <div class="tagrow"><span class="tag fact">Fact</span><span class="tag limited">Transcript limited</span><span class="tag">Economics</span></div>
+        <h3><a href="https://www.youtube.com/watch?v=85S8Byf-Ing">AI macro crash debate remains unresolved</a></h3>
+        <p><strong>Fact:</strong> Dwarkesh Clips published "Will AI Crash the Economy? Debunking Citrini" with Alex Imas and Phil Trammell, pointing to a full episode.</p>
+        <p><strong>Analysis:</strong> Without transcript access, the safe takeaway is agenda-level: AI macro risk arguments are being stress-tested publicly, but this run cannot verify the detailed claims.</p>
+      </article>
+
+      <div class="section-title">Secondary Signals</div>
+      <section class="card span-6">
+        <h3>Intelligence vs memorized competence</h3>
+        <p><strong>Fact:</strong> Francois Chollet distinguished "static competence" from adaptability in a short post (<a href="https://x.com/fchollet/status/2063350697626845639">source</a>).</p>
+        <p><strong>Analysis:</strong> In context, this reinforces the benchmark debate: systems that scale stored knowledge may still fail when tasks require transfer, active adaptation, and novelty handling.</p>
+      </section>
+      <section class="card span-6">
+        <h3>Non-core AI posts should not be over-weighted</h3>
+        <p><strong>Fact:</strong> Amjad Masad posted about VC behavior and "Vibecon" (<a href="https://x.com/amasad/status/2063344460705288401">source</a>, <a href="https://x.com/amasad/status/2063300737296400516">source</a>), while Elon Musk posted about fertility trends (<a href="https://x.com/elonmusk/status/2063333492449009867">source</a>, <a href="https://x.com/elonmusk/status/2063296176246427655">source</a>).</p>
+        <p><strong>Analysis:</strong> These are founder/media attention signals rather than direct AI product or research events. They matter only insofar as founder networks, labor-market expectations, and public narratives shape AI company strategy.</p>
+      </section>
+
+      <div class="section-title">Implications</div>
+      <section class="card span-3 span-4">
+        <h3>Developers</h3>
+        <ul>
+          <li>Instrument token cost per workflow, not just per model call.</li>
+          <li>Design tasks so routing can choose local, cheap, or frontier execution.</li>
+          <li>Expect AI coding interfaces to expand into voice and mobile contexts.</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>Startups</h3>
+        <ul>
+          <li>Domain evals and routing policies are defensible product assets.</li>
+          <li>Hybrid local/cloud is a wedge for privacy-sensitive verticals.</li>
+          <li>Do not sell agentic features without measurable cost and quality controls.</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>Researchers</h3>
+        <ul>
+          <li>Adaptability remains a separate axis from knowledge scale.</li>
+          <li>Game agents need evaluation beyond reward maximization: narrative quality, control, safety, and player trust.</li>
+          <li>Macro-AI claims need stronger empirical grounding before operational decisions.</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>Enterprise Buyers</h3>
+        <ul>
+          <li>Ask vendors for routing logic, eval evidence, and cost attribution.</li>
+          <li>Test local inference claims against real privacy, latency, and admin constraints.</li>
+          <li>Budget for orchestration and governance, not just model subscriptions.</li>
+        </ul>
+      </section>
+
+      <div class="section-title">24-72 Hour Watchlist</div>
+      <section class="card span-8">
+        <ul>
+          <li>Perplexity or Intel follow-up docs on Personal Computer, supported Series 3 SKUs, local models, routing policy, and availability.</li>
+          <li>More enterprise posts or product launches around model routing, eval-driven orchestration, and token-cost dashboards.</li>
+          <li>Transcript or full-episode availability for the Dwarkesh economic-risk discussion to verify the "Debunking Citrini" arguments.</li>
+          <li>Game-agent demos that move from concept clips to measurable gameplay systems.</li>
+        </ul>
+      </section>
+      <section class="card span-4">
+        <h3>Trend Judgment</h3>
+        <p>The applied AI layer is starting to look like a control plane: it chooses models, venues, cost bands, and privacy boundaries. Winners will likely combine evals, routing, and user-context integration rather than relying on one model provider.</p>
+      </section>
+
+      <div class="section-title">Original Sources</div>
+      <section class="card span-12">
+        <div class="source-list">
+          <a href="https://www.youtube.com/watch?v=85S8Byf-Ing">Dwarkesh Clips - Will AI Crash the Economy?</a>
+          <a href="https://www.youtube.com/shorts/82m7YqosdgU">Two Minute Papers - AI Agents as Game Masters</a>
+          <a href="https://x.com/petergyang/status/2063353542103167369">Peter Yang - mobile Codex workflow</a>
+          <a href="https://x.com/fchollet/status/2063350697626845639">Francois Chollet - adaptability vs knowledge</a>
+          <a href="https://x.com/amasad/status/2063344460705288401">Amjad Masad - VC/founder network post</a>
+          <a href="https://x.com/AravSrinivas/status/2063341557923901584">Aravind Srinivas - Perplexity and Intel hybrid inference</a>
+          <a href="https://x.com/elonmusk/status/2063333492449009867">Elon Musk - fertility commentary / WSJ card</a>
+          <a href="https://x.com/levie/status/2063320673217609936">Aaron Levie - token costs and model routing</a>
+          <a href="https://x.com/amasad/status/2063300737296400516">Amjad Masad - Vibecon post</a>
+          <a href="https://x.com/elonmusk/status/2063296176246427655">Elon Musk - India fertility commentary</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
