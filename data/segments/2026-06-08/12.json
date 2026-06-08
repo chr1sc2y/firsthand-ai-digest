@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-08T14:07:14.921417+00:00",
+  "counts": {
+    "x": 4,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 5
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Straits of Hormuz are named after Ahura Mazda from Zoroastrianism",
+        "summary": "Straits of Hormuz are named after Ahura Mazda from Zoroastrianism",
+        "link": "https://x.com/elonmusk/status/2063866701356089711",
+        "author": "elonmusk",
+        "published": "2026-06-08T06:12:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Worthwhile exercise",
+        "summary": "Worthwhile exercise",
+        "link": "https://x.com/elonmusk/status/2063860959282602479",
+        "author": "elonmusk",
+        "published": "2026-06-08T05:49:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good question",
+        "summary": "Good question",
+        "link": "https://x.com/elonmusk/status/2063860344791966015",
+        "author": "elonmusk",
+        "published": "2026-06-08T05:47:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between mod",
+        "summary": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families.\n\nWe’ll see a split between frontier intelligence for high end tasks and work, and much cheaper models for high volume workloads that can sufficiently be peeled off to cheaper models. Frontier will still be far bigger than today because the use-cases will demand it, but the low-end will get quite a bit larger as well.\n\nThe big update here is that the layer that can efficiently route the workload to the right model will then become increasingly valuable since that becomes one of the new hard problems in AI agents. Agent orchestration that can cost optimize while still performing the task successfully will be in a strong position.",
+        "link": "https://x.com/levie/status/2063835799096090749",
+        "author": "levie",
+        "published": "2026-06-08T04:09:33+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "OpenAI on OpenAI: Stacie Faggioli, Business Finance Officer Applications, OpenAI",
+        "summary": "Showcasing how OpenAI’s own finance organization is using AI tools like ChatGPT, ChatGPT for Excel, Codex, and custom agents to re-design finance operations.",
+        "link": "https://www.youtube.com/watch?v=1NtS2KdnDok",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:39+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Operationalizing AI in workflows: Lee Spacagna, Solutions Engineer, OpenAI",
+        "summary": "How OpenAI’s newest enterprise products, including Workspace Agents and Codex - can operationalize AI across financial services organizations.",
+        "link": "https://www.youtube.com/watch?v=fAxlEcXiSts",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:21+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Frontier Intelligence & Financial Services: Katy Elkin, GTM Lead, OpenAI",
+        "summary": "OpenAI’s vision for how financial services firms can use AI across three pillars: transforming workflows, amplifying workforce productivity, and building AI-native customer products.",
+        "link": "https://www.youtube.com/watch?v=ykNmTvRcqPQ",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:20+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Customer Ignite Talk: Maurizio Poletto (Chief Platform Officer & COO, Erste Group) & OpenAI",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=gli3gNI2saU",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:19+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Customer Ignite Talk: Emily Prince (Group Head of AI, LSEG) & OpenAI",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=LJKzZAH0bEw",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:10+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-08T04:00:00+00:00",
+    "end": "2026-06-08T10:00:00+00:00"
+  }
+}
