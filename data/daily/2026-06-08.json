@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T18:26:17.510702+00:00",
+  "source_segments": [
+    "segments/2026-06-08/00.json",
+    "segments/2026-06-08/06.json",
+    "segments/2026-06-08/12.json",
+    "segments/2026-06-08/18.json"
+  ],
+  "counts": {
+    "x": 28,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 7
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2063998945186001306",
+        "author": "elonmusk",
+        "published": "2026-06-08T14:57:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "California made it illegal to show or request photo ID to vote. You cannot show your photo ID even voluntarily!",
+        "summary": "California made it illegal to show or request photo ID to vote. You cannot show your photo ID even voluntarily!",
+        "link": "https://x.com/elonmusk/status/2063998740474613968",
+        "author": "elonmusk",
+        "published": "2026-06-08T14:57:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "That’s because fraud at scale takes time!",
+        "summary": "That’s because fraud at scale takes time!",
+        "link": "https://x.com/elonmusk/status/2063996166983848059",
+        "author": "elonmusk",
+        "published": "2026-06-08T14:46:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The magnitude &amp; brazen nature of the government payment fraud is staggering",
+        "summary": "The magnitude &amp; brazen nature of the government payment fraud is staggering",
+        "link": "https://x.com/elonmusk/status/2063995905452249303",
+        "author": "elonmusk",
+        "published": "2026-06-08T14:45:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The real reason they don’t want voter ID is to commit voting fraud. That is the obvious truth.",
+        "summary": "The real reason they don’t want voter ID is to commit voting fraud. That is the obvious truth.",
+        "link": "https://x.com/elonmusk/status/2063995496381767761",
+        "author": "elonmusk",
+        "published": "2026-06-08T14:44:08+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My 5 biggest takeaways from @kunchenguid, ex-Meta L8 engineer, on how he set up his agentic engineering system:\n\n1. Spen",
+        "summary": "My 5 biggest takeaways from @kunchenguid, ex-Meta L8 engineer, on how he set up his agentic engineering system:\n\n1. Spend most of your time planning and validating, not coding.\n\nKun sees himself as the manager of an always-on engineering team. His job is to create plans, validate work, and improve the overall system. The coding phase is handled almost entirely by agents.\n\n2. The quality of your plans determines how long agents can work on their own.\n\nMemes about loops aside, an one-line prompt might keep an agent working for a few minutes but a detailed plan can keep it going for hours.\n\nIf you want agents to run longer, invest more upfront in the spec, goals, and validation criteria.\n\n3. Use visual plans, not walls of markdown.\n\nKun built Lavish, an open-source tool to make visual HTML plans, that anyone can use for free: https://t.co/7ZHYfgS69e\n\nInstead of reading a giant markdown plan, Lavish turns it into a visual HTML artifact where you can leave inline feedback.\n\nThis makes it much easier to tell the agent exactly what to change before coding starts.\n\n4. Run agents in parallel, but isolate the work.\n\nKun uses Treehouse to manage reusable worktrees so agents don’t step on each other’s changes: https://t.co/QyFPcaQY6f\n\nIf the work is exploratory or likely to fill the context window, he delegates it to a subagent.\n\nThis way, the main agent stays focused while the subagents dig, test ideas, and report back.\n\n5. Let agents review the code before you do.\n\nKun no longer manually reviews every AI-written PR.\n\nInstead, he uses No Mistakes to run a fresh agent review, rebase the change, run tests, update docs, create the PR, and assign a risk level: https://t.co/zSsILflTj7\n\nIn Kun’s testing across 267 agent changes in 15 repos, No Mistakes caught and fixed 68% of mistakes that would have been missed.\n\nKun walked through Lavish, Treehouse, No Mistakes, and his full agentic engineering workflow in our episode.\n\n📌 Watch it here:\nhttps://t.co/iy9ZT6AnoH",
+        "link": "https://x.com/petergyang/status/2063988122720055772",
+        "author": "petergyang",
+        "published": "2026-06-08T14:14:50+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "this is good",
+        "summary": "this is good",
+        "link": "https://x.com/danshipper/status/2063948403566854585",
+        "author": "danshipper",
+        "published": "2026-06-08T11:37:00+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Straits of Hormuz are named after Ahura Mazda from Zoroastrianism",
+        "summary": "Straits of Hormuz are named after Ahura Mazda from Zoroastrianism",
+        "link": "https://x.com/elonmusk/status/2063866701356089711",
+        "author": "elonmusk",
+        "published": "2026-06-08T06:12:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Worthwhile exercise",
+        "summary": "Worthwhile exercise",
+        "link": "https://x.com/elonmusk/status/2063860959282602479",
+        "author": "elonmusk",
+        "published": "2026-06-08T05:49:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good question",
+        "summary": "Good question",
+        "link": "https://x.com/elonmusk/status/2063860344791966015",
+        "author": "elonmusk",
+        "published": "2026-06-08T05:47:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between mod",
+        "summary": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families.\n\nWe’ll see a split between frontier intelligence for high end tasks and work, and much cheaper models for high volume workloads that can sufficiently be peeled off to cheaper models. Frontier will still be far bigger than today because the use-cases will demand it, but the low-end will get quite a bit larger as well.\n\nThe big update here is that the layer that can efficiently route the workload to the right model will then become increasingly valuable since that becomes one of the new hard problems in AI agents. Agent orchestration that can cost optimize while still performing the task successfully will be in a strong position.",
+        "link": "https://x.com/levie/status/2063835799096090749",
+        "author": "levie",
+        "published": "2026-06-08T04:09:33+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2063818400007102774",
+        "author": "elonmusk",
+        "published": "2026-06-08T03:00:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My wife asked me to take out the trash.\n\nI said, “You shouldn’t be prompting me anymore. You should be designing loops.\"",
+        "summary": "My wife asked me to take out the trash.\n\nI said, “You shouldn’t be prompting me anymore. You should be designing loops.\"\n\nFinish the punch line of this dad joke please.",
+        "link": "https://x.com/petergyang/status/2063818032280170721",
+        "author": "petergyang",
+        "published": "2026-06-08T02:58:57+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I wrote my first neural networks in pure C, then in Matlab, then in NumPy, before eventually upgrading to Theano. Since ",
+        "summary": "I wrote my first neural networks in pure C, then in Matlab, then in NumPy, before eventually upgrading to Theano. Since then I have seen and tried pretty much every NN framework ever developed. Some are bad, some are good. The good ones understand API design principles.",
+        "link": "https://x.com/fchollet/status/2063809469801464007",
+        "author": "fchollet",
+        "published": "2026-06-08T02:24:55+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "🤔",
+        "summary": "🤔",
+        "link": "https://x.com/elonmusk/status/2063796964878119012",
+        "author": "elonmusk",
+        "published": "2026-06-08T01:35:14+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "interesting",
+        "summary": "interesting",
+        "link": "https://x.com/gdb/status/2063786462647079408",
+        "author": "gdb",
+        "published": "2026-06-08T00:53:30+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "interesting recursive loop here maybe",
+        "summary": "interesting recursive loop here maybe",
+        "link": "https://x.com/sama/status/2063779477419901071",
+        "author": "sama",
+        "published": "2026-06-08T00:25:45+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "I’m trying to become a better AI builder and have been lucky enough to interview 5 of the best:\n\n1. @kieranklaassen buil",
+        "summary": "I’m trying to become a better AI builder and have been lucky enough to interview 5 of the best:\n\n1. @kieranklaassen built the Compound Engineering system that many AI builders swear by. In our episode, he walked through exactly how it works, from planning to skills to commands like /ce-plan, /ce-work, and /lfg (let’s effing go).\n\nhttps://t.co/2xtZck8iX0\n\nI’ll link the free Compound Engineering system below.\n\n2. @ryancarson has started multiple companies and is now running a startup solo with OpenClaw, Codex, and Devin. It was fascinating to see the system he built to help him run his company.\n\nhttps://t.co/c3MYrstVnl\n\n3. @Shpigford has been building products for 25 years. Like many AI builders, he created his own skill stack to streamline the way he works, including /build, /adversarial-code-review, /but-for-real, and /learnings.\n\nhttps://t.co/1ROWBF0tSk\n\n4. @kunchenguid made it to L8 in big tech as a principal engineer, which is very hard. Then he quit to ship 40 PRs a day with agents and build free open source tools for visual planning, parallel agents, and AI code review.\n\nhttps://t.co/ELBGuGqHyr\n\nI’ll link his GitHub below too.\n\n5. @mvanhorn has built some of the most popular open source AI projects on GitHub despite having no formal engineering background, including /last30days and his Printing Press system. I’m dropping his episode next week on my YouTube.\n\nIf you’re trying to become a better AI builder too, start with these interviews that show you how real AI builders work.\n\nSubscribe for more conversations like this:\nhttps://t.co/1C6pbWzPYn",
+        "link": "https://x.com/petergyang/status/2063773012000952459",
+        "author": "petergyang",
+        "published": "2026-06-08T00:00:03+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard.",
+        "summary": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on.\n\nBut nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories are tough to break into and need a heavy amount of consultative selling and support for implementation and integration of solutions.  \n\nAI hasn’t reduced the need for that, and in many cases requires it even more now, as landscapes get even more busy and complicated for buyers to navigate through. If you make one thing cheaper and more abundant (development of software) then the new problem of discoverability and market differentiation (GTM) becomes the hardest part.",
+        "link": "https://x.com/levie/status/2063756386572681606",
+        "author": "levie",
+        "published": "2026-06-07T22:53:59+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day wh",
+        "summary": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
+        "link": "https://x.com/thsottiaux/status/2063748242681307611",
+        "author": "thsottiaux",
+        "published": "2026-06-07T22:21:38+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Co",
+        "summary": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats!",
+        "link": "https://x.com/amasad/status/2063744208587125142",
+        "author": "amasad",
+        "published": "2026-06-07T22:05:36+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Maybe largest in this sector of the galaxy https://t.co/2qJAnBbyD0",
+        "summary": "Maybe largest in this sector of the galaxy https://t.co/2qJAnBbyD0",
+        "link": "https://x.com/elonmusk/status/2063743599401906637",
+        "author": "elonmusk",
+        "published": "2026-06-07T22:03:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2063741293834985766",
+        "author": "elonmusk",
+        "published": "2026-06-07T21:54:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I have had the chance to go through two IPOs (Meta and Dropbox).\n\nFabulous wealth tends to amplify deeper desires, not c",
+        "summary": "I have had the chance to go through two IPOs (Meta and Dropbox).\n\nFabulous wealth tends to amplify deeper desires, not create new ones.\n\nThe mainstream narrative is: \"Early Employees make lots of money and buy mansions and go to the beach\".\n\nFor some: Yes, they want to chill. That is great. I am happy for them.\n\nBut for a lot of folks, it is a chance to do even crazier and wackier stuff. Start new things. Fund new things. Keep the crazy loop of Silicon Valley going.\n\nIt's going to be awesome to have a lot of folks with liquidity in the coming months. \n\nOnwards!.",
+        "link": "https://x.com/adityaag/status/2063731771284619521",
+        "author": "adityaag",
+        "published": "2026-06-07T21:16:11+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "releasing tmr - the biggest code eval launch of the year\n\nglad to have played a small part in defining the agenda for th",
+        "summary": "releasing tmr - the biggest code eval launch of the year\n\nglad to have played a small part in defining the agenda for this very critical next phase in koding https://t.co/KEoMOHorUE",
+        "link": "https://x.com/swyx/status/2063723477199376626",
+        "author": "swyx",
+        "published": "2026-06-07T20:43:13+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on",
+        "summary": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on failed payments or credit card updates.\n\nAnd we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …\n\nhttps://t.co/OougSipbBX",
+        "link": "https://x.com/rauchg/status/2063714700618334260",
+        "author": "rauchg",
+        "published": "2026-06-07T20:08:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate",
+        "summary": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.”",
+        "link": "https://x.com/gdb/status/2063705280270021087",
+        "author": "gdb",
+        "published": "2026-06-07T19:30:55+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.\n\n@kunchenguid, ex-Meta L8 engineer, is no",
+        "summary": "Most engineering processes were built for teams shipping 10 to 15 PRs a month.\n\n@kunchenguid, ex-Meta L8 engineer, is now shipping 40+ PRs a day with agents. That breaks a lot of existing processes behind:\n\n→ Code review & QA\n→ Merge gates and team handoffs\n\nWhen output jumps 10x, the old workflows starts to crack.\n\nThe answer is to build systems that streamline planning, validation, review, and merging as much as possible.\n\n📌 Watch him talk more about it here:\nhttps://t.co/UaoPKjbSC0",
+        "link": "https://x.com/petergyang/status/2063682464921604189",
+        "author": "petergyang",
+        "published": "2026-06-07T18:00:15+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/06/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-Iz1a69.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Society can be reward-hacked, just like cyber environments:…Imagine an army of credit card point optimizers gaming the system… forever…Research from Kings College London, Fudan University, and [&#8230;]",
+        "link": "https://jack-clark.net/2026/06/08/import-ai-460-reward-hacking-society-rsi-data-from-anthropic-and-rl-based-quadcopter-racing/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-06-08T12:31:32+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "datasette-agent-edit 0.1a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent-edit/releases/tag/0.1a0\">datasette-agent-edit 0.1a0</a></p>\n        <p>I'm planning several plugins for <a href=\"https://agent.datasette.io/\">Datasette Agent</a> which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files.</p>\n<p>Agentic editing of text is a little tricky to get right. My favorite published design for this is for the <a href=\"https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool#use-the-text-editor-tool\">Claude text editor</a>, which implements the following tools:</p>\n<ul>\n<li><code>view</code> - view sections of a file, with line numbers added to every line.</li>\n<li><code>str_replace</code> - find an exact <code>old_str</code> and replace it with <code>new_str</code> - fail if the original string is not unique</li>\n<li><code>insert</code> - insert the specified text after the specified line number</li>\n</ul>\n<p>Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, <code>datasette-agent-edit</code>, which implements the core tools in a way that allows them to be adapted for other plugins.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/",
+        "author": "",
+        "keywords": "ai datasette generative-ai llms llm-tool-use datasette-agent",
+        "published": "2026-06-07T23:56:38+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Codex Unlocks Next Level Intelligence for Balyasny Asset Management",
+        "summary": "\"Codex has been a game changer. GPT-5.5 in particular has really unlocked a new level of intelligence, but also a new level of work that the system is capable of doing,\" Charlie Flanagan. \n\nBalyasny Asset Management L.P. has 97% of the firm using their internal AI platform that accelerates everything from: \n\n☑️ Investment research\n☑️ Coding\n☑️ Automation of back office operations and processes \n\nThe investment firm operates at the frontier, embracing 2026 as the year their workflows are enabled by the Codex harness.",
+        "link": "https://www.youtube.com/watch?v=m1PV1a9BWao",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T14:38:03+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "The Danger of UBI – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=R8QRz-1liR8",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-08T13:15:13+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "OpenAI on OpenAI: Stacie Faggioli, Business Finance Officer Applications, OpenAI",
+        "summary": "Showcasing how OpenAI’s own finance organization is using AI tools like ChatGPT, ChatGPT for Excel, Codex, and custom agents to re-design finance operations.",
+        "link": "https://www.youtube.com/watch?v=1NtS2KdnDok",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:39+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Operationalizing AI in workflows: Lee Spacagna, Solutions Engineer, OpenAI",
+        "summary": "How OpenAI’s newest enterprise products, including Workspace Agents and Codex - can operationalize AI across financial services organizations.",
+        "link": "https://www.youtube.com/watch?v=fAxlEcXiSts",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:21+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Frontier Intelligence & Financial Services: Katy Elkin, GTM Lead, OpenAI",
+        "summary": "OpenAI’s vision for how financial services firms can use AI across three pillars: transforming workflows, amplifying workforce productivity, and building AI-native customer products.",
+        "link": "https://www.youtube.com/watch?v=ykNmTvRcqPQ",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:20+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Customer Ignite Talk: Maurizio Poletto (Chief Platform Officer & COO, Erste Group) & OpenAI",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=gli3gNI2saU",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:19+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Customer Ignite Talk: Emily Prince (Group Head of AI, LSEG) & OpenAI",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=LJKzZAH0bEw",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-08T08:30:10+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}
