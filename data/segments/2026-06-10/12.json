@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-10T12:57:30.690083+00:00",
+  "counts": {
+    "x": 5,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Exactly",
+        "summary": "Exactly",
+        "link": "https://x.com/elonmusk/status/2064611223174250989",
+        "author": "elonmusk",
+        "published": "2026-06-10T07:30:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The browser use is really slowing Fable down for me https://t.co/xa1ijT3KMG",
+        "summary": "The browser use is really slowing Fable down for me https://t.co/xa1ijT3KMG",
+        "link": "https://x.com/petergyang/status/2064577126385459265",
+        "author": "petergyang",
+        "published": "2026-06-10T05:15:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I would like to claim my 1% of royalty fees.",
+        "summary": "I would like to claim my 1% of royalty fees.",
+        "link": "https://x.com/thsottiaux/status/2064572276180484475",
+        "author": "thsottiaux",
+        "published": "2026-06-10T04:56:03+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "This is a critical post to read if you’re building an applied AI company right now.\n\n“An application earns its place in ",
+        "summary": "This is a critical post to read if you’re building an applied AI company right now.\n\n“An application earns its place in the untrainable corner by doing unglamorous work: arranging a company's private reality so a model can act on it, handing the model the tools to act, working with the customer to change the reality of its workforce. A company that brings the translation is tough to copy – and the translation never ends. Integration and maintenance run as long as the relationship does, won by teams that put domain-specialized engineers and tools next to the customer.”\n\nThere’s still an insanely large gulf between model capabilities and what it takes to apply them to specific corporate workflows. Some of that is technology that needs to be built, a lot is access to (and formatting of) the right data to work with, and a ton more is on the change management and specific implementation work (FDEs, etc.) it takes to make AI work in any specific corporate setting. \n\n2 things can be very true at once: frontier models and labs will continue to grow an incredible amount, and there will be a vast ecosystem of software and services companies that emerge to bring the power of these models to real enterprises. This makes room for new infrastructure provides, applied AI companies in every vertical, new versions of system integrators, and more players.\n\nIncredibly exciting time on all fronts.",
+        "link": "https://x.com/levie/status/2064569513023328268",
+        "author": "levie",
+        "published": "2026-06-10T04:45:04+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "wtf does \"big model smell\" mean",
+        "summary": "wtf does \"big model smell\" mean",
+        "link": "https://x.com/petergyang/status/2064563041166090672",
+        "author": "petergyang",
+        "published": "2026-06-10T04:19:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-10T04:00:00+00:00",
+    "end": "2026-06-10T10:00:00+00:00"
+  }
+}
