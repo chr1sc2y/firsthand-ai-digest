@@ -1,0 +1,438 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-10T23:25:57.450367+00:00",
+  "counts": {
+    "x": 30,
+    "blogs": 3,
+    "podcasts": 1,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Absolutely",
+        "summary": "Absolutely",
+        "link": "https://x.com/elonmusk/status/2064820820317270189",
+        "author": "elonmusk",
+        "published": "2026-06-10T21:23:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Super interesting approach to enterprise agents. Congrats on the launch @markiewagner",
+        "summary": "Super interesting approach to enterprise agents. Congrats on the launch @markiewagner",
+        "link": "https://x.com/amasad/status/2064806473352540643",
+        "author": "amasad",
+        "published": "2026-06-10T20:26:40+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "This is why I never put myself in this situation.",
+        "summary": "This is why I never put myself in this situation.",
+        "link": "https://x.com/kevinweil/status/2064802435298943472",
+        "author": "kevinweil",
+        "published": "2026-06-10T20:10:37+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globall",
+        "summary": "🌍 Project Genie access is expanding even more! Starting today, Google AI Ultra 5X subscribers (our latest tier!) globally can access Project Genie.\n\nTry it out here! https://t.co/4BFYHSiAMv",
+        "link": "https://x.com/GoogleLabs/status/2064801929339752527",
+        "author": "GoogleLabs",
+        "published": "2026-06-10T20:08:36+00:00",
+        "source_name": "Google Labs",
+        "source_role": "Google's AI experiments group",
+        "source_handle": "GoogleLabs"
+      },
+      {
+        "kind": "x",
+        "title": "What Sowell said is exactly right and needs to stop.",
+        "summary": "What Sowell said is exactly right and needs to stop.",
+        "link": "https://x.com/elonmusk/status/2064801037806981493",
+        "author": "elonmusk",
+        "published": "2026-06-10T20:05:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to",
+        "summary": "Give yourself permission to build.\n\nThe traditional career ladder pushes everyone to become a leader, but I just want to be a builder.\n\nAs you climb the ladder at most companies, you’re expected to step away from building and fill your time with product reviews, cross-functional alignment, managing up, and performance calibrations.\n\nI know a lot of builders who spent their best years climbing the wrong ladder.\n\nThe good news is that this is finally changing. Companies are rewarding builders and ICs more than ever, and even managers are increasingly expected to do IC work too.\n\nBut becoming a good builder takes reps, and it’s hard to put in those reps when you’re in back-to-back meetings all day.\n\nSo if you’re a builder at heart, embrace it. You don’t have to give up what you’re good at to be a “leader.”\n\n📌 Watch now: https://t.co/wv2SINll18",
+        "link": "https://x.com/petergyang/status/2064799855059616172",
+        "author": "petergyang",
+        "published": "2026-06-10T20:00:22+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2064791827769704672",
+        "author": "elonmusk",
+        "published": "2026-06-10T19:28:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2064785775367954785",
+        "author": "elonmusk",
+        "published": "2026-06-10T19:04:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "In Sierra Leone, a surging student population is outpacing available teachers.\n\nOur latest research explores how AI can ",
+        "summary": "In Sierra Leone, a surging student population is outpacing available teachers.\n\nOur latest research explores how AI can act as a partner to support educators in these environments –  amplifying their reach without replacing their essential expertise and skills. 🧵 https://t.co/8OUO9GamSF",
+        "link": "https://x.com/GoogleDeepMind/status/2064785573852672275",
+        "author": "GoogleDeepMind",
+        "published": "2026-06-10T19:03:37+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the",
+        "summary": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it.\n\nWe're launching three new initiatives to support the efforts he outlines.",
+        "link": "https://x.com/AnthropicAI/status/2064783418844762489",
+        "author": "AnthropicAI",
+        "published": "2026-06-10T18:55:03+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Today I'm publishing a new essay, Policy on the AI Exponential. AI is progressing extremely fast—much faster than the po",
+        "summary": "Today I'm publishing a new essay, Policy on the AI Exponential. AI is progressing extremely fast—much faster than the policy process was built to handle. The essay lays out where I think the technology is now, and the action needed to close the gap: https://t.co/Lh6PWae178",
+        "link": "https://x.com/DarioAmodei/status/2064781775247950326",
+        "author": "DarioAmodei",
+        "published": "2026-06-10T18:48:31+00:00",
+        "source_name": "Dario Amodei",
+        "source_role": "CEO, Anthropic",
+        "source_handle": "DarioAmodei"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Voice offers state-of-the-art performance with human-like timing, tone, and warmth. And it's a fraction the price o",
+        "summary": "Grok Voice offers state-of-the-art performance with human-like timing, tone, and warmth. And it's a fraction the price of competitors.\n\nCheck it out: https://t.co/R2Wpc3Ig0Z",
+        "link": "https://x.com/xai/status/2064777588036530309",
+        "author": "xai",
+        "published": "2026-06-10T18:31:53+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "🇬🇧 London calling\nExcited for Vercel Ship next week\nSome special announcements… https://t.co/WmOe53Q0Au",
+        "summary": "🇬🇧 London calling\nExcited for Vercel Ship next week\nSome special announcements… https://t.co/WmOe53Q0Au",
+        "link": "https://x.com/rauchg/status/2064777495422161205",
+        "author": "rauchg",
+        "published": "2026-06-10T18:31:31+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I predicted this might happen on on @lennysan’s pod last year \n\nHigher productivity from each individual employee with A",
+        "summary": "I predicted this might happen on on @lennysan’s pod last year \n\nHigher productivity from each individual employee with AI, makes it appealing to reshore certain jobs back to the US to be close to customers",
+        "link": "https://x.com/danshipper/status/2064777216656097445",
+        "author": "danshipper",
+        "published": "2026-06-10T18:30:24+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "recruiting two singer-researchers to stage a dramatic adaptiation of the Muon/Shampoo debate set to the tune of “Your Ob",
+        "summary": "recruiting two singer-researchers to stage a dramatic adaptiation of the Muon/Shampoo debate set to the tune of “Your Obedient Servant” from Hamilton at AIE",
+        "link": "https://x.com/swyx/status/2064776680867344765",
+        "author": "swyx",
+        "published": "2026-06-10T18:28:17+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "You can use Claude Fable 5 as the orchestrator model inside Computer. Available to all Pro and Max users! It’s really re",
+        "summary": "You can use Claude Fable 5 as the orchestrator model inside Computer. Available to all Pro and Max users! It’s really really good for long running agentic workflows.",
+        "link": "https://x.com/AravSrinivas/status/2064775723886182427",
+        "author": "AravSrinivas",
+        "published": "2026-06-10T18:24:28+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Read more about how Tori, eToro's agent, leverages models and real-time data from SpaceXAI to help consumers analyze mar",
+        "summary": "Read more about how Tori, eToro's agent, leverages models and real-time data from SpaceXAI to help consumers analyze market sentiment\n\nhttps://t.co/XUEIexqMGu https://t.co/pNDP4GnT7o",
+        "link": "https://x.com/xai/status/2064771445260230840",
+        "author": "xai",
+        "published": "2026-06-10T18:07:28+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "This is so cool—and super important for accelerating AI's impact on science and health.",
+        "summary": "This is so cool—and super important for accelerating AI's impact on science and health.",
+        "link": "https://x.com/kevinweil/status/2064768326149247343",
+        "author": "kevinweil",
+        "published": "2026-06-10T17:55:05+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "Murderous migrants beheading innocent people in their home town is what’s making people angry, not “social media”!",
+        "summary": "Murderous migrants beheading innocent people in their home town is what’s making people angry, not “social media”!",
+        "link": "https://x.com/elonmusk/status/2064768002906608006",
+        "author": "elonmusk",
+        "published": "2026-06-10T17:53:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "fable maxxing on the plane to SF https://t.co/KDB8T8Z8Ci",
+        "summary": "fable maxxing on the plane to SF https://t.co/KDB8T8Z8Ci",
+        "link": "https://x.com/danshipper/status/2064767202767602122",
+        "author": "danshipper",
+        "published": "2026-06-10T17:50:37+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Heads up: Gemini is currently experiencing an outage. We're on it and will get everything back up ASAP. Some of the fixe",
+        "summary": "Heads up: Gemini is currently experiencing an outage. We're on it and will get everything back up ASAP. Some of the fixes are in, the rest coming very soon. Stay tuned for updates, and thanks for bearing with us!",
+        "link": "https://x.com/joshwoodward/status/2064762269674918013",
+        "author": "joshwoodward",
+        "published": "2026-06-10T17:31:01+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Getting the most out of Claude Fable 5, Anthropic’s powerful new model, you need to maximize your ambition:\n\nIt’s built ",
+        "summary": "Getting the most out of Claude Fable 5, Anthropic’s powerful new model, you need to maximize your ambition:\n\nIt’s built for full task delegation—you leave it looping for hours or overnight and come back to a finished product. If you want to get the most out of it, you need to relearn what software engineering is and how to step away to let the model do its work.\n\nThat’s why I invited @mikeyk, head of Anthropic Labs, on @every’s AI & I. Mike’s been using Mythos-class models for a few months now internally at Anthropic, and he’s learned a ton of new tricks to make its increased powers work for him.\n\nAnd, as a co-founder of Instagram, he can reflect on how software engineering has changed over the last 15 years and what it means going forward.\n\nWe get into:\n- Why the right workflow for Fable 5 is overnight delegation, not back-and-forth iteration—Mike ends his workday by briefing the model, then wakes up to a completed task. When a remote service went down mid-task, Fable 5 wrote a workaround, documented it, and forged ahead\n- The gap between what’s in your head and what exists in the world is closing fast—given access to Fable 5 and a set of internal MCPs, an Anthropic recruiter described the experience as, \"The first time in my life where I feel like the thing that's in my head and the thing that exists in the world are right next to each other. I can just do it.\"\n- Software engineering isn’t dead, but the role has been reinvented—the PM/eng split is blurring, and the better engineers Mike talks to are holding two feelings at once: loss for the craft and shock at what’s now possible\n- Verification is the new bottleneck—Mike gives Fable video captures of its own work so it can catch animation glitches that screenshots would miss\n\nThis is a must-watch for anyone building software and trying to figure out their role now that the models can handle so much.\n\nWatch below!\n\nTimestamps\nIntroduction: 00:00:03\nHow Fable completely reshaped Mike's workflow: 00:01:48\nWhen to use Sonnet versus Fable: 00:04:48\nWhat the media tracker Mike built over a weekend reveals about agent-native architecture: 00:10:06\nThe cost to build has collapsed: 00:15:00\nIs software engineering over?: 00:19:03\nHow Anthropic's engineering teams work today: 00:21:48\nThe mechanics of verification: 00:38:39\nDynamic workflows: 00:47:24\nWhat people should use the model to build: 00:44:39",
+        "link": "https://x.com/danshipper/status/2064761654789681281",
+        "author": "danshipper",
+        "published": "2026-06-10T17:28:34+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "new idea in the age of AI slop software:\n\na badge on every website that shows your SLA from bug report -&gt; shipped PR.",
+        "summary": "new idea in the age of AI slop software:\n\na badge on every website that shows your SLA from bug report -&gt; shipped PR. \n\nevery company is trying to close the loop as quickly as possible—and if you're actively updating your software it's the best way to distinguish craft from slop https://t.co/sI9RcWcMYs",
+        "link": "https://x.com/danshipper/status/2064761239386116528",
+        "author": "danshipper",
+        "published": "2026-06-10T17:26:55+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Supply chain attacks — when hackers takeover public packages and then you or your agent install them — have been devasta",
+        "summary": "Supply chain attacks — when hackers takeover public packages and then you or your agent install them — have been devastating on the industry, and will become a bigger problem in the future.\n\nProud to say Replit has shielded our customers from every one of these attacks thanks to our partnership with @SocketSecurity",
+        "link": "https://x.com/amasad/status/2064758036498112844",
+        "author": "amasad",
+        "published": "2026-06-10T17:14:11+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Michael Truell (@mntruell) fell in love with coding at 12. The company he co-founded, @cursor_ai, went from 15 people to",
+        "summary": "Michael Truell (@mntruell) fell in love with coding at 12. The company he co-founded, @cursor_ai, went from 15 people to 700 in two years.\n\nToday, over 60% of the Fortune 500 build with its AI coding platform. https://t.co/1UROi02oHJ",
+        "link": "https://x.com/claudeai/status/2064757537992249734",
+        "author": "claudeai",
+        "published": "2026-06-10T17:12:13+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "The more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt",
+        "summary": "The more I use Codex the more ambitious my requests get. Or maybe this is not ambitious enough? https://t.co/C0qgjmKGRt",
+        "link": "https://x.com/petergyang/status/2064748427892945313",
+        "author": "petergyang",
+        "published": "2026-06-10T16:36:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "DiffusionGemma is an open, experimental model that brings our text diffusion research to Gemma 4. It’s a racehorse 🏇achi",
+        "summary": "DiffusionGemma is an open, experimental model that brings our text diffusion research to Gemma 4. It’s a racehorse 🏇achieving up to 4x faster inference by generating entire blocks of text simultaneously vs predicting token-by-token (word-by-word) output! https://t.co/FEM0XVFLBN",
+        "link": "https://x.com/sundarpichai/status/2064744343743922189",
+        "author": "sundarpichai",
+        "published": "2026-06-10T16:19:47+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "New from Code with Claude Tokyo: scheduled deployments and environment variables in vaults are in public beta in Claude ",
+        "summary": "New from Code with Claude Tokyo: scheduled deployments and environment variables in vaults are in public beta in Claude Managed Agents, and dynamic workflows in Claude Code are generally available.\n\nAgents now run on a schedule, use your tools securely, and take on bigger jobs. https://t.co/9mTr8T6g5K",
+        "link": "https://x.com/claudeai/status/2064741174317924421",
+        "author": "claudeai",
+        "published": "2026-06-10T16:07:11+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "DiffusionGemma is our new experimental open model with up to 4x faster output on dedicated GPUs.\n\nInstead of predicting ",
+        "summary": "DiffusionGemma is our new experimental open model with up to 4x faster output on dedicated GPUs.\n\nInstead of predicting word-by-word, it generates entire blocks of text simultaneously. This lets the model self-correct and format complex markdown in real time.",
+        "link": "https://x.com/GoogleDeepMind/status/2064741061352636762",
+        "author": "GoogleDeepMind",
+        "published": "2026-06-10T16:06:44+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "Some considerations that many folks seem not to get:\n\n1. It can be a bubble even if the tech works. (For instance, if th",
+        "summary": "Some considerations that many folks seem not to get:\n\n1. It can be a bubble even if the tech works. (For instance, if the tech doesn't have a high-demand use case.)\n\n2. It can be a bubble even if the tech works and has strong product-market fit. (For instance, if the tech cannot be economically viable.)\n\n3. It can be a bubble even if the tech works, has strong product-market fit, and has a path to eventual economic viability. (For instance, if profitability takes too long to achieve or makes margin/competition assumptions that fail to materialize.)\n\n4. It can be a bubble even if the tech works, has strong product-market fit, and is currently highly profitable. (For instance, if demand has a hard ceiling and growth stops once the ceiling is reached.)\n\n5. It can be a bubble even if the tech works, has strong product-market fit, is currently highly profitable, and has unlimited future demand.\n\nLiterally all it takes for something to be a bubble is for lots of people to over-enthusiastically bet their money on it, and subsequently get panicky.\n\nImportantly, bubbles can be attached both to things that are completely hogwash, like the Metaverse, and to world-changing developments like the Internet or railways. Bubbles don't care. They're brought into existence by the thoughts and feelings of investors, not by actual tech or products.\n\n\"The bubble has burst\" doesn't mean \"the tech didn't work\" or \"people stopped using the tech.\" It only means that people got panicky, investor money dried up, and valuations collapsed. Internet adoption didn't stop in 2000.",
+        "link": "https://x.com/fchollet/status/2064740102463725853",
+        "author": "fchollet",
+        "published": "2026-06-10T16:02:56+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "DiffusionGemma",
+        "summary": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/\">DiffusionGemma</a></strong></p>\nLast May Google briefly released an experimental Gemini Diffusion model. I <a href=\"https://simonwillison.net/2025/May/21/gemini-diffusion/\">tried the preview at the time</a> and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it.</p>\n<p>That research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, <a href=\"https://huggingface.co/google/diffusiongemma-26B-A4B-it\">google/diffusiongemma-26B-A4B-it</a>.</p>\n<p>NVIDIA are currently <a href=\"https://build.nvidia.com/google/diffusiongemma-26b-a4b-it\">hosting the model for free</a> on their NIM cloud API. I used that API to <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fe5e234a6dc6eef61e209ce1629620042\">generate this pelican</a>, which took 4.4s (according to <code>time uv run generate.py</code>) to return 2,409 tokens - so at least 500 tokens/second.</p>\n<p><img alt=\"Flat minimalist illustration of a white pelican with a large orange beak riding a red bicycle with black wheels, against a pale blue background with a green line representing the ground\" src=\"https://static.simonwillison.net/static/2026/diffusiongemma-pelican.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48478471\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/nvidia\">nvidia</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gemma\">gemma</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/llm-performance\">llm-performance</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/10/diffusiongemma/",
+        "author": "",
+        "keywords": "google ai generative-ai llms nvidia pelican-riding-a-bicycle gemma llm-release llm-performance",
+        "published": "2026-06-10T20:00:54+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+        "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+        "link": "https://openai.com/index/openai-on-oracle-cloud",
+        "author": "",
+        "keywords": "Company",
+        "published": "2026-06-10T20:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "DiffusionGemma: 4x faster text generation",
+        "summary": "",
+        "link": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-10T16:24:11+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "How Anthropic Uses Claude Fable 5 With Mike Krieger",
+        "summary": "<p>Mike Krieger built one of the most consequential consumer apps of the last two decades as the cofounder of Instagram. He is now at the frontier of AI-native product development as head of Anthropic Labs, the team responsible for figuring out what the most capable AI models can do in the hands of real builders.<br />When Krieger first got access to Fable 5 months before its public release, it was exciting and disorienting. “I feel like a total newbie again,” he remembers telling his team. The way he’d been thinking about productivity, strategy, and time management was out of date. The model had outpaced his workflows.<br />Dan Shipper talked with Krieger for AI &amp; I about what it looks like to build with a model as capable as Fable 5, including the new rhythms, challenges, and possibilities it reveals.<br />If you found this episode interesting, please like, subscribe, comment, and share!</p><p>To hear more from Dan Shipper:<br />Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper<br />Get started with Braintrust at https://www.braintrust.dev/ </p><p>Timestamps:<br />0:03 Introduction<br />1:48 How Fable completely reshaped Mike's workflow<br />4:48 When to use Sonnet versus Fable<br />10:06 What the media tracker Mike built over a weekend reveals about agent-native architecture<br />15:00 The cost to build has collapsed<br />19:03 Is software engineering over?<br />21:48 How Anthropic's engineering teams work today<br />38:39 The mechanics of verification<br />44:39 What people should use the model to build<br />47:24 Dynamic workflows</p><p>Links to resources mentioned in the episode:<br />Mike Krieger on X: https://x.com/mikeyk<br />Anthropic Labs: https://www.anthropic.com<br />Claude Code: https://claude.ai/code<br />Every: https://every.to</p>",
+        "link": "https://share.transistor.fm/s/0a738222",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-06-10T17:59:19+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Claude Fable 5 - Full 319 page Breakdown",
+        "summary": "Fable 5 is out - and it’s good, very good. But beyond the splashy demos, I want to bring you the 20+ nuggets from the 319 page system card, which I read in full, all day, plus benchmarks you may not have noticed. \n\nhttps://assemblyai.com/aiexplained\n\nPlus two worrying trends inside the ‘mind’ of Claude, how OpenAI counter, and the transformer inventor’s warning.\n\n\n\nCheck out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:06 - Blocks + Better Models\n02:42 - Fable 5 Upgrade over Mythos Preview\n04:49 - ML Acceleration Bombshell\n07:11 - No RSI yet\n07:41 - Bio-capable\n14:51 - Creative Writing … no\n17:23 - Does need bug-checks\n18:57 - OpenAI Response\n19:23 - Benchmark Bonanza\n28:06 - Chain of Thought worrying trend\n\nFable 5 Release: https://www.anthropic.com/news/claude-fable-5-mythos-5\n\nSystem Card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\n\nIntelligence Explosion: https://www.patreon.com/posts/anthropic-charts-160231656\n\nAnnotated: https://x.com/Miles_Brundage/status/2064500190523113816/photo/1\n\nOpenAI Counter: https://x.com/thsottiaux/status/2064572118264913923\nhttps://x.com/thsottiaux/status/2043177597434306699\n\nDouble Lifespan: https://darioamodei.com/essay/machines-of-loving-grace\n\nAutomationBench: https://zapier.com/benchmarks\nVending Bench: https://x.com/andonlabs/status/2064429817530085804\nCritPt: https://critpt.com/\nRiemann Bench: https://surgehq.ai/leaderboards/riemann-bench\nGDPVal: https://artificialanalysis.ai/evaluations/gdpval-aa\nBluePrint Bench 2: https://andonlabs.com/evals/blueprint-bench-2\nMCP Atlas: https://labs.scale.com/leaderboard/mcp_atlas\nFutureSim: https://x.com/nikhilchandak29/status/2064676801440358774\n\nRoon Stun Lock: https://x.com/tszzl/status/2064454617568874669\n\nNoam Brown Inference Ceiling: https://x.com/polynoamial/status/2064210146558136827\n\nIsochronic Chart: https://isochronic-passage-chart.netlify.app/#nyc\nRose Tavern: https://claude.ai/public/artifacts/2295bebe-77e6-43e2-ae94-0fe49e9a776b\nRedwall Game: https://redwall-mossflower.surge.sh/\n\nRisk Report: https://www-cdn.anthropic.com/097c63b5fe7dd8b14866e1f15bb1910ec713658a.pdf\n\nTransformer Inventor Warning: https://x.com/tszzl/status/2064563986914554125\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "link": "https://www.youtube.com/watch?v=haK1KoQWm18",
+        "author": "AI Explained",
+        "keywords": "",
+        "published": "2026-06-10T18:43:12+00:00",
+        "kind": "video",
+        "source_name": "AI Explained",
+        "source_handle": "AI Explained",
+        "source_role": "Channel · AI Explained"
+      },
+      {
+        "title": "Create campaign concepts and assets with Codex",
+        "summary": "See how the creative production plugin for Codex helps marketing teams move from product and campaign context to visual concepts, asset variations, and editable creative.\n\nIn this demo, Codex creates a campaign mood board, refines visual directions, generates a launch asset, and hands it off for final edits.\n\nMore than 5 million people now use Codex every week, with marketers, creators, operators, designers, researchers, investors, and bankers among the fastest-growing users.\n\nLearn more: https://openai.com/index/codex-for-every-role-tool-workflow/\nTry the plugin today: https://chatgpt.com/plugins/share/a826391706e14c90816f2ceba9cc8b49",
+        "link": "https://www.youtube.com/watch?v=2ey7znf8SI0",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-10T17:15:03+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Build Small with Modal",
+        "summary": "As part of the Build Small hackathon we are inviting our partners to share their knowledge on how to get the most out of their platform.\n\nToday we are joined by Modal who will walk us through some use-case for Modal's cloud compute as well as taking questions from the community!\n\n---\n\nBuild Small Hackathon: https://huggingface.co/build-small-hackathon\n\nModal resources: https://build-small-hackathon-field-guide.hf.space/partners/modal\n\nModal Website: https://modal.com/\nModal GitHub: https://github.com/modal-labs\nModal X: https://x.com/modal",
+        "link": "https://www.youtube.com/watch?v=8Oz64pGwRk4",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-10T16:48:49+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-10T16:00:00+00:00",
+    "end": "2026-06-10T22:00:00+00:00"
+  }
+}
