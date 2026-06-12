@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Insight Brief - 2026-06-12</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #647083;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --line: #dfe5ee;
+      --blue: #2457d6;
+      --green: #1f8a5b;
+      --amber: #a76508;
+      --red: #b42318;
+      --soft-blue: #eaf0ff;
+      --soft-green: #e8f6ef;
+      --soft-amber: #fff5df;
+      --shadow: 0 14px 40px rgba(28, 39, 60, .08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: linear-gradient(180deg, #eef3fb 0, var(--bg) 360px);
+      line-height: 1.5;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .page { max-width: 1180px; margin: 0 auto; padding: 28px 20px 48px; }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.7fr) minmax(280px, .9fr);
+      gap: 24px;
+      align-items: end;
+      padding: 28px 0 22px;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(34px, 5vw, 68px); line-height: .95; letter-spacing: 0; }
+    .dek { margin: 0; max-width: 760px; font-size: 18px; color: #34415a; }
+    .meta {
+      background: rgba(255,255,255,.76);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: var(--shadow);
+    }
+    .meta div { display: flex; justify-content: space-between; gap: 14px; padding: 7px 0; border-bottom: 1px solid #edf1f7; }
+    .meta div:last-child { border-bottom: 0; }
+    .meta span { color: var(--muted); }
+    .meta strong { text-align: right; }
+    .grid { display: grid; gap: 16px; }
+    .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 10px 0 22px; }
+    .stat, .card, .note, .implications, .watchlist {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .stat { padding: 16px; }
+    .stat b { display: block; font-size: 28px; line-height: 1; }
+    .stat span { color: var(--muted); font-size: 13px; }
+    section { margin-top: 22px; }
+    .section-title { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 12px; }
+    h2 { margin: 0; font-size: 22px; }
+    .tag { display: inline-flex; align-items: center; min-height: 24px; padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 800; }
+    .tag.high { color: var(--green); background: var(--soft-green); }
+    .tag.medium { color: var(--amber); background: var(--soft-amber); }
+    .tag.limited { color: var(--red); background: #fff0ef; }
+    .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .card { padding: 18px; min-height: 270px; display: flex; flex-direction: column; gap: 10px; }
+    .card h3 { margin: 0; font-size: 18px; line-height: 1.25; }
+    .card p { margin: 0; color: #34415a; }
+    .label { color: var(--muted); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .note, .implications, .watchlist { padding: 18px; }
+    ul { margin: 10px 0 0; padding-left: 19px; }
+    li { margin: 8px 0; }
+    .source-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 10px; }
+    .source-row a { border: 1px solid var(--line); border-radius: 999px; padding: 5px 9px; font-size: 12px; background: #f8fafd; }
+    .trend { grid-template-columns: 1.1fr .9fr; }
+    .bar {
+      height: 10px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--blue) 0 44%, var(--green) 44% 72%, var(--amber) 72% 100%);
+      margin: 14px 0 8px;
+    }
+    .legend { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); font-size: 12px; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 13px; }
+    @media (max-width: 900px) {
+      header, .split, .trend { grid-template-columns: 1fr; }
+      .stats, .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 620px) {
+      .page { padding: 18px 14px 34px; }
+      .stats, .cards { grid-template-columns: 1fr; }
+      h1 { font-size: 38px; }
+      .dek { font-size: 16px; }
+      .meta div { display: block; }
+      .meta strong { display: block; text-align: left; margin-top: 2px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <p class="label">Firsthand AI Digest - interpreted brief</p>
+        <h1>Agent work becomes the product surface</h1>
+        <p class="dek">The last 24 hours were dominated by practical agent deployment rather than a single model launch: OpenAI pushed Codex across creative, sales, science, and infrastructure narratives; xAI expanded Grok's plugin marketplace; Perplexity folded Deep Research into Computer; and Anthropic moved from hidden Claude safeguards toward visible fallbacks after backlash.</p>
+      </div>
+      <div class="meta">
+        <div><span>Execution time</span><strong>2026-06-12 08:17 CST</strong></div>
+        <div><span>Coverage window</span><strong>2026-06-11 08:17 CST to 2026-06-12 08:17 CST</strong></div>
+        <div><span>Primary posture</span><strong>High signal, limited media depth</strong></div>
+      </div>
+    </header>
+
+    <div class="grid stats">
+      <div class="stat"><b>40</b><span>Firsthand items in window</span></div>
+      <div class="stat"><b>40</b><span>First-layer original sources</span></div>
+      <div class="stat"><b>2</b><span>Full article-text sources fetched</span></div>
+      <div class="stat"><b>38</b><span>Limited or metadata-only sources</span></div>
+    </div>
+
+    <section class="grid trend">
+      <div class="note">
+        <div class="section-title"><h2>Executive Read</h2><span class="tag medium">Medium confidence</span></div>
+        <p><strong>Fact:</strong> Firsthand captured 40 items, led by two accessible Simon Willison posts, seven YouTube videos, and a large cluster of X posts. The strongest verified item is Anthropic's acknowledgment, quoted via Simon Willison and WIRED, that invisible Claude Fable/Mythos safeguards for frontier LLM development were the wrong tradeoff and will become visible through fallback/refusal signaling.</p>
+        <p><strong>Inference:</strong> The center of gravity is shifting from "which model is best" to "which model can be routed, observed, governed, and embedded in recurring work." Codex, Grok plugins, Perplexity Computer, and Claude policy changes all point at the same operating layer: agents as managed production surfaces.</p>
+        <div class="bar"></div>
+        <div class="legend"><span>Blue: agent workflows</span><span>Green: governance</span><span>Amber: infra/adoption</span></div>
+      </div>
+      <div class="note">
+        <div class="section-title"><h2>Source Limits</h2><span class="tag limited">Caution</span></div>
+        <p>Full text was accessible for <a href="https://simonwillison.net/2026/Jun/11/datasette/">Datasette 1.0a33</a> and <a href="https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/">Anthropic's safeguard reversal</a>. YouTube analysis relies on oEmbed titles plus Firsthand-captured descriptions; transcript/caption fetches were not available. X analysis uses public oEmbed text for selected posts and Firsthand snippets; replies, media, quote-post context, and full threads were not accessible.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title"><h2>Most Important Items</h2><span class="tag medium">Facts vs analysis separated</span></div>
+      <div class="grid cards">
+        <article class="card">
+          <span class="tag high">Governance</span>
+          <h3>Anthropic reverses invisible Claude safeguard behavior</h3>
+          <p><strong>Fact:</strong> Simon Willison's accessible post quotes Anthropic saying it made the wrong tradeoff by making Fable/Mythos frontier-LLM-development safeguards invisible; the update says flagged requests will visibly fall back to Opus 4.8 and API refusals will include reasons.</p>
+          <p><strong>Analysis:</strong> This is a trust repair move. Invisible quality degradation is unacceptable for research and enterprise evaluation because it corrupts benchmark interpretation, debugging, and vendor accountability.</p>
+          <div class="source-row">
+            <a href="https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/">Simon Willison</a>
+            <a href="https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/">WIRED link</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="tag medium">Codex expansion</span>
+          <h3>OpenAI positions Codex as a cross-role workbench</h3>
+          <p><strong>Fact:</strong> Firsthand captured OpenAI videos on Codex for creatives, sales account strategy, and black-hole simulations; the sales demo description says Codex prioritizes accounts from Salesforce, drafts outreach, and can run a morning cadence.</p>
+          <p><strong>Analysis:</strong> The product message is widening from coding to role-specific workflow generation. The risk is that many claims are video-description-only in this run, so treat exact capabilities as demo claims pending docs or transcripts.</p>
+          <div class="source-row">
+            <a href="https://www.youtube.com/watch?v=K6wxZOqD-HY">Creatives video</a>
+            <a href="https://www.youtube.com/watch?v=4YkOAYNZVOQ">Sales demo</a>
+            <a href="https://openai.com/index/using-codex-to-simulate-black-holes">Black holes page</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="tag high">Developer tools</span>
+          <h3>Datasette's API work shows cheap agent-built tooling</h3>
+          <p><strong>Fact:</strong> Datasette 1.0a33 extends the <code>?_extra=</code> pattern to queries and rows as well as tables, and Simon Willison says Claude Code planned and Codex Desktop implemented a custom API extras explorer.</p>
+          <p><strong>Analysis:</strong> This is a small but concrete example of agentic programming lowering the cost of documentation-adjacent tools: API affordances are easier to expose when throwaway explorers become economical.</p>
+          <div class="source-row">
+            <a href="https://simonwillison.net/2026/Jun/11/datasette/">Release note</a>
+            <a href="http://datasette.io/blog/2026/api-extras/">Datasette blog</a>
+            <a href="https://tools.simonwillison.net/datasette-extras-explorer">Explorer</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="tag medium">Agent marketplaces</span>
+          <h3>xAI pushes Grok plugins for production-adjacent work</h3>
+          <p><strong>Fact:</strong> Public X embeds from xAI announced Sentry, Vercel, and MongoDB plugins: error triage and stack traces, deployment/sandboxes/app builds, and database/vector-search work from prompts.</p>
+          <p><strong>Analysis:</strong> Plugin marketplaces are turning agents into environment controllers. Buyers should evaluate permissions, audit logs, rollback paths, and whether plugins expose enough deterministic state for incident response.</p>
+          <div class="source-row">
+            <a href="https://x.com/xai/status/2065168019891073260">Sentry plugin</a>
+            <a href="https://x.com/xai/status/2065143638838157559">Vercel plugin</a>
+            <a href="https://x.com/xai/status/2065119714658152592">MongoDB plugin</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="tag medium">Agent UX</span>
+          <h3>Perplexity folds Deep Research into Computer</h3>
+          <p><strong>Fact:</strong> Aravind Srinivas posted that Deep Research is now a native skill inside Perplexity Computer, so users do not have to explicitly invoke it as a standalone mode while using Computer.</p>
+          <p><strong>Analysis:</strong> This is a UX pattern to watch: agent systems will increasingly hide tool choice behind orchestration. That improves flow but raises observability questions about when expensive or high-latency skills are triggered.</p>
+          <div class="source-row">
+            <a href="https://x.com/AravSrinivas/status/2065138600589607176">Perplexity post</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="tag medium">Infrastructure</span>
+          <h3>AI growth narratives keep pointing back to physical capacity</h3>
+          <p><strong>Fact:</strong> OpenAI published a video on life near its Stargate project, while Sundar Pichai posted about Google.org support for 300K American workers entering skilled trades tied to digital infrastructure.</p>
+          <p><strong>Analysis:</strong> The AI buildout is becoming a workforce, permitting, energy, and local-economic story. Enterprise buyers should expect infrastructure availability and regional compliance to shape deployment choices.</p>
+          <div class="source-row">
+            <a href="https://www.youtube.com/watch?v=6QoMzZ8FdTA">Stargate video</a>
+            <a href="https://x.com/sundarpichai/status/2065110608090161375">Google.org post</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="implications">
+        <h2>Concrete Implications</h2>
+        <ul>
+          <li><strong>Developers:</strong> Treat agent integrations as production software: capture tool calls, permission grants, model fallbacks, and generated changes in reviewable logs.</li>
+          <li><strong>Startups:</strong> The near-term wedge is not another chat UI; it is a managed workflow around a costly job, with connectors, retries, and human approval built in.</li>
+          <li><strong>Researchers:</strong> Claude's safeguard reversal is a reminder to record model-routing/fallback behavior during experiments. Hidden policy layers can invalidate comparisons.</li>
+          <li><strong>Enterprise buyers:</strong> Ask vendors for refusal visibility, plugin permission boundaries, audit exports, procurement channels, and incident rollback procedures before broad rollout.</li>
+        </ul>
+      </div>
+      <div class="watchlist">
+        <h2>24-72 Hour Watchlist</h2>
+        <ul>
+          <li>Anthropic's promised visible fallback/API refusal behavior: exact docs, rollout timing, and examples.</li>
+          <li>OpenAI Codex role-workflow docs beyond videos, especially Salesforce/plugin setup and governance controls.</li>
+          <li>Grok Build plugin marketplace permission model for Sentry, Vercel, MongoDB, and production deploy actions.</li>
+          <li>Perplexity Computer telemetry: how users can see when Deep Research is invoked and what it costs.</li>
+          <li>More primary material on Microsoft AI expressive voice models and DiffusionGemma speed claims.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="note">
+      <div class="section-title"><h2>Source Register</h2><span class="tag limited">Access notes included</span></div>
+      <p>High-confidence full text: <a href="https://simonwillison.net/2026/Jun/11/datasette/">Datasette 1.0a33</a>, <a href="https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/">Anthropic safeguard reversal</a>. Limited but useful public embeds: <a href="https://x.com/steipete/status/2064998499780084154">Codex orchestration loop</a>, <a href="https://x.com/levie/status/2064922814688481678">Box Fable eval fragment</a>, <a href="https://x.com/gdb/status/2064899797593792687">OpenAI on Oracle commitment fragment</a>, <a href="https://x.com/demishassabis/status/2064873362799600042">DiffusionGemma fragment</a>, <a href="https://x.com/mustafasuleyman/status/2065101759463223471">MAI voice fragment</a>. Video-only limited sources: <a href="https://www.youtube.com/watch?v=UNJSk90Lz1c">BBVA customer talk</a>, <a href="https://www.youtube.com/watch?v=ACue0bPkrPs">ChatGPT Antarctica training</a>, and <a href="https://www.youtube.com/watch?v=gI7CdvwYDqI">Dwarkesh/Rockefeller clip</a>.</p>
+    </section>
+
+    <footer>
+      This brief distinguishes verified facts from inference. Claims based only on X embeds, YouTube titles/descriptions, or Firsthand snippets are intentionally labeled as limited.
+    </footer>
+  </div>
+</body>
+</html>
