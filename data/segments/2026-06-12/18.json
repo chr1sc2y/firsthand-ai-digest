@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-12T18:07:41.008346+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 1,
+    "podcasts": 1,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Very very excited to welcome Ryan Atkins to the team as a Partner.\n\nWe have a lot to build @southpkcommons! https://t.co",
+        "summary": "Very very excited to welcome Ryan Atkins to the team as a Partner.\n\nWe have a lot to build @southpkcommons! https://t.co/LwqApZUBRj",
+        "link": "https://x.com/adityaag/status/2065460544719704355",
+        "author": "adityaag",
+        "published": "2026-06-12T15:45:42+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Fable 5 has been out for a couple of days. Some projects people have already built with it:",
+        "summary": "Claude Fable 5 has been out for a couple of days. Some projects people have already built with it:",
+        "link": "https://x.com/claudeai/status/2065456678909227064",
+        "author": "claudeai",
+        "published": "2026-06-12T15:30:21+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "I’ve been doing “loops” for a while now. I don’t do much traditional prompting. Most of my prompts are barely a sentence",
+        "summary": "I’ve been doing “loops” for a while now. I don’t do much traditional prompting. Most of my prompts are barely a sentence expressing an outcome.\n\n- my orchestrator prompts parallel agents\n- my computer use verifier gives it feedback\n- my security, production, and SEO agents generate prompts for fixes\n \nThe industry is typically 3-6 months behind what we’re doing at Replit.",
+        "link": "https://x.com/amasad/status/2065452585964949831",
+        "author": "amasad",
+        "published": "2026-06-12T15:14:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "For me, the best use case for Fable isn't coding.\n\nIt’s giving it a ton of context about my business and life, then aski",
+        "summary": "For me, the best use case for Fable isn't coding.\n\nIt’s giving it a ton of context about my business and life, then asking:\n\n→ What opportunities am I missing?\n→ What should I stop doing?\n→ Where am I lying to myself?\n\nHaving a sharper second brain for business strategy has been the real unlock.\n\nFeels like a no-brainer thing to try before June 22.\n\nShould I make a video about this?",
+        "link": "https://x.com/petergyang/status/2065446074228290007",
+        "author": "petergyang",
+        "published": "2026-06-12T14:48:12+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Thank you! 🚀🚀🚀",
+        "summary": "Thank you! 🚀🚀🚀",
+        "link": "https://x.com/elonmusk/status/2065445696287703472",
+        "author": "elonmusk",
+        "published": "2026-06-12T14:46:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Another 29 sats to orbit!",
+        "summary": "Another 29 sats to orbit!",
+        "link": "https://x.com/elonmusk/status/2065444236825170191",
+        "author": "elonmusk",
+        "published": "2026-06-12T14:40:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+        "summary": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+        "link": "https://x.com/elonmusk/status/2065443133165318612",
+        "author": "elonmusk",
+        "published": "2026-06-12T14:36:31+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Plan Mode has been released to all Computer users. Will now clarify with you sufficiently before proceeding with a plan ",
+        "summary": "Plan Mode has been released to all Computer users. Will now clarify with you sufficiently before proceeding with a plan and pulling the right connectors",
+        "link": "https://x.com/AravSrinivas/status/2065443027997356539",
+        "author": "AravSrinivas",
+        "published": "2026-06-12T14:36:06+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/OC6l7harKj",
+        "summary": "https://t.co/OC6l7harKj",
+        "link": "https://x.com/elonmusk/status/2065440971660181723",
+        "author": "elonmusk",
+        "published": "2026-06-12T14:27:56+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/H3jwsgInvf",
+        "summary": "https://t.co/H3jwsgInvf",
+        "link": "https://x.com/elonmusk/status/2065439967707283892",
+        "author": "elonmusk",
+        "published": "2026-06-12T14:23:56+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖\n\nThis three-",
+        "summary": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖\n\nThis three-month program will connect them with access to our AI stack, Gemini Robotics models  and hands-on support from our teams.\n\nMeet the companies → https://t.co/DlFWHplnUq",
+        "link": "https://x.com/GoogleDeepMind/status/2065388989146628563",
+        "author": "GoogleDeepMind",
+        "published": "2026-06-12T11:01:22+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "New OpenAI Academy courses for the next era of work",
+        "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+        "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+        "author": "",
+        "keywords": "AI Adoption",
+        "published": "2026-06-12T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "AI Vibe Check: Lab Wars, Why APIs Might Vanish & Future Predictions",
+        "summary": "Six months after their last roundup, Jacob sits down with Ari Morcos (Datology AI CEO, former Meta AI researcher) and Rob Toews (Radical Ventures partner, Forbes AI columnist) to take stock of an AI landscape that has shifted dramatically: coding agents crossing the long-time-horizon threshold has turned engineers into managers of agents, near-frontier open weight AI looks like it may be disappearing as Meta and the Chinese labs pull back, and Anthropic's restrictions on its newly released Fable model have its biggest supporters questioning whether safety framing is masking competitive positioning. The conversation runs through the full state of the lab wars, including Rob doubling down on his Sam Altman ouster prediction and the Bret Taylor succession theory, why Google's structural advantages remain intact despite falling behind on coding, what xAI's Cursor acquisition is really for, and Ari's claim that compute constraints could push labs to suspend their APIs entirely. The back half digs into the physical bottlenecks underneath it all, from atom and x-ray lithography startups challenging ASML to H100 prices reversing their decline, before closing with predictions: recursive self-improvement is closer than it was six months ago but slower than the takeoff narratives suggest, robotics is nearing its GPT-3 moment, and Anthropic's next chapter may be life sciences.",
+        "link": "https://unsupervised-learning.simplecast.com/episodes/ai-vibe-check-lab-wars-why-apis-might-vanish-future-predictions-sr_Mp2pR",
+        "author": "Jacob Effron, Ari Morcos, Rob Toews",
+        "keywords": "",
+        "published": "2026-06-12T12:51:00+00:00",
+        "kind": "podcast",
+        "source_name": "Unsupervised Learning",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "Unsupervised Learning"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Is AI More Like Electricity or Social Media? – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=AWXM5nXyh5U",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-12T12:00:15+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-12T10:00:00+00:00",
+    "end": "2026-06-12T16:00:00+00:00"
+  }
+}
