@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-13T23:05:19.945381+00:00",
+  "counts": {
+    "x": 8,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix!\n\nlink bel",
+        "summary": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix!\n\nlink below \n\nwe had @devinai analyze registered attendee list and output a live chart of the people coming to the conference. it ended up being the single best data driven storytelling i've ever seen on what kind of community we are gathering in two weeks.\n\nsurvey link here!\nhttps://t.co/2oilc5lCDm\n\nno lurking, fill it out pls",
+        "link": "https://x.com/swyx/status/2065909887025168887",
+        "author": "swyx",
+        "published": "2026-06-13T21:31:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "before and after fable ban:\n\nmy claude app vs. codex app usage https://t.co/ddBRm7bp21",
+        "summary": "before and after fable ban:\n\nmy claude app vs. codex app usage https://t.co/ddBRm7bp21",
+        "link": "https://x.com/danshipper/status/2065856703397278060",
+        "author": "danshipper",
+        "published": "2026-06-13T17:59:54+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+        "summary": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+        "link": "https://x.com/rauchg/status/2065856253428179357",
+        "author": "rauchg",
+        "published": "2026-06-13T17:58:07+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "the last thing you see before andy jassy gets your model banned by the usg https://t.co/dz9LHpbcOn",
+        "summary": "the last thing you see before andy jassy gets your model banned by the usg https://t.co/dz9LHpbcOn",
+        "link": "https://x.com/danshipper/status/2065843763327738153",
+        "author": "danshipper",
+        "published": "2026-06-13T17:08:29+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "This whole Fable export control situation is actually net positive to regulation discourse. It’s an early peek into what",
+        "summary": "This whole Fable export control situation is actually net positive to regulation discourse. It’s an early peek into what AI regulation would end up looking like at scale when enacted at the model layer instead of the specific application of the AI.\n\nThe government would have sole discretion over when a model can be released to the to public, based on a bunch of factors that they inherently control. \n\nIn this case, based on the available reporting, the risk is that the model can be jailbroken to deliver increased cyber exploit capabilities. The issue is that actually you want models to be able to have those capabilities on the defense side of cyber as well, and for all intents and purposes, by Anthropic’s own response, you can execute these capabilities today in other models. \n\nSo thus the whole challenge will be that you’re debating with the government, over months and months, with every model release, what these models are actually capable of and what their risks are. Inherently, there’s not only a lot of subjectivity in determining those risks, but there’s also many other factors that go into the risks being practical in the first place.\n\nThe net result is that we would end up with backlog of AI releases, progress in the market inherently would dramatically slow down, and AI would start to look more like any other sclerotic industry. If this paradigm had existed 3 years ago at the start of the current AI wave, we’d likely currently be stuck on GPT-4 level intelligence at this point.\n\nThis is why, wherever possible, we should be regulating the applied use of AI. We should continue to study and enforce the dangerous use of AI in cyber attacks, financial services risks, fraud, biowarfare, and other spaces. AI safety is incredibly important, but slowing down progress this early in the development of AI I suspect is net harmful.",
+        "link": "https://x.com/levie/status/2065842361834651996",
+        "author": "levie",
+        "published": "2026-06-13T17:02:55+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Hey @peer_rich this is happening to me too and feels like a big security exploit. \n\nI have no idea how \"Nora\" booked a m",
+        "summary": "Hey @peer_rich this is happening to me too and feels like a big security exploit. \n\nI have no idea how \"Nora\" booked a meeting with me.\n\nCan you fix this?\n\ncc @calcom, @dfordp11",
+        "link": "https://x.com/petergyang/status/2065841885936316797",
+        "author": "petergyang",
+        "published": "2026-06-13T17:01:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "To be fair, most of the builders I met in my (very limited) trip to China earlier this year were using Claude with vpn",
+        "summary": "To be fair, most of the builders I met in my (very limited) trip to China earlier this year were using Claude with vpn",
+        "link": "https://x.com/petergyang/status/2065839117464945001",
+        "author": "petergyang",
+        "published": "2026-06-13T16:50:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Feels like we’re getting psyoped. The end-game here is something bigger.",
+        "summary": "Feels like we’re getting psyoped. The end-game here is something bigger.",
+        "link": "https://x.com/amasad/status/2065838585358745653",
+        "author": "amasad",
+        "published": "2026-06-13T16:47:54+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-13T16:00:00+00:00",
+    "end": "2026-06-13T22:00:00+00:00"
+  }
+}
