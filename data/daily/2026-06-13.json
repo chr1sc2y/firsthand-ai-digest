@@ -1,0 +1,538 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T17:23:16.333954+00:00",
+  "source_segments": [
+    "segments/2026-06-13/00.json",
+    "segments/2026-06-13/06.json",
+    "segments/2026-06-13/12.json",
+    "segments/2026-06-13/18.json"
+  ],
+  "counts": {
+    "x": 40,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "This is probably the most annoying part of using Codex https://t.co/Fuk9PQIcV1",
+        "summary": "This is probably the most annoying part of using Codex https://t.co/Fuk9PQIcV1",
+        "link": "https://x.com/petergyang/status/2065813903876215062",
+        "author": "petergyang",
+        "published": "2026-06-13T15:09:50+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "He doesn't have a CS degree, doesn't read code, and doesn't even look at AI's plans most of the time.\n\nYet @mvanhorn has",
+        "summary": "He doesn't have a CS degree, doesn't read code, and doesn't even look at AI's plans most of the time.\n\nYet @mvanhorn has built one of the most impressive open source track records I've seen.\n\nMy next episode is for every non-technical person who has doubts that they can build with AI agents.\n\n📌 Subscribe to see how Matt does it tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2065800114283909555",
+        "author": "petergyang",
+        "published": "2026-06-13T14:15:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I’m gonna find another you https://t.co/hhIQUw6CiK",
+        "summary": "I’m gonna find another you https://t.co/hhIQUw6CiK",
+        "link": "https://x.com/danshipper/status/2065786974087311810",
+        "author": "danshipper",
+        "published": "2026-06-13T13:22:49+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Within ~5 years, probably ~5 times as many satellites as rest of world",
+        "summary": "Within ~5 years, probably ~5 times as many satellites as rest of world",
+        "link": "https://x.com/elonmusk/status/2065705276334833951",
+        "author": "elonmusk",
+        "published": "2026-06-13T07:58:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Starship is a very big rocket",
+        "summary": "Starship is a very big rocket",
+        "link": "https://x.com/elonmusk/status/2065702920427896916",
+        "author": "elonmusk",
+        "published": "2026-06-13T07:48:49+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I can barely keep up with implementing/testing/landing all the Issues/PRs folks submit to https://t.co/qUxn0LF7Ct\n\nCodex",
+        "summary": "I can barely keep up with implementing/testing/landing all the Issues/PRs folks submit to https://t.co/qUxn0LF7Ct\n\nCodex runs INSIDE crabbox while it is building crabbox.\nThis is becoming essential infra for my work.\n\nCodex been looping nonstop for the last 4 days in multiple trees. Since all of it is e2e verifiable it basically builds itself. Codex even signs up for the services automatically via browser/computer use. My main job is adding credit card details and closing things that I don't see as a fit.",
+        "link": "https://x.com/steipete/status/2065650561484267540",
+        "author": "steipete",
+        "published": "2026-06-13T04:20:46+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Yeah I think ID verification will soon be required to access the best models",
+        "summary": "Yeah I think ID verification will soon be required to access the best models",
+        "link": "https://x.com/petergyang/status/2065622592309039449",
+        "author": "petergyang",
+        "published": "2026-06-13T02:29:38+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "harry potter fan fiction and hillbilly elegy brought us to this https://t.co/tVAPAWq1Sg",
+        "summary": "harry potter fan fiction and hillbilly elegy brought us to this https://t.co/tVAPAWq1Sg",
+        "link": "https://x.com/danshipper/status/2065620303729078435",
+        "author": "danshipper",
+        "published": "2026-06-13T02:20:32+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "this seriously messes up my weekend plans i may have to actually see people",
+        "summary": "this seriously messes up my weekend plans i may have to actually see people",
+        "link": "https://x.com/danshipper/status/2065618107750916323",
+        "author": "danshipper",
+        "published": "2026-06-13T02:11:48+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "This is a big turning point for AI regulation.\n\nThe government is starting to deem some models too powerful for certain ",
+        "summary": "This is a big turning point for AI regulation.\n\nThe government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls in the future.\n\nI’m in the camp that this is unnecessary and we should be primarily regulating the use of AI, as opposed to the underlying models. But, equally, there are plenty of people that actually prefer this outcome.\n\nEither way, it’s unlikely that we’re going back to a world where the government doesn’t have far more meaningful involvement in the rate of AI progress.",
+        "link": "https://x.com/levie/status/2065616509666472329",
+        "author": "levie",
+        "published": "2026-06-13T02:05:27+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "cfos everywhere: we are so back",
+        "summary": "cfos everywhere: we are so back",
+        "link": "https://x.com/danshipper/status/2065610408627724635",
+        "author": "danshipper",
+        "published": "2026-06-13T01:41:13+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "my take on this situation currently is that they'll unban it in a few days and the net effect will be increased demand f",
+        "summary": "my take on this situation currently is that they'll unban it in a few days and the net effect will be increased demand for Fable\n\nhowever this kind of thing is extremely disruptive and distracting for people inside of the company. the only comparable scenario i can remember is Sam Altman's firing which was resolved relatively quickly. even though things went back to the way they were, i do think that disrupted their momentum for a while\n\nhoping for a good outcome here!",
+        "link": "https://x.com/danshipper/status/2065608958887539087",
+        "author": "danshipper",
+        "published": "2026-06-13T01:35:27+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "should we just to turn this into \"spin up a billion haiku agents to spam the https://t.co/12l1thjkmX feedback form\" day?",
+        "summary": "should we just to turn this into \"spin up a billion haiku agents to spam the https://t.co/12l1thjkmX feedback form\" day? https://t.co/iYgLjjLiA3",
+        "link": "https://x.com/danshipper/status/2065607570728046774",
+        "author": "danshipper",
+        "published": "2026-06-13T01:29:56+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Suspending Fable for all “foreign person inside the US” is wild. How can you even enforce this properly?",
+        "summary": "Suspending Fable for all “foreign person inside the US” is wild. How can you even enforce this properly?",
+        "link": "https://x.com/petergyang/status/2065602691850764667",
+        "author": "petergyang",
+        "published": "2026-06-13T01:10:33+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Wow wtf?!",
+        "summary": "Wow wtf?!",
+        "link": "https://x.com/petergyang/status/2065601540350750846",
+        "author": "petergyang",
+        "published": "2026-06-13T01:05:58+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Sounds like we’re going to have turn off access to Fable.",
+        "summary": "Sounds like we’re going to have turn off access to Fable.",
+        "link": "https://x.com/amasad/status/2065600809224814835",
+        "author": "amasad",
+        "published": "2026-06-13T01:03:04+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "This shit was 🔥. Probably the best action movie since the Raid 1/2 and Fury Road https://t.co/L7eupyN8QS",
+        "summary": "This shit was 🔥. Probably the best action movie since the Raid 1/2 and Fury Road https://t.co/L7eupyN8QS",
+        "link": "https://x.com/petergyang/status/2065600713842110970",
+        "author": "petergyang",
+        "published": "2026-06-13T01:02:41+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+        "summary": "🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀",
+        "link": "https://x.com/elonmusk/status/2065599409358766234",
+        "author": "elonmusk",
+        "published": "2026-06-13T00:57:30+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "When the whole Tokenmaxxing craze started some our enterprise customers asked us for a leaderboard.\n\nWe said no.\n\nWould’",
+        "summary": "When the whole Tokenmaxxing craze started some our enterprise customers asked us for a leaderboard.\n\nWe said no.\n\nWould’ve been “great” for business but we’re not in the business of selling tokens for the sake of tokens.\n\nWe sell outcomes.\n\nAnd we knew it wouldn’t last:",
+        "link": "https://x.com/amasad/status/2065597793998422308",
+        "author": "amasad",
+        "published": "2026-06-13T00:51:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "The US government, citing national security authorities, has issued an export control directive to suspend all access to",
+        "summary": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees.\n\nThe net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance.\n\nAccess to all other Claude models is not affected.\n\nWe apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible.\n\nRead our full statement: https://t.co/bwn0sximKZ",
+        "link": "https://x.com/AnthropicAI/status/2065597531644743999",
+        "author": "AnthropicAI",
+        "published": "2026-06-13T00:50:03+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/iMbPIuCsnR",
+        "summary": "https://t.co/iMbPIuCsnR",
+        "link": "https://x.com/rauchg/status/2065595134906191912",
+        "author": "rauchg",
+        "published": "2026-06-13T00:40:31+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "This is pretty freaking cool",
+        "summary": "This is pretty freaking cool",
+        "link": "https://x.com/levie/status/2065594956186865815",
+        "author": "levie",
+        "published": "2026-06-13T00:39:49+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "## The Future Codebase\n\nAfter the PR dies, after the Code Review dies,\ni am seriously wondering if Git needs to die next",
+        "summary": "## The Future Codebase\n\nAfter the PR dies, after the Code Review dies,\ni am seriously wondering if Git needs to die next.\n\nroughly 20-40% of code spend is just managing and updating merge conflicts. necessary evil? or legacy \"horseless carriage\"? cargo culting the past?\n\nwe don't do line by line merge conflicts when we collaborate with human colleagues - instead we chat, suggest edits, do side comments, and an owner ships it. \n\nbtw we also don't do CI/CD even collaborating on documents with serious legal/financial implications.\n\nmaybe the future codebase looks more like a Notion or Linear database than .git objects. It will be less efficient, but more scalable. exactly the Salty Lesson.",
+        "link": "https://x.com/swyx/status/2065559864559145420",
+        "author": "swyx",
+        "published": "2026-06-12T22:20:22+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "“I don’t ever give up” Congrats @elonmusk 🚀 https://t.co/8l8n86h4zP",
+        "summary": "“I don’t ever give up” Congrats @elonmusk 🚀 https://t.co/8l8n86h4zP",
+        "link": "https://x.com/AravSrinivas/status/2065551922367512641",
+        "author": "AravSrinivas",
+        "published": "2026-06-12T21:48:49+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Looking forward to taking our exciting partnership with Nvidia to the next-level",
+        "summary": "Looking forward to taking our exciting partnership with Nvidia to the next-level",
+        "link": "https://x.com/elonmusk/status/2065547393974636647",
+        "author": "elonmusk",
+        "published": "2026-06-12T21:30:49+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "IMO sth that is a bit overlooked but will become far more important in the future. GPT is 10-20x more token+cost effecti",
+        "summary": "IMO sth that is a bit overlooked but will become far more important in the future. GPT is 10-20x more token+cost effective for ~similar outcome.",
+        "link": "https://x.com/steipete/status/2065541992290070571",
+        "author": "steipete",
+        "published": "2026-06-12T21:09:21+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/R0jkKptmVS",
+        "summary": "https://t.co/R0jkKptmVS",
+        "link": "https://x.com/danshipper/status/2065527146425332190",
+        "author": "danshipper",
+        "published": "2026-06-12T20:10:22+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "We just shipped 𝙷𝚊𝚛𝚗𝚎𝚜𝚜𝙰𝚐𝚎𝚗𝚝, a unified abstraction to orchestrate and integrate any agent’s “brain” into your app.\n\n@ai",
+        "summary": "We just shipped 𝙷𝚊𝚛𝚗𝚎𝚜𝚜𝙰𝚐𝚎𝚗𝚝, a unified abstraction to orchestrate and integrate any agent’s “brain” into your app.\n\n@aisdk now frees you from both model and agent lock-in. (And it doesn’t just get you portability, it’s also delightful to use ofc!)",
+        "link": "https://x.com/rauchg/status/2065520041894756480",
+        "author": "rauchg",
+        "published": "2026-06-12T19:42:08+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "powerful &amp; cool way to navigate a website, makes it feel so much more interactive and intuitive",
+        "summary": "powerful &amp; cool way to navigate a website, makes it feel so much more interactive and intuitive",
+        "link": "https://x.com/gdb/status/2065514424278901018",
+        "author": "gdb",
+        "published": "2026-06-12T19:19:48+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Does anyone have any tips for prompting ChatGPT Images or Nano Banana to edit YouTube thumbnails? \n\nBoth seem terrible a",
+        "summary": "Does anyone have any tips for prompting ChatGPT Images or Nano Banana to edit YouTube thumbnails? \n\nBoth seem terrible at changing my expression. I would share pics but they make me look really bad :)",
+        "link": "https://x.com/petergyang/status/2065507006610276555",
+        "author": "petergyang",
+        "published": "2026-06-12T18:50:20+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "If you make money on Replit, you get free credits!",
+        "summary": "If you make money on Replit, you get free credits!",
+        "link": "https://x.com/amasad/status/2065503810592833560",
+        "author": "amasad",
+        "published": "2026-06-12T18:37:38+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Are you buying SpaceX stock today?",
+        "summary": "Are you buying SpaceX stock today?",
+        "link": "https://x.com/petergyang/status/2065496954965234136",
+        "author": "petergyang",
+        "published": "2026-06-12T18:10:23+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "HTML is so back.\nDrag and https://t.co/HJSiShgTtP",
+        "summary": "HTML is so back.\nDrag and https://t.co/HJSiShgTtP",
+        "link": "https://x.com/rauchg/status/2065494112669966660",
+        "author": "rauchg",
+        "published": "2026-06-12T17:59:06+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with wha",
+        "summary": "Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with what it's telling me 😅\n\nThis prompt snippet has been the best fix I've found for getting it to write clearly and drop any jargon: https://t.co/9mS57mR7jq",
+        "link": "https://x.com/alexalbert__/status/2065493229760565758",
+        "author": "alexalbert__",
+        "published": "2026-06-12T17:55:35+00:00",
+        "source_name": "Alex Albert",
+        "source_role": "Head of Claude Relations, Anthropic",
+        "source_handle": "alexalbert__"
+      },
+      {
+        "kind": "x",
+        "title": "In awe of SpaceX and its story - past, present and the future. You can think about it in 10+ different ways and continue",
+        "summary": "In awe of SpaceX and its story - past, present and the future. You can think about it in 10+ different ways and continue re-blowing your mind in circles. Huge congrats to the team! 🚀",
+        "link": "https://x.com/karpathy/status/2065490793092337691",
+        "author": "karpathy",
+        "published": "2026-06-12T17:45:54+00:00",
+        "source_name": "Andrej Karpathy",
+        "source_role": "Eureka Labs / ex-OpenAI, Tesla",
+        "source_handle": "karpathy"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats @elonmusk &amp; @spacex team – one of humanity's most inspiring missions! Excited about what the rest of the ce",
+        "summary": "Congrats @elonmusk &amp; @spacex team – one of humanity's most inspiring missions! Excited about what the rest of the century will bring.",
+        "link": "https://x.com/rauchg/status/2065489705849008298",
+        "author": "rauchg",
+        "published": "2026-06-12T17:41:35+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I love the incredible people of SpaceX beyond words",
+        "summary": "I love the incredible people of SpaceX beyond words",
+        "link": "https://x.com/elonmusk/status/2065485963120328945",
+        "author": "elonmusk",
+        "published": "2026-06-12T17:26:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Incredible. Congrats to @elonmusk and the entire SpaceX team on the 25 years of blood, sweat and tears to build a world-",
+        "summary": "Incredible. Congrats to @elonmusk and the entire SpaceX team on the 25 years of blood, sweat and tears to build a world-defining company. Amazing to have examples like this that push the future forward. The downstream implications of this are enormous. https://t.co/tyDusbJFn0",
+        "link": "https://x.com/levie/status/2065469347712401712",
+        "author": "levie",
+        "published": "2026-06-12T16:20:41+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNe",
+        "summary": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
+        "link": "https://x.com/thsottiaux/status/2065468501750649006",
+        "author": "thsottiaux",
+        "published": "2026-06-12T16:17:20+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "It's a good day to be called SPC.\n\nWe are temporarily renaming ourselves to Space Park Commons.",
+        "summary": "It's a good day to be called SPC.\n\nWe are temporarily renaming ourselves to Space Park Commons.",
+        "link": "https://x.com/adityaag/status/2065467866930135491",
+        "author": "adityaag",
+        "published": "2026-06-12T16:14:48+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+        "summary": "<p><strong><a href=\"https://www.anthropic.com/news/fable-mythos-access\">Statement on the US government directive to suspend access to Fable 5 and Mythos 5</a></strong></p>\nWell this is <em>nuts</em>:</p>\n<blockquote>\n<p>The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for <strong>all</strong> our customers to ensure compliance. <strong>Access to all other Anthropic models</strong> <strong>will not be affected.</strong></p>\n<p>We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or \"jailbreaking\" Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. [...]</p>\n<p>To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed the report and validated that the level of capability displayed there is widely available from other models (including OpenAI's <a href=\"https://deploymentsafety.openai.com/gpt-5-5/tacit-knowledge-and-troubleshooting\">GPT-5.5</a>), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours.</p>\n</blockquote>\n<p>I still have access to Fable via <a href=\"https://claude.ai/\">claude.ai</a> and Claude Code now, at 9:01pm ET.</p>\n<p><strong>Update</strong>: I ran <a href=\"https://gist.github.com/simonw/5894cfafc64a2b8aafbe834bc9c950b9\">this script</a> against the Anthropic API to spot when <code>claude-fable-5</code> would stop working. My access was cut off at 6:59pm Pacific (9:59pm ET):</p>\n<pre>[2026-06-12T18:56:50-07:00] attempt 35: running uv run llm -m claude-fable-5 hi\n[2026-06-12T18:56:55-07:00] success: Hi there! How can I help you today?\n[2026-06-12T18:57:55-07:00] attempt 36: running uv run llm -m claude-fable-5 hi\n[2026-06-12T18:57:59-07:00] success: Hi! How can I help you today?\n[2026-06-12T18:58:59-07:00] attempt 37: running uv run llm -m claude-fable-5 hi\n[2026-06-12T18:59:00-07:00] FAILED after attempt 37 with exit code 1\n\nstderr:\nError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'Claude Fable 5 is not available. Please use Opus 4.8. Learn more: https://www.anthropic.com/news/fable-mythos-access'}, 'request_id': 'req_011CbzRyirV7KZLHYYdBM9od'}</pre>\n\n    <p><small></small>Via <a href=\"https://twitter.com/AnthropicAI/status/2065597531644743999\">@AnthropicAI</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/",
+        "author": "",
+        "keywords": "jailbreaking ai generative-ai llms anthropic claude ai-ethics claude-mythos",
+        "published": "2026-06-13T01:01:50+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "OpenAI WebRTC Audio Session, now with document context",
+        "summary": "<p><strong><a href=\"https://tools.simonwillison.net/openai-webrtc\">OpenAI WebRTC Audio Session, now with document context</a></strong></p>\nI built the first version of this tool <a href=\"https://simonwillison.net/2024/Dec/17/openai-webrtc/\">in December 2024</a> to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models.</p>\n<p>Last month OpenAI <a href=\"https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/\">introduced a brand new model</a> to that API called <a href=\"https://developers.openai.com/api/docs/models/gpt-realtime-2\">GPT‑Realtime‑2</a>, which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off.</p>\n<p>I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old playground.</p>\n<p>You can now pick the better model, and you can also paste in a big chunk of document context so you can have as audio conversation in your browser about whatever information you think would be useful to explore in a conversational way.</p>\n<p><img alt=\"Screenshot of a web interface titled &quot;OpenAI WebRTC Audio Session&quot; with a gray status dot. Form fields: &quot;OpenAI API Token&quot; showing a masked password of dots, &quot;Voice&quot; dropdown set to &quot;Coral&quot;, &quot;Model&quot; dropdown set to &quot;gpt-realtime-2&quot;. A collapsible section labeled &quot;▼ Document context (optional — paste text to talk about)&quot; with bold instruction &quot;Paste a document here before starting the session and the model will be able to discuss it with you&quot; above a textarea containing a pasted Markdown document about whether DuckDB can run untrusted SQL as safely as Datasette runs SQLite. Below are a blue &quot;Start Session&quot; button and a gray disabled &quot;Mute Mic&quot; button, then a green success message &quot;Session established successfully!&quot; At the bottom, a dark panel headed &quot;Last transcript&quot; reads: &quot;DuckDB can be made about as safe as SQLite for running untrusted SELECT queries, but only if you lock it down properly. Using read only true by itself is not enough, because SQL can still&quot; (text cut off).\" class=\"blogmark-image\" src=\"https://static.simonwillison.net/static/2026/openai-webrtc-document-context.jpg\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/audio\">audio</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/multi-modal-output\">multi-modal-output</a>, <a href=\"https://simonwillison.net/tags/webrtc\">webrtc</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/",
+        "author": "",
+        "keywords": "audio tools ai openai generative-ai llms multi-modal-output webrtc",
+        "published": "2026-06-12T23:53:04+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Quoting Andrew Singleton",
+        "summary": "<blockquote cite=\"https://www.mcsweeneys.net/articles/ai-economics-for-dummies\"><p>Jenny owns a crematorium. John’s propane company gives her a $20 billion investment in return for 5 percent of her operation. Jenny throws $10 billion into the incinerator, then pays John $10 billion to buy propane to burn that money to ashes. John reports that his AI investments have generated $10 billion in revenue this quarter and that he owns 5 percent of a $100 billion business. A reporter from <em>Forbes</em> is assigned to profile John and Jenny, and over the course of his research, he becomes embroiled in a passionate but confusing three-way love affair with them, which eventually turns into a polyamorous common-law marriage. His profile is glowing, but light on financial details.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.mcsweeneys.net/articles/ai-economics-for-dummies\">Andrew Singleton</a>, AI Economics for Dummies</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/12/andrew-singleton/",
+        "author": "",
+        "keywords": "ai",
+        "published": "2026-06-12T18:09:21+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "AI Should Be Commoditized – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=a8IW1LyDSTw",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-13T13:15:09+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Analyze earnings and update your investment thesis with Codex",
+        "summary": "See how the public equity investing plugin for Codex turns a company’s latest quarter into a post-earnings analysis. \n\nUsing connected data from sources like Quartr, Daloopa, and S&amp;P Global, Codex evaluates a company’s growth drivers, guidance, margin trends, and quality of print. It then packages the analysis into bull, base, and bear cases, a monitoring checklist, and can create detailed Excel workbooks or presentation-ready PowerPoint decks.\n\nMore than 5 million people now use Codex every week, with researchers, investors, and bankers and operators among the fastest-growing users.\n\nLearn more: https://openai.com/index/codex-for-every-role-tool-workflow/\n\nTry the plugin today: https://chatgpt.com/plugins/share/8f2f2fb7215f4688a0853afd038f2a1a",
+        "link": "https://www.youtube.com/watch?v=Rlju1Z9e110",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-12T20:36:47+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "From data to decisions: how LSEG is scaling trusted AI",
+        "summary": "What happens when one of the world's leading financial markets infrastructure and data providers combines trusted market intelligence with AI?\n\nIn this customer story, LSEG shares how it's using ChatGPT Enterprise and OpenAI APIs to accelerate insight generation, speed up product innovation, and help employees and customers make better decisions with confidence.\n\nHear from Emily Prince, Group Head of Enterprise AI, and Max Grigoryev, Group Director AI Products, as they discuss scaling AI responsibly, transforming workflows, and bringing trusted financial data into AI-powered experiences.\n\nRead the full story: www.openai.com/index/lseg",
+        "link": "https://www.youtube.com/watch?v=sU9-u5p-jA0",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-12T16:24:47+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}
