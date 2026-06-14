@@ -1,0 +1,341 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T17:21:16.000241+00:00",
+  "source_segments": [
+    "segments/2026-06-14/00.json",
+    "segments/2026-06-14/06.json",
+    "segments/2026-06-14/12.json",
+    "segments/2026-06-14/18.json"
+  ],
+  "counts": {
+    "x": 21,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "The big winner in all of this is going to be open weights models. This is a huge win for the field, as a risk that was e",
+        "summary": "The big winner in all of this is going to be open weights models. This is a huge win for the field, as a risk that was entirely theoretical and untested 2 days ago (that a model could be pulled back), now has a new precedent that’s been set.\n\nThe game theory the US should highly consider, and the risk with regulating AI at the model layer vs. applied layer, is that other countries now have even more incentive to develop sovereign AI.\n\nIf at any moment a model can be become unavailable to your country’s users or businesses, this poses very real risk on relying on technology from a particular country.\n\nAs a result, it forces major countries to charter their own path on AI development, which reduces America’s leadership role in this tech stack over time. The most likely solution that other countries will rely on is open weights models, which currently is generally not coming from the US.\n\nAmerica should be considering all of these downstream implications as it decides how and where in the stack to be regulating AI. At the same time, we should be doing a ton more OSS innovation.",
+        "link": "https://x.com/levie/status/2066167615618466060",
+        "author": "levie",
+        "published": "2026-06-14T14:35:21+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "\"I'm not an engineer but somehow I'm able to ship things of value, which is crazy and weird and still blowing my mind.\"\n",
+        "summary": "\"I'm not an engineer but somehow I'm able to ship things of value, which is crazy and weird and still blowing my mind.\"\n\nHere's my new episode with @mvanhorn, a non-technical founder who has contributed to 100+ open source projects and reached 44K+ GitHub stars despite not knowing how to code.\n\nWe cover:\n\n→ How he uses Compound Engineering to build without reading code or plans\n\n→ How you can use Printing Press to give your agent access to almost any website or app\n\n→ How he contributed to Python, Go, OpenClaw, and other top repos\n\nSome quotes from Matt:\n\n\"My favorite tool for building anything is Compound Engineering. The killer skills are CE plan and CE work.\"\n\n\"What if anyone could print their own CLI? Google Flights and Kayak don't have an official API, but Printing Press lets you find all the secret APIs that exist.\"\n\n\"Just build, just launch. It's okay even if you build something for yourself. Even if I had no users of Agent Cookie, I get value out of it.\"\n\n📌 Watch now: https://t.co/2ZqHIKGODc\n\nThanks to our sponsor:\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE\n\n@wisprflow: 4x faster than typing with your voice https://t.co/oqHJ8bN3ll",
+        "link": "https://x.com/petergyang/status/2066162582273273924",
+        "author": "petergyang",
+        "published": "2026-06-14T14:15:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "They will",
+        "summary": "They will",
+        "link": "https://x.com/elonmusk/status/2066082785668878479",
+        "author": "elonmusk",
+        "published": "2026-06-14T08:58:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "YOLO",
+        "summary": "YOLO",
+        "link": "https://x.com/petergyang/status/2066034464120345075",
+        "author": "petergyang",
+        "published": "2026-06-14T05:46:15+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Have fun tonight, NY!",
+        "summary": "Have fun tonight, NY!",
+        "link": "https://x.com/sundarpichai/status/2066009536021037155",
+        "author": "sundarpichai",
+        "published": "2026-06-14T04:07:12+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "This shortage of chips is getting out of hand.",
+        "summary": "This shortage of chips is getting out of hand.",
+        "link": "https://x.com/steipete/status/2065998839467933862",
+        "author": "steipete",
+        "published": "2026-06-14T03:24:42+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Got a PayPal verification text and thought I been hacked, but it was just codex signing up for a web service it needed.",
+        "summary": "Got a PayPal verification text and thought I been hacked, but it was just codex signing up for a web service it needed.",
+        "link": "https://x.com/steipete/status/2065997212015067508",
+        "author": "steipete",
+        "published": "2026-06-14T03:18:14+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "I have been thinking about this photo a lot.\n\nIt's a beautiful testament to human civilization and our ability to reach ",
+        "summary": "I have been thinking about this photo a lot.\n\nIt's a beautiful testament to human civilization and our ability to reach for the stars.\n\nBut the thing that I can't get over is that a *human being* took this photo. From a tin cylinder flying on the other side of the moon. \n\nA machine could have taken it and it would have still been cool. But man was there. And that makes it so much more evocative.",
+        "link": "https://x.com/adityaag/status/2065990670184247341",
+        "author": "adityaag",
+        "published": "2026-06-14T02:52:14+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "The layer that can route to the best AI model for the particular job is going to increase in value substantially. There ",
+        "summary": "The layer that can route to the best AI model for the particular job is going to increase in value substantially. There are at least 3 big reasons: \n\n* Cost optimization: there are plenty of use cases where you need frontier intelligence for some tasks and something far cheaper for others. Even in the same task you may use frontier intelligence for planning and review of the work, but an OSS or cheaper model for the bulk of the workload. This is going to be standard across large buckets of work going forward. \n\n* Capability maximization: despite the bitter lesson and models generally getting better in the same direction, there are still lots of differences between models. Some are better at tool use, others better at coding, and others again better at certain domains of knowledge work. The ability to route between these at different times is a huge advantage.\n\n* Risk mitigation: while the Fable situation is somewhat of a black swan, it’s possible we’re heading toward a regulatory environment where governments may restrict models at different times based on their approval mechanisms or new things they discover. This means you’re going to want flexibility in being able to deploy workloads across different providers as a form of risk mitigation.\n\nUltimately, it’s going to increasingly be a a strategic advantage for the applied AI layer that they can effectively route between models. Will be very interesting to see how this evolves.",
+        "link": "https://x.com/levie/status/2065989559905812973",
+        "author": "levie",
+        "published": "2026-06-14T02:47:49+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "dario at the wellness retreat when they told him hegseth was on the phone https://t.co/UgwQA8h7fg",
+        "summary": "dario at the wellness retreat when they told him hegseth was on the phone https://t.co/UgwQA8h7fg",
+        "link": "https://x.com/danshipper/status/2065975981039649058",
+        "author": "danshipper",
+        "published": "2026-06-14T01:53:52+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "We need more amazing martial arts movies (and I need 10% of my feed to be about martial arts, anime, and games 😅). Go wa",
+        "summary": "We need more amazing martial arts movies (and I need 10% of my feed to be about martial arts, anime, and games 😅). Go watch The Furious it's amazing.",
+        "link": "https://x.com/petergyang/status/2065973599119536181",
+        "author": "petergyang",
+        "published": "2026-06-14T01:44:24+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and jailbreak AI models, and",
+        "summary": "Everyone thinks this is some kind of 4D chess or conspiracy. But it’s quite standard to try and jailbreak AI models, and by definition they would share that research with the government given that’s whole point. I don’t think Amazon assumed this would be the next move.",
+        "link": "https://x.com/levie/status/2065964446489710939",
+        "author": "levie",
+        "published": "2026-06-14T01:08:02+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Watching Brazil play Morocco at 30K feet using Starlink is a visceral reminder of SpaceX.",
+        "summary": "Watching Brazil play Morocco at 30K feet using Starlink is a visceral reminder of SpaceX.",
+        "link": "https://x.com/adityaag/status/2065948194723520709",
+        "author": "adityaag",
+        "published": "2026-06-14T00:03:27+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix!\n\nlink bel",
+        "summary": "Last chance to fill out the annual AI Engineering Survey this weekend and win great Vercel + Notion + AIE tix!\n\nlink below \n\nwe had @devinai analyze registered attendee list and output a live chart of the people coming to the conference. it ended up being the single best data driven storytelling i've ever seen on what kind of community we are gathering in two weeks.\n\nsurvey link here!\nhttps://t.co/2oilc5lCDm\n\nno lurking, fill it out pls",
+        "link": "https://x.com/swyx/status/2065909887025168887",
+        "author": "swyx",
+        "published": "2026-06-13T21:31:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "before and after fable ban:\n\nmy claude app vs. codex app usage https://t.co/ddBRm7bp21",
+        "summary": "before and after fable ban:\n\nmy claude app vs. codex app usage https://t.co/ddBRm7bp21",
+        "link": "https://x.com/danshipper/status/2065856703397278060",
+        "author": "danshipper",
+        "published": "2026-06-13T17:59:54+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+        "summary": "If you don’t love her at her foggiest, you don’t deserve at her sunniest https://t.co/emfuSvU6nF",
+        "link": "https://x.com/rauchg/status/2065856253428179357",
+        "author": "rauchg",
+        "published": "2026-06-13T17:58:07+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "the last thing you see before andy jassy gets your model banned by the usg https://t.co/dz9LHpbcOn",
+        "summary": "the last thing you see before andy jassy gets your model banned by the usg https://t.co/dz9LHpbcOn",
+        "link": "https://x.com/danshipper/status/2065843763327738153",
+        "author": "danshipper",
+        "published": "2026-06-13T17:08:29+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "This whole Fable export control situation is actually net positive to regulation discourse. It’s an early peek into what",
+        "summary": "This whole Fable export control situation is actually net positive to regulation discourse. It’s an early peek into what AI regulation would end up looking like at scale when enacted at the model layer instead of the specific application of the AI.\n\nThe government would have sole discretion over when a model can be released to the to public, based on a bunch of factors that they inherently control. \n\nIn this case, based on the available reporting, the risk is that the model can be jailbroken to deliver increased cyber exploit capabilities. The issue is that actually you want models to be able to have those capabilities on the defense side of cyber as well, and for all intents and purposes, by Anthropic’s own response, you can execute these capabilities today in other models. \n\nSo thus the whole challenge will be that you’re debating with the government, over months and months, with every model release, what these models are actually capable of and what their risks are. Inherently, there’s not only a lot of subjectivity in determining those risks, but there’s also many other factors that go into the risks being practical in the first place.\n\nThe net result is that we would end up with backlog of AI releases, progress in the market inherently would dramatically slow down, and AI would start to look more like any other sclerotic industry. If this paradigm had existed 3 years ago at the start of the current AI wave, we’d likely currently be stuck on GPT-4 level intelligence at this point.\n\nThis is why, wherever possible, we should be regulating the applied use of AI. We should continue to study and enforce the dangerous use of AI in cyber attacks, financial services risks, fraud, biowarfare, and other spaces. AI safety is incredibly important, but slowing down progress this early in the development of AI I suspect is net harmful.",
+        "link": "https://x.com/levie/status/2065842361834651996",
+        "author": "levie",
+        "published": "2026-06-13T17:02:55+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Hey @peer_rich this is happening to me too and feels like a big security exploit. \n\nI have no idea how \"Nora\" booked a m",
+        "summary": "Hey @peer_rich this is happening to me too and feels like a big security exploit. \n\nI have no idea how \"Nora\" booked a meeting with me.\n\nCan you fix this?\n\ncc @calcom, @dfordp11",
+        "link": "https://x.com/petergyang/status/2065841885936316797",
+        "author": "petergyang",
+        "published": "2026-06-13T17:01:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "To be fair, most of the builders I met in my (very limited) trip to China earlier this year were using Claude with vpn",
+        "summary": "To be fair, most of the builders I met in my (very limited) trip to China earlier this year were using Claude with vpn",
+        "link": "https://x.com/petergyang/status/2065839117464945001",
+        "author": "petergyang",
+        "published": "2026-06-13T16:50:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Feels like we’re getting psyoped. The end-game here is something bigger.",
+        "summary": "Feels like we’re getting psyoped. The end-game here is something bigger.",
+        "link": "https://x.com/amasad/status/2065838585358745653",
+        "author": "amasad",
+        "published": "2026-06-13T16:47:54+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-14",
+        "summary": "AI 早报 2026-06-14 视频版：哔哩哔哩 ｜ YouTube 概览 要闻 Z.ai 向全量用户开放旗舰模型 GLM-5.2，API 及开源版本计划下周上线 ↗ #1 ZCode 发布 3.0.0 版本并切换自研 Agent 内核 ↗ #2 美国政府以国家安全为由暂停外国人访问 Fable 5 与 Mythos 5 ↗ #3 Anthropic 重置 Claude 使用限额并开启退款 ↗ #4 Amazon 被曝向政府提出 Anthropic 模型安全担忧，引发监管介入 ↗ #5 模型发布 Zyphra 推出开源 TTS 模型 ZONOS2 ↗ #6 开发生态 OpenRouter 推出 Fusion API，多模型组合测试得分超越 GPT-5.5 ↗ #7 TRAE 为 6 月 12 日前购速通权益…",
+        "link": "https://daily.juya.uk/issue-3/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-14T00:47:24+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+        "summary": "<p>The <a href=\"https://blog.pyodide.org/posts/314-release/\">Pyodide 314.0 release announcement</a> (via <a href=\"https://news.ycombinator.com/item?id=48462759\">Hacker News</a>) includes news I've been looking forward to for a long time:</p>\n<blockquote>\n<p>You can now publish Python packages built for Pyodide (or any Python runtime compatible with <a href=\"https://pyodide.org/en/stable/development/abi.html\">the PyEmscripten platform defined in PEP 783</a>) directly to PyPI and install them at runtime.</p>\n<p>Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review.</p>\n<p>Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows.</p>\n</blockquote>\n<p>Here's the <a href=\"https://github.com/pypi/warehouse/pull/19804\">PR to PyPI itself supporting this</a>, which landed on April 21st.</p>\n<p>I adore <a href=\"https://pyodide.org\">Pyodide</a>, and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them.</p>\n<p>Thanks to the efforts of a whole lot of people, that's now been fixed!</p>\n<h4 id=\"trying-it-out-with-luau-wasm\">Trying it out with luau-wasm</h4>\n<p>I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my <a href=\"https://github.com/simonw/research/tree/main/pluau-wasm-pyodide#readme\">Luau WebAssembly research spike</a> from 9th March.</p>\n<p><a href=\"https://luau.org\">Luau</a> is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", <a href=\"https://luau.org/news/2022-11-04-luau-origins-and-evolution/\">developed by Roblox</a> and released under an MIT license.</p>\n<p>It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I <a href=\"https://gist.github.com/simonw/1761eab6ba11d4053f56f955a28ad76b\">set Codex + GPT-5.5 xhigh</a> the task of packaging my experiment up and publishing it to PyPI using GitHub Actions.</p>\n<p>It took some iteration, but here's the result: <a href=\"https://pypi.org/project/luau-wasm/\">luau-wasm</a> is a brand new PyPI package which publishes a 276KB <code>luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl</code> file which can be used in Pyodide like this:</p>\n<pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">micropip</span>\n<span class=\"pl-k\">await</span> <span class=\"pl-s1\">micropip</span>.<span class=\"pl-c1\">install</span>(<span class=\"pl-s\">\"luau-wasm\"</span>)\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">luau_wasm</span>\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">luau_wasm</span>.<span class=\"pl-c1\">execute</span>(<span class=\"pl-s\">r'''</span>\n<span class=\"pl-s\">local animals = {\"fox\", \"owl\", \"frog\", \"rabbit\"}</span>\n<span class=\"pl-s\">table.sort(animals, function(a, b) return #a &lt; #b end)</span>\n<span class=\"pl-s\">for i, name in animals do print(i .. \". \" .. name .. \" (\" .. #name .. \")\") end</span>\n<span class=\"pl-s\">'''</span>))</pre>\n<p>You can run that code <a href=\"https://pyodide.org/en/stable/console.html\">in the Pyodide REPL demo</a> to see it in action.</p>\n<p>The <a href=\"https://github.com/simonw/luau-wasm\">GitHub repo for luau-wasm</a> includes all of the build and deploy scripts (using the latest <a href=\"https://github.com/pypa/cibuildwheel\">cibuildwheel</a>) and also deploys an HTML demo page which loads Pyodide, installs <code>luau-wasm</code> and provides an interface for trying it out: <a href=\"https://simonw.github.io/luau-wasm/\">https://simonw.github.io/luau-wasm/</a></p>\n<p><img alt=\"Screenshot of a web app titled &quot;Luau WASM&quot; with subtitle &quot;Run Luau in the browser through Pyodide after installing the luau-wasm WebAssembly wheel from PyPI.&quot; A green &quot;Ready&quot; status badge is at top right. Below are example buttons: &quot;Hello World&quot;, &quot;Variables&quot;, &quot;Tables&quot;, &quot;Fibonacci&quot;, &quot;Runtime Error&quot;. A &quot;LUAU SOURCE&quot; code editor contains: local function fib(n: number): number / if n &lt; 2 then return n end / return fib(n - 1) + fib(n - 2) / end / local out = {} / for i = 0, 12 do / table.insert(out, tostring(fib(i))) / end / print(table.concat(out, &quot;, &quot;)). On the right is an &quot;OUTPUT&quot; panel with a &quot;Copy&quot; button showing dark terminal output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. At the bottom left are a blue &quot;Run&quot; button, a &quot;Clear&quot; button, and the text &quot;6.0 ms&quot;.\" src=\"https://static.simonwillison.net/static/2026/luau-wasm.jpg\" /></p>\n<h4 id=\"how-many-packages-are-using-this-so-far-\">How many packages are using this so far?</h4>\n<p>I was curious to see how many packages are currently publishing wheels for this platform.</p>\n<p>After some <a href=\"https://chatgpt.com/share/6a2dee92-b110-83e8-9f53-ba9259b751ed\">tinkering with ChatGPT</a> I got to <a href=\"https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b?permalink_comment_id=6198602#gistcomment-6198602\">this BigQuery SQL</a> which I ran against PyPI's <a href=\"https://packaging.python.org/en/latest/guides/analyzing-pypi-package-downloads/#public-dataset\">public dataset on BigQuery</a>. Here's the <a href=\"https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b\">raw JSON</a> of query results and here's a SQLite SQL query <a href=\"https://lite.datasette.io/?json=https://gist.github.com/simonw/4a34a49fca63bc09c50bc31e17b3d33b#/data?sql=select%0A++name%2C%0A++platform_tag%2C%0A++matching_file_count%2C%0A++max%28latest_upload%29+as+latest_upload%2C%0A++example_files%0Afrom+%28%0A++--+your+existing+query+here%2C+without+order+by%0A++select%0A++++name%2C%0A++++platform_tag%2C%0A++++matching_file_count%2C%0A++++latest_upload%2C%0A++++example_files%0A++from+raw%0A%29%0Agroup+by+name%0Aorder+by+latest_upload+desc%3B\">in Datasette Lite</a> which dedupes packages by most recent upload date.</p>\n<p>If the query is right, there are currently 28 PyPI packages publishing with the new <code>pyemscripten_202*_wasm32</code> tags:</p>\n<p><a href=\"https://pypi.org/project/luau-wasm/\">luau-wasm</a>, <a href=\"https://pypi.org/project/uuid7-rs/\">uuid7-rs</a>, <a href=\"https://pypi.org/project/cmm-16bit/\">cmm-16bit</a>, <a href=\"https://pypi.org/project/pyOpenTTDAdmin/\">pyOpenTTDAdmin</a>, <a href=\"https://pypi.org/project/imgui-bundle/\">imgui-bundle</a>, <a href=\"https://pypi.org/project/numbertoolkit/\">numbertoolkit</a>, <a href=\"https://pypi.org/project/bashkit/\">bashkit</a>, <a href=\"https://pypi.org/project/geoarrow-rust-core/\">geoarrow-rust-core</a>, <a href=\"https://pypi.org/project/arro3-io/\">arro3-io</a>, <a href=\"https://pypi.org/project/arro3-core/\">arro3-core</a>, <a href=\"https://pypi.org/project/arro3-compute/\">arro3-compute</a>, <a href=\"https://pypi.org/project/onnx/\">onnx</a>, <a href=\"https://pypi.org/project/powerfit-em/\">powerfit-em</a>, <a href=\"https://pypi.org/project/tcod/\">tcod</a>, <a href=\"https://pypi.org/project/chonkie-core/\">chonkie-core</a>, <a href=\"https://pypi.org/project/tokie/\">tokie</a>, <a href=\"https://pypi.org/project/robotraconteur/\">robotraconteur</a>, <a href=\"https://pypi.org/project/pydantic_core/\">pydantic_core</a>, <a href=\"https://pypi.org/project/yaml-rs/\">yaml-rs</a>, <a href=\"https://pypi.org/project/cadquery-ocp-novtk-OCP.wasm/\">cadquery-ocp-novtk-OCP.wasm</a>, <a href=\"https://pypi.org/project/uuid_utils/\">uuid_utils</a>, <a href=\"https://pypi.org/project/base64_utils/\">base64_utils</a>, <a href=\"https://pypi.org/project/pycdfpp/\">pycdfpp</a>, <a href=\"https://pypi.org/project/lib3mf-OCP.wasm/\">lib3mf-OCP.wasm</a>, <a href=\"https://pypi.org/project/typst/\">typst</a>, <a href=\"https://pypi.org/project/toml-rs/\">toml-rs</a>, <a href=\"https://pypi.org/project/onnx-weekly/\">onnx-weekly</a>, <a href=\"https://pypi.org/project/dummy-pyodide-ext-test/\">dummy-pyodide-ext-test</a></p>\n<p>Here's hoping we see a whole lot more of those showing up over the coming months and years.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/lua\">lua</a>, <a href=\"https://simonwillison.net/tags/pypi\">pypi</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/",
+        "author": "",
+        "keywords": "lua pypi python sandboxing webassembly github-actions pyodide",
+        "published": "2026-06-13T23:55:18+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "luau-wasm 0.1a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/luau-wasm/releases/tag/0.1a0\">luau-wasm 0.1a0</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/\">Publishing WASM wheels to PyPI for use with Pyodide</a> for details.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/lua\">lua</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/",
+        "author": "",
+        "keywords": "lua webassembly pyodide",
+        "published": "2026-06-13T23:14:30+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Mapping SQLite result columns back to their source `table.column`",
+        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/sqlite-column-provenance#readme\">Mapping SQLite result columns back to their source `table.column`</a></p>\n        <p>It would be neat if arbitrary SQL queries in <a href=\"https://datasette.io/\">Datasette</a> could be rendered with additional information based on which columns from which tables were included in the results.</p>\n<p>To build that, we would need to be able to look at a SQL query like <code>select users.name, orders.total from users join orders on orders.user_id = users.id</code> and programmatically identify the <code>table.column</code> for each result - navigating not just joins but also more complex syntax like CTEs.</p>\n<p>I decided to set Claude Code (Opus 4.8, since Fable is currently <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">banned by the US government</a>) on the problem. It found several promising solutions - one using <a href=\"https://github.com/rogerbinns/apsw\">apsw</a>, another that uses <code>ctypes</code> to access the SQLite <code>sqlite3_column_table_name()</code> <a href=\"https://sqlite.org/c3ref/column_database_name.html\">C function</a> (which is not otherwise exposed to Python), and one using clever interrogation of the output of <code>EXPLAIN</code>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/",
+        "author": "",
+        "keywords": "python sqlite datasette",
+        "published": "2026-06-13T23:05:00+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "NVIDIA's New Free Al - A Gift To All Of Us",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The Nemotron 3 Ultra paper is available here:\nhttps://research.nvidia.com/labs/nemotron/Nemotron-3-Ultra/\n\nFree Rendering course and source code:\nhttps://users.cg.tuwien.ac.at/zsolnai/gfx/rendering-course/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nThumbnail design: https://felicia.hu\n\n#nvidia",
+        "link": "https://www.youtube.com/watch?v=zJvN8PDX1is",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-14T15:27:17+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "Claude Fable Blocked - 11 Quiet Details on What’s Next",
+        "summary": "Claude Fable 5 banned, but what’s the bigger story. We go through 11 under-reported details, so you have the context to see what’s coming next for your use of AI. From whether the ban will last, what the possible motives are, what the model can actually do, and some wild over-extrapolations going on.\n\n\nCheck out my fast-growing (!) app, free to use, and code INSIDER15 for paid tiers: https://lmcouncil.ai\n\nAI Insiders ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n00:51 - Came from an Anthropic Investor ‘and other tech leaders’\n01:47 - Govt pressured by CEOs like Jamie Dimon\n03:01 - ‘Already decided’\n04:02 - Prompt Injection Robustness Comparison\n05:15 - Wellness?\n06:36 - “Overreach”\n08:17 - Anthropic Did Admit it would cause Difficulty\n09:32 - 90 Minutes\n10:02 - Equity Absence \n10:31 - Lobbying and OpenAI\n\n‘Already Decided’ - https://www.theinformation.com/articles/amazons-jassy-raised-concerns-anthropic-model-trump-crackdown?rc=sy0ihq\n\nNot for Other Models: https://www.theinformation.com/briefings/u-s-government-unlikely-extend-anthropic-export-control-ai-companies?rc=sy0ihq\n\n90 Minutes: https://archive.fo/20260614001605/https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519#selection-807.1-807.219\n\nAnthropic Statement: https://www.anthropic.com/news/fable-mythos-access\n\nLife Comes at you Fast: https://x.com/etbrooking/status/2065638276388495742\n\nAnthropic Deputy CISO: https://x.com/TheTranscript_/status/2065883670053847324\n\nHegseth Gloat: https://x.com/PeteHegseth/status/2065897156226015690\n\nRoon Speculation: https://x.com/tszzl/status/2065939227167392147\n\nMythos System Card: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf\n\nSachs Statement: https://x.com/DavidSacks/status/2065853007619588171\n\n\nOpenAI Lobbying: https://thehill.com/policy/technology/5912720-altman-openai-get-bogged-down-in-political-spending-fight/\n\nAbsent from Equity Talks: https://finance.yahoo.com/sectors/technology/articles/trump-ai-ownership-plan-could-131053732.html\n\nPliny Jaibreak: https://x.com/elder_plinius/status/2064776322979676227\n\nFusion: https://x.com/OpenRouter/status/2065856871215329545\n\nhttps://lmcouncil.ai \n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "link": "https://www.youtube.com/watch?v=Qj71N0tBzRo",
+        "author": "AI Explained",
+        "keywords": "",
+        "published": "2026-06-14T14:52:27+00:00",
+        "kind": "video",
+        "source_name": "AI Explained",
+        "source_handle": "AI Explained",
+        "source_role": "Channel · AI Explained"
+      },
+      {
+        "title": "The GPU Pricing Paradox – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=dT24XjECL3k",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-14T13:15:36+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  }
+}
