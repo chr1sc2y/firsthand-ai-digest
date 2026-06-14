@@ -9,9 +9,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-STAGING_BRIEF_DIR = ROOT / "staging" / "ai-briefs"
-DATA_BRIEF_DIR = ROOT / "data" / "ai-briefs"
-DATA_BRIEF_INDEX = DATA_BRIEF_DIR / "index.json"
+DATA_INSIGHT_DIR = ROOT / "data" / "insight"
+DATA_INSIGHT_INDEX = DATA_INSIGHT_DIR / "index.json"
+
+
+def staging_drafts_dir() -> Path:
+    return ROOT / "staging" / "drafts"
 DIST = ROOT / "dist"
 PUBLIC_BRIEF_DIR = "archive"
 BRIEF_DIR = DIST / PUBLIC_BRIEF_DIR
@@ -126,23 +129,23 @@ def _brief_date(path: Path, explicit_date: str | None) -> str:
 
 
 def _load_index() -> dict:
-    if not DATA_BRIEF_INDEX.exists():
+    if not DATA_INSIGHT_INDEX.exists():
         return {"schema_version": 1, "briefs": []}
     try:
-        payload = json.loads(DATA_BRIEF_INDEX.read_text(encoding="utf-8"))
+        payload = json.loads(DATA_INSIGHT_INDEX.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        raise ValueError(f"Invalid JSON in {DATA_BRIEF_INDEX}") from exc
+        raise ValueError(f"Invalid JSON in {DATA_INSIGHT_INDEX}") from exc
     payload.setdefault("schema_version", 1)
     payload.setdefault("briefs", [])
     return payload
 
 
 def _write_index(payload: dict) -> None:
-    DATA_BRIEF_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_INSIGHT_DIR.mkdir(parents=True, exist_ok=True)
     BRIEF_DIR.mkdir(parents=True, exist_ok=True)
     payload["updated_at"] = datetime.now(timezone.utc).isoformat()
     text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
-    DATA_BRIEF_INDEX.write_text(text, encoding="utf-8")
+    DATA_INSIGHT_INDEX.write_text(text, encoding="utf-8")
     BRIEF_INDEX = BRIEF_DIR / "index.json"
     BRIEF_INDEX.write_text(text, encoding="utf-8")
 
@@ -285,16 +288,24 @@ def _normalize_public_paths(payload: dict) -> None:
 
 
 def resolve_brief_source(path: Path) -> Path:
-    """Resolve a brief HTML path, including Codex drafts under staging/ai-briefs/."""
+    """Resolve a brief HTML path, including Codex drafts under staging/drafts/."""
     candidate = path.expanduser()
     if candidate.is_absolute():
         return candidate.resolve()
     if candidate.exists():
         return candidate.resolve()
-    staged = STAGING_BRIEF_DIR / candidate.name
+    staged = staging_drafts_dir() / candidate.name
     if staged.exists():
         return staged.resolve()
     return (ROOT / candidate).resolve()
+
+
+def _cleanup_staging_source(source: Path) -> None:
+    try:
+        source.resolve().relative_to(staging_drafts_dir().resolve())
+    except ValueError:
+        return
+    source.unlink(missing_ok=True)
 
 
 def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = True) -> Path:
@@ -305,11 +316,11 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
         raise ValueError(f"Expected an HTML file, got {source}")
 
     brief_date = _brief_date(source, date)
-    DATA_BRIEF_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_INSIGHT_DIR.mkdir(parents=True, exist_ok=True)
     BRIEF_DIR.mkdir(parents=True, exist_ok=True)
-    data_target = DATA_BRIEF_DIR / f"{brief_date}-ai-brief.html"
+    data_target = DATA_INSIGHT_DIR / f"{brief_date}-ai-brief.html"
     target = BRIEF_DIR / data_target.name
-    zh_source = DATA_BRIEF_DIR / f"{brief_date}-ai-brief-zh.html"
+    zh_source = DATA_INSIGHT_DIR / f"{brief_date}-ai-brief-zh.html"
     english_html = source.read_text(encoding="utf-8")
     if not zh_source.exists():
         zh_source.write_text(
@@ -324,7 +335,7 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
 
     # Also publish companion Chinese version (if exists) so lang switch works from dist/
     if has_chinese_companion:
-        zh_data_target = DATA_BRIEF_DIR / zh_source.name  # already is
+        zh_data_target = DATA_INSIGHT_DIR / zh_source.name  # already is
         zh_dist_target = BRIEF_DIR / zh_source.name
         chinese_html = _inject_language_switch(
             zh_source.read_text(encoding="utf-8"), date=brief_date, language="zh"
@@ -347,6 +358,7 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
 
     if refresh_homepage:
         _refresh_homepage(payload)
+    _cleanup_staging_source(source)
     return target
 
 
@@ -357,7 +369,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "html",
         type=Path,
-        help="Generated brief HTML (staging/ai-briefs/firsthand-ai-brief-YYYY-MM-DD.html)",
+        help="Generated brief HTML (staging/drafts/firsthand-ai-brief-YYYY-MM-DD.html)",
     )
     parser.add_argument("--date", help="Override date as YYYY-MM-DD")
     parser.add_argument(

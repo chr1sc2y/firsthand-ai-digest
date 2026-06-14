@@ -346,8 +346,8 @@ def copy_data_to_dist(data_dir: Path, dist_dir: Path) -> None:
         shutil.rmtree(old)
 
 
-def copy_ai_briefs_to_dist(data_dir: Path, dist_dir: Path) -> None:
-    source = data_dir / "ai-briefs"
+def copy_insight_to_dist(data_dir: Path, dist_dir: Path) -> None:
+    source = data_dir / "insight"
     if not source.exists():
         return
     target = dist_dir / "archive"
@@ -387,7 +387,7 @@ def main(argv: list[str] | None = None) -> int:
     build_index(args.data_dir, tz_name=args.timezone)
     render_latest(args.data_dir, args.dist_dir, hours=args.render_hours)
     copy_data_to_dist(args.data_dir, args.dist_dir)
-    copy_ai_briefs_to_dist(args.data_dir, args.dist_dir)
+    copy_insight_to_dist(args.data_dir, args.dist_dir)
     return 0
 
 

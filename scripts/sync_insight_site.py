@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_SOURCE = ROOT / "data" / "ai-briefs"
+DEFAULT_SOURCE = ROOT / "data" / "insight"
 DEFAULT_TARGET = ROOT.parent / "firsthand-ai-insight"
 INSIGHT_DOMAIN = "insight.ai.prov1dence.top"
 PUBLIC_ARCHIVE_DIR = "archive"

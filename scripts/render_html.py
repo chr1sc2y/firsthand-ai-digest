@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-BRIEF_INDEX = ROOT / "data" / "ai-briefs" / "index.json"
+INSIGHT_INDEX = ROOT / "data" / "insight" / "index.json"
 
 # AI analysis (the interpreted briefs) are served on a dedicated subdomain
 # distinct from the main "Firsthand AI Digest" aggregator.
@@ -785,10 +785,10 @@ def _card(item: dict) -> str:
 
 
 def _latest_ai_brief_path() -> str:
-    if not BRIEF_INDEX.exists():
+    if not INSIGHT_INDEX.exists():
         return ""
     try:
-        payload = json.loads(BRIEF_INDEX.read_text(encoding="utf-8"))
+        payload = json.loads(INSIGHT_INDEX.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return ""
     briefs = payload.get("briefs", [])

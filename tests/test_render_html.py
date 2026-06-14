@@ -23,7 +23,7 @@ def test_homepage_links_insight_callout_to_root_without_redirect(tmp_path, monke
         ),
         encoding="utf-8",
     )
-    monkeypatch.setattr(render_html, "BRIEF_INDEX", brief_index)
+    monkeypatch.setattr(render_html, "INSIGHT_INDEX", brief_index)
 
     html = render_html.render(x_items=[], blog_items=[], podcast_items=[], video_items=[])
 
@@ -51,7 +51,7 @@ def test_insight_link_is_independent_from_hero_title(tmp_path, monkeypatch):
         ),
         encoding="utf-8",
     )
-    monkeypatch.setattr(render_html, "BRIEF_INDEX", brief_index)
+    monkeypatch.setattr(render_html, "INSIGHT_INDEX", brief_index)
 
     html = render_html.render(x_items=[], blog_items=[], podcast_items=[], video_items=[])
 

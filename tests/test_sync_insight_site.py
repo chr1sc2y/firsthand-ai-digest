@@ -7,7 +7,7 @@ import sync_insight_site
 
 
 def test_sync_insight_site_writes_pages_artifact(tmp_path):
-    source = tmp_path / "data" / "ai-briefs"
+    source = tmp_path / "data" / "insight"
     source.mkdir(parents=True)
     (source / "2026-06-05-ai-brief.html").write_text(
         '<!doctype html><html><head><title>Latest</title></head><body>'

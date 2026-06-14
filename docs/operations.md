@@ -92,7 +92,7 @@ python scripts/sync_insight_site.py \
   --target-dir /Users/zintrulcre/repo/firsthand-ai-insight
 ```
 
-This copies `data/ai-briefs/` into the Insight repo's public `archive/`
+This copies `data/insight/` into the Insight repo's public `archive/`
 directory, writes a root `index.html` that displays the latest English brief,
 writes `CNAME`, and installs a minimal GitHub Pages workflow for the Insight
 repo.
@@ -115,10 +115,10 @@ files before syncing the Insight site.
 Publish a freshly generated brief draft:
 
 ```bash
-python scripts/publish_ai_brief.py staging/ai-briefs/firsthand-ai-brief-YYYY-MM-DD.html
+python scripts/publish_ai_brief.py staging/drafts/firsthand-ai-brief-YYYY-MM-DD.html
 ```
 
-Codex automation should drop drafts under `staging/ai-briefs/` and source
+Codex automation should drop drafts under `staging/drafts/` and source
 material under `data/source-packs/` instead of the repository root.
 
 To let `.github/workflows/daily.yml` sync the Insight repo automatically after

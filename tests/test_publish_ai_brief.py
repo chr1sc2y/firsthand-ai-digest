@@ -7,7 +7,7 @@ import publish_ai_brief
 
 
 def _write_staged_brief(root, name: str, html: str):
-    target = root / "staging" / "ai-briefs" / name
+    target = root / "staging" / "drafts" / name
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(html, encoding="utf-8")
     return target
@@ -15,13 +15,12 @@ def _write_staged_brief(root, name: str, html: str):
 
 def test_resolve_brief_source_prefers_staging_directory(tmp_path, monkeypatch):
     root = tmp_path
-    staging = root / "staging" / "ai-briefs"
+    staging = root / "staging" / "drafts"
     staging.mkdir(parents=True)
     staged = staging / "firsthand-ai-brief-2026-06-08.html"
     staged.write_text("<html></html>", encoding="utf-8")
 
     monkeypatch.setattr(publish_ai_brief, "ROOT", root)
-    monkeypatch.setattr(publish_ai_brief, "STAGING_BRIEF_DIR", staging)
 
     resolved = publish_ai_brief.resolve_brief_source(
         publish_ai_brief.Path("firsthand-ai-brief-2026-06-08.html")
@@ -31,17 +30,17 @@ def test_resolve_brief_source_prefers_staging_directory(tmp_path, monkeypatch):
 
 def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path, monkeypatch):
     root = tmp_path
-    data_briefs = root / "data" / "ai-briefs"
-    dist_briefs = root / "dist" / "ai-briefs"
-    data_briefs.mkdir(parents=True)
-    dist_briefs.mkdir(parents=True)
+    data_insight = root / "data" / "insight"
+    dist_archive = root / "dist" / "archive"
+    data_insight.mkdir(parents=True)
+    dist_archive.mkdir(parents=True)
     (root / "dist").mkdir(exist_ok=True)
 
     monkeypatch.setattr(publish_ai_brief, "ROOT", root)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_DIR", data_briefs)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_INDEX", data_briefs / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_DIR", data_insight)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_INDEX", data_insight / "index.json")
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
-    monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_briefs)
+    monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
     english_source = _write_staged_brief(
         root,
@@ -49,7 +48,7 @@ def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path,
         "<!doctype html><html lang=\"en\"><head><style>body{color:#111}</style></head>"
         "<body><main><h1>English</h1></main></body></html>",
     )
-    (data_briefs / "2026-06-08-ai-brief-zh.html").write_text(
+    (data_insight / "2026-06-08-ai-brief-zh.html").write_text(
         "<!doctype html><html lang=\"zh-CN\"><head><style>body{color:#111}</style></head>"
         "<body><main><h1>中文</h1></main></body></html>",
         encoding="utf-8",
@@ -57,10 +56,11 @@ def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path,
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
 
-    english = (data_briefs / "2026-06-08-ai-brief.html").read_text(encoding="utf-8")
-    chinese = (data_briefs / "2026-06-08-ai-brief-zh.html").read_text(encoding="utf-8")
-    dist_english = (dist_briefs / "2026-06-08-ai-brief.html").read_text(encoding="utf-8")
-    dist_chinese = (dist_briefs / "2026-06-08-ai-brief-zh.html").read_text(encoding="utf-8")
+    assert not english_source.exists()
+    english = (data_insight / "2026-06-08-ai-brief.html").read_text(encoding="utf-8")
+    chinese = (data_insight / "2026-06-08-ai-brief-zh.html").read_text(encoding="utf-8")
+    dist_english = (dist_archive / "2026-06-08-ai-brief.html").read_text(encoding="utf-8")
+    dist_chinese = (dist_archive / "2026-06-08-ai-brief-zh.html").read_text(encoding="utf-8")
 
     assert 'class="lang-switch"' in english
     assert 'href="2026-06-08-ai-brief-zh.html">中文</a>' in english
@@ -74,14 +74,14 @@ def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path,
 
 def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeypatch):
     root = tmp_path
-    data_briefs = root / "data" / "ai-briefs"
+    data_insight = root / "data" / "insight"
     dist_archive = root / "dist" / "archive"
-    data_briefs.mkdir(parents=True)
+    data_insight.mkdir(parents=True)
     dist_archive.mkdir(parents=True)
 
     monkeypatch.setattr(publish_ai_brief, "ROOT", root)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_DIR", data_briefs)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_INDEX", data_briefs / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_DIR", data_insight)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_INDEX", data_insight / "index.json")
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
@@ -99,8 +99,8 @@ def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeyp
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
 
-    english = (data_briefs / "2026-06-14-ai-brief.html").read_text(encoding="utf-8")
-    chinese = (data_briefs / "2026-06-14-ai-brief-zh.html").read_text(encoding="utf-8")
+    english = (data_insight / "2026-06-14-ai-brief.html").read_text(encoding="utf-8")
+    chinese = (data_insight / "2026-06-14-ai-brief-zh.html").read_text(encoding="utf-8")
     dist_chinese = (dist_archive / "2026-06-14-ai-brief-zh.html").read_text(encoding="utf-8")
 
     assert '<html lang="zh-CN">' in chinese
@@ -118,14 +118,14 @@ def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeyp
 
 def test_publish_records_public_archive_path(tmp_path, monkeypatch):
     root = tmp_path
-    data_briefs = root / "data" / "ai-briefs"
+    data_insight = root / "data" / "insight"
     dist_archive = root / "dist" / "archive"
-    data_briefs.mkdir(parents=True)
+    data_insight.mkdir(parents=True)
     dist_archive.mkdir(parents=True)
 
     monkeypatch.setattr(publish_ai_brief, "ROOT", root)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_DIR", data_briefs)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_INDEX", data_briefs / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_DIR", data_insight)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_INDEX", data_insight / "index.json")
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
@@ -137,18 +137,18 @@ def test_publish_records_public_archive_path(tmp_path, monkeypatch):
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
 
-    index = json.loads((data_briefs / "index.json").read_text(encoding="utf-8"))
+    index = json.loads((data_insight / "index.json").read_text(encoding="utf-8"))
     assert index["briefs"][0]["path"] == "archive/2026-06-08-ai-brief.html"
     assert (dist_archive / "2026-06-08-ai-brief.html").exists()
 
 
 def test_publish_normalizes_existing_brief_paths_to_archive(tmp_path, monkeypatch):
     root = tmp_path
-    data_briefs = root / "data" / "ai-briefs"
+    data_insight = root / "data" / "insight"
     dist_archive = root / "dist" / "archive"
-    data_briefs.mkdir(parents=True)
+    data_insight.mkdir(parents=True)
     dist_archive.mkdir(parents=True)
-    (data_briefs / "index.json").write_text(
+    (data_insight / "index.json").write_text(
         json.dumps(
             {
                 "schema_version": 1,
@@ -165,8 +165,8 @@ def test_publish_normalizes_existing_brief_paths_to_archive(tmp_path, monkeypatc
     )
 
     monkeypatch.setattr(publish_ai_brief, "ROOT", root)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_DIR", data_briefs)
-    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_INDEX", data_briefs / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_DIR", data_insight)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_INDEX", data_insight / "index.json")
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
@@ -178,7 +178,7 @@ def test_publish_normalizes_existing_brief_paths_to_archive(tmp_path, monkeypatc
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
 
-    index = json.loads((data_briefs / "index.json").read_text(encoding="utf-8"))
+    index = json.loads((data_insight / "index.json").read_text(encoding="utf-8"))
     assert [brief["path"] for brief in index["briefs"]] == [
         "archive/2026-06-08-ai-brief.html",
         "archive/2026-06-07-ai-brief.html",
