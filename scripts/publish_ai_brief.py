@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_BRIEF_DIR = ROOT / "data" / "ai-briefs"
 DATA_BRIEF_INDEX = DATA_BRIEF_DIR / "index.json"
 DIST = ROOT / "dist"
-BRIEF_DIR = DIST / "ai-briefs"
+PUBLIC_BRIEF_DIR = "archive"
+BRIEF_DIR = DIST / PUBLIC_BRIEF_DIR
 DATE_RE = re.compile(r"(\d{4}-\d{2}-\d{2})")
 AI_BRIEFS_START = "<!-- AI_BRIEFS_START -->"
 AI_BRIEFS_END = "<!-- AI_BRIEFS_END -->"
@@ -124,9 +125,9 @@ def _section_html(payload: dict) -> str:
     path = str(latest.get("path", "")).strip()
     if not date or not path:
         return ""
-    # Homepage only: latest English link, do not expose other/old briefs or CN toggle here.
-    # Markup matches the new sidebar card. AI analysis on dedicated subdomain.
-    href = f"https://{AI_ANALYSIS_DOMAIN}/" + path.lstrip("/")
+    # Homepage only: link to the Insight root. The standalone site owns its
+    # archive routing and renders the latest brief at / without redirects.
+    href = f"https://{AI_ANALYSIS_DOMAIN}/"
     return (
         f"{AI_BRIEFS_START}\n"
         f'<a class="insight-link" href="{href}">insight</a>\n'
@@ -208,6 +209,19 @@ def _upsert_brief(payload: dict, *, date: str, path: str, title: str) -> None:
     payload["briefs"] = sorted(briefs, key=lambda b: b["date"], reverse=True)
 
 
+def _normalize_public_paths(payload: dict) -> None:
+    normalized = []
+    for brief in payload.get("briefs", []):
+        if not isinstance(brief, dict):
+            continue
+        path = str(brief.get("path", "")).strip()
+        if path:
+            brief = dict(brief)
+            brief["path"] = f"{PUBLIC_BRIEF_DIR}/{Path(path).name}"
+        normalized.append(brief)
+    payload["briefs"] = normalized
+
+
 def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = True) -> Path:
     source = source.expanduser().resolve()
     if not source.exists():
@@ -246,8 +260,9 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
         payload,
         date=brief_date,
         title=f"{brief_date} AI 解读",
-        path=f"ai-briefs/{target.name}",
+        path=f"{PUBLIC_BRIEF_DIR}/{target.name}",
     )
+    _normalize_public_paths(payload)
     _write_index(payload)
 
     if refresh_homepage:

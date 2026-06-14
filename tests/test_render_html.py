@@ -6,7 +6,7 @@ import json
 import render_html
 
 
-def test_homepage_redirects_insight_root_to_latest_brief(tmp_path, monkeypatch):
+def test_homepage_links_insight_callout_to_root_without_redirect(tmp_path, monkeypatch):
     brief_index = tmp_path / "index.json"
     brief_index.write_text(
         json.dumps(
@@ -27,13 +27,11 @@ def test_homepage_redirects_insight_root_to_latest_brief(tmp_path, monkeypatch):
 
     html = render_html.render(x_items=[], blog_items=[], podcast_items=[], video_items=[])
 
-    assert 'hostname === "insight.ai.prov1dence.top"' in html
-    assert 'pathname === "/" || pathname === "/index.html"' in html
-    assert 'location.replace("/ai-briefs/2026-06-05-ai-brief.html")' in html
-    assert (
-        'href="https://insight.ai.prov1dence.top/ai-briefs/2026-06-05-ai-brief.html"'
-        in html
-    )
+    assert 'hostname === "insight.ai.prov1dence.top"' not in html
+    assert "location.replace(" not in html
+    assert 'href="https://insight.ai.prov1dence.top/"' in html
+    assert "https://insight.ai.prov1dence.top/archive/" not in html
+    assert "https://insight.ai.prov1dence.top/ai-briefs/" not in html
 
 
 def test_insight_link_is_independent_from_hero_title(tmp_path, monkeypatch):

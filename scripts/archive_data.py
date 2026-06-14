@@ -350,9 +350,10 @@ def copy_ai_briefs_to_dist(data_dir: Path, dist_dir: Path) -> None:
     source = data_dir / "ai-briefs"
     if not source.exists():
         return
-    target = dist_dir / "ai-briefs"
-    new = dist_dir / "ai-briefs._new"
-    old = dist_dir / "ai-briefs._old"
+    target = dist_dir / "archive"
+    new = dist_dir / "archive._new"
+    old = dist_dir / "archive._old"
+    legacy = dist_dir / "ai-briefs"
     if new.exists():
         shutil.rmtree(new)
     if old.exists():
@@ -361,6 +362,8 @@ def copy_ai_briefs_to_dist(data_dir: Path, dist_dir: Path) -> None:
     if target.exists():
         target.rename(old)
     new.rename(target)
+    if legacy.exists():
+        shutil.rmtree(legacy)
     if old.exists():
         shutil.rmtree(old)
 

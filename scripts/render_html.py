@@ -808,10 +808,11 @@ def _ai_brief_links() -> str:
     path = _latest_ai_brief_path()
     if not path:
         return ""
-    # Homepage: English only, only latest, no other briefs exposed.
+    # Homepage: link to Insight root only. The standalone Insight site renders
+    # the latest brief at / and keeps archived briefs under /archive/.
     # AI analysis pages are served from a dedicated subdomain and presented
     # as a separate homepage callout, not part of the title lockup.
-    href = f"https://{AI_ANALYSIS_DOMAIN}{path}"
+    href = f"https://{AI_ANALYSIS_DOMAIN}/"
     return (
         '<!-- AI_BRIEFS_START -->'
         '<section class="insight-callout" aria-label="Latest AI insight">'
@@ -825,21 +826,6 @@ def _ai_brief_links() -> str:
         '</section>'
         '<!-- AI_BRIEFS_END -->'
     )
-
-
-def _insight_root_redirect_script() -> str:
-    path = _latest_ai_brief_path()
-    if not path:
-        return ""
-    return f"""<script>
-(function() {{
-  const {{ hostname, pathname }} = window.location;
-  if (hostname === "{AI_ANALYSIS_DOMAIN}" && (pathname === "/" || pathname === "/index.html")) {{
-    location.replace("{html.escape(path)}");
-  }}
-}})();
-</script>
-"""
 
 
 def render(
@@ -874,7 +860,6 @@ def render(
 
     sections = "".join(_section(s, t, items) for s, t, items in sections_meta)
     ai_brief_links = _ai_brief_links()
-    insight_redirect = _insight_root_redirect_script()
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -884,7 +869,6 @@ def render(
 <meta name="digest-generated" content="{html.escape(generated)}" />
 <title>Firsthand AI Digest</title>
 <style>{CSS}</style>
-{insight_redirect}
 </head>
 <body>
 <header class="hero">
