@@ -97,10 +97,8 @@ directory, writes a root `index.html` that displays the latest English brief,
 writes `CNAME`, and installs a minimal GitHub Pages workflow for the Insight
 repo.
 
-The Insight repo keeps the same scratch layout as the digest repo:
-`staging/ai-briefs/` for unpublished drafts and `data/source-packs/` for raw
-source material. Its Pages workflow deploys only `index.html`, `archive/`, and
-`CNAME`.
+The Insight repo stores only the deployed site (`index.html`, `archive/`,
+`CNAME`). Unpublished drafts and source packs stay in the digest repository.
 
 Daily Insight briefs are expected to be bilingual:
 

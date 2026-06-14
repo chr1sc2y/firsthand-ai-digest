@@ -18,7 +18,10 @@ dist/
 tmp/
 staging/
 
-# OS / editor
+# OS / editor / local tooling
 .DS_Store
+.benchmarks/
+.claude/
+.trae/
 .idea/
 .vscode/

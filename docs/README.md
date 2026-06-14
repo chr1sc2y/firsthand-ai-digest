@@ -12,7 +12,6 @@
 | `data/ai-briefs/` | Published daily AI interpretation HTML |
 | `data/source-packs/` | Raw source material for brief generation |
 | `data/daily/`, `data/segments/` | Committed digest archive |
-| `designs/` | UI prototypes and static demos |
 | `dist/` | Build output served by GitHub Pages (gitignored) |
 | `scripts/` | Pipeline entry points |
 | `staging/ai-briefs/` | Pre-publish brief drafts from automation (gitignored) |
