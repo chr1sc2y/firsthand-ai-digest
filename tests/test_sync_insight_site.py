@@ -58,3 +58,6 @@ def test_sync_insight_site_writes_pages_artifact(tmp_path):
     workflow = (target / ".github" / "workflows" / "pages.yml").read_text(encoding="utf-8")
     assert "actions/upload-pages-artifact" in workflow
     assert "actions/deploy-pages" in workflow
+    assert "path: _site" in workflow
+    gitignore = (target / ".gitignore").read_text(encoding="utf-8")
+    assert "staging/" in gitignore

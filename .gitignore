@@ -16,6 +16,7 @@ dist/
 
 # Local scratch data
 tmp/
+staging/
 
 # OS / editor
 .DS_Store

@@ -6,6 +6,29 @@ import json
 import publish_ai_brief
 
 
+def _write_staged_brief(root, name: str, html: str):
+    target = root / "staging" / "ai-briefs" / name
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(html, encoding="utf-8")
+    return target
+
+
+def test_resolve_brief_source_prefers_staging_directory(tmp_path, monkeypatch):
+    root = tmp_path
+    staging = root / "staging" / "ai-briefs"
+    staging.mkdir(parents=True)
+    staged = staging / "firsthand-ai-brief-2026-06-08.html"
+    staged.write_text("<html></html>", encoding="utf-8")
+
+    monkeypatch.setattr(publish_ai_brief, "ROOT", root)
+    monkeypatch.setattr(publish_ai_brief, "STAGING_BRIEF_DIR", staging)
+
+    resolved = publish_ai_brief.resolve_brief_source(
+        publish_ai_brief.Path("firsthand-ai-brief-2026-06-08.html")
+    )
+    assert resolved == staged.resolve()
+
+
 def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path, monkeypatch):
     root = tmp_path
     data_briefs = root / "data" / "ai-briefs"
@@ -20,11 +43,11 @@ def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path,
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_briefs)
 
-    english_source = root / "firsthand-ai-brief-2026-06-08.html"
-    english_source.write_text(
+    english_source = _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-06-08.html",
         "<!doctype html><html lang=\"en\"><head><style>body{color:#111}</style></head>"
         "<body><main><h1>English</h1></main></body></html>",
-        encoding="utf-8",
     )
     (data_briefs / "2026-06-08-ai-brief-zh.html").write_text(
         "<!doctype html><html lang=\"zh-CN\"><head><style>body{color:#111}</style></head>"
@@ -62,8 +85,9 @@ def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeyp
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
-    english_source = root / "firsthand-ai-brief-2026-06-14.html"
-    english_source.write_text(
+    english_source = _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-06-14.html",
         '<!doctype html><html lang="en"><head><title>Firsthand AI Insight - June 14, 2026</title>'
         "<style>body{color:#111}</style></head><body><main><h1>"
         "Model access risk becomes the day's operating story"
@@ -71,7 +95,6 @@ def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeyp
         "Firsthand's 24-hour set contained 22 timestamped items."
         "</p><h2>For Developers</h2><ul><li>Add provider fallback paths.</li></ul>"
         "</main></body></html>",
-        encoding="utf-8",
     )
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
@@ -106,10 +129,10 @@ def test_publish_records_public_archive_path(tmp_path, monkeypatch):
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
-    english_source = root / "firsthand-ai-brief-2026-06-08.html"
-    english_source.write_text(
+    english_source = _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-06-08.html",
         "<!doctype html><html><head></head><body><h1>English</h1></body></html>",
-        encoding="utf-8",
     )
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)
@@ -147,10 +170,10 @@ def test_publish_normalizes_existing_brief_paths_to_archive(tmp_path, monkeypatc
     monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
     monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
 
-    english_source = root / "firsthand-ai-brief-2026-06-08.html"
-    english_source.write_text(
+    english_source = _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-06-08.html",
         "<!doctype html><html><head></head><body><h1>English</h1></body></html>",
-        encoding="utf-8",
     )
 
     publish_ai_brief.publish(english_source, refresh_homepage=False)

@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+STAGING_BRIEF_DIR = ROOT / "staging" / "ai-briefs"
 DATA_BRIEF_DIR = ROOT / "data" / "ai-briefs"
 DATA_BRIEF_INDEX = DATA_BRIEF_DIR / "index.json"
 DIST = ROOT / "dist"
@@ -283,8 +284,21 @@ def _normalize_public_paths(payload: dict) -> None:
     payload["briefs"] = normalized
 
 
+def resolve_brief_source(path: Path) -> Path:
+    """Resolve a brief HTML path, including Codex drafts under staging/ai-briefs/."""
+    candidate = path.expanduser()
+    if candidate.is_absolute():
+        return candidate.resolve()
+    if candidate.exists():
+        return candidate.resolve()
+    staged = STAGING_BRIEF_DIR / candidate.name
+    if staged.exists():
+        return staged.resolve()
+    return (ROOT / candidate).resolve()
+
+
 def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = True) -> Path:
-    source = source.expanduser().resolve()
+    source = resolve_brief_source(source)
     if not source.exists():
         raise FileNotFoundError(source)
     if source.suffix.lower() != ".html":
@@ -340,7 +354,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Copy a generated AI brief into dist/ and refresh homepage links."
     )
-    parser.add_argument("html", type=Path, help="Generated firsthand-ai-brief-YYYY-MM-DD.html")
+    parser.add_argument(
+        "html",
+        type=Path,
+        help="Generated brief HTML (staging/ai-briefs/firsthand-ai-brief-YYYY-MM-DD.html)",
+    )
     parser.add_argument("--date", help="Override date as YYYY-MM-DD")
     parser.add_argument(
         "--no-homepage",
