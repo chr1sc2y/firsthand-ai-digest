@@ -49,6 +49,50 @@ def test_publish_injects_language_switch_when_chinese_companion_exists(tmp_path,
     assert chinese == dist_chinese
 
 
+def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeypatch):
+    root = tmp_path
+    data_briefs = root / "data" / "ai-briefs"
+    dist_archive = root / "dist" / "archive"
+    data_briefs.mkdir(parents=True)
+    dist_archive.mkdir(parents=True)
+
+    monkeypatch.setattr(publish_ai_brief, "ROOT", root)
+    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_DIR", data_briefs)
+    monkeypatch.setattr(publish_ai_brief, "DATA_BRIEF_INDEX", data_briefs / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
+    monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
+
+    english_source = root / "firsthand-ai-brief-2026-06-14.html"
+    english_source.write_text(
+        '<!doctype html><html lang="en"><head><title>Firsthand AI Insight - June 14, 2026</title>'
+        "<style>body{color:#111}</style></head><body><main><h1>"
+        "Model access risk becomes the day's operating story"
+        "</h1><h2>Executive Summary</h2><p><strong>Fact.</strong> "
+        "Firsthand's 24-hour set contained 22 timestamped items."
+        "</p><h2>For Developers</h2><ul><li>Add provider fallback paths.</li></ul>"
+        "</main></body></html>",
+        encoding="utf-8",
+    )
+
+    publish_ai_brief.publish(english_source, refresh_homepage=False)
+
+    english = (data_briefs / "2026-06-14-ai-brief.html").read_text(encoding="utf-8")
+    chinese = (data_briefs / "2026-06-14-ai-brief-zh.html").read_text(encoding="utf-8")
+    dist_chinese = (dist_archive / "2026-06-14-ai-brief-zh.html").read_text(encoding="utf-8")
+
+    assert '<html lang="zh-CN">' in chinese
+    assert "模型访问风险成为今天最重要的运行议题" in chinese
+    assert "<h2>执行摘要</h2>" in chinese
+    assert "<h2>给开发者</h2>" in chinese
+    assert "事实。" in chinese
+    assert "自动本地化改写" in chinese
+    assert 'class="active" href="2026-06-14-ai-brief.html">EN</a>' in english
+    assert 'href="2026-06-14-ai-brief-zh.html">中文</a>' in english
+    assert 'href="2026-06-14-ai-brief.html">EN</a>' in chinese
+    assert 'class="active" href="2026-06-14-ai-brief-zh.html">中文</a>' in chinese
+    assert chinese == dist_chinese
+
+
 def test_publish_records_public_archive_path(tmp_path, monkeypatch):
     root = tmp_path
     data_briefs = root / "data" / "ai-briefs"

@@ -97,6 +97,18 @@ directory, writes a root `index.html` that displays the latest English brief,
 writes `CNAME`, and installs a minimal GitHub Pages workflow for the Insight
 repo.
 
+Daily Insight briefs are expected to be bilingual:
+
+- English: `YYYY-MM-DD-ai-brief.html`
+- Chinese: `YYYY-MM-DD-ai-brief-zh.html`
+- Both pages must keep the fixed `EN / 中文` language switch.
+- The Chinese page should be a localized Chinese rewrite rather than a literal
+  line-by-line translation.
+
+If the automation omits the Chinese companion, `scripts/publish_ai_brief.py`
+will generate a fallback Chinese page and inject the language switch into both
+files before syncing the Insight site.
+
 To let `.github/workflows/daily.yml` sync the Insight repo automatically after
 the scheduled digest build, create a main-repo secret named
 `INSIGHT_REPO_TOKEN`. It must be a token that can write to

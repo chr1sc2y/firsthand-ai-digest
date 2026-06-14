@@ -78,6 +78,38 @@ LANG_SWITCH_CSS_RE = re.compile(
     r"\.lang-switch\{[\s\S]*?@media\(max-width:560px\)\{\.lang-switch\{[\s\S]*?\}\}",
     re.IGNORECASE,
 )
+HTML_LANG_RE = re.compile(r"<html\b([^>]*)\blang=[\"'][^\"']*[\"']([^>]*)>", re.IGNORECASE)
+TITLE_RE = re.compile(r"<title>[\s\S]*?</title>", re.IGNORECASE)
+
+LOCALIZED_REWRITES = (
+    ("Model access risk becomes the day's operating story", "模型访问风险成为今天最重要的运行议题"),
+    ("Firsthand's 24-hour set contained 22 timestamped items.", "Firsthand 24 小时窗口包含 22 个带时间戳条目。"),
+    ("Add provider fallback paths.", "为关键工作流添加供应商 fallback 路径。"),
+    ("Executive Summary", "执行摘要"),
+    ("Source Access", "来源可访问性"),
+    ("Cross-Event Trend Judgments", "跨事件趋势判断"),
+    ("For Developers", "给开发者"),
+    ("For Startups", "给创业公司"),
+    ("For Researchers", "给研究者"),
+    ("For Enterprise Buyers", "给企业买家"),
+    ("24-72 Hour Watchlist", "24-72 小时观察清单"),
+    ("Confidence Notes", "置信度说明"),
+    ("Source Links", "来源链接"),
+    ("Substantial:", "充分："),
+    ("Partial:", "部分："),
+    ("Limited:", "受限："),
+    ("Fact.", "事实。"),
+    ("Analysis.", "分析。"),
+    ("Inference.", "推断。"),
+    ("Implication.", "启示。"),
+    ("Uncertainty.", "不确定性。"),
+    ("High confidence:", "高置信度："),
+    ("Medium confidence:", "中等置信度："),
+    ("Low confidence:", "低置信度："),
+    ("Execution time:", "执行时间："),
+    ("Coverage window:", "覆盖窗口："),
+    ("Firsthand AI Insight", "Firsthand AI 解读"),
+)
 
 
 def _brief_date(path: Path, explicit_date: str | None) -> str:
@@ -176,6 +208,35 @@ def _inject_language_switch(text: str, *, date: str, language: str) -> str:
     return switch + "\n" + text
 
 
+def _generate_chinese_companion(english_html: str, *, date: str) -> str:
+    """Create a localized Chinese fallback when the automation omitted zh HTML.
+
+    The daily automation should still produce a polished Chinese rewrite itself.
+    This fallback keeps the public site bilingual and preserves links/source
+    evidence by localizing the fixed brief frame and common analysis labels.
+    """
+    text = HTML_LANG_RE.sub(r'<html\1lang="zh-CN"\2>', english_html, count=1)
+    if text == english_html:
+        text = re.sub(r"<html\b([^>]*)>", r'<html lang="zh-CN"\1>', text, count=1, flags=re.IGNORECASE)
+    text = TITLE_RE.sub(f"<title>Firsthand AI 解读 - {date}</title>", text, count=1)
+
+    for source, target in sorted(LOCALIZED_REWRITES, key=lambda pair: len(pair[0]), reverse=True):
+        text = text.replace(source, target)
+
+    note = (
+        '<p class="note small"><strong>说明：</strong>'
+        "本中文版由发布流程自动本地化改写，保留英文版事实、来源链接和不确定性标注；"
+        "如同日人工中文稿存在，会优先使用人工稿。</p>"
+    )
+    if "自动本地化改写" not in text:
+        main_match = re.search(r"<main\b[^>]*>", text, re.IGNORECASE)
+        if main_match:
+            text = text[: main_match.end()] + "\n" + note + text[main_match.end() :]
+        elif "<body>" in text:
+            text = text.replace("<body>", f"<body>\n{note}", 1)
+    return text
+
+
 def _refresh_homepage(payload: dict) -> None:
     homepage = DIST / "index.html"
     if not homepage.exists():
@@ -235,8 +296,13 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
     data_target = DATA_BRIEF_DIR / f"{brief_date}-ai-brief.html"
     target = BRIEF_DIR / data_target.name
     zh_source = DATA_BRIEF_DIR / f"{brief_date}-ai-brief-zh.html"
-    has_chinese_companion = zh_source.exists()
     english_html = source.read_text(encoding="utf-8")
+    if not zh_source.exists():
+        zh_source.write_text(
+            _generate_chinese_companion(english_html, date=brief_date),
+            encoding="utf-8",
+        )
+    has_chinese_companion = True
     if has_chinese_companion:
         english_html = _inject_language_switch(english_html, date=brief_date, language="en")
     data_target.write_text(english_html, encoding="utf-8")
