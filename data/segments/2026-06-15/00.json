@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-14T23:10:23.657977+00:00",
+  "counts": {
+    "x": 16,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Starlink connecting schools on remote islands!",
+        "summary": "Starlink connecting schools on remote islands!",
+        "link": "https://x.com/elonmusk/status/2066279437289636019",
+        "author": "elonmusk",
+        "published": "2026-06-14T21:59:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Interesting analysis",
+        "summary": "Interesting analysis",
+        "link": "https://x.com/elonmusk/status/2066278135230861670",
+        "author": "elonmusk",
+        "published": "2026-06-14T21:54:31+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2066277619859919152",
+        "author": "elonmusk",
+        "published": "2026-06-14T21:52:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Try the latest Grok Imagine!",
+        "summary": "Try the latest Grok Imagine!",
+        "link": "https://x.com/elonmusk/status/2066273765940396292",
+        "author": "elonmusk",
+        "published": "2026-06-14T21:37:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "As Andrew replies below, we appreciate any critical feedback in pursuit of product perfection for Grok Build!",
+        "summary": "As Andrew replies below, we appreciate any critical feedback in pursuit of product perfection for Grok Build!",
+        "link": "https://x.com/elonmusk/status/2066271248254910785",
+        "author": "elonmusk",
+        "published": "2026-06-14T21:27:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalizatio",
+        "summary": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent.",
+        "link": "https://x.com/thsottiaux/status/2066270561081454989",
+        "author": "thsottiaux",
+        "published": "2026-06-14T21:24:25+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I have 🇯🇵 winning 2-0 ⚽",
+        "summary": "I have 🇯🇵 winning 2-0 ⚽",
+        "link": "https://x.com/rauchg/status/2066253064957509811",
+        "author": "rauchg",
+        "published": "2026-06-14T20:14:54+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "There seem to be two main groups \n\n1️⃣ Those who post all day long about using coding agents but don’t seem to ship anyt",
+        "summary": "There seem to be two main groups \n\n1️⃣ Those who post all day long about using coding agents but don’t seem to ship anything\n\n2️⃣ A small group whose output has dramatically increased and are constantly shipping valuable things \n\nThe irony is that the ratio of these probably remains unchanged from before AI even existed. It also seems 2️⃣ can outship 1️⃣ even more so the “ship-rich will get richer” so to speak.",
+        "link": "https://x.com/rauchg/status/2066246159140798859",
+        "author": "rauchg",
+        "published": "2026-06-14T19:47:27+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Great post. The companies that are able to get their unique IP, institutional knowledge, and data into a format and arch",
+        "summary": "Great post. The companies that are able to get their unique IP, institutional knowledge, and data into a format and architecture that lets them capture all of the gains and progress in AI are going to be in the best position in the future.\n\n“the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning. The future of the firm is the ability to compound that learning across people and AI.\n\nThis requires a new architectural approach where every business is able to build agentic systems that improve over time, while still retaining control over their IP. A company should be able to switch out a “generalist” model without losing the “company veteran” expertise built into their learning system.”\n\nWe’re all collectively figuring out the right architecture for the future of AI. But it’s clear that so much of the power and value will accrue to wherever can best leverage any AI system against their information. This is also why the applied AI layer will also gain so much value over the coming years.",
+        "link": "https://x.com/levie/status/2066237607244427761",
+        "author": "levie",
+        "published": "2026-06-14T19:13:29+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Near-term AI isn't fundamentally different from past tech waves. It's the newest form of digital leverage. It's a force ",
+        "summary": "Near-term AI isn't fundamentally different from past tech waves. It's the newest form of digital leverage. It's a force multiplier, and force without direction is just noise. It still requires a human in the loop at every level in order to be useful.",
+        "link": "https://x.com/fchollet/status/2066232539820208212",
+        "author": "fchollet",
+        "published": "2026-06-14T18:53:20+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Great post by @satyanadella summarizing how we see this historic platform shift benefiting everyone broadly. @MicrosoftA",
+        "summary": "Great post by @satyanadella summarizing how we see this historic platform shift benefiting everyone broadly. @MicrosoftAI",
+        "link": "https://x.com/mustafasuleyman/status/2066232431305216500",
+        "author": "mustafasuleyman",
+        "published": "2026-06-14T18:52:55+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "gm 🥋 https://t.co/1tYZh87rb3",
+        "summary": "gm 🥋 https://t.co/1tYZh87rb3",
+        "link": "https://x.com/rauchg/status/2066220246412018171",
+        "author": "rauchg",
+        "published": "2026-06-14T18:04:29+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "FREE FABLE https://t.co/nFihacLkaq",
+        "summary": "FREE FABLE https://t.co/nFihacLkaq",
+        "link": "https://x.com/danshipper/status/2066217865943093514",
+        "author": "danshipper",
+        "published": "2026-06-14T17:55:02+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "I think I just avoided a phishing attempt thanks to Codex. https://t.co/utnpzQwtEM",
+        "summary": "I think I just avoided a phishing attempt thanks to Codex. https://t.co/utnpzQwtEM",
+        "link": "https://x.com/petergyang/status/2066209516912509085",
+        "author": "petergyang",
+        "published": "2026-06-14T17:21:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats @LewisHamilton on a brilliant win today in Barcelona! https://t.co/Z8r1vgStlG",
+        "summary": "Congrats @LewisHamilton on a brilliant win today in Barcelona! https://t.co/Z8r1vgStlG",
+        "link": "https://x.com/AravSrinivas/status/2066207511469003154",
+        "author": "AravSrinivas",
+        "published": "2026-06-14T17:13:53+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "This is the most inspiring positive-sum vision for AI in the enterprise.",
+        "summary": "This is the most inspiring positive-sum vision for AI in the enterprise.",
+        "link": "https://x.com/amasad/status/2066195933969412098",
+        "author": "amasad",
+        "published": "2026-06-14T16:27:53+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-14T16:00:00+00:00",
+    "end": "2026-06-14T22:00:00+00:00"
+  }
+}
