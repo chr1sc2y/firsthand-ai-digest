@@ -61,7 +61,8 @@
     { "name": "Andrej Karpathy",     "rss": "https://karpathy.github.io/feed.xml",               "publisher": "Andrej Karpathy" },
     { "name": "Simon Willison",      "rss": "https://simonwillison.net/atom/everything/",        "publisher": "Simon Willison" },
     { "name": "Lilian Weng",         "rss": "https://lilianweng.github.io/index.xml",            "publisher": "Lilian Weng" },
-    { "name": "Import AI (Jack Clark)", "rss": "https://jack-clark.net/feed/",                   "publisher": "Jack Clark" }
+    { "name": "Import AI (Jack Clark)", "rss": "https://jack-clark.net/feed/",                   "publisher": "Jack Clark" },
+    { "name": "Juya Daily",          "rss": "https://daily.juya.uk/rss.xml",                    "publisher": "Juya Daily" }
   ],
   "youtube": [
     { "name": "Lex Fridman",         "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA", "channel": "Lex Fridman" },
