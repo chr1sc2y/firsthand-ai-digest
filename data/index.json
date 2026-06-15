@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-14T23:12:18.804040+00:00",
+  "generated_at": "2026-06-15T10:25:25.788919+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-06-15",
   "ranges": [
@@ -50,58 +50,6 @@
         "blogs": 3,
         "podcasts": 0,
         "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "hour": "00",
-      "path": "data/segments/2026-06-12/00.json",
-      "window_start": "2026-06-11T16:00:00+00:00",
-      "window_end": "2026-06-11T22:00:00+00:00",
-      "counts": {
-        "x": 18,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 5
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "hour": "06",
-      "path": "data/segments/2026-06-12/06.json",
-      "window_start": "2026-06-11T22:00:00+00:00",
-      "window_end": "2026-06-12T04:00:00+00:00",
-      "counts": {
-        "x": 12,
-        "blogs": 1,
-        "podcasts": 0,
-        "videos": 1
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "hour": "12",
-      "path": "data/segments/2026-06-12/12.json",
-      "window_start": "2026-06-12T04:00:00+00:00",
-      "window_end": "2026-06-12T10:00:00+00:00",
-      "counts": {
-        "x": 5,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 2
-      }
-    },
-    {
-      "date": "2026-06-12",
-      "hour": "18",
-      "path": "data/segments/2026-06-12/18.json",
-      "window_start": "2026-06-12T10:00:00+00:00",
-      "window_end": "2026-06-12T16:00:00+00:00",
-      "counts": {
-        "x": 11,
-        "blogs": 1,
-        "podcasts": 1,
-        "videos": 1
       }
     },
     {
@@ -216,6 +164,19 @@
       "window_end": "2026-06-14T22:00:00+00:00",
       "counts": {
         "x": 16,
+        "blogs": 0,
+        "podcasts": 0,
+        "videos": 0
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "hour": "12",
+      "path": "data/segments/2026-06-15/12.json",
+      "window_start": "2026-06-15T04:00:00+00:00",
+      "window_end": "2026-06-15T10:00:00+00:00",
+      "counts": {
+        "x": 3,
         "blogs": 0,
         "podcasts": 0,
         "videos": 0

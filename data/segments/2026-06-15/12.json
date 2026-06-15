@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-15T10:23:51.886723+00:00",
+  "counts": {
+    "x": 3,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Whenever you create an issue on one of oure open source projects, @clawsweeper will review it, and *if* it fits the VISI",
+        "summary": "Whenever you create an issue on one of oure open source projects, @clawsweeper will review it, and *if* it fits the VISION.md file, will pick it up and create+autoreview a PR.\n\ne.g.: https://t.co/Q4xOh8RFVp",
+        "link": "https://x.com/steipete/status/2066457262571360396",
+        "author": "steipete",
+        "published": "2026-06-15T09:46:18+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Mosh + tmux/zellij is a lifesaver for bad in-flight internet. (i prefer zellij but either works)",
+        "summary": "Mosh + tmux/zellij is a lifesaver for bad in-flight internet. (i prefer zellij but either works)",
+        "link": "https://x.com/steipete/status/2066427449551036469",
+        "author": "steipete",
+        "published": "2026-06-15T07:47:50+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to se",
+        "summary": "havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly to make use of the fanout that i think subagents are best at.\n\nbasically the idea is \"subroutines but intelligent\". when you undersatnd just how much knowledge work is just yakshaves after yakshaves that require some judgment and intelligence, you start to appreciate that dynamic workflows are not just for coding tasks...",
+        "link": "https://x.com/swyx/status/2066415484149633329",
+        "author": "swyx",
+        "published": "2026-06-15T07:00:18+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-15T04:00:00+00:00",
+    "end": "2026-06-15T10:00:00+00:00"
+  }
+}
