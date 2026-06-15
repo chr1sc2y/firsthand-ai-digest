@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-15T19:48:23.087238+00:00",
+  "counts": {
+    "x": 6,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "UK is a police state",
+        "summary": "UK is a police state",
+        "link": "https://x.com/elonmusk/status/2066547541018046956",
+        "author": "elonmusk",
+        "published": "2026-06-15T15:45:03+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🔥😂",
+        "summary": "🔥😂",
+        "link": "https://x.com/elonmusk/status/2066547344972071171",
+        "author": "elonmusk",
+        "published": "2026-06-15T15:44:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Make our Sun sentient to understand the Universe and extend the light of consciousness to the stars",
+        "summary": "Make our Sun sentient to understand the Universe and extend the light of consciousness to the stars",
+        "link": "https://x.com/elonmusk/status/2066538446781382800",
+        "author": "elonmusk",
+        "published": "2026-06-15T15:08:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My top 5 takeaways from @mvanhorn:\n\n1. Stop clicking around websites. Print them into CLIs your agents can run.\n\nMatt bu",
+        "summary": "My top 5 takeaways from @mvanhorn:\n\n1. Stop clicking around websites. Print them into CLIs your agents can run.\n\nMatt built Printing Press to turn websites and apps into command-line tools for agents. It researches docs, finds niche repos, and uncovers hidden API calls so agents can use sites like Google Flights, Suno, and OpenArt.\n\nPrinting Press: https://t.co/JEkbDpu3HP\n\n2. Use Compound Engineering to build.\n\nMatt says his favorite way to build is to run /ce-plan and /ce-work over and over. This system from @every gives agents structure for planning, coding, reviewing, and shipping so you are managing the work instead of writing every line yourself.\n\nCompound Engineering: https://t.co/QNuGTgsbmM\n\n3. The plans are for the agent, not for you.\n\nMatt often does not read AI’s full plans. Instead, he asks targeted questions: What files will you touch? What is most likely to break? What would an expert say is wrong with this idea? That catches more issues than skimming a giant plan.\n\n4. Use last30days to do research.\n\nMatt’s last30days skill hit #1 trending on GitHub because it answers a real problem: AI research is often stale or generic. last30days scans Reddit, X, YouTube, Hacker News, Polymarket, and the web to show what people are saying right now.\n\nlast30days: https://t.co/8O7t18uY2W\n\n5. To become an AI builder, solve your own problems and keep shipping.\n\nMatt has no CS degree and says he does not know how to read code. But he kept building tools for his own problems, contributing to open source, and launching what helped him.\n\nMatt walked through Printing Press, Compound Engineering, last30days, Agent Cookie, and his full agentic engineering workflow in our episode.\n\n📌 Watch the full episode now: https://t.co/2ZqHIKGODc",
+        "link": "https://x.com/petergyang/status/2066528666511987059",
+        "author": "petergyang",
+        "published": "2026-06-15T14:30:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Open source going to win big",
+        "summary": "Open source going to win big",
+        "link": "https://x.com/levie/status/2066526720480690221",
+        "author": "levie",
+        "published": "2026-06-15T14:22:19+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Wanted to buy a new Mac Studio for San Francisco.\nWe don’t even know how to make these anymore. https://t.co/WH1vRjDDHK",
+        "summary": "Wanted to buy a new Mac Studio for San Francisco.\nWe don’t even know how to make these anymore. https://t.co/WH1vRjDDHK",
+        "link": "https://x.com/steipete/status/2066471737068232835",
+        "author": "steipete",
+        "published": "2026-06-15T10:43:49+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "\"They screwed us\": Personality clashes sent Anthropic's models offline",
+        "summary": "<p><strong><a href=\"https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos\">&quot;They screwed us&quot;: Personality clashes sent Anthropic&#x27;s models offline</a></strong></p>\nLots of \"source familiar with the administration's thinking\" and \"source close to Anthropic\" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">export control Mythos/Fable story</a> so far.</p>\n<p>Logan Graham (<a href=\"https://logangraham.xyz\">I lead the Frontier Red Team at Anthropic</a>), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite <a href=\"https://simonwillison.net/tags/nicholas-carlini/\">Nicholas Carlini</a> are reported to be meeting with the Commerce Department today in D.C. Good luck to them!</p>\n<p>(I just noticed Logan was \"Special Adviser to the Prime Minister\" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.)</p>\n<p>This closing notes doesn't give me much optimism that we'll be getting Fable back any time soon:</p>\n<blockquote>\n<p><strong>The bottom line</strong>: One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance <a href=\"https://www.anthropic.com/news/fable-mythos-access\">may be</a> impossible.</p>\n<p>Absent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, \"everyone feels safe, secure and happy.\"</p>\n</blockquote>\n<p>This made me wonder if Anthropic ever successfully addressed the class of attacks described in the <a href=\"https://llm-attacks.org/\">Universal and Transferable Adversarial Attacks on Aligned Language Models</a> paper from 2023.</p>\n<p>It looks like their <a href=\"https://www.anthropic.com/research/next-generation-constitutional-classifiers\">Constitutional Classifiers</a> work (that post is from January this year) is relevant to that. They continue to claim that no \"universal jailbreak\" has been found against Claude Mythos, <a href=\"https://www.anthropic.com/news/fable-mythos-access\">classifying the jailbreak</a> that triggered the US government response as \"a potential narrow, non-universal jailbreak\".\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/nicholas-carlini\">nicholas-carlini</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/",
+        "author": "",
+        "keywords": "jailbreaking ai generative-ai llms anthropic claude nicholas-carlini ai-ethics claude-mythos",
+        "published": "2026-06-15T14:57:33+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 461: “Alignment is not on track”; FrontierCode; and synthetic research interns",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/06/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-9AySH4.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now AI researchers launch new safety startup because “alignment is not on track”:…Sequent will have a portfolio of under-resourced research bets…Researchers from the UK AI Security Institute [&#8230;]",
+        "link": "https://jack-clark.net/2026/06/15/import-ai-461-alignment-is-not-on-track-frontiercode-and-synthetic-research-interns/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-06-15T11:30:53+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Training Agents: Live tutorial on how to fine-tune a coding agent for continual learning",
+        "summary": "Training Agents, Session 1: from raw agent traces to a supervised fine-tuning baseline.\n\nIn this live session, I’ll set up the first rung of an agentic post-training workflow: SFT. We’ll take public coding-agent traces, turn them into prompt/completion training data, run a small TRL + LoRA fine-tune, and inspect what the first metrics can and cannot tell us.\n\nWhat we’ll cover:\n- Why start with SFT before GRPO or environment RL\n- How agent traces become training examples\n- Completion-only loss for chat/tool traces\n- Running TRL SFT on Hugging Face Jobs\n- Keeping experiments reproducible without checking in logs or checkpoints\n- What the first eval metrics do and do not prove\n\nRepo:\nhttps://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.\n\n#TRL #HuggingFace #PostTraining #AIAgents #FineTuning",
+        "link": "https://www.youtube.com/watch?v=rNgUoH7Wbv8",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-15T13:23:22+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "When hiring humans is too great a risk – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=hgbZNU1pMmw",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-15T13:15:13+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Codex as a Solutions Engineering Partner",
+        "summary": "“A big part of my role as a solutions engineer is not only to build but to understand,” Stephanie Anani, Solutions Engineer, OpenAI. \n\nStephanie points Codex to Trustpilot reviews and will mock up a customer website based on the feedback to show them how easy it is to make changes. \n\nCodex can be a partner in every sort of context for you ⬇️ https://openai.com/index/codex-for-every-role-tool-workflow/",
+        "link": "https://www.youtube.com/watch?v=_jNbM8pV9oI",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-15T13:03:41+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-15T10:00:00+00:00",
+    "end": "2026-06-15T16:00:00+00:00"
+  }
+}
