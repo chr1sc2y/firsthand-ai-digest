@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-16T19:37:12.137513+00:00",
+  "counts": {
+    "x": 13,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "The Cursor deal is symbolically quite significant. It was effectively the first mega success in the applied layer of AI.",
+        "summary": "The Cursor deal is symbolically quite significant. It was effectively the first mega success in the applied layer of AI. \n\nThey firmly proved out the value proposition of having a deep domain focus, the role you play as a model router, when to lean into frontier models vs. when to train your own, and the role of applied AI GTM and distribution to make sure you’re actually taking advantage of the market opportunity. \n\nEvery aspect of their business was tuned to carve out ground and keep doubling down in a highly competitive space. This is really the first at scale template for how to execute this playbook.",
+        "link": "https://x.com/levie/status/2066908002809221496",
+        "author": "levie",
+        "published": "2026-06-16T15:37:23+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "crazy idea: what if X, Cursor, were the same thing?",
+        "summary": "crazy idea: what if X, Cursor, were the same thing?",
+        "link": "https://x.com/ryolu_/status/2066902677905461579",
+        "author": "ryolu_",
+        "published": "2026-06-16T15:16:14+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "I had a great time chatting with my friends Ben and Marc about my creator journey, AI setup, and more.  \n\nWatch here: ht",
+        "summary": "I had a great time chatting with my friends Ben and Marc about my creator journey, AI setup, and more.  \n\nWatch here: https://t.co/PnLdIyIB4B",
+        "link": "https://x.com/petergyang/status/2066899806216441914",
+        "author": "petergyang",
+        "published": "2026-06-16T15:04:49+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/8VGIZPhP4U",
+        "summary": "https://t.co/8VGIZPhP4U",
+        "link": "https://x.com/elonmusk/status/2066894517933142235",
+        "author": "elonmusk",
+        "published": "2026-06-16T14:43:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "It is humbling to consider that if we harness just 1 millionth of the Sun’s power for AI, that will be much more than a ",
+        "summary": "It is humbling to consider that if we harness just 1 millionth of the Sun’s power for AI, that will be much more than a million times the intelligence of all of humanity",
+        "link": "https://x.com/elonmusk/status/2066891067899944993",
+        "author": "elonmusk",
+        "published": "2026-06-16T14:30:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🔍 Introducing Phish Guard\n\nTo kick off my AI builder journey, I built a tiny Chrome extension with Codex that warns you ",
+        "summary": "🔍 Introducing Phish Guard\n\nTo kick off my AI builder journey, I built a tiny Chrome extension with Codex that warns you inside Gmail when the sender doesn’t match the company the message claims to be from.\n\nIt runs locally on your computer and does not upload your emails. I built this because I was tired of people scamming my parents and friends. This could just be a Gmail feature honestly but in the meantime you can use this extension for free.\n\nInstallation instructions in this GitHub: https://t.co/0nTittVtck\n\nLet me know what you think!",
+        "link": "https://x.com/petergyang/status/2066887352841375841",
+        "author": "petergyang",
+        "published": "2026-06-16T14:15:20+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Made with Grok Imagine https://t.co/EMJdtFPYpo",
+        "summary": "Made with Grok Imagine https://t.co/EMJdtFPYpo",
+        "link": "https://x.com/elonmusk/status/2066887006068834541",
+        "author": "elonmusk",
+        "published": "2026-06-16T14:13:57+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Wow, this is crazy!",
+        "summary": "Wow, this is crazy!",
+        "link": "https://x.com/elonmusk/status/2066882313926176913",
+        "author": "elonmusk",
+        "published": "2026-06-16T13:55:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "AI will achieve Stockfish-level coding and generalized computer use",
+        "summary": "AI will achieve Stockfish-level coding and generalized computer use",
+        "link": "https://x.com/elonmusk/status/2066880262668247091",
+        "author": "elonmusk",
+        "published": "2026-06-16T13:47:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "In most cases, the key to being great at something is to love doing it. In some cases, the key is to hate doing it.",
+        "summary": "In most cases, the key to being great at something is to love doing it. In some cases, the key is to hate doing it.",
+        "link": "https://x.com/fchollet/status/2066873631397781681",
+        "author": "fchollet",
+        "published": "2026-06-16T13:20:49+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "The way we will create a future where powerful AI is open-source and available to all is by making AI radically more eff",
+        "summary": "The way we will create a future where powerful AI is open-source and available to all is by making AI radically more efficient, both in terms of inference compute and (more importantly) in terms of training data requirements. This is what symbolic learning will achieve.",
+        "link": "https://x.com/fchollet/status/2066867824404860943",
+        "author": "fchollet",
+        "published": "2026-06-16T12:57:44+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bri",
+        "summary": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
+        "link": "https://x.com/thsottiaux/status/2066865154902380796",
+        "author": "thsottiaux",
+        "published": "2026-06-16T12:47:08+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Tomorrow\nhttps://t.co/hO8iYOkXYk\nsome big announcements! https://t.co/wmn8ZHNQjz",
+        "summary": "Tomorrow\nhttps://t.co/hO8iYOkXYk\nsome big announcements! https://t.co/wmn8ZHNQjz",
+        "link": "https://x.com/rauchg/status/2066838428218486827",
+        "author": "rauchg",
+        "published": "2026-06-16T11:00:55+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "They Looked Inside Claude’s AI's Mind. It Got Weird",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/natural-language-autoencoders\nhttps://transformer-circuits.pub/2026/nla/index.html\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi\n \nMy research: https://cg.tuwien.ac.at/~zsolnai/\nThumbnail design: https://felicia.hu",
+        "link": "https://www.youtube.com/watch?v=l72ufA-4SzE",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-16T15:53:17+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "Quantization: The Size vs Quality Trade-Off",
+        "summary": "Models can shrink down to a fraction of their size and still be useful. That's the power of quantization: Trading a bit of precision for massive gains in speed and size. In Transformers.js, you control that trade-off with a single parameter: dtype. Watch to see how far it can go.\n\n#TransformersJS #JavaScript #MachineLearning #AI #WebAI #Quantization",
+        "link": "https://www.youtube.com/shorts/-s4KGeAE6iQ",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-16T13:23:14+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "Von Neumann Probes and the End of Human Wages – Alex Imas and Phil Trammell",
+        "summary": "Full episode: https://www.youtube.com/watch?v=Jj-kBHzUohs\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=AtX1OUacxDM",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-16T13:15:32+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-16T10:00:00+00:00",
+    "end": "2026-06-16T16:00:00+00:00"
+  }
+}
