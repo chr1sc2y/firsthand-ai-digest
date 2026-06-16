@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-16T15:10:52.998828+00:00",
+  "counts": {
+    "x": 7,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "great ux makes such a difference",
+        "summary": "great ux makes such a difference",
+        "link": "https://x.com/gdb/status/2066768795503595718",
+        "author": "gdb",
+        "published": "2026-06-16T06:24:14+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/r3OHSjgxJb",
+        "summary": "https://t.co/r3OHSjgxJb",
+        "link": "https://x.com/elonmusk/status/2066765130701119824",
+        "author": "elonmusk",
+        "published": "2026-06-16T06:09:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/U2CbkkvZwy",
+        "summary": "https://t.co/U2CbkkvZwy",
+        "link": "https://x.com/elonmusk/status/2066760894194082081",
+        "author": "elonmusk",
+        "published": "2026-06-16T05:52:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I have to give @cursor_ai credit for planning the best dinner that was Michelin quality.",
+        "summary": "I have to give @cursor_ai credit for planning the best dinner that was Michelin quality.",
+        "link": "https://x.com/petergyang/status/2066756347438469602",
+        "author": "petergyang",
+        "published": "2026-06-16T05:34:46+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Codex browser use is so good that it almost makes me forget APIs are even needed",
+        "summary": "Codex browser use is so good that it almost makes me forget APIs are even needed",
+        "link": "https://x.com/petergyang/status/2066753125197967653",
+        "author": "petergyang",
+        "published": "2026-06-16T05:21:58+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "1) What https://t.co/UX2vVhspvD",
+        "summary": "1) What https://t.co/UX2vVhspvD",
+        "link": "https://x.com/petergyang/status/2066752332197716285",
+        "author": "petergyang",
+        "published": "2026-06-16T05:18:49+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Key post that gives a bit of insight into what the future of AI could look like.\n\n“The most interesting thing happening ",
+        "summary": "Key post that gives a bit of insight into what the future of AI could look like.\n\n“The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming increasingly customizable. The companies that win won't necessarily be the ones with the biggest models. They'll be the ones that turn intelligence into something uniquely their own.”\n\nThe ability to combine your unique data, workflows, and a layer that can route intelligence to whatever model best performs the task is clearly the future.",
+        "link": "https://x.com/levie/status/2066735879213994434",
+        "author": "levie",
+        "published": "2026-06-16T04:13:26+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+        "summary": "<p><strong><a href=\"https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense\">The Fable 5 Export Controls Harm US Cyber Defense</a></strong></p>\nI <a href=\"https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/\">quoted The Atlantic</a> quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\":</p>\n<blockquote>\n<p>The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches.</p>\n</blockquote>\n<p>As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix!</p>\n<blockquote>\n<p>Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...]</p>\n<p>The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches.</p>\n</blockquote>\n<p>This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can \"craft cyber attacks\" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jailbreaking\">jailbreaking</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/",
+        "author": "",
+        "keywords": "jailbreaking security ai generative-ai llms anthropic ai-security-research claude-mythos",
+        "published": "2026-06-16T05:20:29+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-16T04:00:00+00:00",
+    "end": "2026-06-16T10:00:00+00:00"
+  }
+}
