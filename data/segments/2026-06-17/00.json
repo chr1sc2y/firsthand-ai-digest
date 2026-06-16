@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-16T23:24:10.878220+00:00",
+  "counts": {
+    "x": 18,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "I think this is quite likely",
+        "summary": "I think this is quite likely",
+        "link": "https://x.com/danshipper/status/2066988174849749303",
+        "author": "danshipper",
+        "published": "2026-06-16T20:55:58+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Damn not again. Is every company with 1,000+ people going to do this 😭",
+        "summary": "Damn not again. Is every company with 1,000+ people going to do this 😭",
+        "link": "https://x.com/petergyang/status/2066975504973050077",
+        "author": "petergyang",
+        "published": "2026-06-16T20:05:37+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulati",
+        "summary": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. https://t.co/7RJzBfNniQ",
+        "link": "https://x.com/OpenAI/status/2066969635099144682",
+        "author": "OpenAI",
+        "published": "2026-06-16T19:42:18+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, a",
+        "summary": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nhttps://t.co/IjjwQvrESo",
+        "link": "https://x.com/AnthropicAI/status/2066969532380721386",
+        "author": "AnthropicAI",
+        "published": "2026-06-16T19:41:53+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+        "summary": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+        "link": "https://x.com/thsottiaux/status/2066956441173323943",
+        "author": "thsottiaux",
+        "published": "2026-06-16T18:49:52+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Databricks partner of the year!",
+        "summary": "Databricks partner of the year!",
+        "link": "https://x.com/amasad/status/2066956074360426622",
+        "author": "amasad",
+        "published": "2026-06-16T18:48:24+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benc",
+        "summary": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. \n\n@tejalpatwardhan, who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next.",
+        "link": "https://x.com/OpenAI/status/2066934692641956231",
+        "author": "OpenAI",
+        "published": "2026-06-16T17:23:27+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Cursor/Graphite’s @TomasReimers just announced Origin\n\n@cursor_ai’s long awaited Git competitor, scalable for agent work",
+        "summary": "Cursor/Graphite’s @TomasReimers just announced Origin\n\n@cursor_ai’s long awaited Git competitor, scalable for agent workloads, extensible with api and mcp, and built in merge conflicts and co failure agent resolution https://t.co/zdbDKS7Ehx",
+        "link": "https://x.com/swyx/status/2066928345246470204",
+        "author": "swyx",
+        "published": "2026-06-16T16:58:13+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The politicians imprison people to hide their crimes",
+        "summary": "The politicians imprison people to hide their crimes",
+        "link": "https://x.com/elonmusk/status/2066926124446400659",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:49:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Those who knew must go to prison for a long time",
+        "summary": "Those who knew must go to prison for a long time",
+        "link": "https://x.com/elonmusk/status/2066925869155963189",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:48:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "This actually happened and still happens",
+        "summary": "This actually happened and still happens",
+        "link": "https://x.com/elonmusk/status/2066925635721974156",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:47:27+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Censorship always comes with a “protect the children” lie https://t.co/Chhr7dNrlU",
+        "summary": "Censorship always comes with a “protect the children” lie https://t.co/Chhr7dNrlU",
+        "link": "https://x.com/elonmusk/status/2066925445699002662",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:46:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The politicians who turned a blind eye to the Rape of Britain must go to prison https://t.co/JFfHZSwiDc",
+        "summary": "The politicians who turned a blind eye to the Rape of Britain must go to prison https://t.co/JFfHZSwiDc",
+        "link": "https://x.com/elonmusk/status/2066925294238519531",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:46:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fle",
+        "summary": "Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fleet of robots, an allocation of GPUs, and generous token budget. We set them free with a simple goal: solve the task as quickly as possible, keep the robots busy but stay safe, don't waste precious compute. Make no mistake.\n\nThen humans step aside and our watch begins. The robot fleet starts to come alive: they learn to look for visual clues, reset the scene, practice novel skills, tinker with control stack, read papers online, debate, reflect, get stuck, and try again directly on the hardware. All we did is to give Codex an API to the world of atoms, and the rest is emergence.\n\nENPIRE is able to solve high-precision tasks like tying zip-ties, organizing fine pins, and installing GPUs all by itself. We also discovered a new type of \"physical scaling\": 8 robots exploring in parallel improves significantly faster than fewer ones. \n\nA part of our NVIDIA GEAR lab now self-improves tirelessly over night. We just read the reports in the morning. \n\n/goal: we all take a holiday and Jensen wouldn't even notice ;)\n\nWe will be open-sourcing everything, so you can host your self-running robot lab at home too! Deep dive in the thread:",
+        "link": "https://x.com/DrJimFan/status/2066921736369766762",
+        "author": "DrJimFan",
+        "published": "2026-06-16T16:31:58+00:00",
+        "source_name": "Jim Fan",
+        "source_role": "Senior Research Scientist, NVIDIA",
+        "source_handle": "DrJimFan"
+      },
+      {
+        "kind": "x",
+        "title": "I think one of the best use cases for Cursor and other 3rd party harnesses is making it easy for people to use multiple ",
+        "summary": "I think one of the best use cases for Cursor and other 3rd party harnesses is making it easy for people to use multiple models in the same skill or loop.\n\nLike doing adversarial review between GPT, Claude, and Composer. Hope they can continue to support multiple models long term.",
+        "link": "https://x.com/petergyang/status/2066919332500951271",
+        "author": "petergyang",
+        "published": "2026-06-16T16:22:25+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats to Vercel’s COO Jeanne DeWitt Grosser @jdewitt29 on joining Shopify’s board of directors. \n\nAn amazing leader a",
+        "summary": "Congrats to Vercel’s COO Jeanne DeWitt Grosser @jdewitt29 on joining Shopify’s board of directors. \n\nAn amazing leader and operator of iconic developer infrastructure companies.",
+        "link": "https://x.com/rauchg/status/2066917404098126141",
+        "author": "rauchg",
+        "published": "2026-06-16T16:14:45+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "You didn't miss this one. @RamaswmySridhar is dropping by @southpkcommons next week.\n\nHe grew Google's ad business from ",
+        "summary": "You didn't miss this one. @RamaswmySridhar is dropping by @southpkcommons next week.\n\nHe grew Google's ad business from $1.5B to $ 100B+. \n\nNow he's running Snowflake through the AI shift. https://t.co/xOCxkftsvo",
+        "link": "https://x.com/adityaag/status/2066915803610370098",
+        "author": "adityaag",
+        "published": "2026-06-16T16:08:23+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "just switched off of Atlas Browser and back onto Dia\n\ni've been having so many weird bugs with atlas, and doesn't feel l",
+        "summary": "just switched off of Atlas Browser and back onto Dia\n\ni've been having so many weird bugs with atlas, and doesn't feel like it's improving",
+        "link": "https://x.com/danshipper/status/2066914130863473048",
+        "author": "danshipper",
+        "published": "2026-06-16T16:01:44+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Unlocking UK house-building with AI-accelerated planning",
+        "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+        "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-16T21:29:50+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      },
+      {
+        "title": "Quoting Georgi Gerganov",
+        "summary": "<blockquote cite=\"https://news.ycombinator.com/item?id=48555993#48557304\"><p>I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small <a href=\"https://github.com/search?q=%22Assisted-by%22+user%3Aggml-org&amp;type=commits&amp;ref=advsearch\">mundane tasks at ggml-org</a> - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped (<code>pi -nc --offline</code>) and <a href=\"https://github.com/ggml-org/llama.cpp/blob/master/.pi/gg/SYSTEM.md\">a short system prompt</a> to align it a bit with my style.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48555993#48557304\">Georgi Gerganov</a>, Hacker News comment on <a href=\"https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/\">Running local models is good now</a> by  Boykis</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/georgi-gerganov\">georgi-gerganov</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/",
+        "author": "",
+        "keywords": "georgi-gerganov llms ai generative-ai pi ai-assisted-programming local-llms qwen coding-agents",
+        "published": "2026-06-16T16:04:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
+        "summary": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models need to be judged on next.\n\nChapters\n\n00:00:24 Growing up at OpenAI\n00:03:10 Why reasoning changed everything\n00:06:28 What made o1 surprising\n00:11:20 Why old benchmarks stopped working\n00:14:45 What makes a good benchmark\n00:17:35 Why evals are getting harder\n00:22:09 Measuring voice and vision models\n00:24:48 Testing models on real science\n00:33:23 How OpenAI tracks frontier progress\n00:40:47 What AI means for work",
+        "link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-16T17:00:02+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-16T16:00:00+00:00",
+    "end": "2026-06-16T22:00:00+00:00"
+  }
+}
