@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T18:17:43.175733+00:00",
+  "source_segments": [
+    "segments/2026-06-17/00.json",
+    "segments/2026-06-17/06.json",
+    "segments/2026-06-17/12.json",
+    "segments/2026-06-17/18.json"
+  ],
+  "counts": {
+    "x": 48,
+    "blogs": 6,
+    "podcasts": 1,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Really interesting",
+        "summary": "Really interesting",
+        "link": "https://x.com/danshipper/status/2067275255736078564",
+        "author": "danshipper",
+        "published": "2026-06-17T15:56:43+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "(Part of) the wonderful team that made Vercel SHIP London possible 🫶 https://t.co/X0BWDRSdDp",
+        "summary": "(Part of) the wonderful team that made Vercel SHIP London possible 🫶 https://t.co/X0BWDRSdDp",
+        "link": "https://x.com/rauchg/status/2067274101702406554",
+        "author": "rauchg",
+        "published": "2026-06-17T15:52:08+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Grok is now available on Amazon Bedrock.\n\nAWS developers can now build with Grok 4.3, the industry leader in hallucinati",
+        "summary": "Grok is now available on Amazon Bedrock.\n\nAWS developers can now build with Grok 4.3, the industry leader in hallucination rate and tool calling, powered by Bedrock’s secure inference engine. https://t.co/g3zH8Fia8R",
+        "link": "https://x.com/xai/status/2067263498359624012",
+        "author": "xai",
+        "published": "2026-06-17T15:10:00+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "Here’s my new tutorial on how to turn Codex or Claude Code into an AI advisor for life and career decisions.\n\nIt involve",
+        "summary": "Here’s my new tutorial on how to turn Codex or Claude Code into an AI advisor for life and career decisions.\n\nIt involves setting up an /advisor skill with 4 files:\n\n→ SKILL md: How the advisor should behave\n→ plan md: Your goals, principles, energy, etc\n→ learnings md: Insights from past chats\n→ eval md: A checklist AI runs before giving advice\n\nThis is my favorite skill because it knows my goals, gives me useful feedback, and gets better the more I talk to it.\n\n📌 Watch now: https://t.co/CXw9rwD8Oa",
+        "link": "https://x.com/petergyang/status/2067261242088337853",
+        "author": "petergyang",
+        "published": "2026-06-17T15:01:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "React    →  https://t.co/a4QDSs9wxd\nNext.js  →  https://t.co/nDDXqUmgw5\n\n@aisdk is more relevant than ever, given the in",
+        "summary": "React    →  https://t.co/a4QDSs9wxd\nNext.js  →  https://t.co/nDDXqUmgw5\n\n@aisdk is more relevant than ever, given the intense model competition landscape. Just today, GLM 5.2, an open model, surpassed Opus 4.8 in our Next.js Evals (https://t.co/aporqgIfIh) 🤯\n\nBut the world needs a practical solution for how to build and deploy agents. Just like React needed Next.js to solve the task of building an actual web application. And that's eve.",
+        "link": "https://x.com/rauchg/status/2067242482190979186",
+        "author": "rauchg",
+        "published": "2026-06-17T13:46:29+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Full movies by the end of this year",
+        "summary": "Full movies by the end of this year",
+        "link": "https://x.com/elonmusk/status/2067207305503101025",
+        "author": "elonmusk",
+        "published": "2026-06-17T11:26:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We’re working with @SciTechgovuk, @mhclg and @i_dot_ai on a new AI housing application planning prototype. 🏡\n\nBy cutting",
+        "summary": "We’re working with @SciTechgovuk, @mhclg and @i_dot_ai on a new AI housing application planning prototype. 🏡\n\nBy cutting down the time spent on repetitive tasks, it could help planning officers focus their attention on complex projects and reduce processing times by up to 50%. → https://t.co/C2AdQOHPiX",
+        "link": "https://x.com/GoogleDeepMind/status/2067188693694136664",
+        "author": "GoogleDeepMind",
+        "published": "2026-06-17T10:12:45+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/uNXS9jEgpg is Next.js for agents.\n\nI built Next with a simple premise: 𝚙𝚊𝚐𝚎𝚜/𝚒𝚗𝚍𝚎𝚡.𝚓𝚜 is all you need. Put ",
+        "summary": "https://t.co/uNXS9jEgpg is Next.js for agents.\n\nI built Next with a simple premise: 𝚙𝚊𝚐𝚎𝚜/𝚒𝚗𝚍𝚎𝚡.𝚓𝚜 is all you need. Put some React in there and you’re good to go.\n\nEve asks for even less. 𝚊𝚐𝚎𝚗𝚝/𝚒𝚗𝚜𝚝𝚛𝚞𝚌𝚝𝚒𝚘𝚗𝚜.𝚖𝚍. Put some English in there and you’re good to go.\n\nLike Next, it embraces the filesystem. You can guess what 𝚝𝚘𝚘𝚕𝚜/𝚚𝚞𝚎𝚛𝚢-𝚍𝚋.𝚝𝚜 does. An agent is just a directory, whose entire spec fits in the tweet below.\n\nAnd like Next on Vercel, it’s seamless to deploy. The infra, like Sandbox, Gateway, Workflow… is the output of your creation.",
+        "link": "https://x.com/rauchg/status/2067183015214584307",
+        "author": "rauchg",
+        "published": "2026-06-17T09:50:11+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t",
+        "summary": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
+        "link": "https://x.com/thsottiaux/status/2067181377028538431",
+        "author": "thsottiaux",
+        "published": "2026-06-17T09:43:41+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "The hardest part of building an agent is not building the agent. It’s the data.\n\nIt’s, ironically, figuring out OAuth, t",
+        "summary": "The hardest part of building an agent is not building the agent. It’s the data.\n\nIt’s, ironically, figuring out OAuth, tokens, credentials, scopes… We have AGI sitting there, waiting to be unleashed.\n\nVercel Connect solves for both security and ease of use. It’s delightful",
+        "link": "https://x.com/rauchg/status/2067180191458136470",
+        "author": "rauchg",
+        "published": "2026-06-17T09:38:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "It was so inspiring to chat with and learn from Will Shu, founder of Deliveroo.\n\nFew people have been in the arena day-i",
+        "summary": "It was so inspiring to chat with and learn from Will Shu, founder of Deliveroo.\n\nFew people have been in the arena day-in-and-day-out like him. Founder Mode before it had a name. https://t.co/wVxhPnpVr8",
+        "link": "https://x.com/rauchg/status/2067168371141996785",
+        "author": "rauchg",
+        "published": "2026-06-17T08:52:00+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "New https://t.co/A1yfEM2Rig is live, highlighting the present and future of our platform https://t.co/rThS9JwTIY",
+        "summary": "New https://t.co/A1yfEM2Rig is live, highlighting the present and future of our platform https://t.co/rThS9JwTIY",
+        "link": "https://x.com/rauchg/status/2067165617275256982",
+        "author": "rauchg",
+        "published": "2026-06-17T08:41:03+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "AI for helping crack a health mystery. So many stories like this, and a clear motivation to be excited about AI:",
+        "summary": "AI for helping crack a health mystery. So many stories like this, and a clear motivation to be excited about AI:",
+        "link": "https://x.com/gdb/status/2067144669897859411",
+        "author": "gdb",
+        "published": "2026-06-17T07:17:49+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/vozY3udGoP",
+        "summary": "https://t.co/vozY3udGoP",
+        "link": "https://x.com/ryolu_/status/2067138928864555222",
+        "author": "ryolu_",
+        "published": "2026-06-17T06:55:00+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "Quick one to set the stage:\n\n☑️ 30 minute function invocations\n🆕 24 hour sandbox lifetimes",
+        "summary": "Quick one to set the stage:\n\n☑️ 30 minute function invocations\n🆕 24 hour sandbox lifetimes",
+        "link": "https://x.com/rauchg/status/2067137678772937000",
+        "author": "rauchg",
+        "published": "2026-06-17T06:50:02+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "the crazy thing about Cursor mobile\nis @rikcreation coded most of the real thing with Cursor, as a “designer”\n\ntitles do",
+        "summary": "the crazy thing about Cursor mobile\nis @rikcreation coded most of the real thing with Cursor, as a “designer”\n\ntitles don’t mean shit.\nyou can just build.",
+        "link": "https://x.com/ryolu_/status/2067124871226929526",
+        "author": "ryolu_",
+        "published": "2026-06-17T05:59:09+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "Just follow SpaceX if you want news about our company",
+        "summary": "Just follow SpaceX if you want news about our company",
+        "link": "https://x.com/elonmusk/status/2067124745146171701",
+        "author": "elonmusk",
+        "published": "2026-06-17T05:58:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-Realtime-2 is something new",
+        "summary": "GPT-Realtime-2 is something new",
+        "link": "https://x.com/gdb/status/2067100786098831681",
+        "author": "gdb",
+        "published": "2026-06-17T04:23:26+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine 1.5 is now in wide release",
+        "summary": "Grok Imagine 1.5 is now in wide release",
+        "link": "https://x.com/elonmusk/status/2067093666792136855",
+        "author": "elonmusk",
+        "published": "2026-06-17T03:55:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine Video 1.5 is here\n\nOur new image-to-video model with sharper realism, better physics and faster generations",
+        "summary": "Grok Imagine Video 1.5 is here\n\nOur new image-to-video model with sharper realism, better physics and faster generations 🧵\n\nhttps://t.co/zGhs9czkC5 https://t.co/9X4YicpMH8",
+        "link": "https://x.com/xai/status/2067092897951109427",
+        "author": "xai",
+        "published": "2026-06-17T03:52:06+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "Nashville getting drilled",
+        "summary": "Nashville getting drilled",
+        "link": "https://x.com/elonmusk/status/2067089181994827863",
+        "author": "elonmusk",
+        "published": "2026-06-17T03:37:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/XJ5unQrlSS",
+        "summary": "https://t.co/XJ5unQrlSS",
+        "link": "https://x.com/elonmusk/status/2067085011048865878",
+        "author": "elonmusk",
+        "published": "2026-06-17T03:20:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok on Bedrock",
+        "summary": "Grok on Bedrock",
+        "link": "https://x.com/elonmusk/status/2067084894434668825",
+        "author": "elonmusk",
+        "published": "2026-06-17T03:20:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. Th",
+        "summary": "One of the biggest questions in AI is how far behind open weights models remain from closed models at any given time. There are huge differences in market structures depending on whether open weights models remain 3 or 6 months behind, or if they fall behind by years. \n\nThe answer to this will determine how the chip stack plays out, where inference can be run, what sovereign AI looks like, what happens at the applied AI layer, what the margin structure looks like in AI, how much companies can afford to spend on AI, and more.\n\nAt the moment the open weights players appear to be holding up at keeping close to frontier levels of capability. Will be fun to see how this plays out.",
+        "link": "https://x.com/levie/status/2067070918300664161",
+        "author": "levie",
+        "published": "2026-06-17T02:24:45+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Co",
+        "summary": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
+        "link": "https://x.com/thsottiaux/status/2067064381855187231",
+        "author": "thsottiaux",
+        "published": "2026-06-17T01:58:47+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed",
+        "summary": "Publishing a new tutorial to make Codex or Claude Code your personal advisor using a skill with 4 files. Plus, I managed to save Fable's advice too before it got restricted 🥲\n\n📌 Subscribe to get the tutorial tmr: https://t.co/MbOfeFUJbn",
+        "link": "https://x.com/petergyang/status/2067056979974160749",
+        "author": "petergyang",
+        "published": "2026-06-17T01:29:22+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Honestly I don't want to be a hater but I feel like this is what happens when nobody internally wants to tell the CEO no",
+        "summary": "Honestly I don't want to be a hater but I feel like this is what happens when nobody internally wants to tell the CEO no. \n\nMaybe this thing will blow our socks off?",
+        "link": "https://x.com/petergyang/status/2067047343971848201",
+        "author": "petergyang",
+        "published": "2026-06-17T00:51:05+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "software engineering is so different now. hard to remember what it was like even 6 months ago.",
+        "summary": "software engineering is so different now. hard to remember what it was like even 6 months ago.",
+        "link": "https://x.com/gdb/status/2067043685611790653",
+        "author": "gdb",
+        "published": "2026-06-17T00:36:33+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/yoplqLmc06",
+        "summary": "https://t.co/yoplqLmc06",
+        "link": "https://x.com/elonmusk/status/2067027773764620646",
+        "author": "elonmusk",
+        "published": "2026-06-16T23:33:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🇧🇷World-changing AI companies are coming from Brazil.\n\nThat’s why we’ve officially expanded our Google AI Futures Fund t",
+        "summary": "🇧🇷World-changing AI companies are coming from Brazil.\n\nThat’s why we’ve officially expanded our Google AI Futures Fund to Brazil, partnering with venture capital leader Monashees to launch the Gama Fund.\n\nWe’re looking for an elite cohort of deep tech founders and will offer:\n\n- Early access to Google DeepMind models\n- Up to $2M in co-investment\n- $350k in Google Cloud & Gemini credits\n- Direct co-development with Google engineers at our new IPT Open campus hub\n\nApply today: https://t.co/8sv9seJLdB",
+        "link": "https://x.com/joshwoodward/status/2067025851829330076",
+        "author": "joshwoodward",
+        "published": "2026-06-16T23:25:41+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "I think this is quite likely",
+        "summary": "I think this is quite likely",
+        "link": "https://x.com/danshipper/status/2066988174849749303",
+        "author": "danshipper",
+        "published": "2026-06-16T20:55:58+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Damn not again. Is every company with 1,000+ people going to do this 😭",
+        "summary": "Damn not again. Is every company with 1,000+ people going to do this 😭",
+        "link": "https://x.com/petergyang/status/2066975504973050077",
+        "author": "petergyang",
+        "published": "2026-06-16T20:05:37+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulati",
+        "summary": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. https://t.co/7RJzBfNniQ",
+        "link": "https://x.com/OpenAI/status/2066969635099144682",
+        "author": "OpenAI",
+        "published": "2026-06-16T19:42:18+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, a",
+        "summary": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nhttps://t.co/IjjwQvrESo",
+        "link": "https://x.com/AnthropicAI/status/2066969532380721386",
+        "author": "AnthropicAI",
+        "published": "2026-06-16T19:41:53+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+        "summary": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+        "link": "https://x.com/thsottiaux/status/2066956441173323943",
+        "author": "thsottiaux",
+        "published": "2026-06-16T18:49:52+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Databricks partner of the year!",
+        "summary": "Databricks partner of the year!",
+        "link": "https://x.com/amasad/status/2066956074360426622",
+        "author": "amasad",
+        "published": "2026-06-16T18:48:24+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benc",
+        "summary": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. \n\n@tejalpatwardhan, who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next.",
+        "link": "https://x.com/OpenAI/status/2066934692641956231",
+        "author": "OpenAI",
+        "published": "2026-06-16T17:23:27+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Cursor/Graphite’s @TomasReimers just announced Origin\n\n@cursor_ai’s long awaited Git competitor, scalable for agent work",
+        "summary": "Cursor/Graphite’s @TomasReimers just announced Origin\n\n@cursor_ai’s long awaited Git competitor, scalable for agent workloads, extensible with api and mcp, and built in merge conflicts and co failure agent resolution https://t.co/zdbDKS7Ehx",
+        "link": "https://x.com/swyx/status/2066928345246470204",
+        "author": "swyx",
+        "published": "2026-06-16T16:58:13+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The politicians imprison people to hide their crimes",
+        "summary": "The politicians imprison people to hide their crimes",
+        "link": "https://x.com/elonmusk/status/2066926124446400659",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:49:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Those who knew must go to prison for a long time",
+        "summary": "Those who knew must go to prison for a long time",
+        "link": "https://x.com/elonmusk/status/2066925869155963189",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:48:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "This actually happened and still happens",
+        "summary": "This actually happened and still happens",
+        "link": "https://x.com/elonmusk/status/2066925635721974156",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:47:27+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Censorship always comes with a “protect the children” lie https://t.co/Chhr7dNrlU",
+        "summary": "Censorship always comes with a “protect the children” lie https://t.co/Chhr7dNrlU",
+        "link": "https://x.com/elonmusk/status/2066925445699002662",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:46:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The politicians who turned a blind eye to the Rape of Britain must go to prison https://t.co/JFfHZSwiDc",
+        "summary": "The politicians who turned a blind eye to the Rape of Britain must go to prison https://t.co/JFfHZSwiDc",
+        "link": "https://x.com/elonmusk/status/2066925294238519531",
+        "author": "elonmusk",
+        "published": "2026-06-16T16:46:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fle",
+        "summary": "Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fleet of robots, an allocation of GPUs, and generous token budget. We set them free with a simple goal: solve the task as quickly as possible, keep the robots busy but stay safe, don't waste precious compute. Make no mistake.\n\nThen humans step aside and our watch begins. The robot fleet starts to come alive: they learn to look for visual clues, reset the scene, practice novel skills, tinker with control stack, read papers online, debate, reflect, get stuck, and try again directly on the hardware. All we did is to give Codex an API to the world of atoms, and the rest is emergence.\n\nENPIRE is able to solve high-precision tasks like tying zip-ties, organizing fine pins, and installing GPUs all by itself. We also discovered a new type of \"physical scaling\": 8 robots exploring in parallel improves significantly faster than fewer ones. \n\nA part of our NVIDIA GEAR lab now self-improves tirelessly over night. We just read the reports in the morning. \n\n/goal: we all take a holiday and Jensen wouldn't even notice ;)\n\nWe will be open-sourcing everything, so you can host your self-running robot lab at home too! Deep dive in the thread:",
+        "link": "https://x.com/DrJimFan/status/2066921736369766762",
+        "author": "DrJimFan",
+        "published": "2026-06-16T16:31:58+00:00",
+        "source_name": "Jim Fan",
+        "source_role": "Senior Research Scientist, NVIDIA",
+        "source_handle": "DrJimFan"
+      },
+      {
+        "kind": "x",
+        "title": "I think one of the best use cases for Cursor and other 3rd party harnesses is making it easy for people to use multiple ",
+        "summary": "I think one of the best use cases for Cursor and other 3rd party harnesses is making it easy for people to use multiple models in the same skill or loop.\n\nLike doing adversarial review between GPT, Claude, and Composer. Hope they can continue to support multiple models long term.",
+        "link": "https://x.com/petergyang/status/2066919332500951271",
+        "author": "petergyang",
+        "published": "2026-06-16T16:22:25+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Congrats to Vercel’s COO Jeanne DeWitt Grosser @jdewitt29 on joining Shopify’s board of directors. \n\nAn amazing leader a",
+        "summary": "Congrats to Vercel’s COO Jeanne DeWitt Grosser @jdewitt29 on joining Shopify’s board of directors. \n\nAn amazing leader and operator of iconic developer infrastructure companies.",
+        "link": "https://x.com/rauchg/status/2066917404098126141",
+        "author": "rauchg",
+        "published": "2026-06-16T16:14:45+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "You didn't miss this one. @RamaswmySridhar is dropping by @southpkcommons next week.\n\nHe grew Google's ad business from ",
+        "summary": "You didn't miss this one. @RamaswmySridhar is dropping by @southpkcommons next week.\n\nHe grew Google's ad business from $1.5B to $ 100B+. \n\nNow he's running Snowflake through the AI shift. https://t.co/xOCxkftsvo",
+        "link": "https://x.com/adityaag/status/2066915803610370098",
+        "author": "adityaag",
+        "published": "2026-06-16T16:08:23+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "just switched off of Atlas Browser and back onto Dia\n\ni've been having so many weird bugs with atlas, and doesn't feel l",
+        "summary": "just switched off of Atlas Browser and back onto Dia\n\ni've been having so many weird bugs with atlas, and doesn't feel like it's improving",
+        "link": "https://x.com/danshipper/status/2066914130863473048",
+        "author": "danshipper",
+        "published": "2026-06-16T16:01:44+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+        "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+        "link": "https://openai.com/index/ai-chemist-improves-reaction",
+        "author": "",
+        "keywords": "Research",
+        "published": "2026-06-17T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "<click-to-play> — a still that plays",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/click-to-play-component\">&lt;click-to-play&gt; — a still that plays</a></p>\n        <p>A progressive enchantment Web Component that turns this markup:</p>\n<pre><code>&lt;click-to-play&gt;\n  &lt;a href=\"URL to GIF\"&gt;\n    &lt;img src=\"URL to first frame\" alt=\"...\"&gt;\n  &lt;/a&gt;\n&lt;/click-to-play&gt;\n</code></pre>\n<p>Into a still frame with a click to play button which loads the GIF on demand. For when you don't want big GIFs to be loaded unless people want to play them.</p>\n<p>Here's <a href=\"https://simonwillison.net/2026/Jun/16/datasette/\">an example</a> that demonstrates the new row editing tools in Datasette - in fact I built this Web Component for that post.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/gif\">gif</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/progressive-enhancement\">progressive-enhancement</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/17/click-to-play-component/",
+        "author": "",
+        "keywords": "gif javascript progressive-enhancement web-components",
+        "published": "2026-06-17T03:56:10+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "NetNewsWire Status",
+        "summary": "<p><strong><a href=\"https://inessential.com/2026/06/15/netnewswire-status.html\">NetNewsWire Status</a></strong></p>\nI find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, <em>really</em> good - free from any commercial pressure.</p>\n<p>The software is <a href=\"https://netnewswire.com/\">NetNewsWire</a> - \"it's like podcasts, but for <em>reading</em>\" - first released in 2002 and <a href=\"https://netnewswire.com/history.html\">made open source</a> in 2018.</p>\n<p>I've been using it on Mac and iPhone for several years now and I'm finding it indispensable.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/0mximk/netnewswire_status\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/brent-simmons\">brent-simmons</a>, <a href=\"https://simonwillison.net/tags/netnewswire\">netnewswire</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/17/netnewswire-status/",
+        "author": "",
+        "keywords": "brent-simmons netnewswire open-source",
+        "published": "2026-06-17T03:36:09+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-06-17",
+        "summary": "AI 早报 2026-06-17 视频版：哔哩哔哩 ｜ YouTube 概览 要闻 SpaceX 宣布正式以600亿美元收购 AI 编程工具 Cursor ↗ #1 智谱正式发布开源模型 GLM-5.2 ↗ #2 开发生态 OpenAI 修复 Codex 容量错误并将重置速率限制 ↗ #3 产品应用 支付宝开启AI版邀测 推出对话助手“阿宝” ↗ #4 Google 发布 Android 17 与 Wear OS 7，集成最新 AI 模型 ↗ #5 SpaceXAI 推出 Grok PowerPoint 插件 ↗ #6 QoderWork上线“意识”功能 支持记忆与技能进化 ↗ #7 模型发布 Qwen 团队发布 Qwen-Robot Suite 具身智能基础模型 ↗ #8 高德AmapAI发布基于Wan2.…",
+        "link": "https://daily.juya.uk/issue-6/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-17T01:51:08+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Unlocking UK house-building with AI-accelerated planning",
+        "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
+        "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-16T21:29:50+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      },
+      {
+        "title": "Quoting Georgi Gerganov",
+        "summary": "<blockquote cite=\"https://news.ycombinator.com/item?id=48555993#48557304\"><p>I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small <a href=\"https://github.com/search?q=%22Assisted-by%22+user%3Aggml-org&amp;type=commits&amp;ref=advsearch\">mundane tasks at ggml-org</a> - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped (<code>pi -nc --offline</code>) and <a href=\"https://github.com/ggml-org/llama.cpp/blob/master/.pi/gg/SYSTEM.md\">a short system prompt</a> to align it a bit with my style.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48555993#48557304\">Georgi Gerganov</a>, Hacker News comment on <a href=\"https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/\">Running local models is good now</a> by  Boykis</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/georgi-gerganov\">georgi-gerganov</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/",
+        "author": "",
+        "keywords": "georgi-gerganov llms ai generative-ai pi ai-assisted-programming local-llms qwen coding-agents",
+        "published": "2026-06-16T16:04:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+        "summary": "<p>Last year, there were 1 billion commits on GitHub. This year, Kyle Daigle expects that number to exceed 14 billion, a two-component explosion caused by more humans—and their agents—issuing pull requests. In March alone, 17 million pull requests on GitHub were created by agents.<br />Daigle is the COO of GitHub and Microsoft’s chief marketing officer for developer products. He’s been at GitHub for 13 years, and is paying close attention to how AI is expanding the platform’s user base. Along with agents, legal, sales, and marketing professionals are building apps with the GitHub Copilot app. The line between developer and non-developer is disappearing.<br />On this episode of AI &amp; I, guest host Mike Taylor sat down with Daigle at Microsoft Build to discuss how GitHub is building infrastructure for an agent-native world: agentic code review, model routers that automatically select the right model for the task, and a philosophy that the most durable advantage in this market is developer choice.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!</p><p>Want even more?<br />To hear more from Mike Taylor:<br />Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://x.com/hammer_mt<br />Timestamps for YouTube:<br />00:00:52: Introduction<br />00:03:27: The agentic PR flood<br />00:04:33: GitHub's approach to helping open-source maintainers manage the surge<br />00:06:15: What 14 billion commits means for code quality<br />00:08:03: Moving from per-seat licensing to usage-based pricing<br />00:09:45: Kyle's dual role as GitHub COO and Microsoft's chief marketing officer for developers<br />00:13:03: Developer choice as competitive moat<br />00:14:57: How to balance dogfooding your own tools with staying honest about the competition<br />00:19:45: Hill climbing, frontier tuning, and solving the model-routing problem<br />00:24:45: Kyle's agentic communication hack<br />Links to resources mentioned in the episode:<br />Kyle Daigle on X: https://x.com/kdaigle<br />Mike Taylor on Every: https://every.to/@mike_2114<br />Mike’s piece on building an AI version of Kyle Daigle: https://every.to/also-true-for-humans/i-interviewed-an-ai-version-of-github-s-coo-then-spoke-to-the-real-one<br />GitHub Copilot: https://github.com/features/copilot</p>",
+        "link": "https://share.transistor.fm/s/b3fbe934",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-06-17T15:58:01+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Hermes Architecture EXPLAINED: Memory, Context & Gateways",
+        "summary": "Hermes is an always-on AI agent with a simple but useful architecture: an agent loop, memory, context construction, gateway integrations, and scheduled cron jobs. In this video, I walk through how Hermes builds context, talks to external services like Telegram and Slack, compresses long conversations, and learns from previous interactions.\n\n---\n🤓 *Topics Covered*\n- Hermes agent architecture\n- Context, memory, and compression\n- Gateways, SQLite, and cron jobs\n\n---\n⏱️ *Timestamps*\n00:00 - Intro\n00:57 - Bird's-eye view of the architecture\n03:49 - Agent loop\n07:31 - Context\n13:28 - Context compression\n18:28 - Context compression prompt\n19:59 - Gateway\n28:00 - Memory\n34:37 - Cron jobs\n\n---\n🔗 Links\n- Written version: https://alejandro-ao.com/tutorials/hermes-agent-architecture/\n\n---\n👋 Connect with me\n- My website: https://alejandro-ao.com/\n- X (Twitter): https://x.com/_alejandroao\n- LinkedIn: https://www.linkedin.com/in/alejandro-ao/",
+        "link": "https://www.youtube.com/watch?v=n32qq7Kwzh0",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-17T06:05:39+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "Why Tejal Patwardhan stopped underestimating the models - Episode 21",
+        "summary": "The old tests are getting too easy. Tejal Patwardhan leads OpenAI’s frontier evals team, which is finding new ways to measure and forecast progress as models become more capable. She and host Andrew Mayne discuss why evals matter for research, how benchmarks can break or get gamed, and what models need to be judged on next.\n\nChapters\n\n00:00:24 Growing up at OpenAI\n00:03:10 Why reasoning changed everything\n00:06:28 What made o1 surprising\n00:11:20 Why old benchmarks stopped working\n00:14:45 What makes a good benchmark\n00:17:35 Why evals are getting harder\n00:22:09 Measuring voice and vision models\n00:24:48 Testing models on real science\n00:33:23 How OpenAI tracks frontier progress\n00:40:47 What AI means for work",
+        "link": "https://www.youtube.com/watch?v=CFqjjKp9Y-Q",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-16T17:00:02+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}
