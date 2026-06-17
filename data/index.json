@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-16T23:26:02.432204+00:00",
+  "generated_at": "2026-06-17T09:04:44.803355+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-06-17",
   "ranges": [
@@ -50,58 +50,6 @@
         "blogs": 3,
         "podcasts": 0,
         "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "hour": "00",
-      "path": "data/segments/2026-06-14/00.json",
-      "window_start": "2026-06-13T16:00:00+00:00",
-      "window_end": "2026-06-13T22:00:00+00:00",
-      "counts": {
-        "x": 8,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "hour": "06",
-      "path": "data/segments/2026-06-14/06.json",
-      "window_start": "2026-06-13T22:00:00+00:00",
-      "window_end": "2026-06-14T04:00:00+00:00",
-      "counts": {
-        "x": 8,
-        "blogs": 4,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "hour": "12",
-      "path": "data/segments/2026-06-14/12.json",
-      "window_start": "2026-06-14T04:00:00+00:00",
-      "window_end": "2026-06-14T10:00:00+00:00",
-      "counts": {
-        "x": 3,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-14",
-      "hour": "18",
-      "path": "data/segments/2026-06-14/18.json",
-      "window_start": "2026-06-14T10:00:00+00:00",
-      "window_end": "2026-06-14T16:00:00+00:00",
-      "counts": {
-        "x": 2,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 3
       }
     },
     {
@@ -206,6 +154,19 @@
         "blogs": 2,
         "podcasts": 0,
         "videos": 1
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "hour": "06",
+      "path": "data/segments/2026-06-17/06.json",
+      "window_start": "2026-06-16T22:00:00+00:00",
+      "window_end": "2026-06-17T04:00:00+00:00",
+      "counts": {
+        "x": 12,
+        "blogs": 3,
+        "podcasts": 0,
+        "videos": 0
       }
     }
   ],
