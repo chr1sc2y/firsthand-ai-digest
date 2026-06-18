@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-18T08:49:40.486097+00:00",
+  "generated_at": "2026-06-18T12:56:24.435058+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-06-18",
   "ranges": [
@@ -217,6 +217,19 @@
       "counts": {
         "x": 16,
         "blogs": 2,
+        "podcasts": 0,
+        "videos": 0
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "hour": "12",
+      "path": "data/segments/2026-06-18/12.json",
+      "window_start": "2026-06-18T04:00:00+00:00",
+      "window_end": "2026-06-18T10:00:00+00:00",
+      "counts": {
+        "x": 3,
+        "blogs": 0,
         "podcasts": 0,
         "videos": 0
       }
