@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-19T22:58:48.199875+00:00",
+  "counts": {
+    "x": 7,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Anthropic is going to IPO at $2T",
+        "summary": "Anthropic is going to IPO at $2T",
+        "link": "https://x.com/swyx/status/2068084391260426345",
+        "author": "swyx",
+        "published": "2026-06-19T21:31:56+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The main variable in getting success with agents is whether you can get the agent the context it needs to do its work; a",
+        "summary": "The main variable in getting success with agents is whether you can get the agent the context it needs to do its work; and a major factor in that is if you can create a shared working area for that agent that a human can understand as well. \n\nThis is one of the reasons why agents using file systems is such a big deal. It creates a unified system that both the person and the agent can work within to pass around data. \n\n“What they need is a working set: plans, notes, task lists, policies, drafts, summaries, logs, corrections,  decisions, etc. For that layer, a filesystem-shaped interface tends to be more legible to both the model and the humans supervising it.”\n\nIt turns out giving agents access to the systems we already know how to use, but in a way that is best optimized for them, is the perfect primitive for agents to work.",
+        "link": "https://x.com/levie/status/2068068247413694532",
+        "author": "levie",
+        "published": "2026-06-19T20:27:47+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "The reason they call me a Nazi is to encourage people to murder me",
+        "summary": "The reason they call me a Nazi is to encourage people to murder me",
+        "link": "https://x.com/elonmusk/status/2068042842837004536",
+        "author": "elonmusk",
+        "published": "2026-06-19T18:46:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "In the future, a trillion times a trillion dollars will be spent on making antimatter to travel to other star systems",
+        "summary": "In the future, a trillion times a trillion dollars will be spent on making antimatter to travel to other star systems",
+        "link": "https://x.com/elonmusk/status/2068041714653179981",
+        "author": "elonmusk",
+        "published": "2026-06-19T18:42:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power t",
+        "summary": "Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power to control access to AI by restricting what others can do with frontier models. This has been one of those moments that, once seen, will be hard to unsee, and it is significantly accelerating many businesses’ and nation states’ efforts to ensure reliable access to AI that no one else can terminate.\n\nAnthropic first released Claude Fable 5, a version of its Mythos model with additional guardrails, including some restrictions that seem well justified on safety grounds (such as limitations on applying it to hacking, bioweapons, and so forth). However, it also restricted developers’ ability to use it to build competing LLM technology. This move was concerning, given that the whole AI community, including Anthropic, has benefitted tremendously from open research — indeed, the AI revolution was kicked off by my former team (Google Brain) freely publishing the Transformers paper!\n\nImagine if Microsoft’s terms of use barred anyone from using their tools to build competitive software, or if Google barred using it to search for information to work on competing search engines. Anthropic’s argument that it was unsafe for others to be able to make advances in AI also rang hollow. Initially, Anthropic silently degraded Fable 5’s performance for users detected to be working on LLM research through invisible interventions that weakened the model’s outputs without notifying the user. After significant backlash, it walked back this decision and decided to be transparent when it did this, but it still refuses to use its latest capabilities to help AI researchers.\n\nThis move represents a raw demonstration of power by Anthropic. It has used “safety” arguments to hinder potential competitors. Platforms succeed when they are viewed as stable, reliable partners that one can build on. The sudden rule changes by Anthropic (including a mandatory 30 day data retention policy for Fable usage) have made developers wonder about the stability of building on any one proprietary LLM provider, not just Anthropic.\n\nThe U.S. Government then shortly followed with an even greater demonstration of power. It used the Commerce Department’s authority to regulate technologies that may be national security threats to restrict exports of Mythos and Fable, requiring a license for use by any foreign national, whether inside or outside of the U.S., including employees of Anthropic. This led Anthropic to disable access to Fable to all users worldwide.\n\nSam Altman pointed out, referring to Anthropic, “It is clearly incredible marketing to say, ‘We have built a bomb, we are about to drop it on your head. We will sell you a bomb shelter for $100 million.’” But when one engages in this type of fear-based marketing, it increases the odds that the U.S. Government will agree with you and slap export controls on the bomb you say you have built.\n\nTo be clear, I don't think Anthropic has built anything like a bomb, and I don't think export controls on Fable are appropriate.\n\nHowever, following the U.S. Government making this move, many nations, including U.S. allies, saw how the U.S. can suddenly yank their access to AI models. In many capitals around the world, this has spurred discussions on AI sovereignty and how others can ensure uninterrupted access to this critical technology.\n\nFor decades, many nations were comfortable having many parts of their supply chain rely on the U.S., China, and other major producers. Once a nation issues a threat, or takes action, to limit other nations’ access, other nations will rationally try to secure alternatives. For decades, semiconductor manufacturing in China made slow progress; once the U.S. moved to limit China’s access, China’s efforts kicked into high gear. Similarly, once China threatened U.S. access to rare earth minerals, U.S. efforts to secure alternatives accelerated. Now that it has become crystal clear that private U.S. companies and the U.S. government can limit, in short order, other nations’ access to frontier AI models, the incentive of others to invest more in alternatives like open source grows significantly. Of course, training frontier models is not easy, so it remains to be seen how successful they are, but we have crossed the rubicon.\n\nSatya Nadella wrote an essay about the importance of building a healthy ecosystem on top of frontier AI technology. I heartily agree with him, and hope this week’s events will ultimately prove to be constructive steps toward this.\n\nI hope we can build a more free, more open world, where research is freely shared, and laws and societal norms shape a level playing field that allows everyone to make progress. A silver lining of the events of these past two weeks is now that everyone better realizes key points of instability of the current system, we can all work to create a more stable foundation.\n\n[Original text: The Batch newsletter]",
+        "link": "https://x.com/AndrewYNg/status/2068039709126017356",
+        "author": "AndrewYNg",
+        "published": "2026-06-19T18:34:23+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI for helping families facing rare genetic diseases. This was done with o3 which is over a year old, amazing to thi",
+        "summary": "OpenAI for helping families facing rare genetic diseases. This was done with o3 which is over a year old, amazing to think what will be possible with today’s models.",
+        "link": "https://x.com/gdb/status/2068016345451831480",
+        "author": "gdb",
+        "published": "2026-06-19T17:01:33+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Thanks John for an extraordinary partnership and wonderful collaboration over the past 9 years! What we achieved with Al",
+        "summary": "Thanks John for an extraordinary partnership and wonderful collaboration over the past 9 years! What we achieved with AlphaFold changed the world, and showed the field what was possible with AI for science and medicine, lighting the way for how AI can benefit humanity.",
+        "link": "https://x.com/demishassabis/status/2068002732250640603",
+        "author": "demishassabis",
+        "published": "2026-06-19T16:07:27+00:00",
+        "source_name": "Demis Hassabis",
+        "source_role": "CEO, Google DeepMind",
+        "source_handle": "demishassabis"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Plan with ChatGPT",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=YPNOjXTDP9c",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-19T21:22:26+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Score with ChatGPT",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=5sDfhQq_g8A",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-19T21:20:04+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-19T16:00:00+00:00",
+    "end": "2026-06-19T22:00:00+00:00"
+  }
+}
