@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T17:58:58.580309+00:00",
+  "source_segments": [
+    "segments/2026-06-19/00.json",
+    "segments/2026-06-19/06.json",
+    "segments/2026-06-19/12.json",
+    "segments/2026-06-19/18.json"
+  ],
+  "counts": {
+    "x": 45,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "\"In the application of AI, healthcare is going to be the next big product-market-fit explosion.\" More on the future of h",
+        "summary": "\"In the application of AI, healthcare is going to be the next big product-market-fit explosion.\" More on the future of healthcare and our collaboration with the Mayo Clinic in my conversation with @CoreyNoles here: https://t.co/b3bCk9wr9m",
+        "link": "https://x.com/mustafasuleyman/status/2067995684599427202",
+        "author": "mustafasuleyman",
+        "published": "2026-06-19T15:39:27+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Fauci committed so many evil crimes",
+        "summary": "Fauci committed so many evil crimes",
+        "link": "https://x.com/elonmusk/status/2067994311195586612",
+        "author": "elonmusk",
+        "published": "2026-06-19T15:33:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Q1 tonnage to orbit by launch provider.\n\nOnce Starship is flying hourly, SpaceX’s mass to orbit will be about 100 times ",
+        "summary": "Q1 tonnage to orbit by launch provider.\n\nOnce Starship is flying hourly, SpaceX’s mass to orbit will be about 100 times more than everyone else combined, even if they triple their current launch rate.",
+        "link": "https://x.com/elonmusk/status/2067993010743247265",
+        "author": "elonmusk",
+        "published": "2026-06-19T15:28:49+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), pa",
+        "summary": "Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment &amp; commerce protocols, even wide 𝙰𝚌𝚌𝚎𝚙𝚝 use (markdown/json/html).\n\nThe original vision of the WWW coming to life before our eyes.",
+        "link": "https://x.com/rauchg/status/2067936390285807940",
+        "author": "rauchg",
+        "published": "2026-06-19T11:43:50+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Codex app is very good",
+        "summary": "Codex app is very good",
+        "link": "https://x.com/gdb/status/2067884985596703079",
+        "author": "gdb",
+        "published": "2026-06-19T08:19:34+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Launching credit usage analytics and updated spend controls for enterprises, available in our global admin console: http",
+        "summary": "Launching credit usage analytics and updated spend controls for enterprises, available in our global admin console: https://t.co/fyT2JJ0FFl",
+        "link": "https://x.com/gdb/status/2067843106469515603",
+        "author": "gdb",
+        "published": "2026-06-19T05:33:09+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "✨",
+        "summary": "✨",
+        "link": "https://x.com/amasad/status/2067832394913104309",
+        "author": "amasad",
+        "published": "2026-06-19T04:50:36+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "😎",
+        "summary": "😎",
+        "link": "https://x.com/amasad/status/2067831841357193237",
+        "author": "amasad",
+        "published": "2026-06-19T04:48:24+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Awesome!",
+        "summary": "Awesome!",
+        "link": "https://x.com/amasad/status/2067831496388358176",
+        "author": "amasad",
+        "published": "2026-06-19T04:47:01+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "I'm going to add \"wear an Iris van Herpen dress\" to my retirement wishlist. What good art.",
+        "summary": "I'm going to add \"wear an Iris van Herpen dress\" to my retirement wishlist. What good art.",
+        "link": "https://x.com/AmandaAskell/status/2067830990089884022",
+        "author": "AmandaAskell",
+        "published": "2026-06-19T04:45:01+00:00",
+        "source_name": "Amanda Askell",
+        "source_role": "Philosopher, Anthropic",
+        "source_handle": "AmandaAskell"
+      },
+      {
+        "kind": "x",
+        "title": "White House: “why?”\nAnthropic: “have you heard of Pliny the Liberator?”",
+        "summary": "White House: “why?”\nAnthropic: “have you heard of Pliny the Liberator?”",
+        "link": "https://x.com/amasad/status/2067824855198630311",
+        "author": "amasad",
+        "published": "2026-06-19T04:20:38+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "tfw put america 1st and f the haters https://t.co/M0iENG2feE",
+        "summary": "tfw put america 1st and f the haters https://t.co/M0iENG2feE",
+        "link": "https://x.com/amasad/status/2067824338900791773",
+        "author": "amasad",
+        "published": "2026-06-19T04:18:35+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for m",
+        "summary": "The fact that open weights models are being discussed credibly at this level of capability should be a huge update for many. \n\nThe implications of open models getting to frontier performance ensures that you can always have sovereign AI, have the ability to post train for your specific workflows, cost optimize for various workloads, and actually afford to do much more with AI (which opens up meaningfully different applications).\n\nHuge win for the applied AI layer.",
+        "link": "https://x.com/levie/status/2067821985342878180",
+        "author": "levie",
+        "published": "2026-06-19T04:09:14+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Everything’s either a fast or slow API now.",
+        "summary": "Everything’s either a fast or slow API now.",
+        "link": "https://x.com/steipete/status/2067821739556413651",
+        "author": "steipete",
+        "published": "2026-06-19T04:08:15+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look ",
+        "summary": "This is a good update for getting access to Fable. It also gives us a view into what the future is likely going to look like with AI regulation. \n\nThe government will have frameworks that are used to determine future model releases past a certain threshold of capability or compute levels. Given all the constituents involved, and the economic and societal significance of AI, this was practically an inevitability.\n\nIt may seem small but the implications are massive. It will mean that each model update will go through an extensive review, testing, and feedback process. And in that processes lots of groups will weigh in on the risk of the model, and there will be lots of subjectivity on what the actual risks are or practicalities of exploiting those risks. \n\nA positive potential future here would be we still get massive model progress but they just happen in bigger jumps at once, where the labs pack in major improvements since the cost and slow down of each review stacks up. \n\nOn the other side, the risk is that past a certain threshold we may not get to see the rapid back and forth of model progress that we’ve gotten used to which can have negative compounding effects. Hoping for the former outcome.",
+        "link": "https://x.com/levie/status/2067802697324212562",
+        "author": "levie",
+        "published": "2026-06-19T02:52:35+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "What do you use",
+        "summary": "What do you use",
+        "link": "https://x.com/thsottiaux/status/2067783964077547520",
+        "author": "thsottiaux",
+        "published": "2026-06-19T01:38:09+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Tunnels are under-appreciated",
+        "summary": "Tunnels are under-appreciated",
+        "link": "https://x.com/elonmusk/status/2067774433587011823",
+        "author": "elonmusk",
+        "published": "2026-06-19T01:00:17+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "+55% in one day. i should start a fund\n\n(dm if you would actually help me run one, i have no idea how to run one) https:",
+        "summary": "+55% in one day. i should start a fund\n\n(dm if you would actually help me run one, i have no idea how to run one) https://t.co/xDABotzUVq",
+        "link": "https://x.com/swyx/status/2067764968808915392",
+        "author": "swyx",
+        "published": "2026-06-19T00:22:40+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "How do you steer Claude Code with new prompts in the desktop app while it's working?",
+        "summary": "How do you steer Claude Code with new prompts in the desktop app while it's working?",
+        "link": "https://x.com/petergyang/status/2067760098265706566",
+        "author": "petergyang",
+        "published": "2026-06-19T00:03:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Extremely sick",
+        "summary": "Extremely sick",
+        "link": "https://x.com/danshipper/status/2067749268928995737",
+        "author": "danshipper",
+        "published": "2026-06-18T23:20:17+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Anything you do on a computer codex can do too",
+        "summary": "Anything you do on a computer codex can do too",
+        "link": "https://x.com/petergyang/status/2067726258583330945",
+        "author": "petergyang",
+        "published": "2026-06-18T21:48:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond",
+        "summary": "As AI takes on longer, higher-stakes tasks, we want models to carry beneficial and safe behavior into new domains beyond their training—and maintain it under pressure.\n\nThat’s the idea behind our new research on training models to be broadly and persistently beneficial. https://t.co/6Yw45s1RRq",
+        "link": "https://x.com/OpenAI/status/2067722688165232654",
+        "author": "OpenAI",
+        "published": "2026-06-18T21:34:39+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "the reasoning paradigm unlocking medical progress for humanity",
+        "summary": "the reasoning paradigm unlocking medical progress for humanity",
+        "link": "https://x.com/gdb/status/2067722188027994275",
+        "author": "gdb",
+        "published": "2026-06-18T21:32:40+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Your thoughtful reflection is so inspiring and encouraging @smallfly ! As everyone talks about AI and automation, human ",
+        "summary": "Your thoughtful reflection is so inspiring and encouraging @smallfly ! As everyone talks about AI and automation, human creativity, story telling and productivity are even more important and essential to our society. @theworldlabs is founded on the premise of empowering human ingenuity and productivity. We are very grateful to be able to work with people like you! 🙏🌐",
+        "link": "https://x.com/drfeifei/status/2067701705827848521",
+        "author": "drfeifei",
+        "published": "2026-06-18T20:11:17+00:00",
+        "source_name": "Fei-Fei Li",
+        "source_role": "Co-founder, World Labs / Stanford",
+        "source_handle": "drfeifei"
+      },
+      {
+        "kind": "x",
+        "title": "you can now teach Codex by demonstration:",
+        "summary": "you can now teach Codex by demonstration:",
+        "link": "https://x.com/gdb/status/2067700691062464887",
+        "author": "gdb",
+        "published": "2026-06-18T20:07:15+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "frontier ai for all",
+        "summary": "frontier ai for all",
+        "link": "https://x.com/AravSrinivas/status/2067683803032850813",
+        "author": "AravSrinivas",
+        "published": "2026-06-18T19:00:09+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Replit in slack!",
+        "summary": "Replit in slack!",
+        "link": "https://x.com/amasad/status/2067681358357364842",
+        "author": "amasad",
+        "published": "2026-06-18T18:50:26+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink provides backup connectivity to cell towers, ensuring that your phone works when you most need it",
+        "summary": "Starlink provides backup connectivity to cell towers, ensuring that your phone works when you most need it",
+        "link": "https://x.com/elonmusk/status/2067675411383763399",
+        "author": "elonmusk",
+        "published": "2026-06-18T18:26:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We've collaborating with hundreds of physicians across 60 countries, 49 languages, and 26 specialties to make ChatGPT gr",
+        "summary": "We've collaborating with hundreds of physicians across 60 countries, 49 languages, and 26 specialties to make ChatGPT great at health-related questions for everyone:",
+        "link": "https://x.com/gdb/status/2067675030335668270",
+        "author": "gdb",
+        "published": "2026-06-18T18:25:17+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammat",
+        "summary": "On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates! \n\nThis has changed how we work internally. Artifacts is great format for communicating architecture changes, data analyses, and new prototypes.",
+        "link": "https://x.com/_catwu/status/2067674836726694200",
+        "author": "_catwu",
+        "published": "2026-06-18T18:24:31+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "…",
+        "summary": "…",
+        "link": "https://x.com/elonmusk/status/2067674395124875453",
+        "author": "elonmusk",
+        "published": "2026-06-18T18:22:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "They have imported voters to win",
+        "summary": "They have imported voters to win",
+        "link": "https://x.com/elonmusk/status/2067673634051674579",
+        "author": "elonmusk",
+        "published": "2026-06-18T18:19:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230",
+        "summary": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions.\n\nEvery week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand.\n\nBecause GPT-5.5 Instant is available to all free users in ChatGPT, these improvements can help more people. \n\nPhysician-led evaluation was critical to making these major intelligence gains.",
+        "link": "https://x.com/OpenAI/status/2067672740539306261",
+        "author": "OpenAI",
+        "published": "2026-06-18T18:16:11+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "New in Claude Code: Artifacts.\n\nInteractive pages built from your session, like a PR walkthrough or a living project das",
+        "summary": "New in Claude Code: Artifacts.\n\nInteractive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link.\n\nAvailable in beta on Team and Enterprise plans. https://t.co/0NX9gNCaAs",
+        "link": "https://x.com/claudeai/status/2067671912038240487",
+        "author": "claudeai",
+        "published": "2026-06-18T18:12:53+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "When I was playing RTSes, I generally thought about strategy in terms of resource utilization. For instance, in any game",
+        "summary": "When I was playing RTSes, I generally thought about strategy in terms of resource utilization. For instance, in any game that has a unit hp passive regeneration mechanic, any unit that is full-hp represents a wasted resource (you could be gaining hp during that time, so you are net behind).\n\nToday, if you are paying for a fixed-price agentic coding subscription, any week you end below your weekly token quota represents a wasted resource. Utilize your token regeneration mechanic.",
+        "link": "https://x.com/fchollet/status/2067662727858819505",
+        "author": "fchollet",
+        "published": "2026-06-18T17:36:24+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "completely unprompted wow moment from today - asked @DevinAI to make us a @tbpn style breaking news style announcement c",
+        "summary": "completely unprompted wow moment from today - asked @DevinAI to make us a @tbpn style breaking news style announcement card for our AIEWF speakers drop tmr, FULLY expecting it to fail at a heavily visual task\n\nand it oneshotted the WHOLE DAMN THING https://t.co/IFrhDDbBUy",
+        "link": "https://x.com/swyx/status/2067658992739029252",
+        "author": "swyx",
+        "published": "2026-06-18T17:21:33+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Grok TTS delivers the most human-like speech",
+        "summary": "Grok TTS delivers the most human-like speech",
+        "link": "https://x.com/xai/status/2067654108123910495",
+        "author": "xai",
+        "published": "2026-06-18T17:02:09+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "New course: Add voice to your AI agents and applications, built with @VocalBridge (disclosure: an AI Fund portfolio comp",
+        "summary": "New course: Add voice to your AI agents and applications, built with @VocalBridge (disclosure: an AI Fund portfolio company) and taught by its CEO @_ashwyn.\n\nVoice applications historically required making a hard tradeoff: using fast voice-to-voice models that sacrifice reliability, or accurate speech-to-text pipelines that add latency. This course teaches you how to build voice agents that are both reliable and fast.\n\nYou'll build three types of voice-enabled applications: a voice-interactive game where voice commands and mouse clicks work together over a single channel, an agent that gains a voice in about 10 lines of code without touching its prompts or tools, and an agent that places outbound phone calls using a make_phone_call function.\n\nSkills you'll gain:\n- Add a voice layer to an existing agent without rewriting your prompts, RAG pipeline, or tools\n- Give an agent the ability to place outbound calls and stream transcripts back live\n- Set up voice evaluation to score calls, catch regressions, and improve quality before deployment\n\nJoin and add voice to your agents without overhauling your architecture:\nhttps://t.co/gBO4nmaU9u",
+        "link": "https://x.com/AndrewYNg/status/2067653578945359898",
+        "author": "AndrewYNg",
+        "published": "2026-06-18T17:00:03+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.\n\nOpus 4.7, on",
+        "summary": "New Frontier Red Team blog: Phase 2 of Project Fetch, where we test how well Claude can program a robodog.\n\nOpus 4.7, on its own, was ~20x faster than last year's best human team aided by Opus 4.1. (The robodog, alas, still failed to fetch a beach ball.)\nhttps://t.co/CgbBtRf85e",
+        "link": "https://x.com/AnthropicAI/status/2067651699486200091",
+        "author": "AnthropicAI",
+        "published": "2026-06-18T16:52:34+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI for helping find 18 new diagnoses across 376 previously unsolved medical cases.\n\nIncludes diagnosing Kyra, who ha",
+        "summary": "OpenAI for helping find 18 new diagnoses across 376 previously unsolved medical cases.\n\nIncludes diagnosing Kyra, who has been trying to understand her muscle weakness since age 9, with a rare form of myofibrillar myopathy shortly before her 28th birthday. https://t.co/xq4QIvwby4",
+        "link": "https://x.com/gdb/status/2067648020934701541",
+        "author": "gdb",
+        "published": "2026-06-18T16:37:57+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Grok now on Databricks",
+        "summary": "Grok now on Databricks",
+        "link": "https://x.com/elonmusk/status/2067646181379854418",
+        "author": "elonmusk",
+        "published": "2026-06-18T16:30:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Context graphs will be the best way for businesses to enable and deploy agentic harnesses. There's a lot of context frag",
+        "summary": "Context graphs will be the best way for businesses to enable and deploy agentic harnesses. There's a lot of context fragmentation across so many different tools in every company. A god-mode view that self-improves and self-organizes is the way tacit knowledge can be captured.",
+        "link": "https://x.com/AravSrinivas/status/2067645893394968742",
+        "author": "AravSrinivas",
+        "published": "2026-06-18T16:29:30+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "We're rolling out Brain: a self-improving context-graph of all your sessions, connectors, and files. \n\nBrain updates its",
+        "summary": "We're rolling out Brain: a self-improving context-graph of all your sessions, connectors, and files. \n\nBrain updates itself overnight with fresh context proactively, and feeds itself to every task on Computer, allowing Computer to be stateful and self-improving.\n\nAvailable to all Perplexity Max subscribers.",
+        "link": "https://x.com/AravSrinivas/status/2067643665871417519",
+        "author": "AravSrinivas",
+        "published": "2026-06-18T16:20:39+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Talent density is incredibly important for building humanist superintelligence, and our team reflects that. Meet some of",
+        "summary": "Talent density is incredibly important for building humanist superintelligence, and our team reflects that. Meet some of the humans at @MicrosoftAI who make our work so special https://t.co/9aYifK4mGL",
+        "link": "https://x.com/mustafasuleyman/status/2067640250881417475",
+        "author": "mustafasuleyman",
+        "published": "2026-06-18T16:07:05+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Grok models are now available on Databricks Agent Bricks.\n\nBring SpaceXAI's latest models to your enterprise data to pow",
+        "summary": "Grok models are now available on Databricks Agent Bricks.\n\nBring SpaceXAI's latest models to your enterprise data to power capable AI agents.\n\nhttps://t.co/BAjiDZnipq https://t.co/GwLff8atiC",
+        "link": "https://x.com/xai/status/2067638691275907084",
+        "author": "xai",
+        "published": "2026-06-18T16:00:53+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-19",
+        "summary": "AI 早报 2026 06 19 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 DeepSeek 正式上线识图模式 ↗ 1 Codex 上线 Record & Replay 功能，录制操作即可生成可复用 Skill ↗ 2 Claude Code 推出 Artifacts 功能 ↗ 3 开发生态 阶跃星辰推出新版 Step Plan 订阅方案并开放限时免费体验 ↗ 4 Step 3.7 Flash 模型在 Cline 平台开放一个月免费使用 ↗ 5 Codex 重置额度后引发热议：可用额度疑似大幅下调 ↗ 6 Gemini CLI 个人版账户正式停止服务 7 产品应用 腾讯推出Agent专属邮箱服务Agently Mail ↗ 8 OpenAI 称 GPT 5.5 Instant 健康评估表现超越医生回…",
+        "link": "https://daily.juya.uk/issues/2026-06-19/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-19T01:12:00+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+        "summary": "<p>Today we launched a new plugin for Datasette, <a href=\"https://github.com/datasette/datasette-apps\">datasette-apps</a>, with <a href=\"https://datasette.io/blog/2026/datasette-apps/\">this launch announcement post</a> on the Datasette project blog. That post has the <em>what</em>, but I'm going to expand on that a little bit here to provide the <em>why</em>.</p>\n<h4 id=\"the-tl-dr\">The TL;DR</h4>\n<p>Datasette Apps are self-contained HTML+JavaScript applications that run in a tightly constrained <code>&lt;iframe&gt;</code> sandbox hosted on your Datasette application. They can use JavaScript to run read-only SQL queries against data in Datasette, and can run write queries too if you configure them <a href=\"https://datasette.io/blog/2026/sql-write-queries/\">with some stored queries</a>.</p>\n<p>Here's a <a href=\"https://agent.datasette.io/-/apps/01kvdp1d26g8trye3r4gc3yy9c\">very simple example</a> and a <a href=\"https://agent.datasette.io/-/apps/01ktvyaejhk07zskdx2tewxppe\">more complex custom timeline example</a> - the latter looks like this:</p>\n<p><img alt=\"Screenshot of a web app titled &quot;Datasette timeline&quot; with &quot;All apps&quot;, &quot;Edit app&quot;, and &quot;Pin&quot; buttons top-right and a &quot;Full screen&quot; button below them. Inside a bordered panel, the heading &quot;Datasette timeline&quot; sits above a search box reading &quot;Search news, blog posts and releases…&quot; with three checked checkboxes labeled News, Blog, and Releases. Below, text reads &quot;Showing 200 of 1,953 items&quot;, followed by a scrollable list of timeline entries. Each entry has a colored tag (blue &quot;BLOG&quot; or green &quot;RELEASE&quot;), a date, a blue linked title, and a paragraph of description. The visible entries are a &quot;BLOG&quot; post dated 2026-06-11 titled &quot;Datasette 1.0a33 with JSON extras in the API&quot;, a &quot;RELEASE&quot; dated 2026-06-11 titled &quot;datasette 1.0a33&quot;, and a &quot;RELEASE&quot; dated 2026-06-09 titled &quot;llm 0.32a3&quot;, each with body text and a &quot;▶ Show more&quot; toggle. A separate panel at the bottom shows a collapsed &quot;▶ 2 log entries&quot; toggle.\" src=\"https://static.simonwillison.net/static/2026/datasette-timeline-app.jpg\" /></p>\n<p>Apps are allowed to run JavaScript and render HTML and CSS. They are limited in terms of access - the <code>&lt;iframe sandbox=\"allow-scripts allow-forms\"&gt;</code> they run in prevents them from accessing cookies or localStorage and they also have an injected CSP header (thanks to <a href=\"https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/\">this research</a>) which prevents them from making HTTP requests to outside hosts, preventing a malicious or buggy app from exfiltrating private data.</p>\n<p>Datasette Apps started out as my attempt at building a Claude Artifacts mechanism for <a href=\"https://datasette.io/blog/2026/datasette-agent/\">Datasette Agent</a>, but I quickly realised that the sandboxed pattern is interesting for way more than just adding custom apps to the interface surface and promoted it to its own top-level concept within the Datasette ecosystem.</p>\n<p>They're also a fun way to turn my <a href=\"https://tools.simonwillison.net/\">multi-year experiment in vibe-coded HTML tools</a> into a core feature of my main project!</p>\n<p>You can try out Datasette Apps by signing in with GitHub to the <a href=\"https://agent.datasette.io/\">agent.datasette.io</a> demo instance.</p>\n<h4 id=\"why-build-this-\">Why build this?</h4>\n<p>Since the very first release, Datasette has offered a flexible backend for creating custom HTML apps via its JSON API.</p>\n<p>One of my earliest Datasette projects was an internal search engine for documentation when I worked at Eventbrite - it worked by importing documents from different systems into SQLite on a cron and then serving them through a Datasette instance with a custom HTML+JavaScript search interface that directly queried the Datasette API.</p>\n<p>I had client-side JavaScript constructing SQL queries, which originally was intended as an engineering joke but turned out to be a <em>really productive</em> way of iterating on the app!</p>\n<p>That project, combined with my experience <a href=\"https://simonwillison.net/2025/Dec/10/html-tools/\">building my HTML tools collection</a> and my <a href=\"https://simonwillison.net/2024/Oct/21/claude-artifacts/\">experiments with Claude Artifacts</a>, has convinced me that adding a Datasette-style backend to a self-contained HTML frontend is an astonishingly powerful combination.</p>\n<p>Imagine how much more useful Claude Artifacts could be if they had access to a persistent relational database. That's what I'm building with Datasette Apps!</p>\n<h4 id=\"neat-ideas-in-datasette-apps\">Neat ideas in Datasette Apps</h4>\n<p>Here are a few of the ideas and patterns I've figured out building this which I think have staying power.</p>\n<h5 id=\"iframe-sandbox-allow\">\n<code>&lt;iframe sandbox=\"allow-scripts\" srcdoc=\"...\"&gt;</code> + <code>&lt;meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data: blob:;\"&gt;</code>\n</h5>\n<p>This is the magic combination that makes Datasette Apps feasible in the first place. I need to run untrusted HTML and JavaScript on a highly sensitive domain - an authenticated Datasette instance can contain all sorts of private data. The <code>sandbox=</code> attribute lets me run that untrusted code in a way that cannot interact with the parent application - it can't read the DOM, or access cookies, or steal secrets from <code>localStorage</code>. It can however use <code>fetch()</code> and friends to load content (or exfiltrate data) from other domains. But... it turns out if you <em>start</em> an HTML page with a <code>&lt;meta http-equiv=\"Content-Security-Policy\"&gt;</code> header you can <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP\">set additional policies</a> that lock down access to other domains. I was worried that malicious JavaScript would be able to update or remove that header but it turns out <a href=\"https://github.com/simonw/research/tree/main/test-csp-iframe-escape#readme\">that doesn't work</a> - once set, the CSP policy is immutable for the content of that frame.</p>\n<h5 id=\"locked-down-apis-with-postmessage-and-messagechannel-\">Locked down APIs with <code>postMessage()</code> and <code>MessageChannel()</code>\n</h5>\n<p>Having locked down those iframes to the point that they couldn't do anything interesting at all, the challenge was to open them back again such that they could run an allow-list of operations, starting with read-only SQL queries against specified databases.</p>\n<p>I built the first version of this with <code>postMessage()</code>, which allows a child iframe to send messages to the parent window. I created a simple protocol for requesting that the parent run a SQL query - the parent could then verify it was against an allow-listed database before executing it.</p>\n<p>One of the LLM tools, I think it was GPT-5.5, suggested that <code>postMessage()</code> on its own can be exploited if the iframe somehow loads additional code from an untrusted domain. I don't think that applies to Datasette Apps, but I also believe in defense in depth, so I <a href=\"https://gist.github.com/simonw/0b29f301c2007808314eb04675c66916\">had GPT-5.5 help me</a> port to a <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/MessageChannel\">MessageChannel()</a> based transport instead.</p>\n<p><code>MessageChannel()</code> has the advantage that if a page navigates to somewhere else the channel closes automatically, removing any chance of executing commands sent from an untrusted external page.</p>\n<h5 id=\"visible-logs-for-queries-and-errors\">Visible logs, for queries and errors</h5>\n<p>If you navigate to <a href=\"https://agent.datasette.io/-/apps/01ktvyaejhk07zskdx2tewxppe\">the timeline demo</a> and search for the string <code>usercontent</code> you'll pull in some search results that embed images from the <code>user-images.githubusercontent.com</code> domain. This domain is not in the CSP allow-list, so it trips an error.</p>\n<p>Those errors are captured and transmitted back to the parent frame, where they can be displayed in a useful error log. This is meant to make hacking on apps more productive by surfacing otherwise-invisible problems.</p>\n<p>I built <a href=\"https://simonwillison.net/2026/May/13/csp-allow/\">an experiment</a> demonstrating that you can even turn this into a one-click-to-allow mechanism for building the CSP allow-list based on what breaks, but I haven't integrated that idea into <code>datasette-apps</code> just yet.</p>\n<p>SQL queries are also visibly logged - scroll to the <a href=\"https://agent.datasette.io/-/apps/01ktvyaejhk07zskdx2tewxppe\">bottom of the timeline page</a> to see that in action.</p>\n<h5 id=\"stored-queries-for-write-operations\">Stored queries for write operations</h5>\n<p>I want apps to be able to conditionally write to the database, but this is an <em>even more</em> dangerous proposition than SQL reads!</p>\n<p>My solution involves Datasette's <a href=\"https://docs.datasette.io/en/latest/sql_queries.html#stored-queries\">stored queries</a> feature, rebranded from \"canned queries\" and given a major upgrade <a href=\"https://datasette.io/blog/2026/sql-write-queries/\">in the recent Datasette 1.0a31</a> - work that was directly inspired by Datasette Apps.</p>\n<p>Users can create a stored write query that performs an insert or update, then allow-list that specific query for an app to use. Usage from code inside an app looks like this:</p>\n<div class=\"highlight highlight-source-js\"><pre><span class=\"pl-k\">const</span> <span class=\"pl-s1\">result</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">await</span> <span class=\"pl-s1\">datasette</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">storedQuery</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"todos\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"add_todo\"</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-c1\">title</span>: <span class=\"pl-s\">\"Buy milk\"</span><span class=\"pl-kos\">,</span>\n  <span class=\"pl-c1\">due_date</span>: <span class=\"pl-s\">\"2026-06-20\"</span><span class=\"pl-kos\">,</span>\n  <span class=\"pl-c1\">priority</span>: <span class=\"pl-s\">\"high\"</span><span class=\"pl-kos\">,</span>\n  <span class=\"pl-c1\">completed</span>: <span class=\"pl-c1\">false</span>\n<span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<p>I'm only just beginning to explore the possibilities this unlocks myself, but my goal is to support full read-write applications built safely as Datasette Apps.</p>\n<h5 id=\"copy-and-paste-a-prompt-to-build-an-app\">Copy and paste a prompt to build an app</h5>\n<p>The Datasette Apps plugin has no dependency on LLMs at all, but these self-contained apps are the perfect shape to be written by a modern LLM.</p>\n<p>The create app form includes a copyable prompt at the end. This prompt has everything a model needs to know to build a new app, including the schema of any selected databases.</p>\n<p><img alt=\"Screenshot of the lower part of a &quot;Create app&quot; page. At the top is the tail end of an HTML code editor (lines 35–43, closing the script, body, and html tags) and a blue &quot;Create app&quot; button. Below is a section headed &quot;Use AI to build this app&quot; with the text &quot;Describe the app you want in an LLM chat, then copy this prompt in as context so it can generate or revise the app HTML. Paste the result into the HTML editor above.&quot; A blue &quot;Copy prompt&quot; button sits above a &quot;▼ Show full prompt&quot; toggle. An expanded text box shows the prompt: &quot;Build a Datasette HTML app. App name: Latest news. Return a complete single-file HTML document. Include &lt;DOCTYPE, CSS, and JavaScript in the same file. This app will run inside a sandboxed iframe protected by a strict Content Security Policy. Important limitations: – Direct network access is disabled by default. – The app cannot fetch from Datasette, localhost, or arbitrary origins. – External fetch() requests only work for exact https:// origins explicitly granted in the app's network access settings. – Remote images are allowed from those same exact https:// origins. Local file previews using data: and blob: image URLs are allowed. – External script tags are allowed from those same exact https:// origins. – External stylesheet links and style elements are allowed from those same exact https:// origins. – history.replaceState(), history.pushState(), history.back(), history.forward(), and history.go() are no-ops in the sandbox. – CORS still applies even when an origin is granted. Use this API for data access: – await datasette.query(database, sql, params?)&quot;\" src=\"https://datasette.io/static/blog/2026/create-app-prompt.jpg\" /></p>\n<p>This means you can click \"copy\", paste it into ChatGPT or Claude or Gemini, tell it what you need, and there's a good chance the model will spit out the code necessary to build the app.</p>\n<p>If you have <a href=\"https://agent.datasette.io/\">Datasette Agent</a> installed your AI assistant will also gain tools to both create new apps and edit existing ones, Claude Artifacts style.</p>\n<p><img alt=\"Screenshot of a &quot;Chat&quot; interface with a &quot;← Back&quot; link top-left and an &quot;EXPORT&quot; button top-right. A blue user message bubble reads &quot;Build an app showing the 5 most recent headlines from the blog_posts table&quot;. Below are two collapsed toggles: &quot;► Tool: describe_table&quot; and &quot;► Result: describe_table&quot;. A thinking line reads &quot;Thinking: …will transition to creating the application using app_create as the next step.&quot; A section headed &quot;Querying Latest Posts&quot; reads &quot;I've successfully queried the blog_posts table for the 5 most recent titles. The SQL query, SELECT title FROM blog_posts ORDER BY datetime_utc DESC LIMIT 5, is working as expected. Now, I will transition to creating the application using app_create as the next step.&quot; An expanded &quot;▼ Tool: app_create&quot; box shows escaped JSON HTML: { &quot;html&quot;: &quot;....&quot; Below: &quot;Recent Blog Headlines created.&quot; with &quot;View app&quot; and &quot;Edit&quot; buttons, a collapsed &quot;► Result: app_create&quot; toggle, and a final message: &quot;The app &quot;Recent Blog Headlines&quot; has been created. It displays the 5 most recent headlines from the blog_posts table in the content database.&quot;\" src=\"https://datasette.io/static/blog/2026/create-app-agent.jpg\" /></p>\n\n<h4 id=\"built-with-so-much-ai-assistance\">Built with so much AI assistance</h4>\n<p>Datasette Apps started life back in April as <a href=\"https://github.com/datasette/datasette-agent-edit/commits/b242a8fc2e200d01820dacb5bf9a060f659c3a18/\">datasette-agent-artifacts</a>, a plugin I have since renamed to <code>datasette-agent-edit</code> keeping only <a href=\"https://simonwillison.net/2026/Jun/7/datasette-agent-edit/\">its editing tools</a>. I built that as one of the first plugins for <a href=\"https://datasette.io/blog/2026/datasette-agent/\">Datasette Agent</a>, to help get the plugin hooks into the right shape. That first prototype was mainly built using Claude Opus 4.6 in Claude Code.</p>\n<p>When I switched track to Datasette Apps I started <a href=\"https://github.com/datasette/datasette-apps/commit/fc1e23b801b5845647dcd423d632339648acf19c#diff-de64950fcb0bc622027de0d657eeb322f3520ce502d826813ff7653b51cf6059\">with a plan</a> constructed using Codex Desktop and GPT-5.5 xhigh, based on extensive dialog and feeding in both <code>datasette-agent-artifacts</code> and other prototypes I had built.</p>\n<p>Most of the work that followed stuck with Codex, but in the few short days that we had access <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/\">to Claude Fable 5</a> I had it run a security evaluation of the product (an ability that would get it <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">banned by the US government</a> shortly afterwards) and it found a very real problem.</p>\n<p>I was allowing users to allow-list CSP hosts for their apps, but Fable pointed out the following attack:</p>\n<ol>\n<li>A less privileged user with <code>create-app</code> permission creates an app that queries SQLite for all available tables and selects and exfiltrates all of the data to a host they had allow-listed via CSP.</li>\n<li>They then trick an administrator user with access to private data into visiting their app.</li>\n<li>... and the app can now run queries as <em>that</em> user and steal their private data!</li>\n</ol>\n<p>That's clearly unacceptable. I fixed it by restricting the ability to allow-list any domain to a new <code>apps-set-csp</code> permission, which is intended just for trusted staff. Site administrators can also <a href=\"https://github.com/datasette/datasette-apps#sandboxed-apps\">configure Datasette</a> with a list of <code>allowed_csp_origins</code>, which regular users can then select. This means you can do things like allow <code>cdnjs.cloudflare.com</code> and your users will be able to build apps that load extra JavaScript libraries from the <a href=\"https://cdnjs.com\">cdnjs</a> CDN.</p>\n<p>I've reviewed Datasette Apps extremely closely, especially the security-adjacent parts of it. The critical sandbox and CSP configuration are based on multiple AI-assisted prototypes and tests.</p>\n<h4 id=\"it-s-looking-good-so-far\">It's looking good so far</h4>\n<p>I'm really pleased with this initial release.</p>\n<p>Datasette is growing beyond its origins as an application for serving read-only data into a much richer ecosystem of tools for doing useful things with that data once it has been collected.</p>\n<p>Datasette's roots are in data journalism. I've always been interested in the question of what comes <em>next</em> after a journalist gets their hands on a giant dump of data about the world. Datasette supports exploring and publishing it. Datasette Agent adds interrogating it with AI assistance. Now Datasette Apps expands that to building custom interfaces and visualizations to help unlock the stories that are hidden within.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/content-security-policy\">content-security-policy</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/",
+        "author": "",
+        "keywords": "iframes javascript projects sandboxing ai datasette generative-ai llms ai-assisted-programming content-security-policy",
+        "published": "2026-06-18T23:58:38+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "New usage analytics and updated spend controls for enterprises",
+        "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+        "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "author": "",
+        "keywords": "Product",
+        "published": "2026-06-18T17:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "AI Agents Just Learned A Language Humans Can’t Read",
+        "summary": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper  is available here:\nhttps://recursivemas.github.io/\nhttps://github.com/RecursiveMAS/RecursiveMAS\n\nBrain reading video: https://www.youtube.com/watch?v=IUg-t609byg\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=dUmT0OIGoqE",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-06-19T14:06:00+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "Improving health intelligence in ChatGPT",
+        "summary": "Health is one of the most meaningful ways people use ChatGPT. \n\nEvery week, more than 230 million people turn to ChatGPT for help with health and wellness questions: making sense of health information, understanding lab results, preparing for appointments, navigating insurance, building healthier habits, and figuring out what to ask next.\n\nWith GPT‑5.5 Instant, we’re seeing a substantial step forward in health, with improvements in recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand. On our most challenging health evaluations, GPT‑5.5 Instant now performs at a level comparable to our frontier Thinking models. Because it is available to all free users in ChatGPT, more people can benefit from these improvements.\n\nThat progress reflects both advances in model capabilities and the physician-led work behind our health evaluations. Across our efforts, a global network of physicians helps define what “good” looks like in real-world health situations by reviewing example model responses, describing ideal behavior, and identifying failure modes. Working with physicians gives us a way to measure progress in health and improve how ChatGPT responds over time.\n\nLearn more: https://openai.com/index/improving-health-intelligence-in-chatgpt/",
+        "link": "https://www.youtube.com/watch?v=UxY8zJKRrHU",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-18T19:10:18+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Record & Replay in Codex",
+        "summary": "Show Codex a workflow once. Reuse it as a skill.\n\nRecord & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request.\n\nCodex turns that demo into an inspectable, editable skill. \n\nYou control when recording starts and stops.",
+        "link": "https://www.youtube.com/watch?v=ZK3JhU73W18",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-18T18:57:34+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}

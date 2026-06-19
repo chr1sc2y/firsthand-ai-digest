@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T13:36:49.337042+00:00",
+  "generated_at": "2026-06-19T18:00:47.111064+00:00",
   "timezone": "Asia/Shanghai",
-  "local_date": "2026-06-19",
+  "local_date": "2026-06-20",
   "ranges": [
     "3h",
     "6h",
@@ -232,6 +232,19 @@
         "blogs": 0,
         "podcasts": 0,
         "videos": 0
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "hour": "18",
+      "path": "data/segments/2026-06-19/18.json",
+      "window_start": "2026-06-19T10:00:00+00:00",
+      "window_end": "2026-06-19T16:00:00+00:00",
+      "counts": {
+        "x": 4,
+        "blogs": 0,
+        "podcasts": 0,
+        "videos": 1
       }
     }
   ],
@@ -504,6 +517,16 @@
         "blogs": 4,
         "podcasts": 2,
         "videos": 1
+      }
+    },
+    {
+      "date": "2026-06-19",
+      "path": "data/daily/2026-06-19.json",
+      "counts": {
+        "x": 45,
+        "blogs": 3,
+        "podcasts": 0,
+        "videos": 3
       }
     }
   ]
