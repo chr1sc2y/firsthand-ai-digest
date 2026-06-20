@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-20T11:55:50.118848+00:00",
+  "counts": {
+    "x": 4,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev.\n\nit is ver",
+        "summary": "10 years ago, you will be asked by @bendhalpern and @jessleenyc to write your first blog on @thepracticaldev.\n\nit is very important that you answer.\n\n*now @MLHacks, who are producing the first ever physical daily newspaper at @aidotengineer WF https://t.co/tYDapAogYY",
+        "link": "https://x.com/swyx/status/2068233518858342887",
+        "author": "swyx",
+        "published": "2026-06-20T07:24:31+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition tha",
+        "summary": "I had chronic pain for most of my life until a doctor did an MRI of the pain source and found a congenital condition that was then fixed with surgery. Now I'm wondering if I had 30+ years of pain because doctors worried I was too stupid to be in the presence of scan results.",
+        "link": "https://x.com/AmandaAskell/status/2068218515723866477",
+        "author": "AmandaAskell",
+        "published": "2026-06-20T06:24:54+00:00",
+        "source_name": "Amanda Askell",
+        "source_role": "Philosopher, Anthropic",
+        "source_handle": "AmandaAskell"
+      },
+      {
+        "kind": "x",
+        "title": "Hannes speaks both developer and agents. Blessed to have him on the team!",
+        "summary": "Hannes speaks both developer and agents. Blessed to have him on the team!",
+        "link": "https://x.com/steipete/status/2068199277277401419",
+        "author": "steipete",
+        "published": "2026-06-20T05:08:27+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "“The best conference experience I’ve had this year”",
+        "summary": "“The best conference experience I’ve had this year”",
+        "link": "https://x.com/amasad/status/2068182309719728159",
+        "author": "amasad",
+        "published": "2026-06-20T04:01:02+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-20T04:00:00+00:00",
+    "end": "2026-06-20T10:00:00+00:00"
+  }
+}
