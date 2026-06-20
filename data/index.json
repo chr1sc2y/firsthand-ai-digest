@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-19T23:00:29.254549+00:00",
+  "generated_at": "2026-06-20T07:52:35.143936+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-06-20",
   "ranges": [
@@ -89,58 +89,6 @@
         "blogs": 2,
         "podcasts": 0,
         "videos": 3
-      }
-    },
-    {
-      "date": "2026-06-17",
-      "hour": "00",
-      "path": "data/segments/2026-06-17/00.json",
-      "window_start": "2026-06-16T16:00:00+00:00",
-      "window_end": "2026-06-16T22:00:00+00:00",
-      "counts": {
-        "x": 18,
-        "blogs": 2,
-        "podcasts": 0,
-        "videos": 1
-      }
-    },
-    {
-      "date": "2026-06-17",
-      "hour": "06",
-      "path": "data/segments/2026-06-17/06.json",
-      "window_start": "2026-06-16T22:00:00+00:00",
-      "window_end": "2026-06-17T04:00:00+00:00",
-      "counts": {
-        "x": 12,
-        "blogs": 3,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-17",
-      "hour": "12",
-      "path": "data/segments/2026-06-17/12.json",
-      "window_start": "2026-06-17T04:00:00+00:00",
-      "window_end": "2026-06-17T10:00:00+00:00",
-      "counts": {
-        "x": 11,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 1
-      }
-    },
-    {
-      "date": "2026-06-17",
-      "hour": "18",
-      "path": "data/segments/2026-06-17/18.json",
-      "window_start": "2026-06-17T10:00:00+00:00",
-      "window_end": "2026-06-17T16:00:00+00:00",
-      "counts": {
-        "x": 7,
-        "blogs": 1,
-        "podcasts": 1,
-        "videos": 0
       }
     },
     {
@@ -258,6 +206,19 @@
         "blogs": 0,
         "podcasts": 0,
         "videos": 2
+      }
+    },
+    {
+      "date": "2026-06-20",
+      "hour": "06",
+      "path": "data/segments/2026-06-20/06.json",
+      "window_start": "2026-06-19T22:00:00+00:00",
+      "window_end": "2026-06-20T04:00:00+00:00",
+      "counts": {
+        "x": 8,
+        "blogs": 2,
+        "podcasts": 0,
+        "videos": 1
       }
     }
   ],
