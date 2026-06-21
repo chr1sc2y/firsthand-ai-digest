@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T17:39:13.862052+00:00",
+  "source_segments": [
+    "segments/2026-06-21/00.json",
+    "segments/2026-06-21/06.json",
+    "segments/2026-06-21/12.json",
+    "segments/2026-06-21/18.json"
+  ],
+  "counts": {
+    "x": 27,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Happy Father’s Day!",
+        "summary": "Happy Father’s Day!",
+        "link": "https://x.com/elonmusk/status/2068722935553032543",
+        "author": "elonmusk",
+        "published": "2026-06-21T15:49:17+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "\"I've spent $30K on a launch video, now you can make one with code.\"\n\nHere's my new episode with @liu8in and @JakeFromHe",
+        "summary": "\"I've spent $30K on a launch video, now you can make one with code.\"\n\nHere's my new episode with @liu8in and @JakeFromHeyGen, where they shared their 5-step playbook for using HyperFrames to make professional launch videos in Codex and Claude Code:\n\n1. Gather video assets and create a frame.md\n2. Create a storyboard.md with the scenes\n3. Pull animations from the HyperFrames repo\n4. Generate and review static frames\n5. Build the video with HyperFrames Studio\n\nYou can also start simple by using the built-in /website-to-video skill to one shot a launch video from any URL.\n\nHyperFrames is 100% free and I love how it democratizes video creation for everyone.\n\n📌 Watch now: https://t.co/UPmXLJwbuO\n\nThanks to our sponsors:\n\n@WisprFlow: 4x faster than typing with your voice https://t.co/22wo3B6qoT\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE",
+        "link": "https://x.com/petergyang/status/2068699310821405056",
+        "author": "petergyang",
+        "published": "2026-06-21T14:15:24+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network re",
+        "summary": "We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we’d written, and became itself.",
+        "link": "https://x.com/amasad/status/2068589860097790449",
+        "author": "amasad",
+        "published": "2026-06-21T07:00:29+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Wild times ahead!",
+        "summary": "Wild times ahead!",
+        "link": "https://x.com/elonmusk/status/2068577952875377062",
+        "author": "elonmusk",
+        "published": "2026-06-21T06:13:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve f",
+        "summary": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
+        "link": "https://x.com/thsottiaux/status/2068568650924409260",
+        "author": "thsottiaux",
+        "published": "2026-06-21T05:36:13+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Road not taken is more fun",
+        "summary": "Road not taken is more fun",
+        "link": "https://x.com/amasad/status/2068537425480278226",
+        "author": "amasad",
+        "published": "2026-06-21T03:32:08+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Come work for Replit Japan!",
+        "summary": "Come work for Replit Japan!",
+        "link": "https://x.com/amasad/status/2068537084877643943",
+        "author": "amasad",
+        "published": "2026-06-21T03:30:47+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "What’s there to do in SF with kids beyond the Golden Gate Park and Presidio / Tunnel Tops? Wanna try something new",
+        "summary": "What’s there to do in SF with kids beyond the Golden Gate Park and Presidio / Tunnel Tops? Wanna try something new",
+        "link": "https://x.com/petergyang/status/2068524146070610274",
+        "author": "petergyang",
+        "published": "2026-06-21T02:39:22+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/Bu5hwCfMM1",
+        "summary": "https://t.co/Bu5hwCfMM1",
+        "link": "https://x.com/elonmusk/status/2068520218389860441",
+        "author": "elonmusk",
+        "published": "2026-06-21T02:23:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
+        "summary": "Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.",
+        "link": "https://x.com/rauchg/status/2068517095818809770",
+        "author": "rauchg",
+        "published": "2026-06-21T02:11:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "btw this is what happens on July 4 if team usa wins this game Wednesday after next https://t.co/KCe7H7G5lE",
+        "summary": "btw this is what happens on July 4 if team usa wins this game Wednesday after next https://t.co/KCe7H7G5lE",
+        "link": "https://x.com/swyx/status/2068510546606145897",
+        "author": "swyx",
+        "published": "2026-06-21T01:45:20+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2068499534431264988",
+        "author": "elonmusk",
+        "published": "2026-06-21T01:01:34+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The more you embrace AI, the more you need SaaS. This is not obvious to armchair market analysts who love disruption nar",
+        "summary": "The more you embrace AI, the more you need SaaS. This is not obvious to armchair market analysts who love disruption narratives, but it is obvious to people actually running companies.",
+        "link": "https://x.com/fchollet/status/2068488678947918124",
+        "author": "fchollet",
+        "published": "2026-06-21T00:18:26+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "6 months ago we put $500k into betting on Team USA that is paying off now for our @aidotengineer VIPs.\n\n3 things set me ",
+        "summary": "6 months ago we put $500k into betting on Team USA that is paying off now for our @aidotengineer VIPs.\n\n3 things set me up for the biggest sports bet i have ever made in my life:\n- watching @brendanhunting of @TedLasso say \"this is the year\" for @usmnt\n- @philipkiely telling me there is unlimited budget for unique exec events\n- my options trading background\n\nThe game falls on AIE WF day 3 so we just yolo bought up every single VIP suite we could find. @Polymarket helped give live updates on how to message this to my speakers and sponsors.\n\nbtw last image is pricing for the World Cup final in new jersey",
+        "link": "https://x.com/swyx/status/2068473310527328721",
+        "author": "swyx",
+        "published": "2026-06-20T23:17:22+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Some tokens work harder than others. Some of the most valuable ones are found in the Codex app.",
+        "summary": "Some tokens work harder than others. Some of the most valuable ones are found in the Codex app.",
+        "link": "https://x.com/thsottiaux/status/2068443037907522002",
+        "author": "thsottiaux",
+        "published": "2026-06-20T21:17:04+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "🫡",
+        "summary": "🫡",
+        "link": "https://x.com/elonmusk/status/2068434511906378017",
+        "author": "elonmusk",
+        "published": "2026-06-20T20:43:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Pretty remarkable what’s happening with open weights AI right now. We’re seeing models achieve SOTA results on specific ",
+        "summary": "Pretty remarkable what’s happening with open weights AI right now. We’re seeing models achieve SOTA results on specific tasks, and getting close to frontier on some areas of coding and other domains. \n\nThe more that open weights is able to maintain only a marginal gap from the frontier, instead of a widening gap, the more value that can be created with AI.\n\nIncidentally, this is actually fine for the frontier labs as well; if we can lower the cost of an overall task then AI usage goes up in general. You’re still likely using frontier models for planning, orchestration, reviewing, and other parts of work. \n\nBut this is all very good for the applied layer of AI, which is now in a great position to cost optimize workloads with cheaper models or use tailored open models post-trained for specific tasks to improve performance.",
+        "link": "https://x.com/levie/status/2068434042148782515",
+        "author": "levie",
+        "published": "2026-06-20T20:41:19+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Good idea",
+        "summary": "Good idea",
+        "link": "https://x.com/elonmusk/status/2068430795509797064",
+        "author": "elonmusk",
+        "published": "2026-06-20T20:28:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Amazing abundance for all!",
+        "summary": "Amazing abundance for all!",
+        "link": "https://x.com/elonmusk/status/2068430489535271081",
+        "author": "elonmusk",
+        "published": "2026-06-20T20:27:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "If you are in Japan🇯🇵 or do business there, here's your chance to get lots of tokens!",
+        "summary": "If you are in Japan🇯🇵 or do business there, here's your chance to get lots of tokens!",
+        "link": "https://x.com/steipete/status/2068428180004942319",
+        "author": "steipete",
+        "published": "2026-06-20T20:18:02+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Sick edit",
+        "summary": "Sick edit",
+        "link": "https://x.com/amasad/status/2068418687162310867",
+        "author": "amasad",
+        "published": "2026-06-20T19:40:19+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "I will go against the grain and say I can barely use up my Codex and Claude $200 subscriptions so I don’t see the point ",
+        "summary": "I will go against the grain and say I can barely use up my Codex and Claude $200 subscriptions so I don’t see the point of trying local models…\n\nAlso to try the latest glm locally requires 512 mb which is like a $10K Max Studio?",
+        "link": "https://x.com/petergyang/status/2068411894185295969",
+        "author": "petergyang",
+        "published": "2026-06-20T19:13:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "For folks who make talking head videos with screen share what platform do you use?\n\nI'd love something that lets me easi",
+        "summary": "For folks who make talking head videos with screen share what platform do you use?\n\nI'd love something that lets me easily zoom in and out on the screen to point out specific things.\n\n@screenstudio seems cool but does it work well with other recording tools? It doesn't record the talking head as far I can see.",
+        "link": "https://x.com/petergyang/status/2068398871236264428",
+        "author": "petergyang",
+        "published": "2026-06-20T18:21:34+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Time to return to sanity",
+        "summary": "Time to return to sanity",
+        "link": "https://x.com/elonmusk/status/2068391126671790453",
+        "author": "elonmusk",
+        "published": "2026-06-20T17:50:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Case closed https://t.co/5QVYbjZzDR",
+        "summary": "Case closed https://t.co/5QVYbjZzDR",
+        "link": "https://x.com/elonmusk/status/2068384807302680974",
+        "author": "elonmusk",
+        "published": "2026-06-20T17:25:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "what does this even mean https://t.co/XlbqilXzmC",
+        "summary": "what does this even mean https://t.co/XlbqilXzmC",
+        "link": "https://x.com/petergyang/status/2068381173840298285",
+        "author": "petergyang",
+        "published": "2026-06-20T17:11:15+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Kun knows what he's doing watch this 👇",
+        "summary": "Kun knows what he's doing watch this 👇",
+        "link": "https://x.com/petergyang/status/2068368763033153653",
+        "author": "petergyang",
+        "published": "2026-06-20T16:21:56+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-21",
+        "summary": "AI 早报 2026 06 21 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 微信灰度测试 AI Agent「小微」 ↗ 1 产品应用 DeepSeek 研究员分享识图模式增强 Prompt ↗ 2 开发生态 NousResearch 发布 Hermes Agent v0.17.0 ↗ 3 GitHub 向 Copilot Max 用户发放额度并预告更多优惠 ↗ 4 要闻 微信灰度测试 AI Agent「小微」 1 据爆料，微信正在灰度测试一款名为「小微」的 AI Agent。该 Agent 不仅集成了搜索、图文与代码创作等常规 AI 能力，还能根据指令自动操作微信小程序。目前该功能尚未全量上线，仅有部分用户能在微信首页左滑处看到其测试入口。有爆料称，该 Agent 主模型采用 WeLM，部分回答由…",
+        "link": "https://daily.juya.uk/issues/2026-06-21/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-21T00:30:00+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why People Loved a Murdering Tyrant - Ada Palmer",
+        "summary": "",
+        "link": "https://www.youtube.com/watch?v=6ViZYiWqXi8",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-21T15:35:47+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  }
+}
