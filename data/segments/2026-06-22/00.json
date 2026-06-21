@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-21T23:13:42.323071+00:00",
+  "counts": {
+    "x": 15,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you t",
+        "summary": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
+        "link": "https://x.com/thsottiaux/status/2068792010715324444",
+        "author": "thsottiaux",
+        "published": "2026-06-21T20:23:46+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Books are so OP",
+        "summary": "Books are so OP",
+        "link": "https://x.com/fchollet/status/2068791840955043850",
+        "author": "fchollet",
+        "published": "2026-06-21T20:23:05+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+        "summary": "Coding agents will squeeze every ounce of IKEA effect out of you, if you let them.",
+        "link": "https://x.com/rauchg/status/2068778558672273422",
+        "author": "rauchg",
+        "published": "2026-06-21T19:30:19+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "The hardest part of any task is overcoming the activation energy. The rest is just riding the momentum.",
+        "summary": "The hardest part of any task is overcoming the activation energy. The rest is just riding the momentum.",
+        "link": "https://x.com/fchollet/status/2068771319341367390",
+        "author": "fchollet",
+        "published": "2026-06-21T19:01:33+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "codex for testing every single feature in your app:",
+        "summary": "codex for testing every single feature in your app:",
+        "link": "https://x.com/gdb/status/2068761809318990054",
+        "author": "gdb",
+        "published": "2026-06-21T18:23:45+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Why HTML turned out to be the foundation for agentic video making from @liu8in:\n\n“We’ve been trying to build a video age",
+        "summary": "Why HTML turned out to be the foundation for agentic video making from @liu8in:\n\n“We’ve been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence.\n\nSo that’s when we turned to code. HTML is the LLM’s native language. LLMs can express not only information, but also visual aesthetics through HTML, CSS, and JavaScript.\n\nFootage, images, assets, SVGs can all sit on top of HTML.\"\n\n📌 As an example, see how you can make a product video from any website URL here: https://t.co/Q2p8XzCfc6",
+        "link": "https://x.com/petergyang/status/2068755908319236338",
+        "author": "petergyang",
+        "published": "2026-06-21T18:00:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/dvPaVOrKd6",
+        "summary": "https://t.co/dvPaVOrKd6",
+        "link": "https://x.com/elonmusk/status/2068754172925591955",
+        "author": "elonmusk",
+        "published": "2026-06-21T17:53:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Wow https://t.co/uXhmmPFaBX",
+        "summary": "Wow https://t.co/uXhmmPFaBX",
+        "link": "https://x.com/elonmusk/status/2068751590199103855",
+        "author": "elonmusk",
+        "published": "2026-06-21T17:43:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Your kids will love this video!\n\nGrok Imagine prompt:\nThe kittens with mittens start dancing and singing “we’re kittens ",
+        "summary": "Your kids will love this video!\n\nGrok Imagine prompt:\nThe kittens with mittens start dancing and singing “we’re kittens with mittens” with joyful, energetic movements and playful expressions. https://t.co/MeNMmvRLSc",
+        "link": "https://x.com/elonmusk/status/2068748080623604004",
+        "author": "elonmusk",
+        "published": "2026-06-21T17:29:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Makes no sense",
+        "summary": "Makes no sense",
+        "link": "https://x.com/elonmusk/status/2068744977333535118",
+        "author": "elonmusk",
+        "published": "2026-06-21T17:16:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Karl’s Dad was cool",
+        "summary": "Karl’s Dad was cool",
+        "link": "https://x.com/elonmusk/status/2068743751376244966",
+        "author": "elonmusk",
+        "published": "2026-06-21T17:12:00+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "/goal make a million dollars make no mistakes \n\n/loop until you achieve the goal\n\nacceptance criteria:\n- $1M in bank acc",
+        "summary": "/goal make a million dollars make no mistakes \n\n/loop until you achieve the goal\n\nacceptance criteria:\n- $1M in bank account X\n- you didn't end up selling drugs",
+        "link": "https://x.com/petergyang/status/2068742889669337476",
+        "author": "petergyang",
+        "published": "2026-06-21T17:08:34+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "What should we improve in the Codex app. What's not delightful?",
+        "summary": "What should we improve in the Codex app. What's not delightful?",
+        "link": "https://x.com/thsottiaux/status/2068736857312198928",
+        "author": "thsottiaux",
+        "published": "2026-06-21T16:44:36+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I am pretty skeptical of building loops for everything because I'm paranoid about the agents creating slop if I'm not th",
+        "summary": "I am pretty skeptical of building loops for everything because I'm paranoid about the agents creating slop if I'm not there to monitor what they're doing. \n\nWhat are some good loops to try for coding or regular knowledge work?",
+        "link": "https://x.com/petergyang/status/2068735430502293548",
+        "author": "petergyang",
+        "published": "2026-06-21T16:38:56+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Happy Father's Day. Thankful to my dad who spent every last penny on buying our family 'the bicycle of the mind' https:/",
+        "summary": "Happy Father's Day. Thankful to my dad who spent every last penny on buying our family 'the bicycle of the mind' https://t.co/y4xvwtYPjr",
+        "link": "https://x.com/rauchg/status/2068732939559727468",
+        "author": "rauchg",
+        "published": "2026-06-21T16:29:02+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-21T16:00:00+00:00",
+    "end": "2026-06-21T22:00:00+00:00"
+  }
+}
