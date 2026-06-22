@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-21T23:15:24.925819+00:00",
+  "generated_at": "2026-06-22T09:50:11.893341+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-06-22",
   "ranges": [
@@ -89,58 +89,6 @@
         "blogs": 2,
         "podcasts": 0,
         "videos": 3
-      }
-    },
-    {
-      "date": "2026-06-19",
-      "hour": "00",
-      "path": "data/segments/2026-06-19/00.json",
-      "window_start": "2026-06-18T16:00:00+00:00",
-      "window_end": "2026-06-18T22:00:00+00:00",
-      "counts": {
-        "x": 25,
-        "blogs": 1,
-        "podcasts": 0,
-        "videos": 2
-      }
-    },
-    {
-      "date": "2026-06-19",
-      "hour": "06",
-      "path": "data/segments/2026-06-19/06.json",
-      "window_start": "2026-06-18T22:00:00+00:00",
-      "window_end": "2026-06-19T04:00:00+00:00",
-      "counts": {
-        "x": 6,
-        "blogs": 2,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-19",
-      "hour": "12",
-      "path": "data/segments/2026-06-19/12.json",
-      "window_start": "2026-06-19T04:00:00+00:00",
-      "window_end": "2026-06-19T10:00:00+00:00",
-      "counts": {
-        "x": 10,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-06-19",
-      "hour": "18",
-      "path": "data/segments/2026-06-19/18.json",
-      "window_start": "2026-06-19T10:00:00+00:00",
-      "window_end": "2026-06-19T16:00:00+00:00",
-      "counts": {
-        "x": 4,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 1
       }
     },
     {
@@ -256,6 +204,19 @@
       "counts": {
         "x": 15,
         "blogs": 0,
+        "podcasts": 0,
+        "videos": 0
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "hour": "06",
+      "path": "data/segments/2026-06-22/06.json",
+      "window_start": "2026-06-21T22:00:00+00:00",
+      "window_end": "2026-06-22T04:00:00+00:00",
+      "counts": {
+        "x": 11,
+        "blogs": 5,
         "podcasts": 0,
         "videos": 0
       }
