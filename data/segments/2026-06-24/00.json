@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-23T23:08:49.980068+00:00",
+  "counts": {
+    "x": 21,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace",
+        "summary": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace",
+        "link": "https://x.com/xai/status/2069536627349962987",
+        "author": "xai",
+        "published": "2026-06-23T21:42:36+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2069535856491483484",
+        "author": "elonmusk",
+        "published": "2026-06-23T21:39:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink coming to @AmericanAir next year!",
+        "summary": "Starlink coming to @AmericanAir next year!",
+        "link": "https://x.com/elonmusk/status/2069535601892987275",
+        "author": "elonmusk",
+        "published": "2026-06-23T21:38:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance revie",
+        "summary": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅",
+        "link": "https://x.com/petergyang/status/2069530765352907180",
+        "author": "petergyang",
+        "published": "2026-06-23T21:19:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tip of the iceberg",
+        "summary": "Tip of the iceberg",
+        "link": "https://x.com/elonmusk/status/2069514943385469087",
+        "author": "elonmusk",
+        "published": "2026-06-23T20:16:26+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel + Cursor",
+        "summary": "Vercel + Cursor",
+        "link": "https://x.com/rauchg/status/2069513849578082474",
+        "author": "rauchg",
+        "published": "2026-06-23T20:12:06+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/alxIRYyCVp",
+        "summary": "https://t.co/alxIRYyCVp",
+        "link": "https://x.com/elonmusk/status/2069497797993451848",
+        "author": "elonmusk",
+        "published": "2026-06-23T19:08:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💫",
+        "summary": "💫",
+        "link": "https://x.com/elonmusk/status/2069493276525449553",
+        "author": "elonmusk",
+        "published": "2026-06-23T18:50:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with ",
+        "summary": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with our internal users and external design partners:",
+        "link": "https://x.com/_catwu/status/2069486403696869555",
+        "author": "_catwu",
+        "published": "2026-06-23T18:23:02+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "This is such a good idea.",
+        "summary": "This is such a good idea.",
+        "link": "https://x.com/kevinweil/status/2069485206290248036",
+        "author": "kevinweil",
+        "published": "2026-06-23T18:18:17+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "Here’s our Get Started guide for configuring agent permissions for Claude Tag!",
+        "summary": "Here’s our Get Started guide for configuring agent permissions for Claude Tag!",
+        "link": "https://x.com/_catwu/status/2069484330938998993",
+        "author": "_catwu",
+        "published": "2026-06-23T18:14:48+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI DevDay 2026 applications are now open!\n\nOur biggest developer event gets even bigger.\n\n📍 San Francisco\n📅 Septembe",
+        "summary": "OpenAI DevDay 2026 applications are now open!\n\nOur biggest developer event gets even bigger.\n\n📍 San Francisco\n📅 September 29\n\nApply by July 10: https://t.co/BJyK2EbKuu",
+        "link": "https://x.com/OpenAI/status/2069483224158646739",
+        "author": "OpenAI",
+        "published": "2026-06-23T18:10:24+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "In software, complexity is a tax you pay on every future change. You might think, \"as long as it works, I'm good, I don'",
+        "summary": "In software, complexity is a tax you pay on every future change. You might think, \"as long as it works, I'm good, I don't care about aesthetics\", but elegant code is about maintainability, not aesthetics. Elegant code is deeply practical.",
+        "link": "https://x.com/fchollet/status/2069483131447738768",
+        "author": "fchollet",
+        "published": "2026-06-23T18:10:02+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "openai devday apps are rolling out!\n\nform officially confirms that if you’re past 21 it’s over https://t.co/yL4bn45sLd",
+        "summary": "openai devday apps are rolling out!\n\nform officially confirms that if you’re past 21 it’s over https://t.co/yL4bn45sLd",
+        "link": "https://x.com/swyx/status/2069482335062688187",
+        "author": "swyx",
+        "published": "2026-06-23T18:06:52+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "congrats @jxmnop ! so many aie speakers announcing companies ahead of the conference https://t.co/GBagsBA9zC",
+        "summary": "congrats @jxmnop ! so many aie speakers announcing companies ahead of the conference https://t.co/GBagsBA9zC",
+        "link": "https://x.com/swyx/status/2069475852337996094",
+        "author": "swyx",
+        "published": "2026-06-23T17:41:06+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Great to have our Superintelligence team meetup in Boston last week. Building AI takes a real team of passionate and dri",
+        "summary": "Great to have our Superintelligence team meetup in Boston last week. Building AI takes a real team of passionate and driven folks. There's no substitute for getting face time with everyone all at once… the conversations are richer, the collaborations are stronger, and the progress compounds. Now back to it… in between World Cup matches",
+        "link": "https://x.com/mustafasuleyman/status/2069475712180834690",
+        "author": "mustafasuleyman",
+        "published": "2026-06-23T17:40:33+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and ",
+        "summary": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback!",
+        "link": "https://x.com/_catwu/status/2069473118742331608",
+        "author": "_catwu",
+        "published": "2026-06-23T17:30:15+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team.",
+        "summary": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team.",
+        "link": "https://x.com/alexalbert__/status/2069470389391241314",
+        "author": "alexalbert__",
+        "published": "2026-06-23T17:19:24+00:00",
+        "source_name": "Alex Albert",
+        "source_role": "Head of Claude Relations, Anthropic",
+        "source_handle": "alexalbert__"
+      },
+      {
+        "kind": "x",
+        "title": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to",
+        "summary": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye",
+        "link": "https://x.com/claudeai/status/2069468693017268244",
+        "author": "claudeai",
+        "published": "2026-06-23T17:12:39+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "There's way more demand for space than capacity to launch.\n\n@LongshotSpace is building a cannon that fires payloads into",
+        "summary": "There's way more demand for space than capacity to launch.\n\n@LongshotSpace is building a cannon that fires payloads into orbit.\n\nWe’re excited to partner with them at @southpkcommons.\n\nLet’s shoot things into space. https://t.co/TRWlr76HWn",
+        "link": "https://x.com/adityaag/status/2069464862556619263",
+        "author": "adityaag",
+        "published": "2026-06-23T16:57:26+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "AI in 2040 will not be built on the stack we are using today. It will be much closer to optimal. The current stack has 3",
+        "summary": "AI in 2040 will not be built on the stack we are using today. It will be much closer to optimal. The current stack has 3-4 orders of magnitude of data inefficiency and 4-5 orders of magnitude of compute inefficiency.\n\nNear-optimal AI is what symbolic learning will deliver.",
+        "link": "https://x.com/fchollet/status/2069457210456019363",
+        "author": "fchollet",
+        "published": "2026-06-23T16:27:02+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "OPFS + Pyodide test harness",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/opfs-pyodide\">OPFS + Pyodide test harness</a></p>\n        <p>I've been pondering if <a href=\"https://lite.datasette.io/\">Datasette Lite</a> - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer.</p>\n<p>That's what <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system\">OFPS</a> (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/",
+        "author": "",
+        "keywords": "browsers pyodide datasette-lite",
+        "published": "2026-06-23T18:58:54+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+        "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+        "link": "https://openai.com/index/gpt-5-immunology-mystery",
+        "author": "",
+        "keywords": "Applied AI",
+        "published": "2026-06-23T17:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders",
+        "summary": "We asked the ChatGPT Futures Class of 2026 what they hope AI helps people do next.\n\nTheir answers came back to access, education, connection, and possibility: AI that helps close gaps instead of widening them, gives more people the tools to learn and build, and creates more room for the human parts of life.",
+        "link": "https://www.youtube.com/shorts/mVpCDzoNtxA",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-23T18:45:29+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-23T16:00:00+00:00",
+    "end": "2026-06-23T22:00:00+00:00"
+  }
+}
