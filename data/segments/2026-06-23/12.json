@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-23T12:33:07.099961+00:00",
+  "counts": {
+    "x": 7,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "K-coding",
+        "summary": "K-coding",
+        "link": "https://x.com/amasad/status/2069322872456364540",
+        "author": "amasad",
+        "published": "2026-06-23T07:33:13+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "By their logic, yes",
+        "summary": "By their logic, yes",
+        "link": "https://x.com/elonmusk/status/2069301172544897374",
+        "author": "elonmusk",
+        "published": "2026-06-23T06:06:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market?\n\nS",
+        "summary": "i dont think anyone is correctly doing the math around how SpaceX, the NeoCloud+NeoLab, is currently going to market?\n\nSpaceX has already recouped about HALF its investment in Cursor, in compute deals. The other half is  paid for if Composer 3 does well. \n\nNo other company is simultaneously a leading model lab + neocloud (at least where GPUs is concerned). its a crazy effective combo iff you've adequately planned out gpu supply if inhouse training 1) goes very well 2) doesn't go very well",
+        "link": "https://x.com/swyx/status/2069301071965741388",
+        "author": "swyx",
+        "published": "2026-06-23T06:06:35+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2069300838581858791",
+        "author": "elonmusk",
+        "published": "2026-06-23T06:05:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Ok I've fallen for the ragebaiting and have been triggered by this so I'm going to say this: \n\nWhether intentional or no",
+        "summary": "Ok I've fallen for the ragebaiting and have been triggered by this so I'm going to say this: \n\nWhether intentional or not, there's a lot of virality that comes from:\n\n1. Pick the most ragebait moment of the conversation\n2. Make a clip of that exact moment\n3. Get tons of retweets and views\n\nI can tell it's rage baiting (just like the Corgi founder clip) but here's the thing - if even one parent watches this clip and decides to neglect their kids more then the damage is done.\n\nAnd yes it's hard to work at home when your kid comes back at 3 pm (or 1 pm with summer camp!) but we all make our choices.",
+        "link": "https://x.com/petergyang/status/2069279618969075819",
+        "author": "petergyang",
+        "published": "2026-06-23T04:41:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Maps are the primary force that shapes the territory they picture.",
+        "summary": "Maps are the primary force that shapes the territory they picture.",
+        "link": "https://x.com/fchollet/status/2069278767651209395",
+        "author": "fchollet",
+        "published": "2026-06-23T04:37:58+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "GLM now supported on Perplexity Agent API",
+        "summary": "GLM now supported on Perplexity Agent API",
+        "link": "https://x.com/AravSrinivas/status/2069276959251783797",
+        "author": "AravSrinivas",
+        "published": "2026-06-23T04:30:47+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How One API Runs 27 ML Tasks",
+        "summary": "One API. 27 different ML tasks. The secret is a simple input/output contract. The task ID defines what goes in and what comes out. Same pattern, every time.\n\n#TransformersJS #JavaScript #MachineLearning #AI #WebAI #Pipeline",
+        "link": "https://www.youtube.com/shorts/Xe67WF8Hfu8",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-23T07:50:42+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-23T04:00:00+00:00",
+    "end": "2026-06-23T10:00:00+00:00"
+  }
+}
