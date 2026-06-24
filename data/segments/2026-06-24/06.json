@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-24T07:41:26.096185+00:00",
+  "counts": {
+    "x": 13,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co",
+        "summary": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+        "link": "https://x.com/thsottiaux/status/2069624530960838914",
+        "author": "thsottiaux",
+        "published": "2026-06-24T03:31:54+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+        "summary": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+        "link": "https://x.com/petergyang/status/2069603490524254473",
+        "author": "petergyang",
+        "published": "2026-06-24T02:08:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they hav",
+        "summary": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!",
+        "link": "https://x.com/swyx/status/2069598378191941835",
+        "author": "swyx",
+        "published": "2026-06-24T01:47:59+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corpor",
+        "summary": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8",
+        "link": "https://x.com/levie/status/2069596515560267891",
+        "author": "levie",
+        "published": "2026-06-24T01:40:35+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Google fired the guy that made the google workspace cli, because he made the google workspace cli.\n\nLucky me, Google can",
+        "summary": "Google fired the guy that made the google workspace cli, because he made the google workspace cli.\n\nLucky me, Google can't fire me. https://t.co/o15a6lOxec",
+        "link": "https://x.com/steipete/status/2069594195522941059",
+        "author": "steipete",
+        "published": "2026-06-24T01:31:22+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+        "summary": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+        "link": "https://x.com/thsottiaux/status/2069592160966733853",
+        "author": "thsottiaux",
+        "published": "2026-06-24T01:23:16+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quali",
+        "summary": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers",
+        "link": "https://x.com/rauchg/status/2069590431646769472",
+        "author": "rauchg",
+        "published": "2026-06-24T01:16:24+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! ",
+        "summary": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf",
+        "link": "https://x.com/amasad/status/2069588152285794373",
+        "author": "amasad",
+        "published": "2026-06-24T01:07:21+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactl",
+        "summary": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactly the kind of person that needs to see this. You have no idea the shocking number of tech leadeds on here are secret @LITfellows alums and i have seen first hand how strong the bonds you form are, it blows my engineer mind.\n\nFREE ADMISSION, application in link reply",
+        "link": "https://x.com/swyx/status/2069582337034330186",
+        "author": "swyx",
+        "published": "2026-06-24T00:44:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+        "summary": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+        "link": "https://x.com/thsottiaux/status/2069579993588625574",
+        "author": "thsottiaux",
+        "published": "2026-06-24T00:34:56+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Market efficiency is a myth. Markets are made of people, who are irrational both individually and in aggregate.\n\nMaybe i",
+        "summary": "Market efficiency is a myth. Markets are made of people, who are irrational both individually and in aggregate.\n\nMaybe if human irrationality were completely random, it might average out to a rational whole. But in practice individual irrationality is driven by globally shared irrational narratives -- almost everybody is an irrational conformist.",
+        "link": "https://x.com/fchollet/status/2069555442951537134",
+        "author": "fchollet",
+        "published": "2026-06-23T22:57:22+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "wtf the Google Workspace CLI is super useful it should be celebrated?",
+        "summary": "wtf the Google Workspace CLI is super useful it should be celebrated?",
+        "link": "https://x.com/petergyang/status/2069551302246592799",
+        "author": "petergyang",
+        "published": "2026-06-23T22:40:55+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity",
+        "summary": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.",
+        "link": "https://x.com/karpathy/status/2069547676849557725",
+        "author": "karpathy",
+        "published": "2026-06-23T22:26:31+00:00",
+        "source_name": "Andrej Karpathy",
+        "source_role": "Eureka Labs / ex-OpenAI, Tesla",
+        "source_handle": "karpathy"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-24",
+        "summary": "AI 早报 2026 06 24 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 字节跳动发布豆包大模型2.1系列 ↗ 1 字节跳动发布 Seedance 2.5：支持 30 秒视频直出与局部编辑 ↗ 2 Anthropic 推出 Claude Tag，让 Claude 以团队成员身份常驻 Slack ↗ 3 模型发布 字节跳动发布音频生成模型 Doubao Seed Audio 1.0 ↗ 4 字节跳动发布 Seedance 2.0 升级支持原生 4K 及 10 bit 直出 ↗ 5 字节跳动发布豆包图像模型 Seedream 5.0 Pro 将于近期上线 ↗ 6 即梦AI上线SeedMusic 1.0 Preview模型 ↗ 7 Mistral AI 发布 Mistral OCR 4 模型 支持输出结…",
+        "link": "https://daily.juya.uk/issues/2026-06-24/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-24T01:08:00+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How On Policy Self Distillation Works - Sasha Rush",
+        "summary": "I recently met Sasha Rush and he started giving me an impromptu lecture on how targeted on-policy self-distillation works.\n\nI asked him if I could record it on my iPhone. \n\nThe basic idea is this: if the model made a mistake at some point in the rollout (for example, calling a tool that doesn't exist), we want to discourage this specific error, but we don't want to just learn from the final reward, because it's a very noisy signal spread out over the whole trajectory.\n\nSo we have another model read this trajectory and figure where the error was made. It simply inserts some hint tokens to the part of the trajectory right above where the mistake was made. \n\nNow with these injected hint tokens, have the model run a forward pass. You're not having to regenerate a new rollout - aka no new decode required. \n\nThe hint causes the model to assign lower probabilities to the error tokens. You then trains the original model to match these new probabilities, teaching it to down-weight that specific mistake.",
+        "link": "https://www.youtube.com/watch?v=wxOZWD6wYVY",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-23T22:35:33+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-23T22:00:00+00:00",
+    "end": "2026-06-24T04:00:00+00:00"
+  }
+}
