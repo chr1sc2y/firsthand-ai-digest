@@ -1,0 +1,628 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T17:55:03.089574+00:00",
+  "source_segments": [
+    "segments/2026-06-24/00.json",
+    "segments/2026-06-24/06.json",
+    "segments/2026-06-24/12.json",
+    "segments/2026-06-24/18.json"
+  ],
+  "counts": {
+    "x": 47,
+    "blogs": 3,
+    "podcasts": 2,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Use the official @MongoDB plugin in Grok Build to query data, optimize indexes, and manage databases. https://t.co/eKT8K",
+        "summary": "Use the official @MongoDB plugin in Grok Build to query data, optimize indexes, and manage databases. https://t.co/eKT8KN9FD8",
+        "link": "https://x.com/xai/status/2069809728088350789",
+        "author": "xai",
+        "published": "2026-06-24T15:47:49+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "Introducing Jalapeño — designed from scratch for LLM inference over nine months, accelerated by our models. Perf per wat",
+        "summary": "Introducing Jalapeño — designed from scratch for LLM inference over nine months, accelerated by our models. Perf per watt looking incredible.",
+        "link": "https://x.com/gdb/status/2069809298612621629",
+        "author": "gdb",
+        "published": "2026-06-24T15:46:06+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "The best way to understand a complex system is via edge cases and failure modes, because they define the contour of the ",
+        "summary": "The best way to understand a complex system is via edge cases and failure modes, because they define the contour of the system.",
+        "link": "https://x.com/fchollet/status/2069808712890585191",
+        "author": "fchollet",
+        "published": "2026-06-24T15:43:46+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink",
+        "summary": "Starlink",
+        "link": "https://x.com/elonmusk/status/2069807896767107532",
+        "author": "elonmusk",
+        "published": "2026-06-24T15:40:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Are we hurtling toward a future where AI can do everything humans can?\n\nEdwin Chen (@echen) believes we might be. He’s t",
+        "summary": "Are we hurtling toward a future where AI can do everything humans can?\n\nEdwin Chen (@echen) believes we might be. He’s the CEO of Surge AI, one of the largest providers of expert data for frontier labs. Surge passed over $1 billion in revenue without raising any outside capital, and that gives Edwin a unique perspective on how quickly AI progress is accelerating.\n\nI’m on the record arguing that AI automation actually creates more human work. I also believe that even though AI progress is accelerating exponentially, we’re much farther away from AI replacing humans than it might seem.\n\nThat’s why I had Edwin on @every’s AI & I. We batted around different visions of the future, and discussed whether humanity will retain its unique place in the universe, and what that might be.\n\nWe get into:\n• If Chen’s version of the future materializes, he’s worried it’ll make people stop trying. One answer comes from a short story by science fiction writer Ted Chiang: Behave as if your decisions matter, even when you know they don’t.\n• AI may soon be able to take a nebulous goal like “win a Fields Medal” and execute. What it can’t do, I argue, is set its own goals—LLMs have no intrinsic motivation, no drive to explore, no ability to just change their mind.\n• A model optimized for engagement doesn’t provide the most valuable user experience. Edwin spent 20 rounds polishing a pointless email with one model before Claude told him to just send it.\n• Why AI is still bad at writing: models learn to hack the metrics they're trained on. Edwin's Hemingway Bench found models outputting a metaphor in every single sentence, an overindexxing that makes for a terrible reading experience.\n\nThis is a must-watch for anyone interested in where we fit as models get more capable.\n\nWatch below!\n\nTimestamps\n1. Introduction: 00:00:54\n2. Surge as a \"school for AGI\": 00:01:49\n3. What AI's capacity for novel mathematics says about human achievement: 00:04:46\n4. Motivation in an era when AI can do everything: 00:07:29\n5. The trap of optimizing AI models for engagement: 00:14:34\n6. Training using datasets versus training using environments: 00:29:34\n7. The value of personal data: 00:35:09\n8. Why models are bad at writing: 00:39:40\n9. Chen's AGI timeline: 00:42:00",
+        "link": "https://x.com/danshipper/status/2069805581263847467",
+        "author": "danshipper",
+        "published": "2026-06-24T15:31:20+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "I love using Hermes from @NousResearch as my 24/7 AI chief of staff because it's reliable, free, and open source.\n\nHere'",
+        "summary": "I love using Hermes from @NousResearch as my 24/7 AI chief of staff because it's reliable, free, and open source.\n\nHere's my new 45-minute free course that covers how to:\n\n→ Install Hermes safely\n\n→ Connect Telegram, voice, Google Workspace, and more\n\n→ Create routines like morning briefing, business review, and health check\n\n📌 Watch the full course now: https://t.co/hpo2i73auX",
+        "link": "https://x.com/petergyang/status/2069805257513980158",
+        "author": "petergyang",
+        "published": "2026-06-24T15:30:03+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "happy karpathy agent day for those who celebrate",
+        "summary": "happy karpathy agent day for those who celebrate",
+        "link": "https://x.com/swyx/status/2069803483423994361",
+        "author": "swyx",
+        "published": "2026-06-24T15:23:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "What happens when millions of AI agents start negotiating, transacting, and delegating to one another?\n\n@weballergy join",
+        "summary": "What happens when millions of AI agents start negotiating, transacting, and delegating to one another?\n\n@weballergy joined our podcast with @fryrsquared to explore the rise of agentic economies – and how we can diversify agent decision-making to avoid AI groupthink.\n\nTimecodes:\n00:00 Intro\n1:07 Defining AI agents\n4:44 Agentic exploration in science and research\n15:46 Delegation between agents\n22:46 Agentic security and traps\n29:31 Building an agentic economy\n33:22 Cognitive monoculture\n36:29 Distributed intelligence",
+        "link": "https://x.com/GoogleDeepMind/status/2069785314663497966",
+        "author": "GoogleDeepMind",
+        "published": "2026-06-24T14:10:48+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "We’ve designed and built our first AI chip: Jalapeño.\n\nDesigned from the ground up by OpenAI and brought to production w",
+        "summary": "We’ve designed and built our first AI chip: Jalapeño.\n\nDesigned from the ground up by OpenAI and brought to production with @Broadcom, Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products.\n\nChips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI.",
+        "link": "https://x.com/OpenAI/status/2069770172802773292",
+        "author": "OpenAI",
+        "published": "2026-06-24T13:10:38+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/ZrOeFyHgeo",
+        "summary": "https://t.co/ZrOeFyHgeo",
+        "link": "https://x.com/ylecun/status/2069765820121485385",
+        "author": "ylecun",
+        "published": "2026-06-24T12:53:20+00:00",
+        "source_name": "Yann LeCun",
+        "source_role": "Chief AI Scientist, Meta",
+        "source_handle": "ylecun"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok",
+        "summary": "Try Grok",
+        "link": "https://x.com/elonmusk/status/2069690741295861935",
+        "author": "elonmusk",
+        "published": "2026-06-24T07:55:00+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🤣🤣 https://t.co/m4sKLgkLCs",
+        "summary": "🤣🤣 https://t.co/m4sKLgkLCs",
+        "link": "https://x.com/elonmusk/status/2069665946286043260",
+        "author": "elonmusk",
+        "published": "2026-06-24T06:16:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between hig",
+        "summary": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. \n\nThen the question is how do you maximize efficiency from the frontier models, and get better quality and performance of the cheaper models. That’s where the applied AI layer comes in.\n\nThe applied layer can route to the best model at any time given the workload at hand, as well as mitigate either high token costs or worse performance. The closer you are to the underlying workflow, the better you can tune the use of models for a given business process. \n\nThat’s all about understanding the workflows, domain specific FDEs, evals by customer or process, getting data setup well for agents, and more. Overall good for applied AI.",
+        "link": "https://x.com/levie/status/2069639600310767616",
+        "author": "levie",
+        "published": "2026-06-24T04:31:47+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co",
+        "summary": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+        "link": "https://x.com/thsottiaux/status/2069624530960838914",
+        "author": "thsottiaux",
+        "published": "2026-06-24T03:31:54+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+        "summary": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+        "link": "https://x.com/petergyang/status/2069603490524254473",
+        "author": "petergyang",
+        "published": "2026-06-24T02:08:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they hav",
+        "summary": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!",
+        "link": "https://x.com/swyx/status/2069598378191941835",
+        "author": "swyx",
+        "published": "2026-06-24T01:47:59+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corpor",
+        "summary": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8",
+        "link": "https://x.com/levie/status/2069596515560267891",
+        "author": "levie",
+        "published": "2026-06-24T01:40:35+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Google fired the guy that made the google workspace cli, because he made the google workspace cli.\n\nLucky me, Google can",
+        "summary": "Google fired the guy that made the google workspace cli, because he made the google workspace cli.\n\nLucky me, Google can't fire me. https://t.co/o15a6lOxec",
+        "link": "https://x.com/steipete/status/2069594195522941059",
+        "author": "steipete",
+        "published": "2026-06-24T01:31:22+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+        "summary": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+        "link": "https://x.com/thsottiaux/status/2069592160966733853",
+        "author": "thsottiaux",
+        "published": "2026-06-24T01:23:16+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quali",
+        "summary": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers",
+        "link": "https://x.com/rauchg/status/2069590431646769472",
+        "author": "rauchg",
+        "published": "2026-06-24T01:16:24+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! ",
+        "summary": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf",
+        "link": "https://x.com/amasad/status/2069588152285794373",
+        "author": "amasad",
+        "published": "2026-06-24T01:07:21+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactl",
+        "summary": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactly the kind of person that needs to see this. You have no idea the shocking number of tech leadeds on here are secret @LITfellows alums and i have seen first hand how strong the bonds you form are, it blows my engineer mind.\n\nFREE ADMISSION, application in link reply",
+        "link": "https://x.com/swyx/status/2069582337034330186",
+        "author": "swyx",
+        "published": "2026-06-24T00:44:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+        "summary": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+        "link": "https://x.com/thsottiaux/status/2069579993588625574",
+        "author": "thsottiaux",
+        "published": "2026-06-24T00:34:56+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Market efficiency is a myth. Markets are made of people, who are irrational both individually and in aggregate.\n\nMaybe i",
+        "summary": "Market efficiency is a myth. Markets are made of people, who are irrational both individually and in aggregate.\n\nMaybe if human irrationality were completely random, it might average out to a rational whole. But in practice individual irrationality is driven by globally shared irrational narratives -- almost everybody is an irrational conformist.",
+        "link": "https://x.com/fchollet/status/2069555442951537134",
+        "author": "fchollet",
+        "published": "2026-06-23T22:57:22+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "wtf the Google Workspace CLI is super useful it should be celebrated?",
+        "summary": "wtf the Google Workspace CLI is super useful it should be celebrated?",
+        "link": "https://x.com/petergyang/status/2069551302246592799",
+        "author": "petergyang",
+        "published": "2026-06-23T22:40:55+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity",
+        "summary": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.",
+        "link": "https://x.com/karpathy/status/2069547676849557725",
+        "author": "karpathy",
+        "published": "2026-06-23T22:26:31+00:00",
+        "source_name": "Andrej Karpathy",
+        "source_role": "Eureka Labs / ex-OpenAI, Tesla",
+        "source_handle": "karpathy"
+      },
+      {
+        "kind": "x",
+        "title": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace",
+        "summary": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace",
+        "link": "https://x.com/xai/status/2069536627349962987",
+        "author": "xai",
+        "published": "2026-06-23T21:42:36+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2069535856491483484",
+        "author": "elonmusk",
+        "published": "2026-06-23T21:39:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink coming to @AmericanAir next year!",
+        "summary": "Starlink coming to @AmericanAir next year!",
+        "link": "https://x.com/elonmusk/status/2069535601892987275",
+        "author": "elonmusk",
+        "published": "2026-06-23T21:38:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance revie",
+        "summary": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅",
+        "link": "https://x.com/petergyang/status/2069530765352907180",
+        "author": "petergyang",
+        "published": "2026-06-23T21:19:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tip of the iceberg",
+        "summary": "Tip of the iceberg",
+        "link": "https://x.com/elonmusk/status/2069514943385469087",
+        "author": "elonmusk",
+        "published": "2026-06-23T20:16:26+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel + Cursor",
+        "summary": "Vercel + Cursor",
+        "link": "https://x.com/rauchg/status/2069513849578082474",
+        "author": "rauchg",
+        "published": "2026-06-23T20:12:06+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/alxIRYyCVp",
+        "summary": "https://t.co/alxIRYyCVp",
+        "link": "https://x.com/elonmusk/status/2069497797993451848",
+        "author": "elonmusk",
+        "published": "2026-06-23T19:08:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "💫",
+        "summary": "💫",
+        "link": "https://x.com/elonmusk/status/2069493276525449553",
+        "author": "elonmusk",
+        "published": "2026-06-23T18:50:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with ",
+        "summary": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with our internal users and external design partners:",
+        "link": "https://x.com/_catwu/status/2069486403696869555",
+        "author": "_catwu",
+        "published": "2026-06-23T18:23:02+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "This is such a good idea.",
+        "summary": "This is such a good idea.",
+        "link": "https://x.com/kevinweil/status/2069485206290248036",
+        "author": "kevinweil",
+        "published": "2026-06-23T18:18:17+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "Here’s our Get Started guide for configuring agent permissions for Claude Tag!",
+        "summary": "Here’s our Get Started guide for configuring agent permissions for Claude Tag!",
+        "link": "https://x.com/_catwu/status/2069484330938998993",
+        "author": "_catwu",
+        "published": "2026-06-23T18:14:48+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI DevDay 2026 applications are now open!\n\nOur biggest developer event gets even bigger.\n\n📍 San Francisco\n📅 Septembe",
+        "summary": "OpenAI DevDay 2026 applications are now open!\n\nOur biggest developer event gets even bigger.\n\n📍 San Francisco\n📅 September 29\n\nApply by July 10: https://t.co/BJyK2EbKuu",
+        "link": "https://x.com/OpenAI/status/2069483224158646739",
+        "author": "OpenAI",
+        "published": "2026-06-23T18:10:24+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "In software, complexity is a tax you pay on every future change. You might think, \"as long as it works, I'm good, I don'",
+        "summary": "In software, complexity is a tax you pay on every future change. You might think, \"as long as it works, I'm good, I don't care about aesthetics\", but elegant code is about maintainability, not aesthetics. Elegant code is deeply practical.",
+        "link": "https://x.com/fchollet/status/2069483131447738768",
+        "author": "fchollet",
+        "published": "2026-06-23T18:10:02+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "openai devday apps are rolling out!\n\nform officially confirms that if you’re past 21 it’s over https://t.co/yL4bn45sLd",
+        "summary": "openai devday apps are rolling out!\n\nform officially confirms that if you’re past 21 it’s over https://t.co/yL4bn45sLd",
+        "link": "https://x.com/swyx/status/2069482335062688187",
+        "author": "swyx",
+        "published": "2026-06-23T18:06:52+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "congrats @jxmnop ! so many aie speakers announcing companies ahead of the conference https://t.co/GBagsBA9zC",
+        "summary": "congrats @jxmnop ! so many aie speakers announcing companies ahead of the conference https://t.co/GBagsBA9zC",
+        "link": "https://x.com/swyx/status/2069475852337996094",
+        "author": "swyx",
+        "published": "2026-06-23T17:41:06+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Great to have our Superintelligence team meetup in Boston last week. Building AI takes a real team of passionate and dri",
+        "summary": "Great to have our Superintelligence team meetup in Boston last week. Building AI takes a real team of passionate and driven folks. There's no substitute for getting face time with everyone all at once… the conversations are richer, the collaborations are stronger, and the progress compounds. Now back to it… in between World Cup matches",
+        "link": "https://x.com/mustafasuleyman/status/2069475712180834690",
+        "author": "mustafasuleyman",
+        "published": "2026-06-23T17:40:33+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and ",
+        "summary": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback!",
+        "link": "https://x.com/_catwu/status/2069473118742331608",
+        "author": "_catwu",
+        "published": "2026-06-23T17:30:15+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team.",
+        "summary": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team.",
+        "link": "https://x.com/alexalbert__/status/2069470389391241314",
+        "author": "alexalbert__",
+        "published": "2026-06-23T17:19:24+00:00",
+        "source_name": "Alex Albert",
+        "source_role": "Head of Claude Relations, Anthropic",
+        "source_handle": "alexalbert__"
+      },
+      {
+        "kind": "x",
+        "title": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to",
+        "summary": "Introducing Claude Tag, a new way for teams to work with Claude.\n\nIn Slack, Claude joins as a team member with access to the channels and tools you choose. Tag Claude in and delegate tasks to it while you focus on other work. https://t.co/R2C6A5Kcye",
+        "link": "https://x.com/claudeai/status/2069468693017268244",
+        "author": "claudeai",
+        "published": "2026-06-23T17:12:39+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "There's way more demand for space than capacity to launch.\n\n@LongshotSpace is building a cannon that fires payloads into",
+        "summary": "There's way more demand for space than capacity to launch.\n\n@LongshotSpace is building a cannon that fires payloads into orbit.\n\nWe’re excited to partner with them at @southpkcommons.\n\nLet’s shoot things into space. https://t.co/TRWlr76HWn",
+        "link": "https://x.com/adityaag/status/2069464862556619263",
+        "author": "adityaag",
+        "published": "2026-06-23T16:57:26+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "AI in 2040 will not be built on the stack we are using today. It will be much closer to optimal. The current stack has 3",
+        "summary": "AI in 2040 will not be built on the stack we are using today. It will be much closer to optimal. The current stack has 3-4 orders of magnitude of data inefficiency and 4-5 orders of magnitude of compute inefficiency.\n\nNear-optimal AI is what symbolic learning will deliver.",
+        "link": "https://x.com/fchollet/status/2069457210456019363",
+        "author": "fchollet",
+        "published": "2026-06-23T16:27:02+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-24",
+        "summary": "AI 早报 2026 06 24 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 字节跳动发布豆包大模型2.1系列 ↗ 1 字节跳动发布 Seedance 2.5：支持 30 秒视频直出与局部编辑 ↗ 2 Anthropic 推出 Claude Tag，让 Claude 以团队成员身份常驻 Slack ↗ 3 模型发布 字节跳动发布音频生成模型 Doubao Seed Audio 1.0 ↗ 4 字节跳动发布 Seedance 2.0 升级支持原生 4K 及 10 bit 直出 ↗ 5 字节跳动发布豆包图像模型 Seedream 5.0 Pro 将于近期上线 ↗ 6 即梦AI上线SeedMusic 1.0 Preview模型 ↗ 7 Mistral AI 发布 Mistral OCR 4 模型 支持输出结…",
+        "link": "https://daily.juya.uk/issues/2026-06-24/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-24T01:08:00+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "OPFS + Pyodide test harness",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/opfs-pyodide\">OPFS + Pyodide test harness</a></p>\n        <p>I've been pondering if <a href=\"https://lite.datasette.io/\">Datasette Lite</a> - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored on the user's computer.</p>\n<p>That's what <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system\">OFPS</a> (Origin Private File System) is for, so I had Claude Code for web build me this playground UI to try it out in different browsers.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/",
+        "author": "",
+        "keywords": "browsers pyodide datasette-lite",
+        "published": "2026-06-23T18:58:54+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+        "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+        "link": "https://openai.com/index/gpt-5-immunology-mystery",
+        "author": "",
+        "keywords": "Applied AI",
+        "published": "2026-06-23T17:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Building a School Where AI Models Learn About Humanity",
+        "summary": "<p>If scaling laws hold—and Surge AI CEO Edwin Chen believes they do—we’re hurtling toward a future where there’s nothing humans can do that AI can’t do better. When OpenAI’s models disproved an open conjecture posed by mathematician Paul Erdős using novel algebraic geometry techniques, Fields medalist Timothy Gowers felt the shift acutely. He initially thought the model had proved an upper bound, and braced himself: that would mean it was “all over for mathematicians very soon.” When he realized it had only found a counterexample, he was relieved—it bought him another year or two before the thing he’s devoted his life to becomes something AI does better.</p><p>As founder and CEO of the company behind the data environments and evals the major model companies use to train their models, Chen has a unique perspective on how quickly AI models are absorbing tasks we used to think of as uniquely human.</p><p>Dan Shipper talked with Chen for AI &amp; I about what the act of creating or building means when AI can do it better—and whether an answer to that question already exists within science fiction.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!</p><p>Join the membership for Where You Live at ⁠https://www.joinbilt.com/dan</p><p>To hear more from Dan Shipper:<br />Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper</p><p>Timestamps:<br />00:00:54 Introduction<br />00:01:49 Surge as a \"school for AGI\"<br />00:04:46 What AI's capacity for novel mathematics says about human achievement<br />00:07:29 Motivation in an era when AI can do everything<br />00:14:34 The trap of optimizing AI models for engagement<br />00:29:34 Training using datasets versus training using environments<br />00:35:09 The value of personal data<br />00:39:40 Why models are bad at writing<br />00:42:00 Chen's AGI timeline</p><p>Links to resources mentioned in the episode:<br />Edwin Chen on X: https://x.com/echen<br />Surge: https://surgehq.ai<br />Riemann-bench (research-level math benchmark): https://surgehq.ai/leaderboards/riemann-bench<br />Hemingway-bench (creative writing benchmark): https://surgehq.ai/leaderboards/hemingway-bench<br />Talkie-1930 (language model trained on pre-1930 text): https://huggingface.co/talkie-lm/talkie-1930-13b-it<br />Ted Chiang, “What’s Expected of Us”: https://www.nature.com/articles/436150a</p><p>Every is the most AI-native startup on the internet. Through ideas, software and education, subscribers get the tools to work at the frontier of AI. Start your free trial today: https://every.to/subscribe?utm_source=youtube</p><p>Follow Every: https://x.com/every<br />Follow Dan Shipper: https://x.com/danshipper</p>",
+        "link": "https://share.transistor.fm/s/7c98c8cd",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-06-24T14:45:00+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      },
+      {
+        "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+        "summary": "Dan Biderman and Jessy Lin, co-founders of Engram, are building a neolab around memory and continual learning, which they call two sides of the same coin. Their contrarian premise: instead of stuffing ever-larger prompts into the context window or bolting on RAG, bake a team's knowledge directly into the model's weights, so it knows your company the way an employee of several years does. \n\nThe payoff: matching or beating frontier models while consuming up to 100x fewer tokens. Working with partners like Microsoft, Notion, and Harvey, the team draws on roots in computational neuroscience and state-space architectures to attack what they see as the real bottleneck in AI — not raw intelligence, but memory and continual learning. In contrast to the frontier labs' race toward one ever-bigger model and AGI, Dan and Jessy imagine a world where everyone has their own model — privately trained, always learning, and good at the things you actually care about. The real ChatGPT moment for memory, they argue, is the day your model feels like an intern that genuinely got smarter overnight.\n\nHosted by Sonya Huang and Shaun Maguire, Sequoia Capital",
+        "link": "",
+        "author": "Sequoia Capital",
+        "keywords": "",
+        "published": "2026-06-24T14:22:00+00:00",
+        "kind": "podcast",
+        "source_name": "Training Data",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "Training Data"
+      }
+    ],
+    "videos": [
+      {
+        "title": "How On Policy Self Distillation Works - Sasha Rush",
+        "summary": "I recently met Sasha Rush and he started giving me an impromptu lecture on how targeted on-policy self-distillation works.\n\nI asked him if I could record it on my iPhone. \n\nThe basic idea is this: if the model made a mistake at some point in the rollout (for example, calling a tool that doesn't exist), we want to discourage this specific error, but we don't want to just learn from the final reward, because it's a very noisy signal spread out over the whole trajectory.\n\nSo we have another model read this trajectory and figure where the error was made. It simply inserts some hint tokens to the part of the trajectory right above where the mistake was made. \n\nNow with these injected hint tokens, have the model run a forward pass. You're not having to regenerate a new rollout - aka no new decode required. \n\nThe hint causes the model to assign lower probabilities to the error tokens. You then trains the original model to match these new probabilities, teaching it to down-weight that specific mistake.",
+        "link": "https://www.youtube.com/watch?v=wxOZWD6wYVY",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-23T22:35:33+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders",
+        "summary": "We asked the ChatGPT Futures Class of 2026 what they hope AI helps people do next.\n\nTheir answers came back to access, education, connection, and possibility: AI that helps close gaps instead of widening them, gives more people the tools to learn and build, and creates more room for the human parts of life.",
+        "link": "https://www.youtube.com/shorts/mVpCDzoNtxA",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-23T18:45:29+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}
