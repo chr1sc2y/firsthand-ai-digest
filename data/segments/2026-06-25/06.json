@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-25T07:42:33.024358+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Claude Design is pretty great. \n\nI gave it a repo for a mobile app I'm building and it reproduced the screens perfectly.",
+        "summary": "Claude Design is pretty great. \n\nI gave it a repo for a mobile app I'm building and it reproduced the screens perfectly.\n\nExcept after one prompt it's telling me to save tokens already 😅 https://t.co/k6hQ53zmFN",
+        "link": "https://x.com/petergyang/status/2069992268963135897",
+        "author": "petergyang",
+        "published": "2026-06-25T03:53:10+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "There are some subtleties in this launch that are very important in practice. This isn’t just you interacting with Claud",
+        "summary": "There are some subtleties in this launch that are very important in practice. This isn’t just you interacting with Claude in a 1:1 format via Slack. In this case, Claude acts as a coworker that any user can tap into in a shared way.\n\nWe’ve already seen some agentic coding systems start to adopt this pattern (as well as OpenClaw and Hermes), and doing it for general purpose knowledge work continues to push the idea forward.\n\nAs a result, what this means is that this agentic coworker needs its own set of resources, access to tools, and data to work with. This is not the same as you giving it access to your personal resources and tools, because the agent then could accidentally then share those out with anyone. \n\nThe agent needs to instead be like any other user in the system, and you need to be thoughtful about what it should have access to, and make sure its information that is safe to share with that group.\n\nWhen you can pull that off, it’s quite powerful. For instance, by connecting to Claude Tag to Box, you could have Claude access corporate sales materials for questions in sales conversations or generating RFPs, brand guidelines and marketing assets for campaign creation, product roadmap materials and product documentation for coding agents to use, contracts that anyone in the legal team can access, and more.\n\nBut this is just the Box example. You can equally have it access your product or customer analytics data, CRM information, codebase, and other resources and agents that would make sense to work on in a collective manner. \n\nIt’s awesome to see continued innovation in what the future of work may begin to look like with agents.",
+        "link": "https://x.com/levie/status/2069975251476422664",
+        "author": "levie",
+        "published": "2026-06-25T02:45:32+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and rese",
+        "summary": "lots of folks prepping talks next week (congrats!). Some thoughts from RLing on thousands of hours of engineer- and researcher- focused talks:\n\n- AI generated svgs > AI generated imgs. MAXIMUM 4 ai slop images in your slides, I don't care how pretty your mom thinks they are (exception ofc if your talk is ABOUT imagegen)\n- Be pointy. Better to have 1 message with 5 surprising applications, than 5 messages with no concrete examples.\n- Put code on screen. Engineers like to see code. Especially if they can nitpick it to death over things that aren't the point.\n- Don't forget to Entertain. Being actually funny, or good at telling relevant anecdotes, is more important than adding yet another bullet point.\n- Have a Thesis. every talk gets ONE \"if you remember one thing from this talk, it is this\" card. 1) SO MANY PEOPLE DON'T USE IT. 2) SO MANY PEOPLE DON'T PLAN FOR IT. you get one. use it well?\n- Have a Thesis Slide. you've been in that talk where everyone gets their phone out to take a photo of the slide. Because people see 1000x more images than videos, you are much more likely to have a viral talk/slide if you have a single viral slide. You are much more likely to have a viral slide if you TRY and most people do not TRY. Struggling? Collect examples from talks you like and adapt their format to your thing. Your slides have a power law - don't spend 5% of your time each on 20 slides, spend 80% of your time on 1 slide and have the rest build up to that 1 slide.\n- You might not need slides. live demo in IDE, off the cuff rambles, pull audience member up to roleplay, do call and response with the audience, sing/perform, voice over vibe videos, I have seen it all. higher risk/effort, higher reward when done well.\n- Be pleasant to listen to. Talks with bad/no visuals still can be listened to. Talks with bad audio are DOA. Be confident, project, remember vocal variation, evoke emotion.\n- Design the emotional journey. Start strong, end strong, have a peak aha/laugh/thesis moment in the middle. Everything else is buildup.\n- Data driven talks are underrated. Present pretty charts and surprising, authoritative numbers. Use the stage authority to infer from the data to support the broader thesis. Done well, it will feel like my obvious conclusion from objectively looking at the data you presented, not you feeding the conclusion to me.\n- How to shill your product/company without feeling salesy: teach me everything I didn't know I should to know about the problems you solve, and then you shall have earned the right to convince me you are the guys to trust to solve it once and for all.\n- Actively watch a lot of talks. like with anything you both need a lot of reps AND you need to explore to find the styles/role models that you shine in. Passive = no introspection after watching, just mindlessly autoplay next video. Active = trying to articulate why a talk was good/bad after watching. If you want to REALLY hone it, think about how you feel about a famous talk and then TRANSCRIBE the talks and read the words on the printed page, and then compare with a \"normal\" talk and define rules you will follow for yourself to improve.\n\nthanks to @dexhorthy for organizing the AIEWF Speaker prep meetup tonight. we should actually do more of these....",
+        "link": "https://x.com/swyx/status/2069964772003770673",
+        "author": "swyx",
+        "published": "2026-06-25T02:03:54+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Ok, I am interviewing the legend @trq212 on Friday. I'm planning to ask him to show me:\n\n→ His Claude Code setup and how",
+        "summary": "Ok, I am interviewing the legend @trq212 on Friday. I'm planning to ask him to show me:\n\n→ His Claude Code setup and how he uses /goal and /loop and dynamic workflows\n\n→ How he does planning with HTML + artifacts\n\n→ His best practices for Claude Tag\n\nWhat else should we cover? Let us know in the replies.",
+        "link": "https://x.com/petergyang/status/2069956492900610435",
+        "author": "petergyang",
+        "published": "2026-06-25T01:31:00+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I told @samstphenson today that if I don't have @meetgranola on in a meeting I basically feel naked.\n\nPerhaps the best p",
+        "summary": "I told @samstphenson today that if I don't have @meetgranola on in a meeting I basically feel naked.\n\nPerhaps the best product market fit signal lol https://t.co/QDRQkhgd1O",
+        "link": "https://x.com/petergyang/status/2069945112084537419",
+        "author": "petergyang",
+        "published": "2026-06-25T00:45:47+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Take one hour tonight to follow my Hermes tutorial below to install the app, set up your Telegram bot, enable voice, con",
+        "summary": "Take one hour tonight to follow my Hermes tutorial below to install the app, set up your Telegram bot, enable voice, connect Google Workspace, and create a few routines.\n\nI made it super beginner friendly and walked through all the steps live in 45 min. You won't regret it.\n\n📌 Watch here: https://t.co/RPAtyPKGQS",
+        "link": "https://x.com/petergyang/status/2069939146265911525",
+        "author": "petergyang",
+        "published": "2026-06-25T00:22:04+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "we are going to have to Rebuild So. Much. Infra. for the age of Software Factories",
+        "summary": "we are going to have to Rebuild So. Much. Infra. for the age of Software Factories",
+        "link": "https://x.com/swyx/status/2069937175899275475",
+        "author": "swyx",
+        "published": "2026-06-25T00:14:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2069933635508338974",
+        "author": "elonmusk",
+        "published": "2026-06-25T00:00:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Computer can now connect to Legal Research data.",
+        "summary": "Computer can now connect to Legal Research data.",
+        "link": "https://x.com/AravSrinivas/status/2069915863277334868",
+        "author": "AravSrinivas",
+        "published": "2026-06-24T22:49:33+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "No more goals plz brazil, thank you.",
+        "summary": "No more goals plz brazil, thank you.",
+        "link": "https://x.com/AmandaAskell/status/2069910673921048985",
+        "author": "AmandaAskell",
+        "published": "2026-06-24T22:28:56+00:00",
+        "source_name": "Amanda Askell",
+        "source_role": "Philosopher, Anthropic",
+        "source_handle": "AmandaAskell"
+      },
+      {
+        "kind": "x",
+        "title": "I've known @berman66 for awhile and it's awesome to see him and the team build @runlayer to become the fastest onramp fo",
+        "summary": "I've known @berman66 for awhile and it's awesome to see him and the team build @runlayer to become the fastest onramp for enterprises to become AI native.",
+        "link": "https://x.com/petergyang/status/2069906038346961211",
+        "author": "petergyang",
+        "published": "2026-06-24T22:10:31+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-06-25",
+        "summary": "AI 早报 2026 06 25 视频版 ：YouTube 概览 要闻 OpenAI 联合 Broadcom 推出自研 AI 芯片 Jalapeño ↗ 1 豆包专业版发布 推出 68 元起阶梯订阅及大学生特惠 ↗ 2 模型发布 阿里发布开源首个语言世界模型Qwen AgentWorld ↗ 3 Google 推出 Gemini 3.5 Flash 内置 Computer Use 功能 ↗ 4 产品应用 Google Flow Agent 接入 Street View 生成真实场景图像 ↗ 5 Notion 推出 External Agents 功能，接入 Claude 与 Cursor ↗ 6 Figma 发布 Config 2026 更新：引入 Motion、生成式插件与 Agent ↗ 7 行业动态 英…",
+        "link": "https://daily.juya.uk/issues/2026-06-25/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-06-25T00:38:00+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "simonw/browser-compat-db",
+        "summary": "<p><strong><a href=\"https://github.com/simonw/browser-compat-db\">simonw/browser-compat-db</a></strong></p>\nInspired by Mozilla's <a href=\"https://developer.mozilla.org/en-US/blog/introducing-mdn-mcp-server/\">new MDN MCP service</a> - <a href=\"https://github.com/mdn/mcp\">source code here</a> - I decided to try converting their comprehensive <a href=\"https://github.com/mdn/browser-compat-data\">mdn/browser-compat-data</a> repository full of browser compatibility data into a SQLite database.</p>\n<p>This new GitHub repo includes a Claude Code for web (Opus 4.8) <a href=\"https://github.com/simonw/browser-compat-db/blob/main/build_db.py\">generated script</a> for doing that using <a href=\"https://github.com/simonw/sqlite-utils\">sqlite-utils</a>.</p>\n<p>I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build <a href=\"https://github.com/simonw/browser-compat-db/blob/main/.github/workflows/build-db.yml\">a GitHub Actions workflow</a> that builds the database and then force-pushes it to a <code>db</code> \"orphan\" branch.</p>\n<p>You can download the resulting database <a href=\"https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db\">from here</a>, and since it's hosted with open CORS headers you can also <a href=\"https://lite.datasette.io/?url=https://github.com/simonw/browser-compat-db/blob/db/browser-compat.db#/browser-compat/releases_tree\">explore it with Datasette Lite</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/mozilla\">mozilla</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/github-actions\">github-actions</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a>, <a href=\"https://simonwillison.net/tags/mdn\">mdn</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/24/browser-compat-db/",
+        "author": "",
+        "keywords": "github mozilla projects github-actions datasette-lite ai-assisted-programming model-context-protocol mdn",
+        "published": "2026-06-24T23:59:03+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-24T22:00:00+00:00",
+    "end": "2026-06-25T04:00:00+00:00"
+  }
+}
