@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-26T12:11:40.327924+00:00",
+  "counts": {
+    "x": 2,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "The best way to build a high pain tolerance is to remind yourself that the pain is temporary",
+        "summary": "The best way to build a high pain tolerance is to remind yourself that the pain is temporary",
+        "link": "https://x.com/AravSrinivas/status/2070385155290877991",
+        "author": "AravSrinivas",
+        "published": "2026-06-26T05:54:21+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "AI regulation is far less simple than it looks. It’s prisoners dilemma at insane scale. \n\nIn theory if all leading AI la",
+        "summary": "AI regulation is far less simple than it looks. It’s prisoners dilemma at insane scale. \n\nIn theory if all leading AI labs globally agreed to the same process of review and slow down, then we’d get frontier intelligence at similar rates and it diffuses relatively evenly. \n\nIf the US remains at the frontier at all times, and has heavy regulation on the release of intelligence then we end up with an economic and geopolitical edge because we can control who has access to frontier intelligence. \n\nIf we delay model releases, however, and another player - specifically China - doesn’t slow down and has equally strong models (not now but soon?) then our delays end up advantaging their models and eventually their tech stack.\n\nNow, the US could ban these models, but that actually only puts the US at a steeper disadvantage because other countries won’t have those bans. Then, from a relative competitiveness standpoint the US has now fallen behind even though it started in front.\n\nSo, none of this is as simple as it looks. At some point it’s a simple bet of can closed models remain at the frontier in perpetuity or is there a risk of any other player or market catching up or just not falling behind.",
+        "link": "https://x.com/levie/status/2070370225271251161",
+        "author": "levie",
+        "published": "2026-06-26T04:55:01+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-26T04:00:00+00:00",
+    "end": "2026-06-26T10:00:00+00:00"
+  }
+}
