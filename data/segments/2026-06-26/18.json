@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-26T17:48:43.035604+00:00",
+  "counts": {
+    "x": 3,
+    "blogs": 1,
+    "podcasts": 1,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "To keep pace with AI progress, we're advancing how we study Claude's economic impact. \n\nHourly sampling and survey data ",
+        "summary": "To keep pace with AI progress, we're advancing how we study Claude's economic impact. \n\nHourly sampling and survey data show us how the cadences of life shape usage, what people produce with Claude, and how perceptions of AI's impact may be changing. https://t.co/Waov1B6iG1",
+        "link": "https://x.com/AnthropicAI/status/2070528961235575278",
+        "author": "AnthropicAI",
+        "published": "2026-06-26T15:25:47+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "How people are getting access to Claude in China for 70-90% below official token prices.\n\nI find this whole grey-market ",
+        "summary": "How people are getting access to Claude in China for 70-90% below official token prices.\n\nI find this whole grey-market token economy fascinating.\n\nGreat article here: https://t.co/0JVqP8QiQ0 https://t.co/tvuq6m4dkb",
+        "link": "https://x.com/petergyang/status/2070512356027969659",
+        "author": "petergyang",
+        "published": "2026-06-26T14:19:48+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Autonomy isn't the ability to act without human supervision. It's the ability to *learn* without human bottlenecks in th",
+        "summary": "Autonomy isn't the ability to act without human supervision. It's the ability to *learn* without human bottlenecks in the process. A system that is fully dependent on human training data and RL environments is only an imprint of human knowledge.",
+        "link": "https://x.com/fchollet/status/2070507776259022872",
+        "author": "fchollet",
+        "published": "2026-06-26T14:01:36+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Previewing GPT-5.6 Sol: a next-generation model",
+        "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+        "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "author": "",
+        "keywords": "Product",
+        "published": "2026-06-26T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+        "summary": "When a new AI model drops, it’s judged based on a static benchmark grid that doesn’t account for how long the model is allowed to think. How then should we measure a model’s true capability? OpenAI research scientist Noam Brown returns to talk with Sarah Guo about his latest essay on why the AI industry’s traditional benchmark grids are broken, and how large-scale test-time compute is fundamentally changing how models are evaluated. Noam explains how, if properly scaffolded, today’s models can reason for weeks or even months on complex tasks. He also discusses real-world implications of test-time compute, from building poker solver bots to disproving legendary math conjectures. Together, they also unpack the large gaps in current AI safety frameworks, explore the bottlenecks for recursive self-improvement, and look ahead at the future of multi-agent collaboration and global knowledge sharing.\n\nRead more: Implications of Large-Scale Test-Time Compute\n\nSign up for new podcasts every week. Email feedback to show@no-priors.com\n\nFollow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @polynoamial | @OpenAI\n\nChapters:\n\n00:00 – Cold Open\n\n00:43 – Noam Brown Introduction\n\n01:23 – Why Benchmarks Are Broken\n\n04:19 – Compute Budgets and Projections\n\n05:34 – How Long Should Models Think?\n\n06:47 – Benchmark-Maxxing\n\n08:34 – Using Poker Bots as Evals\n\n11:26 – Safety Evals When Model Capability Scales With Budget \n\n14:41 – Release Cycle vs. Agent Runtime \n\n17:06 – Latent Model Capability \n\n20:59 – Limits on Recursive Self-Improvement\n\n27:09 – Large-Scale Multi-Agent Coordination \n\n29:11 – Competition at the Frontier \n\n31:51 – Breaking the Benchmark Grid Equilibrium \n\n33:29 – Why Benchmarks Should be Evaluated by Cost\n\n36:18 – Conclusion",
+        "link": "",
+        "author": "Conviction",
+        "keywords": "",
+        "published": "2026-06-26T10:13:00+00:00",
+        "kind": "podcast",
+        "source_name": "No Priors",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "No Priors"
+      }
+    ],
+    "videos": [
+      {
+        "title": "Verso, l'entreprise qui ne dort jamais",
+        "summary": "Découvrez comment Verso développe une entreprise véritablement AI-native. Lors de cette session enregistrée lors de l'événement OpenAI France en juin 2026, Lydia Bellahouel, cofondatrice et CEO de Verso, partage la manière dont son équipe s'appuie sur les modèles OpenAI, Codex et des systèmes multi-agents pour automatiser ses opérations, accélérer la recherche consommateur et faire évoluer l'entreprise avec une structure particulièrement légère.\n\nLydia explique comment fonctionne le « Verso Brain », un système conçu pour écouter, raisonner et agir de manière autonome, ainsi que les choix techniques et organisationnels qui permettent à Verso de livrer des études consommateurs jusqu'à dix fois plus rapidement et à moitié prix par rapport aux approches traditionnelles.",
+        "link": "https://www.youtube.com/watch?v=mFwWax5pLTs",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-26T11:00:22+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-26T10:00:00+00:00",
+    "end": "2026-06-26T16:00:00+00:00"
+  }
+}
