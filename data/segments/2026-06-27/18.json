@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-27T17:11:23.184932+00:00",
+  "counts": {
+    "x": 2,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "I was sleeping on @paper for YouTube thumbnails - @rileybrown has shown me the way.\n\nThe select a few images and then ge",
+        "summary": "I was sleeping on @paper for YouTube thumbnails - @rileybrown has shown me the way.\n\nThe select a few images and then generate some more variations feature is very good.",
+        "link": "https://x.com/petergyang/status/2070897929863454723",
+        "author": "petergyang",
+        "published": "2026-06-27T15:51:56+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The best AI teams are moving from prompting AI to building agents that can work overnight.\n\nIn my next episode, Jess (pr",
+        "summary": "The best AI teams are moving from prompting AI to building agents that can work overnight.\n\nIn my next episode, Jess (product lead at Anthropic) showed me how to build a long-running Claude agent from scratch.\n\nWe also talked about how Anthropic product teams use agents internally to understand the codebase, synthesize user feedback, pressure-test product decisions, and more.\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2070879457754439870",
+        "author": "petergyang",
+        "published": "2026-06-27T14:38:32+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "The Most Passive Aggressive Letter in History – Ada Palmer",
+        "summary": "Full episode: https://www.youtube.com/watch?v=U1FrhkLQnCI\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=5XaQAKI8EHQ",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-27T11:45:25+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-27T10:00:00+00:00",
+    "end": "2026-06-27T16:00:00+00:00"
+  }
+}
