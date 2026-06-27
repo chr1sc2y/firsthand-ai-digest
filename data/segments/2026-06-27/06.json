@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-27T06:52:44.253436+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "🎯",
+        "summary": "🎯",
+        "link": "https://x.com/elonmusk/status/2070709889849298958",
+        "author": "elonmusk",
+        "published": "2026-06-27T03:24:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Step one complete",
+        "summary": "Step one complete",
+        "link": "https://x.com/levie/status/2070682290464919874",
+        "author": "levie",
+        "published": "2026-06-27T01:35:04+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Ev",
+        "summary": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output.\n\nBut agents are also complex distributed systems. They involve multiple steps of computation across functions and sandboxes, touching dozens of API services that can go down, rate limit you, etc.\n\nNailing down observability out of the box for https://t.co/nDDXqUmOlD on Vercel was a key priority for the team, and the feedback so far has been 🔥↓",
+        "link": "https://x.com/rauchg/status/2070676383135834334",
+        "author": "rauchg",
+        "published": "2026-06-27T01:11:35+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today",
+        "summary": "Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical infrastructure.\n\nWe’re restoring access for these organizations quickly, and we’re continuing to work with the government to expand access to Mythos 5 and make Fable 5 available for general use again.",
+        "link": "https://x.com/AnthropicAI/status/2070665903440871779",
+        "author": "AnthropicAI",
+        "published": "2026-06-27T00:29:57+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Madness",
+        "summary": "Madness",
+        "link": "https://x.com/elonmusk/status/2070663267849265302",
+        "author": "elonmusk",
+        "published": "2026-06-27T00:19:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Karma",
+        "summary": "Karma",
+        "link": "https://x.com/elonmusk/status/2070653832787562502",
+        "author": "elonmusk",
+        "published": "2026-06-26T23:41:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe ",
+        "summary": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe have applied some mitigations, but our investigation hasn't shown users being impacted at large. We are continuing to monitor the situation.",
+        "link": "https://x.com/thsottiaux/status/2070653282440405046",
+        "author": "thsottiaux",
+        "published": "2026-06-26T23:39:48+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Citizen Vigilante 2 will be even better",
+        "summary": "Citizen Vigilante 2 will be even better",
+        "link": "https://x.com/elonmusk/status/2070652599012053372",
+        "author": "elonmusk",
+        "published": "2026-06-26T23:37:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US co",
+        "summary": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US companies adopt the same open source models because they're good enough and much cheaper\n4. We start gating access to frontier models\n\nWhat next? US companies innovate less? Open source models become more attractive?",
+        "link": "https://x.com/petergyang/status/2070633838146134219",
+        "author": "petergyang",
+        "published": "2026-06-26T22:22:32+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting Dean W. Ball",
+        "summary": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs. Consider, in particular, some industry dynamics:</p>\n<ol>\n<li>Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work.</li>\n<li>The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, <a href=\"https://fortune.com/2026/05/04/trump-ai-czar-david-sacks-american-gdp-economy/\">essential to the US economy</a>, assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...]</li>\n</ol></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.hyperdimensional.co/p/what-should-be-done\">Dean W. Ball</a>, 35 thoughts on what has happened and what America should do</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/26/dean-w-ball/",
+        "author": "",
+        "keywords": "anthropic generative-ai openai ai llms",
+        "published": "2026-06-26T22:25:46+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-26T22:00:00+00:00",
+    "end": "2026-06-27T04:00:00+00:00"
+  }
+}
