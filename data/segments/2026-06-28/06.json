@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-28T07:51:51.886705+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Talking to your plants isn't weird anymore. You can just codex things.",
+        "summary": "Talking to your plants isn't weird anymore. You can just codex things.",
+        "link": "https://x.com/thsottiaux/status/2071077932244570112",
+        "author": "thsottiaux",
+        "published": "2026-06-28T03:47:12+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Messi is so goated damn",
+        "summary": "Messi is so goated damn",
+        "link": "https://x.com/petergyang/status/2071077367720862021",
+        "author": "petergyang",
+        "published": "2026-06-28T03:44:57+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tons of improvements landed in Codex. \n\n- Handles super long threads smoothly. \n- Hoverable navigation rail for previewi",
+        "summary": "Tons of improvements landed in Codex. \n\n- Handles super long threads smoothly. \n- Hoverable navigation rail for previewing and jumping between turns that feels just right. \n- Settings search covers more controls, with clearer appearance and host-filtering options and easier-to-find custom-provider settings. \n- Zoom-level changes no longer misalign tooltips, dialogs, menus, selection bubbles, drag previews, or autocomplete. \n- Copying into Slack preserves Markdown formatting such as bullets, bold text, code, and links; and large text pastes no longer freeze the UI.\n- And most importantly: a dedicated Pets panel.",
+        "link": "https://x.com/thsottiaux/status/2071071289247244481",
+        "author": "thsottiaux",
+        "published": "2026-06-28T03:20:48+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "\"History teaches us that access blockage rarely stops determined users.\" https://t.co/fsa6yuEjjs",
+        "summary": "\"History teaches us that access blockage rarely stops determined users.\" https://t.co/fsa6yuEjjs",
+        "link": "https://x.com/steipete/status/2071063588329193551",
+        "author": "steipete",
+        "published": "2026-06-28T02:50:12+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "There's just one small problem with this framework:\n\nIf you wait till level 5 or whatever to tell other people that ther",
+        "summary": "There's just one small problem with this framework:\n\nIf you wait till level 5 or whatever to tell other people that there's a problem when there's been a burning fire for days and your \"solution\" actually didn't fix the problem at all, you're 100% in a worse situation than someone who is level 1 and just told other people about the problem right away and found a solution together.\n\nThere's no black and white to this stuff, everything has nuance.",
+        "link": "https://x.com/petergyang/status/2071058953115767275",
+        "author": "petergyang",
+        "published": "2026-06-28T02:31:47+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Good point",
+        "summary": "Good point",
+        "link": "https://x.com/elonmusk/status/2071058468350591430",
+        "author": "elonmusk",
+        "published": "2026-06-28T02:29:51+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2071058165651984800",
+        "author": "elonmusk",
+        "published": "2026-06-28T02:28:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity.\n\nIf adversaries",
+        "summary": "Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity.\n\nIf adversaries get ahold of an equivalent offensive capability, it poses a serious threat to US companies that remain unaware of latent vulnerabilities.\n\nIn the meantime, I strongly recommend running deepsec[1] or similar harnesses with the available frontier models.\n\n[1] https://t.co/Wh4QVGDFnm",
+        "link": "https://x.com/rauchg/status/2071047674187714830",
+        "author": "rauchg",
+        "published": "2026-06-28T01:46:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Got excited about the 52’ Dell, but it requires BetterDisplay hacking to get a usable resolution, but then I get weird f",
+        "summary": "Got excited about the 52’ Dell, but it requires BetterDisplay hacking to get a usable resolution, but then I get weird flickers and also startup wake issues. [on M4 Max MBP] \n\nSo, Apple wins this round, 2xXDR it is.\n\nhttps://t.co/MpRNpQJE8X",
+        "link": "https://x.com/steipete/status/2071034256051097799",
+        "author": "steipete",
+        "published": "2026-06-28T00:53:39+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "We getting Apple Car after all",
+        "summary": "We getting Apple Car after all",
+        "link": "https://x.com/steipete/status/2071017970953052160",
+        "author": "steipete",
+        "published": "2026-06-27T23:48:56+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "wouldn’t that also make the tools better for humans",
+        "summary": "wouldn’t that also make the tools better for humans",
+        "link": "https://x.com/steipete/status/2071017724495774049",
+        "author": "steipete",
+        "published": "2026-06-27T23:47:57+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-27T22:00:00+00:00",
+    "end": "2026-06-28T04:00:00+00:00"
+  }
+}
