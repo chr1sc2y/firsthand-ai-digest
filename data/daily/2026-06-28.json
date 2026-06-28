@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T17:12:44.067871+00:00",
+  "source_segments": [
+    "segments/2026-06-28/00.json",
+    "segments/2026-06-28/06.json",
+    "segments/2026-06-28/12.json",
+    "segments/2026-06-28/18.json"
+  ],
+  "counts": {
+    "x": 30,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "any guesses what the AIEWF Stress Curve* looked like for this year lol\n\n*the gini coefficient over time from 0 to sold o",
+        "summary": "any guesses what the AIEWF Stress Curve* looked like for this year lol\n\n*the gini coefficient over time from 0 to sold out https://t.co/T4WDXgvAvd",
+        "link": "https://x.com/swyx/status/2071259119047315827",
+        "author": "swyx",
+        "published": "2026-06-28T15:47:10+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to a",
+        "summary": "It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone. As a byproduct of this, alternative tech stacks will emerge that also drive more economic value and control away from the US’s tech stack.\n\nThis is what should be considered when thinking through the gate keeping you want to have in AI. If advanced models will become open and available regardless, then by not allowing the release of models you’re neither more secure nor better off strategically.\n\nSo much of the regulatory approach to AI has to assume China can’t catch up, when all current evidence suggests they can and are. And further, hard to imagine a higher priority than winning in AI for China; so you’re basically betting against their long term ingenuity, talent and motivation. Seems like a bad bet.\n\nSo your options are either to create gates around your best models, which means you’re asymmetrically disadvantaging yourself, or you work to ensure you’re always at the frontier and driving the future architectures of AI.",
+        "link": "https://x.com/levie/status/2071253118252356001",
+        "author": "levie",
+        "published": "2026-06-28T15:23:20+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Who's going to AI Engineer on Tuesday?",
+        "summary": "Who's going to AI Engineer on Tuesday?",
+        "link": "https://x.com/petergyang/status/2071246789697757583",
+        "author": "petergyang",
+        "published": "2026-06-28T14:58:11+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "\"We give [agents] tasks overnight and then we wake up and the backlog is resolved and bugs are squashed.\"\n\nHere's my new",
+        "summary": "\"We give [agents] tasks overnight and then we wake up and the backlog is resolved and bugs are squashed.\"\n\nHere's my new episode with @jess__yan, product lead at Anthropic. Jess showed me how to build a long-running Claude agent from scratch and how Anthropic product teams use agents internally to:\n\n→ Understand the codebase\n→ Synthesize user feedback\n→ Pressure-test API decisions\n\nSome quotes from Jess:\n\n\"You should be able to tag [agents] anywhere, but they should also proactively surface things for you in the way that a co-worker truly would.\"\n\n\"For me, agents really unlock depth. Rather than poking engineers on what they’re doing, I can just track the PRs directly and see which ones are merged.\"\n\n\"Long-running cloud agents are not bound by the constraints of your laptop and when it's on.\"\n\n📌 Watch now: https://t.co/rYIC7uyDpJ\n\nThanks to our sponsors:\n\n@WisprFlow: 4x faster than typing with your voice https://t.co/oqHJ8bN3ll\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE",
+        "link": "https://x.com/petergyang/status/2071235979369972033",
+        "author": "petergyang",
+        "published": "2026-06-28T14:15:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I'm trying to wrap my head around these two ideas:\n\n1. Cloud agents are coming we should use VPS vs. our laptops\n\n2. Eve",
+        "summary": "I'm trying to wrap my head around these two ideas:\n\n1. Cloud agents are coming we should use VPS vs. our laptops\n\n2. Everyone should buy hardware to run local models\n\nAren't they conflicting a bit?",
+        "link": "https://x.com/petergyang/status/2071235961208578393",
+        "author": "petergyang",
+        "published": "2026-06-28T14:15:09+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta",
+        "summary": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta at SpaceX & Tesla. Early evals show performance close to, perhaps exceeding Opus. \n\nRL is continuing to significantly improve the model, and the Grok Build harness gets better every day.\n\nNice work by all those involved!\n\nCompletely trained from scratch new models will be released by @SpaceX every month this year.",
+        "link": "https://x.com/elonmusk/status/2071184354756477041",
+        "author": "elonmusk",
+        "published": "2026-06-28T10:50:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I now own https://t.co/I2grp6UkeV. Excited to give my children clean email handles. Domains are awesome. The internet is",
+        "summary": "I now own https://t.co/I2grp6UkeV. Excited to give my children clean email handles. Domains are awesome. The internet is awesome.",
+        "link": "https://x.com/rauchg/status/2071085680017773046",
+        "author": "rauchg",
+        "published": "2026-06-28T04:17:59+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Talking to your plants isn't weird anymore. You can just codex things.",
+        "summary": "Talking to your plants isn't weird anymore. You can just codex things.",
+        "link": "https://x.com/thsottiaux/status/2071077932244570112",
+        "author": "thsottiaux",
+        "published": "2026-06-28T03:47:12+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Messi is so goated damn",
+        "summary": "Messi is so goated damn",
+        "link": "https://x.com/petergyang/status/2071077367720862021",
+        "author": "petergyang",
+        "published": "2026-06-28T03:44:57+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tons of improvements landed in Codex. \n\n- Handles super long threads smoothly. \n- Hoverable navigation rail for previewi",
+        "summary": "Tons of improvements landed in Codex. \n\n- Handles super long threads smoothly. \n- Hoverable navigation rail for previewing and jumping between turns that feels just right. \n- Settings search covers more controls, with clearer appearance and host-filtering options and easier-to-find custom-provider settings. \n- Zoom-level changes no longer misalign tooltips, dialogs, menus, selection bubbles, drag previews, or autocomplete. \n- Copying into Slack preserves Markdown formatting such as bullets, bold text, code, and links; and large text pastes no longer freeze the UI.\n- And most importantly: a dedicated Pets panel.",
+        "link": "https://x.com/thsottiaux/status/2071071289247244481",
+        "author": "thsottiaux",
+        "published": "2026-06-28T03:20:48+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "\"History teaches us that access blockage rarely stops determined users.\" https://t.co/fsa6yuEjjs",
+        "summary": "\"History teaches us that access blockage rarely stops determined users.\" https://t.co/fsa6yuEjjs",
+        "link": "https://x.com/steipete/status/2071063588329193551",
+        "author": "steipete",
+        "published": "2026-06-28T02:50:12+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "There's just one small problem with this framework:\n\nIf you wait till level 5 or whatever to tell other people that ther",
+        "summary": "There's just one small problem with this framework:\n\nIf you wait till level 5 or whatever to tell other people that there's a problem when there's been a burning fire for days and your \"solution\" actually didn't fix the problem at all, you're 100% in a worse situation than someone who is level 1 and just told other people about the problem right away and found a solution together.\n\nThere's no black and white to this stuff, everything has nuance.",
+        "link": "https://x.com/petergyang/status/2071058953115767275",
+        "author": "petergyang",
+        "published": "2026-06-28T02:31:47+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Good point",
+        "summary": "Good point",
+        "link": "https://x.com/elonmusk/status/2071058468350591430",
+        "author": "elonmusk",
+        "published": "2026-06-28T02:29:51+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2071058165651984800",
+        "author": "elonmusk",
+        "published": "2026-06-28T02:28:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity.\n\nIf adversaries",
+        "summary": "Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity.\n\nIf adversaries get ahold of an equivalent offensive capability, it poses a serious threat to US companies that remain unaware of latent vulnerabilities.\n\nIn the meantime, I strongly recommend running deepsec[1] or similar harnesses with the available frontier models.\n\n[1] https://t.co/Wh4QVGDFnm",
+        "link": "https://x.com/rauchg/status/2071047674187714830",
+        "author": "rauchg",
+        "published": "2026-06-28T01:46:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Got excited about the 52’ Dell, but it requires BetterDisplay hacking to get a usable resolution, but then I get weird f",
+        "summary": "Got excited about the 52’ Dell, but it requires BetterDisplay hacking to get a usable resolution, but then I get weird flickers and also startup wake issues. [on M4 Max MBP] \n\nSo, Apple wins this round, 2xXDR it is.\n\nhttps://t.co/MpRNpQJE8X",
+        "link": "https://x.com/steipete/status/2071034256051097799",
+        "author": "steipete",
+        "published": "2026-06-28T00:53:39+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "We getting Apple Car after all",
+        "summary": "We getting Apple Car after all",
+        "link": "https://x.com/steipete/status/2071017970953052160",
+        "author": "steipete",
+        "published": "2026-06-27T23:48:56+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "wouldn’t that also make the tools better for humans",
+        "summary": "wouldn’t that also make the tools better for humans",
+        "link": "https://x.com/steipete/status/2071017724495774049",
+        "author": "steipete",
+        "published": "2026-06-27T23:47:57+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "The night is young and full of Codex",
+        "summary": "The night is young and full of Codex",
+        "link": "https://x.com/thsottiaux/status/2070985298486374876",
+        "author": "thsottiaux",
+        "published": "2026-06-27T21:39:06+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Me and my agents https://t.co/z3FIH7doEH",
+        "summary": "Me and my agents https://t.co/z3FIH7doEH",
+        "link": "https://x.com/rauchg/status/2070982746080715052",
+        "author": "rauchg",
+        "published": "2026-06-27T21:28:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "impromptu ai engineer preshow floor tour and AMA https://t.co/Jjo8Ai7aHh",
+        "summary": "impromptu ai engineer preshow floor tour and AMA https://t.co/Jjo8Ai7aHh",
+        "link": "https://x.com/swyx/status/2070971772548366788",
+        "author": "swyx",
+        "published": "2026-06-27T20:45:22+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Only Art and Science raise humanity to the sublime. But the magic isn't in the output. It's in the process of creation a",
+        "summary": "Only Art and Science raise humanity to the sublime. But the magic isn't in the output. It's in the process of creation and discovery, and the experience of feeling and understanding.",
+        "link": "https://x.com/fchollet/status/2070958512281415960",
+        "author": "fchollet",
+        "published": "2026-06-27T19:52:40+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval report",
+        "summary": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting -\n\nis that open models have a lot more dollar per token mileage than closed model APIs. So anyone launching an open model today or situationally incentivized toward open models should obviously report thinking levels measured by dollar inference on popular inference providers, instead of by number of tokens on the x axis",
+        "link": "https://x.com/swyx/status/2070949306060931312",
+        "author": "swyx",
+        "published": "2026-06-27T19:16:05+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Follow the 🌁 https://t.co/6u7oB6Wcp4",
+        "summary": "Follow the 🌁 https://t.co/6u7oB6Wcp4",
+        "link": "https://x.com/rauchg/status/2070947320288645396",
+        "author": "rauchg",
+        "published": "2026-06-27T19:08:12+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Every enterprise will have its own model-harness-sandbox-eval flywheel with token value per watt optimization. This is t",
+        "summary": "Every enterprise will have its own model-harness-sandbox-eval flywheel with token value per watt optimization. This is the future. Simple reason: tacit knowledge about the domain and customers and their workflows that the company uniquely understands and has built trust around.",
+        "link": "https://x.com/AravSrinivas/status/2070938739350900944",
+        "author": "AravSrinivas",
+        "published": "2026-06-27T18:34:06+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Some good best practices here on AI token cost optimization. None of these happens though without a deep understanding o",
+        "summary": "Some good best practices here on AI token cost optimization. None of these happens though without a deep understanding of the underlying work being done in a non-abstract way.\n\nThe ultimate implication is that a layer between the work itself and the underlying intelligence needs to deeply understand your workflows, context, and business process. Now, each individual company doing this on their own is unlikely to be effective at scale, so as a consequence, this is effectively the playbook for any applied AI company right now. \n\nBy evaling the models for the applied use cases, deeply understanding the domain, having tuned UX and features for the use case, and having the ability to support adoption and change (via FDEs), allow this layer to add a ton of value. And as a result, enterprises get higher ROI because you actually can get *more* intelligence per dollar by having optimal architecture and workflows.\n\nThere will be many horizontal and vertical versions of this approach. Huge opportunity right now.",
+        "link": "https://x.com/levie/status/2070937863806751154",
+        "author": "levie",
+        "published": "2026-06-27T18:30:37+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "this is going to be the norm https://t.co/BeyBz7EWDK",
+        "summary": "this is going to be the norm https://t.co/BeyBz7EWDK",
+        "link": "https://x.com/AravSrinivas/status/2070929445251400092",
+        "author": "AravSrinivas",
+        "published": "2026-06-27T17:57:10+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Human judgement in engineering is ironically even more crucial now. Deciding what to build. Deciding on the right archit",
+        "summary": "Human judgement in engineering is ironically even more crucial now. Deciding what to build. Deciding on the right architectures. Deciding whether you regenerate from scratch $$$ or reuse existing legos. Managing tech debt. You can do anything now, but you can't do everything.",
+        "link": "https://x.com/rauchg/status/2070923036988248248",
+        "author": "rauchg",
+        "published": "2026-06-27T17:31:42+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "btw we crossed our 6k attendee mark a while ago. will probably call sold out when we hit 7k this weekend. do get tix now",
+        "summary": "btw we crossed our 6k attendee mark a while ago. will probably call sold out when we hit 7k this weekend. do get tix now, this is the epicenter of ai next week.\n\nif you are a student or between jobs, head to /associates to help us out. https://t.co/zxOt2qllUS",
+        "link": "https://x.com/swyx/status/2070920495051280623",
+        "author": "swyx",
+        "published": "2026-06-27T17:21:36+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Every Saturday, Hermes sends me a health check email with top takeaways and stats to help me work toward my health goals",
+        "summary": "Every Saturday, Hermes sends me a health check email with top takeaways and stats to help me work toward my health goals by pulling data from:\n\n→ My smart scale via the Withings API\n→ My Fitbit and Google Health\n→ An MCP server and mobile fitness app I vibe coded to track my workouts\n\nI find this super useful, even if my body fat is going the wrong way 😅\n\nI talk about how to do this in my Hermes tutorial here: https://t.co/p0BDhL6PAp\n\nShould I make another video on building my fitness app?",
+        "link": "https://x.com/petergyang/status/2070906940352520477",
+        "author": "petergyang",
+        "published": "2026-06-27T16:27:44+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  }
+}
