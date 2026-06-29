@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T22:58:40.632996+00:00",
+  "counts": {
+    "x": 14,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Do you think it has a reset button?",
+        "summary": "Do you think it has a reset button?",
+        "link": "https://x.com/thsottiaux/status/2071710834527523030",
+        "author": "thsottiaux",
+        "published": "2026-06-29T21:42:08+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "curl -sN https://t.co/ovyIAaG8Ix\nby @_brian_zhang https://t.co/7gLjZevUM5",
+        "summary": "curl -sN https://t.co/ovyIAaG8Ix\nby @_brian_zhang https://t.co/7gLjZevUM5",
+        "link": "https://x.com/rauchg/status/2071710688150528443",
+        "author": "rauchg",
+        "published": "2026-06-29T21:41:33+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "prescribe one (1) pill when a coworker disrespects scaling laws\n\nmake a beeline 4pm sharp at aie expo, first come first ",
+        "summary": "prescribe one (1) pill when a coworker disrespects scaling laws\n\nmake a beeline 4pm sharp at aie expo, first come first served https://t.co/NlIx6EBB3E",
+        "link": "https://x.com/swyx/status/2071692683182252317",
+        "author": "swyx",
+        "published": "2026-06-29T20:30:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "How Anthropic product lead @jess__yan uses AI agents internally across 5 workflows:\n\n1. Understand the codebase\n\nInstead",
+        "summary": "How Anthropic product lead @jess__yan uses AI agents internally across 5 workflows:\n\n1. Understand the codebase\n\nInstead of asking engineers what shipped or how something works, Jess can inspect pull requests, deployments, and product architecture directly. “Access to our codebase has been the biggest unlock for me.”\n\n2. Synthesize customer feedback\n\nJess has agents monitor customer Slack channels to get more signal before deciding what to build next.\n\n3. Get briefed before meetings\n\nJess uses agents to prep before customer conversations, pitches, and internal discussions. This helps her show up with baseline research done and a clearer opinion.\n\n4. Pressure-test product & API decisions\n\nJess has an API review agent in Slack that helps the team improve API design and spot when their biases are getting in the way.\n\n5. Build temporary agents for messy ops work\n\nJess built an ad hoc agent to clean up a 4,000+ company waitlist. t removed invalid entries, scored likely high-value testers, and helped pull invitees daily. Messy short-lived workflows are great candidates for temporary agents.\n\nJess also showed me how to build a Claude analytics agent from scratch in our interview.\n\n📌 Watch the episode here: https://t.co/rYIC7uyDpJ",
+        "link": "https://x.com/petergyang/status/2071690793899974773",
+        "author": "petergyang",
+        "published": "2026-06-29T20:22:30+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Deaths in Africa DECREASED after USAID funding was cut, because they’re no longer able to push for violent revolution to",
+        "summary": "Deaths in Africa DECREASED after USAID funding was cut, because they’re no longer able to push for violent revolution to install leftist regimes!",
+        "link": "https://x.com/elonmusk/status/2071673460779041155",
+        "author": "elonmusk",
+        "published": "2026-06-29T19:13:37+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "State of the art voice APIs from SpaceXAI, now in the Vercel AI Gateway",
+        "summary": "State of the art voice APIs from SpaceXAI, now in the Vercel AI Gateway",
+        "link": "https://x.com/xai/status/2071661034683969977",
+        "author": "xai",
+        "published": "2026-06-29T18:24:14+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "Claude in Microsoft Foundry is now generally available, hosted on Azure.\n\nAzure customers get Claude Opus 4.8 and Claude",
+        "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure.\n\nAzure customers get Claude Opus 4.8 and Claude Haiku 4.5, with Azure authentication, billing, and commitment retirement. https://t.co/4Rz7fa9Bxm",
+        "link": "https://x.com/claudeai/status/2071653958905467027",
+        "author": "claudeai",
+        "published": "2026-06-29T17:56:07+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Massive performance and memory usage improvements in @nextjs. \n\nTurbopack’s bet on the filesystem cache pays off greatly",
+        "summary": "Massive performance and memory usage improvements in @nextjs. \n\nTurbopack’s bet on the filesystem cache pays off greatly in a world of agents hammering 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍.",
+        "link": "https://x.com/rauchg/status/2071653061748035994",
+        "author": "rauchg",
+        "published": "2026-06-29T17:52:34+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "wherever ideas hit.\ndesks and laptops optional.",
+        "summary": "wherever ideas hit.\ndesks and laptops optional.",
+        "link": "https://x.com/ryolu_/status/2071652629890088964",
+        "author": "ryolu_",
+        "published": "2026-06-29T17:50:51+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "It’s total bullshit!\n\nDeaths in Africa DECREASED after cutting USAID funding, which they were using to push for violent ",
+        "summary": "It’s total bullshit!\n\nDeaths in Africa DECREASED after cutting USAID funding, which they were using to push for violent overthrow of governments!!",
+        "link": "https://x.com/elonmusk/status/2071652181854343349",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:49:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I love optimizing machines \n\nIt’s like a beautiful puzzle\n\nThat also achieves true usefulness",
+        "summary": "I love optimizing machines \n\nIt’s like a beautiful puzzle\n\nThat also achieves true usefulness",
+        "link": "https://x.com/elonmusk/status/2071651728202543557",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:47:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I think I might stop using @telegram if these BS spam msgs don't get blocked by default. \n\nDoesn't make sense you have t",
+        "summary": "I think I might stop using @telegram if these BS spam msgs don't get blocked by default. \n\nDoesn't make sense you have to pay a subscription to reduce spam and not let randos DM you. https://t.co/Dl53wWU5kl",
+        "link": "https://x.com/petergyang/status/2071651376959291512",
+        "author": "petergyang",
+        "published": "2026-06-29T17:45:52+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Cursor for iOS!",
+        "summary": "Cursor for iOS!",
+        "link": "https://x.com/elonmusk/status/2071650759330906253",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:43:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles bindin",
+        "summary": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles binding OS-enforced file read/write/deny rules (even **/*.env) to per-domain network + Unix sockets. Plus fail-closed admin allowlists. Least privilege per task.\n\nhttps://t.co/jHyAnUhyFs",
+        "link": "https://x.com/thsottiaux/status/2071636285807059315",
+        "author": "thsottiaux",
+        "published": "2026-06-29T16:45:54+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Count the number of Safari tabs",
+        "summary": "<p>Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</p>\n<pre><code>osascript -e 'tell application \"Safari\" to count tabs of every window'\n</code></pre>\n<p><img alt=\"I ran it in a terminal window and got back 370.\" src=\"https://static.simonwillison.net/static/2026/tab-shame.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/til\">til</a>, <a href=\"https://simonwillison.net/tags/applescript\">applescript</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/29/safari-tab-count/",
+        "author": "",
+        "keywords": "safari til applescript",
+        "published": "2026-06-29T18:36:18+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+        "summary": "<p><strong><a href=\"https://deep-reinforce.com/ornith_1_0.html\">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p>\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p>\n<blockquote>\n<p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</p>\n</blockquote>\n<p>As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional <a href=\"https://ai.google.dev/gemma/terms\">Gemma Terms of Use</a> that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well.</p>\n<p>I've been running the model using LM Studio and the <a href=\"https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF\">ornith-1.0-35b-Q4_K_M.gguf</a> (20GB) GGUF, hooked up to <a href=\"https://pi.dev/\">Pi</a>. Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way.</p>\n<p>Here's <a href=\"https://gisthost.github.io/?35da4d9ce7f0c27124c67655a0dc9e5d\">a terminal session</a> where I asked it to \"find the code that decodes the actor cookie\" and then \"find the code that opens the insert dialog when thebutton is clicked\" against a Datasette checkout, which it handled with ease.</p>\n<p>I also had it <a href=\"https://gist.github.com/simonw/1869e1bbcafe5bcad0f26351f6a978a6\">draw this pelican</a>, which came out at 103 tokens/second:</p>\n<p><img alt=\"Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground.\" src=\"https://static.simonwillison.net/static/2024/ornith-1-pelican.png\" /></p>\n<p>It's a little bit mangled but the pelican is clearly a pelican.</p>\n<p>I couldn't find much information about DeepReinforce themselves. The earliest paper I could find from the was <a href=\"https://arxiv.org/abs/2507.14111\">CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</a> from June 2025.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gemma\">gemma</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/29/ornith/",
+        "author": "",
+        "keywords": "ai generative-ai local-llms llms qwen pelican-riding-a-bicycle gemma llm-release lm-studio",
+        "published": "2026-06-29T16:17:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How Church Wealth Made Corruption Inevitable – Ada Palmer",
+        "summary": "Full episode: https://www.youtube.com/watch?v=U1FrhkLQnCI\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=sNiXjgojxko",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-29T17:15:08+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-29T16:00:00+00:00",
+    "end": "2026-06-29T22:00:00+00:00"
+  }
+}
