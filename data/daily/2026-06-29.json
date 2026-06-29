@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T18:11:26.686041+00:00",
+  "source_segments": [
+    "segments/2026-06-29/00.json",
+    "segments/2026-06-29/06.json",
+    "segments/2026-06-29/12.json",
+    "segments/2026-06-29/18.json"
+  ],
+  "counts": {
+    "x": 27,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2071623241668444308",
+        "author": "elonmusk",
+        "published": "2026-06-29T15:54:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Voice agents now on Vercel",
+        "summary": "Voice agents now on Vercel",
+        "link": "https://x.com/rauchg/status/2071621345151009184",
+        "author": "rauchg",
+        "published": "2026-06-29T15:46:32+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "The hard truth is that USAID, with its constant support of often violent leftist regime change, caused a lot of death!",
+        "summary": "The hard truth is that USAID, with its constant support of often violent leftist regime change, caused a lot of death!",
+        "link": "https://x.com/elonmusk/status/2071615220326220158",
+        "author": "elonmusk",
+        "published": "2026-06-29T15:22:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2071613438019666143",
+        "author": "elonmusk",
+        "published": "2026-06-29T15:15:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "AIE workshop day https://t.co/VUGtbG30dB",
+        "summary": "AIE workshop day https://t.co/VUGtbG30dB",
+        "link": "https://x.com/swyx/status/2071613383380770823",
+        "author": "swyx",
+        "published": "2026-06-29T15:14:53+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "So excited for the @vercel ships this week… some would say a decade in the making. any guesses? https://t.co/zL0V3vXV1N",
+        "summary": "So excited for the @vercel ships this week… some would say a decade in the making. any guesses? https://t.co/zL0V3vXV1N",
+        "link": "https://x.com/rauchg/status/2071612651684106518",
+        "author": "rauchg",
+        "published": "2026-06-29T15:11:59+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Correct",
+        "summary": "Correct",
+        "link": "https://x.com/elonmusk/status/2071612046894936136",
+        "author": "elonmusk",
+        "published": "2026-06-29T15:09:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Winning in AI isn't just about building the best models. \n\nYou also need to scale the energy grid and data centers.\n\nIt'",
+        "summary": "Winning in AI isn't just about building the best models. \n\nYou also need to scale the energy grid and data centers.\n\nIt'll be sad if we have the best models but don't have the infrastructure to serve them.",
+        "link": "https://x.com/petergyang/status/2071606799791436242",
+        "author": "petergyang",
+        "published": "2026-06-29T14:48:44+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Interesting",
+        "summary": "Interesting",
+        "link": "https://x.com/elonmusk/status/2071606142753542409",
+        "author": "elonmusk",
+        "published": "2026-06-29T14:46:07+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "This reminds me of the electric car race where China is making great cars at a fraction of the price and now dominates t",
+        "summary": "This reminds me of the electric car race where China is making great cars at a fraction of the price and now dominates the global EV market.",
+        "link": "https://x.com/petergyang/status/2071594744283902091",
+        "author": "petergyang",
+        "published": "2026-06-29T14:00:50+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate.\n\nvery fortunate to ",
+        "summary": "because i'm not a design engineer myself, this track is one of the harder ones I struggle to curate.\n\nvery fortunate to befriend Geoff who has lent a hand to the past 2 years of AI UX meetups, and now is the opener for the Design Engineers at AIE! see you wednesday https://t.co/TrqetNnJQB",
+        "link": "https://x.com/swyx/status/2071478390172049555",
+        "author": "swyx",
+        "published": "2026-06-29T06:18:29+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Sol &amp; Daybreak https://t.co/FK8Bj17O8i",
+        "summary": "Sol &amp; Daybreak https://t.co/FK8Bj17O8i",
+        "link": "https://x.com/gdb/status/2071453977091477911",
+        "author": "gdb",
+        "published": "2026-06-29T04:41:28+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Interesting",
+        "summary": "Interesting",
+        "link": "https://x.com/elonmusk/status/2071420290702127225",
+        "author": "elonmusk",
+        "published": "2026-06-29T02:27:37+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Extremely troubling",
+        "summary": "Extremely troubling",
+        "link": "https://x.com/elonmusk/status/2071420142756548901",
+        "author": "elonmusk",
+        "published": "2026-06-29T02:27:01+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why.\n\nWhat’s the next best unlimited ph",
+        "summary": "Tried to sign up to @ATT four times now and they reject me and aren’t telling me why.\n\nWhat’s the next best unlimited phone/data plan for the SF area?\n\nOr do I know anyone who can work around corp bs?",
+        "link": "https://x.com/steipete/status/2071382416703500510",
+        "author": "steipete",
+        "published": "2026-06-28T23:57:07+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2071382002016645307",
+        "author": "elonmusk",
+        "published": "2026-06-28T23:55:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had sta",
+        "summary": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
+        "link": "https://x.com/thsottiaux/status/2071381664853319742",
+        "author": "thsottiaux",
+        "published": "2026-06-28T23:54:07+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "If you are in SF for AIE week, do come down to Moscone today 5pm-9pm for badge pickup and New Engineer Orientation - mee",
+        "summary": "If you are in SF for AIE week, do come down to Moscone today 5pm-9pm for badge pickup and New Engineer Orientation - meet friends, plan your week, and pay it forward to newbies!\n\nif worried about tweet volume, remb u can use the ai eng x community:\n\n https://t.co/atO9fHGULb",
+        "link": "https://x.com/swyx/status/2071364057622569151",
+        "author": "swyx",
+        "published": "2026-06-28T22:44:10+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "it’s easier to raise the ceiling than the floor",
+        "summary": "it’s easier to raise the ceiling than the floor",
+        "link": "https://x.com/AravSrinivas/status/2071359311264322014",
+        "author": "AravSrinivas",
+        "published": "2026-06-28T22:25:18+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to in",
+        "summary": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
+        "link": "https://x.com/thsottiaux/status/2071357473659707441",
+        "author": "thsottiaux",
+        "published": "2026-06-28T22:18:00+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "ChatGPT for helping in daily life in Bengaluru: https://t.co/jJgqr8tcBa",
+        "summary": "ChatGPT for helping in daily life in Bengaluru: https://t.co/jJgqr8tcBa",
+        "link": "https://x.com/gdb/status/2071355421819097520",
+        "author": "gdb",
+        "published": "2026-06-28T22:09:51+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "This is what people want to see",
+        "summary": "This is what people want to see",
+        "link": "https://x.com/elonmusk/status/2071347847770046671",
+        "author": "elonmusk",
+        "published": "2026-06-28T21:39:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "self recommending",
+        "summary": "self recommending",
+        "link": "https://x.com/danshipper/status/2071304948390752557",
+        "author": "danshipper",
+        "published": "2026-06-28T18:49:17+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents:\n",
+        "summary": "How Anthropic PMs use agents internally to get closer to the product from Jess, product lead for Claude Managed Agents:\n\n“Access to our codebase has been the biggest unlock for me.\n\nIt helps me manage state more easily. Rather than poking a bunch of engineers on what they’re doing, I can just track the PRs directly and see which ones are merged, which ones are deployed.\n\nI deeply understand and interact with my product so much more than I’ve ever been able to in the past.”\n\n📌 Watch the full episode here: https://t.co/rYIC7uyDpJ\n\nhttps://t.co/8YMfGN06fl",
+        "link": "https://x.com/petergyang/status/2071292628302434361",
+        "author": "petergyang",
+        "published": "2026-06-28T18:00:20+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Taste 😅 https://t.co/TE9MyaL4Kk",
+        "summary": "Taste 😅 https://t.co/TE9MyaL4Kk",
+        "link": "https://x.com/petergyang/status/2071288846046884051",
+        "author": "petergyang",
+        "published": "2026-06-28T17:45:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+        "summary": "You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped",
+        "link": "https://x.com/rauchg/status/2071284129275285580",
+        "author": "rauchg",
+        "published": "2026-06-28T17:26:33+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Take a wild guess if this is a real journalist or not https://t.co/iX59NlAT49",
+        "summary": "Take a wild guess if this is a real journalist or not https://t.co/iX59NlAT49",
+        "link": "https://x.com/petergyang/status/2071274181073969564",
+        "author": "petergyang",
+        "published": "2026-06-28T16:47:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Import AI 463: Self-improving robots; a 10k Chinese GPU cluster; and an elegiac essay for the human era",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/06/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-Andj0c.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now NVIDIA sets up a crude self-improvement loop for real world robotics:…What if you could take the best ideas from AI agents and put them into the [&#8230;]",
+        "link": "https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-06-29T13:03:27+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "Mapping Europe’s AI Workforce Opportunity",
+        "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+        "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-06-29T07:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Quoting Jon Udell",
+        "summary": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>\n<p>I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join the team. An agent-assisted process need not be a black box that takes in prompts and emits features. [...]</p>\n<p>Let’s do agentic software development like that. Not as a loop we’ve been excluded from, instead as one we invite agents into.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\">Jon Udell</a>, “Doctor, it hurts when agents create unreviewable PRs.” “Don’t do that.”</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/jon-udell\">jon-udell</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/28/jon-udell/",
+        "author": "",
+        "keywords": "jon-udell coding-agents generative-ai agentic-engineering ai llms",
+        "published": "2026-06-28T21:57:41+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Hack Your Summer",
+        "summary": "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p>\nI learned about this initiative from DJ Patil this morning:</p>\n<blockquote>\n<p>It’s a 4-week, high-velocity production sprint for undergraduate students, graduate students, and recent graduates who want to build something real this summer.</p>\n<p>You’ll learn how to identify a project, make steady progress, get support from mentors and peers, and create tangible, public-facing work you can actually show future employers.</p>\n</blockquote>\n<p>Hack Your Summer is partly a reaction to the internship crisis facing US college students this year. There are way fewer available internships than usual, as companies have reduced their hiring ambitions and teams have less capacity to coach interns.</p>\n<p>Hack Your Summer provides an alternative path for the many students who didn't catch one of those rare internships.</p>\n<p>A second (free) cohort starts on July 13th, and the deadline for students to apply is July 8th. They're also accepting volunteers to help mentor the students.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/careers\">careers</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/28/hack-your-summer/",
+        "author": "",
+        "keywords": "careers",
+        "published": "2026-06-28T19:26:11+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Advent Accelerates Deals with ChatGPT + Codex",
+        "summary": "ChatGPT + Codex are a one-two punch for investment firms. \n\n\"Having the ability to connect your deal folder with all of the context, and then be able to ask ChatGPT and Codex real time questions has been really impactful to our workflows,\" - Jasmine Azizi (Advent). \n\nFinancial firms hold a tremendous amount of context. ChatGPT acts like a brain layer so teams can spend more time focusing on the next big bet.",
+        "link": "https://www.youtube.com/watch?v=f-HiB82Tl94",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-06-29T14:30:09+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Training Agents 2: Live tutorial on model distillation for training custom agents.",
+        "summary": "In this live session, we'll cover how to transfer capability from a teacher model to a smaller student through distillation. We'll work through supervised fine-tuning on teacher-generated data, then on-policy and online methods where the teacher scores the student live, then self-distillation where the model teaches itself. Each one runs in TRL.\nWhat we'll cover:\n\n- What distillation is, and the four axes that organize it: signal, data source, timing, and teacher identity\n- White-box vs black-box: distilling from open weights vs strings\n- Off-policy distillation: generate from the teacher, then SFT on the outputs\n- On-policy distillation: sample from the student, score with the teacher in the loop\n- Distillation as reinforcement learning: the KD distance as a dense, token-level reward\n- Self-distillation: the model as its own teacher, and when that beats a stronger one\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.\n\n#TRL #HuggingFace #PostTraining #AIAgents #Distillation",
+        "link": "https://www.youtube.com/watch?v=GZT_oNQnLV4",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-29T09:00:36+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  }
+}
