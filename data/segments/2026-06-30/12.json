@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-30T12:09:13.799090+00:00",
+  "counts": {
+    "x": 3,
+    "blogs": 0,
+    "podcasts": 1,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "The AOC puppet is just flat-out lying",
+        "summary": "The AOC puppet is just flat-out lying",
+        "link": "https://x.com/elonmusk/status/2071836426316984797",
+        "author": "elonmusk",
+        "published": "2026-06-30T06:01:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cybercab with no steering wheel or pedals driving around Austin https://t.co/Oo7uPoOjhp",
+        "summary": "Cybercab with no steering wheel or pedals driving around Austin https://t.co/Oo7uPoOjhp",
+        "link": "https://x.com/elonmusk/status/2071813050978480423",
+        "author": "elonmusk",
+        "published": "2026-06-30T04:28:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2071809876490063928",
+        "author": "elonmusk",
+        "published": "2026-06-30T04:15:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+        "summary": "Dylan Patel, founder of SemiAnalysis, argues the biggest gains in AI don't come from faster chips, they come from software-hardware co-design. Optimizing the model, the kernels, and the silicon together turns a 2x here and a 2x there into 100x. He explains why DeepSeek's experts were shaped for Nvidia's Hopper (and why TPUs struggle to run it), why OpenAI's sparser models and Anthropic's denser ones pull them toward different hardware, and why the so-called CUDA moat was never really about CUDA. Dylan breaks down InferenceX, his living benchmark that runs the latest models on over $50M of donated hardware daily, tracking a roughly 60x annual drop in cost per unit of quality. He makes the case that inference will be a bigger market than oil, that the compute crunch persists because models expand the value of useful work faster than compute grows, and why Jensen Huang is bankrolling neoclouds to engineer a multipolar world.\n\nHosted by Shaun Maguire and Sonya Huang, Sequoia Capital",
+        "link": "",
+        "author": "Sequoia Capital",
+        "keywords": "",
+        "published": "2026-06-30T09:00:00+00:00",
+        "kind": "podcast",
+        "source_name": "Training Data",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "Training Data"
+      }
+    ],
+    "videos": [
+      {
+        "title": "How LLMs Actually Generate Text",
+        "summary": "Text generation looks like one function call. Underneath, it's a loop: infer, pick a token, append it, repeat. Watch how Transformers.js runs an LLM step by step.. and understand what's actually happening every time you chat with one.",
+        "link": "https://www.youtube.com/shorts/HfjF__xhSdk",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-30T06:34:41+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-06-30T04:00:00+00:00",
+    "end": "2026-06-30T10:00:00+00:00"
+  }
+}
