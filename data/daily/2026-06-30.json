@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T17:54:44.133161+00:00",
+  "source_segments": [
+    "segments/2026-06-30/00.json",
+    "segments/2026-06-30/06.json",
+    "segments/2026-06-30/12.json",
+    "segments/2026-06-30/18.json"
+  ],
+  "counts": {
+    "x": 43,
+    "blogs": 4,
+    "podcasts": 1,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Been using @riversidedotfm for 2 years now to produce my podcast and will continue to be a loyal customer.\n\nGreat to see",
+        "summary": "Been using @riversidedotfm for 2 years now to produce my podcast and will continue to be a loyal customer.\n\nGreat to see them expand to end to end content production. \n\nYou can get 1 month free with \"peteryang\" at checkout: https://t.co/KbfkRqU2cR",
+        "link": "https://x.com/petergyang/status/2071985410809700863",
+        "author": "petergyang",
+        "published": "2026-06-30T15:53:12+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I will take that as a compliment https://t.co/kTZqkuPqMf",
+        "summary": "I will take that as a compliment https://t.co/kTZqkuPqMf",
+        "link": "https://x.com/elonmusk/status/2071984597311557807",
+        "author": "elonmusk",
+        "published": "2026-06-30T15:49:58+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+        "summary": "It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models.",
+        "link": "https://x.com/adityaag/status/2071983952894837062",
+        "author": "adityaag",
+        "published": "2026-06-30T15:47:24+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Private market data from Forge Global now in Perplexity Computer",
+        "summary": "Private market data from Forge Global now in Perplexity Computer",
+        "link": "https://x.com/AravSrinivas/status/2071982392554983440",
+        "author": "AravSrinivas",
+        "published": "2026-06-30T15:41:12+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "🎯",
+        "summary": "🎯",
+        "link": "https://x.com/elonmusk/status/2071978911919923676",
+        "author": "elonmusk",
+        "published": "2026-06-30T15:27:22+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "we are talking loops today ✅ https://t.co/aorwoqPHZy",
+        "summary": "we are talking loops today ✅ https://t.co/aorwoqPHZy",
+        "link": "https://x.com/swyx/status/2071977886991679715",
+        "author": "swyx",
+        "published": "2026-06-30T15:23:18+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Good morning @aiDotEngineer !\nAre we talking loops today?",
+        "summary": "Good morning @aiDotEngineer !\nAre we talking loops today?",
+        "link": "https://x.com/steipete/status/2071972449277898924",
+        "author": "steipete",
+        "published": "2026-06-30T15:01:41+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Was thinking if I should highlight this tweet or not, but it’s a masterclass in the amount of vitriol people face when w",
+        "summary": "Was thinking if I should highlight this tweet or not, but it’s a masterclass in the amount of vitriol people face when working on open source.\n\nIs the app great yet? No. It’s a start.\n\nIt was built by the community. Getting the iOS and Android apps working with secure pairing and push notifications - and getting both through App Review -took a surprising amount of work.\n\nOpenClaw wasn’t acquired by OpenAI and isn’t an OpenAI product. It’s an open, independent project under the OpenClaw Foundation. OpenAI sponsors the project’s token usage; I work there.\n\nCristian, your tweet was just one of ~30 I woke up to today. I’d genuinely love your help making it great.\n\nAttention is still the scarcest resource.\nI’d rather spend mine encouraging people who build.",
+        "link": "https://x.com/steipete/status/2071972239734616146",
+        "author": "steipete",
+        "published": "2026-06-30T15:00:51+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/05z7mrhVYu",
+        "summary": "https://t.co/05z7mrhVYu",
+        "link": "https://x.com/elonmusk/status/2071968172647858409",
+        "author": "elonmusk",
+        "published": "2026-06-30T14:44:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel Services\n\nYou can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel pr",
+        "summary": "Vercel Services\n\nYou can now collocate e.g.: a Python backend API, an ExpressJS server, and a React SPA in one Vercel project.\n\ntl:dr;\n▪️ You can run all locally with 𝚟𝚌 𝚍𝚎𝚟 \n▪️ Deploy and rollback all at once\n▪️ Observe, monitor, debug together\n▪️ Internal networking",
+        "link": "https://x.com/rauchg/status/2071966055308607765",
+        "author": "rauchg",
+        "published": "2026-06-30T14:36:17+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/6IvSYzq851",
+        "summary": "https://t.co/6IvSYzq851",
+        "link": "https://x.com/elonmusk/status/2071965448120180964",
+        "author": "elonmusk",
+        "published": "2026-06-30T14:33:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "How companies should think about driving AI adoption from @jess__yan (Anthropic product lead):\n\n“Alot of enterprises imm",
+        "summary": "How companies should think about driving AI adoption from @jess__yan (Anthropic product lead):\n\n“Alot of enterprises immediately jump to: How could I automate this crazy twenty-team workflow that would have required a lot of cross-cutting coordination?\n\nBut there is something really valuable about: how do we unlock the individual? How do we make any individual on any team feel exponentially more powerful?\n\nThere is a huge amount of value that’s unlocked simply by making every employee feel like they have their own power to develop products as a one-person startup.”\n\n📌 Watch the full episode: https://t.co/oYU3ZV4wPL",
+        "link": "https://x.com/petergyang/status/2071960766434140644",
+        "author": "petergyang",
+        "published": "2026-06-30T14:15:16+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The time is now",
+        "summary": "The time is now",
+        "link": "https://x.com/rauchg/status/2071951861112840501",
+        "author": "rauchg",
+        "published": "2026-06-30T13:39:53+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "The AOC puppet is just flat-out lying",
+        "summary": "The AOC puppet is just flat-out lying",
+        "link": "https://x.com/elonmusk/status/2071836426316984797",
+        "author": "elonmusk",
+        "published": "2026-06-30T06:01:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cybercab with no steering wheel or pedals driving around Austin https://t.co/Oo7uPoOjhp",
+        "summary": "Cybercab with no steering wheel or pedals driving around Austin https://t.co/Oo7uPoOjhp",
+        "link": "https://x.com/elonmusk/status/2071813050978480423",
+        "author": "elonmusk",
+        "published": "2026-06-30T04:28:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yup",
+        "summary": "Yup",
+        "link": "https://x.com/elonmusk/status/2071809876490063928",
+        "author": "elonmusk",
+        "published": "2026-06-30T04:15:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/DOKd8F3EGI",
+        "summary": "https://t.co/DOKd8F3EGI",
+        "link": "https://x.com/elonmusk/status/2071794940930068983",
+        "author": "elonmusk",
+        "published": "2026-06-30T03:16:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly",
+        "summary": "Exactly",
+        "link": "https://x.com/elonmusk/status/2071792015205966208",
+        "author": "elonmusk",
+        "published": "2026-06-30T03:04:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "They are such liars!",
+        "summary": "They are such liars!",
+        "link": "https://x.com/elonmusk/status/2071789793902534993",
+        "author": "elonmusk",
+        "published": "2026-06-30T02:55:53+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Bingo",
+        "summary": "Bingo",
+        "link": "https://x.com/elonmusk/status/2071786841439642060",
+        "author": "elonmusk",
+        "published": "2026-06-30T02:44:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly",
+        "summary": "Exactly",
+        "link": "https://x.com/elonmusk/status/2071785727860342961",
+        "author": "elonmusk",
+        "published": "2026-06-30T02:39:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "This gets to the core of one of the central debates in AI. \n\nIf a closed stack is always perpetually at the frontier by ",
+        "summary": "This gets to the core of one of the central debates in AI. \n\nIf a closed stack is always perpetually at the frontier by a wide margin, then being vertically integrated, and gate keeping in the US can work. Because you always have control over who gets access to the best technology, and it will be in high enough demand that it always favors you.\n\nIf, however, open weights AI can remain a close second to frontier intelligence, then the equation reverses. With a highly regulated approach, you’ll own the frontier market still, but the vast majority of tokens used will go to an alternative stack. That stack will include the model and the underlying hardware that runs it, in the limit. And that stack will be controlled and monetized by someone else. \n\nDepending on your belief on how close to the frontier open weights can remain -and similarly what percentage of tokens will go through the frontier vs. everything else- your opinion will be different on how to regulate and control AI.",
+        "link": "https://x.com/levie/status/2071775583072375214",
+        "author": "levie",
+        "published": "2026-06-30T01:59:25+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "was this vibed https://t.co/keLhgWSKH5",
+        "summary": "was this vibed https://t.co/keLhgWSKH5",
+        "link": "https://x.com/steipete/status/2071770560875671831",
+        "author": "steipete",
+        "published": "2026-06-30T01:39:28+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "This would have been amazing a few years ago, but in the age of AI, what’s the point?",
+        "summary": "This would have been amazing a few years ago, but in the age of AI, what’s the point?",
+        "link": "https://x.com/steipete/status/2071769993151398074",
+        "author": "steipete",
+        "published": "2026-06-30T01:37:12+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Codex usage limits will be fully reset again in the next hour and we will credit one additional reset into your bank for",
+        "summary": "Codex usage limits will be fully reset again in the next hour and we will credit one additional reset into your bank for your own usage over the next 24 hours.\n\nWe investigated reports that Codex usage was being consumed faster than expected. There wasn't one central issue, but a few smaller problems compounded for some users.   \n\nHere's what we found and changed: \n- Actual usage: Auto-review had become more proactive, another change was triggering more subagent work, and background suggestions could run twice or retry too frequently after failures. We reverted the changes and fixed suggestion scheduling, duplicate generation, and retry behavior. This should reduce unnecessary background token consumption while preserving the work users explicitly request. \n- Usage reporting: Auto-review was incorrectly appearing as GPT‑5.4 usage, and failed or rate-limited requests were still shown as turns. Auto-review now appears as its own category, and only successful requests count toward the turn graphs. Rate-limited requests were never charged, but they were being displayed incorrectly. \n- Immediate relief: We reset usage limits while rolling out the fixes, then shipped hotfixes across the CLI, desktop app, and usage backend. \n- What to expect: New usage data should be clearer and actual consumption should be lower. Historical charts may still show auto-review under GPT‑5.4 because older turn data was not relabeled. Features that intentionally perform more work; such as /goal, subagents, and higher reasoning levels will still naturally use more capacity.  \n\nAll fixes are now deployed, and we've added more detailed monitoring so we can detect background-usage regressions sooner. We'll continue watching the results closely.\n\nThank you for building and doing all sorts of things with Codex.",
+        "link": "https://x.com/thsottiaux/status/2071740419030053227",
+        "author": "thsottiaux",
+        "published": "2026-06-29T23:39:41+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI for powering startups:",
+        "summary": "OpenAI for powering startups:",
+        "link": "https://x.com/gdb/status/2071731411204333896",
+        "author": "gdb",
+        "published": "2026-06-29T23:03:53+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "For writing and editing, plain vanilla Claude web is still the best (vs Codex and Claude Code).\n\nMy guess is something i",
+        "summary": "For writing and editing, plain vanilla Claude web is still the best (vs Codex and Claude Code).\n\nMy guess is something in the coding agent's system prompts make them crappier writers.",
+        "link": "https://x.com/petergyang/status/2071731343390851519",
+        "author": "petergyang",
+        "published": "2026-06-29T23:03:37+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I have so many spicy takes about all this restricted access + open source stuff I'm just going to rant about all of them",
+        "summary": "I have so many spicy takes about all this restricted access + open source stuff I'm just going to rant about all of them in one post.",
+        "link": "https://x.com/petergyang/status/2071730786886435261",
+        "author": "petergyang",
+        "published": "2026-06-29T23:01:25+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "𝟐𝟎𝐱 larger functions on Vercel",
+        "summary": "𝟐𝟎𝐱 larger functions on Vercel",
+        "link": "https://x.com/rauchg/status/2071716510389662153",
+        "author": "rauchg",
+        "published": "2026-06-29T22:04:41+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Do you think it has a reset button?",
+        "summary": "Do you think it has a reset button?",
+        "link": "https://x.com/thsottiaux/status/2071710834527523030",
+        "author": "thsottiaux",
+        "published": "2026-06-29T21:42:08+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "curl -sN https://t.co/ovyIAaG8Ix\nby @_brian_zhang https://t.co/7gLjZevUM5",
+        "summary": "curl -sN https://t.co/ovyIAaG8Ix\nby @_brian_zhang https://t.co/7gLjZevUM5",
+        "link": "https://x.com/rauchg/status/2071710688150528443",
+        "author": "rauchg",
+        "published": "2026-06-29T21:41:33+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "prescribe one (1) pill when a coworker disrespects scaling laws\n\nmake a beeline 4pm sharp at aie expo, first come first ",
+        "summary": "prescribe one (1) pill when a coworker disrespects scaling laws\n\nmake a beeline 4pm sharp at aie expo, first come first served https://t.co/NlIx6EBB3E",
+        "link": "https://x.com/swyx/status/2071692683182252317",
+        "author": "swyx",
+        "published": "2026-06-29T20:30:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "How Anthropic product lead @jess__yan uses AI agents internally across 5 workflows:\n\n1. Understand the codebase\n\nInstead",
+        "summary": "How Anthropic product lead @jess__yan uses AI agents internally across 5 workflows:\n\n1. Understand the codebase\n\nInstead of asking engineers what shipped or how something works, Jess can inspect pull requests, deployments, and product architecture directly. “Access to our codebase has been the biggest unlock for me.”\n\n2. Synthesize customer feedback\n\nJess has agents monitor customer Slack channels to get more signal before deciding what to build next.\n\n3. Get briefed before meetings\n\nJess uses agents to prep before customer conversations, pitches, and internal discussions. This helps her show up with baseline research done and a clearer opinion.\n\n4. Pressure-test product & API decisions\n\nJess has an API review agent in Slack that helps the team improve API design and spot when their biases are getting in the way.\n\n5. Build temporary agents for messy ops work\n\nJess built an ad hoc agent to clean up a 4,000+ company waitlist. t removed invalid entries, scored likely high-value testers, and helped pull invitees daily. Messy short-lived workflows are great candidates for temporary agents.\n\nJess also showed me how to build a Claude analytics agent from scratch in our interview.\n\n📌 Watch the episode here: https://t.co/rYIC7uyDpJ",
+        "link": "https://x.com/petergyang/status/2071690793899974773",
+        "author": "petergyang",
+        "published": "2026-06-29T20:22:30+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Deaths in Africa DECREASED after USAID funding was cut, because they’re no longer able to push for violent revolution to",
+        "summary": "Deaths in Africa DECREASED after USAID funding was cut, because they’re no longer able to push for violent revolution to install leftist regimes!",
+        "link": "https://x.com/elonmusk/status/2071673460779041155",
+        "author": "elonmusk",
+        "published": "2026-06-29T19:13:37+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "State of the art voice APIs from SpaceXAI, now in the Vercel AI Gateway",
+        "summary": "State of the art voice APIs from SpaceXAI, now in the Vercel AI Gateway",
+        "link": "https://x.com/xai/status/2071661034683969977",
+        "author": "xai",
+        "published": "2026-06-29T18:24:14+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "Claude in Microsoft Foundry is now generally available, hosted on Azure.\n\nAzure customers get Claude Opus 4.8 and Claude",
+        "summary": "Claude in Microsoft Foundry is now generally available, hosted on Azure.\n\nAzure customers get Claude Opus 4.8 and Claude Haiku 4.5, with Azure authentication, billing, and commitment retirement. https://t.co/4Rz7fa9Bxm",
+        "link": "https://x.com/claudeai/status/2071653958905467027",
+        "author": "claudeai",
+        "published": "2026-06-29T17:56:07+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Massive performance and memory usage improvements in @nextjs. \n\nTurbopack’s bet on the filesystem cache pays off greatly",
+        "summary": "Massive performance and memory usage improvements in @nextjs. \n\nTurbopack’s bet on the filesystem cache pays off greatly in a world of agents hammering 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍.",
+        "link": "https://x.com/rauchg/status/2071653061748035994",
+        "author": "rauchg",
+        "published": "2026-06-29T17:52:34+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "wherever ideas hit.\ndesks and laptops optional.",
+        "summary": "wherever ideas hit.\ndesks and laptops optional.",
+        "link": "https://x.com/ryolu_/status/2071652629890088964",
+        "author": "ryolu_",
+        "published": "2026-06-29T17:50:51+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "It’s total bullshit!\n\nDeaths in Africa DECREASED after cutting USAID funding, which they were using to push for violent ",
+        "summary": "It’s total bullshit!\n\nDeaths in Africa DECREASED after cutting USAID funding, which they were using to push for violent overthrow of governments!!",
+        "link": "https://x.com/elonmusk/status/2071652181854343349",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:49:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I love optimizing machines \n\nIt’s like a beautiful puzzle\n\nThat also achieves true usefulness",
+        "summary": "I love optimizing machines \n\nIt’s like a beautiful puzzle\n\nThat also achieves true usefulness",
+        "link": "https://x.com/elonmusk/status/2071651728202543557",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:47:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I think I might stop using @telegram if these BS spam msgs don't get blocked by default. \n\nDoesn't make sense you have t",
+        "summary": "I think I might stop using @telegram if these BS spam msgs don't get blocked by default. \n\nDoesn't make sense you have to pay a subscription to reduce spam and not let randos DM you. https://t.co/Dl53wWU5kl",
+        "link": "https://x.com/petergyang/status/2071651376959291512",
+        "author": "petergyang",
+        "published": "2026-06-29T17:45:52+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Cursor for iOS!",
+        "summary": "Cursor for iOS!",
+        "link": "https://x.com/elonmusk/status/2071650759330906253",
+        "author": "elonmusk",
+        "published": "2026-06-29T17:43:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles bindin",
+        "summary": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles binding OS-enforced file read/write/deny rules (even **/*.env) to per-domain network + Unix sockets. Plus fail-closed admin allowlists. Least privilege per task.\n\nhttps://t.co/jHyAnUhyFs",
+        "link": "https://x.com/thsottiaux/status/2071636285807059315",
+        "author": "thsottiaux",
+        "published": "2026-06-29T16:45:54+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "shot-scraper 1.10",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/shot-scraper/releases/tag/1.10\">shot-scraper 1.10</a></p>\n        <p>The big new feature is <code>shot-scraper video storyboard.yml</code>, described in detail in <a href=\"https://simonwillison.net/2026/Jun/30/shot-scraper-video/\">Have your agent record video demos of its work with shot-scraper video</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/shot-scraper\">shot-scraper</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/30/shot-scraper/",
+        "author": "",
+        "keywords": "shot-scraper",
+        "published": "2026-06-30T15:10:14+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "HTML table extractor",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/html-table-extractor\">HTML table extractor</a></p>\n        <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p>\n<p>Try it out by selecting everything on the Wikipedia <a href=\"https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area\">List of cities and towns in the San Francisco Bay Area</a> page and pasting it directly into the tool:</p>\n<p><img alt=\"Screenshot of a web interface for converting table data between formats. A row of tabs labeled HTML, Markdown, CSV, TSV, and JSON sits below the bottom edge of a styled data table, with the TSV tab currently selected. The TSV tab displays the table's contents as tab-separated plain text in a monospaced font inside a bordered panel, with a &quot;Copy&quot; button in the upper right of that panel.\" src=\"https://static.simonwillison.net/static/2026/html-table.jpg\" /></p>\n<p>On a similar note, I recently <a href=\"https://github.com/simonw/tools/commit/f278e977751dbc1948baedfc2f26b6de870f60e6\">rebuilt</a> my <a href=\"https://tools.simonwillison.net/rich-text-to-markdown\">Rich text to markdown</a> tool to add support for tables and generally improve the UI.</p>\n<p><strong>Update</strong>: It turns out Wikipedia has an open CORS API for retrieving the full rendered HTML content of any page - <a href=\"https://tools.simonwillison.net/cors-fetch#url=https%3A%2F%2Fen.wikipedia.org%2Fw%2Fapi.php%3Faction%3Dparse%26page%3DList_of_cities_and_towns_in_the_San_Francisco_Bay_Area%26prop%3Dtext%26format%3Djson%26origin%3D%2A\">demo here</a>  - so I <a href=\"https://gist.github.com/simonw/f226fe96f464ec7d81d6996cb466436d\">had Codex</a> add the ability to search Wikipedia for a page and then automatically import and display any tables from that page.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/html\">html</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/wikipedia\">wikipedia</a>, <a href=\"https://simonwillison.net/tags/cors\">cors</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/29/html-table-extractor/",
+        "author": "",
+        "keywords": "html tools wikipedia cors",
+        "published": "2026-06-29T23:38:21+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Count the number of Safari tabs",
+        "summary": "<p>Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</p>\n<pre><code>osascript -e 'tell application \"Safari\" to count tabs of every window'\n</code></pre>\n<p><img alt=\"I ran it in a terminal window and got back 370.\" src=\"https://static.simonwillison.net/static/2026/tab-shame.jpg\" /></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/til\">til</a>, <a href=\"https://simonwillison.net/tags/applescript\">applescript</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/29/safari-tab-count/",
+        "author": "",
+        "keywords": "safari til applescript",
+        "published": "2026-06-29T18:36:18+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
+        "summary": "<p><strong><a href=\"https://deep-reinforce.com/ornith_1_0.html\">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p>\nThis is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p>\n<blockquote>\n<p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</p>\n</blockquote>\n<p>As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional <a href=\"https://ai.google.dev/gemma/terms\">Gemma Terms of Use</a> that afflicted the previous Gemma models) and Qwen 3.5 is Apache 2.0 licensed as well.</p>\n<p>I've been running the model using LM Studio and the <a href=\"https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF\">ornith-1.0-35b-Q4_K_M.gguf</a> (20GB) GGUF, hooked up to <a href=\"https://pi.dev/\">Pi</a>. Initial impressions are very good - it seems to be able to run the agent harness over many tool calls in a proficient way.</p>\n<p>Here's <a href=\"https://gisthost.github.io/?35da4d9ce7f0c27124c67655a0dc9e5d\">a terminal session</a> where I asked it to \"find the code that decodes the actor cookie\" and then \"find the code that opens the insert dialog when thebutton is clicked\" against a Datasette checkout, which it handled with ease.</p>\n<p>I also had it <a href=\"https://gist.github.com/simonw/1869e1bbcafe5bcad0f26351f6a978a6\">draw this pelican</a>, which came out at 103 tokens/second:</p>\n<p><img alt=\"Cartoon illustration of a white pelican (albeit slightly mangled) with a large orange beak riding a red bicycle across green hills. The scene has a blue sky with a yellow sun and three white clouds, and small grass tufts dot the foreground.\" src=\"https://static.simonwillison.net/static/2024/ornith-1-pelican.png\" /></p>\n<p>It's a little bit mangled but the pelican is clearly a pelican.</p>\n<p>I couldn't find much information about DeepReinforce themselves. The earliest paper I could find from the was <a href=\"https://arxiv.org/abs/2507.14111\">CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning</a> from June 2025.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/gemma\">gemma</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/29/ornith/",
+        "author": "",
+        "keywords": "ai generative-ai local-llms llms qwen pelican-riding-a-bicycle gemma llm-release lm-studio",
+        "published": "2026-06-29T16:17:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+        "summary": "Dylan Patel, founder of SemiAnalysis, argues the biggest gains in AI don't come from faster chips, they come from software-hardware co-design. Optimizing the model, the kernels, and the silicon together turns a 2x here and a 2x there into 100x. He explains why DeepSeek's experts were shaped for Nvidia's Hopper (and why TPUs struggle to run it), why OpenAI's sparser models and Anthropic's denser ones pull them toward different hardware, and why the so-called CUDA moat was never really about CUDA. Dylan breaks down InferenceX, his living benchmark that runs the latest models on over $50M of donated hardware daily, tracking a roughly 60x annual drop in cost per unit of quality. He makes the case that inference will be a bigger market than oil, that the compute crunch persists because models expand the value of useful work faster than compute grows, and why Jensen Huang is bankrolling neoclouds to engineer a multipolar world.\n\nHosted by Shaun Maguire and Sonya Huang, Sequoia Capital",
+        "link": "",
+        "author": "Sequoia Capital",
+        "keywords": "",
+        "published": "2026-06-30T09:00:00+00:00",
+        "kind": "podcast",
+        "source_name": "Training Data",
+        "source_role": "Featuring OpenAI",
+        "source_handle": "Training Data"
+      }
+    ],
+    "videos": [
+      {
+        "title": "How LLMs Actually Generate Text",
+        "summary": "Text generation looks like one function call. Underneath, it's a loop: infer, pick a token, append it, repeat. Watch how Transformers.js runs an LLM step by step.. and understand what's actually happening every time you chat with one.",
+        "link": "https://www.youtube.com/shorts/HfjF__xhSdk",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-06-30T06:34:41+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "How Church Wealth Made Corruption Inevitable – Ada Palmer",
+        "summary": "Full episode: https://www.youtube.com/watch?v=U1FrhkLQnCI\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=sNiXjgojxko",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-06-29T17:15:08+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  }
+}
