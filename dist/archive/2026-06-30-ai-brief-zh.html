@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Firsthand AI 解读 - 2026-06-30</title>
+  <style>
+:root{--ink:#172033;--muted:#647084;--line:#dbe3ee;--paper:#f6f8fb;--card:#fff;--blue:#2457d6;--green:#12745f;--amber:#9b5b00;--red:#b42318}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 44px}.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:22px}h1{margin:0 0 10px;font-size:34px;line-height:1.08}h2{font-size:18px;margin:0 0 12px}p{margin:0 0 10px}.muted{color:var(--muted)}.small{font-size:12px}.eyebrow{font-size:12px;font-weight:800;color:var(--green);text-transform:uppercase;letter-spacing:.08em}.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.metric{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px}.metric strong{display:block;font-size:24px;line-height:1.1}.metric span{font-size:12px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px}.wide{grid-column:span 2}.full{grid-column:1/-1}.tag{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px 8px;margin:0 5px 6px 0;font-size:12px;color:var(--muted);background:#fbfcff}.ok{color:var(--green)}.warn{color:var(--amber)}.low{color:var(--red)}ul{margin:8px 0 0;padding-left:18px}li{margin:4px 0}.note{border-left:3px solid var(--blue);padding-left:10px;color:var(--muted)}.source-list{columns:2;column-gap:20px}.source-list li{break-inside:avoid}.lang-switch{position:fixed;top:18px;right:18px;z-index:50;display:flex;gap:4px;background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:999px;padding:4px;backdrop-filter:blur(18px);box-shadow:0 4px 18px rgba(30,42,62,.10)}.lang-switch a{border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;color:var(--muted);text-decoration:none}.lang-switch a.active{background:var(--blue);color:#fff}@media(max-width:760px){.hero,.grid{grid-template-columns:1fr}.wide{grid-column:auto}.source-list{columns:1}.lang-switch{position:static;margin:14px 20px 0;display:inline-flex}}
+  .lang-switch{position:fixed;top:18px;right:18px;z-index:50;display:flex;gap:4px;background:rgba(255,255,255,.86);border:1px solid var(--line,#dfe5ee);border-radius:999px;padding:4px;backdrop-filter:blur(18px);box-shadow:0 4px 18px rgba(30,42,62,.10)}.lang-switch a{border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;color:var(--muted,#647083);text-decoration:none}.lang-switch a.active{background:var(--blue,var(--green,#2457d6));color:#fff}@media(max-width:560px){.lang-switch{position:static;margin:14px 20px 0;display:inline-flex}}</style>
+</head>
+<body>
+<nav class="lang-switch" aria-label="Language"><a href="2026-06-30-ai-brief.html">EN</a><a class="active" href="2026-06-30-ai-brief-zh.html">中文</a></nav>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Firsthand AI 解读</div>
+      <h1>Agent 基础设施正在转向“受控执行面”</h1>
+      <p class="muted">执行时间：2026-06-30 08:15 CST。覆盖窗口：2026-06-29 08:15 CST 至 2026-06-30 08:15 CST。</p>
+      <p>这 24 小时最强信号不是单一模型发布，而是一组围绕 agent 落地的基础设施变化：开放的 agentic coding 模型、真实机器人自改进闭环、万卡训练集群可观测性、AI 劳动力地图、语音/模型网关、企业模型托管，以及更细粒度的 Codex 权限配置。</p>
+    </div>
+    <div class="metrics">
+      <div class="metric"><strong>35</strong><span>窗口内 Firsthand 条目</span></div>
+      <div class="metric"><strong>45</strong><span>已评估原始/二级链接</span></div>
+      <div class="metric"><strong>10</strong><span>可读的一手或二级页面</span></div>
+      <div class="metric"><strong>32</strong><span>X/视频/付费墙/元数据受限来源</span></div>
+    </div>
+  </section>
+
+  <section class="grid">
+    <article class="card wide">
+      <h2>执行摘要</h2>
+      <p><strong>事实。</strong>Firsthand 本窗口收录 35 条：4 条博客或长文、3 条 YouTube 视频、28 条 X 帖；其中多条 X 是无关政治内容、单句反应或图片上下文不可读的弱信号 <a href="https://ai.prov1dence.top/">Firsthand AI Digest</a>。</p>
+      <p><strong>事实。</strong>DeepReinforce 发布 Ornith-1.0，一个面向 agentic coding 的 MIT 许可开放模型家族，包含 9B、31B、35B 和 397B 变体，并给出 Terminal-Bench 2.1 与 SWE-Bench Verified 成绩 <a href="https://deep-reinforce.com/ornith_1_0.html">DeepReinforce</a>。Simon Willison 本地运行 35B GGUF 后认为，它在 Datasette 代码库上的多轮工具调用表现不错 <a href="https://simonwillison.net/2026/Jun/29/ornith/">Simon Willison</a>。</p>
+      <p><strong>事实。</strong>Import AI 重点介绍 NVIDIA ENPIRE：它把 reset、rollout、verification、policy improvement 和 evolution 串成真实机器人学习闭环；项目页和 arXiv 摘要都把它描述为把 coding-agent 式迭代搬进物理世界 <a href="https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/">Import AI</a> <a href="https://research.nvidia.com/labs/gear/enpire/">NVIDIA ENPIRE</a> <a href="https://arxiv.org/abs/2606.19980">arXiv</a>。</p>
+      <p><strong>分析。</strong>共同趋势是“受控执行”：agent 要成为可靠基础设施，需要 harness、权限、可观测性、成本控制、部署入口和人类审查边界。</p>
+    </article>
+
+    <aside class="card">
+      <h2>来源可访问性</h2>
+      <p><span class="ok">较充分：</span>Simon Willison、DeepReinforce、Import AI、NVIDIA ENPIRE、ENPIRE arXiv、ARGUS arXiv、Hugging Face 模型卡和 Gemma terms 页面可读。</p>
+      <p><span class="warn">部分可用：</span>OpenAI EU workforce 官方页对直接抓取返回 403，因此只使用 Firsthand 摘要和官方链接。YouTube 只有标题、频道、oEmbed 元数据和 Firsthand 描述，没有完整 transcript。</p>
+      <p><span class="low">受限：</span>X 只使用公开 oEmbed 文本或 Firsthand 捕获片段；回复、媒体、引用链、t.co 目标和登录态线程上下文均未验证。</p>
+    </aside>
+
+    <article class="card">
+      <h2>开放代码模型开始追逐 agent benchmark</h2>
+      <span class="tag">open weights</span><span class="tag">中高置信度</span>
+      <p><strong>事实。</strong>Ornith-1.0 的核心说法是 self-scaffolding training：模型学习生成 solution rollout，也学习生成任务专用 harness，并联合优化 scaffold 与答案 <a href="https://deep-reinforce.com/ornith_1_0.html">DeepReinforce</a>。</p>
+      <p><strong>事实。</strong>Hugging Face 的 GGUF 页面列出 35B 量化模型、MIT license，以及本地 llama.cpp 使用示例 <a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF">Hugging Face</a>。</p>
+      <p><strong>不确定性。</strong>benchmark 是发布方自报，本次没有复现。应视作发布证据，而不是已定论的排名。</p>
+    </article>
+
+    <article class="card">
+      <h2>机器人学习正在借用 agent 闭环</h2>
+      <span class="tag">robotics</span><span class="tag">高置信度</span>
+      <p><strong>事实。</strong>ENPIRE 包含四个模块：用于 reset 和 verification 的 Environment、Policy Improvement、Rollout、以及 Evolution；其中 coding agents 会分析日志、查文献、改进训练基础设施和算法代码 <a href="https://research.nvidia.com/labs/gear/enpire/">NVIDIA ENPIRE</a>。</p>
+      <p><strong>分析。</strong>这条线重要之处在于，它把机器人研究的瓶颈定义为实验闭环基础设施，而不只是更强 policy network。物理世界 agent 要扩展，必须先解决 reset、测量和失败归因。</p>
+    </article>
+
+    <article class="card">
+      <h2>训练集群需要常开诊断</h2>
+      <span class="tag">infrastructure</span><span class="tag">高置信度</span>
+      <p><strong>事实。</strong>ARGUS 提出面向 10,000+ GPU 训练集群的低开销细粒度 tracing，报告采集开销低于 2%，并大幅压缩 kernel event，用于实时异常诊断 <a href="https://arxiv.org/abs/2606.20374">ARGUS arXiv</a>。</p>
+      <p><strong>启示。</strong>前沿训练正在变成可观测性市场。竞争力不只是拿到 GPU，而是能在任务运行中发现 fail-slow、链路退化和 straggler kernel。</p>
+    </article>
+
+    <article class="card">
+      <h2>模型访问进入企业托管入口</h2>
+      <span class="tag">enterprise AI</span><span class="tag">中等置信度</span>
+      <p><strong>事实。</strong>Claude 官方 X 帖称 Claude in Microsoft Foundry 已在 Azure 上 GA，支持 Azure authentication、billing、commitment retirement，并提供 Claude Opus 4.8 和 Claude Haiku 4.5 <a href="https://x.com/claudeai/status/2071653958905467027">Claude on X</a>。</p>
+      <p><strong>事实。</strong>xAI 的 Firsthand 捕获文本称 SpaceXAI voice APIs 已进入 Vercel AI Gateway；Guillermo Rauch 也发帖称 voice agents now on Vercel <a href="https://x.com/xai/status/2071661034683969977">xAI on X</a> <a href="https://x.com/rauchg/status/2071621345151009184">Guillermo Rauch</a>。</p>
+      <p><strong>不确定性。</strong>这些仍是 X 级别发布片段；本次未验证完整产品文档、价格和区域条款。</p>
+    </article>
+
+    <article class="card">
+      <h2>Codex 权限正在成为产品能力</h2>
+      <span class="tag">developer tools</span><span class="tag">中等置信度</span>
+      <p><strong>事实。</strong>一条 Codex 相关公开 X 帖称，粗粒度 sandbox mode 被可复用 permission profiles 取代，支持 OS-enforced 文件读写/拒绝规则、按域名网络与 Unix socket 控制，以及 fail-closed admin allowlists <a href="https://x.com/thsottiaux/status/2071636285807059315">Tibo on X</a>。</p>
+      <p><strong>分析。</strong>这和今天的大趋势一致：agent 离开 demo 阶段后，产品竞争点会转向 least privilege、可重复 policy 和组织级控制。</p>
+    </article>
+
+    <article class="card">
+      <h2>AI 劳动力影响被制图，但还未被解决</h2>
+      <span class="tag">workforce</span><span class="tag">中低置信度</span>
+      <p><strong>事实。</strong>Firsthand 摘要称 OpenAI 发布报告，映射 AI 可能如何重塑欧盟工作，包括可能自动化、增长或改变工作流的职业 <a href="https://openai.com/index/mapping-ai-jobs-transition-eu">OpenAI official URL</a>。</p>
+      <p><strong>不确定性。</strong>官方页面对直接采集返回 403，因此这里只能确认 Firsthand 摘要与官方 URL，不能推断具体行业和职业层面的细节。</p>
+    </article>
+
+    <article class="card">
+      <h2>视频信号仅限元数据</h2>
+      <span class="tag">video</span><span class="tag">有限证据</span>
+      <p><strong>事实。</strong>OpenAI 发布 YouTube 视频 "Advent Accelerates Deals with ChatGPT + Codex"；Firsthand 描述称 Advent 将 deal folder 上下文连接到 ChatGPT 和 Codex，用于投资工作流 <a href="https://www.youtube.com/watch?v=f-HiB82Tl94">YouTube</a>。</p>
+      <p><strong>事实。</strong>Hugging Face 发布 custom agents distillation 直播教程；Firsthand 描述覆盖 teacher-generated data 上的 SFT、on-policy 方法、KD reward 和 TRL self-distillation <a href="https://www.youtube.com/watch?v=GZT_oNQnLV4">YouTube</a>。</p>
+      <p><strong>不确定性。</strong>没有完整 transcript，因此这里只能作为标题、频道、oEmbed 和 Firsthand 描述支持的方向性信号。</p>
+    </article>
+
+    <article class="card full">
+      <h2>跨事件趋势判断</h2>
+      <ul>
+        <li><strong>Agent 自治正在通过约束产品化：</strong>Ornith 有 learned scaffold，ENPIRE 有 reset/evaluation loop，Codex 有 permission profiles，Vercel/Foundry 把模型放进托管入口。</li>
+        <li><strong>基础设施是一等 AI 能力：</strong>ARGUS、数据中心/能源讨论和 gateway 发布都说明，服务、观测和治理模型本身就是竞争力。</li>
+        <li><strong>开放与托管路线正在并行靠近真实工作流：</strong>本地 GGUF coding model 和企业托管 Claude/voice API 都在把模型能力放到更接近生产的位置。</li>
+        <li><strong>X 占据数量，但不等于确定性：</strong>很多帖子适合作为线索，真正支撑分析的是项目页、论文和可读原文。</li>
+      </ul>
+    </article>
+
+    <article class="card"><h2>给开发者</h2><ul><li>关注 Ornith 等开放 coding models，但要自己复现 benchmark 和真实仓库任务表现。</li><li>设计 agent 工作流时，把 harness、权限、日志和可重试执行作为基本件。</li><li>视频教程没有 transcript 前，不要把细节当作权威文档。</li></ul></article>
+    <article class="card"><h2>给创业公司</h2><ul><li>机会正在转向 orchestration：gateway、observability、permissions、evaluation 和 workflow-specific state。</li><li>语音 agents 和企业托管前沿模型，更适合与 billing、auth、audit 打包销售。</li><li>开放模型能降低成本，但信任仍取决于独立评测和支持能力。</li></ul></article>
+    <article class="card"><h2>给研究者</h2><ul><li>把 self-scaffolding 与 reset/evaluation loop 作为跨软件和机器人领域的通用 agent 基础设施模式研究。</li><li>发布 agent benchmark 时提高可复现性，尤其是对标闭源前沿模型的声明。</li><li>ARGUS 类 tracing 暗示分布式训练 fail-slow 诊断仍有大量研究空间。</li></ul></article>
+    <article class="card"><h2>给企业买家</h2><ul><li>询问供应商模型如何托管、认证、计费、记录、授权和约束。</li><li>把 X 发布帖当作发现线索；采购前要求文档和合同条款。</li><li>AI 劳动力转型需要职业级分析；无法访问完整报告时，不要只依赖摘要。</li></ul></article>
+
+    <article class="card wide"><h2>24-72 小时观察清单</h2><ul><li>Ornith-1.0 在 Terminal-Bench、SWE-Bench Verified 和真实多工具 coding task 上的独立复现。</li><li>OpenAI EU workforce 完整报告或可访问镜像是否披露职业级结论。</li><li>Vercel/xAI voice API 的文档、价格、延迟和支持的 realtime 场景。</li><li>Microsoft/Anthropic 文档是否确认 Foundry 区域、模型可用性和企业控制项。</li><li>AI Engineer 活动是否把今天 X 上的 teaser 转成实际产品发布。</li></ul></article>
+    <article class="card"><h2>置信度说明</h2><p><strong>高：</strong>Firsthand 计数、可读项目页、arXiv 摘要、Simon Willison 本地测试记录和 YouTube oEmbed 元数据。</p><p><strong>中：</strong>Claude/Vercel/Codex 公告，公开 X 文本可读，但完整文档未确认。</p><p><strong>低：</strong>OpenAI workforce 细节因 403 不可见、依赖图片或 t.co 的 X 帖、无关政治帖，以及无 transcript 的视频内容。</p></article>
+
+    <article class="card full">
+      <h2>来源链接</h2>
+      <ul class="source-list">
+        <li><a href="https://ai.prov1dence.top/">Firsthand AI Digest</a></li>
+        <li><a href="https://simonwillison.net/2026/Jun/29/ornith/">Simon Willison on Ornith</a></li>
+        <li><a href="https://deep-reinforce.com/ornith_1_0.html">DeepReinforce Ornith-1.0</a></li>
+        <li><a href="https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF">Ornith 35B GGUF on Hugging Face</a></li>
+        <li><a href="https://jack-clark.net/2026/06/29/import-ai-463-self-improving-robots-a-10k-chinese-gpu-cluster-and-an-elegiac-essay-for-the-human-era/">Import AI 463</a></li>
+        <li><a href="https://research.nvidia.com/labs/gear/enpire/">NVIDIA ENPIRE</a></li>
+        <li><a href="https://arxiv.org/abs/2606.19980">ENPIRE arXiv</a></li>
+        <li><a href="https://arxiv.org/abs/2606.20374">ARGUS arXiv</a></li>
+        <li><a href="https://openai.com/index/mapping-ai-jobs-transition-eu">OpenAI EU workforce page</a></li>
+        <li><a href="https://www.youtube.com/watch?v=f-HiB82Tl94">OpenAI Advent video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=GZT_oNQnLV4">Hugging Face distillation tutorial</a></li>
+        <li><a href="https://x.com/claudeai/status/2071653958905467027">Claude on Microsoft Foundry</a></li>
+        <li><a href="https://x.com/xai/status/2071661034683969977">xAI voice APIs on Vercel Gateway</a></li>
+        <li><a href="https://x.com/rauchg/status/2071621345151009184">Guillermo Rauch on voice agents</a></li>
+        <li><a href="https://x.com/thsottiaux/status/2071636285807059315">Codex permission profiles</a></li>
+        <li><a href="https://x.com/rauchg/status/2071653061748035994">Next.js filesystem cache and agents</a></li>
+        <li><a href="https://x.com/petergyang/status/2071690793899974773">Anthropic PM agent workflows</a></li>
+        <li><a href="https://x.com/petergyang/status/2071606799791436242">Energy and data-center capacity comment</a></li>
+      </ul>
+      <p class="note small">窗口内 Firsthand 条目均已计数。无关政治帖、单词回复、体育和图片-only 帖保留在数量统计中，但未纳入趋势判断。</p>
+    </article>
+  </section>
+</main>
+</body>
+</html>
