@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-01T08:14:27.137726+00:00",
+  "counts": {
+    "x": 19,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available? https://t.co/nU5J9p9KsC",
+        "summary": "What does this mean btw? After I hit 50% weekly usage Fable is no longer available? https://t.co/nU5J9p9KsC",
+        "link": "https://x.com/petergyang/status/2072165346476511583",
+        "author": "petergyang",
+        "published": "2026-07-01T03:48:12+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This will hopefully unlock a new wave of better entries. Check it out!",
+        "summary": "This will hopefully unlock a new wave of better entries. Check it out!",
+        "link": "https://x.com/fchollet/status/2072164923044716558",
+        "author": "fchollet",
+        "published": "2026-07-01T03:46:31+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Fable 5 will be available again globally tomorrow.\n\nAfter a series of productive conversations with the US govern",
+        "summary": "Claude Fable 5 will be available again globally tomorrow.\n\nAfter a series of productive conversations with the US government, we're redeploying the model with a new set of classifiers to target and block more cybersecurity tasks. In the near term, some routine tasks like coding and debugging will fall back to Opus 4.8. We’ll continue to refine these classifiers over the coming weeks to reduce false positives and better distinguish genuine misuse from legitimate requests.\n\nWe’ve also begun drafting a consensus framework—with Amazon, Microsoft, Google, and other Glasswing partners—for assessing the severity of AI jailbreaks and how AI developers should respond to them. We invite other industry partners and model providers to join us in this effort.\n\nFinally, we’re scaling up our collaboration with the US government on model testing and safeguards. This will include pre-release access to models and safeguards for evaluation, information sharing on jailbreaks and misuse, and dedicated resources for joint research.\n\nThank you to our users for your patience, and to our partners across the government, industry, and the research community who worked alongside us to make Fable 5 available again. \n\nRead our full blog: https://t.co/VHyum831ri",
+        "link": "https://x.com/AnthropicAI/status/2072163884430229756",
+        "author": "AnthropicAI",
+        "published": "2026-07-01T03:42:23+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Cross-agent feedback loops are incredibly effective -- for a reason. Check out what @leon2mcp and team at @Bloome_im are",
+        "summary": "Cross-agent feedback loops are incredibly effective -- for a reason. Check out what @leon2mcp and team at @Bloome_im are building in this space: https://t.co/9YeLjBNjsk\n\nBloome lets you pull Claude, ChatGPT, Gemini, and human teammates into a single shared workspace. The best feature is how your agents check each other's work. One drafts, another critiques, and another catches missing details. Human teammates can work in the same thread to keep the agents on target.\n\nHaving all your models and human coworkers in one shared context is wildly effective",
+        "link": "https://x.com/fchollet/status/2072155613925437769",
+        "author": "fchollet",
+        "published": "2026-07-01T03:09:31+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Price per token != cost per task",
+        "summary": "Price per token != cost per task",
+        "link": "https://x.com/steipete/status/2072144627474579925",
+        "author": "steipete",
+        "published": "2026-07-01T02:25:52+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Apparently we didn't talk enough about  w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet! See ya there!",
+        "summary": "Apparently we didn't talk enough about  w̶o̶r̶k̶f̶l̶o̶w̶s̶ loops yet! See ya there!",
+        "link": "https://x.com/steipete/status/2072143124496097302",
+        "author": "steipete",
+        "published": "2026-07-01T02:19:54+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "We moved the changelog to our docs to be easier readable.",
+        "summary": "We moved the changelog to our docs to be easier readable.",
+        "link": "https://x.com/steipete/status/2072137754683789515",
+        "author": "steipete",
+        "published": "2026-07-01T01:58:33+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "At dinner, tech executive is relaying his company’s @vercel feedback, and then his 12-year-old son’s @vercel feedback 😁 ",
+        "summary": "At dinner, tech executive is relaying his company’s @vercel feedback, and then his 12-year-old son’s @vercel feedback 😁 \n\nVercel is for everyone.",
+        "link": "https://x.com/rauchg/status/2072123264843886709",
+        "author": "rauchg",
+        "published": "2026-07-01T01:00:59+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Personal finance now available for for ChatGPT Plus in the U.S.",
+        "summary": "Personal finance now available for for ChatGPT Plus in the U.S.",
+        "link": "https://x.com/gdb/status/2072113363543580690",
+        "author": "gdb",
+        "published": "2026-07-01T00:21:38+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Setting an alarm at midnight to get Fable to fix all my projects 😅",
+        "summary": "Setting an alarm at midnight to get Fable to fix all my projects 😅",
+        "link": "https://x.com/petergyang/status/2072111311396438410",
+        "author": "petergyang",
+        "published": "2026-07-01T00:13:29+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "LETS FUCKIN GO",
+        "summary": "LETS FUCKIN GO",
+        "link": "https://x.com/danshipper/status/2072106715286225313",
+        "author": "danshipper",
+        "published": "2026-06-30T23:55:13+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\n\nWe'll ",
+        "summary": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\n\nWe'll begin restoring access tomorrow, and will share an update soon.\n\nWe’re grateful to our users for their patience, and to everyone who worked with us on redeploying the models.",
+        "link": "https://x.com/AnthropicAI/status/2072106151890809341",
+        "author": "AnthropicAI",
+        "published": "2026-06-30T23:52:59+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "me, on a vacation in mexico, hearing that fable might be coming back tonight https://t.co/OHp0diROKl",
+        "summary": "me, on a vacation in mexico, hearing that fable might be coming back tonight https://t.co/OHp0diROKl",
+        "link": "https://x.com/danshipper/status/2072099953254584462",
+        "author": "danshipper",
+        "published": "2026-06-30T23:28:21+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "This whole game to make a \"(model) is INSANE\" video whenever the latest model drops - I'm not sure I want to play it tbh",
+        "summary": "This whole game to make a \"(model) is INSANE\" video whenever the latest model drops - I'm not sure I want to play it tbh.",
+        "link": "https://x.com/petergyang/status/2072098874081296855",
+        "author": "petergyang",
+        "published": "2026-06-30T23:24:03+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Grok https://t.co/LMtw2XTQMn",
+        "summary": "Grok https://t.co/LMtw2XTQMn",
+        "link": "https://x.com/elonmusk/status/2072097988064018595",
+        "author": "elonmusk",
+        "published": "2026-06-30T23:20:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "if this happens im livestreaming and ripping tokens from my vacation in cabo tonight",
+        "summary": "if this happens im livestreaming and ripping tokens from my vacation in cabo tonight",
+        "link": "https://x.com/danshipper/status/2072094163378622823",
+        "author": "danshipper",
+        "published": "2026-06-30T23:05:20+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Just hardcore engineering",
+        "summary": "Just hardcore engineering",
+        "link": "https://x.com/elonmusk/status/2072086856553078942",
+        "author": "elonmusk",
+        "published": "2026-06-30T22:36:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Four-story elevator … wow\n\nReal “man of the people” he is",
+        "summary": "Four-story elevator … wow\n\nReal “man of the people” he is",
+        "link": "https://x.com/elonmusk/status/2072086313160040675",
+        "author": "elonmusk",
+        "published": "2026-06-30T22:34:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "😑",
+        "summary": "😑",
+        "link": "https://x.com/elonmusk/status/2072085322301849902",
+        "author": "elonmusk",
+        "published": "2026-06-30T22:30:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting Anthropic",
+        "summary": "<blockquote cite=\"https://twitter.com/anthropicai/status/2072106151890809341\"><p>We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.</p>\n<p>We'll begin restoring access tomorrow, and will share an update soon.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/anthropicai/status/2072106151890809341\">Anthropic</a>, on Twitter</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/30/anthropic/",
+        "author": "",
+        "keywords": "anthropic claude generative-ai claude-mythos ai llms",
+        "published": "2026-06-30T23:58:15+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Nano Banana 2 Lite",
+        "summary": "<p><strong><a href=\"https://deepmind.google/models/gemini-image/flash-lite/\">Nano Banana 2 Lite</a></strong></p>\nAlso known as Gemini 3.1 Flash Lite Image (<code>gemini-3.1-flash-lite-image</code> <a href=\"https://ai.google.dev/gemini-api/docs/image-generation\">in their API</a>), this is the \"fastest and cheapest Gemini image model, engineered for velocity and scale\".</p>\n<p>I <a href=\"https://aistudio.google.com/app/prompts/new_chat?model=gemini-3.1-flash-lite-image\">used AI studio</a> to run this prompt:</p>\n<blockquote>\n<p><code>Do a where's Waldo style image but it's where is the raccoon holding a ham radio</code></p>\n</blockquote>\n<p><img alt=\"Densely illustrated &quot;Where's Waldo&quot;-style cartoon of a woodland festival filled with anthropomorphic animals (bears, foxes, badgers, rabbits, squirrels, owls) under a banner reading &quot;FOREE'S FESTIVAL&quot; and another reading &quot;FOREST FIVAL,&quot; with bunting flags strung between trees, a Ferris wheel on the right, market stalls including one labeled &quot;ACORN FAIR,&quot; signs reading &quot;BANDSTAND,&quot; &quot;HAM RADIO MEET&quot; (appearing twice), and a stage where a bear plays guitar, a raccoon uses a ham radio, a badger plays drums, an owl looks on, and a fox plays trumpet, with crowds of animals wandering forest paths between trees and mountains in the background.\" src=\"https://static.simonwillison.net/static/2026/nano-banana-2-lite-raccoon.jpg\" /></p>\n<p>I like that one better than <a href=\"https://simonwillison.net/2026/Apr/21/gpt-image-2/#nano-banana-2-and-pro\">the results I got from the other Nano Banana models</a> when I tried this back in April. It spelled Forest Festival wrong in two different ways though.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48735444\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/google\">google</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/gemini\">gemini</a>, <a href=\"https://simonwillison.net/tags/text-to-image\">text-to-image</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/nano-banana\">nano-banana</a></p>",
+        "link": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/",
+        "author": "",
+        "keywords": "google ai generative-ai llms gemini text-to-image llm-release nano-banana",
+        "published": "2026-06-30T22:15:35+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-06-30T22:00:00+00:00",
+    "end": "2026-07-01T04:00:00+00:00"
+  }
+}
