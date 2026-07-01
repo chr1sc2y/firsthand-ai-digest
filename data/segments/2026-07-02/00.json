@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-01T23:16:28.032250+00:00",
+  "counts": {
+    "x": 23,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Pointed codex at some Twitter feedback on the OpenClaw iOS app and it did a first improvement pass. It's still not good,",
+        "summary": "Pointed codex at some Twitter feedback on the OpenClaw iOS app and it did a first improvement pass. It's still not good, but for two prompts it aint bad.\n\nEspecially cool how it uses computer use to add before/after screenshots, as there's no GitHub API.\nhttps://t.co/BxygU9yTnP",
+        "link": "https://x.com/steipete/status/2072439279520039380",
+        "author": "steipete",
+        "published": "2026-07-01T21:56:42+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "IVE BEEN MEANING TO DO THIS\n\nSO COOL",
+        "summary": "IVE BEEN MEANING TO DO THIS\n\nSO COOL",
+        "link": "https://x.com/danshipper/status/2072436587665797518",
+        "author": "danshipper",
+        "published": "2026-07-01T21:46:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Asked codex to download+transcribe all sessions from @aiDotEngineer and tailor them to my interests. https://t.co/xstoDc",
+        "summary": "Asked codex to download+transcribe all sessions from @aiDotEngineer and tailor them to my interests. https://t.co/xstoDcngcf",
+        "link": "https://x.com/steipete/status/2072433013624033282",
+        "author": "steipete",
+        "published": "2026-07-01T21:31:49+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Super proud of @elizabeth and everything she's built at Scribble Ventures. The below is a great overview of her philosop",
+        "summary": "Super proud of @elizabeth and everything she's built at Scribble Ventures. The below is a great overview of her philosophy and how she and the Scribble team did it.",
+        "link": "https://x.com/kevinweil/status/2072419396044349534",
+        "author": "kevinweil",
+        "published": "2026-07-01T20:37:42+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "Every good chord progression needs a resolution. 🎹\n\nTo focus on building @GoogleFlowMusic - our tool for creating, shari",
+        "summary": "Every good chord progression needs a resolution. 🎹\n\nTo focus on building @GoogleFlowMusic - our tool for creating, sharing, and remixing original music - we will be saying a fond farewell to MusicFX and MusicFX DJ on July 31, 2026.\n\nThese early experiments pushed the boundaries of AI for real-time music creation, and we're taking everything we learned from them to provide a long-term home for musical projects.\n\nKeep jamming at https://t.co/3XMUc2pkzU 🎵",
+        "link": "https://x.com/GoogleLabs/status/2072417166952136789",
+        "author": "GoogleLabs",
+        "published": "2026-07-01T20:28:50+00:00",
+        "source_name": "Google Labs",
+        "source_role": "Google's AI experiments group",
+        "source_handle": "GoogleLabs"
+      },
+      {
+        "kind": "x",
+        "title": "It's happening",
+        "summary": "It's happening",
+        "link": "https://x.com/thsottiaux/status/2072410623380468190",
+        "author": "thsottiaux",
+        "published": "2026-07-01T20:02:50+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Welcome back to the world Fable!!",
+        "summary": "Welcome back to the world Fable!!",
+        "link": "https://x.com/alexalbert__/status/2072404717490360727",
+        "author": "alexalbert__",
+        "published": "2026-07-01T19:39:22+00:00",
+        "source_name": "Alex Albert",
+        "source_role": "Head of Claude Relations, Anthropic",
+        "source_handle": "alexalbert__"
+      },
+      {
+        "kind": "x",
+        "title": "We are so back (for just a little bit) https://t.co/M2swOzLBk8",
+        "summary": "We are so back (for just a little bit) https://t.co/M2swOzLBk8",
+        "link": "https://x.com/petergyang/status/2072403528975528377",
+        "author": "petergyang",
+        "published": "2026-07-01T19:34:39+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "LET'S RIP FABLE TOKENS FROM THE JACUZZI https://t.co/denvBof2Yp",
+        "summary": "LET'S RIP FABLE TOKENS FROM THE JACUZZI https://t.co/denvBof2Yp",
+        "link": "https://x.com/danshipper/status/2072402843819212906",
+        "author": "danshipper",
+        "published": "2026-07-01T19:31:56+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Fable 5 is back. https://t.co/9RTGUCcPHy",
+        "summary": "Fable 5 is back. https://t.co/9RTGUCcPHy",
+        "link": "https://x.com/claudeai/status/2072402636813607381",
+        "author": "claudeai",
+        "published": "2026-07-01T19:31:06+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "FABLE IS BACK!!! https://t.co/H7fsnFZQVV",
+        "summary": "FABLE IS BACK!!! https://t.co/H7fsnFZQVV",
+        "link": "https://x.com/danshipper/status/2072402230041272669",
+        "author": "danshipper",
+        "published": "2026-07-01T19:29:29+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Notion gets it",
+        "summary": "Notion gets it",
+        "link": "https://x.com/danshipper/status/2072401988046770466",
+        "author": "danshipper",
+        "published": "2026-07-01T19:28:31+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "whenever fable comes back im gonna be ripping tokens live from the jacuzzi \n\nstay tuned for the livestream https://t.co/",
+        "summary": "whenever fable comes back im gonna be ripping tokens live from the jacuzzi \n\nstay tuned for the livestream https://t.co/r71PW2E7ag",
+        "link": "https://x.com/danshipper/status/2072399514661720100",
+        "author": "danshipper",
+        "published": "2026-07-01T19:18:42+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Agents love to check their work before they push. \n\nYou probably see it in the form of 𝚗𝚘𝚍𝚎 --𝚌𝚑𝚎𝚌𝚔, 𝚝𝚜𝚌 --𝚗𝚘𝙴𝚖𝚒𝚝, 𝚗𝚎𝚡𝚝 ",
+        "summary": "Agents love to check their work before they push. \n\nYou probably see it in the form of 𝚗𝚘𝚍𝚎 --𝚌𝚑𝚎𝚌𝚔, 𝚝𝚜𝚌 --𝚗𝚘𝙴𝚖𝚒𝚝, 𝚗𝚎𝚡𝚝 𝚋𝚞𝚒𝚕𝚍, etc all over your agent sessions.\n\nWe’re now shipping the dry-run step for agentic deployments, minimizing costs and risk.",
+        "link": "https://x.com/rauchg/status/2072398926175404250",
+        "author": "rauchg",
+        "published": "2026-07-01T19:16:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "GLM is excellent at @nextjs. The evals validate it (https://t.co/SnZ54Xok7n), my own vibes validate it, and @chamath’s h",
+        "summary": "GLM is excellent at @nextjs. The evals validate it (https://t.co/SnZ54Xok7n), my own vibes validate it, and @chamath’s https://t.co/AUnjH4fenw validates it",
+        "link": "https://x.com/rauchg/status/2072396413040783682",
+        "author": "rauchg",
+        "published": "2026-07-01T19:06:22+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Resend + Vercel",
+        "summary": "Resend + Vercel",
+        "link": "https://x.com/rauchg/status/2072395227210395940",
+        "author": "rauchg",
+        "published": "2026-07-01T19:01:40+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/pYz1Gn97jD is the new npm and the new github.\n\nOver time, you need fewer 'templates' and large piles of cod",
+        "summary": "https://t.co/pYz1Gn97jD is the new npm and the new github.\n\nOver time, you need fewer 'templates' and large piles of code. I haven't cloned a repo in a very long time.\n\nYou need the instructions and best practices on how to build the best things.",
+        "link": "https://x.com/rauchg/status/2072393515657568553",
+        "author": "rauchg",
+        "published": "2026-07-01T18:54:51+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Now that building is easy, we’ve been increasingly focused on getting entrepreneurs to market, helping them reach their ",
+        "summary": "Now that building is easy, we’ve been increasingly focused on getting entrepreneurs to market, helping them reach their first customer and first dollar.\n\nWhop is one of the best places on the internet to monetize your creations — and now you can sell your Replit apps on there.",
+        "link": "https://x.com/amasad/status/2072385092824260748",
+        "author": "amasad",
+        "published": "2026-07-01T18:21:23+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Orwell was a genius",
+        "summary": "Orwell was a genius",
+        "link": "https://x.com/elonmusk/status/2072379307461423161",
+        "author": "elonmusk",
+        "published": "2026-07-01T17:58:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Will be talking about the \"app situation\" and roadmap plans with @hrudolph live TODAY at 11:30 AM PST on the official Op",
+        "summary": "Will be talking about the \"app situation\" and roadmap plans with @hrudolph live TODAY at 11:30 AM PST on the official OpenClaw podcast, live on Discord. https://t.co/iKkJd8qHtD https://t.co/1jt2jODgxa",
+        "link": "https://x.com/steipete/status/2072373527970562495",
+        "author": "steipete",
+        "published": "2026-07-01T17:35:26+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "New Pod",
+        "summary": "New Pod",
+        "link": "https://x.com/AravSrinivas/status/2072371845853262163",
+        "author": "AravSrinivas",
+        "published": "2026-07-01T17:28:45+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "The thing that you quickly realize the deeper you go into using AI is how much more technical work there will now be in ",
+        "summary": "The thing that you quickly realize the deeper you go into using AI is how much more technical work there will now be in the world because of agents.\n\nThe most powerful capabilities of AI agents are being able to write code, process data, and operate tools and computers. The people that can leverage this the most are engineers. This why the demand is only going to grow for technical skillsets.\n\nWe will have so much more work for engineers for building software and automating workflows now in every industry like legal, life sciences, financial services, manufacturing, and more. And now every SMB on the planet can build products and tools, which will take engineers to maintain and run that software going forward.\n\nGreat time to be an engineer.",
+        "link": "https://x.com/levie/status/2072370527113748485",
+        "author": "levie",
+        "published": "2026-07-01T17:23:31+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "so proud to host my friend @trq212 to give the world’s first Fable talk on Fable return day!\n\nfind him with @simonw and ",
+        "summary": "so proud to host my friend @trq212 to give the world’s first Fable talk on Fable return day!\n\nfind him with @simonw and @_catwu  in Expo Stage 2 for an extra EXTRA special lunch session at 12.30 today!! https://t.co/gx1K3kaiS8",
+        "link": "https://x.com/swyx/status/2072356250998964673",
+        "author": "swyx",
+        "published": "2026-07-01T16:26:47+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Codex for Solutions Engineers: Making AI Tangible for Customers",
+        "summary": "\"As a solutions engineer, my job is to make customers believe our technology can take them where they want to go. Codex helps me turn raw, messy context - customer emails, industry signals, product information, and even Trustpilot reviews - into something they can react to. I can analyze what their customers are asking for, mock up their website, apply those changes, and package the demo with a voiceover walkthrough. It makes the value tangible in their world, not ours.”\n\nStephanie Anani, Solutions Engineer, OpenAI",
+        "link": "https://www.youtube.com/watch?v=08hgAtg-P_8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-01T18:31:25+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "What Billionaires Bought Before Yachts and Private Jets – Ada Palmer",
+        "summary": "Full episode: https://www.youtube.com/watch?v=U1FrhkLQnCI\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=0VmIQeTanUk",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-01T17:11:58+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-01T16:00:00+00:00",
+    "end": "2026-07-01T22:00:00+00:00"
+  }
+}
