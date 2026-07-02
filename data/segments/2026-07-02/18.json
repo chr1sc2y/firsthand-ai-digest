@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-02T17:48:47.142726+00:00",
+  "counts": {
+    "x": 7,
+    "blogs": 0,
+    "podcasts": 1,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Everyone in NYC has the same dog. It's a french bulldog. This needs to be studied",
+        "summary": "Everyone in NYC has the same dog. It's a french bulldog. This needs to be studied",
+        "link": "https://x.com/rauchg/status/2072711610712330658",
+        "author": "rauchg",
+        "published": "2026-07-02T15:58:51+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2072703739866083721",
+        "author": "elonmusk",
+        "published": "2026-07-02T15:27:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Good analysis of rent control  https://t.co/vu4iReeoH3",
+        "summary": "Good analysis of rent control  https://t.co/vu4iReeoH3",
+        "link": "https://x.com/elonmusk/status/2072702987915415887",
+        "author": "elonmusk",
+        "published": "2026-07-02T15:24:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Watching our product owners pitch and demo internally with @v0⁠s feels like science fiction, especially with our design ",
+        "summary": "Watching our product owners pitch and demo internally with @v0⁠s feels like science fiction, especially with our design system fidelity. It gives the company end-user empathy and decision-making velocity that we never had with text or slides. Demos &gt; memos.",
+        "link": "https://x.com/rauchg/status/2072701005377016112",
+        "author": "rauchg",
+        "published": "2026-07-02T15:16:43+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Starship static fire",
+        "summary": "Starship static fire",
+        "link": "https://x.com/elonmusk/status/2072696059835367870",
+        "author": "elonmusk",
+        "published": "2026-07-02T14:57:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I think the days of companies relying only on frontier models are coming to an end.\n\n1. Tokenmaxxing at frontier-model A",
+        "summary": "I think the days of companies relying only on frontier models are coming to an end.\n\n1. Tokenmaxxing at frontier-model API prices makes no sense.\n\nUber burned through its entire 2026 AI budget in 4 months, Microsoft moved engineers off Claude Code due to cost, and companies are realizing that running everything on frontier models can get expensive fast. Tokenmaxxing makes sense when you’re on a subsidized $200/month plan, but it’s unsustainable at API rates.\n\n2. Companies will rely on a portfolio of models.\n\nCoinbase recently cut its AI spend nearly in half by switching engineers to Chinese open-source models like GLM and Kimi. Airbnb and Pinterest have done the same with Alibaba’s Qwen models. I believe this will be the default path forward: using frontier models for high-stakes work and cheaper models for everything else.\n\n3. China’s open-source strategy is working.\n\nChinese models are taking market share from frontier models at US companies. China is also building the full AI stack, from energy, like solar and nuclear, to data centers to domestic chips. The Chinese government is planning a $295B investment in AI data centers, with at least 80% of chips built domestically.\n\n4. Frontier labs are in a Catch-22 situation.\n\nIf they release great open-source models, they might undercut their own frontier API revenue. If they gate the best models behind a trusted list, companies will just lean on open alternatives more. The last major US open-source model was OpenAI’s gpt-oss series back in August 2025, which already feels like decades ago in the AI space.\n\n5. The US needs to think about its AI strategy holistically.\n\nI believe restricting access to frontier models will only hurt American innovation. Banning US companies from using Chinese models won’t work either. Just look at how China took over the global electric vehicle market. To maintain our edge, we need the best closed and open models while scaling our energy grid and data centers much faster.\n\n📌 More in my recent essay: https://t.co/jj568Tx1NU",
+        "link": "https://x.com/petergyang/status/2072685484011344032",
+        "author": "petergyang",
+        "published": "2026-07-02T14:15:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Announcing Built with Claude: Life Sciences, a global virtual hackathon.\n\nJoin us and @GladstoneInst for a week of resea",
+        "summary": "Announcing Built with Claude: Life Sciences, a global virtual hackathon.\n\nJoin us and @GladstoneInst for a week of researching and building with Claude Science and Claude Code, with a prize pool of $100k in credits. https://t.co/wzrSBHJgeP",
+        "link": "https://x.com/claudeai/status/2072681853971001849",
+        "author": "claudeai",
+        "published": "2026-07-02T14:00:37+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [
+      {
+        "title": "Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro",
+        "summary": "<p>NVIDIA is a chip company. So why does it put hundreds of researchers on building AI models — and then give them away for free? Bryan Catanzaro is VP of Applied Deep Learning Research at NVIDIA and one of the people whose work quietly underpins modern AI: he helped create cuDNN (NVIDIA's first deep learning product), co-invented DLSS, and named and built Megatron, the framework behind how much of the industry trains large models. Today he leads Nemotron, NVIDIA's family of open models — and Nemotron 3 Ultra, released just weeks ago, is one of the strongest open-weights models to come out of the US.</p><p><br /></p><p>Matt Turck sits down with Bryan for a genuinely deep conversation: the real business logic behind a chip company building its own models, the state of open vs. closed AI, and whether the US is falling behind China in open models. Then they go inside Nemotron itself — four-bit (NVFP4) pretraining, hybrid Mamba-Transformer architecture, mixture-of-experts, multi-token prediction, and multi-teacher distillation — all explained in plain language. Plus a rare look at how a modern AI research org actually runs, what it was like working alongside Andrew Ng and Dario Amodei at Baidu, why Bryan doesn't believe in the singularity, and his contrarian case that open AI is safer than closed.</p><p><br /></p><p>A reference conversation for anyone trying to understand where AI is really headed.</p><p><br /></p><p>(00:00) — Cold open &amp; Intro</p><p>(01:33) — Is open source AI catching the frontier?</p><p>(05:29) — Do closed labs blocking distillation slow open source down?</p><p>(07:42) — Is the US falling behind China?</p><p>(10:30) — Why companies actually choose open models</p><p>(12:39) — A &quot;crazy&quot; 2008 bet: machine learning on GPUs</p><p>(15:33) — Working with Andrew Ng and Dario Amodei at Baidu</p><p>(17:41) — Coming back to NVIDIA: DLSS and the birth of Megatron</p><p>(21:55) — The real reason NVIDIA builds its own models</p><p>(24:28) — Is Moore's Law really dead?</p><p>(33:37) — The Nemotron family: Nano, Super, Ultra</p><p>(35:09) — Built for agents: why NVIDIA bets on speed</p><p>(36:02) — How you train a 550B model in 4 bits</p><p>(39:25) — Hybrid Mamba-Transformer, explained simply</p><p>(42:31) — Mixture of experts — and why NVIDIA built NVL72 around it</p><p>(47:26) — Why a 1-million-token context window matters</p><p>(49:26) — Multi-token prediction: how the model predicts 5 tokens at once</p><p>(52:47) — Multi-teacher distillation: teaching one model from many</p><p>(58:01) — Where reinforcement learning goes next</p><p>(01:00:16) — Inside NVIDIA's research org: &quot;the mission is the boss&quot;</p><p>(01:04:03) — How NVIDIA decides who gets the GPUs</p><p>(01:10:53) — Why NVIDIA still feels entrepreneurial after 33 years</p><p>(01:12:58) — Why Bryan doesn't believe in the singularity</p><p>(01:17:50) — The AI backlash</p><p>(01:19:18) — The controversial case: open AI is safer than closed</p>",
+        "link": "https://podcasters.spotify.com/pod/show/firstmark/episodes/Why-NVIDIA-Is-Giving-Away-AI-Models--Bryan-Catanzaro-e3li7o6",
+        "author": "Matt Turck",
+        "keywords": "",
+        "published": "2026-07-02T11:30:00+00:00",
+        "kind": "podcast",
+        "source_name": "The MAD Podcast with Matt Turck",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "The MAD Podcast with Matt Turck"
+      }
+    ],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-07-02T10:00:00+00:00",
+    "end": "2026-07-02T16:00:00+00:00"
+  }
+}
