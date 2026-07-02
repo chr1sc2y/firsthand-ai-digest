@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-02T23:08:02.585498+00:00",
+  "counts": {
+    "x": 16,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Eventually, much of AI will converge towards intuition-guided symbolic world modeling, i.e. deep learning-guided program",
+        "summary": "Eventually, much of AI will converge towards intuition-guided symbolic world modeling, i.e. deep learning-guided program synthesis. It is inevitable. Symbolic modeling lets a system construct a compact, reusable, highly generalizable mental model of a problem space using minimal data.",
+        "link": "https://x.com/fchollet/status/2072779641639875048",
+        "author": "fchollet",
+        "published": "2026-07-02T20:29:11+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "going to world cup games is always awesome, but watching the USA win in the USA during USA birthday week was just incred",
+        "summary": "going to world cup games is always awesome, but watching the USA win in the USA during USA birthday week was just incredible",
+        "link": "https://x.com/sama/status/2072773542576586790",
+        "author": "sama",
+        "published": "2026-07-02T20:04:57+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Excited to listen to this. @ssankar is a patriot and a visionary and it's been an honor to serve alongside him, @boztank",
+        "summary": "Excited to listen to this. @ssankar is a patriot and a visionary and it's been an honor to serve alongside him, @boztank, @bobmcgrewai and the Det 201 squad this past year. We need more collaboration between SV and DC 🇺🇸\n\n@elizabeth has ruled out the mustache for me though.",
+        "link": "https://x.com/kevinweil/status/2072770763804004467",
+        "author": "kevinweil",
+        "published": "2026-07-02T19:53:54+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "everyone come down to the AIE Expo at 12.30, there's a SPECIAL **FLASH** SURPRISE (you'll know it when u see it) and the",
+        "summary": "everyone come down to the AIE Expo at 12.30, there's a SPECIAL **FLASH** SURPRISE (you'll know it when u see it) and then come to Expo Stage 2 for a very special @latentspacepod live pod with Etched! https://t.co/fisw6g3UKr",
+        "link": "https://x.com/swyx/status/2072760421627597198",
+        "author": "swyx",
+        "published": "2026-07-02T19:12:49+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Thought I’d share a fun activity I did with my 8-year-old daughter and Codex today:\n\n1. She drew a picture of a dragon.\n",
+        "summary": "Thought I’d share a fun activity I did with my 8-year-old daughter and Codex today:\n\n1. She drew a picture of a dragon.\n\n2. We uploaded her drawing to Codex and used image gen to make a few more dragon poses. She used voice to give Codex feedback until we got the result below.\n\n3. We sent it to customstickers(dot)com to print sticker sheets (it's about $20 for 10 sheets).\n\nNow she can share her stickers with her friends when they arrive in the mail next week. Try it if you have kids stuck at home this summer :)",
+        "link": "https://x.com/petergyang/status/2072756657856422379",
+        "author": "petergyang",
+        "published": "2026-07-02T18:57:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "very proud that the biggest applause line in the AIE keynotes this year was normalizing men talking about their feelings",
+        "summary": "very proud that the biggest applause line in the AIE keynotes this year was normalizing men talking about their feelings and mental health in hypergrowth\n\nthanks @mikeyk for indulging all my cheeky questions on Fable and Tag!! https://t.co/8rml4RU8gl",
+        "link": "https://x.com/swyx/status/2072754722059239471",
+        "author": "swyx",
+        "published": "2026-07-02T18:50:10+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "I havea bunch of YouTube adsense revenue trapped in my account b/c Google won't confirm my tax info...and there's no way",
+        "summary": "I havea bunch of YouTube adsense revenue trapped in my account b/c Google won't confirm my tax info...and there's no way to reach a real human to talk to.\n\nAnyone have any connections who work at YouTube or Adsense? https://t.co/0W6liHjVoA",
+        "link": "https://x.com/petergyang/status/2072746659713606016",
+        "author": "petergyang",
+        "published": "2026-07-02T18:18:08+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI models.\n\nOne great featur",
+        "summary": "We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network. Like a CDN for AI models.\n\nOne great feature of CDNs is the ability to dynamically re-route or deny traffic without redeployment.\n\nWhen Fable was suddenly retired, we worried about production workloads depending on it. Even Fable aside, models get retired quite often as GPU capacity is heavily contested. Yet our data shows people still having happy production traffic of older model versions!\n\nWe're solving this now with AI Gateway Rules. e.g.: you can now rewrite model \"routes\" on the fly!\n\n𝚟𝚎𝚛𝚌𝚎𝚕 𝚊𝚒-𝚐𝚊𝚝𝚎𝚠𝚊𝚢 𝚛𝚞𝚕𝚎𝚜 𝚊𝚍𝚍 \\\n  --𝚝𝚢𝚙𝚎 𝚛𝚎𝚠𝚛𝚒𝚝𝚎 \\\n  --𝚜𝚘𝚞𝚛𝚌𝚎 𝚊𝚗𝚝𝚑𝚛𝚘𝚙𝚒𝚌/𝚌𝚕𝚊𝚞𝚍𝚎-𝚏𝚊𝚋𝚕𝚎-𝟻 \\\n  --𝚍𝚎𝚜𝚝𝚒𝚗𝚊𝚝𝚒𝚘𝚗 𝚊𝚗𝚝𝚑𝚛𝚘𝚙𝚒𝚌/𝚌𝚕𝚊𝚞𝚍𝚎-𝚘𝚙𝚞𝚜-𝟻\n\nThis adds to the repertoire of capabilities and techniques AI Gateway brings to the table to recover lost tokens. If you drop tokens, you lose revenue and customers 💸\n\nKudos to @rtaneja_ @crowprose @shaper – we went from CLI design to production-grade capability very quickly!",
+        "link": "https://x.com/rauchg/status/2072741369848746315",
+        "author": "rauchg",
+        "published": "2026-07-02T17:57:06+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Build is now installed in Railway sandboxes",
+        "summary": "Grok Build is now installed in Railway sandboxes",
+        "link": "https://x.com/xai/status/2072738598663946648",
+        "author": "xai",
+        "published": "2026-07-02T17:46:06+00:00",
+        "source_name": "xAI",
+        "source_role": "xAI (official)",
+        "source_handle": "xai"
+      },
+      {
+        "kind": "x",
+        "title": "I am interviewing @NousResearch Hermes co-founder @karan4d tomorrow, what topics would you like to see us cover?\n\nI alre",
+        "summary": "I am interviewing @NousResearch Hermes co-founder @karan4d tomorrow, what topics would you like to see us cover?\n\nI already covered setup, integrations, and basic cron jobs in a previous tutorial - so what else would y'all like to hear about?\n\nThis chart is a vertical line lol https://t.co/Bqacty1252",
+        "link": "https://x.com/petergyang/status/2072737599362621866",
+        "author": "petergyang",
+        "published": "2026-07-02T17:42:07+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This is true",
+        "summary": "This is true",
+        "link": "https://x.com/adityaag/status/2072735608485945555",
+        "author": "adityaag",
+        "published": "2026-07-02T17:34:13+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version l",
+        "summary": "Claude Tag is unlocking productivity across our entire org: eng, product, data, sales, marketing. Our internal version lands 65% of product PRs.\n\nWe cover the CEO/CTO playbook for rolling it out, why security was designed in from day one, and what this means for the future of work.",
+        "link": "https://x.com/_catwu/status/2072731500928508331",
+        "author": "_catwu",
+        "published": "2026-07-02T17:17:53+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "The best application for models to run locally on hardware you own would be personal robots. There’s no way anyone is go",
+        "summary": "The best application for models to run locally on hardware you own would be personal robots. There’s no way anyone is going to get comfortable streaming your home to a server. And when this happens, the local hardware will also become a token faucet for your digital tasks.",
+        "link": "https://x.com/AravSrinivas/status/2072727777179258986",
+        "author": "AravSrinivas",
+        "published": "2026-07-02T17:03:06+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag, and how it spread from engineeri",
+        "summary": "A conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag, and how it spread from engineering to the rest of Anthropic.\n\nClaude Fable 5 is now available in Claude Tag. https://t.co/8oNM5WaWzj",
+        "link": "https://x.com/claudeai/status/2072725610061803522",
+        "author": "claudeai",
+        "published": "2026-07-02T16:54:29+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Intelligence is now metered 🥲 \n\nHave to use this very wisely https://t.co/4F3Ph6jrZx",
+        "summary": "Intelligence is now metered 🥲 \n\nHave to use this very wisely https://t.co/4F3Ph6jrZx",
+        "link": "https://x.com/petergyang/status/2072720933446701170",
+        "author": "petergyang",
+        "published": "2026-07-02T16:35:54+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Private connectivity between services is 🔑 for backends.\n\n1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎𝚛𝚌𝚎𝚕.𝚓𝚜𝚘𝚗 (1LOC)\n2️⃣ Read it:\n\n𝚗𝚎𝚠 ",
+        "summary": "Private connectivity between services is 🔑 for backends.\n\n1️⃣ Register 𝚋𝚒𝚗𝚍𝚒𝚗𝚐𝚜 in 𝚟𝚎𝚛𝚌𝚎𝚕.𝚓𝚜𝚘𝚗 (1LOC)\n2️⃣ Read it:\n\n𝚗𝚎𝚠 𝚄𝚁𝙻(\"/𝚊𝚙𝚒\", 𝚙𝚛𝚘𝚌𝚎𝚜𝚜.𝚎𝚗𝚟.𝙱𝙰𝙲𝙺𝙴𝙽𝙳_𝙸𝙽𝚃𝙴𝚁𝙽𝙰𝙻_𝚄𝚁𝙻)\n\nWorks for Node, Python, 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎… you name it",
+        "link": "https://x.com/rauchg/status/2072715658157027375",
+        "author": "rauchg",
+        "published": "2026-07-02T16:14:56+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "llm-coding-agent 0.1a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-coding-agent/releases/tag/0.1a0\">llm-coding-agent 0.1a0</a></p>\n        <p>Another Fable 5 experiment. Now that my <a href=\"https://llm.datasette.io/\">LLM library</a> has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.</p>\n<p>I started a <a href=\"https://github.com/simonw/llm-coding-agent/tree/2466fa03ba8e5122c3bfa93d52167d33bce40ac6\">new Python library</a> using my <a href=\"https://github.com/simonw/python-lib-template-repository\">python-lib-template-repository</a> GitHub template repository, then ran these two prompts (here's the <a href=\"https://claude.ai/code/session_01TEUBvBbMipbFSoqjMiJ7ha\">Claude Code for web transcript</a>):</p>\n<blockquote>\n<p><code>Write a spec.md for this project - it will depend on the latest “llm” alpha from PyPI and implement a Claude code style coding agent complete with tools for reading and editing files and executing commands</code></p>\n</blockquote>\n<p>Then:</p>\n<blockquote>\n<p><code>Commit the spec, then build it using red/green TDD in a series of sensible commits (each with passing tests and updated docs) - occasionally manually test it using the OpenAI API key in your environment</code></p>\n</blockquote>\n<p>Here's the <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">resulting README file</a> and the <a href=\"https://github.com/simonw/llm-coding-agent/commits/0.1a0\">sequence of commits</a>.</p>\n<p>I've shipped a slop-alpha to PyPI, so you can run the new agent like this:</p>\n<pre><code>uvx --prerelease=allow --with llm-coding-agent llm code\n</code></pre>\n<p>It's pretty good for a first attempt! Here's the (Fable-authored) <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md\">README</a>, which lists recipes like <code>llm code --yolo</code> and <code>llm code --allow \"pytest*\" --allow \"git diff*\"</code>.</p>\n<p>It also presents <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/README.md#codingagent\">a Python API</a> based around a <code>CodingAgent(model=\"gpt-5.5\", root=\"/path\", approve=True).run(\"Fix the failing test in tests/test_parser.py\")</code> class which I didn't ask for but I'm delighted to see implemented.</p>\n<p>Here's the suite of tools <a href=\"https://github.com/simonw/llm-coding-agent/blob/0.1a0/llm_coding_agent/tools.py#L22\">it implemented</a>, listed using <code>uvx ... llm tools</code>:</p>\n<blockquote>\n<p><code>CodingTools_edit_file(path: str, old_string: str, new_string: str, replace_all: bool = False) -&gt; str</code></p>\n<p>Replace an exact string in a file.</p>\n<p>old_string must match the file contents exactly (including\nwhitespace) and must identify a unique location unless replace_all\nis true. Returns a diff of the change so it can be verified.</p>\n<p><code>CodingTools_execute_command(command: str, timeout: int = 120) -&gt; str</code></p>\n<p>Run a shell command in the session root directory.</p>\n<p>Returns combined stdout and stderr followed by an Exit code line.\ntimeout is in seconds (maximum 600); on timeout the whole process\ntree is killed.</p>\n<p><code>CodingTools_list_files(pattern: str = '**/*', path: str = '.') -&gt; str</code></p>\n<p>List files matching a glob pattern, newest first.</p>\n<p>Skips hidden directories, node_modules, __pycache__ and (in a git\nrepository) anything covered by .gitignore. Returns at most 200\npaths relative to the searched directory.</p>\n<p><code>CodingTools_read_file(path: str, offset: int = 0, limit: int = 2000) -&gt; str</code></p>\n<p>Read a text file, returning numbered lines like cat -n.</p>\n<p>Paths are relative to the session root. Use offset (0-based first\nline) and limit (max lines) to page through files too large to read\nin one call.</p>\n<p><code>CodingTools_search_files(pattern: str, path: str = '.', glob: str = None, max_results: int = 100) -&gt; str</code></p>\n<p>Search file contents for a regular expression.</p>\n<p>Returns matches as path:line_number:line, capped at max_results.\nUse glob (e.g. \"*.py\") to restrict which files are searched.</p>\n<p><code>CodingTools_write_file(path: str, content: str) -&gt; str</code></p>\n<p>Create or overwrite a file with the given content.</p>\n<p>Parent directories are created as needed. Prefer edit_file for\nmodifying existing files.</p>\n</blockquote>\n<p>I tried it out by running <code>llm code --yolo</code> and then prompting:</p>\n<blockquote>\n<p><code>mkdir /tmp/demo and then in that folder create a simple swiftui CLI app for telling the time in ascii art</code></p>\n</blockquote>\n<p>Here's <a href=\"https://gist.github.com/simonw/750009007050124cd1b390cfe8488e41\">the transcript</a>, in which GPT-5.5 reasoning notes that \"SwiftUI isn't suitable for a true CLI\" and then builds an app that outputs this on <code>swift run AsciiTime</code>:</p>\n<pre style=\"font-size: 9px;\">\n      █    █████         ████     █             █     ███   \n     ██    █        █        █   ██      █     ██    █   █  \n      █    ████           ███     █             █       █   \n      █        █    █        █    █      █      █      █    \n     ███   ████          ████    ███           ███   █████\n</pre>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/",
+        "author": "",
+        "keywords": "projects ai generative-ai llm llm-tool-use coding-agents claude-code claude-mythos-fable",
+        "published": "2026-07-02T19:33:12+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme\">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p>\n        <p>One of this morning's AIE keynotes covered <a href=\"https://github.com/stanfordnlp/dspy\">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href=\"https://agent.datasette.io\">Datasette Agent</a> - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:</p>\n<blockquote>\n<p><code>Pip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only SQL queries to answer user questions about data.</code></p>\n</blockquote>\n<p>Fable chose to test using GPT 4.1 mini and nano, and identified several promising looking directions for improvements. I particularly like this one:</p>\n<blockquote>\n<p>The schema listing gives only table names; the \"don't call describe_table if you already have the information\" advice caused column-name guessing (page_count, o.order_id, first_name) and error-retry loops in baseline traces. Either include column names in the prompt's schema listing or soften that advice.</p>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/evals\">evals</a>, <a href=\"https://simonwillison.net/tags/dspy\">dspy</a>, <a href=\"https://simonwillison.net/tags/datasette-agent\">datasette-agent</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/",
+        "author": "",
+        "keywords": "ai datasette generative-ai llms evals dspy datasette-agent claude-mythos-fable",
+        "published": "2026-07-02T18:25:00+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Understand to participate",
+        "summary": "<p>I saw Geoffrey Litt speak at <a href=\"https://www.ai.engineer/worldsfair/2026\">AIE</a> yesterday, and one framing he used particularly resonated with me:</p>\n<p><strong>Understand to participate</strong></p>\n<p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> as your understanding drifts from how the code actually works.</p>\n<p>His argument is that you need to understand the code to a depth that enables you to participate further with the model:</p>\n<blockquote>\n<p>You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...]</p>\n<p>You need a rich set of concepts in your mind to think creatively and fluently about how to move something forward. If you're lacking that fluency, your ability to participate in the project is meaningfully limited.</p>\n</blockquote>\n<p>The AIE talks are all recorded - all 300+ of them! - and should be trickling out over the next three weeks. Geoffrey's is one that I recommend catching on YouTube.</p>\n<p>Geoffrey also published <a href=\"https://twitter.com/geoffreylitt/status/2072522251300409556\">a thread version of his talk</a> on Twitter.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/geoffrey-litt\">geoffrey-litt</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/cognitive-debt\">cognitive-debt</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/",
+        "author": "",
+        "keywords": "geoffrey-litt coding-agents cognitive-debt generative-ai ai llms",
+        "published": "2026-07-02T17:07:14+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Fable 5 vs GPT 5.6 Sol: The Early Results",
+        "summary": "Fable 5 (newly re-released) vs GPT 5.6 Sol, what comparisons can we unearth? Plus, Sonnet 5, a 5% equity seizure by US Govt, the ‘largest heist’, Beetlejuice and more…\n\n\n\nExclusive Vids in AI Insiders ($9!): https://www.patreon.com/AIExplained\n\n\nChapters:\n00:00 - Introduction\n01:06 - Fable Timeline\n02:59 - Sol Release?\n06:01 - the Chinese Angle\n07:35 - 5% Stake\n09:10 - Fable vs Sol - the numbers\n13:57 - Sol Misalignment\n15:27 - Claude Sonnet 5\n16:24 - GLM 5.2 + New Paper on Large Model Learning\n\nGPT 5.6 Sol Release: https://openai.com/index/previewing-gpt-5-6-sol/\nAltman on Concentrated Power: https://x.com/giacomomiolo/status/2070609506925478352\nSystem Card: https://deploymentsafety.openai.com/gpt-5-6-preview/gpt-5-6-preview.pdf\n\nGLM 5.2: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508\n\nAltman Memo: https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns?rc=sy0ihq\n\nFable 5 Revised Timeline: https://www.anthropic.com/news/redeploying-fable-5\n\nClaude Sonnet 5: https://www.anthropic.com/news/claude-sonnet-5\n\nMythose 5 System Card: https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf\n\nAnthropic Accuse Alibaba Cloud / Qwen: https://www.bbc.co.uk/news/articles/cwyklykn5dwo\n\nBetelgeuse: https://upload.wikimedia.org/wikipedia/commons/6/69/Well_known_stars_2.png\n\nOpenAI 5%: https://edition.cnn.com/2026/07/02/business/openai-trump-stake-intl\n\nWhy Larger Models Learn More: https://arxiv.org/pdf/2605.29548\n\nPatreon Post: https://www.patreon.com/AIExplained/posts/glm-5-2-and-nsa-161869508\n\n\n\nNon-hype Newsletter: https://signaltonoise.beehiiv.com/\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "link": "https://www.youtube.com/watch?v=y24lF1q4SFY",
+        "author": "AI Explained",
+        "keywords": "",
+        "published": "2026-07-02T16:27:26+00:00",
+        "kind": "video",
+        "source_name": "AI Explained",
+        "source_handle": "AI Explained",
+        "source_role": "Channel · AI Explained"
+      },
+      {
+        "title": "Should You Still Study Math in the AI Era? – Grant Sanderson (@3blue1brown )",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=35mQq0AmC_8",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-02T16:04:10+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-02T16:00:00+00:00",
+    "end": "2026-07-02T22:00:00+00:00"
+  }
+}
