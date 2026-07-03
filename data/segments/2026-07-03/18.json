@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-03T17:26:31.569355+00:00",
+  "counts": {
+    "x": 4,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Just learned our next baby will receive a special “Freedom 250” social security card for being born in the second half o",
+        "summary": "Just learned our next baby will receive a special “Freedom 250” social security card for being born in the second half of this 250th anniversary year. Such a cool keepsake 🥹 🇺🇸 🦅 https://t.co/TsdIO1gvVk",
+        "link": "https://x.com/rauchg/status/2073071749911200157",
+        "author": "rauchg",
+        "published": "2026-07-03T15:49:55+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "The jobs of the future will require high adaptability and creativity, focusing on complex problem framing rather than re",
+        "summary": "The jobs of the future will require high adaptability and creativity, focusing on complex problem framing rather than repetitive execution or specialized skills",
+        "link": "https://x.com/fchollet/status/2073044516253450409",
+        "author": "fchollet",
+        "published": "2026-07-03T14:01:42+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Squidsoup is a collective of artists and designers who make immersive experiences with sound, light and space. \n\nWe caug",
+        "summary": "Squidsoup is a collective of artists and designers who make immersive experiences with sound, light and space. \n\nWe caught up with them before one of their largest projects to date: a live performance with an orchestra at the Southbank Centre in London. https://t.co/8wvgOYfotp",
+        "link": "https://x.com/claudeai/status/2073028947478995406",
+        "author": "claudeai",
+        "published": "2026-07-03T12:59:50+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Try video generation on Replit",
+        "summary": "Try video generation on Replit",
+        "link": "https://x.com/amasad/status/2073003971287863717",
+        "author": "amasad",
+        "published": "2026-07-03T11:20:35+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "June 2026 newsletter",
+        "summary": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-06-june.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Claude Fable 5, GPT-5.6, and US export restrictions</li>\n<li>GLM-5.2 is the new best open weights model</li>\n<li>Tokenmaxxing is so over</li>\n<li>Datasette Apps</li>\n<li>sqlite-utils and shot-scraper and Datasette</li>\n<li>Miscellaneous WASM projects</li>\n<li>Other model releases</li>\n<li>What I'm using</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-05-may.md\">a copy of the May newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/",
+        "author": "",
+        "keywords": "newsletter",
+        "published": "2026-07-03T14:50:50+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "summary": "",
+        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-03T14:25:43+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Could an AI Win the Millennium Prize and not be AGI? – Grant Sanderson (@3blue1brown )",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=1KWGb0AmoFw",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-03T10:30:38+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-03T10:00:00+00:00",
+    "end": "2026-07-03T16:00:00+00:00"
+  }
+}
