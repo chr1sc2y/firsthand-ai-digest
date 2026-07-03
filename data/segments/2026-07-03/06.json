@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-03T07:20:52.853829+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "I took my son to the USMNT game yesterday against Bosnia.\n\nAfter the game I asked him his favorite part and he said: “th",
+        "summary": "I took my son to the USMNT game yesterday against Bosnia.\n\nAfter the game I asked him his favorite part and he said: “the giant flag and the national anthem”\n\nThis country has given us everything. \n\nCannot be more grateful. https://t.co/OgsVN62Ilf",
+        "link": "https://x.com/adityaag/status/2072879173136474186",
+        "author": "adityaag",
+        "published": "2026-07-03T03:04:41+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "In retrospect... Yep",
+        "summary": "In retrospect... Yep",
+        "link": "https://x.com/fchollet/status/2072877930469110058",
+        "author": "fchollet",
+        "published": "2026-07-03T02:59:45+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align",
+        "summary": "The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes they’re involved in and drive the desired outcomes.\n\nMost workflows weren’t designed for AI agents to just drop into. Workflows today in the enterprise deal with fragmented data, legacy software systems that agents can’t connect with, institutional instead of documented knowledge, and more.\n\nTo deploy agents reliably at scale you need to get data cleaned up, modernize IT systems, figure out evals, drive change management for the new end state process, and so on. This also involves designing where humans remain in the loop (which will mean entirely new ways people interact with the workflows), and figuring out what a company’s new IP looks like. \n\nThis is why so many applied AI companies are expanding FDE efforts and launching deploycos, and why the FDE role will be one of the most critical jobs in tech going forward. There’s a tremendous amount of work to be done on this front.",
+        "link": "https://x.com/levie/status/2072875685811716182",
+        "author": "levie",
+        "published": "2026-07-03T02:50:50+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "How I’m getting the most out of Fable before July 7:\n\n1. Prep context with cheaper models\n2. Plan with Fable, execute wi",
+        "summary": "How I’m getting the most out of Fable before July 7:\n\n1. Prep context with cheaper models\n2. Plan with Fable, execute with another model\n3. Use lower effort, like Medium, and babysit what Fable is doing\n\n📌 Watch my full tutorial for 5 Fable-worthy use cases to try: https://t.co/XElMEV3FwK",
+        "link": "https://x.com/petergyang/status/2072842766053499353",
+        "author": "petergyang",
+        "published": "2026-07-03T00:40:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Vera CPUs are great!",
+        "summary": "Vera CPUs are great!",
+        "link": "https://x.com/AravSrinivas/status/2072834801179247008",
+        "author": "AravSrinivas",
+        "published": "2026-07-03T00:08:22+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/ftlBy167yO",
+        "summary": "https://t.co/ftlBy167yO",
+        "link": "https://x.com/elonmusk/status/2072817687256834529",
+        "author": "elonmusk",
+        "published": "2026-07-02T23:00:22+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "this is great\n\ni feel this a LOT right now with fable, where it can go off for hours at a time and then comes back with ",
+        "summary": "this is great\n\ni feel this a LOT right now with fable, where it can go off for hours at a time and then comes back with a 2 paragraph explanation of what it did\n\nwe need better ways for AI to tell us stories",
+        "link": "https://x.com/danshipper/status/2072805884376301737",
+        "author": "danshipper",
+        "published": "2026-07-02T22:13:28+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Love this re-imagining of America’s founding using Docs, Gmail, Calendar and more from @GoogleWorkspace. Really puts the",
+        "summary": "Love this re-imagining of America’s founding using Docs, Gmail, Calendar and more from @GoogleWorkspace. Really puts the history in version history :) https://t.co/eWO4yc22p5",
+        "link": "https://x.com/sundarpichai/status/2072803440137285925",
+        "author": "sundarpichai",
+        "published": "2026-07-02T22:03:45+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "Model Y long wheelbase now available to order in the US",
+        "summary": "Model Y long wheelbase now available to order in the US",
+        "link": "https://x.com/elonmusk/status/2072803370616700972",
+        "author": "elonmusk",
+        "published": "2026-07-02T22:03:29+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-07-02T22:00:00+00:00",
+    "end": "2026-07-03T04:00:00+00:00"
+  }
+}
