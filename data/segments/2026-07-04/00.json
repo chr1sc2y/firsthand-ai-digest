@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-03T23:04:47.881016+00:00",
+  "counts": {
+    "x": 16,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Small tip: You can use Claude Code with computer use to set up Claude Tag. Just point it to the Claude Tag docs and it w",
+        "summary": "Small tip: You can use Claude Code with computer use to set up Claude Tag. Just point it to the Claude Tag docs and it will connect your team’s GitHub repo, data warehouse, google drive, and other data sources for you!",
+        "link": "https://x.com/_catwu/status/2073149354412822738",
+        "author": "_catwu",
+        "published": "2026-07-03T20:58:18+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "What are you building with Fable 5 this long weekend? Show me your demos in the replies!",
+        "summary": "What are you building with Fable 5 this long weekend? Show me your demos in the replies!",
+        "link": "https://x.com/_catwu/status/2073147672106873001",
+        "author": "_catwu",
+        "published": "2026-07-03T20:51:36+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "The battle in AI is shaping up to be a battle for context.\n\nEverything in AI is about making sure that agents are effect",
+        "summary": "The battle in AI is shaping up to be a battle for context.\n\nEverything in AI is about making sure that agents are effective as possible. That effectiveness comes down to whether the agent has the right domain expertise, access to the right context and tools to work with, and are involved in workflow in a way that users can easily interact with, review its work, and incorporate it into the rest of the process.\n\nAs a consequence, the platforms that are able to capture and leverage the best and most context within their agents —and be able to pick the right models for the task- will be the place where agents do their best work. You can just look at coding agents, legal agents, or support agents as examples of what this looks like at scale. \n\nThis is why the applied AI layer has a lot more value than just being an LLM wrapper. The ability to organize the critical knowledge for the work being done, and maintain this knowledge in a governed way where only the right people and agents have access, and the ability to improve the context for agents more and more over time, is critical.\n\nOver time, this layer will be able to route work between a variety of models, leveraging frontier intelligence for planning and orchestration and review, and a mix of lower cost models (open or closed) for the large volume of work between these tasks.\n\nThe applied layer is also in a good position to train and develop its own models as well that are purpose built for their domains. Never good to bet against the bitter lesson, but equally taking a near frontier base model and post training it for just one type of domain work can -in many cases- lower costs or deliver better performance for certain tasks. \n\nFinally, this applied layer is also where most of the change management of the workflow will need to occur. This is why FDEs are so important at the applied layer, because this is the point where the customer needs to have specific business problem solved by a particular vendor. Whichever companies can solve that completely in an end-to-end fashion will have the greatest moats. \n \nAs each day goes on, we’re learning more about what the likely long term market dynamics will look like in AI.",
+        "link": "https://x.com/levie/status/2073138135014502777",
+        "author": "levie",
+        "published": "2026-07-03T20:13:43+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Good explanation of why some people find “wealth” inexplicable",
+        "summary": "Good explanation of why some people find “wealth” inexplicable",
+        "link": "https://x.com/elonmusk/status/2073132524063060174",
+        "author": "elonmusk",
+        "published": "2026-07-03T19:51:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Agentic self-improvement. \n\nGive your agent the ability to introspect its past runs, spot inefficiencies, errors, redund",
+        "summary": "Agentic self-improvement. \n\nGive your agent the ability to introspect its past runs, spot inefficiencies, errors, redundant tool calls, and produce new prompts and skills.\n\nThat’s why agent observability is built-in when you deploy https://t.co/99eEa13mZ3 to Vercel.",
+        "link": "https://x.com/rauchg/status/2073132174958841887",
+        "author": "rauchg",
+        "published": "2026-07-03T19:50:02+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Shoutout to @vhbrzezowski for is rad CodexBar website redesign! \nAnd to everyone who keeps sending me PRs to support now",
+        "summary": "Shoutout to @vhbrzezowski for is rad CodexBar website redesign! \nAnd to everyone who keeps sending me PRs to support now *checks note* 56 providers. You're the best! https://t.co/lJ4dxNI4pe\n\nJust shipped a slick new update that makes settings way nicer and more intuitive.",
+        "link": "https://x.com/steipete/status/2073127743131464059",
+        "author": "steipete",
+        "published": "2026-07-03T19:32:25+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "“We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with ce",
+        "summary": "“We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.” \n\nSuch beautiful, sacred words.",
+        "link": "https://x.com/rauchg/status/2073127044708479429",
+        "author": "rauchg",
+        "published": "2026-07-03T19:29:38+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I like my airplanes like I like my 𝚁𝚎𝚊𝚌𝚝.𝚌𝚛𝚎𝚊𝚝𝚎𝙴𝚕𝚎𝚖𝚎𝚗𝚝 syntax: JSX\n\nA glimmer of hope for how great airtravel could be a",
+        "summary": "I like my airplanes like I like my 𝚁𝚎𝚊𝚌𝚝.𝚌𝚛𝚎𝚊𝚝𝚎𝙴𝚕𝚎𝚖𝚎𝚗𝚝 syntax: JSX\n\nA glimmer of hope for how great airtravel could be again.\n\nLightning quick onboarding, no security theater, Starlink, unstressed friendly staff, convenient terminals. https://t.co/D32Npuxvlg",
+        "link": "https://x.com/rauchg/status/2073119955709821372",
+        "author": "rauchg",
+        "published": "2026-07-03T19:01:28+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Because Instagram and TikTok APIs are garbage, I have this crazy Codex workflow that makes video clips for me (ffmpeg ft",
+        "summary": "Because Instagram and TikTok APIs are garbage, I have this crazy Codex workflow that makes video clips for me (ffmpeg ftw) and then uses browser use for Meta Business Suite and TikTok UI to schedule them.\n\nI'm always worried it'll fall over since there are like 20+ steps and UI button clicks but so far so good.",
+        "link": "https://x.com/petergyang/status/2073115061355532429",
+        "author": "petergyang",
+        "published": "2026-07-03T18:42:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "One way to live 400 years is to do (and experience) 5x more things per day",
+        "summary": "One way to live 400 years is to do (and experience) 5x more things per day",
+        "link": "https://x.com/fchollet/status/2073114064277159947",
+        "author": "fchollet",
+        "published": "2026-07-03T18:38:04+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "This is so powerful. ▲ Sandbox can now run 𝚍𝚘𝚌𝚔𝚎𝚛 and 𝚏𝚞𝚜𝚎, unconstrained.\n\nMicroVMs are the gift that keeps on giving. ",
+        "summary": "This is so powerful. ▲ Sandbox can now run 𝚍𝚘𝚌𝚔𝚎𝚛 and 𝚏𝚞𝚜𝚎, unconstrained.\n\nMicroVMs are the gift that keeps on giving. Instant boots, unconstrained runtimes. Very happy we bet on it as the foundation for 🌊 Fluid compute.\n\nS3-backed filesystem for agents in 10LOC ↓",
+        "link": "https://x.com/rauchg/status/2073106884819841270",
+        "author": "rauchg",
+        "published": "2026-07-03T18:09:32+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "This is wrong, it’s the same model \n\nBut it does fall back to Opud 4.8 slightly more, so the benchmarks are measuring a ",
+        "summary": "This is wrong, it’s the same model \n\nBut it does fall back to Opud 4.8 slightly more, so the benchmarks are measuring a mix of Fable and Opus\n\nSkill issue",
+        "link": "https://x.com/danshipper/status/2073097796941484486",
+        "author": "danshipper",
+        "published": "2026-07-03T17:33:25+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "How many Codex or Claude Code threads can you pay attention to at once? Be honest 👇",
+        "summary": "How many Codex or Claude Code threads can you pay attention to at once? Be honest 👇",
+        "link": "https://x.com/petergyang/status/2073095448878100816",
+        "author": "petergyang",
+        "published": "2026-07-03T17:24:05+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "What it could have been https://t.co/HAzHOFvIzd",
+        "summary": "What it could have been https://t.co/HAzHOFvIzd",
+        "link": "https://x.com/thsottiaux/status/2073079378808901663",
+        "author": "thsottiaux",
+        "published": "2026-07-03T16:20:14+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "The AI super app era is here\n\n1. Anthropic and OpenAI want to transform all knowledge work.\n\nBoth labs want to remake ho",
+        "summary": "The AI super app era is here\n\n1. Anthropic and OpenAI want to transform all knowledge work.\n\nBoth labs want to remake how white-collar work gets done with agents. What started with coding has expanded to design, finance, legal, science, and more. Knowledge workers are now adopting Codex three times faster than developers.\n\n2. The race to build the best AI super app is on.\n\nWhoever wins will pull massive attention away from pre-AI knowledge-work tools. The main players are Codex, Claude, Cursor, and a few others. With browser and computer use, I can already get Codex to handle almost everything I want to do on my computer.\n\n3. OpenAI is well positioned for the super app race.\n\nChatGPT has 800M+ weekly active users, and Codex is arguably the best AI super app right now. OpenAI has a clear opportunity to merge ChatGPT and Codex into one app and push agents into the mainstream.\n\n4. Anthropic leads enterprise, but its product suite feels fragmented.\n\nLong term, I don’t think it makes sense for Claude, Cowork, Claude Code, and Claude Design to exist as separate products. Working with Claude needs to feel more like working with a single capable coworker, imo. I’m excited about the potential of Claude Tag for team productivity.\n\n📌 More in my recent essay: https://t.co/jj568Tx1NU",
+        "link": "https://x.com/petergyang/status/2073078067329970381",
+        "author": "petergyang",
+        "published": "2026-07-03T16:15:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "A new personal iOS app working end to end: 5M tokens\nYour whole prod bug backlog cleared: 20M tokens\nUnnecessarily detai",
+        "summary": "A new personal iOS app working end to end: 5M tokens\nYour whole prod bug backlog cleared: 20M tokens\nUnnecessarily detailed responses to every single unread email, Slack, and text message: 30M tokens\n\nFable working for you while you’re at the pool: Priceless https://t.co/nN5dmQDMR1",
+        "link": "https://x.com/danshipper/status/2073076447992746379",
+        "author": "danshipper",
+        "published": "2026-07-03T16:08:35+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting Josh W. Comeau",
+        "summary": "<blockquote cite=\"https://bsky.app/profile/joshwcomeau.com/post/3mkxyqgrp2d2t\"><p>I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch.</p>\n<p>It’s a similar story with my two existing courses. Sales are down significantly from last year.</p>\n<p>There are likely a lot of reasons for this, but I think the biggest is AI. There’s sort of a double whammy with AI:</p>\n<ol>\n<li>Many people are wondering whether developer jobs will even exist in a few months, so they’re reluctant to spend time/money learning new dev skills.</li>\n<li>Even if they do want to learn new dev skills, LLMs can provide personalized tutoring, so there’s less incentive to buy a paid course.</li>\n</ol>\n<p>[...] I’ve spoken to a few course creators now, and we’re all seeing the same trend. Revenue down 50%+. Fewer people engaging with our content. People switching to LLMs, which slurp up all of our work and regurgitate it, without consent or compensation.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://bsky.app/profile/joshwcomeau.com/post/3mkxyqgrp2d2t\">Josh W. Comeau</a>, via <a href=\"https://whitep4nth3r.com/blog/goodbye-forever-probably/\">Salma Alam-Naylor</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a>, <a href=\"https://simonwillison.net/tags/josh-comeau\">josh-comeau</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/",
+        "author": "",
+        "keywords": "ai-ethics llms ai generative-ai careers josh-comeau",
+        "published": "2026-07-03T21:25:52+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Fable's judgement",
+        "summary": "<p>One of the most interesting tips I got from <a href=\"https://www.ai.engineer/worldsfair/schedule?session=asn_slot_2026_06_30_main_stage_1230_2026_06_08t09_35_43_039z\">the Fireside Chat</a> I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgement rather than dictating how they should work.</p>\n<p>The example they gave was testing. You can tell Fable \"only use automated testing for larger features, don't update and run tests for small copy or design changes\" - but it's better to just tell Fable to use its own judgement when deciding to write tests instead.</p>\n<p>Jesse Vincent just gave me a related tip to help avoid burning too many of those valuable Fable tokens in the few days we have left before the prices go up. Tell Fable to use other models for smaller tasks, applying its own judgement about which model to use.</p>\n<p>I prompted Claude Code just now with:</p>\n<blockquote>\n<p><code>For all coding tasks use your judgement to decide an appropriate lower power model and run that in a subagent</code></p>\n</blockquote>\n<p>Claude saved this memory file in <code>~/.claude/projects/name-of-project/memory/delegate-coding-to-subagents.md</code>:</p>\n<blockquote>\n<pre><code>---\nname: delegate-coding-to-subagents\ndescription: Simon wants coding tasks delegated to subagents running an appropriately lower-power model\nmetadata: \n  node_type: memory\n  type: feedback\n  originSessionId: 30068d78-43a9-4fb1-bb29-9799e18c526a\n---\n</code></pre>\n<p>Stated by Simon on 2026-07-03: \"For all coding tasks use your judgement to\ndecide an appropriate lower power model and run that in a subagent.\"</p>\n<p><strong>Why:</strong> cost/efficiency — implementation work rarely needs the top-tier\nmodel; judgment, review, and synthesis stay with the main loop.</p>\n<p><strong>How to apply:</strong> when a task in this project is primarily writing/editing\ncode, spawn an Agent with a model override (sonnet for substantive\nimplementation, haiku for trivial/mechanical edits) and a self-contained\nprompt; review the result in the main loop before committing. Design,\nauditing, data synthesis, and anything judgment-heavy stays in the main\nmodel. See also [[project-goals]].</p>\n</blockquote>\n<p>So far it seems to be working well. I'm getting a <em>ton</em> of work done and my Fable allowance is shrinking less quickly than before.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/claude-code\">claude-code</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/3/judgement/",
+        "author": "",
+        "keywords": "claude ai claude-code llms prompt-engineering coding-agents generative-ai claude-mythos-fable anthropic",
+        "published": "2026-07-03T18:51:06+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "They Said This Will Never Run In Real Time",
+        "summary": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2506.06494\n\nSources:\nhttps://www.youtube.com/shorts/Tx7167DXr8U\nhttps://www.youtube.com/watch?v=55F9dY2Y1zc\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=uO5cvkzh3P0",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-07-03T17:19:59+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-03T16:00:00+00:00",
+    "end": "2026-07-03T22:00:00+00:00"
+  }
+}
