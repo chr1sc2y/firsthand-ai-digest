@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-04T17:06:44.161344+00:00",
+  "counts": {
+    "x": 5,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "No matter how you spell it, 250 years of American innovation, ingenuity &amp; curiosity is something to celebrate. Have ",
+        "summary": "No matter how you spell it, 250 years of American innovation, ingenuity &amp; curiosity is something to celebrate. Have a happy &amp; safe 4th of July! https://t.co/3hzAP8FDJZ",
+        "link": "https://x.com/sundarpichai/status/2073436433415614491",
+        "author": "sundarpichai",
+        "published": "2026-07-04T15:59:02+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "🟦⭐🟦⭐🟦🟥🟥🟥🟥🟥🟥\n⭐🟦⭐🟦⭐⬜⬜⬜⬜⬜⬜\n🟦⭐🟦⭐🟦🟥🟥🟥🟥🟥🟥\n⭐🟦⭐🟦⭐⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥",
+        "summary": "🟦⭐🟦⭐🟦🟥🟥🟥🟥🟥🟥\n⭐🟦⭐🟦⭐⬜⬜⬜⬜⬜⬜\n🟦⭐🟦⭐🟦🟥🟥🟥🟥🟥🟥\n⭐🟦⭐🟦⭐⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥\n⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜\n🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥🟥",
+        "link": "https://x.com/rauchg/status/2073428532613775819",
+        "author": "rauchg",
+        "published": "2026-07-04T15:27:39+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "\"People who are serious about technology have to get serious about society.\" \n\nOn July 4th, a quick must-listen podcast ",
+        "summary": "\"People who are serious about technology have to get serious about society.\" \n\nOn July 4th, a quick must-listen podcast between @lulumeservey @boztank and Lee Robinson of General Matter. \n\nOn service, American values, and solving hard problems 🇺🇸",
+        "link": "https://x.com/kevinweil/status/2073426084889301116",
+        "author": "kevinweil",
+        "published": "2026-07-04T15:17:55+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "biggest learning from @3blue1brown on @dwarkesh_sp is I’ve been mispronouncing the name of every single famous mathemati",
+        "summary": "biggest learning from @3blue1brown on @dwarkesh_sp is I’ve been mispronouncing the name of every single famous mathematician this whole time",
+        "link": "https://x.com/danshipper/status/2073422764275364153",
+        "author": "danshipper",
+        "published": "2026-07-04T15:04:43+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "My episode tomorrow is an inside look at how an OpenAI PM uses Codex for product work.\n\nRohan (Codex PM) walked through ",
+        "summary": "My episode tomorrow is an inside look at how an OpenAI PM uses Codex for product work.\n\nRohan (Codex PM) walked through how to:\n\n→ Use Image Gen to explore designs fast\n→ Trigger Codex automations from Slack\n→ Use one Codex thread to manage others\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2073410256840139047",
+        "author": "petergyang",
+        "published": "2026-07-04T14:15:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Are LLMs Bad at Writing (but Good at Code)? – Grant Sanderson (@3blue1brown )",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=XAXUvnrEae8",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-04T13:00:25+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-04T10:00:00+00:00",
+    "end": "2026-07-04T16:00:00+00:00"
+  }
+}
