@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-04T06:47:07.755507+00:00",
+  "counts": {
+    "x": 17,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "https://t.co/N4P0qXubBE",
+        "summary": "https://t.co/N4P0qXubBE",
+        "link": "https://x.com/elonmusk/status/2073245901016166547",
+        "author": "elonmusk",
+        "published": "2026-07-04T03:21:56+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "A LinkedIn DM can change your life 😅 https://t.co/RUWWrghNZd",
+        "summary": "A LinkedIn DM can change your life 😅 https://t.co/RUWWrghNZd",
+        "link": "https://x.com/petergyang/status/2073231884059128063",
+        "author": "petergyang",
+        "published": "2026-07-04T02:26:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "i often think about the irony of how \"tools for thought\" people spent like a decade making cool pretty demos with canvas",
+        "summary": "i often think about the irony of how \"tools for thought\" people spent like a decade making cool pretty demos with canvases \n\nand then got completely mogged by low contrast poorly designed CLIs just winning because they do commodity thinking for you",
+        "link": "https://x.com/swyx/status/2073220591684096087",
+        "author": "swyx",
+        "published": "2026-07-04T01:41:22+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Give your agent its own computer to REALLY end to end test stuff. https://t.co/kvaA8guwXL",
+        "summary": "Give your agent its own computer to REALLY end to end test stuff. https://t.co/kvaA8guwXL",
+        "link": "https://x.com/steipete/status/2073214429655883814",
+        "author": "steipete",
+        "published": "2026-07-04T01:16:53+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Some days I feel like a double agent, sitting at the OpenAI office, making sure Fable 5 works well.\n\nOpen means open.",
+        "summary": "Some days I feel like a double agent, sitting at the OpenAI office, making sure Fable 5 works well.\n\nOpen means open.",
+        "link": "https://x.com/steipete/status/2073210617520177585",
+        "author": "steipete",
+        "published": "2026-07-04T01:01:44+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "That's a great speech that captures the essence of American exceptionalism. It is not based on innate superiority, power",
+        "summary": "That's a great speech that captures the essence of American exceptionalism. It is not based on innate superiority, power or wealth, but rather on the fact that the outcasts of the world could set foot here, start over, reinvent themselves, achieve their potential, and shape the nation's ongoing story. This promise of a blank slate and a better future where hard work pays off is what has always made America great -- and unique.",
+        "link": "https://x.com/fchollet/status/2073206662580859378",
+        "author": "fchollet",
+        "published": "2026-07-04T00:46:01+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "What a game huge respect to Cape Verde",
+        "summary": "What a game huge respect to Cape Verde",
+        "link": "https://x.com/petergyang/status/2073206553310810129",
+        "author": "petergyang",
+        "published": "2026-07-04T00:45:35+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "My heart cannot take this",
+        "summary": "My heart cannot take this",
+        "link": "https://x.com/petergyang/status/2073205397713010750",
+        "author": "petergyang",
+        "published": "2026-07-04T00:40:59+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "lol hell yes best match ever",
+        "summary": "lol hell yes best match ever",
+        "link": "https://x.com/petergyang/status/2073203270139748755",
+        "author": "petergyang",
+        "published": "2026-07-04T00:32:32+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/kDS4kdor2w",
+        "summary": "https://t.co/kDS4kdor2w",
+        "link": "https://x.com/elonmusk/status/2073202292942315943",
+        "author": "elonmusk",
+        "published": "2026-07-04T00:28:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Factorio has broken containment",
+        "summary": "Factorio has broken containment",
+        "link": "https://x.com/swyx/status/2073202219944649015",
+        "author": "swyx",
+        "published": "2026-07-04T00:28:22+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "We are the last fixit generation.",
+        "summary": "We are the last fixit generation.",
+        "link": "https://x.com/steipete/status/2073200349821997327",
+        "author": "steipete",
+        "published": "2026-07-04T00:20:56+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "wtf is going on",
+        "summary": "wtf is going on",
+        "link": "https://x.com/petergyang/status/2073199785000181919",
+        "author": "petergyang",
+        "published": "2026-07-04T00:18:41+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "big highlight of aie is always catching up with @microsoft folks like @digitarald who deeply care about the responsibili",
+        "summary": "big highlight of aie is always catching up with @microsoft folks like @digitarald who deeply care about the responsibility of being the predominant platform for code and always have thoughtful talks and ideas around how they are supporting hundreds of millions of users (from the smallest SF AI natives to the largest global F500s) with the kind of care and maturity that doesn’t often get celebrated on twitter, but MSFT wouldn’t remain a 3T megaplatform today without the kind of passionate devtools people that I saw speak at AIE this week. always awed by the bigcloud folks who embrace all the complexities of being the incumbent AND innovator at the same time.",
+        "link": "https://x.com/swyx/status/2073198874773344710",
+        "author": "swyx",
+        "published": "2026-07-04T00:15:04+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The only long term bottlenecks are information and energy.",
+        "summary": "The only long term bottlenecks are information and energy.",
+        "link": "https://x.com/fchollet/status/2073198603577983288",
+        "author": "fchollet",
+        "published": "2026-07-04T00:13:59+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Great night hanging with the Claude Code folks. 🙌✌️ @trq212 @The_Whole_Daisy",
+        "summary": "Great night hanging with the Claude Code folks. 🙌✌️ @trq212 @The_Whole_Daisy",
+        "link": "https://x.com/steipete/status/2073193871744675948",
+        "author": "steipete",
+        "published": "2026-07-03T23:55:11+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "🇺🇸",
+        "summary": "🇺🇸",
+        "link": "https://x.com/kevinweil/status/2073180868114575401",
+        "author": "kevinweil",
+        "published": "2026-07-03T23:03:31+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Open Source AI Gap Map",
+        "summary": "<p><strong><a href=\"https://map.currentai.org\">Open Source AI Gap Map</a></strong></p>\n<a href=\"https://www.currentai.org\">Current AI</a> is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committed).</p>\n<p>They <a href=\"https://www.currentai.org/blogs/introducing-the-gap-map-v0-1\">launched their Gap Map</a> a couple of days ago - an attempt at indexing the current state of open source AI:</p>\n<blockquote>\n<p>The Gap Map v0.1 details 421 products in depth: 266 software tools and libraries, 85 models, 50 datasets, and 20 hardware projects, produced by 228 organizations. These products are organized into 14 categories across 3 layers of the stack (model components, product / UX, and infrastructure). The remaining 24,400 artifacts constitute the uncategorized long tail of the open source AI ecosystem, and will carry no score until they are researched and cited.</p>\n</blockquote>\n<p>The map itself is interesting to explore, but I'm more excited about the underlying data - released under an MIT license in the <a href=\"https://github.com/currentai-org/os-ai-map\">currentai-org/os-ai-map</a> GitHub account: 1,184 YAML files plus the notebooks, schemas and other scripts used to help gather them.</p>\n<p>Since the files are on GitHub you can use Datasette Lite to explore some of them - here are <a href=\"https://lite.datasette.io/?csv=https://github.com/currentai-org/os-ai-map/blob/main/warehouse/catalog/goodailist/repos.csv#/data/repos?_sort_desc=stars\">16,185 GitHub repos the project is tracking</a> as a CSV file loaded into Datasette Lite.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette-lite\">datasette-lite</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/",
+        "author": "",
+        "keywords": "open-source ai datasette-lite generative-ai local-llms llms",
+        "published": "2026-07-03T22:04:31+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-07-03T22:00:00+00:00",
+    "end": "2026-07-04T04:00:00+00:00"
+  }
+}
