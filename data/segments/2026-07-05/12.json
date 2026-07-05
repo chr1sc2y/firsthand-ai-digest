@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-05T11:35:10.237589+00:00",
+  "counts": {
+    "x": 3,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸",
+        "summary": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸",
+        "link": "https://x.com/elonmusk/status/2073703765962797178",
+        "author": "elonmusk",
+        "published": "2026-07-05T09:41:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/2QgCtbaEw7",
+        "summary": "https://t.co/2QgCtbaEw7",
+        "link": "https://x.com/swyx/status/2073657149067321412",
+        "author": "swyx",
+        "published": "2026-07-05T06:36:05+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "grateful to the people that created the idea of america, everyone who built it over the past 250 years, and the people w",
+        "summary": "grateful to the people that created the idea of america, everyone who built it over the past 250 years, and the people who will carry it forward for the next 250.\n\nmost impressive social experiment in history.",
+        "link": "https://x.com/sama/status/2073635910512726444",
+        "author": "sama",
+        "published": "2026-07-05T05:11:42+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-07-05T04:00:00+00:00",
+    "end": "2026-07-05T10:00:00+00:00"
+  }
+}
