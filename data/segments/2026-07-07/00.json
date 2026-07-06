@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-06T23:08:14.419377+00:00",
+  "counts": {
+    "x": 10,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "We've put together a short history of how Claude Code came to be, told by the people who built it and the early users wh",
+        "summary": "We've put together a short history of how Claude Code came to be, told by the people who built it and the early users who helped make it what it is today.\n\nhttps://t.co/0gXEPID8lh https://t.co/2qeCVrD6Ep",
+        "link": "https://x.com/claudeai/status/2074244664199115201",
+        "author": "claudeai",
+        "published": "2026-07-06T21:30:40+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Reporting benchmark results as a scalar number, e.g. \"75% on XYZ\" is completely meaningless at this point. You should al",
+        "summary": "Reporting benchmark results as a scalar number, e.g. \"75% on XYZ\" is completely meaningless at this point. You should always report efficiency scores, e.g. \"75% at a cost per task of $10.\"",
+        "link": "https://x.com/fchollet/status/2074242671103889799",
+        "author": "fchollet",
+        "published": "2026-07-06T21:22:45+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have a",
+        "summary": "The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have apps and games you couldn't even dream of before? Is the software you're getting bug-free?\n\nFor me: my own ability to influence my productivity has radically increased. I feel a level of agency and autonomy I never had before. I'm free to create and execute. I can communicate a vision with my colleagues instantly. Personal software is real and a big win, I have a bunch of web tools and macOS apps I wrote just for myself.\n\nFor Vercel: it's been amazing to see our CTO @cramforce bring novel software to life with swaths of agents. Genuinely useful software that's having an impact industry-wide emerged nearly autonomously (https://t.co/zwHPbMHK45, https://t.co/TTbSu13EjV, https://t.co/HedSpZpVQI). That's just an example. Our PM team ships software and fixes bugs. Our junior engineers and interns ship quality software at scale. On a personal note, AI at my fingertips, as CLI or v0, allows me to keep up with all the product updates. I can build demos, apps and benchmarks on top of @vercel as new products go out.\n\nBut the ultimate jury is that people should love our products, expand their usage, refer their friends and colleagues to the platform. So far that tracks well, and it's the main metric I watch (and obviously we take token costs seriously, just like any other infrastructure spend… there isn't and has never been a proclamation to \"tokenmaxxx\").",
+        "link": "https://x.com/rauchg/status/2074222247548735996",
+        "author": "rauchg",
+        "published": "2026-07-06T20:01:35+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "We been cooking, by the time this went through review main again is materially better 🥲",
+        "summary": "We been cooking, by the time this went through review main again is materially better 🥲",
+        "link": "https://x.com/steipete/status/2074210475777364197",
+        "author": "steipete",
+        "published": "2026-07-06T19:14:49+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/PXjlm4RLJJ",
+        "summary": "https://t.co/PXjlm4RLJJ",
+        "link": "https://x.com/thsottiaux/status/2074209421799166138",
+        "author": "thsottiaux",
+        "published": "2026-07-06T19:10:37+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Fable 5 will leave Claude subscriptions tomorrow at midnight. Here are 5 use cases worth trying before then, with prompt",
+        "summary": "Fable 5 will leave Claude subscriptions tomorrow at midnight. Here are 5 use cases worth trying before then, with prompts you can copy and paste:\n\n1) FIND FABLE-WORTHY WORK\nYou're Fable 5, the most capable model available. Look through my projects, docs, and your memory, and list the top 5 tasks genuinely worth running on you. Rank them with a one-line reason each. Don't do the work yet.\n\n2) GET LIFE & BUSINESS ADVICE\nYou're my business advisor. Read my plan doc and pull live data from my connected tools. Write a one-page assessment of my business and the top 3 things to focus on for the next 3 months, plus what to drop and why.\n\n3) MAKE YOUR PROJECT SHIP-READY\nI'm about to ship this project. Find everything wrong with it first. Read the whole codebase and hunt for real bugs, broken edge cases, and anything that'll break in front of a user. List each issue with how to reproduce it and the fix. Hold a high bar.\n\n4) PLAN THE NEXT BIG THING\nI want to plan a big project: [describe it]. Don't build yet. Lay out the full plan: phases, key decisions, risks, and open questions. Flag anything that could sink it, and make it clear enough that a cheaper model could execute step by step.\n\n5) REFACTOR YOUR AI SKILLS\nRefactor my AI skill system. Read all my skills, map where they overlap or conflict, then clean them up: tighten workflows, cut bloat, and standardize structure. Keep each skill working and check in at major milestones.\n\n📌 Watch my tutorial for a live demo of all 5 use cases: https://t.co/XElMEV3FwK",
+        "link": "https://x.com/petergyang/status/2074206798631071796",
+        "author": "petergyang",
+        "published": "2026-07-06T19:00:12+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises f",
+        "summary": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
+        "link": "https://x.com/thsottiaux/status/2074195169990357398",
+        "author": "thsottiaux",
+        "published": "2026-07-06T18:13:59+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "New Anthropic research: A global workspace in language models.\n\nOf everything happening in your brain right now, only a ",
+        "summary": "New Anthropic research: A global workspace in language models.\n\nOf everything happening in your brain right now, only a tiny fraction is consciously accessible—thoughts you can describe, hold in mind, and reason with.\n\nWe found a strikingly similar divide inside Claude. https://t.co/aLUPBifxth",
+        "link": "https://x.com/AnthropicAI/status/2074185348142280912",
+        "author": "AnthropicAI",
+        "published": "2026-07-06T17:34:58+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "“Developers even haven’t fully warmed up to the level of ambition you can have with Codex.\"\n\nFrom Rohan (Codex PM):\n\n\"If",
+        "summary": "“Developers even haven’t fully warmed up to the level of ambition you can have with Codex.\"\n\nFrom Rohan (Codex PM):\n\n\"If you go into any large enterprise, maybe the top 5-10% percent most AI-pilled frontier engineers are maximally leveraging Codex. But then there’s a long tail of people that are still pair programming and doing less delegation.\n\nEngineers have seen AI incrementally expand its capabilities over the last three years. But if you look to a non-developer, it’s kind of been just ChatGPT this whole time.\n\nThe type of things they’re asking ChatGPT are very different than what you can actually delegate to Codex.\n\nAlmost everything you need to do professionally should almost always just immediately have Codex start doing it.”\n\n📌 Full episode: https://t.co/jPa0m1bmCE",
+        "link": "https://x.com/petergyang/status/2074165284852941041",
+        "author": "petergyang",
+        "published": "2026-07-06T16:15:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Great post on how to think about open source AI and the applied AI layer. Two things will always be true in AI. Frontier",
+        "summary": "Great post on how to think about open source AI and the applied AI layer. Two things will always be true in AI. Frontier intelligence will likely remain at the forefront of solving brand new used cases and often be used for orchestrating and planning of any type of complex workflow. \n\nAt the same time, as use-cases become mature and predictable in an enterprise context, you can begin to peel off some set of the tokens to either lower cost open or closed models *or* models that are trained for the task at hand. \n\nDoing this too early in the adoption curve of any new use-case doesn’t make sense as you don’t know what you’re optimizing for, which is why there will always be a bit of a lag here.\n\nThis process can essentially run on forever as there is no end for both the benefits of frontier intelligence or tuned models. This is why the spend and token volume for both approaches will continue to go up for years to come as we’re still early on both.\n\nAgain, the only reason this dynamic is possible though is because of the applied AI layer that can effectively eval their workflows in a specific domain, choose a mixture of models to solve tasks, and have enough scale to eventually train their own models for their purposes.",
+        "link": "https://x.com/levie/status/2074163686990913576",
+        "author": "levie",
+        "published": "2026-07-06T16:08:53+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Builders Unscripted: Ep. 5 - Derya Unutmaz",
+        "summary": "Derya Unutmaz, M.D., an immunologist and professor at The Jackson Laboratory, chats with Romain Huet about building tools for biology with Codex and a future where AI helps scientists simulate experiments.\n\n00:00 Builders Unscripted Episode 5\n09:17 Cell analysis with Codex\n13:26 Simulating immune cells\n29:48 The future of AI-powered science",
+        "link": "https://www.youtube.com/watch?v=4sexN3yE8xg",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-06T20:03:49+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "What’s at the center of Claude’s mind?",
+        "summary": "Out of everything happening in your brain right now, only a tiny fraction is consciously accessible — thoughts you can describe, hold in mind, and reason with. We found a strikingly similar divide inside our AI model, Claude.\n\nOur experiments were inspired by a leading theory in neuroscience: the global workspace theory. It holds that a thought becomes consciously accessible when it enters a shared \"workspace\" that's broadcast across the brain. We found a set of representations in Claude’s neural activity that play a similar role.\n\nRead more about the research here: https://www.anthropic.com/research/global-workspace",
+        "link": "https://www.youtube.com/watch?v=rKV5JcALQoQ",
+        "author": "Anthropic",
+        "keywords": "",
+        "published": "2026-07-06T16:59:51+00:00",
+        "kind": "video",
+        "source_name": "Anthropic",
+        "source_handle": "Anthropic",
+        "source_role": "Channel · Anthropic"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-06T16:00:00+00:00",
+    "end": "2026-07-06T22:00:00+00:00"
+  }
+}
