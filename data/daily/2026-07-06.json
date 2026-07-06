@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T18:11:12.292172+00:00",
+  "source_segments": [
+    "segments/2026-07-06/00.json",
+    "segments/2026-07-06/06.json",
+    "segments/2026-07-06/12.json",
+    "segments/2026-07-06/18.json"
+  ],
+  "counts": {
+    "x": 26,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "the gremlins have arrived in fable https://t.co/oeLAU7ilPH",
+        "summary": "the gremlins have arrived in fable https://t.co/oeLAU7ilPH",
+        "link": "https://x.com/danshipper/status/2074160985452028406",
+        "author": "danshipper",
+        "published": "2026-07-06T15:58:09+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "interestingly, this holds true for how you use models too\n\nshould you use fable to take a big expensive swing? or play s",
+        "summary": "interestingly, this holds true for how you use models too\n\nshould you use fable to take a big expensive swing? or play small ball to grind your way up the hill? https://t.co/81CYUR7E0O",
+        "link": "https://x.com/danshipper/status/2074160886164451735",
+        "author": "danshipper",
+        "published": "2026-07-06T15:57:45+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "As @Apptronik expands their Robot Park facility, our research partnership means real-world data collected by the latest ",
+        "summary": "As @Apptronik expands their Robot Park facility, our research partnership means real-world data collected by the latest Apollo 2 humanoid platform will help train and advance Gemini Robotics. 🤖\n\nFind out more → https://t.co/mo9QykKn4H https://t.co/5Ena9WLlJ9",
+        "link": "https://x.com/GoogleDeepMind/status/2074157282477154597",
+        "author": "GoogleDeepMind",
+        "published": "2026-07-06T15:43:26+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "Healthcare is the most important application of AI: making humans happier + healthier. Our recently published paper \"Pub",
+        "summary": "Healthcare is the most important application of AI: making humans happier + healthier. Our recently published paper \"Public use of a generalist LLM chatbot for health queries\" made the front cover of Nature Health. So proud of the team!\nhttps://t.co/Bqup7eavSE https://t.co/J6YmnPm1oR",
+        "link": "https://x.com/mustafasuleyman/status/2074152085793145161",
+        "author": "mustafasuleyman",
+        "published": "2026-07-06T15:22:47+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Gaming is such as tough space. \n\nThis paragraph jumped out for me:\n\n\"We will reduce management layers to no more than 5,",
+        "summary": "Gaming is such as tough space. \n\nThis paragraph jumped out for me:\n\n\"We will reduce management layers to no more than 5, and where possible, 3. We will deliver success through a flatter organization that is built around makers (individual contributors focused on building), player-coaches (leaders who remain deeply involved in the work while developing their teams), and directly responsible individuals (DRIs) who own key decisions and outcomes.\"",
+        "link": "https://x.com/petergyang/status/2074150826281672937",
+        "author": "petergyang",
+        "published": "2026-07-06T15:17:47+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tired of winning",
+        "summary": "Tired of winning",
+        "link": "https://x.com/ylecun/status/2074143203591073926",
+        "author": "ylecun",
+        "published": "2026-07-06T14:47:30+00:00",
+        "source_name": "Yann LeCun",
+        "source_role": "Chief AI Scientist, Meta",
+        "source_handle": "ylecun"
+      },
+      {
+        "kind": "x",
+        "title": "\"People assume prototyping requires writing code, but Image Gen is simply much faster.\"\n\nRohan (Codex PM) showed me exac",
+        "summary": "\"People assume prototyping requires writing code, but Image Gen is simply much faster.\"\n\nRohan (Codex PM) showed me exactly how he does it:\n\n\"I took a screenshot of the Codex composer where you can type in a new message.\n\nThen I asked Codex to use Image Gen to prototype 4-5 ideas to improve project selection.\n\nI can then ask it to take the first image and make a prototype of it on a Codex site.\n\nWe usually think of Image Gen as useful for things like turning my hair blue. But it can create amazing digital mocks too.\"\n\n📌 Full episode: https://t.co/jPa0m1bmCE",
+        "link": "https://x.com/petergyang/status/2074135084324774312",
+        "author": "petergyang",
+        "published": "2026-07-06T14:15:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Hardly a day goes by without new levels of evil dropping from this one country.",
+        "summary": "Hardly a day goes by without new levels of evil dropping from this one country.",
+        "link": "https://x.com/amasad/status/2074060306855108979",
+        "author": "amasad",
+        "published": "2026-07-06T09:18:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Can’t recommend enough. use via https://t.co/SEj2XRpIsz",
+        "summary": "Can’t recommend enough. use via https://t.co/SEj2XRpIsz",
+        "link": "https://x.com/steipete/status/2074007001802367446",
+        "author": "steipete",
+        "published": "2026-07-06T05:46:17+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Making sure Cybercab meets the needs of the blind",
+        "summary": "Making sure Cybercab meets the needs of the blind",
+        "link": "https://x.com/elonmusk/status/2073990257419173964",
+        "author": "elonmusk",
+        "published": "2026-07-06T04:39:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "What a game wow what a game",
+        "summary": "What a game wow what a game",
+        "link": "https://x.com/petergyang/status/2073966701629374820",
+        "author": "petergyang",
+        "published": "2026-07-06T03:06:08+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Starbase",
+        "summary": "Starbase",
+        "link": "https://x.com/elonmusk/status/2073951629645087106",
+        "author": "elonmusk",
+        "published": "2026-07-06T02:06:15+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Obviously true to any student of history",
+        "summary": "Obviously true to any student of history",
+        "link": "https://x.com/elonmusk/status/2073950878491439177",
+        "author": "elonmusk",
+        "published": "2026-07-06T02:03:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Apart from a few tiny blips, America has been below replacement rate for ~55 years",
+        "summary": "Apart from a few tiny blips, America has been below replacement rate for ~55 years",
+        "link": "https://x.com/elonmusk/status/2073949647832231955",
+        "author": "elonmusk",
+        "published": "2026-07-06T01:58:22+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Traitors before invaders",
+        "summary": "Traitors before invaders",
+        "link": "https://x.com/elonmusk/status/2073945670877155728",
+        "author": "elonmusk",
+        "published": "2026-07-06T01:42:34+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Damn they better have some armored vehicles to escort these English players out of the stadium 😅",
+        "summary": "Damn they better have some armored vehicles to escort these English players out of the stadium 😅",
+        "link": "https://x.com/petergyang/status/2073945318283252167",
+        "author": "petergyang",
+        "published": "2026-07-06T01:41:10+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I'm really excited to share these upcoming episodes for my podcast soon.\n\nOne small ask: My birthday is on Thursday, Jul",
+        "summary": "I'm really excited to share these upcoming episodes for my podcast soon.\n\nOne small ask: My birthday is on Thursday, July 9, and it would be amazing to finally hit 100K YouTube subscribers by then.\n\nI’m at 98.5K now, so pretty close :)\n\n📌 If you’re looking forward to these episodes, consider subscribing here: https://t.co/eOPREwafQV\n\nI appreciate your support!",
+        "link": "https://x.com/petergyang/status/2073930836551032858",
+        "author": "petergyang",
+        "published": "2026-07-06T00:43:37+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "All of reality is programmable. You just have to figure out how. And the way to do that is to model it.",
+        "summary": "All of reality is programmable. You just have to figure out how. And the way to do that is to model it.",
+        "link": "https://x.com/fchollet/status/2073927440779694477",
+        "author": "fchollet",
+        "published": "2026-07-06T00:30:08+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "🇺🇸🇺🇸 Hell yeah!! 🇺🇸🇺🇸 https://t.co/chlgUjpeb3",
+        "summary": "🇺🇸🇺🇸 Hell yeah!! 🇺🇸🇺🇸 https://t.co/chlgUjpeb3",
+        "link": "https://x.com/elonmusk/status/2073896843822731428",
+        "author": "elonmusk",
+        "published": "2026-07-05T22:28:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "fable on ultracode \"make no mistakes\" https://t.co/fuqze4pJTQ",
+        "summary": "fable on ultracode \"make no mistakes\" https://t.co/fuqze4pJTQ",
+        "link": "https://x.com/danshipper/status/2073894034225897602",
+        "author": "danshipper",
+        "published": "2026-07-05T22:17:23+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "In the future, there will be \"Latent Space Archaeologists\" who investigate the model weights of the 21st century to reco",
+        "summary": "In the future, there will be \"Latent Space Archaeologists\" who investigate the model weights of the 21st century to reconstruct a long extinct culture.",
+        "link": "https://x.com/fchollet/status/2073873983729287317",
+        "author": "fchollet",
+        "published": "2026-07-05T20:57:43+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "\"Codex is the only way I can keep track of everything.\"\n\nFrom Rohan (Codex PM):\n\n\"Whenever I’m in meetings, or literally",
+        "summary": "\"Codex is the only way I can keep track of everything.\"\n\nFrom Rohan (Codex PM):\n\n\"Whenever I’m in meetings, or literally anytime I don’t understand something, I just have Codex go and gather all the context.\n\nWe're super lucky because we're building a tool for ourselves.\"\n\n📌 Full episode: https://t.co/jPa0m1bmCE",
+        "link": "https://x.com/petergyang/status/2073848191196561861",
+        "author": "petergyang",
+        "published": "2026-07-05T19:15:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Happy 250 🇺🇸 https://t.co/Ya1Ymnq87G",
+        "summary": "Happy 250 🇺🇸 https://t.co/Ya1Ymnq87G",
+        "link": "https://x.com/amasad/status/2073840276414616006",
+        "author": "amasad",
+        "published": "2026-07-05T18:43:46+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "🇺🇸 USA - 🇦🇷 ARG final \nyou heard it here first",
+        "summary": "🇺🇸 USA - 🇦🇷 ARG final \nyou heard it here first",
+        "link": "https://x.com/rauchg/status/2073822630742983062",
+        "author": "rauchg",
+        "published": "2026-07-05T17:33:39+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Is there an easy way to give Codex the ability to listen to audio or hear words? Trying to use it to clip stuff and remo",
+        "summary": "Is there an easy way to give Codex the ability to listen to audio or hear words? Trying to use it to clip stuff and remove filler words. Whisper is not very reliable.",
+        "link": "https://x.com/petergyang/status/2073811046041800766",
+        "author": "petergyang",
+        "published": "2026-07-05T16:47:37+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "what are your top claude code + workflows + artifacts use cases?\n\none of my new favorites is for sourcing candidates:\n- ",
+        "summary": "what are your top claude code + workflows + artifacts use cases?\n\none of my new favorites is for sourcing candidates:\n- tell cc about the role and backgrounds i’m looking for\n- ask cc to kick off a dynamic workflow to find 100 candidates, and include linkedin, twitter, blog, podcasts, and one-line pitch for each\n- ask cc to make an artifact and email it to me. then, i lock my laptop and head out for the day\n- i review the list on the go once cc is done!",
+        "link": "https://x.com/_catwu/status/2073806626965049686",
+        "author": "_catwu",
+        "published": "2026-07-05T16:30:03+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-G33X9n.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Fable writes a decent GPU kernel, hinting at broader AI R&#38;D automation:…The start of an RSI loop…Fable has written “the first genuine (and fastest) megakernel ever [&#8230;]",
+        "link": "https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-07-06T12:31:05+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "sqlite-utils 4.0rc3",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc3\">sqlite-utils 4.0rc3</a></p>\n        <p>I hoped to release <code>sqlite-utils 4.0</code> stable this weekend, but as I worked through the backlog of issues and PRs with a combination of Claude Fable 5 and GPT-5.5 the changelog since rc2 <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#rc3-2026-07-05\">kept getting bigger</a>.</p>\n<p>The biggest new feature is support for introspecting and creating compound foreign keys - a feature that involves a subtle breaking change to <a href=\"https://sqlite-utils.datasette.io/en/latest/python-api.html#foreign-keys\">table.foreign_keys</a> and hence needed to land for the 4.0 stable release.</p>\n<p><code>sqlite-utils</code> also now follows SQLite's convention for case insensitive column names, which turned out to touch <a href=\"https://sqlite-utils.datasette.io/en/latest/changelog.html#case-insensitive-column-matching\">a bunch of different places at once</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/6/sqlite-utils/",
+        "author": "",
+        "keywords": "projects sqlite sqlite-utils annotated-release-notes gpt claude-mythos-fable",
+        "published": "2026-07-06T05:40:08+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Thomson Reuters CEO Steve Hasker swears by this AI Routine",
+        "summary": "The Monday morning AI routine that Thomson Reuters CEO Steve Hasker Steve Hasker swears by: \n\n🎙️ Listen to the Reuters News World pod\n💡 Prep for the day with your GPT \n📈 Roll up your sleeves & immerse yourself in the work",
+        "link": "https://www.youtube.com/watch?v=sha3EL1ngN8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-06T14:39:55+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "The Greatest Minds Are Often Good Communicators Too – Grant Sanderson @3blue1brown",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=0yv7W6bVpVM",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-06T11:30:01+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Introducing Tau: An Educational Coding Agent",
+        "summary": "Meet Tau — a small, readable coding agent written in Python. In this quick tour, I introduce Tau, show how to install and run it, configure model providers (Hugging Face Inference Providers, GLM 5.2, Minimax, Kimi), resume durable sessions, and walk through its three-layer architecture: tau_ai (provider-neutral model streaming), tau_agent (the reusable agent loop/harness), and tau_coding (the TUI, tools, sessions, and coding-agent environment). Tau is designed as an educational reference inspired by Pi — minimal, modular, and easy to build on. If you want to understand how coding agents actually work, this is a great place to start.\n\n---\n🤓 *Topics Covered*\n- Tau terminal coding agent overview\n- Coding agent architecture layers\n- Hugging Face inference providers setup\n\n---\n🔗 Links\n- Tau website: https://twotimespi.dev\n- Tau repo (contributions welcome!): https://github.com/huggingface/tau\n- Pi (architectural inspiration): https://pi.dev\n- Install Tau: `uv tool install tau-ai`\n\n---\n👋 Connect with me\n- My website: https://alejandro-ao.com/\n- X (Twitter): https://x.com/_alejandroao\n- LinkedIn: https://www.linkedin.com/in/alejandro-ao/\n\n---\n⏱️ Timestamps\n0:00 Introduction\n2:04 Quick tour: install & launch\n3:47 Login & model providers\n4:19 Select a model\n4:32 Scoped models\n5:27 Sessions & resume\n5:56 Thinking levels\n6:33 Contributing & upcoming tutorials\n7:34 Architecture: tau_ai, tau_agent, tau_coding\n8:58 Closing",
+        "link": "https://www.youtube.com/watch?v=4ItFgQI2NOM",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-06T03:15:03+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  }
+}

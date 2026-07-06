@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-06T18:11:12.292172+00:00",
+  "counts": {
+    "x": 7,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "the gremlins have arrived in fable https://t.co/oeLAU7ilPH",
+        "summary": "the gremlins have arrived in fable https://t.co/oeLAU7ilPH",
+        "link": "https://x.com/danshipper/status/2074160985452028406",
+        "author": "danshipper",
+        "published": "2026-07-06T15:58:09+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "interestingly, this holds true for how you use models too\n\nshould you use fable to take a big expensive swing? or play s",
+        "summary": "interestingly, this holds true for how you use models too\n\nshould you use fable to take a big expensive swing? or play small ball to grind your way up the hill? https://t.co/81CYUR7E0O",
+        "link": "https://x.com/danshipper/status/2074160886164451735",
+        "author": "danshipper",
+        "published": "2026-07-06T15:57:45+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "As @Apptronik expands their Robot Park facility, our research partnership means real-world data collected by the latest ",
+        "summary": "As @Apptronik expands their Robot Park facility, our research partnership means real-world data collected by the latest Apollo 2 humanoid platform will help train and advance Gemini Robotics. 🤖\n\nFind out more → https://t.co/mo9QykKn4H https://t.co/5Ena9WLlJ9",
+        "link": "https://x.com/GoogleDeepMind/status/2074157282477154597",
+        "author": "GoogleDeepMind",
+        "published": "2026-07-06T15:43:26+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "Healthcare is the most important application of AI: making humans happier + healthier. Our recently published paper \"Pub",
+        "summary": "Healthcare is the most important application of AI: making humans happier + healthier. Our recently published paper \"Public use of a generalist LLM chatbot for health queries\" made the front cover of Nature Health. So proud of the team!\nhttps://t.co/Bqup7eavSE https://t.co/J6YmnPm1oR",
+        "link": "https://x.com/mustafasuleyman/status/2074152085793145161",
+        "author": "mustafasuleyman",
+        "published": "2026-07-06T15:22:47+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Gaming is such as tough space. \n\nThis paragraph jumped out for me:\n\n\"We will reduce management layers to no more than 5,",
+        "summary": "Gaming is such as tough space. \n\nThis paragraph jumped out for me:\n\n\"We will reduce management layers to no more than 5, and where possible, 3. We will deliver success through a flatter organization that is built around makers (individual contributors focused on building), player-coaches (leaders who remain deeply involved in the work while developing their teams), and directly responsible individuals (DRIs) who own key decisions and outcomes.\"",
+        "link": "https://x.com/petergyang/status/2074150826281672937",
+        "author": "petergyang",
+        "published": "2026-07-06T15:17:47+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Tired of winning",
+        "summary": "Tired of winning",
+        "link": "https://x.com/ylecun/status/2074143203591073926",
+        "author": "ylecun",
+        "published": "2026-07-06T14:47:30+00:00",
+        "source_name": "Yann LeCun",
+        "source_role": "Chief AI Scientist, Meta",
+        "source_handle": "ylecun"
+      },
+      {
+        "kind": "x",
+        "title": "\"People assume prototyping requires writing code, but Image Gen is simply much faster.\"\n\nRohan (Codex PM) showed me exac",
+        "summary": "\"People assume prototyping requires writing code, but Image Gen is simply much faster.\"\n\nRohan (Codex PM) showed me exactly how he does it:\n\n\"I took a screenshot of the Codex composer where you can type in a new message.\n\nThen I asked Codex to use Image Gen to prototype 4-5 ideas to improve project selection.\n\nI can then ask it to take the first image and make a prototype of it on a Codex site.\n\nWe usually think of Image Gen as useful for things like turning my hair blue. But it can create amazing digital mocks too.\"\n\n📌 Full episode: https://t.co/jPa0m1bmCE",
+        "link": "https://x.com/petergyang/status/2074135084324774312",
+        "author": "petergyang",
+        "published": "2026-07-06T14:15:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-G33X9n.jpg?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Fable writes a decent GPU kernel, hinting at broader AI R&#38;D automation:…The start of an RSI loop…Fable has written “the first genuine (and fastest) megakernel ever [&#8230;]",
+        "link": "https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-07-06T12:31:05+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Thomson Reuters CEO Steve Hasker swears by this AI Routine",
+        "summary": "The Monday morning AI routine that Thomson Reuters CEO Steve Hasker Steve Hasker swears by: \n\n🎙️ Listen to the Reuters News World pod\n💡 Prep for the day with your GPT \n📈 Roll up your sleeves & immerse yourself in the work",
+        "link": "https://www.youtube.com/watch?v=sha3EL1ngN8",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-06T14:39:55+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "The Greatest Minds Are Often Good Communicators Too – Grant Sanderson @3blue1brown",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=0yv7W6bVpVM",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-06T11:30:01+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-06T10:00:00+00:00",
+    "end": "2026-07-06T16:00:00+00:00"
+  }
+}
