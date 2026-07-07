@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-07T07:39:03.203824+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "AI+Optimus will enable universal excellent healthcare that is better than anyone receives today",
+        "summary": "AI+Optimus will enable universal excellent healthcare that is better than anyone receives today",
+        "link": "https://x.com/elonmusk/status/2074339319779569908",
+        "author": "elonmusk",
+        "published": "2026-07-07T03:46:47+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2074338887367786977",
+        "author": "elonmusk",
+        "published": "2026-07-07T03:45:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Update: 🇪🇸 ESP - 🇦🇷 ARG final.\n\nThe legendary Spanish team will avenge team USA with a decisive defeat of 🇧🇪.",
+        "summary": "Update: 🇪🇸 ESP - 🇦🇷 ARG final.\n\nThe legendary Spanish team will avenge team USA with a decisive defeat of 🇧🇪.",
+        "link": "https://x.com/rauchg/status/2074313180554412076",
+        "author": "rauchg",
+        "published": "2026-07-07T02:02:55+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/szhJMG4dlr",
+        "summary": "https://t.co/szhJMG4dlr",
+        "link": "https://x.com/elonmusk/status/2074305337373462852",
+        "author": "elonmusk",
+        "published": "2026-07-07T01:31:45+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Go USA!!!",
+        "summary": "Go USA!!!",
+        "link": "https://x.com/petergyang/status/2074295408902479910",
+        "author": "petergyang",
+        "published": "2026-07-07T00:52:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "🆒 eve evals itself with 𝚎𝚟𝚎 𝚎𝚟𝚊𝚕.\n\nWeb frameworks made testing an ecosystem choice. e.g.: React didn’t ship with a built",
+        "summary": "🆒 eve evals itself with 𝚎𝚟𝚎 𝚎𝚟𝚊𝚕.\n\nWeb frameworks made testing an ecosystem choice. e.g.: React didn’t ship with a built-in testing solution.\n\nFor agents, evals are essential… thus we ship 𝚎𝚟𝚎 𝚎𝚟𝚊𝚕 out of the box. For your agents and eve’s own evolution.",
+        "link": "https://x.com/rauchg/status/2074287795028512773",
+        "author": "rauchg",
+        "published": "2026-07-07T00:22:03+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Atlanta-based real estate company saved $100k by replacing Salesforce with their Replit-built CRM. https://t.co/3l7t6Vlj",
+        "summary": "Atlanta-based real estate company saved $100k by replacing Salesforce with their Replit-built CRM. https://t.co/3l7t6VljVw",
+        "link": "https://x.com/amasad/status/2074274666709987663",
+        "author": "amasad",
+        "published": "2026-07-06T23:29:53+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "a retrospective on making claude code from our early team!",
+        "summary": "a retrospective on making claude code from our early team!",
+        "link": "https://x.com/_catwu/status/2074258446686536167",
+        "author": "_catwu",
+        "published": "2026-07-06T22:25:26+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "Many are asking how Replit is improving so rapidly—we closed the loop and the agent is self-improving. \n\nTechnical detai",
+        "summary": "Many are asking how Replit is improving so rapidly—we closed the loop and the agent is self-improving. \n\nTechnical details here:",
+        "link": "https://x.com/amasad/status/2074257906594177279",
+        "author": "amasad",
+        "published": "2026-07-06T22:23:17+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-07-07",
+        "summary": "AI 早报 2026 07 07 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 腾讯混元发布并开源 Hy3 模型 ↗ 1 模型发布 阿里升级语音模型Fun ASR Realtime ↗ 2 蚂蚁灵波科技发布LingBot Vision视觉基础模型及深度补全2.0 ↗ 3 OpenAI 发布 GPT Realtime 2.1 与 2.1 mini 语音模型 ↗ 4 产品应用 ChatGPT for PowerPoint 正式上线，面向全球所有用户 ↗ 5 技术与洞察 Anthropic 发现 Claude 内部存在全局工作空间 J space ↗ 6 行业动态 Cursor 推出 CFO Council 探讨 AI 经济学框架 ↗ 7 xAI正式更名为SpaceXAI，官方账号同步启用 ↗ 8 日本计划到…",
+        "link": "https://daily.juya.uk/issues/2026-07-07/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-07T03:14:39+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "tencent/Hy3",
+        "summary": "<p><strong><a href=\"https://huggingface.co/tencent/Hy3\">tencent/Hy3</a></strong></p>\nNew Apache 2.0 licensed model from Tencent in China:</p>\n<blockquote>\n<p>Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Following the Hy3 Preview launch in late April, we gathered feedback from 50+ products and scaled up post-training with higher quality data. Today, we introduce Hy3, which outperforms similar-size models and rivals flagship open-source models with 2-5x parameters. It also shows significant gains in utility across various products and productivity tasks.</p>\n</blockquote>\n<p>The full-sized model is 598GB on Hugging Face, and the FP8 quantized one <a href=\"https://huggingface.co/tencent/Hy3-FP8/tree/main\">is 300GB</a>. The context length is 256K.</p>\n<p>It's available for free <a href=\"https://openrouter.ai/tencent/hy3:free\">on OpenRouter until July 21st</a>. I had it \"Generate an SVG of a pelican riding a bicycle\" there and got this:</p>\n<p><img alt=\"Flat-style cartoon illustration  of a white pelican with a large orange beak riding a red bicycle across a pale blue background, its long orange legs stretched down to the pedals, with gray horizontal motion lines behind it suggesting speed.\" src=\"https://static.simonwillison.net/static/2026/hy3-pelican.png\" />\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/6/hy3/",
+        "author": "",
+        "keywords": "ai generative-ai llms pelican-riding-a-bicycle llm-release ai-in-china",
+        "published": "2026-07-06T23:57:35+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  },
+  "window": {
+    "start": "2026-07-06T22:00:00+00:00",
+    "end": "2026-07-07T04:00:00+00:00"
+  }
+}
