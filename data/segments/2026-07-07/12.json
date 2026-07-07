@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-07T12:27:18.164886+00:00",
+  "counts": {
+    "x": 6,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "You don't wanna miss this. Signup closes this week.\n\nWill be there and share some claws and tokens 🦞",
+        "summary": "You don't wanna miss this. Signup closes this week.\n\nWill be there and share some claws and tokens 🦞",
+        "link": "https://x.com/steipete/status/2074389082017550720",
+        "author": "steipete",
+        "published": "2026-07-07T07:04:32+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "How do folks run AI-assisted engineering interviews these days?",
+        "summary": "How do folks run AI-assisted engineering interviews these days?",
+        "link": "https://x.com/steipete/status/2074380549318443311",
+        "author": "steipete",
+        "published": "2026-07-07T06:30:37+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine update",
+        "summary": "Grok Imagine update",
+        "link": "https://x.com/elonmusk/status/2074378653501128833",
+        "author": "elonmusk",
+        "published": "2026-07-07T06:23:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/7BfdeIH3rU",
+        "summary": "https://t.co/7BfdeIH3rU",
+        "link": "https://x.com/elonmusk/status/2074355329517629776",
+        "author": "elonmusk",
+        "published": "2026-07-07T04:50:24+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Major inflection point around the time of the brief bear market fall of last year.",
+        "summary": "Major inflection point around the time of the brief bear market fall of last year.",
+        "link": "https://x.com/amasad/status/2074353874996211831",
+        "author": "amasad",
+        "published": "2026-07-07T04:44:38+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "imo this is the most impt part of anthropic's J-space paper today. it's a two-parter:\n\n1) ant proved that they can do \"b",
+        "summary": "imo this is the most impt part of anthropic's J-space paper today. it's a two-parter:\n\n1) ant proved that they can do \"brain surgery\" interventions into reasoning to change topics midstream*\n2) THE MODEL IS ABLE TO DETECT WHAT INTERVENTION WAS DONE - close cousin to eval awareness**\n\n*control > correlation - this convincingly demonstrates understanding\n\n**this was prompted awareness... surely @mlpowered's team also tried to eval unprompted awareness but i didn't see evidence of that",
+        "link": "https://x.com/swyx/status/2074344727202463832",
+        "author": "swyx",
+        "published": "2026-07-07T04:08:17+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Réinventer l'expérience beauté grâce à l'IA",
+        "summary": "Découvrez comment Sephora réinvente l'expérience beauté grâce à l'intelligence artificielle. Lors de cette session enregistrée à l'occasion de l'événement OpenAI France en juin 2026, Géraldine Servouze, Global VP Data, AI & Insights chez Sephora, présente la stratégie IA de l'entreprise et la manière dont elle s'appuie sur les modèles d'OpenAI pour proposer des expériences toujours plus personnalisées à ses clients, tout en accompagnant ses équipes et ses partenaires.\n\nGéraldine revient notamment sur le développement du Shopping Assistant de Sephora et sur l'intégration de l'application dans ChatGPT. Elle partage les enseignements tirés de ces projets, de l'importance d'une expérience utilisateur guidée, à la transparence des recommandations et à une approche continue de test and learn pour améliorer l'expérience client à grande échelle.",
+        "link": "https://www.youtube.com/watch?v=sLYXRA5Ay9g",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-07T09:01:40+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "What does an AI-native future look like for one of the world's largest automotive marketplaces?",
+        "summary": "In this customer story, Justin Re, Global Chief Product Officer at AutoScout24 Group, shares how the company is using Codex across the organization to accelerate software development, automate workflows, and explore new ways of working.\n\nHear how AutoScout24 is working toward a future of \"hands off coding,\" built an AI-powered agent in just 48 hours, and is already saving approximately one million working hours annually through a single workflow.\n\nRead the full AutoScout24 story: https://openai.com/index/autoscout24/",
+        "link": "https://www.youtube.com/watch?v=0x4KRxmRGz4",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-07T08:23:39+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-07T04:00:00+00:00",
+    "end": "2026-07-07T10:00:00+00:00"
+  }
+}
