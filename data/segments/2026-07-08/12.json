@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-08T11:46:42.734706+00:00",
+  "counts": {
+    "x": 11,
+    "blogs": 0,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "defaults write -g ComputerUseAllowForbiddenTargets -bool YES 🤫",
+        "summary": "defaults write -g ComputerUseAllowForbiddenTargets -bool YES 🤫",
+        "link": "https://x.com/steipete/status/2074795172295291224",
+        "author": "steipete",
+        "published": "2026-07-08T09:58:11+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the",
+        "summary": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the public tomorrow.\n\nIt is an Opus-class model, but faster, more token-efficient and lower cost.",
+        "link": "https://x.com/elonmusk/status/2074740539874775163",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:21:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from ",
+        "summary": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \" https://t.co/O9swsh4U6v",
+        "link": "https://x.com/steipete/status/2074739318103629979",
+        "author": "steipete",
+        "published": "2026-07-08T06:16:14+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "America, the Beautiful",
+        "summary": "America, the Beautiful",
+        "link": "https://x.com/elonmusk/status/2074739056697610504",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:15:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/N4P0qXtDM6",
+        "summary": "https://t.co/N4P0qXtDM6",
+        "link": "https://x.com/elonmusk/status/2074738585727590547",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:13:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "So what is the qualification criteria for folks to get early access to this model?",
+        "summary": "So what is the qualification criteria for folks to get early access to this model?",
+        "link": "https://x.com/petergyang/status/2074733842230108672",
+        "author": "petergyang",
+        "published": "2026-07-08T05:54:29+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common",
+        "summary": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out:\n\n* Lots of conversation that you have to solve an operating model challenge to get the full benefits of AI. Most companies have orgs that have always operated in siloes; but agents are most effectively when they are tied to a process, which often cuts across these siloes. So the big question is how do you start to deploy centrally managed agents that can work across organizational boundaries. Who manages these agents? How do they get deployed and adopted? \n\n* Data fragmentation remains a major issue for most organizations. As long as data remains highly fragmented and not in standard formats, or data is not available to the right people and agents, enterprises are dealing with issues around being able to get answers from agents that are accurate or that conform to their business practices. This cuts across both systems with structured data (product metrics or revenue figures) and unstructured data (product roadmap or customer contracts).\n\n* Clear sense that companies need to figure out what their core data moats are going to be in the future. If everyone has access to roughly the same superintelligence from the various models, then the context that you feed the models becomes proprietary value in the future. Capturing this data and getting it into a format that agents can use becomes very important.\n\n* Everyone is trying to figure out the right metrics to manage to for AI adoption. General consensus that tokens are not the right metric per se, and people leaning more toward business outcomes (in an ideal world). For business outcomes (like more revenue or more shipped product), though, you have to get close to each individual workflow to figure out if it was successfully transformed with AI so it’s harder to manage top down.\n\n* Growing view that enterprises are going to live in a multi-model world. Lots of interest (though early in actual adoption) in layers that can route workloads to different models (frontside or open weights) for cost or performance reasons. Also enterprises are trying to figure out what things do you give to the models directly vs. what do you separate as horizontal systems and context so you can swap any system in and out. \n\n* Talent for driving AI adoption and implementation still remains a major issue and topic. Many view it as something you necessarily have to train for internally due to a shortage of talent being trained on this in the outside. As an aside, this feels like it remains a huge opportunity for those that get very good at deploying and management agents in an enterprise since most companies are looking for these skills.\n\n* The best use-cases for AI tend to be those that fundamentally change the work being done instead of just replacing an existing process and doing it more efficiently. Companies are working through their versions of this individually because it’s different per industry, but this often remains both the most exciting and higher upside uses of AI.\n\nMany more topics discussed recently, but overall it’s clear that there’s a ton of change going on with much more to come.",
+        "link": "https://x.com/levie/status/2074719479377109312",
+        "author": "levie",
+        "published": "2026-07-08T04:57:24+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 sol launches thursday!\n\nhappy building",
+        "summary": "GPT-5.6 sol launches thursday!\n\nhappy building",
+        "link": "https://x.com/sama/status/2074709023807664454",
+        "author": "sama",
+        "published": "2026-07-08T04:15:52+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Sol is rising. It’s a good model.",
+        "summary": "Sol is rising. It’s a good model.",
+        "link": "https://x.com/gdb/status/2074707927844446527",
+        "author": "gdb",
+        "published": "2026-07-08T04:11:30+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typ",
+        "summary": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process.\n\nWho's the best person to talk to?",
+        "link": "https://x.com/petergyang/status/2074705840284815678",
+        "author": "petergyang",
+        "published": "2026-07-08T04:03:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Prepare your sunglasses. Sol is coming. 😎",
+        "summary": "Prepare your sunglasses. Sol is coming. 😎",
+        "link": "https://x.com/thsottiaux/status/2074705681920520526",
+        "author": "thsottiaux",
+        "published": "2026-07-08T04:02:35+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      }
+    ],
+    "blogs": [],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Training Agents 2: Live tutorial on model distillation for training custom agents.",
+        "summary": "In this live session, we'll cover how to transfer capability from a teacher model to a smaller student through distillation. We'll work through supervised fine-tuning on teacher-generated data, then on-policy and online methods where the teacher scores the student live, then self-distillation where the model teaches itself. Each one runs in TRL.\nWhat we'll cover:\n\n- What distillation is, and the four axes that organize it: signal, data source, timing, and teacher identity\n- White-box vs black-box: distilling from open weights vs strings\n- Off-policy distillation: generate from the teacher, then SFT on the outputs\n- On-policy distillation: sample from the student, score with the teacher in the loop\n- Distillation as reinforcement learning: the KD distance as a dense, token-level reward\n- Self-distillation: the model as its own teacher, and when that beats a stronger one\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.\n\n#TRL #HuggingFace #PostTraining #AIAgents #Distillation",
+        "link": "https://www.youtube.com/watch?v=GZT_oNQnLV4",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-08T04:46:10+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-08T04:00:00+00:00",
+    "end": "2026-07-08T10:00:00+00:00"
+  }
+}
