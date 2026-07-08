@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T17:36:51.049794+00:00",
+  "source_segments": [
+    "segments/2026-07-08/00.json",
+    "segments/2026-07-08/06.json",
+    "segments/2026-07-08/12.json",
+    "segments/2026-07-08/18.json"
+  ],
+  "counts": {
+    "x": 42,
+    "blogs": 4,
+    "podcasts": 1,
+    "videos": 6
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+        "summary": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+        "link": "https://x.com/thsottiaux/status/2074885402918601082",
+        "author": "thsottiaux",
+        "published": "2026-07-08T15:56:44+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is the first model I’ve used that can reliably run whole loops of knowledge work, not just help with individual ",
+        "summary": "GPT-5.6 is the first model I’ve used that can reliably run whole loops of knowledge work, not just help with individual tasks. \n\nYour job shifts from doing the work to tending the system that does it.\n\nI use it to run loops that autonomously 1) do my email 2) help me find new hires for @every 3) keep me up to date on key decisions in all internal meetings / slacks @every 4) scan facebook marketplace to help me find furniture for my apartment",
+        "link": "https://x.com/danshipper/status/2074881529675669993",
+        "author": "danshipper",
+        "published": "2026-07-08T15:41:20+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "The blissful sound of all the pieces of the agent stack clicking together. ht @nishimiya. This will power my personal pr",
+        "summary": "The blissful sound of all the pieces of the agent stack clicking together. ht @nishimiya. This will power my personal productivity agents!",
+        "link": "https://x.com/rauchg/status/2074874713143460150",
+        "author": "rauchg",
+        "published": "2026-07-08T15:14:15+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "You don't know what you have until you lose it.\n\nWe've been testing GPT-5.6-Sol for about a month @every. We briefly los",
+        "summary": "You don't know what you have until you lose it.\n\nWe've been testing GPT-5.6-Sol for about a month @every. We briefly lost access for about a week, and I felt like I was back in the stone age. Even with Fable access.\n\nIt's just such a good daily driver. Allows me to delegate so many knowledge work tasks (like email) in a way that no other model can.",
+        "link": "https://x.com/danshipper/status/2074872845104980214",
+        "author": "danshipper",
+        "published": "2026-07-08T15:06:50+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "How do you create a life full of deep thinking and intentional work…and use AI to vibe code all of the things?\n\n@craigmo",
+        "summary": "How do you create a life full of deep thinking and intentional work…and use AI to vibe code all of the things?\n\n@craigmod sat down to on @every’s AI & I to discuss:\n- Why SaaS incumbents are in trouble. Craig used to use Campaign Monitor to send his newsletters, which cost him $6,000-$7,000 a year. His self-built version costs him $150 a year. We’re entering an era where anyone can build the exact tool they need themselves for a fraction of the cost.\n- How Craig uses AI to support his writing, but does not let it touch the writing part. “Being in the mess of the writing,” he says, is the whole point. Tools Craig has built to support his work include an archiving system for his pop-up newsletters and a searchable Q&A library for his board meetings with members.\n- Why he’s strangely at peace with AI replacing us. Being adopted as a child gives you a hyper-awareness that your existence was a mistake, a “bonus game,” Craig says. He extends that logic to all of humanity: If our job was just to get consciousness over the line and create a training set for AI before we go extinct, he’s fine with that.\n\nIf you’ve ever wondered what it looks like to use AI seriously while staying a serious writer, this one’s a must-watch. Watch below!\n\nTimestamps\nIntroduction: 00:00:00\nRebuilding Quicken and Campaign Monitor with AI: 00:03:51\nBuilding The Good Place, a private Twitter alternative for Craig’s members: 00:06:24\nWhy we’re entering a “golden age of tool building”: 00:10:39\nWhy AI could help writers build audiences: 00:12:17\nUsing AI to build a newsletter archive and a searchable board-meeting Q&A library: 00:17:35\nCreating a technology-free buffer to protect deep thinking: 00:27:58\nWhy Craig is resisting the temptation to “mainline” AI for ten hours a day: 00:30:31\nWhy anthropomorphizing AI is “psychotic,” and why Apple got Siri right: 00:39:44\nBeing adopted, and making peace with humanity’s fragile place in an AI future: 00:47:42",
+        "link": "https://x.com/danshipper/status/2074871632988950850",
+        "author": "danshipper",
+        "published": "2026-07-08T15:02:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Listen up.\n\nLivestream at 10am. https://t.co/tfqMb74Ri6",
+        "summary": "Listen up.\n\nLivestream at 10am. https://t.co/tfqMb74Ri6",
+        "link": "https://x.com/OpenAI/status/2074871151302774869",
+        "author": "OpenAI",
+        "published": "2026-07-08T15:00:06+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is a much better writer than Fable. \n\nIt consistently one-shots marketing emails for @tedescau that every previo",
+        "summary": "GPT-5.6 is a much better writer than Fable. \n\nIt consistently one-shots marketing emails for @tedescau that every previous model would fail at. Fable is too verbose and liable to fall into using sentences in its own private language. \n\nIf you use AI for writing, 5.6 is a fantastic model for you.",
+        "link": "https://x.com/danshipper/status/2074870873958265335",
+        "author": "danshipper",
+        "published": "2026-07-08T14:59:00+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Super excited to be joining the @stoke_space board! 🚀\n\nI've known Andy since their seed round (thx @beller). Every month",
+        "summary": "Super excited to be joining the @stoke_space board! 🚀\n\nI've known Andy since their seed round (thx @beller). Every month, like clockwork, he'd send an investor update with an impressive-looking bullet list of what they were going to get done that month. At the end of the month, the next update would show each of those bullets crossed out done—rarely they might miss one, and it would come with an ETA—and a list of what they'd get done the next month. Like clockwork, month after month after month. Andy, Tom, and the team are machines and it's been so impressive to watch them execute.\n\nSpace is critical to the future of humanity. I loved my time at @planet, I've watched @SpaceX in awe, and we should all be excited by how vibrant today's space ecosystem is. \n\nWe need far more access to space than we have today. We need full reusability, which Stoke has been single-mindedly focused on since the start. And much more beyond this. Can't wait to help accelerate the @stoke_space mission any way I can!",
+        "link": "https://x.com/kevinweil/status/2074866941454639200",
+        "author": "kevinweil",
+        "published": "2026-07-08T14:43:22+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is like a Porsche, Fable is like a warp drive.\n\nWe've been testing internally @every for about a month. And GPT-",
+        "summary": "GPT-5.6 is like a Porsche, Fable is like a warp drive.\n\nWe've been testing internally @every for about a month. And GPT-5.6 is the best combination of power, speed, and performance for your day to day knowledge work and coding. \n\nFable is a different beast. If you need to get across the galaxy use Fable. If you need to get around town using the best available tool for the job, use 5.6\n\nFull vibe check dropping tomorrow!",
+        "link": "https://x.com/danshipper/status/2074859437374820691",
+        "author": "danshipper",
+        "published": "2026-07-08T14:13:33+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "defaults write -g ComputerUseAllowForbiddenTargets -bool YES 🤫",
+        "summary": "defaults write -g ComputerUseAllowForbiddenTargets -bool YES 🤫",
+        "link": "https://x.com/steipete/status/2074795172295291224",
+        "author": "steipete",
+        "published": "2026-07-08T09:58:11+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the",
+        "summary": "Based on strong positive feedback from customers in our beta test program, @SpaceXAI will make Grok 4.5 available to the public tomorrow.\n\nIt is an Opus-class model, but faster, more token-efficient and lower cost.",
+        "link": "https://x.com/elonmusk/status/2074740539874775163",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:21:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from ",
+        "summary": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \" https://t.co/O9swsh4U6v",
+        "link": "https://x.com/steipete/status/2074739318103629979",
+        "author": "steipete",
+        "published": "2026-07-08T06:16:14+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "America, the Beautiful",
+        "summary": "America, the Beautiful",
+        "link": "https://x.com/elonmusk/status/2074739056697610504",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:15:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/N4P0qXtDM6",
+        "summary": "https://t.co/N4P0qXtDM6",
+        "link": "https://x.com/elonmusk/status/2074738585727590547",
+        "author": "elonmusk",
+        "published": "2026-07-08T06:13:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "So what is the qualification criteria for folks to get early access to this model?",
+        "summary": "So what is the qualification criteria for folks to get early access to this model?",
+        "link": "https://x.com/petergyang/status/2074733842230108672",
+        "author": "petergyang",
+        "published": "2026-07-08T05:54:29+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common",
+        "summary": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out:\n\n* Lots of conversation that you have to solve an operating model challenge to get the full benefits of AI. Most companies have orgs that have always operated in siloes; but agents are most effectively when they are tied to a process, which often cuts across these siloes. So the big question is how do you start to deploy centrally managed agents that can work across organizational boundaries. Who manages these agents? How do they get deployed and adopted? \n\n* Data fragmentation remains a major issue for most organizations. As long as data remains highly fragmented and not in standard formats, or data is not available to the right people and agents, enterprises are dealing with issues around being able to get answers from agents that are accurate or that conform to their business practices. This cuts across both systems with structured data (product metrics or revenue figures) and unstructured data (product roadmap or customer contracts).\n\n* Clear sense that companies need to figure out what their core data moats are going to be in the future. If everyone has access to roughly the same superintelligence from the various models, then the context that you feed the models becomes proprietary value in the future. Capturing this data and getting it into a format that agents can use becomes very important.\n\n* Everyone is trying to figure out the right metrics to manage to for AI adoption. General consensus that tokens are not the right metric per se, and people leaning more toward business outcomes (in an ideal world). For business outcomes (like more revenue or more shipped product), though, you have to get close to each individual workflow to figure out if it was successfully transformed with AI so it’s harder to manage top down.\n\n* Growing view that enterprises are going to live in a multi-model world. Lots of interest (though early in actual adoption) in layers that can route workloads to different models (frontside or open weights) for cost or performance reasons. Also enterprises are trying to figure out what things do you give to the models directly vs. what do you separate as horizontal systems and context so you can swap any system in and out. \n\n* Talent for driving AI adoption and implementation still remains a major issue and topic. Many view it as something you necessarily have to train for internally due to a shortage of talent being trained on this in the outside. As an aside, this feels like it remains a huge opportunity for those that get very good at deploying and management agents in an enterprise since most companies are looking for these skills.\n\n* The best use-cases for AI tend to be those that fundamentally change the work being done instead of just replacing an existing process and doing it more efficiently. Companies are working through their versions of this individually because it’s different per industry, but this often remains both the most exciting and higher upside uses of AI.\n\nMany more topics discussed recently, but overall it’s clear that there’s a ton of change going on with much more to come.",
+        "link": "https://x.com/levie/status/2074719479377109312",
+        "author": "levie",
+        "published": "2026-07-08T04:57:24+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 sol launches thursday!\n\nhappy building",
+        "summary": "GPT-5.6 sol launches thursday!\n\nhappy building",
+        "link": "https://x.com/sama/status/2074709023807664454",
+        "author": "sama",
+        "published": "2026-07-08T04:15:52+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Sol is rising. It’s a good model.",
+        "summary": "Sol is rising. It’s a good model.",
+        "link": "https://x.com/gdb/status/2074707927844446527",
+        "author": "gdb",
+        "published": "2026-07-08T04:11:30+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typ",
+        "summary": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process.\n\nWho's the best person to talk to?",
+        "link": "https://x.com/petergyang/status/2074705840284815678",
+        "author": "petergyang",
+        "published": "2026-07-08T04:03:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Prepare your sunglasses. Sol is coming. 😎",
+        "summary": "Prepare your sunglasses. Sol is coming. 😎",
+        "link": "https://x.com/thsottiaux/status/2074705681920520526",
+        "author": "thsottiaux",
+        "published": "2026-07-08T04:02:35+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday.\n\nWe’re expanding preview access globally now",
+        "summary": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday.\n\nWe’re expanding preview access globally now. https://t.co/Uk5HcfSc2e",
+        "link": "https://x.com/OpenAI/status/2074704958419792299",
+        "author": "OpenAI",
+        "published": "2026-07-08T03:59:42+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "it_happening.gif https://t.co/XiwgDUvyWi",
+        "summary": "it_happening.gif https://t.co/XiwgDUvyWi",
+        "link": "https://x.com/swyx/status/2074683022503490012",
+        "author": "swyx",
+        "published": "2026-07-08T02:32:32+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Codex for creating the first video of a black hole:",
+        "summary": "Codex for creating the first video of a black hole:",
+        "link": "https://x.com/gdb/status/2074662918944366840",
+        "author": "gdb",
+        "published": "2026-07-08T01:12:39+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Very excited to help chart the future of Git (and SCM generally) for the agentic future with Taylor!",
+        "summary": "Very excited to help chart the future of Git (and SCM generally) for the agentic future with Taylor!",
+        "link": "https://x.com/gdb/status/2074652518135804321",
+        "author": "gdb",
+        "published": "2026-07-08T00:31:20+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "With just one year in orbit, the first FireSat satellite has already spotted wildfires invisible to existing satellites.",
+        "summary": "With just one year in orbit, the first FireSat satellite has already spotted wildfires invisible to existing satellites. After a successful launch early this morning, 3 more satellites joined the constellation, bringing us one step closer to our ultimate goal of near real-time wildfire updates every 20 minutes.\n\nThanks to @EarthFireAll @MuonSpace @MooreFound @BezosEarthFund for the partnership, & @SpaceX for the ride up!",
+        "link": "https://x.com/sundarpichai/status/2074649108414107727",
+        "author": "sundarpichai",
+        "published": "2026-07-08T00:17:47+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt",
+        "summary": "If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt",
+        "link": "https://x.com/steipete/status/2074638582418231495",
+        "author": "steipete",
+        "published": "2026-07-07T23:35:57+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers?\n\nDefine 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and ",
+        "summary": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers?\n\nDefine 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜().\n\nEve exists to shape an open ecosystem of pluggable models, skills, channels, and tools like this ↓",
+        "link": "https://x.com/rauchg/status/2074630835878453601",
+        "author": "rauchg",
+        "published": "2026-07-07T23:05:10+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I often work in multiple machines at the same time and started to mix up the screen shares, so built nameplate to make t",
+        "summary": "I often work in multiple machines at the same time and started to mix up the screen shares, so built nameplate to make things very obvious. https://t.co/ZJrim2Ld8H",
+        "link": "https://x.com/steipete/status/2074624148215939151",
+        "author": "steipete",
+        "published": "2026-07-07T22:38:36+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Vera CPUs are custom-built for agentic runtime. \nWe've been working together with NVIDIA on running our sandbox infrastr",
+        "summary": "Vera CPUs are custom-built for agentic runtime. \nWe've been working together with NVIDIA on running our sandbox infrastructure that powers Perplexity Computer on Vera CPUs, with significant improvements. We will be sharing more on this soon!",
+        "link": "https://x.com/AravSrinivas/status/2074619120847589444",
+        "author": "AravSrinivas",
+        "published": "2026-07-07T22:18:37+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Dumb question:\n\nI’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Go",
+        "summary": "Dumb question:\n\nI’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use.\n\nBut should I run these jobs in the cloud instead with these apps OAuth’d to my Claude or ChatGPT account?\n\nHow should I think about what jobs should stay local vs. move to the cloud?",
+        "link": "https://x.com/petergyang/status/2074616982197174515",
+        "author": "petergyang",
+        "published": "2026-07-07T22:10:07+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Me if Anthropic extends Fable rate limits (sound on) 😅 https://t.co/m6Nl6W7ZCa",
+        "summary": "Me if Anthropic extends Fable rate limits (sound on) 😅 https://t.co/m6Nl6W7ZCa",
+        "link": "https://x.com/petergyang/status/2074579727365591297",
+        "author": "petergyang",
+        "published": "2026-07-07T19:42:05+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "\"When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones wh",
+        "summary": "\"When intelligence is plentiful, volition is valuable. The people who are going to make a difference are not the ones who seek relaxation and passively use AI to work less. They are the ones who will seek improvement and actively wrestle with AI to develop their own mental capabilities and accomplish more.\" https://t.co/gDEy4aABwo",
+        "link": "https://x.com/steipete/status/2074572085163381195",
+        "author": "steipete",
+        "published": "2026-07-07T19:11:43+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "This should ship EOD! We been cookin’",
+        "summary": "This should ship EOD! We been cookin’",
+        "link": "https://x.com/steipete/status/2074563725043150967",
+        "author": "steipete",
+        "published": "2026-07-07T18:38:30+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Every Argentina match is a banger",
+        "summary": "Every Argentina match is a banger",
+        "link": "https://x.com/petergyang/status/2074555759904579838",
+        "author": "petergyang",
+        "published": "2026-07-07T18:06:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Heavenly victory 🇦🇷",
+        "summary": "Heavenly victory 🇦🇷",
+        "link": "https://x.com/rauchg/status/2074555608578281920",
+        "author": "rauchg",
+        "published": "2026-07-07T18:06:15+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "LOLLLL best match ever",
+        "summary": "LOLLLL best match ever",
+        "link": "https://x.com/petergyang/status/2074553363035996239",
+        "author": "petergyang",
+        "published": "2026-07-07T17:57:19+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "YES!!!!! Vamos Messi!",
+        "summary": "YES!!!!! Vamos Messi!",
+        "link": "https://x.com/petergyang/status/2074551032240312778",
+        "author": "petergyang",
+        "published": "2026-07-07T17:48:04+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+        "summary": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+        "link": "https://x.com/claudeai/status/2074548242386178258",
+        "author": "claudeai",
+        "published": "2026-07-07T17:36:58+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "I cannot watch anymore this is terrible",
+        "summary": "I cannot watch anymore this is terrible",
+        "link": "https://x.com/petergyang/status/2074544797814321410",
+        "author": "petergyang",
+        "published": "2026-07-07T17:23:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with.",
+        "summary": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with. Most of it lives inside of organizations and often is in legacy systems, in people’s heads, or is fragmented across the enterprise. \n\nIt’s the marketing plans, product roadmaps, development practices, contracts, financial data, strategies, and general corporate knowledge that every company operates off of. \n\nWhether it’s for training a model or used as context for agents, this data will increasingly be more valuable over time. The ability to get the right data to agents to operate on, securely, will be a defining characteristic of how companies operate and compete in the future. \n\nEffective use of AI will in the economy will largely come down to the companies that are able to have agents best understand their business and make the right decisions on their behalf. Data actually is the new oil.",
+        "link": "https://x.com/levie/status/2074528241990394178",
+        "author": "levie",
+        "published": "2026-07-07T16:17:30+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Cowork is coming to mobile and web.\n\nHand Claude a task at your desk and pick up the finished work from your phon",
+        "summary": "Claude Cowork is coming to mobile and web.\n\nHand Claude a task at your desk and pick up the finished work from your phone. Close the laptop and Claude keeps going.\n\nBeta is rolling out over the next several weeks starting with the Max plan, with more plans to follow. https://t.co/W4WrgN9TrG",
+        "link": "https://x.com/claudeai/status/2074525815820169320",
+        "author": "claudeai",
+        "published": "2026-07-07T16:07:51+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Great point",
+        "summary": "Great point",
+        "link": "https://x.com/elonmusk/status/2074523879075115285",
+        "author": "elonmusk",
+        "published": "2026-07-07T16:00:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Helping K–12 educators build practical AI skills",
+        "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+        "link": "https://openai.com/index/k-12-educators-practical-skills",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-07-08T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "sqlite-utils 4.0, now with database schema migrations",
+        "summary": "<p>This morning I released <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0\">sqlite-utils 4.0</a>, the 124th release of that project and the first major version bump since <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v3-0\">3.0</a> in November 2020. In addition to some small but significant breaking changes (described in <a href=\"https://sqlite-utils.datasette.io/en/stable/upgrading.html\">this upgrade guide</a>), this version introduces three major features: <strong>database migrations</strong>, <strong>nested transactions</strong> (via a new <code>db.atomic()</code> method), and support for <strong>compound foreign keys</strong>.</p>\n<h4 id=\"database-schema-migrations-using-sqlite-utils\">Database schema migrations using sqlite-utils</h4>\n<p>Schema migrations define a sequence of changes to be made to a SQLite database, plus a mechanism for tracking which migrations have been applied and applying any that are found to be pending.</p>\n<p>Migrations are defined in Python files using the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html\">sqlite-utils Python library</a>, which includes a powerful <code>table.transform()</code> method providing <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#transforming-a-table\">enhanced alter table capabilities</a> that are not supported by SQLite's <code>ALTER TABLE</code> statement.</p>\n<p>(<code>table.transform()</code> implements the pattern <a href=\"https://www.sqlite.org/lang_altertable.html#otheralter\">recommended by the SQLite documentation</a> - create a new temporary table with the new schema, copy across the data, then drop the old table and rename the temporary one in its place.)</p>\n<p>Here's an example migration file which creates a table called <code>creatures</code>, adds an additional column to it in a second step, then changes the types of two of the columns in a third:</p>\n<pre><span class=\"pl-k\">from</span> <span class=\"pl-s1\">sqlite_utils</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Migrations</span>\n\n<span class=\"pl-s1\">migrations</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">Migrations</span>(<span class=\"pl-s\">\"creatures\"</span>)\n\n<span class=\"pl-en\">@<span class=\"pl-en\">migrations</span>()</span>\n<span class=\"pl-k\">def</span> <span class=\"pl-en\">create_table</span>(<span class=\"pl-s1\">db</span>):\n    <span class=\"pl-s1\">db</span>[<span class=\"pl-s\">\"creatures\"</span>].<span class=\"pl-c1\">create</span>(\n        {<span class=\"pl-s\">\"id\"</span>: <span class=\"pl-s1\">int</span>, <span class=\"pl-s\">\"name\"</span>: <span class=\"pl-s1\">str</span>, <span class=\"pl-s\">\"species\"</span>: <span class=\"pl-s1\">str</span>},\n        <span class=\"pl-s1\">pk</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"id\"</span>,\n    )\n\n<span class=\"pl-en\">@<span class=\"pl-en\">migrations</span>()</span>\n<span class=\"pl-k\">def</span> <span class=\"pl-en\">add_weight</span>(<span class=\"pl-s1\">db</span>):\n    <span class=\"pl-s1\">db</span>[<span class=\"pl-s\">\"creatures\"</span>].<span class=\"pl-c1\">add_column</span>(<span class=\"pl-s\">\"weight\"</span>, <span class=\"pl-s1\">float</span>)\n\n<span class=\"pl-en\">@<span class=\"pl-en\">migrations</span>()</span>\n<span class=\"pl-k\">def</span> <span class=\"pl-en\">change_column_types</span>(<span class=\"pl-s1\">db</span>):\n    <span class=\"pl-s1\">db</span>[<span class=\"pl-s\">\"creatures\"</span>].<span class=\"pl-c1\">transform</span>(<span class=\"pl-s1\">types</span><span class=\"pl-c1\">=</span>{<span class=\"pl-s\">\"species\"</span>: <span class=\"pl-s1\">int</span>, <span class=\"pl-s\">\"weight\"</span>: <span class=\"pl-s1\">str</span>})</pre>\n<p>Save that as <code>migrations.py</code> and run it against a fresh database like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx sqlite-utils migrate data.db migrations.py</pre></div>\n<p>Then if you check the schema of that database:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx sqlite-utils schema data.db</pre></div>\n<p>You'll see this SQL:</p>\n<div class=\"highlight highlight-source-sql\"><pre><span class=\"pl-k\">CREATE</span> <span class=\"pl-k\">TABLE</span> \"<span class=\"pl-en\">_sqlite_migrations</span>\" (\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>id<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">INTEGER</span> <span class=\"pl-k\">PRIMARY KEY</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>migration_set<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">TEXT</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>name<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">TEXT</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>applied_at<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">TEXT</span>\n);\n<span class=\"pl-k\">CREATE</span> <span class=\"pl-k\">UNIQUE INDEX</span> \"<span class=\"pl-en\">idx__sqlite_migrations_migration_set_name</span>\"\n    <span class=\"pl-k\">ON</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>_sqlite_migrations<span class=\"pl-pds\">\"</span></span> (<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>migration_set<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>name<span class=\"pl-pds\">\"</span></span>);\n<span class=\"pl-k\">CREATE</span> <span class=\"pl-k\">TABLE</span> \"<span class=\"pl-en\">creatures</span>\" (\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>id<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">INTEGER</span> <span class=\"pl-k\">PRIMARY KEY</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>name<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">TEXT</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>species<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">INTEGER</span>,\n   <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>weight<span class=\"pl-pds\">\"</span></span> <span class=\"pl-k\">TEXT</span>\n);</pre></div>\n<p>The <code>_sqlite_migrations</code> table is used to keep track of which migration functions have been run. The <code>creatures</code> table above is the schema after all three migrations have been applied.</p>\n<p>To see a list of migrations, both pending and applied, run this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx sqlite-utils migrate data.db migrations.py --list</pre></div>\n<p>Output:</p>\n<pre><code>Migrations for: creatures\n\n  Applied:\n    create_table - 2026-07-07 17:58:41.360051+00:00\n    add_weight - 2026-07-07 17:58:41.360608+00:00\n    change_column_types - 2026-07-07 18:01:15.802000+00:00\n\n  Pending:\n    (none)\n</code></pre>\n<p>If you don't specify a migrations file, the <code>sqlite-utils migrate data.db</code> command will scan the current directory and its subdirectories for files called <code>migrations.py</code> and apply any <code>Migrations()</code> instances it finds in them.</p>\n<p>You can also execute migrations <a href=\"https://sqlite-utils.datasette.io/en/stable/migrations.html#applying-migrations-in-python\">from Python code</a> using the <code>migrations.apply(db)</code> method, which is useful for building tools that manage their own database schemas over multiple versions. My own <a href=\"https://llm.datasette.io/\">LLM tool</a> has been using a version of this pattern for several years now, as shown in <a href=\"https://github.com/simonw/llm/blob/0.31/llm/embeddings_migrations.py\">llm/embeddings_migrations.py</a>.</p>\n<h4 id=\"prior-art\">Prior art</h4>\n<p>My favorite implementation of this pattern remains <a href=\"https://docs.djangoproject.com/en/6.0/topics/migrations/\">Django's Migrations</a>, developed by Andrew Godwin based on his earlier project <a href=\"https://github.com/andrewgodwin/south\">South</a>. Fun fact: Andrew, Russ Keith-Magee, and I presented our competing approaches to schema migrations for Django on the <a href=\"https://www.youtube.com/watch?v=VSq8m00p1FM\">Schema Evolution panel</a> at the very first DjangoCon back in 2008! My attempt was called <a href=\"https://simonwillison.net/2008/Sep/3/dmigrations/\">dmigrations</a>, developed with a team at Global Radio in London.</p>\n<p>Django's migrations can be automatically generated from model definitions and include the ability to roll back to a previous version. The <code>sqlite-utils</code> approach is deliberately simpler: unlike Django, <code>sqlite-utils</code> encourages programmatic table creation rather than a model definition ORM, so there isn't anything we can use to automatically generate migrations.</p>\n<p>I decided to skip rollback, since in my experience it's a feature that is rarely used. With a SQLite project, an easy way to achieve rollback is to create a copy of your database file before you apply the migrations!</p>\n<h4 id=\"migrating-from-sqlite-migrate\">Migrating from sqlite-migrate</h4>\n<p>The design of <code>sqlite-utils</code> migrations is three years old now - I had originally released it as a separate package called <a href=\"https://github.com/simonw/sqlite-migrate\">sqlite-migrate</a>, which never quite graduated beyond a beta release.</p>\n<p>I've used that package in enough places now that I'm confident in the design, so I've decided to promote it to a feature of <code>sqlite-utils</code> to make it available by default to all of the other tools in the growing sqlite-utils/Datasette/LLM ecosystem.</p>\n<p>I made <a href=\"https://github.com/simonw/sqlite-migrate/releases/tag/0.2\">one last release</a> of <code>sqlite-migrate</code>, which switches it to depend on <code>sqlite-utils&gt;=4</code> and replaces the <code>__init__.py</code> file with the following:</p>\n<pre><span class=\"pl-k\">from</span> <span class=\"pl-s1\">sqlite_utils</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Migrations</span>\n\n<span class=\"pl-s1\">__all__</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-s\">\"Migrations\"</span>]</pre>\n<p>Any existing project that depends on <code>sqlite-migrate</code> should continue to work without alterations.</p>\n<h4 id=\"everything-else-in-sqlite-utils-4-0\">Everything else in sqlite-utils 4.0</h4>\n<p>Here are the release notes for this version, with some inline annotations:</p>\n<blockquote>\n<p>The 4.0 release includes some minor backwards-incompatible fixes (hence the major version number bump) and introduces three major new features:</p>\n<ul>\n<li>\n<a href=\"https://sqlite-utils.datasette.io/en/stable/migrations.html#migrations\">Database migrations</a>, providing a structured mechanism for evolving a project’s schema over time. (<a href=\"https://github.com/simonw/sqlite-utils/issues/752\">#752</a>)</li>\n</ul>\n</blockquote>\n<p>I think of migrations as the signature new feature, hence this blog post.</p>\n<blockquote>\n<ul>\n<li>\n<a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#python-api-atomic\">Nested transaction support</a> via <code>db.atomic()</code>, plus numerous improvements to how transactions work across the library. (<a href=\"https://github.com/simonw/sqlite-utils/issues/755\">#755</a>)</li>\n</ul>\n</blockquote>\n<p><code>sqlite-utils</code> has long had a confused relationship with database transactions, partly because when I started designing the library back in 2018 I didn't yet have a great feel for how those worked in SQLite itself.</p>\n<p>Adding migrations to the core library made me determined to finally crack this nut, since transactions make migration systems a whole lot safer and easier to reason about.</p>\n<p>I ended up building this around a <code>db.atomic()</code> context manager which looks like this:</p>\n<pre><span class=\"pl-k\">with</span> <span class=\"pl-s1\">db</span>.<span class=\"pl-c1\">atomic</span>():\n    <span class=\"pl-s1\">db</span>.<span class=\"pl-c1\">table</span>(<span class=\"pl-s\">\"dogs\"</span>).<span class=\"pl-c1\">insert</span>({<span class=\"pl-s\">\"id\"</span>: <span class=\"pl-c1\">1</span>, <span class=\"pl-s\">\"name\"</span>: <span class=\"pl-s\">\"Cleo\"</span>}, <span class=\"pl-s1\">pk</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"id\"</span>)\n    <span class=\"pl-s1\">db</span>.<span class=\"pl-c1\">table</span>(<span class=\"pl-s\">\"dogs\"</span>).<span class=\"pl-c1\">insert</span>({<span class=\"pl-s\">\"id\"</span>: <span class=\"pl-c1\">2</span>, <span class=\"pl-s\">\"name\"</span>: <span class=\"pl-s\">\"Pancakes\"</span>})</pre>\n<p>SQLite supports <a href=\"https://sqlite.org/lang_savepoint.html\">Savepoints</a>, and as a result <code>db.atomic()</code> can be nested to carry out transactions inside of transactions. It's pretty neat!</p>\n<blockquote>\n<ul>\n<li>Support for <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#python-api-compound-foreign-keys\">compound foreign keys</a>, including creation, transformation and introspection through <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#python-api-introspection-foreign-keys\">table.foreign_keys</a>. (<a href=\"https://github.com/simonw/sqlite-utils/issues/594\">#594</a>)</li>\n</ul>\n</blockquote>\n<p>This came about when I asked a coding agent to review all open issues and PRs for things that should be included in a 4.0 release since they would represent breaking changes if I added them later, and it correctly identified that compound foreign keys were exactly that kind of feature.</p>\n<p>I started with a breaking change to the <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#python-api-introspection-foreign-keys\">table.foreign_keys</a> introspection method, and then decided to see if Claude Fable 5 could handle the more fiddly job of integrating compound foreign key <em>creation</em> into the library. The API design it helped create felt <a href=\"https://sqlite-utils.datasette.io/en/stable/python-api.html#compound-foreign-keys\">exactly right to me</a> - consistent with how the rest of the library worked already.</p>\n<blockquote>\n<p>Other notable changes include:</p>\n<ul>\n<li>Upserts now use SQLite’s <code>INSERT ... ON CONFLICT ... DO UPDATE SET</code> syntax, detect existing table primary keys automatically and reject records that are missing required primary key values. (<a href=\"https://github.com/simonw/sqlite-utils/issues/652\">#652</a>)</li>\n</ul>\n</blockquote>\n<p>This was the change that first pushed me to consider a breaking-change 4.0 version bump. I built this to help support <a href=\"https://github.com/simonw/sqlite-chronicle\">sqlite-chronicle</a>, which uses triggers to keep track of rows in a table that have been inserted, updated or deleted.</p>\n<blockquote>\n<ul>\n<li>\n<code>db.query()</code> now executes immediately and rejects statements that do not return rows; use <code>db.execute()</code> for writes and DDL.</li>\n</ul>\n</blockquote>\n<p>Probably the <a href=\"https://sqlite-utils.datasette.io/en/stable/upgrading.html#python-api-changes\">most disruptive breaking change</a> - I've had to update a few places in my own code to switch from <code>db.query()</code> to <code>db.execute()</code> as a result.</p>\n<blockquote>\n<ul>\n<li>CSV and TSV imports now detect column types by default, while inserts into existing tables preserve those tables’ column types. (<a href=\"https://github.com/simonw/sqlite-utils/issues/679\">#679</a>)</li>\n</ul>\n</blockquote>\n<p>The <code>sqlite-utils insert data.db creatures creatures.csv --detect-types</code> flag was a later addition to allow column types (text, integer, real) to be automatically detected based on the data in a CSV. It should be the default, and releasing a 4.0 means I can make it so.</p>\n<blockquote>\n<ul>\n<li>\n<code>table.extract()</code> and <code>extracts=</code> no longer create lookup table records for all-<code>null</code> values. (<a href=\"https://github.com/simonw/sqlite-utils/issues/186\">#186</a>)</li>\n</ul>\n</blockquote>\n<p>The oldest issue addressed by this release - the underlying bug was opened (by me) in October 2020.</p>\n<blockquote>\n<p>See <a href=\"https://sqlite-utils.datasette.io/en/stable/upgrading.html#upgrading-3-to-4\">Upgrading from 3.x to 4.0</a> for details on backwards-incompatible changes.</p>\n<p>The detailed release notes for the features and fixes shipped during the 4.0 pre-release cycle are available in <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0a0\">4.0a0</a>, <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0a1\">4.0a1</a>, <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0rc1\">4.0rc1</a>, <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0rc2\">4.0rc2</a>, <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0rc3\">4.0rc3</a> and <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#v4-0rc4\">4.0rc4</a>.</p>\n</blockquote>\n<p>The upgrade guide was entirely written by Claude Fable 5, Claude Opus 4.8 and GPT-5.5. The same is true of the release notes.</p>\n<p>This is the kind of documentation I've slowly become comfortable outsourcing to the robots. It doesn't need to convince people of anything, or express any opinions - its job is to be as accurate and detailed as possible. I've reviewed the release notes closely and can confirm they are accurate and comprehensive.</p>\n<h4 id=\"claude-fable-5-helped-a-lot\">Claude Fable 5 helped a lot</h4>\n<p>I released the first alpha of sqlite-utils 4.0 <a href=\"https://sqlite-utils.datasette.io/en/stable/changelog.html#a0-2025-05-08\">over a year ago</a>. I've been dragging my heels on the stable release because of the amount of work it would take to track down and clean up the many other minor design flaws that a major version number allowed me to take on.</p>\n<p>Assistance from Claude Fable 5 (and to a lesser extent Opus 4.8 and GPT-5.5) gave me just the boost I needed to overcome inertia and make the most of the time I could afford to spend on this library.</p>\n<p>Fable has <em>really good taste</em> in API design, and is <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">relentlessly proactive</a> if you give it a more open goal. My most successful prompt was a review task that I issued against what I thought was the last release candidate:</p>\n<blockquote>\n<p><code>review the changes on main since the last tagged 3.x release - I am about to ship them as sqlite-utils 4.0, a stable version that promises no backwards-incompatible fixes for a very long time.</code></p>\n<p><code>review the changelog and upgrade guide, and write yourself scratch scripts to try out all of the new features in v4 - save those scripts but don't commit them</code></p>\n</blockquote>\n<p>I tried this with GPT-5.5 xhigh in Codex Desktop and Fable 5 in Claude Code.</p>\n<p>GPT-5.5 <a href=\"https://gist.github.com/simonw/823fdecc031371d56dce39537adc0096\">wrote 5 Python scripts</a> and didn't turn up anything particularly interesting - its <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4899982463\">final report is here</a>.</p>\n<p>Fable 5 <a href=\"https://gist.github.com/simonw/95800bf584f8e437f1cf0d48d9ef81e6\">wrote 12 scripts</a>, identified 4 release blockers and 10 additional issues <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">in its report</a>, and built a neat <a href=\"https://gist.githubusercontent.com/simonw/95800bf584f8e437f1cf0d48d9ef81e6/raw/c43918b36a129bba1d2f2a129117aa11c85146c0/12_bug_repros.py\">combined repro script</a>, which, when run, output the following:</p>\n<pre><code>=== 1. Failed db.execute() write leaves an implicit transaction open ===\n  in_transaction after failed write: True\n  BUG: table 'other' silently lost when connection closed\n\n=== 2. Leading ';' bypasses the query() first-token scanner ===\n  BUG: raised OperationalError: no such savepoint: sqlite_utils_query\n  BUG: row persisted despite rollback (count=1)\n\n=== 3. Rejected write PRAGMA via query() still takes effect ===\n  BUG: user_version=5 after 'rejected' statement (docs say no effect)\n\n=== 4. Implicit compound FK resolves pk columns in table order, not PK order ===\n  BUG: other_columns reported as ('b', 'a'), should be ('a', 'b')\n  BUG: transform of valid data raised IntegrityError: FOREIGN KEY constraint failed\n\n=== 5. ForeignKey (now a dataclass) is no longer hashable ===\n  BUG: cannot use 'sqlite_utils.db.ForeignKey' as a set element (unhashable type: 'ForeignKey')\n\n=== 6. Mixed ForeignKey objects and tuples in foreign_keys= rejected ===\n  BUG: foreign_keys= should be a list of tuples\n\n=== 7. insert --csv into an EXISTING table transforms its column types ===\n  BUG: existing zip '01234' is now 1234 (column type: int)\n\n=== 8. insert(pk=, alter=True) regression: InvalidColumns before alter runs ===\n  BUG: InvalidColumns: Invalid primary key column ['id'] for table t with columns ['a']\n\n=== 9. migrate --stop-before an already-applied migration applies everything ===\n  BUG: m2 was applied despite --stop-before m1 (m1 already applied)\n\n=== 10. ensure_autocommit_on() silently commits an open transaction ===\n  BUG: row survived rollback (count=1) - transaction was committed\n</code></pre>\n<p>I found myself agreeing with almost all of them. Here's <a href=\"https://github.com/simonw/sqlite-utils/pull/779\">the PR with 16 commits</a> where we worked through them in turn.</p>\n<p>There's no doubt in my mind that sqlite-utils 4.0 is a significantly higher-quality release than if I had built it without the assistance of the latest frontier models.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/schema-migrations\">schema-migrations</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/annotated-release-notes\">annotated-release-notes</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/",
+        "author": "",
+        "keywords": "schema-migrations projects sqlite ai sqlite-utils annotated-release-notes generative-ai llms ai-assisted-programming anthropic claude agentic-engineering claude-mythos-fable",
+        "published": "2026-07-07T19:32:57+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "sqlite-migrate 0.2",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-migrate/releases/tag/0.2\">sqlite-migrate 0.2</a></p>\n        <p>The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/",
+        "author": "",
+        "keywords": "sqlite-utils",
+        "published": "2026-07-07T16:33:55+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "github-code Web Component",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/github-code-component\">github-code Web Component</a></p>\n        <p>An experimental Web Component built using GPT-5.5 and <a href=\"https://gist.github.com/simonw/0e3db21947b5ae7e29e8a4f69a0b0617\">the following prompt</a>:</p>\n<blockquote>\n<p><code>let's build a Web Component for embedding code from GitHub</code></p>\n<p><code>&lt;github-code href=\"https://github.com/simonw/sqlite-ast/blob/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py#L9-L18\"&gt;&lt;/github-code&gt;</code></p>\n<p><code>It takes URLs like that, converts them to https://raw.githubusercontent.com/simonw/sqlite-ast/437c759129154f05296324a7f82aa1246340dd14/sqlite_ast/parser.py, then uses fetch() to fetch them and displays the specified range of lines - with line numbers, no syntax highlighting though</code></p>\n<p><code>Show me a preview web browser so I can see your work</code></p>\n</blockquote>\n<p>Here's what it looks like embedded on this page:</p>\n<p></p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/github\">github</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a>, <a href=\"https://simonwillison.net/tags/gpt\">gpt</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/7/github-code-component/",
+        "author": "",
+        "keywords": "github web-components gpt",
+        "published": "2026-07-07T16:18:16+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "How a Writer Uses AI Without Losing His Voice",
+        "summary": "<p>Craig Mod used to pay Campaign Monitor roughly $7,000 a year to send his newsletters. After rebuilding the tool himself with AI, his bill is closer to $150. It’s the kind of thing that convinces him we’re about to enter a “golden age of tool building”—one where anyone can build tools specifically suited to their needs, instead of settling for software from incumbents that are slow to innovate.</p><p>Mod is the writer and photographer behind the newsletters Roden and Ridgeline and books like Things Become Other Things and Kissa by Kissa—as well as a lifelong technologist. He’s rebuilt the tax software Quicken, created a private alternative for Twitter for his members which he calls The Good Place, and used AI to build an archive for his pop-up newsletters. But while Mod is an advocate of using AI to build, he draws the line at using it to write.</p><p>Mod talks to Dan Shipper about using AI as a research assistant, why he keeps a tech-free zone in the mornings for deep thinking, and why he’s resisting the pull of the “mainlining” AI era.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!<br />To hear more from Dan Shipper:</p><p>Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper</p><p>Timestamps:<br />0:00 Introduction<br />3:51 Rebuilding Quicken and Campaign Monitor with AI<br />6:24 Building The Good Place, a private Twitter alternative for Craig’s members<br />10:39 Why we’re entering a “golden age of tool building”<br />12:17 Why AI could help writers build audiences<br />17:35 Using AI to build a newsletter archive and a searchable board-meeting Q&amp;A library<br />27:58 Creating a technology-free buffer to protect deep thinking<br />30:31 Why Craig is resisting the temptation to “mainline” AI for ten hours a day<br />39:44 Why anthropomorphizing AI is “psychotic,” and why Apple got Siri right<br />47:42 Being adopted, and making peace with humanity’s fragile place in an AI future</p><p><br />Go to https://attio.com/every and get 15% off your first year.</p><p><br />Links to resources mentioned in the episode:<br />Craig Mod’s website: https://craigmod.com<br />Roden (Craig’s monthly newsletter): https://craigmod.com/roden/</p>",
+        "link": "https://share.transistor.fm/s/f9e62a5a",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-07-08T14:48:47+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Trick to Using LLMs to Learn – Grant Sanderson (@3blue1brown )",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=q06rLw6imT0",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-08T13:15:21+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Training Agents 2: Live tutorial on model distillation for training custom agents.",
+        "summary": "In this live session, we'll cover how to transfer capability from a teacher model to a smaller student through distillation. We'll work through supervised fine-tuning on teacher-generated data, then on-policy and online methods where the teacher scores the student live, then self-distillation where the model teaches itself. Each one runs in TRL.\nWhat we'll cover:\n\n- What distillation is, and the four axes that organize it: signal, data source, timing, and teacher identity\n- White-box vs black-box: distilling from open weights vs strings\n- Off-policy distillation: generate from the teacher, then SFT on the outputs\n- On-policy distillation: sample from the student, score with the teacher in the loop\n- Distillation as reinforcement learning: the KD distance as a dense, token-level reward\n- Self-distillation: the model as its own teacher, and when that beats a stronger one\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.\n\n#TRL #HuggingFace #PostTraining #AIAgents #Distillation",
+        "link": "https://www.youtube.com/watch?v=GZT_oNQnLV4",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-08T04:46:10+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "MUFG aims to become AI-native with OpenAI",
+        "summary": "With OpenAI, MUFG is working to become an AI-native financial group—bringing ChatGPT Enterprise to approximately 35,000 Mitsubishi UFJ Bank employees and building the foundation for secure, responsible AI adoption at scale. \n\nSee how MUFG is using AI to help employees focus on higher-value customer work while creating more accessible, personalized financial experiences: \nhttps://openai.com/index/mufg/\n\nOpenAI とともに、MUFG は AI-Native な企業への変革を進めています。三菱 UFJ 銀行の約35,000人の従業員に ChatGPT Enterprise を導入し、安全かつ責任ある AI 活用を大規模に推進するための基盤を構築しています。\n\nMUFG が AI を活用し、従業員がより付加価値の高い顧客対応に注力できる環境を整えながら、より身近で、一人ひとりに最適化された金融体験の実現を目指す取り組みをご覧ください。\nhttps://openai.com/ja-jp/index/mufg/\n\nまた、OpenAI Japan に AI 導入の相談をされたい企業様はぜひ以下のリンクからお問い合わせください。\nhttps://openai.com/ja-JP/contact-sales/?utm_medium=referral&amp;utm_source=youtube&amp;utm_campaign=REF-MUFG_Customer_Story",
+        "link": "https://www.youtube.com/watch?v=pE1ljLVY1Rg",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-08T00:02:05+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "How TPG Is Accelerating Investment Research with ChatGPT",
+        "summary": "For investment firms, getting smart faster is a competitive advantage.\n\n“My team uses ChatGPT on a daily basis… for market studies and desktop information scrapes… It enables us to get smart on industries really, really quickly.” -David Bessel, TPG\n\nSee how TPG is putting ChatGPT to work across research and diligence.",
+        "link": "https://www.youtube.com/shorts/mC8nKdQbbO4",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-07T17:33:50+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "How TPG Is Accelerating Investment Research with ChatGPT",
+        "summary": "For investment firms, getting smart faster is a competitive advantage.\n\n“My team uses ChatGPT on a daily basis… for market studies and desktop information scrapes… It enables us to get smart on industries really, really quickly.” -David Bessel, TPG\n\nSee how TPG is putting ChatGPT to work across research and diligence.",
+        "link": "https://www.youtube.com/watch?v=SRXJevuTnNI",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-07T17:15:23+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "DeepSeek's New AI Speed Hack Is Amazing",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The DeepSeek paper is available here:\nhttps://arxiv.org/abs/2607.05147v1\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=1yBU41auQhw",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-07-07T16:33:29+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  }
+}

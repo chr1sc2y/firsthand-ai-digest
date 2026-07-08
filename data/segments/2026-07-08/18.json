@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-08T17:36:51.049794+00:00",
+  "counts": {
+    "x": 9,
+    "blogs": 1,
+    "podcasts": 1,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+        "summary": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+        "link": "https://x.com/thsottiaux/status/2074885402918601082",
+        "author": "thsottiaux",
+        "published": "2026-07-08T15:56:44+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is the first model I’ve used that can reliably run whole loops of knowledge work, not just help with individual ",
+        "summary": "GPT-5.6 is the first model I’ve used that can reliably run whole loops of knowledge work, not just help with individual tasks. \n\nYour job shifts from doing the work to tending the system that does it.\n\nI use it to run loops that autonomously 1) do my email 2) help me find new hires for @every 3) keep me up to date on key decisions in all internal meetings / slacks @every 4) scan facebook marketplace to help me find furniture for my apartment",
+        "link": "https://x.com/danshipper/status/2074881529675669993",
+        "author": "danshipper",
+        "published": "2026-07-08T15:41:20+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "The blissful sound of all the pieces of the agent stack clicking together. ht @nishimiya. This will power my personal pr",
+        "summary": "The blissful sound of all the pieces of the agent stack clicking together. ht @nishimiya. This will power my personal productivity agents!",
+        "link": "https://x.com/rauchg/status/2074874713143460150",
+        "author": "rauchg",
+        "published": "2026-07-08T15:14:15+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "You don't know what you have until you lose it.\n\nWe've been testing GPT-5.6-Sol for about a month @every. We briefly los",
+        "summary": "You don't know what you have until you lose it.\n\nWe've been testing GPT-5.6-Sol for about a month @every. We briefly lost access for about a week, and I felt like I was back in the stone age. Even with Fable access.\n\nIt's just such a good daily driver. Allows me to delegate so many knowledge work tasks (like email) in a way that no other model can.",
+        "link": "https://x.com/danshipper/status/2074872845104980214",
+        "author": "danshipper",
+        "published": "2026-07-08T15:06:50+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "How do you create a life full of deep thinking and intentional work…and use AI to vibe code all of the things?\n\n@craigmo",
+        "summary": "How do you create a life full of deep thinking and intentional work…and use AI to vibe code all of the things?\n\n@craigmod sat down to on @every’s AI & I to discuss:\n- Why SaaS incumbents are in trouble. Craig used to use Campaign Monitor to send his newsletters, which cost him $6,000-$7,000 a year. His self-built version costs him $150 a year. We’re entering an era where anyone can build the exact tool they need themselves for a fraction of the cost.\n- How Craig uses AI to support his writing, but does not let it touch the writing part. “Being in the mess of the writing,” he says, is the whole point. Tools Craig has built to support his work include an archiving system for his pop-up newsletters and a searchable Q&A library for his board meetings with members.\n- Why he’s strangely at peace with AI replacing us. Being adopted as a child gives you a hyper-awareness that your existence was a mistake, a “bonus game,” Craig says. He extends that logic to all of humanity: If our job was just to get consciousness over the line and create a training set for AI before we go extinct, he’s fine with that.\n\nIf you’ve ever wondered what it looks like to use AI seriously while staying a serious writer, this one’s a must-watch. Watch below!\n\nTimestamps\nIntroduction: 00:00:00\nRebuilding Quicken and Campaign Monitor with AI: 00:03:51\nBuilding The Good Place, a private Twitter alternative for Craig’s members: 00:06:24\nWhy we’re entering a “golden age of tool building”: 00:10:39\nWhy AI could help writers build audiences: 00:12:17\nUsing AI to build a newsletter archive and a searchable board-meeting Q&A library: 00:17:35\nCreating a technology-free buffer to protect deep thinking: 00:27:58\nWhy Craig is resisting the temptation to “mainline” AI for ten hours a day: 00:30:31\nWhy anthropomorphizing AI is “psychotic,” and why Apple got Siri right: 00:39:44\nBeing adopted, and making peace with humanity’s fragile place in an AI future: 00:47:42",
+        "link": "https://x.com/danshipper/status/2074871632988950850",
+        "author": "danshipper",
+        "published": "2026-07-08T15:02:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Listen up.\n\nLivestream at 10am. https://t.co/tfqMb74Ri6",
+        "summary": "Listen up.\n\nLivestream at 10am. https://t.co/tfqMb74Ri6",
+        "link": "https://x.com/OpenAI/status/2074871151302774869",
+        "author": "OpenAI",
+        "published": "2026-07-08T15:00:06+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is a much better writer than Fable. \n\nIt consistently one-shots marketing emails for @tedescau that every previo",
+        "summary": "GPT-5.6 is a much better writer than Fable. \n\nIt consistently one-shots marketing emails for @tedescau that every previous model would fail at. Fable is too verbose and liable to fall into using sentences in its own private language. \n\nIf you use AI for writing, 5.6 is a fantastic model for you.",
+        "link": "https://x.com/danshipper/status/2074870873958265335",
+        "author": "danshipper",
+        "published": "2026-07-08T14:59:00+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Super excited to be joining the @stoke_space board! 🚀\n\nI've known Andy since their seed round (thx @beller). Every month",
+        "summary": "Super excited to be joining the @stoke_space board! 🚀\n\nI've known Andy since their seed round (thx @beller). Every month, like clockwork, he'd send an investor update with an impressive-looking bullet list of what they were going to get done that month. At the end of the month, the next update would show each of those bullets crossed out done—rarely they might miss one, and it would come with an ETA—and a list of what they'd get done the next month. Like clockwork, month after month after month. Andy, Tom, and the team are machines and it's been so impressive to watch them execute.\n\nSpace is critical to the future of humanity. I loved my time at @planet, I've watched @SpaceX in awe, and we should all be excited by how vibrant today's space ecosystem is. \n\nWe need far more access to space than we have today. We need full reusability, which Stoke has been single-mindedly focused on since the start. And much more beyond this. Can't wait to help accelerate the @stoke_space mission any way I can!",
+        "link": "https://x.com/kevinweil/status/2074866941454639200",
+        "author": "kevinweil",
+        "published": "2026-07-08T14:43:22+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 is like a Porsche, Fable is like a warp drive.\n\nWe've been testing internally @every for about a month. And GPT-",
+        "summary": "GPT-5.6 is like a Porsche, Fable is like a warp drive.\n\nWe've been testing internally @every for about a month. And GPT-5.6 is the best combination of power, speed, and performance for your day to day knowledge work and coding. \n\nFable is a different beast. If you need to get across the galaxy use Fable. If you need to get around town using the best available tool for the job, use 5.6\n\nFull vibe check dropping tomorrow!",
+        "link": "https://x.com/danshipper/status/2074859437374820691",
+        "author": "danshipper",
+        "published": "2026-07-08T14:13:33+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Helping K–12 educators build practical AI skills",
+        "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+        "link": "https://openai.com/index/k-12-educators-practical-skills",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-07-08T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "How a Writer Uses AI Without Losing His Voice",
+        "summary": "<p>Craig Mod used to pay Campaign Monitor roughly $7,000 a year to send his newsletters. After rebuilding the tool himself with AI, his bill is closer to $150. It’s the kind of thing that convinces him we’re about to enter a “golden age of tool building”—one where anyone can build tools specifically suited to their needs, instead of settling for software from incumbents that are slow to innovate.</p><p>Mod is the writer and photographer behind the newsletters Roden and Ridgeline and books like Things Become Other Things and Kissa by Kissa—as well as a lifelong technologist. He’s rebuilt the tax software Quicken, created a private alternative for Twitter for his members which he calls The Good Place, and used AI to build an archive for his pop-up newsletters. But while Mod is an advocate of using AI to build, he draws the line at using it to write.</p><p>Mod talks to Dan Shipper about using AI as a research assistant, why he keeps a tech-free zone in the mornings for deep thinking, and why he’s resisting the pull of the “mainlining” AI era.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!<br />To hear more from Dan Shipper:</p><p>Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper</p><p>Timestamps:<br />0:00 Introduction<br />3:51 Rebuilding Quicken and Campaign Monitor with AI<br />6:24 Building The Good Place, a private Twitter alternative for Craig’s members<br />10:39 Why we’re entering a “golden age of tool building”<br />12:17 Why AI could help writers build audiences<br />17:35 Using AI to build a newsletter archive and a searchable board-meeting Q&amp;A library<br />27:58 Creating a technology-free buffer to protect deep thinking<br />30:31 Why Craig is resisting the temptation to “mainline” AI for ten hours a day<br />39:44 Why anthropomorphizing AI is “psychotic,” and why Apple got Siri right<br />47:42 Being adopted, and making peace with humanity’s fragile place in an AI future</p><p><br />Go to https://attio.com/every and get 15% off your first year.</p><p><br />Links to resources mentioned in the episode:<br />Craig Mod’s website: https://craigmod.com<br />Roden (Craig’s monthly newsletter): https://craigmod.com/roden/</p>",
+        "link": "https://share.transistor.fm/s/f9e62a5a",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-07-08T14:48:47+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Trick to Using LLMs to Learn – Grant Sanderson (@3blue1brown )",
+        "summary": "Full episode: https://www.youtube.com/watch?v=TfyPshgMbug\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=q06rLw6imT0",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-08T13:15:21+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-08T10:00:00+00:00",
+    "end": "2026-07-08T16:00:00+00:00"
+  }
+}
