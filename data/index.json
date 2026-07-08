@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-07T23:03:50.576472+00:00",
+  "generated_at": "2026-07-08T06:29:51.744622+00:00",
   "timezone": "Asia/Shanghai",
   "local_date": "2026-07-08",
   "ranges": [
@@ -170,58 +170,6 @@
       }
     },
     {
-      "date": "2026-07-05",
-      "hour": "00",
-      "path": "data/segments/2026-07-05/00.json",
-      "window_start": "2026-07-04T16:00:00+00:00",
-      "window_end": "2026-07-04T22:00:00+00:00",
-      "counts": {
-        "x": 6,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "hour": "06",
-      "path": "data/segments/2026-07-05/06.json",
-      "window_start": "2026-07-04T22:00:00+00:00",
-      "window_end": "2026-07-05T04:00:00+00:00",
-      "counts": {
-        "x": 7,
-        "blogs": 4,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "hour": "12",
-      "path": "data/segments/2026-07-05/12.json",
-      "window_start": "2026-07-05T04:00:00+00:00",
-      "window_end": "2026-07-05T10:00:00+00:00",
-      "counts": {
-        "x": 3,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 0
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "hour": "18",
-      "path": "data/segments/2026-07-05/18.json",
-      "window_start": "2026-07-05T10:00:00+00:00",
-      "window_end": "2026-07-05T16:00:00+00:00",
-      "counts": {
-        "x": 7,
-        "blogs": 0,
-        "podcasts": 0,
-        "videos": 1
-      }
-    },
-    {
       "date": "2026-07-06",
       "hour": "00",
       "path": "data/segments/2026-07-06/00.json",
@@ -336,6 +284,19 @@
         "blogs": 3,
         "podcasts": 0,
         "videos": 3
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "hour": "06",
+      "path": "data/segments/2026-07-08/06.json",
+      "window_start": "2026-07-07T22:00:00+00:00",
+      "window_end": "2026-07-08T04:00:00+00:00",
+      "counts": {
+        "x": 10,
+        "blogs": 0,
+        "podcasts": 0,
+        "videos": 1
       }
     }
   ],
