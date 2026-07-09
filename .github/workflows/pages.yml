@@ -17,7 +17,7 @@ concurrency:
 jobs:
   deploy:
     # Skip deploys triggered by the bot's data commits from daily.yml;
-    # the daily workflow already performs its own split build+deploy.
+    # the daily workflow already builds and deploys its own artifact.
     # This avoids duplicate concurrent deployments and wasted runner time.
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
