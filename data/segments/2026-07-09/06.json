@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-09T07:37:16.483488+00:00",
+  "counts": {
+    "x": 10,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "tbh i dont think sol gets that many dates either",
+        "summary": "tbh i dont think sol gets that many dates either",
+        "link": "https://x.com/sama/status/2075063511290662996",
+        "author": "sama",
+        "published": "2026-07-09T03:44:28+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "it surely doesnt",
+        "summary": "it surely doesnt",
+        "link": "https://x.com/sama/status/2075048072837734448",
+        "author": "sama",
+        "published": "2026-07-09T02:43:07+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "🫶",
+        "summary": "🫶",
+        "link": "https://x.com/sama/status/2075047983314571764",
+        "author": "sama",
+        "published": "2026-07-09T02:42:46+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "i do love rottweilers",
+        "summary": "i do love rottweilers",
+        "link": "https://x.com/sama/status/2075047747250684352",
+        "author": "sama",
+        "published": "2026-07-09T02:41:50+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "OpenAI hired me, not OpenClaw.\nThe OpenClaw Foundation is independent, with sponsors rather than owners - and, for the f",
+        "summary": "OpenAI hired me, not OpenClaw.\nThe OpenClaw Foundation is independent, with sponsors rather than owners - and, for the first time, a full-time team keeping the claw alive and stable. 🦞\n\nCouldn’t have done it without Dave and the team. Kudos!",
+        "link": "https://x.com/steipete/status/2075046949896736835",
+        "author": "steipete",
+        "published": "2026-07-09T02:38:40+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-Live is now fully rolled out to all ChatGPT users on Go, Plus, and Pro plans. Free user rollout is in progress. \n\nUp",
+        "summary": "GPT-Live is now fully rolled out to all ChatGPT users on Go, Plus, and Pro plans. Free user rollout is in progress. \n\nUpdate to the latest version of the ChatGPT app on iOS or Android to try it out.",
+        "link": "https://x.com/OpenAI/status/2075019750569378007",
+        "author": "OpenAI",
+        "published": "2026-07-09T00:50:35+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "AI will make all software Native.\n\nUncompromising performance and platform affinity.",
+        "summary": "AI will make all software Native.\n\nUncompromising performance and platform affinity.",
+        "link": "https://x.com/rauchg/status/2075018147330232707",
+        "author": "rauchg",
+        "published": "2026-07-09T00:44:12+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "We’re pleased to have collaborated with AE Studio on this research. \n\nRead more here: https://t.co/9exnFltK7A",
+        "summary": "We’re pleased to have collaborated with AE Studio on this research. \n\nRead more here: https://t.co/9exnFltK7A",
+        "link": "https://x.com/AnthropicAI/status/2075005777522172146",
+        "author": "AnthropicAI",
+        "published": "2026-07-08T23:55:03+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Should we add CAD 3D modeling to Replit? https://t.co/5NsKXGDuxw",
+        "summary": "Should we add CAD 3D modeling to Replit? https://t.co/5NsKXGDuxw",
+        "link": "https://x.com/amasad/status/2075003156745089264",
+        "author": "amasad",
+        "published": "2026-07-08T23:44:38+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "I can finally talk about this.\n\nI've been playing with GTA 6 for about a month now.\n\nIt's pretty great, arguably even be",
+        "summary": "I can finally talk about this.\n\nI've been playing with GTA 6 for about a month now.\n\nIt's pretty great, arguably even better than GTA 5.",
+        "link": "https://x.com/petergyang/status/2074979504741929018",
+        "author": "petergyang",
+        "published": "2026-07-08T22:10:39+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-07-09",
+        "summary": "AI 早报 2026 07 09 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 SpaceXAI 正式发布 Grok 4.5 模型 ↗ 1 字节跳动发布 Seedream 5.0 Pro ↗ 2 OpenAI 发布 GPT Live 系列全双工语音模型 ↗ 3 Cognition 发布 SWE 1.7 模型 ↗ 4 OpenAI 确认 GPT 5.6 Sol 将于周四公开发布，获美国政府批准 ↗ 5 开发生态 Google AI Studio 支持导入 GitHub 仓库并同步 ↗ 6 Claude 为开源项目维护者提供 6 个月免费 Max 订阅 ↗ 7 Cloudflare 推出 Drop 文件夹拖拽部署服务，无需账号 ↗ 8 技术与洞察 Anthropic 与 AE Studio 提出 GRAM：…",
+        "link": "https://daily.juya.uk/issues/2026-07-09/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-09T01:17:05+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Rewriting Bun in Rust",
+        "summary": "<p><strong><a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a></strong></p>\nJarred Sumner has been promising this blog post (<a href=\"https://x.com/jarredsumner/status/2053063524826620129\">since May 9th</a>) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.</p>\n<p>Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks.</p>\n<p>Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine:</p>\n<blockquote>\n<p>Our bugfix list felt bad and I was tired of going to sleep worrying about crashes in Bun. I don't blame Zig for that - other users of Zig don't have the bugs we had, and mixing GC with manually-managed memory is an uncommon enough thing for software to need that no language really designs for it. We wouldn't have gotten this far if not for Zig, and I'll always be grateful. <strong>Until very recently, programming language choice was a one-way decision for a project like Bun.</strong></p>\n</blockquote>\n<p>Everyone knows you should never stop the world and rewrite a large piece of software from the ground up. Joel Spolsky highlighted that in <a href=\"https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/\">Things You Should Never Do, Part I</a> back in April 2000!</p>\n<p>Coding agents powered by today's frontier models change that equation.</p>\n<p>Why pick Rust? It all came down to those challenges with memory management:</p>\n<blockquote>\n<p>A large percentage of bugs from that list are use-after-free, double-free, and \"forgot to free\" in an error path. In safe Rust, these are compiler errors and RAII-like automatic cleanup with <code>Drop</code>.</p>\n</blockquote>\n<p>A crucial enabling factor for the rewrite was that the Bun test suite was written in TypeScript, which meant it could act as <a href=\"https://simonwillison.net/tags/conformance-suites/\">a conformance suite</a>. This allowed an agent harness to automate much of the initial port from Bun to Rust, initially as an experiment to try out an earlier version of the model we now have access to as Mythos/Fable.</p>\n<blockquote>\n<p>At first, I didn't expect it to work. A few days in, a high % of the test suite started passing and I saw how much the new Rust code matched up with the original Zig codebase. My opinion went from \"this is worth trying\" to \"I'm going to merge this\". [...]</p>\n<p>For most of those 11 days (and after), I monitored workflows - manually reading the outputs to check for issues and bugs, and prompting Claude to edit the loop to fix things.</p>\n<p>How do you review a PR with +1 million lines added? How do you start to build the confidence needed to responsibly merge large quantities of LLM-authored code?</p>\n<p>A language-independent test suite with a million assertions, adversarial code review and when something does go wrong, fixing the process that generates the code instead of hand-fixing the code.</p>\n</blockquote>\n<p>The new implementation of Bun has been live in Claude Code for nearly a month now:</p>\n<blockquote>\n<p>Claude Code v2.1.181 (released June 17th) and later use the Rust port of Bun. Startup got 10% faster on Linux but otherwise, barely anyone noticed. Boring is good.</p>\n</blockquote>\n<p>A perk of working at Anthropic is that you don't have to pay for your tokens - handy when the estimated cost is $165,000!</p>\n<blockquote>\n<p>Pre-merge, this took 5.9 billion uncached input tokens, 690 million output tokens, and 72 billion cached input token reads — around $165,000 at API pricing.</p>\n</blockquote>\n<p>This whole thing is a fascinating case study in taking on wildly ambitious projects with the help of coordinated parallel agents.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48837877\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/rust\">rust</a>, <a href=\"https://simonwillison.net/tags/zig\">zig</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/bun\">bun</a>, <a href=\"https://simonwillison.net/tags/conformance-suites\">conformance-suites</a>, <a href=\"https://simonwillison.net/tags/agentic-engineering\">agentic-engineering</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/",
+        "author": "",
+        "keywords": "ai rust zig generative-ai llms ai-assisted-programming anthropic bun conformance-suites agentic-engineering claude-mythos-fable",
+        "published": "2026-07-08T23:57:21+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Introducing GPT‑Live",
+        "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-live/\">Introducing GPT‑Live</a></strong></p>\nOpenAI <em>finally</em> upgraded the model used by ChatGPT voice mode!</p>\n<p>I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:</p>\n<blockquote>\n<p>For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live.</p>\n</blockquote>\n<p>The previous voice mode in the ChatGPT app was based on a GPT-4o era model, with a knowledge cut-off some time in 2024. I had mostly stopped using voice mode because the age and relative weakness of the model greatly limited how useful it was as a brainstorming partner.</p>\n<p>During the preview period I encountered a pretty obscure bug: the model was interrupting me to laugh at things I said, which weren't even intended as jokes! It felt rude and condescending - I reported it to OpenAI and as far as I can tell they made some tweaks and it's now less likely to happen.</p>\n<p>From looking back at my transcripts I think it was this bit that triggered the interrupting laugh:</p>\n<blockquote>\n<p>so where are the owls when they're not, like before dusk? The owls exist, right? Are they hiding in holes? Where are they hiding?</p>\n</blockquote>\n<p>My longest conversation with the new model has been a full hour while walking the dog (and <a href=\"https://simonwillison.net/elsewhere/sighting/\">taking photos of pelicans</a>). I have not yet managed to take a photo of an owl.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48834405\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/text-to-speech\">text-to-speech</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/multi-modal-output\">multi-modal-output</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/speech-to-text\">speech-to-text</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/",
+        "author": "",
+        "keywords": "text-to-speech ai openai generative-ai llms multi-modal-output llm-release speech-to-text",
+        "published": "2026-07-08T23:20:48+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How Bain Capital Is Scaling AI with ChatGPT",
+        "summary": "For businesses, AI is most powerful when everyone can use it.\n\n“Having 2,700 employees, all of whom now have an enterprise ChatGPT license, has just been a giant force multiplier for the business.” -James Mackey, Bain Capital\n\nSee how Bain Capital portfolio company Zelis is using ChatGPT to streamline claims processing and help reduce costs across the healthcare system.",
+        "link": "https://www.youtube.com/watch?v=8xqQzrLf0co",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-08T22:51:23+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-08T22:00:00+00:00",
+    "end": "2026-07-09T04:00:00+00:00"
+  }
+}
