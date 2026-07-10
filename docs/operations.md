@@ -26,7 +26,7 @@ variables; the Apify token must be in the file.
 {
   "apify_token":              "apify_api_xxx",   // required
   "apify_actor":              "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
-  "apify_lookback_hours":     6,
+  "apify_lookback_hours":     24,
   "apify_monthly_budget_usd": 4.0                // soft cap; once month-to-date
                                                  // spend hits this, X fetch
                                                  // is skipped for the rest
@@ -36,21 +36,23 @@ variables; the Apify token must be in the file.
 
 ## CI / cron
 
-[`.github/workflows/daily.yml`](../.github/workflows/daily.yml) runs every
-6 hours on Asia/Shanghai segment boundaries and on manual dispatch. It:
+[`.github/workflows/daily.yml`](../.github/workflows/daily.yml) runs once a
+day at 06:17 Asia/Shanghai and on manual dispatch. It:
 
 1. Installs `requirements.txt`
 2. Runs `pytest` (unit only — `integration` is skipped)
 3. Materialises `config/secrets.json` from the repo secret `APIFY_TOKEN`
-4. Computes the latest complete 6-hour Asia/Shanghai window
-5. Builds `data/segments/YYYY-MM-DD/HH.json`
-6. Merges complete days into `data/daily/YYYY-MM-DD.json`
+4. Computes the latest complete 24-hour window anchored at 06:00
+5. Builds `data/segments/YYYY-MM-DD/06.json`
+6. Writes the window into `data/daily/YYYY-MM-DD.json` while retaining legacy 6-hour compatibility
 7. Writes `data/index.json`, renders latest 24h, and copies `data/` into `dist/data/`
 8. Commits JSON archive changes back to the repository
 9. Uploads `dist/` as the Pages artifact and deploys it
 
-The 6-hour cadence (4 runs/day) is sized so that the monthly Apify spend
-stays inside the free $5 platform credit.
+The daily cadence cuts scheduled runner and Apify actor acquisition attempts
+from four per day to one while staying inside the free $5 platform credit.
+Manual reruns before the next 06:00 boundary merge with the existing window,
+so a partial source outage cannot remove items collected by an earlier run.
 
 [`.github/workflows/tests.yml`](../.github/workflows/tests.yml) runs the
 unit tests on every push and PR.
@@ -169,17 +171,16 @@ they don't run by default.
 - `pytest -m integration -k <feed-name>` checks a specific RSS feed.
 - GitHub Pages deploy errors: check Actions → most recent run → `deploy`
   step.
-- Segment debugging: `python scripts/segment_window.py` prints the latest
-  complete 6-hour bucket; `python scripts/archive_data.py` rebuilds
+- Window debugging: `python scripts/segment_window.py` prints the latest
+  complete 24-hour window ending at 06:00 Asia/Shanghai; `python scripts/archive_data.py` rebuilds
   `data/index.json` and `dist/index.html` from committed JSON.
 
 ## Cost
 
 - **Apify** — billed by returned data, with provider-specific minimums per
-  actor call. The X fetcher batches all configured handles into one actor run
-  per 6-hour segment, then clips the returned tweets per handle locally. At 4
-  runs/day the spend stays inside Apify's free $5 monthly platform credit
-  (≈ 20k tweets/month). Before each run we also check
+  actor call. The X fetcher batches all configured handles into one daily actor
+  run, then clips the returned tweets to 20 per handle locally. The daily
+  cadence stays inside Apify's free $5 monthly platform credit. Before each run we also check
   ``GET /v2/users/me/usage/monthly`` and skip the X fetch if the cycle has
   already used more than ``apify_monthly_budget_usd`` (default $4) — a hard
   guarantee that we never overshoot the free tier.

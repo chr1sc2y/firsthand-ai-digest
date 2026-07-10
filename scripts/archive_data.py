@@ -1,8 +1,8 @@
-"""Archive helpers for 3-hour digest segments.
+"""Archive helpers for scheduled digest windows.
 
-The daily workflow writes one normalized segment JSON every three hours under
-``data/segments/YYYY-MM-DD/HH.json``. This script keeps the static archive
-usable by:
+The workflow writes one normalized 24-hour window under
+``data/segments/YYYY-MM-DD/06.json``. Legacy 6-hour windows remain readable.
+This script keeps the static archive usable by:
 
 - merging complete days into ``data/daily/YYYY-MM-DD.json``;
 - writing ``data/index.json`` for the frontend;
@@ -30,7 +30,7 @@ import fetch_rss  # noqa: E402
 import render_html  # noqa: E402
 
 ROOT = HERE.parent
-SEGMENT_HOURS = ("00", "06", "12", "18")
+SEGMENT_HOURS = ("00", "06", "12", "18")  # Legacy 6-hour archive layout.
 KINDS = ("x", "blogs", "podcasts", "videos")
 PROVIDER_MOCK_MARKERS = (
     "From KaitoEasyAPI, a reminder:",
@@ -130,16 +130,36 @@ def segment_paths_for_day(data_dir: Path, day: str) -> list[Path]:
     return [base / f"{hour}.json" for hour in SEGMENT_HOURS]
 
 
+def payloads_for_complete_day(data_dir: Path, day: str) -> tuple[list[Path], list[dict]]:
+    base = data_dir / "segments" / day
+    daily_windows: list[tuple[datetime, Path, dict]] = []
+    for path in sorted(base.glob("*.json")):
+        payload = load_payload(path)
+        window = payload.get("window") or {}
+        start = parse_dt(window.get("start"))
+        end = parse_dt(window.get("end"))
+        if start is not None and end is not None and end - start == timedelta(hours=24):
+            daily_windows.append((end, path, payload))
+
+    if daily_windows:
+        _, path, payload = max(daily_windows, key=lambda row: row[0])
+        return [path], [payload]
+
+    paths = segment_paths_for_day(data_dir, day)
+    if all(path.exists() for path in paths):
+        return paths, [load_payload(path) for path in paths]
+    return [], []
+
+
 def merge_complete_daily(data_dir: Path) -> list[Path]:
     segments_root = data_dir / "segments"
     if not segments_root.exists():
         return []
     written: list[Path] = []
     for day_dir in sorted(p for p in segments_root.iterdir() if p.is_dir()):
-        paths = segment_paths_for_day(data_dir, day_dir.name)
-        if not all(path.exists() for path in paths):
+        paths, payloads = payloads_for_complete_day(data_dir, day_dir.name)
+        if not paths:
             continue
-        payloads = [load_payload(path) for path in paths]
         items = flatten_items(payloads)
         generated_values = [
             parse_dt(payload.get("generated_at"))
@@ -176,10 +196,10 @@ def prune_merged_segments(
     - ``data/daily/<day>.json`` exists (so we won't lose data), and
     - the day is older than ``keep_days`` days from ``today`` (UTC).
 
-    The "latest N hours" render at ``render_latest`` reads raw segments so
-    short ranges (3h / 6h / 12h / 24h) keep 6h granularity. Anything older
-    than that window is fully represented in the daily rollup, so the
-    segment files become dead weight in the repo.
+    The "latest N hours" render at ``render_latest`` reads raw windows and
+    filters individual items by publication time. Anything older than that
+    window is fully represented in the daily rollup, so the segment files
+    become dead weight in the repo.
     """
     segments_root = data_dir / "segments"
     if not segments_root.exists():

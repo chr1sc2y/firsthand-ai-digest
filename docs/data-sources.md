@@ -6,8 +6,8 @@ What we fetch, where it lives, and how stable it is.
 
 - **Provider**: Apify actor [`kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest`](
   https://apify.com/kaitoeasyapi/twitter-x-data-tweet-scraper-pay-per-result-cheapest)
-- **Cost**: ~$0.25 per 1k tweets; each 6-hour run batches all handles into
-  one actor call and then clips locally. The 6-hour cadence keeps the
+- **Cost**: ~$0.25 per 1k tweets; each daily run batches all handles into
+  one actor call and then clips locally. The daily cadence keeps the
   per-month spend inside Apify's free $5 monthly platform credit.
 - **Input mode**: one batched Apify Actor run with `searchTerms[]`, using
   Twitter search syntax like `from:sama since_time:<unix> until_time:<unix>`.
@@ -93,12 +93,12 @@ To find a channel ID: visit the channel page, view source, search for
 
 | Category | Cron | Window |
 |----------|------|--------|
-| X / posts        | every 6 h | exact 6 h segment |
-| Blogs            | every 6 h | exact 6 h segment |
-| YouTube videos   | every 6 h | exact 6 h segment |
-| Podcasts         | every 6 h | exact 6 h segment |
+| X / posts        | daily at 06:17 BJT | exact preceding 24 h |
+| Blogs            | daily at 06:17 BJT | exact preceding 24 h |
+| YouTube videos   | daily at 06:17 BJT | exact preceding 24 h |
+| Podcasts         | daily at 06:17 BJT | exact preceding 24 h |
 
 Knobs: `--hours`, `--blog-hours`, `--video-hours`, `--podcast-hours`.
 
-The 6-hour cadence is chosen so that the monthly Apify spend stays inside
-the free $5 platform credit (≈ 20k tweets / month).
+The daily cadence reduces actor calls and keeps monthly Apify spend inside
+the free $5 platform credit.

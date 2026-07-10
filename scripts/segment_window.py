@@ -1,9 +1,4 @@
-"""Compute the latest complete Asia/Shanghai digest segment.
-
-Defaults to 6-hour buckets (00, 06, 12, 18 BJT) so we run the X scraper
-4 times a day instead of 8 — keeps Apify usage inside the free monthly
-credit.
-"""
+"""Compute the latest complete Asia/Shanghai digest window."""
 from __future__ import annotations
 
 import argparse
@@ -11,22 +6,38 @@ from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
 
-def latest_complete_window(now: datetime, *, hours: int = 6) -> tuple[datetime, datetime]:
-    bucket_hour = (now.hour // hours) * hours
-    end = now.replace(hour=bucket_hour, minute=0, second=0, microsecond=0)
+def latest_complete_window(
+    now: datetime,
+    *,
+    hours: int = 24,
+    anchor_hour: int = 6,
+) -> tuple[datetime, datetime]:
+    shifted = now - timedelta(hours=anchor_hour)
+    bucket_hour = (shifted.hour // hours) * hours
+    end = shifted.replace(
+        hour=bucket_hour,
+        minute=0,
+        second=0,
+        microsecond=0,
+    ) + timedelta(hours=anchor_hour)
     start = end - timedelta(hours=hours)
     return start, end
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Emit GitHub Actions env vars for a digest segment.")
+    parser = argparse.ArgumentParser(description="Emit GitHub Actions env vars for a digest window.")
     parser.add_argument("--timezone", default="Asia/Shanghai")
-    parser.add_argument("--hours", type=int, default=6)
+    parser.add_argument("--hours", type=int, default=24)
+    parser.add_argument("--anchor-hour", type=int, default=6)
     parser.add_argument("--github-env", help="Path to $GITHUB_ENV.")
     args = parser.parse_args()
 
     tz = ZoneInfo(args.timezone)
-    start_local, end_local = latest_complete_window(datetime.now(tz), hours=args.hours)
+    start_local, end_local = latest_complete_window(
+        datetime.now(tz),
+        hours=args.hours,
+        anchor_hour=args.anchor_hour,
+    )
     start_utc = start_local.astimezone(timezone.utc)
     end_utc = end_local.astimezone(timezone.utc)
 

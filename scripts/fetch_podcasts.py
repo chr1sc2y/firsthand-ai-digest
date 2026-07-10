@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import re
+from datetime import datetime, timezone
 from typing import Iterable
 
 import fetch_rss
@@ -59,6 +60,8 @@ def fetch_all(
     leaders: Iterable[dict] | None = None,
     max_items: int = 5,
     require_leader_match: bool = True,
+    since: datetime | None = None,
+    until: datetime | None = None,
 ) -> list[dict]:
     """Return episodes; if ``require_leader_match`` and ``leaders`` are given,
     only episodes whose text matches a leader name/handle are kept.
@@ -74,6 +77,11 @@ def fetch_all(
             failed.append(pod.get("name") or pod.get("rss") or "?")
             continue
 
+        items = fetch_rss.filter_by_published_range(items, since=since, until=until)
+        items.sort(
+            key=lambda item: item.get("published") or datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
         kept: list[dict] = []
         for item in items:
             haystack = " ".join(

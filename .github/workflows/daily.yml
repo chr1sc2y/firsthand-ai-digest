@@ -2,11 +2,10 @@ name: Daily Digest
 
 on:
   schedule:
-    # Every 6 hours on Asia/Shanghai segment boundaries (00, 06, 12, 18 BJT
-    # → 16, 22, 04, 10 UTC), offset from minute 0 to avoid GitHub Actions'
-    # busiest scheduler/runner acquisition window. Halving the cadence vs the
-    # original 3-hour cron keeps Apify usage inside the free monthly credit.
-    - cron: "17 4,10,16,22 * * *"
+    # Once daily at 06:17 Asia/Shanghai (22:17 UTC). The 17-minute offset avoids
+    # the busiest scheduler window, and the 06:00 anchor keeps the 08:00 Insight
+    # brief current while covering one complete 24-hour source window.
+    - cron: "17 22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -59,7 +58,7 @@ jobs:
                   {
                       "apify_token": os.environ["APIFY_TOKEN"],
                       "apify_actor": "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
-                      "apify_lookback_hours": 6,
+                      "apify_lookback_hours": 24,
                       "apify_monthly_budget_usd": 4.0,
                   },
                   indent=2,
@@ -69,17 +68,18 @@ jobs:
           )
           PY
 
-      - name: Compute segment window
-        run: python scripts/segment_window.py --hours 6 --github-env "$GITHUB_ENV"
+      - name: Compute daily window
+        run: python scripts/segment_window.py --hours 24 --anchor-hour 6 --github-env "$GITHUB_ENV"
 
-      - name: Build digest segment
+      - name: Build daily digest
         run: |
           python scripts/run.py \
             --verbose \
-            --hours 6 \
-            --blog-hours 6 \
-            --video-hours 6 \
-            --podcast-hours 6 \
+            --max-per-source 20 \
+            --hours 24 \
+            --blog-hours 24 \
+            --video-hours 24 \
+            --podcast-hours 24 \
             --window-start "$DIGEST_WINDOW_START" \
             --window-end "$DIGEST_WINDOW_END" \
             --data-output "$DIGEST_SEGMENT_PATH" \

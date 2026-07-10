@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import textwrap
+from datetime import datetime, timedelta, timezone
 from unittest.mock import patch
 
 import fetch_rss
@@ -123,6 +124,54 @@ def test_fetch_many_respects_max_items():
             max_items=1,
         )
     assert len(items) == 1
+
+
+def test_fetch_many_filters_exact_window_before_applying_source_cap():
+    start = datetime(2026, 5, 21, 6, tzinfo=timezone.utc)
+    end = start + timedelta(hours=24)
+    post_cutoff = [
+        {
+            "title": f"future-{i}",
+            "summary": "",
+            "link": f"https://example.com/future-{i}",
+            "author": "",
+            "keywords": "",
+            "published": end + timedelta(minutes=i),
+        }
+        for i in range(20)
+    ]
+    in_window = [
+        {
+            "title": f"valid-{i}",
+            "summary": "",
+            "link": f"https://example.com/valid-{i}",
+            "author": "",
+            "keywords": "",
+            "published": start + timedelta(minutes=i),
+        }
+        for i in range(20)
+    ]
+    undated = {
+        "title": "undated",
+        "summary": "",
+        "link": "https://example.com/undated",
+        "author": "",
+        "keywords": "",
+        "published": None,
+    }
+
+    with patch.object(fetch_rss, "fetch_feed", return_value=post_cutoff + [undated] + in_window):
+        items = fetch_rss.fetch_many(
+            [{"name": "Demo", "rss": "x"}],
+            kind="blog",
+            max_items=20,
+            since=start,
+            until=end,
+        )
+
+    assert len(items) == 20
+    assert all(item["title"].startswith("valid-") for item in items)
+    assert all(start <= item["published"] < end for item in items)
 
 
 def test_fetch_many_swallows_per_feed_failure():

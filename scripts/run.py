@@ -39,6 +39,7 @@ DEFAULT_OUTPUT = ROOT / "dist" / "index.html"
 log = logging.getLogger("firsthand-ai-digest")
 
 _REQUIRED_CONFIG_KEYS = ("x_users", "blogs", "site")
+_KINDS = ("x", "blogs", "podcasts", "videos")
 
 
 def _validate_config(config: dict) -> None:
@@ -60,7 +61,7 @@ def _within_window(item: dict, cutoff: datetime) -> bool:
 def _within_range(item: dict, start: datetime, end: datetime) -> bool:
     pub = item.get("published")
     if pub is None:
-        return True
+        return False
     return start <= pub < end
 
 
@@ -122,6 +123,78 @@ def _data_payload(
             "end": window_end.astimezone(timezone.utc).isoformat(),
         }
     return payload
+
+
+def _payload_item_key(item: dict) -> str:
+    link = fetch_rss.canonical_url(item.get("link", ""))
+    if link:
+        return link
+    return "|".join(
+        str(item.get(key) or "")
+        for key in ("source_handle", "summary", "published")
+    )
+
+
+def _payload_item_sort_key(item: dict) -> datetime:
+    published = item.get("published")
+    if isinstance(published, datetime):
+        return published.astimezone(timezone.utc)
+    if isinstance(published, str):
+        try:
+            return _parse_utc_datetime(published)
+        except ValueError:
+            pass
+    return datetime.min.replace(tzinfo=timezone.utc)
+
+
+def _merge_same_window_payload(existing: dict, current: dict) -> dict:
+    window = current.get("window")
+    if not window or existing.get("window") != window:
+        return current
+
+    merged = dict(current)
+    merged_items: dict[str, list[dict]] = {}
+    for kind in _KINDS:
+        seen: set[str] = set()
+        rows: list[dict] = []
+        for item in (current.get("items") or {}).get(kind, []) + (
+            existing.get("items") or {}
+        ).get(kind, []):
+            key = _payload_item_key(item)
+            if key in seen:
+                continue
+            seen.add(key)
+            rows.append(item)
+        merged_items[kind] = sorted(rows, key=_payload_item_sort_key, reverse=True)
+
+    merged["items"] = merged_items
+    merged["counts"] = {kind: len(merged_items[kind]) for kind in _KINDS}
+    return merged
+
+
+def _merge_existing_window(path: Path, current: dict) -> dict:
+    if not path.exists():
+        return current
+    try:
+        existing = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        log.warning("Could not read existing data from %s: %s", path, exc)
+        return current
+    return _merge_same_window_payload(existing, current)
+
+
+def _write_payload_atomic(path: Path, payload: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_name(f".{path.name}.tmp")
+    try:
+        temporary.write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        temporary.replace(path)
+    finally:
+        if temporary.exists():
+            temporary.unlink()
 
 
 def _mock_items(now: datetime) -> tuple[list[dict], list[dict], list[dict], list[dict]]:
@@ -287,6 +360,8 @@ def main(argv: list[str] | None = None) -> int:
             kind="blog",
             max_items=args.max_per_source,
             role_template="By {publisher}",
+            since=window_start,
+            until=window_end,
         )
 
         log.info("YouTube: fetching %d channels...", len(config.get("youtube", [])))
@@ -295,6 +370,8 @@ def main(argv: list[str] | None = None) -> int:
             kind="video",
             max_items=args.max_per_source,
             role_template="Channel · {channel}",
+            since=window_start,
+            until=window_end,
         )
 
         # ---- 3. Podcasts (RSS + leader filter) --------------------------------
@@ -304,6 +381,8 @@ def main(argv: list[str] | None = None) -> int:
             leaders=config.get("x_users", []),
             max_items=args.max_per_source,
             require_leader_match=not args.no_podcast_filter,
+            since=window_start,
+            until=window_end,
         )
 
     # ---- 4. Time-window filter --------------------------------------------
@@ -356,11 +435,8 @@ def main(argv: list[str] | None = None) -> int:
                 window_start=window_start,
                 window_end=window_end,
             )
-            args.data_output.parent.mkdir(parents=True, exist_ok=True)
-            args.data_output.write_text(
-                json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
+            payload = _merge_existing_window(args.data_output, payload)
+            _write_payload_atomic(args.data_output, payload)
             log.info("Wrote data %s", args.data_output)
 
     html_text = render_html.render(

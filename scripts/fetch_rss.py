@@ -10,7 +10,7 @@ import logging
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import timezone
+from datetime import datetime, timezone
 from typing import Iterable
 
 import feedparser
@@ -99,19 +99,48 @@ def fetch_feed(rss_url: str, timeout: int = 12) -> list[dict]:
     return items
 
 
+def filter_by_published_range(
+    items: Iterable[dict],
+    *,
+    since: datetime | None = None,
+    until: datetime | None = None,
+) -> list[dict]:
+    rows = list(items)
+    if since is None and until is None:
+        return rows
+
+    filtered: list[dict] = []
+    for item in rows:
+        published = item.get("published")
+        if not isinstance(published, datetime):
+            continue
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+            item["published"] = published
+        if since is not None and published < since:
+            continue
+        if until is not None and published >= until:
+            continue
+        filtered.append(item)
+    return filtered
+
+
 def fetch_many(
     feeds: Iterable[dict],
     *,
     kind: str,
     max_items: int = 5,
     role_template: str = "",
+    since: datetime | None = None,
+    until: datetime | None = None,
 ) -> list[dict]:
     """Fetch every feed in ``feeds`` in parallel and tag the items with our
     common ``kind`` / ``source_*`` fields used by the renderer.
 
     ``role_template`` is a Python format string evaluated with the source dict
     (e.g. ``"Hosted by {host}"`` or ``"Channel · {channel}"``). Empty string =
-    leave ``source_role`` blank.
+    leave ``source_role`` blank. When ``since`` or ``until`` is provided,
+    entries are filtered by publication time before the per-source cap.
     """
     sources = [src for src in feeds if src.get("rss")]
     if not sources:
@@ -137,7 +166,12 @@ def fetch_many(
         src, items = results.get(idx, (None, None))
         if not src or items is None:
             continue
-        log.debug("[%s] %s -> %d items", kind, src.get("name"), len(items))
+        items = filter_by_published_range(items, since=since, until=until)
+        items.sort(
+            key=lambda item: item.get("published") or datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
+        log.debug("[%s] %s -> %d eligible items", kind, src.get("name"), len(items))
         for item in items[:max_items]:
             item["kind"] = kind
             item["source_name"] = src.get("name", "")

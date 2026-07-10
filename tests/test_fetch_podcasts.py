@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import textwrap
+from datetime import datetime, timedelta, timezone
 from unittest.mock import patch
 
 import fetch_podcasts
@@ -169,3 +170,35 @@ def test_fetch_all_respects_max_items():
             max_items=4,
         )
     assert len(out) == 4
+
+
+def test_fetch_all_filters_exact_window_before_applying_source_cap():
+    start = datetime(2026, 5, 21, 6, tzinfo=timezone.utc)
+    end = start + timedelta(hours=24)
+
+    def episode(title: str, published: datetime | None) -> dict:
+        return {
+            "kind": "podcast",
+            "title": f"Sam Altman {title}",
+            "summary": "",
+            "link": f"https://example.com/{title}",
+            "author": "",
+            "keywords": "",
+            "published": published,
+        }
+
+    items = [episode(f"future-{i}", end + timedelta(minutes=i)) for i in range(4)]
+    items.append(episode("undated", None))
+    items.extend(episode(f"valid-{i}", start + timedelta(minutes=i)) for i in range(4))
+
+    with patch.object(fetch_podcasts, "_fetch_feed", return_value=items):
+        out = fetch_podcasts.fetch_all(
+            podcasts=[{"name": "Demo", "rss": "x"}],
+            leaders=LEADERS,
+            max_items=4,
+            since=start,
+            until=end,
+        )
+
+    assert len(out) == 4
+    assert all("valid-" in item["title"] for item in out)

@@ -1,4 +1,4 @@
-"""Tests for 3-hour segment archive helpers."""
+"""Tests for scheduled-window archive helpers."""
 from __future__ import annotations
 
 import json
@@ -41,13 +41,35 @@ def _write(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload), encoding="utf-8")
 
 
-def test_latest_complete_window_uses_previous_six_hour_bucket():
+def test_latest_complete_window_supports_legacy_six_hour_bucket():
+    now = datetime(2026, 5, 21, 13, 17, tzinfo=ZoneInfo("Asia/Shanghai"))
+
+    start, end = segment_window.latest_complete_window(now, hours=6, anchor_hour=0)
+
+    assert start.isoformat() == "2026-05-21T06:00:00+08:00"
+    assert end.isoformat() == "2026-05-21T12:00:00+08:00"
+
+
+def test_latest_complete_window_defaults_to_daily_six_am_anchor():
     now = datetime(2026, 5, 21, 13, 17, tzinfo=ZoneInfo("Asia/Shanghai"))
 
     start, end = segment_window.latest_complete_window(now)
 
-    assert start.isoformat() == "2026-05-21T06:00:00+08:00"
-    assert end.isoformat() == "2026-05-21T12:00:00+08:00"
+    assert start.isoformat() == "2026-05-20T06:00:00+08:00"
+    assert end.isoformat() == "2026-05-21T06:00:00+08:00"
+
+
+def test_latest_complete_window_before_daily_anchor_uses_previous_day():
+    now = datetime(2026, 5, 21, 5, 17, tzinfo=ZoneInfo("Asia/Shanghai"))
+
+    start, end = segment_window.latest_complete_window(
+        now,
+        hours=24,
+        anchor_hour=6,
+    )
+
+    assert start.isoformat() == "2026-05-19T06:00:00+08:00"
+    assert end.isoformat() == "2026-05-20T06:00:00+08:00"
 
 
 def test_archive_builds_index_and_daily_for_complete_day(tmp_path, monkeypatch):
@@ -74,6 +96,35 @@ def test_archive_builds_index_and_daily_for_complete_day(tmp_path, monkeypatch):
     assert len(index["segments"]) == 4
     assert len(index["daily"]) == 1
     assert (dist_dir / "data" / "index.json").exists()
+
+
+def test_archive_prefers_single_daily_window_during_six_hour_transition(tmp_path):
+    data_dir = tmp_path / "data"
+    day = "2026-05-21"
+    _write(
+        data_dir / "segments" / day / "00.json",
+        _payload(
+            "2026-05-20T16:00:00+00:00",
+            "2026-05-20T22:00:00+00:00",
+            "legacy-six-hour",
+        ),
+    )
+    _write(
+        data_dir / "segments" / day / "06.json",
+        _payload(
+            "2026-05-20T22:00:00+00:00",
+            "2026-05-21T22:00:00+00:00",
+            "daily-window",
+        ),
+    )
+
+    written = archive_data.merge_complete_daily(data_dir)
+
+    assert written == [data_dir / "daily" / f"{day}.json"]
+    daily = json.loads(written[0].read_text(encoding="utf-8"))
+    assert daily["source_segments"] == [f"segments/{day}/06.json"]
+    assert daily["counts"]["x"] == 1
+    assert daily["items"]["x"][0]["title"] == "daily-window"
 
 
 def test_prune_merged_segments_only_deletes_old_days_with_daily(tmp_path):

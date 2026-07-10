@@ -27,7 +27,7 @@ That's it. No web framework, no database, no JS toolchain.
 
 ## Infrastructure
 
-- **GitHub Actions** — 6-hour cron, push deploy, and manual
+- **GitHub Actions** — daily cron, push deploy, and manual
   `workflow_dispatch`. Three workflows live in `.github/workflows/`:
   - `daily.yml`: runs the pipeline, deploys `dist/` to Pages.
   - `pages.yml`: deploys already-committed `data/` to Pages on push.
@@ -44,7 +44,7 @@ That's it. No web framework, no database, no JS toolchain.
 {
   "apify_token":              "apify_api_xxx",   // required
   "apify_actor":              "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
-  "apify_lookback_hours":     6,
+  "apify_lookback_hours":     24,
   "apify_monthly_budget_usd": 4.0                // soft monthly cap, USD
 }
 ```
@@ -55,7 +55,7 @@ repository secret.
 ## Why these choices
 
 - **Apify over the X API or scraping**: cheapest stable option with
-  rotating proxies and a maintained actor. The 6-hour cron keeps the
+  rotating proxies and a maintained actor. One batched daily call keeps the
   monthly bill inside the free $5 platform credit.
 - **`feedparser` over a homemade XML walker**: handles RSS 2.0, Atom,
   and a long tail of malformed feeds.

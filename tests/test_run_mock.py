@@ -2,8 +2,33 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timedelta, timezone
 
 import run
+
+
+def _item(kind: str, title: str, link: str, published: datetime) -> dict:
+    return {
+        "kind": kind,
+        "source_name": "Test Source",
+        "source_role": "Test Role",
+        "source_handle": "test-source",
+        "title": title,
+        "summary": title,
+        "link": link,
+        "author": "Test Source",
+        "published": published,
+    }
+
+
+def test_exact_range_rejects_undated_items():
+    start = datetime(2026, 5, 21, 6, tzinfo=timezone.utc)
+
+    assert not run._within_range(
+        {"published": None},
+        start,
+        start + timedelta(hours=24),
+    )
 
 
 def test_run_with_mock_data_writes_html(tmp_path):
@@ -121,3 +146,46 @@ def test_run_skip_empty_segment_does_not_write_when_all_categories_empty(tmp_pat
     assert not data_output.exists(), "empty segment should not have been written"
     # The HTML is still produced (so the site never goes blank).
     assert output.exists()
+
+
+def test_rerun_same_window_preserves_items_from_successful_categories(tmp_path, monkeypatch):
+    output = tmp_path / "index.html"
+    data_output = tmp_path / "segment.json"
+    published = datetime(2026, 5, 21, 10, tzinfo=timezone.utc)
+    results = iter(
+        [
+            (
+                [_item("x", "existing-x", "https://x.com/test/status/1", published)],
+                [_item("blog", "existing-blog", "https://example.com/new", published)],
+                [],
+                [],
+            ),
+            (
+                [],
+                [_item("blog", "new-blog", "https://example.com/new", published)],
+                [],
+                [],
+            ),
+        ]
+    )
+    monkeypatch.setattr(run, "_mock_items", lambda now: next(results))
+    args = [
+        "--mock-data",
+        "--output",
+        output.as_posix(),
+        "--data-output",
+        data_output.as_posix(),
+        "--skip-empty-segment",
+        "--window-start",
+        "2026-05-21T06:00:00Z",
+        "--window-end",
+        "2026-05-22T06:00:00Z",
+    ]
+
+    assert run.main(args) == 0
+    assert run.main(args) == 0
+
+    payload = json.loads(data_output.read_text(encoding="utf-8"))
+    assert payload["counts"] == {"x": 1, "blogs": 1, "podcasts": 0, "videos": 0}
+    assert [item["title"] for item in payload["items"]["x"]] == ["existing-x"]
+    assert [item["title"] for item in payload["items"]["blogs"]] == ["new-blog"]
