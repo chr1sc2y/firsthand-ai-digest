@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-11T23:13:15.292721+00:00",
+  "counts": {
+    "x": 35,
+    "blogs": 1,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful",
+        "summary": "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF",
+        "link": "https://x.com/thsottiaux/status/2076054439140720719",
+        "author": "thsottiaux",
+        "published": "2026-07-11T21:22:04+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?",
+        "summary": "This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?",
+        "link": "https://x.com/petergyang/status/2076050876314300478",
+        "author": "petergyang",
+        "published": "2026-07-11T21:07:54+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Everything in AI moves so fast.\n\nWe are going to get here:\n- Run all the agents in the cloud\n- Choose any model (frontie",
+        "summary": "Everything in AI moves so fast.\n\nWe are going to get here:\n- Run all the agents in the cloud\n- Choose any model (frontier, OSS, Chinese, American)\n- Choose any harness\n- Have full tracing\n- Have recursive improvement loops\n\nI know it will be there but can it happen already?",
+        "link": "https://x.com/adityaag/status/2076047290083733539",
+        "author": "adityaag",
+        "published": "2026-07-11T20:53:39+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Tesla self-driving enables safer mobility for senior citizens",
+        "summary": "Tesla self-driving enables safer mobility for senior citizens",
+        "link": "https://x.com/elonmusk/status/2076038090947166516",
+        "author": "elonmusk",
+        "published": "2026-07-11T20:17:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "so far at least, i'm pretty sure AI has been net job-creating.\n\nthis was not what i expected--although i was much less p",
+        "summary": "so far at least, i'm pretty sure AI has been net job-creating.\n\nthis was not what i expected--although i was much less pessimistic than others, i thought by this level of capability we'd have seen some impact.\n\nit is possible this direction keeps going!",
+        "link": "https://x.com/sama/status/2076036901824532530",
+        "author": "sama",
+        "published": "2026-07-11T20:12:22+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "whoa",
+        "summary": "whoa",
+        "link": "https://x.com/sama/status/2076034163418014199",
+        "author": "sama",
+        "published": "2026-07-11T20:01:30+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "You know it's a good model when you grow more in 1 day than last two weeks combined.\n\nInstall the desktop app from https",
+        "summary": "You know it's a good model when you grow more in 1 day than last two weeks combined.\n\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo",
+        "link": "https://x.com/thsottiaux/status/2076021263945039876",
+        "author": "thsottiaux",
+        "published": "2026-07-11T19:10:14+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Let me verify a couple of load-bearing facts before I give you the architecture assessment.",
+        "summary": "Let me verify a couple of load-bearing facts before I give you the architecture assessment.",
+        "link": "https://x.com/steipete/status/2076013212043182375",
+        "author": "steipete",
+        "published": "2026-07-11T18:38:14+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "The durable value is in a secure multi-model harness that takes care of orchestration and model routing in a secure comp",
+        "summary": "The durable value is in a secure multi-model harness that takes care of orchestration and model routing in a secure complaint manner. Aka Perplexity Computer.",
+        "link": "https://x.com/AravSrinivas/status/2076006003238486207",
+        "author": "AravSrinivas",
+        "published": "2026-07-11T18:09:36+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "My process for a new project this weekend:\n\n-&gt; Use Fable to build plan.html with design guidelines\n-&gt; Use Claude D",
+        "summary": "My process for a new project this weekend:\n\n-&gt; Use Fable to build plan.html with design guidelines\n-&gt; Use Claude Design to make components + screens\n-&gt; Get gpt 5.6 to build",
+        "link": "https://x.com/petergyang/status/2075999617666445714",
+        "author": "petergyang",
+        "published": "2026-07-11T17:44:13+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+        "summary": "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+        "link": "https://x.com/sama/status/2075985056846451123",
+        "author": "sama",
+        "published": "2026-07-11T16:46:22+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way t",
+        "summary": "there are a lot of benchmarks that suggest 5.6 sol is the best model in the world right now, but the most reliable way to tell is that elon is obsessed with me again",
+        "link": "https://x.com/sama/status/2075983427019612242",
+        "author": "sama",
+        "published": "2026-07-11T16:39:53+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "30% of the cost was on fable at these levels of usage?",
+        "summary": "30% of the cost was on fable at these levels of usage?",
+        "link": "https://x.com/sama/status/2075982820322025788",
+        "author": "sama",
+        "published": "2026-07-11T16:37:28+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "homeboy you're the one sellling public market investors on short-term space datacenters",
+        "summary": "homeboy you're the one sellling public market investors on short-term space datacenters",
+        "link": "https://x.com/sama/status/2075982617976230043",
+        "author": "sama",
+        "published": "2026-07-11T16:36:40+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what compa",
+        "summary": "This is a great post if youre thinking about applied AI in the enterprise. The headline of this post is about what companies have huge upside from AI, but the deepest nuggets are about what AI transformation looks like in an organization.\n\nIt’s fundamentally about changing the underlying workflow or business process. As we move from chat tools to agents, those agents actually have to be deployed against workflows, which usually span multiple functions in an org. This is a different way of deploying AI than solely rolling it out to end users. It takes much more work upfront, but the results are the things that actually drive significant ROI. \n\n“Software asks the employee to adopt a tool, but infrastructure changes the operating layer underneath the employee. The employee should still know what happened, and the process owner should still be able to pause the workflow, change a rule, approve an exception, or pull a person back in when needed. But the value should not depend on someone remembering to use the AI every day.”\n\nThe winners of this will be the platforms that can be deployed for specific workflows and business processes with a deep domain expertise. The playbook will often heavily require FDE support, change management, getting data well organized, be able to have comprehensive evals for the workflows, and much more to get right.",
+        "link": "https://x.com/levie/status/2075963779599466894",
+        "author": "levie",
+        "published": "2026-07-11T15:21:49+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Literally the first time I see GPT do this (it's for Sol) https://t.co/bfUfdug6HP",
+        "summary": "Literally the first time I see GPT do this (it's for Sol) https://t.co/bfUfdug6HP",
+        "link": "https://x.com/petergyang/status/2075961523001078081",
+        "author": "petergyang",
+        "published": "2026-07-11T15:12:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family abo",
+        "summary": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
+        "link": "https://x.com/thsottiaux/status/2075961345351307739",
+        "author": "thsottiaux",
+        "published": "2026-07-11T15:12:08+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Excited for the match today 😅 https://t.co/xhVJKSEAcT",
+        "summary": "Excited for the match today 😅 https://t.co/xhVJKSEAcT",
+        "link": "https://x.com/petergyang/status/2075958951649432029",
+        "author": "petergyang",
+        "published": "2026-07-11T15:02:38+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The best AI builders are no longer managing every AI agent themselves.\n\nIn my new episode tmr, @imjaredz (Builder in Res",
+        "summary": "The best AI builders are no longer managing every AI agent themselves.\n\nIn my new episode tmr, @imjaredz (Builder in Residence at Devin) showed me how one master agent can spin up 10 sub-agents to tackle the same problem and then check who has the best solution.\n\n→ The master agent launches and messages the sub-agents\n→ Each sub-agent gets its own context to work with\n→ Each sub-agent returns its work for the master to judge\n\n📌 Subscribe to see how all this works tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2075943229430833234",
+        "author": "petergyang",
+        "published": "2026-07-11T14:00:09+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/GadbcJ9EzS",
+        "summary": "https://t.co/GadbcJ9EzS",
+        "link": "https://x.com/elonmusk/status/2075926721337991455",
+        "author": "elonmusk",
+        "published": "2026-07-11T12:54:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "By “this” he means scamming 🤣🤣 https://t.co/yQ5wryw1Ai",
+        "summary": "By “this” he means scamming 🤣🤣 https://t.co/yQ5wryw1Ai",
+        "link": "https://x.com/elonmusk/status/2075926239848611976",
+        "author": "elonmusk",
+        "published": "2026-07-11T12:52:39+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "He takes scamming to a whole new level",
+        "summary": "He takes scamming to a whole new level",
+        "link": "https://x.com/elonmusk/status/2075892136604573903",
+        "author": "elonmusk",
+        "published": "2026-07-11T10:37:08+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cybercab at a fork in the road",
+        "summary": "Cybercab at a fork in the road",
+        "link": "https://x.com/elonmusk/status/2075891028284903616",
+        "author": "elonmusk",
+        "published": "2026-07-11T10:32:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "They sure put a lot of effort into this crime",
+        "summary": "They sure put a lot of effort into this crime",
+        "link": "https://x.com/elonmusk/status/2075887316577439860",
+        "author": "elonmusk",
+        "published": "2026-07-11T10:17:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Nuanced",
+        "summary": "Nuanced",
+        "link": "https://x.com/elonmusk/status/2075885854787064241",
+        "author": "elonmusk",
+        "published": "2026-07-11T10:12:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Sol for complex reasoning and data analysis:",
+        "summary": "Sol for complex reasoning and data analysis:",
+        "link": "https://x.com/gdb/status/2075844434063978724",
+        "author": "gdb",
+        "published": "2026-07-11T07:27:35+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Imagine a fable 5 quality model that’s 3-4x less expensive in less than 6 months. And an Opus 4.8 grade model that can r",
+        "summary": "Imagine a fable 5 quality model that’s 3-4x less expensive in less than 6 months. And an Opus 4.8 grade model that can run on a local device in less than 12 months. Greater than 50% chance that these events will happen. Worth keeping in mind when you make predictions about the future.",
+        "link": "https://x.com/AravSrinivas/status/2075831774450770243",
+        "author": "AravSrinivas",
+        "published": "2026-07-11T06:37:16+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hop",
+        "summary": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
+        "link": "https://x.com/thsottiaux/status/2075820987833274448",
+        "author": "thsottiaux",
+        "published": "2026-07-11T05:54:25+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I've started using html artifacts more for specs and plans, it's just much easier for me to look at than all text md fil",
+        "summary": "I've started using html artifacts more for specs and plans, it's just much easier for me to look at than all text md files (@trq212 was right!)\n\nHowever, it's too difficult to give AI feedback to fix an html plan or even edit it directly. I have to provide it in a separate chat and hope AI gets what I'm referring to.\n\nInstead, I want to be able to select text or stuff on the html plan to send feedback to the AI or just fix myself directly.\n\nI think comment, editing, and collaboration features should be natively built into the harness for Claude Code and Codex web viewers. \n\nWould be a big improvement for human-AI collaboration.",
+        "link": "https://x.com/petergyang/status/2075797711513903244",
+        "author": "petergyang",
+        "published": "2026-07-11T04:21:55+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "It is hilarious that Claude (even Fable) still gives me these human eng-day estimates https://t.co/7aC1SxX6LK",
+        "summary": "It is hilarious that Claude (even Fable) still gives me these human eng-day estimates https://t.co/7aC1SxX6LK",
+        "link": "https://x.com/petergyang/status/2075787739619008611",
+        "author": "petergyang",
+        "published": "2026-07-11T03:42:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "seems bad",
+        "summary": "seems bad",
+        "link": "https://x.com/danshipper/status/2075767886254064011",
+        "author": "danshipper",
+        "published": "2026-07-11T02:23:24+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.5 is now enabled for Perplexity Enterprise orgs as well!",
+        "summary": "Grok 4.5 is now enabled for Perplexity Enterprise orgs as well!",
+        "link": "https://x.com/AravSrinivas/status/2075756798221619591",
+        "author": "AravSrinivas",
+        "published": "2026-07-11T01:39:21+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Just reviewed Q2 results for our sales team and we hit 178% of our goal!\n\nThat goal was already absurdly ambitious, espe",
+        "summary": "Just reviewed Q2 results for our sales team and we hit 178% of our goal!\n\nThat goal was already absurdly ambitious, especially since we had only a couple of sales people last year.\n\nToday revenue team is closing on 100 and we count governments, banks, and fastest growing tech companies as customers.",
+        "link": "https://x.com/amasad/status/2075749456046395499",
+        "author": "amasad",
+        "published": "2026-07-11T01:10:10+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 for health intelligence, the team has been focusing hard on improvements here:",
+        "summary": "GPT-5.6 for health intelligence, the team has been focusing hard on improvements here:",
+        "link": "https://x.com/gdb/status/2075741989228945908",
+        "author": "gdb",
+        "published": "2026-07-11T00:40:30+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "keep the feedback coming, thank you to all of our users!",
+        "summary": "keep the feedback coming, thank you to all of our users!",
+        "link": "https://x.com/gdb/status/2075738256663269790",
+        "author": "gdb",
+        "published": "2026-07-11T00:25:40+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-07-11",
+        "summary": "AI 早报 2026 07 11 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 KwaiKAT 发布 KAT Coder Pro V2.5 ↗ 1 Grok 4.5向免费用户开放 Grok Build限时体验 ↗ 2 Claude Code 桌面版新增内置浏览器：支持沙盒与交互 ↗ 3 OpenAI 重置用量并承认更新体验问题 ↗ 4 模型发布 Wan 发布 Wan Streamer v0.2：分辨率升至640×368 ↗ 5 Kyutai 发布开源多乐器转录模型 MuScriptor ↗ 6 开发生态 Google AI Studio 为部署应用推出免费个性化 URL ↗ 7 DeepSeek 开放平台更新样式 ↗ 8 Dify 发布官方 Dify CLI ↗ 9 产品应用 中国移动新消息推出“新消息…",
+        "link": "https://daily.juya.uk/issues/2026-07-11/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-11T01:20:52+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Build Small Winners Reveal",
+        "summary": "After reviewing hundreds of creative projects from builders around the world, it's finally time to announce the Build Small Hackathon winners 🎉\n\nCongratulations to all our winners, and thank you to everyone who joined us and built something amazing.\n\n🎙️ New to streaming or looking to level up? Check out StreamYard and get $10 discount! 😍 https://streamyard.com/pal/d/5371923545718784",
+        "link": "https://www.youtube.com/watch?v=tYU7erNVfA0",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-10T22:14:59+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-07-10T22:00:00+00:00",
+    "end": "2026-07-11T22:00:00+00:00"
+  }
+}
