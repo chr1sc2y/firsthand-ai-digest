@@ -308,6 +308,17 @@ def _cleanup_staging_source(source: Path) -> None:
     source.unlink(missing_ok=True)
 
 
+def _resolve_chinese_source(source: Path, *, date: str, data_target: Path) -> Path:
+    """Prefer a same-run human Chinese draft before falling back to data output."""
+    sibling = source.with_name(f"{source.stem}-zh.html")
+    if sibling.exists():
+        return sibling.resolve()
+    staged = staging_drafts_dir() / f"firsthand-ai-brief-{date}-zh.html"
+    if staged.exists():
+        return staged.resolve()
+    return data_target
+
+
 def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = True) -> Path:
     source = resolve_brief_source(source)
     if not source.exists():
@@ -320,13 +331,15 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
     BRIEF_DIR.mkdir(parents=True, exist_ok=True)
     data_target = DATA_INSIGHT_DIR / f"{brief_date}-ai-brief.html"
     target = BRIEF_DIR / data_target.name
-    zh_source = DATA_INSIGHT_DIR / f"{brief_date}-ai-brief-zh.html"
+    zh_data_target = DATA_INSIGHT_DIR / f"{brief_date}-ai-brief-zh.html"
+    zh_source = _resolve_chinese_source(source, date=brief_date, data_target=zh_data_target)
     english_html = source.read_text(encoding="utf-8")
     if not zh_source.exists():
-        zh_source.write_text(
+        zh_data_target.write_text(
             _generate_chinese_companion(english_html, date=brief_date),
             encoding="utf-8",
         )
+        zh_source = zh_data_target
     has_chinese_companion = True
     if has_chinese_companion:
         english_html = _inject_language_switch(english_html, date=brief_date, language="en")
@@ -335,15 +348,11 @@ def publish(source: Path, *, date: str | None = None, refresh_homepage: bool = T
 
     # Also publish companion Chinese version (if exists) so lang switch works from dist/
     if has_chinese_companion:
-        zh_data_target = DATA_INSIGHT_DIR / zh_source.name  # already is
-        zh_dist_target = BRIEF_DIR / zh_source.name
+        zh_dist_target = BRIEF_DIR / zh_data_target.name
         chinese_html = _inject_language_switch(
             zh_source.read_text(encoding="utf-8"), date=brief_date, language="zh"
         )
         zh_data_target.write_text(chinese_html, encoding="utf-8")
-        # ensure zh is also in data (in case source was external) and dist
-        if not zh_data_target.exists() or zh_source.resolve() != zh_data_target.resolve():
-            shutil.copy2(zh_source, zh_data_target)
         shutil.copy2(zh_data_target, zh_dist_target)
 
     payload = _load_index()

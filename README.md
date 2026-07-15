@@ -29,7 +29,11 @@ Flip between time windows (3h · 6h · 12h · 24h · 3d · 7d) to see what's fre
 
 ## Daily AI interpretations
 
-The Codex automation `每日 AI 资讯 24 小时深度报告` publishes each daily Insight brief into `data/insight/` after each run. Public builds expose those briefs under `archive/`, with a fixed `EN / 中文` switch on both language versions. The automation should produce a natural Chinese localized rewrite; if it omits the Chinese file, the publish script generates a fallback Chinese companion so the Insight site remains bilingual.
+The daily GitHub Actions workflow deepens the normalized source window, calls
+DeepSeek for an evidence-linked English analysis and Chinese localized rewrite,
+then publishes both Insight briefs into `data/insight/`. Public builds expose
+the briefs under `archive/`, with a fixed `EN / 中文` switch on both versions.
+See [operations](docs/operations.md) for the required repository secrets.
 
 ---
 

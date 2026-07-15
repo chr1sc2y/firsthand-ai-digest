@@ -19,8 +19,10 @@ open dist/index.html
 
 ## Secrets
 
-`config/secrets.json` is gitignored. We never read system environment
-variables; the Apify token must be in the file.
+`config/secrets.json` is gitignored. The local digest collector reads its Apify
+token from this file. The DeepSeek report generator reads
+`DEEPSEEK_API_KEY` from the environment so the same code can use a masked
+GitHub Actions secret.
 
 ```jsonc
 {
@@ -44,10 +46,11 @@ day at 06:17 Asia/Shanghai and on manual dispatch. It:
 3. Materialises `config/secrets.json` from the repo secret `APIFY_TOKEN`
 4. Computes the latest complete 24-hour window anchored at 06:00
 5. Builds `data/segments/YYYY-MM-DD/06.json`
-6. Writes the window into `data/daily/YYYY-MM-DD.json` while retaining legacy 6-hour compatibility
-7. Writes `data/index.json`, renders latest 24h, and copies `data/` into `dist/data/`
-8. Commits JSON archive changes back to the repository
-9. Uploads `dist/` as the Pages artifact and deploys it
+6. Fetches accessible original-source pages and writes an evidence pack under `data/source-packs/`
+7. Calls DeepSeek for validated English and Chinese report JSON, then renders stable HTML drafts
+8. Publishes both briefs into `data/insight/` and rebuilds the archive/site
+9. Commits digest, source-pack, and Insight changes back to the repository
+10. Syncs the standalone Insight repository, then deploys GitHub Pages
 
 The daily cadence cuts scheduled runner and Apify actor acquisition attempts
 from four per day to one while staying inside the free $5 platform credit.
@@ -120,8 +123,45 @@ Publish a freshly generated brief draft:
 python scripts/publish_ai_brief.py staging/drafts/firsthand-ai-brief-YYYY-MM-DD.html
 ```
 
-Codex automation should drop drafts under `staging/drafts/` and source
-material under `data/source-packs/` instead of the repository root.
+Generated drafts are written under `staging/drafts/`; source evidence is kept
+under `data/source-packs/` instead of the repository root.
+
+### DeepSeek Insight generation
+
+Add this required Actions secret in the main repository:
+
+```text
+DEEPSEEK_API_KEY
+```
+
+The workflow never writes the key to disk or prints it. Optionally add a
+repository variable named `DEEPSEEK_MODEL`; it defaults to
+`deepseek-v4-flash`. Flash runs in non-thinking mode by default to minimize
+latency and output-token cost. Set `DEEPSEEK_THINKING=enabled` only when a
+future report needs deeper reasoning. The generation stage deliberately fails when the key is
+missing or the model returns invalid/truncated JSON, so a bad report cannot
+replace the latest published brief.
+
+For a local end-to-end run after a segment exists:
+
+```bash
+export DEEPSEEK_API_KEY='...'
+python scripts/build_insight_source_pack.py \
+  --segment data/segments/YYYY-MM-DD/06.json \
+  --output data/source-packs/YYYY-MM-DD-source-pack.json
+python scripts/generate_ai_brief.py \
+  --source-pack data/source-packs/YYYY-MM-DD-source-pack.json \
+  --date YYYY-MM-DD
+python scripts/publish_ai_brief.py \
+  staging/drafts/firsthand-ai-brief-YYYY-MM-DD.html
+```
+
+`build_insight_source_pack.py` fetches ordinary article pages in parallel.
+X uses post text already captured by the configured Apify collector and is
+marked partial because replies, quoted posts, and media context may be absent.
+Heavy or anti-bot-protected sources remain explicitly limited. DeepSeek is
+only the analysis layer; it is not trusted to browse or invent missing source
+content.
 
 To let `.github/workflows/daily.yml` sync the Insight repo automatically after
 the scheduled digest build, create a main-repo secret named
@@ -174,6 +214,9 @@ they don't run by default.
 - Window debugging: `python scripts/segment_window.py` prints the latest
   complete 24-hour window ending at 06:00 Asia/Shanghai; `python scripts/archive_data.py` rebuilds
   `data/index.json` and `dist/index.html` from committed JSON.
+- Insight generation errors: inspect the source pack's `access_counts`, then
+  check the `Generate bilingual AI Insight brief` step for authentication,
+  balance, rate-limit, invalid JSON, or truncated-output errors.
 
 ## Cost
 
@@ -187,3 +230,6 @@ they don't run by default.
 - **GitHub Actions** — free tier covers daily cron easily.
 - **GitHub Pages** — free.
 - **Domain** — whatever you pay your registrar.
+- **DeepSeek** — usage-based API billing. Input is capped per source and for
+  the whole request; check DeepSeek usage periodically and set account-level
+  balance controls appropriate for a once-daily run.

@@ -17,3 +17,21 @@ def test_daily_workflow_uses_one_anchored_24_hour_run():
     assert "--max-per-source 20" in workflow
     for flag in ("--hours 24", "--blog-hours 24", "--video-hours 24", "--podcast-hours 24"):
         assert flag in workflow
+
+
+def test_daily_workflow_generates_and_publishes_deepseek_brief():
+    workflow = (ROOT / ".github" / "workflows" / "daily.yml").read_text(
+        encoding="utf-8"
+    )
+
+    source_pack = workflow.index("Build AI Insight source pack")
+    generation = workflow.index("Generate bilingual AI Insight brief")
+    publication = workflow.index("Publish AI Insight brief")
+    archive = workflow.index("Build archive and site")
+
+    assert source_pack < generation < publication < archive
+    assert "secrets.DEEPSEEK_API_KEY" in workflow
+    assert "scripts/build_insight_source_pack.py" in workflow
+    assert "scripts/generate_ai_brief.py" in workflow
+    assert 'vars.DEEPSEEK_MODEL || \'deepseek-v4-flash\'' in workflow
+    assert "scripts/publish_ai_brief.py" in workflow

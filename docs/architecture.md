@@ -32,7 +32,16 @@ The 06:00 cutoff also gives the 08:00 Insight brief a complete recent window.
               ▼
        24h window-filter → cross-category dedup → sort
               │
-              ├──▶ data/segments/YYYY-MM-DD/06.json ───▶ commit to repo
+              ├──▶ data/segments/YYYY-MM-DD/06.json
+              │          │
+              │          ▼
+              │    source enrichment ──▶ data/source-packs/
+              │          │
+              │          ▼
+              │    DeepSeek JSON analysis ──▶ deterministic bilingual HTML
+              │          │
+              │          ▼
+              │    data/insight/ ──▶ standalone Insight Pages repo
               ├──▶ data/daily/YYYY-MM-DD.json when a day is complete
               ├──▶ data/index.json manifest for the frontend
               │
@@ -53,7 +62,10 @@ The 06:00 cutoff also gives the 08:00 Insight brief a complete recent window.
 | 7 | Sort + clip        | `run.py`                   | newest first, max-per-source           |
 | 8 | Window snapshot    | `run.py`                   | `data/segments/YYYY-MM-DD/06.json`     |
 | 9 | Archive/index      | `archive_data.py`          | daily merge + `data/index.json`        |
-|10 | Render             | `render_html.py`           | latest 24h HTML + 7d client switching  |
+|10 | Source enrichment  | `build_insight_source_pack.py` | primary page text plus explicit access limitations |
+|11 | Insight generation | `generate_ai_brief.py`     | validated DeepSeek JSON; deterministic bilingual HTML |
+|12 | Insight publishing | `publish_ai_brief.py`      | archive paths, language switch, homepage link |
+|13 | Render             | `render_html.py`           | latest 24h HTML + 7d client switching  |
 
 ## Failure model
 
@@ -67,6 +79,10 @@ The 06:00 cutoff also gives the 08:00 Insight brief a complete recent window.
   atomic replace, so a transient category failure cannot erase prior results.
 - Segment and daily JSON files are committed back to the repository and copied
   into the Pages artifact under `dist/data/` via an atomic directory swap.
+- Source fetch failures degrade to limited metadata with an explicit reason.
+  DeepSeek generation is stricter: missing credentials, invalid JSON,
+  hallucinated source IDs, or truncated output stop publication and leave the
+  previous Insight brief live.
 
 ## Why static + GitHub Pages
 
@@ -77,6 +93,7 @@ The 06:00 cutoff also gives the 08:00 Insight brief a complete recent window.
 
 ## Future hooks
 
-- LLM summarisation: a `summarize.py` step can be inserted between dedup
-  and render. The render layer already accepts a `summary` field per item.
+- Optional provider fallback for temporary DeepSeek outages.
+- Optional transcript providers for videos and podcasts currently limited to
+  descriptions, feed text, chapters, or show notes.
 - Optional catch-up/backfill command for missing historical daily windows.

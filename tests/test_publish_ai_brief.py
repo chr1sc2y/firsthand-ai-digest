@@ -116,6 +116,42 @@ def test_publish_auto_generates_chinese_companion_when_missing(tmp_path, monkeyp
     assert chinese == dist_chinese
 
 
+def test_publish_prefers_staged_chinese_companion_over_fallback(tmp_path, monkeypatch):
+    root = tmp_path
+    data_insight = root / "data" / "insight"
+    dist_archive = root / "dist" / "archive"
+    data_insight.mkdir(parents=True)
+    dist_archive.mkdir(parents=True)
+
+    monkeypatch.setattr(publish_ai_brief, "ROOT", root)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_DIR", data_insight)
+    monkeypatch.setattr(publish_ai_brief, "DATA_INSIGHT_INDEX", data_insight / "index.json")
+    monkeypatch.setattr(publish_ai_brief, "DIST", root / "dist")
+    monkeypatch.setattr(publish_ai_brief, "BRIEF_DIR", dist_archive)
+
+    english_source = _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-07-04.html",
+        '<!doctype html><html lang="en"><head><style>body{color:#111}</style></head>'
+        "<body><main><h1>English</h1></main></body></html>",
+    )
+    _write_staged_brief(
+        root,
+        "firsthand-ai-brief-2026-07-04-zh.html",
+        '<!doctype html><html lang="zh-CN"><head><style>body{color:#111}</style></head>'
+        "<body><main><h1>人工中文稿</h1></main></body></html>",
+    )
+
+    publish_ai_brief.publish(english_source, refresh_homepage=False)
+
+    chinese = (data_insight / "2026-07-04-ai-brief-zh.html").read_text(encoding="utf-8")
+    dist_chinese = (dist_archive / "2026-07-04-ai-brief-zh.html").read_text(encoding="utf-8")
+    assert "人工中文稿" in chinese
+    assert "自动本地化改写" not in chinese
+    assert 'class="active" href="2026-07-04-ai-brief-zh.html">中文</a>' in chinese
+    assert chinese == dist_chinese
+
+
 def test_publish_records_public_archive_path(tmp_path, monkeypatch):
     root = tmp_path
     data_insight = root / "data" / "insight"

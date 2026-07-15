@@ -47,6 +47,8 @@ def main() -> int:
         "DIGEST_SEGMENT_DATE": start_local.date().isoformat(),
         "DIGEST_SEGMENT_HOUR": f"{start_local.hour:02d}",
         "DIGEST_SEGMENT_PATH": f"data/segments/{start_local.date().isoformat()}/{start_local.hour:02d}.json",
+        "INSIGHT_BRIEF_DATE": end_local.date().isoformat(),
+        "INSIGHT_SOURCE_PACK_PATH": f"data/source-packs/{end_local.date().isoformat()}-source-pack.json",
     }
     lines = [f"{key}={value}" for key, value in values.items()]
     if args.github_env:

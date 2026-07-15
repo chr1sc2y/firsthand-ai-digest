@@ -86,6 +86,32 @@ jobs:
             --skip-empty-segment \
             --output dist/index.html
 
+      - name: Build AI Insight source pack
+        run: |
+          python scripts/build_insight_source_pack.py \
+            --segment "$DIGEST_SEGMENT_PATH" \
+            --output "$INSIGHT_SOURCE_PACK_PATH" \
+            --max-sources 120
+
+      - name: Generate bilingual AI Insight brief
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
+        run: |
+          if [ -z "$DEEPSEEK_API_KEY" ]; then
+            echo "::error::Repository secret DEEPSEEK_API_KEY is not set."
+            exit 1
+          fi
+          python scripts/generate_ai_brief.py \
+            --source-pack "$INSIGHT_SOURCE_PACK_PATH" \
+            --date "$INSIGHT_BRIEF_DATE" \
+            --output-dir staging/drafts
+
+      - name: Publish AI Insight brief
+        run: |
+          python scripts/publish_ai_brief.py \
+            "staging/drafts/firsthand-ai-brief-${INSIGHT_BRIEF_DATE}.html"
+
       - name: Build archive and site
         run: python scripts/archive_data.py --render-hours 24
 
