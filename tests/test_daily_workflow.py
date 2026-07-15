@@ -35,3 +35,5 @@ def test_daily_workflow_generates_and_publishes_deepseek_brief():
     assert "scripts/generate_ai_brief.py" in workflow
     assert 'vars.DEEPSEEK_MODEL || \'deepseek-v4-flash\'' in workflow
     assert "scripts/publish_ai_brief.py" in workflow
+    assert "git add -u dist" in workflow
+    assert "Failed to persist generated digest data after 3 attempts" in workflow
