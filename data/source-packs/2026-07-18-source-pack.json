@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-17T23:13:34.058896+00:00",
+  "coverage": {
+    "start": "2026-07-16T22:00:00+00:00",
+    "end": "2026-07-17T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-17T23:11:14.618433+00:00",
+  "item_count": 50,
+  "source_count": 50,
+  "access_counts": {
+    "substantial": 6,
+    "partial": 44,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Quoting Kimi K3",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-17T13:43:53+00:00",
+      "url": "https://simonwillison.net/2026/Jul/17/kimi-k3/",
+      "digest_excerpt": "<blockquote cite=\"https://news.ycombinator.com/item?id=48935342#48936515\"><p>Is there something I can actually help you with today?</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://news.ycombinator.com/item?id=48935342#48936515\">Kimi K3</a>, after refusing to leak its system prompt</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/kimi\">kimi</a>, <a href=\"https://simonwillison.net/tags/ai-personality\">ai-personality</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/17/kimi-k3/",
+        "limitation": ""
+      },
+      "page_title": "A quote from Kimi K3",
+      "page_description": "Is there something I can actually help you with today?",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n17th July 2026\nIs there something I can actually help you with today?\n—\nKimi K3\n,\nafter refusing to leak its system prompt\nPosted\n17th July 2026\nat 1:43 pm\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n17th July 2026\n.\nai\n2,127\ngenerative-ai\n1,881\nllms\n1,848\nai-personality\n32\nkimi\n12\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "LLM cliché highlighter",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-17T12:11:11+00:00",
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/",
+      "digest_excerpt": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/llm-cliche-highlighter\">LLM cliché highlighter</a></p>\n        <p>I got frustrated reading <em>yet another</em> article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/",
+        "limitation": ""
+      },
+      "page_title": "Tool: LLM cliché highlighter",
+      "page_description": "Detect and highlight common clichéd phrases in text that frequently appear in language model outputs. Paste text into the analyzer to identify patterns like \"no X, no Y\" chains, \"sit …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n17th July 2026\nTool\nLLM cliché highlighter\n— Detect and highlight common clichéd phrases in text that frequently appear in language model outputs. Paste text into the analyzer to identify patterns like \"no X, no Y\" chains, \"sit with that,\" \"you already know,\" and other LLM-generated expressions, with toggleable pattern detection and context-aware sentence highlighting. The tool includes pattern counts, match listings with quick navigation, and runs entirely in your browser with localStorage support for persistence.\nI got frustrated reading\nyet another\narticle that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app for highlighting ten common patterns that show up in that sort of writing.\nPosted\n17th July 2026\nat 12:11 pm\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nbeat\nby Simon Willison, posted on\n17th July 2026\n.\ntools\n71\nai\n2,127\ngenerative-ai\n1,881\nllms\n1,848\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "A scorecard for the AI age",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-17T10:00:00+00:00",
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "digest_excerpt": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/a-scorecard-for-the-ai-age/",
+        "limitation": ""
+      },
+      "page_title": "A scorecard for the AI age | OpenAI",
+      "page_description": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute. ",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 17, 2026\nCompany\nA scorecard for the AI age\nLoading…\nShare\n1. How much useful work gets done?\n1. How much useful work gets done?\n2. What does a successful task actually cost?\n3. How often does AI get the work right?\n4. Does each AI dollar buy more work as usage grows?\nA scorecard for the AI age\n1. How much useful work gets done?\n2. What does a successful task actually cost?\n3. How often does AI get the work right?\n4. Does each AI dollar buy more work as usage grows?\nA scorecard for the AI age\nThe question I hear from CFOs everywhere is simple: how do we get more value from our AI spend?\nFor years, the market measured the success of software through adoption: seats purchased, users active, licenses renewed. Understanding the value of AI demands a more powerful measure: work accomplished.\nThe basic economic question facing CFOs and other business leaders is whether the value of the work AI completes grows faster than the cost of producing it.\nAnswering that question requires looking more deeply than a metric such as cost per token. A lower-cost model may have cheaper tokens, but getting great results may require more attempts, more time, or more human review. A more capable model may have more expensive tokens, but complete the same task in one pass. What matters is the full cost of producing a successful outcome, measured against the value that outcome creates.\nThe ultimate scorecard for the age of AI could be looked at as “Useful Intelligence per Dollar.” This metric answers four key questions:\nIs AI completing work that matters?\nWhat does each successful task cost?\nCan people depend on the result?\nDoes each AI dollar produce more value as usage grows?\n1. How much useful work gets done?\nStart with the work itself.\nHow many customer issues did AI help resolve? How many code changes did it help ship? How many contracts did it review? How much time did it give back to people? How many decisions improved because the right context was available at the right moment?\nTokens create value when they transform into work people can use. As models become more capable, they can take on longer and more complex tasks: maintaining context, reasoning through multiple steps, working across tools, and adapting as they go.\nThe best place to begin is with one workflow. Define what “done” means and measure that outcome in the system where the work happens.\nFor a support team, “done” might mean a customer issue resolved. For an engineering team, it might mean a code change that passes its tests. For a legal team, it might mean a contract reviewed accurately and on time.\nConsider a finance team preparing for a forecast review. Much of the work happens before a final decision is made: finding the latest forecast, moving data into Excel or Sheets, identifying changes, reconciling tabs, rebuilding slides, and checking that everything adds up perfectly.\nChatGPT Work can take on much of that process, giving the team more time to focus on the questions that matter: What changed? Why? What should we do next?\nThat is useful intelligence per dollar in practice. More work gets completed, faster, while people spend more of their time applying judgment, creativity, and expertise.\n2. What does a successful task actually cost?\nThe next question is what it costs to complete that work well.\nAI tasks vary widely. A quick answer may require little compute. A coding, research, or financial workflow may involve deeper reasoning, tool use, and many actions. Those more complex tasks can require more compute, but they can create much more value.\nAt the model level, cost per successful task depends on price, the amount of compute used, and the likelihood of reaching the right result. For a business, the full cost also includes employee time, human review, retries, and rework.\nThe calculation is straightforward:\nAdd the full cost of completing the work.\nCount the tasks that met the required quality bar.\nDivide the full cost by the number of successful tasks.\nThis is why the lowest price per token does not always produce the lowest cost per outcome. A frontier model may deliver the best value even for a routine request if it produces the right answer in one pass, reducing retries, latency, review, and total compute.\nA tiered model family gives customers more ways to optimize this equation. GPT‑5.6, which we released last week, has three tiers: Sol is our flagship; Terra balances performance and cost; Luna is our fastest and most affordable model.\nThese tiers provide useful starting points. The economics of the full task should ultimately determine the right model. A customer might use Luna for a fast, high-volume workflow, Terra for work requiring greater depth, or Sol when stronger reasoning delivers the best result with fewer attempts.\nWe trained GPT‑5.6 to get more useful work from every token. On the Artificial Analysis Coding Agent Index, GPT‑5.6 Sol with max reasoning set a new state of the art while using 54% fewer output tokens than another leading model. The chart below illustrates the comparison.\nDeepSWE v1.1\n: Long-horizon engineering tasks; GPT‑5.6 Sol reaches a new high of 72.7%, above Claude Fable 5’s 69.9%, at 36.2% lower estimated API cost.\nAcross the GPT‑5.6 family, the goal is the same: more successful work per dollar. Greater efficiency makes existing tasks more affordable. Greater capability makes entirely new kinds of work possible.\nEach new model generation should improve both sides of that equation. Customers should be able to accomplish more valuable work while, at the same time, the cost of completing each task continues to fall.\n3. How often does AI get the work right?\nThe third measure is dependability.\nAI adoption tends to deepen in stages. First, AI helps draft. Then it finds context and reasons across tools and data. Over time, it begins taking action, handling exceptions, and completing workflows, with people providing judgment and control where needed.\nEach step creates more value and asks more of the system.\nDependability has direct economic value. When results are accurate, well-sourced, consistent, and escalated appropriately, people spend less time reviewing, correcting, and repeating the work. Successful tasks cost less, and organizations gain the confidence to use AI in more important workflows.\nTeams can make this concrete by tracking three outcomes:\nReady to use: The result met the quality bar as delivered.\nNeeds correction: The result required another attempt or human edits.\nNeeds escalation: A person needed to step in and finish the work.\nThese measures tell a richer story than model accuracy alone. They show whether AI is genuinely reducing the work involved in completing the project.\nDependability also requires clear boundaries. Before AI moves from drafting to taking action, organizations should define:\nWhat data the system can access.\nWhat systems it can use or change.\nWhen a person should review or approve an action.\nSafety, security, privacy, and control create the foundation for deeper use. People need to understand how the system behaves, how their data is handled, and how its actions are governed.\nChatGPT Work builds on the security, privacy, compliance, and workspace-management foundation of ChatGPT Enterprise. This allows organizations to give AI more context and access to more valuable workflows while maintaining appropriate oversight.\nCapability earns first use. Dependability makes AI part of how work gets done.\n4. Does each AI dollar buy more work as usage grows?\nThe final question is whether the economics improve at scale.\nCompanies can measure this by following the same workflow over time. Track how many tasks met the quality bar, the total cost of completing them, and the cost per successful task. If completed work grows faster than total cost while quality holds or improves, each AI dollar is producing more value.\nCompute sits at the center of this equation.\nCompute powers research and every task that AI completes. It shapes product quality, speed, dependability, availability, and cost. Training compute builds future capability. Inference compute delivers useful work today. Both should translate into better outcomes for customers.\nBetter models, more efficient inference, purpose-built hardware, higher utilization, smarter routing, and stronger product design all improve the return on compute. Each generation of infrastructure helps train more capable models. Better algorithms, hardware, and software then help serve those models more efficiently.\nCustomers experience those improvements in human terms: better answers, faster results, fewer corrections, more dependable products, and a lower cost for the work they need done.\nThe gains compound. Better infrastructure accelerates research. Research produces more capable and efficient models. Better models improve products. Better products drive adoption, learning, and revenue. That growth supports continued investment in the next generation of research, compute, deployment, and safety.\nOpenAI brings these pieces together through one shared intelligence platform. People use it through ChatGPT and ChatGPT Work. Developers build with it through Codex and the API. Enterprises deploy it into the systems where work happens.\nWhen one layer improves, every product and customer can benefit.\nA scorecard for the AI age\nTaken together, these four measures tell us whether useful intelligence per dollar is improving.\nUseful work tells us what AI produces. Cost per successful task tells us what it takes to reach the outcome. Dependability tells us how much of the work people can confidently use. Value at scale tells us whether each dollar, and each unit of compute, accomplish more over time.\nThe goal is AI that helps people do more meaningful work, make better decisions, and spend more time on the parts of their jobs that require distinctly human judgment and creativity.\nOur job is to make that equation better with every generation: more capable models, faster and more dependable results, and lower costs for the work customers need done.\nThat is how AI becomes more useful to more people and organizations over time.\n2026\nEnterprise\nGPT\nAuthor\nSarah Friar\nKeep reading\nView all\nHow HP is scaling early AI wins across the enterprise\nCompany\nJun 28, 2026\nHow agents are transforming work\nCompany\nJun 25, 2026\nOpenAI and Broadcom unveil LLM-optimized inference chip\nCompany\nJun 24, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "Spot birds not golf",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-17T02:58:07+00:00",
+      "url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/",
+      "digest_excerpt": "<p>Suggestion for hyperscalers feeling pressure over data center water use:</p>\n<p>Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!</p>\n<p>Google <a href=\"https://sustainability.google/reports/google-2026-environmental-report/\">used 10.9 billion gallons in 2025</a>, so about 30 million gallons per day.</p>\n<p>The Coachella Valley has <a href=\"https://www.cvwd.org/167/Water-Conservation\">120 golf courses each using ~800 acre-feet per year</a>,  which is ~750,000 gallons per day.</p>\n<p>So Google buying up 40 of those courses (1/3) should do the trick.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-energy-usage\">ai-energy-usage</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/17/spot-birds-not-golf/",
+        "limitation": ""
+      },
+      "page_title": "Spot birds not golf",
+      "page_description": "Suggestion for hyperscalers feeling pressure over data center water use: Buy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n17th July 2026\nSuggestion for hyperscalers feeling pressure over data center water use:\nBuy up a few exclusive country clubs, convert the golf courses into public parks, pay for guides and binoculars to get the previous members into birdwatching - help them embrace a more sustainable hobby!\nGoogle\nused 10.9 billion gallons in 2025\n, so about 30 million gallons per day.\nThe Coachella Valley has\n120 golf courses each using ~800 acre-feet per year\n, which is ~750,000 gallons per day.\nSo Google buying up 40 of those courses (1/3) should do the trick.\nPosted\n17th July 2026\nat 2:58 am\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nnote\nby Simon Willison, posted on\n17th July 2026\n.\nai\n2,127\nai-energy-usage\n18\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "2026-07-17",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-17T01:08:09+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-17/",
+      "digest_excerpt": "AI 早报 2026 07 17 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 月之暗面正式发布 2.8 万亿参数模型 K3，权重将于 7 月 27 日开源 ↗ 1 OpenAI 确认：GPT 5.6在无沙盒 full access 模式下会误删文件 ↗ 2 Tibo称Codex与ChatGPT Work达900万活跃用户并重置额度 ↗ 3 ClaudeDevs 重置所有用户 5 小时及每周速率限制 ↗ 4 模型发布 MiniMax正式上线Music 3.0音乐生成模型 ↗ 5 NVIDIA 推出开源 Nemotron 3 Embed 嵌入模型系列 ↗ 6 Xiaomi Robotics发布Xiaomi Robotics 1：采用10万小时免实体预训练 ↗ 7 Muse Spark 1.1上线OpenR…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-17/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-17",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-17 ·\nMarkdown\nAI 早报 2026-07-17\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\n月之暗面正式发布 2.8 万亿参数模型 K3，权重将于 7 月 27 日开源\n↗\n#1\nOpenAI 确认：GPT-5.6在无沙盒 full-access 模式下会误删文件\n↗\n#2\nTibo称Codex与ChatGPT Work达900万活跃用户并重置额度\n↗\n#3\nClaudeDevs 重置所有用户 5 小时及每周速率限制\n↗\n#4\n模型发布\nMiniMax正式上线Music 3.0音乐生成模型\n↗\n#5\nNVIDIA 推出开源 Nemotron 3 Embed 嵌入模型系列\n↗\n#6\nXiaomi Robotics发布Xiaomi-Robotics-1：采用10万小时免实体预训练\n↗\n#7\nMuse Spark 1.1上线OpenRouter，仅面向美国开发者\n↗\n#8\n开发生态\nAnthropic 为 Claude Code 的 /code-review 新增多个 effort 级别\n↗\n#9\nMiniMax发布Code 2.0桌面端：重构底层架构，新增金融模块\n↗\n#10\nGemini API Managed Agents上线免费层级及预算护栏\n↗\n#11\n产品应用\nGoogle将NotebookLM更名并升级为Gemini Notebook\n↗\n#12\n官方宣布 SuperGrok Heavy 用户可免费获 X Premium+\n↗\n#13\nGoogle 搜索 AI Mode 允许用户直接联动第三方应用\n↗\n#14\nOpenAI 扩展 ChatGPT 青少年保护，支持默认开启学习模式\n↗\n#15\n努比亚发布 NaviX Ultra 搭载豆包手机助手\n↗\n#16\n技术与洞察\nKimi 发布 PerceptionBench 视觉感知评测基准\n↗\n#17\n行业动态\n英特尔与谷歌云扩大合作，部署 Gemini Enterprise 加速企业 AI 转型\n↗\n#18\n据报道一男子潜入Anthropic大厅发出死亡威胁，无人被捕\n↗\n#19\n要闻\n月之暗面正式发布 2.8 万亿参数模型 K3，权重将于 7 月 27 日开源\n#1\nKimi 正式发布 Kimi K3 模型，该模型拥有 2.8 万亿参数，原生支持视觉理解并具备 100 万 token 上下文窗口。模型基于 KDA 和 AttnRes 架构，采用 Stable LatentMoE 在 896 个专家中激活 16 个。官方评测显示，Kimi K3 整体表现仍落后于 Claude Fable 5 和 GPT 5.6 Sol，但稳定超过了其他测试模型。模型现已在 Kimi 应用、Kimi Work、Kimi Code 及 API 上线，默认思考强度为 max，完整模型权重计划于 7 月 27 日前发布。\n月之暗面正式推出 Kimi K3 模型。该模型总参数量达 2.8 万亿，原生支持视觉理解，并拥有 100 万 token 的上下文窗口。\n架构方面，K3 基于 Kimi Delta Attention (KDA) 和 Attention Residuals (AttnRes) 构建。同时，采用 Stable LatentMoE 框架，在 896 个专家中实际激活 16 个，结合 Quantile Balancing 和 Per-Head Muon 等优化。此外，K3 从 SFT 阶段开始采用量化感知训练，使用 MXFP4 权重和 MXFP8 激活以适配广泛硬件。\n性能方面，官方评测显示 Kimi K3 的整体表现仍落后于最强的闭源模型 Claude Fable 5 和 GPT 5.6 Sol，但在长程编程、知识工作和推理等前沿智能场景中展现出前沿水平，并稳定超过了其他所有被测模型。在编码能力上，K3 能完成内核优化、从零构建 GPU 编译器 MiniTriton、3D 开放世界游戏开发及自主芯片设计等长程任务；在知识工作上，K3 能进行端到端的研究与可视化，Kimi Work 还同步推出了小组件和看板功能。\n可用性方面，Kimi K3 现已在 Kimi.com、Kimi Work 、Kimi Code 及 Kimi API 上线，当前默认思考强度为 max，后续将增加 low 和 high 模式。 API 定价为每百万tokens 缓存命中输入 ￥2、未命中输入 ￥20、输出 ￥100，官方称编程场景下 API 缓存命中率超过 90%。官方还即将面向企业推出托管 Agent 平台 Kimi Hosted Agent。完整模型权重将于 7 月 27 日前发布，更多技术细节将随技术报告公布。\n官方也指出了 Kimi K3 的局限性：若 Agent 框架未按要求回传全部历史思考内容或中途切换模型，可能导致生成质量不稳定；在处理简单任务和模糊指令时可能过于主动而替用户做出非预期决定；与 Fable 5 等最强闭源模型相比，K3 在用户体验上仍有一定差距。\n相关链接：\nhttps://www.kimi.com/blog/kimi-k3\nOpenAI 确认：GPT-5.6在无沙盒 full-access 模式下会误删文件\n#2\nCodex 负责人 Tibo 表示，调查了少数关于GPT-5.6意外删除文件的反馈。确认了GPT-5.6在无沙盒 full-access 模式下运行Codex时，有概率因覆盖环境变量失误而误删$HOME目录。该团队正更新开发者提示并增加防护措施，未来几天将发布详细事后分析。\nCodex 负责人 Tibo 表示，其团队调查了少数关于GPT-5.6非预期删除文件的报告。该问题常发生于启用全访问模式且未用沙盒保护运行Codex时，模型误判导致删除$HOME目录。Tibo指出这并非预期行为，团队目前正采取更新开发者消息、引导更安全权限及增加防护等措施缓解风险，并将在未来几天分享详细事后分析。\n相关链接：\nhttps://x.com/thsottiaux/status/2077630111499882637\nTibo称Codex与ChatGPT Work达900万活跃用户并重置额度\n#3\nCodex 负责人 Tibo 于北京时间7月16日中午宣布 Codex 已达到 900 万活跃用户，并再次重置每周使用额度。\nCodex 负责人 Tibo 于北京时间7月16日中午宣布，对 Codex 和 ChatGPT Work 用户再次重置每周使用额度。他表示该服务当日早些时候已实际达到 900 万活跃用户。此次重置及数据公布的推迟，是因为团队正忙于多项维持系统运行与可靠性的工作。\n相关链接：\nhttps://x.com/thsottiaux/status/2077607697487188198\nClaudeDevs 重置所有用户 5 小时及每周速率限制\n#4\nAnthropic 开发者账号 ClaudeDevs 于北京时间7月16日中午宣布重置了所有用户的 5 小时和每周速率限制。\nAnthropic 开发者账号 ClaudeDevs 于北京时间7月16日中午宣布，重置所有用户的 5 小时和每周速率限制。\n相关链接：\nhttps://x.com/ClaudeDevs/status/2077603834453770467\n模型发布\nMiniMax正式上线Music 3.0音乐生成模型\n#5\nMiniMax正式上线Music 3.0音乐生成模型。官方称该模型升级了语义理解、音质与人声合成能力，现已开放免费模型music-3-free供调用。\nMiniMax正式发布新一代text-to-song音乐生成模型Music 3.0。官方表示，Music 3.0升级了语义理解模型以更准确理解风格与编曲，同时提升了器乐音质，支持滑音与连奏等真实技法，并采用新一代人声引擎消除高频机器嘶嘶声。目前，开发者与用户可通过API使用music-3.0模型，或使用免费模型music-3-free进行调用体验。\n相关链接：\nhttps://platform.minimaxi.com/docs/guides/music-generation\nhttps://minimaxi.com/audio/music\nNVIDIA 推出开源 Nemotron 3 Embed 嵌入模型系列\n#6\nNVIDIA 发布 Nemotron 3 Embed 开源嵌入模型系列，包含 8B 和 1B 两种参数规格。该系列模型支持 32k 上下文及商业使用。\nNVIDIA 发布 Nemotron 3 Embed 嵌入模型系列，目前已在 Hugging Face 开放权重并支持商业使用。官方称旗舰版 Nemotron-3-Embed-8B-BF16 在 RTEB 基准得分 78.5% 位居第一，1B 版本通过结构化剪枝与蒸馏获得，而面向 Blackwell 架构的 NVFP4 量化版实现了最高两倍吞吐量。该系列模型均支持 32k 上下文窗口及 34 种语言检索，并提供微调、蒸馏配方及 NIM 微服务部署。\n相关链接：\nhttps://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\nhttps://build.nvidia.com/nvidia/nemotron-3-embed-1b\nhttps://huggingface.co/nvidia/Nemotron-3-Embed-8B-BF16\nXiaomi Robotics发布Xiaomi-Robotics-1：采用10万小时免实体预训练\n#7\nXiaomi Robotics发布Xiaomi-Robotics-1模型，采用10万小时免实体预训练结合真实机器人后训练来突破数据瓶颈。官方称该模型学习新任务平均仅需不到10小时的演示数据，就能达到75%成功率。\nXiaomi Robotics发布Xiaomi-Robotics-1模型，当前已展示其通过大规模免实体预训练结合真实机器人后训练来扩展机器人策略模型的能力。该模型在预训练阶段使用了10万小时跨越1700多种场景的免实体轨迹数据，在后训练阶段则使用了包含7200小时真实家庭机器人数据在内的跨实体数据集。官方表示，预训练随数据和模型规模增长展现出了清晰的扩展性，且该扩展性可直接转化为真实机器人成功率的提升，并无饱和迹象。在下游应用中，Xiaomi-Robotics-1学习全新复杂任务时，每个任务平均仅需不到10小时的演示数据即可达到75%的总体成功率，并在四项主流仿真基准测试中达到了当前最优结果。\n相关链接：\nhttps://robotics.xiaomi.com/xiaomi-robotics-1.html\nMuse Spark 1.1上线OpenRouter，仅面向美国开发者\n#8\nMeta的Muse Spark {1.1|一点一}系列模型现已上线OpenRouter平台，但仅面向美国开发者开放。\nMeta宣布Muse Spark 1.1模型已在OpenRouter平台上线，目前仅面向美国开发者开放。开发者可通过OpenRouter的聊天室或向其MCP提问来试用该模型，相关基准测试也将很快推出。\n相关链接：\nhttps://x.com/MetaforDevs/status/2077804044505272425\nhttps://openrouter.ai/meta/muse-spark-1.1\n开发生态\nAnthropic 为 Claude Code 的 /code-review 新增多个 effort 级别\n#9\nAnthropic 为 Claude Code 的 /code-review 新增多个 effort 级别及专属审查策略。官方称其低级别即可在低 token 成本下优于同类工具。\nAnthropic 为 Claude Code 的 /code-review 功能新增多个 effort 级别，每个级别采用不同审查策略，目前所有会话更新后可用。该功能此前仅运行固定提示词，现在会自动采用会话的 effort 设置或显式指定级别。官方称低级别单次扫描即可在极低 token 成本下优于同类工具；高级别则让 subagent 使用全新上下文以避免锚定并提高召回率。极限级别会生成审查 Agent 集群独立复现发现，Anthropic 在内部每个 PR 均运行该级别。\n相关链接：\nhttps://x.com/ClaudeDevs/status/2077840063342506351\nMiniMax发布Code 2.0桌面端：重构底层架构，新增金融模块\n#10\nMiniMax正式更新MiniMax Code 2.0桌面端并开放下载。新版基于Pi Agent重构底层架构，大幅提升了长程任务稳定性，并接入恒生金融数据库与企查查MCP。\nMiniMax正式更新MiniMax Code 2.0桌面端并开放下载。基于开源框架Pi Agent，该版本重构了会话运行、状态管理与工具调用链路，重点改善长任务执行中的中断与上下文断裂问题。新版同时优化了图表与文件预览功能，并原生接入恒生金融数据库与企查查MCP的金融模块。该金融模块即将在桌面端上线，用户现可在网页版尝鲜，本月还将上线远程控制及浏览器操控等功能。\n相关链接：\nhttps://mp.weixin.qq.com/s/mQeBO0xC6Z1R0LqZX5TvNg\nGemini API Managed Agents上线免费层级及预算护栏\n#11\nGoogle为Gemini API的Managed Agents推出免费层级、预算控制与定时触发器。现在开发者能使用未启用计费的密钥免费调用该功能。\nGoogle宣布为Gemini API中的Managed Agents推出免费层级、预算控制和定时触发器。免费层级允许开发者使用未启用计费的API密钥在免费配额下使用；预算控制通过在agent_config中设置max_total_tokens限制总Token消耗，达限时返回“incomplete”状态并保留文件系统进度，支持通过previous_interaction_id继续执行；定时触发器采用内置cron计划自动运行循环任务，并在同一沙盒环境中复用文件。\n相关链接：\nhttps://x.com/GoogleAIStudio/status/2077801843720093867\nhttps://ai.google.dev/gemini-api/docs/agents\n产品应用\nGoogle将NotebookLM更名并升级为Gemini Notebook\n#12\nNotebookLM宣布更名为Gemini Notebook，并新增安全云电脑功能，以便直接运行代码并分析用户上传的数据。该功能目前向Google AI Ultra用户开放，未来数周内将向所有付费用户推送。\n谷歌正式宣布将其AI研究助手NotebookLM更名为Gemini Notebook，以体现其在谷歌AI产品组合中的定位。该产品定位保持不变，但新增了一项重要功能：安全云电脑。这项更新让Gemini Notebook能够原生编写并执行代码，直接在用户上传的文档和资料上完成复杂数据分析。目前，这一功能已向Google AI Ultra用户和Workspace商业客户开放，并将在未来数周内推送给所有Pro订阅用户。\n相关链接：\nhttps://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/\nhttps://x.com/GoogleAI/status/2077816151200223389\n官方宣布 SuperGrok Heavy 用户可免费获 X Premium+\n#13\nX 官方宣布 SuperGrok Heavy 订阅现包含 X Premium+，无需额外付费。用户需在 Grok 应用中链接 X 账户即可立即激活。\nX 官方账号 Premium 宣布，SuperGrok Heavy 订阅现已包含 X Premium+，无需支付额外费用。用户只需在 Grok 应用中链接 X 账户，即可立即激活相应用户权益。对于已同时订阅这两项服务的用户，官方表示可取消原有付费的 X Premium+ 订阅。包含在 SuperGrok Heavy 中的随附 X Premium+ 将在当前计费周期结束后自动继续，福利不会中断。\n相关链接：\nhttps://x.com/premium/status/2077820074015293774\nhttps://x.com/premium/status/2077820076083089755\nGoogle 搜索 AI Mode 允许用户直接联动第三方应用\n#14\nGoogle 宣布 AI Mode 上线连接应用功能，本周起在美国推出。用户可直接在搜索中联动第三方应用并执行操作。\nGoogle 宣布在搜索的 AI Mode 中上线连接应用功能，本周起在美国推出。用户可安全地连接 Instacart、Canva 和 YouTube Music 等服务，直接在搜索结果中将食材加入购物车、查看设计模板或保存播放列表。结合个人智能技术，AI Mode 将提供更具针对性的回复。此前该连接功能已在 Gemini 应用中提供，此次扩展将其引入搜索，未来还将支持更多应用。\n相关链接：\nhttps://blog.google/products-and-platforms/products/search/connected-apps/\nOpenAI 扩展 ChatGPT 青少年保护，支持默认开启学习模式\n#15\nOpenAI 更新了 ChatGPT 青少年保护功能。家长现可将学习模式设为新对话的默认选项，青少年长时间使用会收到更频繁的休息提醒。\nOpenAI 更新了 ChatGPT 针对青少年的保护措施和学习工具。家长现可通过家长控制将学习模式设为新对话的默认开启状态，同时长时间使用的青少年将收到更频繁的休息提醒。家长通知也已扩展至账号因违反暴力使用政策而被停用的情况，且官方数据显示其互动学习体验已拥有 1800 万周活跃用户。在学习功能上，平台还新增了教育起始提示词、超 250 个互动主题以及支持 61 种以上语言的发音体验。\n相关链接：\nhttps://openai.com/index/why-teens-deserve-access-safe-ai/\n努比亚发布 NaviX Ultra 搭载豆包手机助手\n#16\n努比亚 NaviX Ultra 正式亮相。官方称其为全球首款 AI 智能体手机，搭载豆包手机助手，同步提供四款配色。\n努比亚 NaviX Ultra 正式亮相。官方称该机是全球首款 AI 智能体手机，搭载豆包手机助手。该机同步登场蓝境、幻梦、黑色和白色四款配色。官方同时宣布努比亚 NaviX Ultra 荣获 WAIC 2026 SAIL 卓越人工智能引领者奖。\n相关链接：\nhttps://weibo.com/2156294570/R8Vg2oTv8\n技术与洞察\nKimi 发布 PerceptionBench 视觉感知评测基准\n#17\nKimi 发布PerceptionBench评测基准，专门评估多模态大模型的原子视觉感知能力。官方评测结果显示，当前所有参评前沿模型的准确率均未超过60%。同时，大量正确答案在重复提问时无法重现，表明现有模型大多是在猜测，而非真正感知视觉信息。\nKimi 发布 PerceptionBench 评测基准，用于衡量多模态大语言模型的原子视觉感知能力。该基准从 40 多个现有基准的模型失败案例中提炼出 10 项原子感知类别，包含 3000 个仅依赖视觉感知的已验证问题。官方评测结果显示，当前所有参评前沿模型准确率均未超过 60%，其中 GPT-5.6-Sol 以 59.7% 居首。此外，总分相近的模型在具体感知能力上优劣势差异显著，且大量正确答案在重复提问时无法重现，表明模型往往在猜测而非真正感知。\n相关链接：\nhttps://www.kimi.com/blog/perception-bench\n行业动态\n英特尔与谷歌云扩大合作，部署 Gemini Enterprise 加速企业 AI 转型\n#18\n英特尔与谷歌云宣布扩大战略合作，全面部署 Gemini Enterprise 加速企业 AI 转型。同时，借助谷歌云的 C4 和 N4 实例扩展计算能力，运行复杂模拟，从而加速半导体芯片的开发周期。\n英特尔与谷歌云宣布扩大先前公布的多年战略合作，将通过部署 Gemini Enterprise 和谷歌云加速英特尔的企业 AI 转型。英特尔将在全球员工中集成基于 Gemini 的生成式 AI，并采用 Gemini Enterprise Agent Platform 构建业务 Agent 以自动化核心流程。谷歌云的可扩展基础设施将补充英特尔本地计算能力，通过扩展至 C4 和 N4 实例运行复杂模拟以加速芯片开发。双方高管表示，此次合作将提供集中的 Agent 构建中心并创建加速芯片设计的自主基础。\n相关链接：\nhttps://www.googlecloudpresscorner.com/2026-07-16-Intel-and-Google-Cloud-Announce-Collaboration-to-Accelerate-Intels-AI-Enabled-Enterprise-Transformation\nhttps://newsroom.intel.com/data-center/intel-google-deepen-collaboration-to-Advance-ai-infrastructure\n据报道一男子潜入Anthropic大厅发出死亡威胁，无人被捕\n#19\n据《华尔街日报》查阅的事件记录，一名男子此前潜入Anthropic旧金山总部大厅，向安保人员警告一名高管“将被杀害”。此次潜入未引发暴力冲突且无人被捕，Anthropic未确认此事，称自2024年起已实行全天候安保。\n据《华尔街日报》查阅的事件记录，一名男子此前尾随员工潜入Anthropic旧金山总部大厅，向安保人员出示印有某高管名字的信封，并警告该高管“将被杀害”。该事件未升级为暴力冲突且未逮捕人员。Anthropic未确认此次事件，仅表示自2024年起已实行全天候安保，且安保团队受训以缓和局势而非拘留。此外，警方记录显示4月和6月另有两人分别对Anthropic员工发出暴力威胁。\n相关链接：\nhttps://www.wsj.com/us-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-30c43972\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "Firefox in WebAssembly",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-16T23:34:16+00:00",
+      "url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/",
+      "digest_excerpt": "<p><strong><a href=\"https://developer.puter.com/labs/firefox-wasm/\">Firefox in WebAssembly</a></strong></p>\nThis is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.</p>\n<p>Here's my blog, running in Firefox, running in WebAssembly, running in Chrome:</p>\n<p><img alt=\"A Chrome window. The tab has the Firefox UI and has loaded my blog. On the right is the Chrome network panel showing that it loaded resources that include a 233MB gecko.wasm and an 18MB chrome-assets.tar.zst\" src=\"https://static.simonwillison.net/static/2026/firefox-wasm.webp\" /></p>\n<p>They chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.</p>\n<p>The demo funnels all traffic over a WebSocket protocol (using the <a href=\"https://github.com/MercuryWorkshop/wisp-protocol\">Wisp protocol</a>) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.</p>\n<p>(That proxying sounds expensive! The team <a href=\"https://news.ycombinator.com/item?id=48926939#48936563\">had to scale the servers up</a> to handle the traffic during the Hacker News conversation about the project.)</p>\n<p>Puter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to <code>http://www.example.com/</code> were in cleartext.</p>\n<p><a href=\"https://github.com/HeyPuter/firefox-wasm\">Here's the repo</a> for <code>firefox-wasm</code>. <a href=\"https://github.com/theogbob/WebkitWasm\">theogbob/WebkitWasm</a> is a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=48926939\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/browsers\">browsers</a>, <a href=\"https://simonwillison.net/tags/firefox\">firefox</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/",
+        "limitation": ""
+      },
+      "page_title": "Firefox in WebAssembly",
+      "page_description": "This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n16th July 2026 - Link Blog\nFirefox in WebAssembly\n(\nvia\n) This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser.\nHere's my blog, running in Firefox, running in WebAssembly, running in Chrome:\nThey chose Firefox/Gecko because it has strong single-process support. The project used an estimated $25,000 worth of Claude Opus and Fable tokens, but took advantage of a Claude Max subscription plan so cost much less in actual dollars.\nThe demo funnels all traffic over a WebSocket protocol (using the\nWisp protocol\n) through Puter's server - a requirement to get this kind of thing to work because code running in browsers can't open arbitrary network connections.\n(That proxying sounds expensive! The team\nhad to scale the servers up\nto handle the traffic during the Hacker News conversation about the project.)\nPuter claim this supports end-to-end encryption and that looks to be true - I inspected the WebSocket messages and traffic to my own HTTPS site was encrypted whereas requests and responses to\nhttp://www.example.com/\nwere in cleartext.\nHere's the repo\nfor\nfirefox-wasm\n.\ntheogbob/WebkitWasm\nis a similar project that compiles WebKit to WASM, but that one doesn't currently have an accessible online demo.\nPosted\n16th July 2026\nat 11:34 pm\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n16th July 2026\n.\nbrowsers\n106\nfirefox\n102\nai\n2,127\nwebassembly\n129\ngenerative-ai\n1,881\nllms\n1,848\nai-assisted-programming\n399\nclaude\n291\nclaude-mythos-fable\n28\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-16T22:19:27+00:00",
+      "url": "https://www.youtube.com/shorts/fnPMkEe6Nik",
+      "digest_excerpt": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.”\n\nChris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources.\n\n“What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.”\n\nCheck out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/shorts/fnPMkEe6Nik",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.”\n\nChris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources.\n\n“What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.”\n\nCheck out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/"
+    },
+    {
+      "id": "S008",
+      "kind": "video",
+      "title": "How Shopify Uses ChatGPT Work to Build Faster with AI Agents",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-16T22:15:11+00:00",
+      "url": "https://www.youtube.com/watch?v=OHVu3Y4B3RI",
+      "digest_excerpt": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.”\n\nChris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources.\n\n“What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.”\n\nCheck out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=OHVu3Y4B3RI",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“It allows me to go faster with fewer dependencies and then do things that I couldn’t do before.”\n\nChris Jones, Senior Lead, Ops AI Lab at Shopify, is helping teams use ChatGPT Work to redesign workflows with agents, remove bottlenecks, and build tools without waiting on engineering resources.\n\n“What would’ve been a large team supporting a process now comes down to an agent that can run discrete tasks.”\n\nCheck out how ChatGPT Work can work for you: http://openai.com/index/chatgpt-for-your-most-ambitious-work/"
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "5.6 Terra high is underrated. Switched @clawsweeper (GitHub review bot) to it and it's ~40% faster overall with negligib",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-17T21:53:57+00:00",
+      "url": "https://x.com/steipete/status/2078236791329657017",
+      "digest_excerpt": "5.6 Terra high is underrated. Switched @clawsweeper (GitHub review bot) to it and it's ~40% faster overall with negligible quality loss. Better than 5.5 on all counts. Massively cheaper.\n\n(Tried xhigh but that negates perf wins, didn't make a noticable difference in review evals)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2078236791329657017",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "5.6 Terra high is underrated. Switched @clawsweeper (GitHub review bot) to it and it's ~40% faster overall with negligible quality loss. Better than 5.5 on all counts. Massively cheaper.\n\n(Tried xhigh but that negates perf wins, didn't make a noticable difference in review evals)"
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "Sol gets the thing done:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-17T21:26:14+00:00",
+      "url": "https://x.com/gdb/status/2078229816407732515",
+      "digest_excerpt": "Sol gets the thing done:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2078229816407732515",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Sol gets the thing done:"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "GPT-5.6 Sol is the state of the art in cyber. Seeing significant results in applying it to finding and fixing novel vuln",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-17T21:04:08+00:00",
+      "url": "https://x.com/gdb/status/2078224255767249067",
+      "digest_excerpt": "GPT-5.6 Sol is the state of the art in cyber. Seeing significant results in applying it to finding and fixing novel vulnerabilities.\n\nSign up as a defender to use it to secure your systems:\n\nhttps://t.co/58PmbE09hh",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2078224255767249067",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-5.6 Sol is the state of the art in cyber. Seeing significant results in applying it to finding and fixing novel vulnerabilities.\n\nSign up as a defender to use it to secure your systems:\n\nhttps://t.co/58PmbE09hh"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "10,000 reasons people love GPT-5.6 Sol \nhttps://t.co/Mu6PBPkrop https://t.co/1jJ7ZNCY26",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-17T21:00:01+00:00",
+      "url": "https://x.com/OpenAI/status/2078223217773474134",
+      "digest_excerpt": "10,000 reasons people love GPT-5.6 Sol \nhttps://t.co/Mu6PBPkrop https://t.co/1jJ7ZNCY26",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2078223217773474134",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "10,000 reasons people love GPT-5.6 Sol \nhttps://t.co/Mu6PBPkrop https://t.co/1jJ7ZNCY26"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "Perplexity Agent API now supports custom skills.",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-17T20:47:08+00:00",
+      "url": "https://x.com/AravSrinivas/status/2078219975408472076",
+      "digest_excerpt": "Perplexity Agent API now supports custom skills.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2078219975408472076",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Perplexity Agent API now supports custom skills."
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "Cool",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T19:30:06+00:00",
+      "url": "https://x.com/elonmusk/status/2078200590765535431",
+      "digest_excerpt": "Cool",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078200590765535431",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Cool"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "Grok 4.5 is arguably #1 when taking speed and cost into account",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T19:10:20+00:00",
+      "url": "https://x.com/elonmusk/status/2078195617877143895",
+      "digest_excerpt": "Grok 4.5 is arguably #1 when taking speed and cost into account",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078195617877143895",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.5 is arguably #1 when taking speed and cost into account"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "At its peak, Sun Microsystems was valued at 205B (394B if inflation adjusted). Sold software in enterprise servers. Got ",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-17T18:47:54+00:00",
+      "url": "https://x.com/AravSrinivas/status/2078189971723231567",
+      "digest_excerpt": "At its peak, Sun Microsystems was valued at 205B (394B if inflation adjusted). Sold software in enterprise servers. Got disrupted by Linux, x86, and commodity hardware. Ended up selling to Oracle for 7.4B, losing 96% of its value. \n\nOpen source models running on local hardware can have a similar impact given what’s going on.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2078189971723231567",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "At its peak, Sun Microsystems was valued at 205B (394B if inflation adjusted). Sold software in enterprise servers. Got disrupted by Linux, x86, and commodity hardware. Ended up selling to Oracle for 7.4B, losing 96% of its value. \n\nOpen source models running on local hardware can have a similar impact given what’s going on."
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "The Built with Claude: Life Sciences hackathon comes to an end.\n\nThank you to everyone who spent a week building with Cl",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-07-17T18:45:46+00:00",
+      "url": "https://x.com/claudeai/status/2078189433992495429",
+      "digest_excerpt": "The Built with Claude: Life Sciences hackathon comes to an end.\n\nThank you to everyone who spent a week building with Claude Science and Claude Code, and to @gladstoneinst and @cerebral_valley for co-hosting.\n\nIntroducing the winners: https://t.co/VTDup1yz9Z",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2078189433992495429",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The Built with Claude: Life Sciences hackathon comes to an end.\n\nThank you to everyone who spent a week building with Claude Science and Claude Code, and to @gladstoneinst and @cerebral_valley for co-hosting.\n\nIntroducing the winners: https://t.co/VTDup1yz9Z"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "Where did my dear Fable go 😭",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-17T18:42:01+00:00",
+      "url": "https://x.com/petergyang/status/2078188490731487498",
+      "digest_excerpt": "Where did my dear Fable go 😭",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2078188490731487498",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Where did my dear Fable go 😭"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "IFKYK https://t.co/rmsAj3c0Lr",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-17T17:37:08+00:00",
+      "url": "https://x.com/steipete/status/2078172160808698248",
+      "digest_excerpt": "IFKYK https://t.co/rmsAj3c0Lr",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2078172160808698248",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "IFKYK https://t.co/rmsAj3c0Lr"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "We need evals on irony. https://t.co/qrkRIGQJkb",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-17T17:18:59+00:00",
+      "url": "https://x.com/steipete/status/2078167593127752009",
+      "digest_excerpt": "We need evals on irony. https://t.co/qrkRIGQJkb",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2078167593127752009",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We need evals on irony. https://t.co/qrkRIGQJkb"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "My morning ritual: coffee, then watch our robot assemble stuff. The model isn't fast, but it measures every grasp, obses",
+      "source_name": "Jim Fan",
+      "author": "DrJimFan",
+      "published": "2026-07-17T16:09:12+00:00",
+      "url": "https://x.com/DrJimFan/status/2078150032575082616",
+      "digest_excerpt": "My morning ritual: coffee, then watch our robot assemble stuff. The model isn't fast, but it measures every grasp, obsesses over every alignment, and handles every piece like an heirloom. Watching is therapeutic, even meditative. Simple pleasure from the execution of a task well done.\n\nUncut, no speedup, end-to-end policy in one go.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/DrJimFan/status/2078150032575082616",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My morning ritual: coffee, then watch our robot assemble stuff. The model isn't fast, but it measures every grasp, obsesses over every alignment, and handles every piece like an heirloom. Watching is therapeutic, even meditative. Simple pleasure from the execution of a task well done.\n\nUncut, no speedup, end-to-end policy in one go."
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "it seems that the new metagame to boost your x articles is to quote tweet it with an aie video so that your article gets",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-17T15:54:22+00:00",
+      "url": "https://x.com/swyx/status/2078146301376762134",
+      "digest_excerpt": "it seems that the new metagame to boost your x articles is to quote tweet it with an aie video so that your article gets the 500k views from reposting the video on x\n\ni honestly dont hate it at all, just credit the speaker (eg @cormacb) and link the original youtube in the first reply\n\nthanks for tagging us on it",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2078146301376762134",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "it seems that the new metagame to boost your x articles is to quote tweet it with an aie video so that your article gets the 500k views from reposting the video on x\n\ni honestly dont hate it at all, just credit the speaker (eg @cormacb) and link the original youtube in the first reply\n\nthanks for tagging us on it"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "New course: Build LLM applications that respond to user requests quickly by running on hardware designed for fast infere",
+      "source_name": "Andrew Ng",
+      "author": "AndrewYNg",
+      "published": "2026-07-17T15:47:30+00:00",
+      "url": "https://x.com/AndrewYNg/status/2078144569594761591",
+      "digest_excerpt": "New course: Build LLM applications that respond to user requests quickly by running on hardware designed for fast inference. This short course was built with  @Cerebras and taught by @zhennydez, @duerr_seb, and  @MilksandMatcha.\n\nWhen a model generates text, much of the time is spent moving its weights out of memory and into the compute units. Inference-optimized hardware minimizes that movement, making token generation several times faster than on a typical GPU setup. In this course, the hardware you'll use is Cerebras' Wafer-Scale Engine, which is designed for fast inference by keeping the model's weights close to the compute units.\n\nFast inference makes lengthy agentic workflows go faster, and also unlocks latency-sensitive, real-time applications like live translation and voice agents.\n\nSkills you'll gain:\n- Compare how GPUs, TPUs, and Cerebras' Wafer-Scale Engine each handle the memory-to-compute bottleneck\n- Build real-time applications powered by fast inference, including personalizing a webpage and running a multi-step workflow to analyze market signals\n- Adopt concrete habits for agentic coding with fast inference, keeping your sessions focused and steering the model more effectively\n\nMy teams use Cerebras for several applications that are latency sensitive. Join and build LLM applications that respond quickly:\nhttps://t.co/P8vchGAr22",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AndrewYNg/status/2078144569594761591",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "New course: Build LLM applications that respond to user requests quickly by running on hardware designed for fast inference. This short course was built with  @Cerebras and taught by @zhennydez, @duerr_seb, and  @MilksandMatcha.\n\nWhen a model generates text, much of the time is spent moving its weights out of memory and into the compute units. Inference-optimized hardware minimizes that movement, making token generation several times faster than on a typical GPU setup. In this course, the hardware you'll use is Cerebras' Wafer-Scale Engine, which is designed for fast inference by keeping the model's weights close to the compute units.\n\nFast inference makes lengthy agentic workflows go faster, and also unlocks latency-sensitive, real-time applications like live translation and voice agents.\n\nSkills you'll gain:\n- Compare how GPUs, TPUs, and Cerebras' Wafer-Scale Engine each handle the memory-to-compute bottleneck\n- Build real-time applications powered by fast inference, including personalizing a webpage and running a multi-step workflow to analyze market signals\n- Adopt concrete habits for agentic coding with fast inference, keeping your sessions focused and steering the model more effectively\n\nMy teams use Cerebras for several applications that are latency sensitive. Join and build LLM applications that respond quickly:\nhttps://t.co/P8vchGAr22"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "This post is key. The cheaper AI gets, the more opportunity there is for the entire ecosystem  - especially including en",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-17T15:26:11+00:00",
+      "url": "https://x.com/levie/status/2078139206946459853",
+      "digest_excerpt": "This post is key. The cheaper AI gets, the more opportunity there is for the entire ecosystem  - especially including end-customers - to benefit.\n\nEverything is bottlenecked by being able to successfully and cost effectively deploy AI in real workloads. Any time we can lower the cost of AI, the total usage goes up. When that happens, the value accrues to all layers of the stack, as noted.\n\nThe only modification is I think as AI gets more efficient, demand even for the frontier closed models can go up too. You often need the strongest model possible for the orchestration of a task, then you can farm out work to cheaper or more tuned models for the bulk of tokens. \n\nThis efficiency gain can ironically lead to even more frontier spend in the process because you can cost effectively deploy AI against more tasks. The thing at most risk is margins, which is fair, and in general it seems that intelligence eventually should converge with the margins of the infrastructure stack.\n\nAnyway, super fun times to see competition play out to drive down the cost of AI.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2078139206946459853",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This post is key. The cheaper AI gets, the more opportunity there is for the entire ecosystem  - especially including end-customers - to benefit.\n\nEverything is bottlenecked by being able to successfully and cost effectively deploy AI in real workloads. Any time we can lower the cost of AI, the total usage goes up. When that happens, the value accrues to all layers of the stack, as noted.\n\nThe only modification is I think as AI gets more efficient, demand even for the frontier closed models can go up too. You often need the strongest model possible for the orchestration of a task, then you can farm out work to cheaper or more tuned models for the bulk of tokens. \n\nThis efficiency gain can ironically lead to even more frontier spend in the process because you can cost effectively deploy AI against more tasks. The thing at most risk is margins, which is fair, and in general it seems that intelligence eventually should converge with the margins of the infrastructure stack.\n\nAnyway, super fun times to see competition play out to drive down the cost of AI."
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "If you are over 40 and have the room for it this is genuinely one of the best purchases you can make for mental and phys",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-17T15:18:51+00:00",
+      "url": "https://x.com/petergyang/status/2078137361230450990",
+      "digest_excerpt": "If you are over 40 and have the room for it this is genuinely one of the best purchases you can make for mental and physical health. https://t.co/HJJL8ykBUa",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2078137361230450990",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "If you are over 40 and have the room for it this is genuinely one of the best purchases you can make for mental and physical health. https://t.co/HJJL8ykBUa"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "I'd love to see your best scheduled task to let Codex (or another harness) manage your email and calendar. Please share ",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-17T14:30:05+00:00",
+      "url": "https://x.com/petergyang/status/2078125090659811585",
+      "digest_excerpt": "I'd love to see your best scheduled task to let Codex (or another harness) manage your email and calendar. Please share it in the replies.\n\nHere’s mine. It lists open email action items, unsubscribe candidates, and meeting briefs for me to review.\n\n📌 I talk more about using this in my recent video: https://t.co/nxLpDpg0BH",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2078125090659811585",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I'd love to see your best scheduled task to let Codex (or another harness) manage your email and calendar. Please share it in the replies.\n\nHere’s mine. It lists open email action items, unsubscribe candidates, and meeting briefs for me to review.\n\n📌 I talk more about using this in my recent video: https://t.co/nxLpDpg0BH"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "This is messed up",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T11:56:47+00:00",
+      "url": "https://x.com/elonmusk/status/2078086509052227916",
+      "digest_excerpt": "This is messed up",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078086509052227916",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is messed up"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "As promised",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T07:14:19+00:00",
+      "url": "https://x.com/elonmusk/status/2078015422931091486",
+      "digest_excerpt": "As promised",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078015422931091486",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "As promised"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "Molty is roasting our GitHub commits as they fly in. https://t.co/U7I7idRqfz",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-17T07:12:04+00:00",
+      "url": "https://x.com/steipete/status/2078014859896336892",
+      "digest_excerpt": "Molty is roasting our GitHub commits as they fly in. https://t.co/U7I7idRqfz",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2078014859896336892",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Molty is roasting our GitHub commits as they fly in. https://t.co/U7I7idRqfz"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Try Grok",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T07:10:26+00:00",
+      "url": "https://x.com/elonmusk/status/2078014448267104664",
+      "digest_excerpt": "Try Grok",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078014448267104664",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try Grok"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "Grok Imagine",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T06:48:04+00:00",
+      "url": "https://x.com/elonmusk/status/2078008818764505356",
+      "digest_excerpt": "Grok Imagine",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078008818764505356",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Imagine"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "Grok Build upgrades",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T06:44:47+00:00",
+      "url": "https://x.com/elonmusk/status/2078007993296179568",
+      "digest_excerpt": "Grok Build upgrades",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078007993296179568",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Build upgrades"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "https://t.co/NQj2euaQdh",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-17T06:40:34+00:00",
+      "url": "https://x.com/elonmusk/status/2078006929188606315",
+      "digest_excerpt": "https://t.co/NQj2euaQdh",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078006929188606315",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/NQj2euaQdh"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "HOLY FUCKING SHIT the react avengers have assembled",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-17T06:32:48+00:00",
+      "url": "https://x.com/swyx/status/2078004977294032991",
+      "digest_excerpt": "HOLY FUCKING SHIT the react avengers have assembled",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2078004977294032991",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "HOLY FUCKING SHIT the react avengers have assembled"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "team is responding to feedback and iterating quickly. we ❤️ our users, thank you all!",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-17T06:30:30+00:00",
+      "url": "https://x.com/gdb/status/2078004399675503093",
+      "digest_excerpt": "team is responding to feedback and iterating quickly. we ❤️ our users, thank you all!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2078004399675503093",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "team is responding to feedback and iterating quickly. we ❤️ our users, thank you all!"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "ChatGPT Work is great for tasks in your personal life:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-17T06:19:58+00:00",
+      "url": "https://x.com/gdb/status/2078001746358784163",
+      "digest_excerpt": "ChatGPT Work is great for tasks in your personal life:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2078001746358784163",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Work is great for tasks in your personal life:"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "$NVDA should be pumping on the K3 news. Instead it’s down.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-17T05:33:05+00:00",
+      "url": "https://x.com/amasad/status/2077989946565206267",
+      "digest_excerpt": "$NVDA should be pumping on the K3 news. Instead it’s down.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2077989946565206267",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "$NVDA should be pumping on the K3 news. Instead it’s down."
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "If you have something very valuable....but letting people use it allows them to recreate it...then maybe it wasn't very ",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-17T05:07:47+00:00",
+      "url": "https://x.com/adityaag/status/2077983583168278961",
+      "digest_excerpt": "If you have something very valuable....but letting people use it allows them to recreate it...then maybe it wasn't very valuable in the first place?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2077983583168278961",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "If you have something very valuable....but letting people use it allows them to recreate it...then maybe it wasn't very valuable in the first place?"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "I am literally switching models off of Fable right now for our systems.\n\nThis isn't trying to be hyperbolic....but why w",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-17T05:07:12+00:00",
+      "url": "https://x.com/adityaag/status/2077983435000324125",
+      "digest_excerpt": "I am literally switching models off of Fable right now for our systems.\n\nThis isn't trying to be hyperbolic....but why would you pay the price if there is a good and free alternative?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2077983435000324125",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I am literally switching models off of Fable right now for our systems.\n\nThis isn't trying to be hyperbolic....but why would you pay the price if there is a good and free alternative?"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "Underrated reply 🤣 https://t.co/TkpX22Be1e",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-17T05:04:00+00:00",
+      "url": "https://x.com/petergyang/status/2077982627278303279",
+      "digest_excerpt": "Underrated reply 🤣 https://t.co/TkpX22Be1e",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2077982627278303279",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Underrated reply 🤣 https://t.co/TkpX22Be1e"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "smh trying to use Claude Code browser use\n\nHope they hire some good folks to fix this https://t.co/3fOppcdeK0",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-17T04:01:31+00:00",
+      "url": "https://x.com/petergyang/status/2077966904938127502",
+      "digest_excerpt": "smh trying to use Claude Code browser use\n\nHope they hire some good folks to fix this https://t.co/3fOppcdeK0",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2077966904938127502",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "smh trying to use Claude Code browser use\n\nHope they hire some good folks to fix this https://t.co/3fOppcdeK0"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "we make sure some of the top YC AI companies are featured at AIE every single year. \n\nthis year, we were graced by @garr",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-17T02:10:09+00:00",
+      "url": "https://x.com/swyx/status/2077938877407633857",
+      "digest_excerpt": "we make sure some of the top YC AI companies are featured at AIE every single year. \n\nthis year, we were graced by @garrytan and @eve_bouff to cap off our startups and design engineer focused audiences respectively. Really enjoyed these raw high value perspectives!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2077938877407633857",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we make sure some of the top YC AI companies are featured at AIE every single year. \n\nthis year, we were graced by @garrytan and @eve_bouff to cap off our startups and design engineer focused audiences respectively. Really enjoyed these raw high value perspectives!"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "You know your workflows best. Show our team how you use Cowork so we can make it work better for you!\n\nIf you're in mark",
+      "source_name": "Cat Wu",
+      "author": "_catwu",
+      "published": "2026-07-17T01:49:03+00:00",
+      "url": "https://x.com/_catwu/status/2077933568282755145",
+      "digest_excerpt": "You know your workflows best. Show our team how you use Cowork so we can make it work better for you!\n\nIf you're in marketing, sales, finance, legal, or any non-engineering role, sign up here for a 30 min screen share with our team: https://t.co/kvc8uYzcNL",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/_catwu/status/2077933568282755145",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "You know your workflows best. Show our team how you use Cowork so we can make it work better for you!\n\nIf you're in marketing, sales, finance, legal, or any non-engineering role, sign up here for a 30 min screen share with our team: https://t.co/kvc8uYzcNL"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app (which we didn't get totally quite right on ",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-17T01:28:37+00:00",
+      "url": "https://x.com/thsottiaux/status/2077928427936710901",
+      "digest_excerpt": "Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app (which we didn't get totally quite right on the first try), and as a result, we've made some changes.\n\n1/ ChatGPT conversation history and projects are now visible in the sidebar. Also, your Chat and Work history now sync across web, mobile, and desktop. Local tasks still stay on your computer.\n2/ You can now easily switch between Chat and Work modes inside ChatGPT on desktop, which is now also consistent with how it shows on web and mobile.\n3/ Nothing is changing for users on Codex mode. It's still the OG and best at what it does.\n\nAnd overall we're continuing to fix paper cuts and improve performance, reliability, and efficiency.\n\nKeep up the feedback, hope you like the updates!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2077928427936710901",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app (which we didn't get totally quite right on the first try), and as a result, we've made some changes.\n\n1/ ChatGPT conversation history and projects are now visible in the sidebar. Also, your Chat and Work history now sync across web, mobile, and desktop. Local tasks still stay on your computer.\n2/ You can now easily switch between Chat and Work modes inside ChatGPT on desktop, which is now also consistent with how it shows on web and mobile.\n3/ Nothing is changing for users on Codex mode. It's still the OG and best at what it does.\n\nAnd overall we're continuing to fix paper cuts and improve performance, reliability, and efficiency.\n\nKeep up the feedback, hope you like the updates!"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "Apparently the distillation model can outperform the teacher model 😂",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-17T00:08:43+00:00",
+      "url": "https://x.com/amasad/status/2077908318975332417",
+      "digest_excerpt": "Apparently the distillation model can outperform the teacher model 😂",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2077908318975332417",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Apparently the distillation model can outperform the teacher model 😂"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "If you want to play my chess engine (WIP): https://t.co/4WJ9SYmr1o\n\nIt already seems to perform better than frontier mod",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-17T00:07:35+00:00",
+      "url": "https://x.com/amasad/status/2077908032944779732",
+      "digest_excerpt": "If you want to play my chess engine (WIP): https://t.co/4WJ9SYmr1o\n\nIt already seems to perform better than frontier models on chess.\n\nIt’s fine-tuned on 2M stockfish-labeled positions, then short GRPO RL pass.\n\nDocumentation/tutorial with all the experiments and annotated code.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2077908032944779732",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "If you want to play my chess engine (WIP): https://t.co/4WJ9SYmr1o\n\nIt already seems to perform better than frontier models on chess.\n\nIt’s fine-tuned on 2M stockfish-labeled positions, then short GRPO RL pass.\n\nDocumentation/tutorial with all the experiments and annotated code."
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of Fable, reaching a comparable success rate in l",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-16T23:37:43+00:00",
+      "url": "https://x.com/rauchg/status/2077900518404321759",
+      "digest_excerpt": "Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of Fable, reaching a comparable success rate in less time.\n\nThis is the first time that an open model is ahead of all proprietary ones for this comprehensive web engineering benchmark.\n\nNotes:\n\n▪️ Benchmarks don’t always tell the full story, although this is important signal, adding to mounting evidence that this could be a breakthrough moment for open models \n\n▪️ No model as of yet has reached 100% completion on this set of evals. The top performer peaks at 92% and 96% “with help”",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2077900518404321759",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of Fable, reaching a comparable success rate in less time.\n\nThis is the first time that an open model is ahead of all proprietary ones for this comprehensive web engineering benchmark.\n\nNotes:\n\n▪️ Benchmarks don’t always tell the full story, although this is important signal, adding to mounting evidence that this could be a breakthrough moment for open models \n\n▪️ No model as of yet has reached 100% completion on this set of evals. The top performer peaks at 92% and 96% “with help”"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "this is who runs this account 🧉 https://t.co/JjEQidasAT",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-16T23:27:50+00:00",
+      "url": "https://x.com/rauchg/status/2077898031115178476",
+      "digest_excerpt": "this is who runs this account 🧉 https://t.co/JjEQidasAT",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2077898031115178476",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "this is who runs this account 🧉 https://t.co/JjEQidasAT"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "benchmarks get saturated very quickly these days",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-16T22:46:12+00:00",
+      "url": "https://x.com/gdb/status/2077887553655689239",
+      "digest_excerpt": "benchmarks get saturated very quickly these days",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2077887553655689239",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "benchmarks get saturated very quickly these days"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "A lot of people assume that as you get more successful, the LESS you get said No to\n\nThis is actually false if you are o",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-16T22:39:07+00:00",
+      "url": "https://x.com/adityaag/status/2077885770048877034",
+      "digest_excerpt": "A lot of people assume that as you get more successful, the LESS you get said No to\n\nThis is actually false if you are operating at the edge of your ambition\n\nAt higher stakes, you get told No a lot. I see this with all founders who are punching up\n\nI got told No 5 times today.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2077885770048877034",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A lot of people assume that as you get more successful, the LESS you get said No to\n\nThis is actually false if you are operating at the edge of your ambition\n\nAt higher stakes, you get told No a lot. I see this with all founders who are punching up\n\nI got told No 5 times today."
+    }
+  ]
+}
