@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T23:13:23.285170+00:00",
+  "source_segments": [
+    "segments/2026-07-18/06.json"
+  ],
+  "counts": {
+    "x": 34,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 0
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Lmao why is France playing so badly",
+        "summary": "Lmao why is France playing so badly",
+        "link": "https://x.com/petergyang/status/2078590399619506499",
+        "author": "petergyang",
+        "published": "2026-07-18T21:19:04+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "England is starting without Kane or Bellingham...what? https://t.co/43zUqfTTtP",
+        "summary": "England is starting without Kane or Bellingham...what? https://t.co/43zUqfTTtP",
+        "link": "https://x.com/petergyang/status/2078578723226546532",
+        "author": "petergyang",
+        "published": "2026-07-18T20:32:40+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "What are you building this weekend?",
+        "summary": "What are you building this weekend?",
+        "link": "https://x.com/thsottiaux/status/2078575575669915776",
+        "author": "thsottiaux",
+        "published": "2026-07-18T20:20:09+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "If you thought the value of the AI ecosystem was going to only accrue to a few companies, the past few months have repre",
+        "summary": "If you thought the value of the AI ecosystem was going to only accrue to a few companies, the past few months have represented a turning point in what the future of AI might look like. \n\nIt's clear that there's going to be incredible innovation and growth coming out of the frontier AI labs, and they will continue to push the limits of what model progress looks like. They have the scale of compute, large revenue streams and customer bases, incredible researchers, large data pipelines, and more, to continue to stay at the forefront.\n\nAnd at the same time, there’s an amazing ecosystem starting to play out to diffuse AI into the real world, taking on a variety of approaches that build on top of these frontier models or offer alternative visions that can credibly work as well. \n\nHere are just a few of the categories that seem to be working right now: \n\n* There’s an ecosystem of companies that will help enterprises and applied AI companies develop their own models tuned for specific use cases, and run the inference for them. This can drive additional performance gains and cost effective approaches to getting AI into workloads across different domains. \n\n* Applied AI companies that are delivering the end-user experience and business process tools necessary to actually driving enterprise adoption - including legal, IT, security, HR, customer support, coding, and more. These companies can work with any model and act as a routing layer, and deeply understand the enterprise workflow, can drive change management, actually get to the data necessary to work with, and more. \n\n* New labs are emerging that go deep in particular domains that are either not the focus areas of frontier labs or require a deep level of vertical expertise to stay ahead. Life sciences, financial services, healthcare, and more all have labs that will be able to bring completely new approaches to large enterprises across the economy.\n\n* There’s all new infrastructure emerging to run models and agents effectively, protect and govern how they operate, store and secure the data they work with, and help enterprises orchestrate their activities. Multiple layers of this stack all are being built up right now that will help drive enterprise adoption.  \n\n* New services firms that can actually drive the change management in enterprises necessary to the diffusion of AI. There will be hundreds or even thousands of new firms that emerge in lines of business or specific industries that can enable agents to be adopted.\n\nI’m probably even missing a few categories, but this is what an incredible healthy technology ecosystem looks like. \n\nWay too early to call the winning architectures, and in reality it’s going to be a heterogenous environment as all other tech markets have become. Very exciting.",
+        "link": "https://x.com/levie/status/2078567715544121815",
+        "author": "levie",
+        "published": "2026-07-18T19:48:55+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Strong results",
+        "summary": "Strong results",
+        "link": "https://x.com/AravSrinivas/status/2078551545105232194",
+        "author": "AravSrinivas",
+        "published": "2026-07-18T18:44:40+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "The term \"AGI\" has aged very poorly. AI can't possibly me more different from human intelligence. It's *far better* than",
+        "summary": "The term \"AGI\" has aged very poorly. AI can't possibly me more different from human intelligence. It's *far better* than human intelligence, for most economically-relevant tasks.\n\nBut that doesn't make AIs better than humanity. There are wonderful things humans can do that these superintelligences (the better term) can't. \n\nFor one, we care-for and care-about other humans in a powerful and inherent way, that we then teach machines to emulate. We must keep that as the top priority in everything we do. We have to be as pro-human-life as it gets.\n\nAIs can replace tasks you do, but they can't replace the proverbial you. This is why they horribly suck at writing! Even when given a corpus of your writing and 200 Skills and 50 subagents running in gRaPh LoOps, they produce robotic prose… because they are robots. \n\nI know one definitive way that people can become irrelevant. They stop being themselves: lose their identity, delegate all their writing, their unique thoughts, the creative ways in which they can use the machines. Opting out of 'weighing in'.\n\nI think we're safe though. There's nothing more distasteful right now than AI replies in social media or (🟢 T H I S    T H I N G ) in landing pages. Quality and humanity will prevail.",
+        "link": "https://x.com/rauchg/status/2078548458714406959",
+        "author": "rauchg",
+        "published": "2026-07-18T18:32:24+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I think AI psychosis (trying to make sure your agents are working all the time) is probably a worse addiction than socia",
+        "summary": "I think AI psychosis (trying to make sure your agents are working all the time) is probably a worse addiction than social media.",
+        "link": "https://x.com/petergyang/status/2078544971402265047",
+        "author": "petergyang",
+        "published": "2026-07-18T18:18:33+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "There is an interesting disconnect between the ability of models to successfully execute precise instructions (improving",
+        "summary": "There is an interesting disconnect between the ability of models to successfully execute precise instructions (improving incredibly fast) and their ability to make sound decisions when faced with something not covered by the instructions (stagnating for a while).",
+        "link": "https://x.com/fchollet/status/2078526645108138382",
+        "author": "fchollet",
+        "published": "2026-07-18T17:05:44+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Robot fights are fun 😂 https://t.co/br6jtV0u0p",
+        "summary": "Robot fights are fun 😂 https://t.co/br6jtV0u0p",
+        "link": "https://x.com/elonmusk/status/2078521506007560474",
+        "author": "elonmusk",
+        "published": "2026-07-18T16:45:18+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My 8 year old and I want that basketball so we are cooking https://t.co/sq4kDuuKZA",
+        "summary": "My 8 year old and I want that basketball so we are cooking https://t.co/sq4kDuuKZA",
+        "link": "https://x.com/petergyang/status/2078517217248088216",
+        "author": "petergyang",
+        "published": "2026-07-18T16:28:16+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "One of my biggest takeaways from chatting with @trq212 is how much effort he puts into understanding what AI is doing.\n\n",
+        "summary": "One of my biggest takeaways from chatting with @trq212 is how much effort he puts into understanding what AI is doing.\n\nIt’s easy to let AI build something magical and feel like you’re making progress. But if you want to get better, you need to read its output, identify your unknowns, and fill those gaps.\n\nFor example, Thariq sometimes asks Claude to generate an HTML report explaining what it changed and then quiz him to make sure he understands it.\n\nThis is just one of many things I learned from Thariq in our interview.\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2078502566095474807",
+        "author": "petergyang",
+        "published": "2026-07-18T15:30:03+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I love capitalism. https://t.co/NVhqNQwe2x",
+        "summary": "I love capitalism. https://t.co/NVhqNQwe2x",
+        "link": "https://x.com/adityaag/status/2078501506169340099",
+        "author": "adityaag",
+        "published": "2026-07-18T15:25:50+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok Build\n\nhttps://t.co/qrq6Gn3HCS",
+        "summary": "Try Grok Build\n\nhttps://t.co/qrq6Gn3HCS",
+        "link": "https://x.com/elonmusk/status/2078495013936206287",
+        "author": "elonmusk",
+        "published": "2026-07-18T15:00:02+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/JHdYqtIQte",
+        "summary": "https://t.co/JHdYqtIQte",
+        "link": "https://x.com/elonmusk/status/2078488424894390501",
+        "author": "elonmusk",
+        "published": "2026-07-18T14:33:51+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "It’s fairly obvious that gate keeping models will not work at scale. \n\nCompeting in AI is too economically and strategic",
+        "summary": "It’s fairly obvious that gate keeping models will not work at scale. \n\nCompeting in AI is too economically and strategically important for China at this point, and we’ve now crossed the rubicon where it’s clear that they can compete at near frontier levels. If this were even just 1 month ago and we saw kimi k3 our brains would be broken.\n\nThe solution to this isn’t to get more locked down and slow your own ecosystem. If that happens, you can guarantee that America loses the global battle (or just fights with more and more regulation to mixed success).\n\nThe solution is to -safely- ensure that you keep a high rate of progress and drive diffusion of the technology, build out infrastructure, enable US OSS, and more.",
+        "link": "https://x.com/levie/status/2078481578779685245",
+        "author": "levie",
+        "published": "2026-07-18T14:06:39+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Mass drivers on the mf Moon!!",
+        "summary": "Mass drivers on the mf Moon!!",
+        "link": "https://x.com/elonmusk/status/2078368917404151868",
+        "author": "elonmusk",
+        "published": "2026-07-18T06:38:58+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Build improves almost every day",
+        "summary": "Grok Build improves almost every day",
+        "link": "https://x.com/elonmusk/status/2078368743634149460",
+        "author": "elonmusk",
+        "published": "2026-07-18T06:38:17+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Easy predictions https://t.co/zFUqwOKAW9",
+        "summary": "Easy predictions https://t.co/zFUqwOKAW9",
+        "link": "https://x.com/elonmusk/status/2078366941199171689",
+        "author": "elonmusk",
+        "published": "2026-07-18T06:31:07+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/MU4QQ2Z1py",
+        "summary": "https://t.co/MU4QQ2Z1py",
+        "link": "https://x.com/elonmusk/status/2078322392036790316",
+        "author": "elonmusk",
+        "published": "2026-07-18T03:34:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an ",
+        "summary": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA",
+        "link": "https://x.com/thsottiaux/status/2078320950488297917",
+        "author": "thsottiaux",
+        "published": "2026-07-18T03:28:22+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok 4.5",
+        "summary": "Try Grok 4.5",
+        "link": "https://x.com/elonmusk/status/2078319826263474481",
+        "author": "elonmusk",
+        "published": "2026-07-18T03:23:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "It's both amazing and painful to watch codex use browser + computer use to open Chrome, go to my PR, tap on comment and ",
+        "summary": "It's both amazing and painful to watch codex use browser + computer use to open Chrome, go to my PR, tap on comment and wrangle with the macOS picker - all TO UPLOAD AN IMAGE. GitHub has no API doesn't stop anyone.\n\nI let my codex run in VMs so they don't steal app focus. https://t.co/Dd5KzNs6E5",
+        "link": "https://x.com/steipete/status/2078318731785359634",
+        "author": "steipete",
+        "published": "2026-07-18T03:19:33+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 Sol confirmed to be an extremely good model",
+        "summary": "GPT-5.6 Sol confirmed to be an extremely good model",
+        "link": "https://x.com/thsottiaux/status/2078310751878647932",
+        "author": "thsottiaux",
+        "published": "2026-07-18T02:47:51+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "🆓 Sandbox data for downloads.\nHappy Friday! Time to ship more agents",
+        "summary": "🆓 Sandbox data for downloads.\nHappy Friday! Time to ship more agents",
+        "link": "https://x.com/rauchg/status/2078305023784620342",
+        "author": "rauchg",
+        "published": "2026-07-18T02:25:05+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\n\nPro and Team St",
+        "summary": "Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.\n\nPro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.\n\nDemand for Fable has been challenging to predict, which is why we rolled it out to subscription plans in stages, extending access several times as we secured additional capacity.",
+        "link": "https://x.com/claudeai/status/2078302415804379218",
+        "author": "claudeai",
+        "published": "2026-07-18T02:14:43+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Ship like @shadcn",
+        "summary": "Ship like @shadcn",
+        "link": "https://x.com/rauchg/status/2078299647689310270",
+        "author": "rauchg",
+        "published": "2026-07-18T02:03:43+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Are we still talking loops or did we shift to graphs yet?",
+        "summary": "Are we still talking loops or did we shift to graphs yet?",
+        "link": "https://x.com/steipete/status/2078277297791189132",
+        "author": "steipete",
+        "published": "2026-07-18T00:34:54+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "This is a sick exploration of chess history.\n\nThe Replit community is ChessMaxxing https://t.co/JqBIq5WRct",
+        "summary": "This is a sick exploration of chess history.\n\nThe Replit community is ChessMaxxing https://t.co/JqBIq5WRct",
+        "link": "https://x.com/amasad/status/2078273728618877326",
+        "author": "amasad",
+        "published": "2026-07-18T00:20:44+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "ya'all made me go crazy with codexbar icon customization issues, so I built an editor.\n(by me, I mean codex) https://t.c",
+        "summary": "ya'all made me go crazy with codexbar icon customization issues, so I built an editor.\n(by me, I mean codex) https://t.co/edAthj1eZw",
+        "link": "https://x.com/steipete/status/2078264088644276598",
+        "author": "steipete",
+        "published": "2026-07-17T23:42:25+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "don't sleep on terra!",
+        "summary": "don't sleep on terra!",
+        "link": "https://x.com/gdb/status/2078258886734446764",
+        "author": "gdb",
+        "published": "2026-07-17T23:21:45+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "AfterLab is coming out of stealth -- a new research lab building a different approach to efficient fluid intelligence. C",
+        "summary": "AfterLab is coming out of stealth -- a new research lab building a different approach to efficient fluid intelligence. Congrats to Clem and Matt on the funding!",
+        "link": "https://x.com/fchollet/status/2078256981480182250",
+        "author": "fchollet",
+        "published": "2026-07-17T23:14:11+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "btw if you havent set your {codex | claude | gemini | devin} automations to autoresearch how to improve your seo/aeo eve",
+        "summary": "btw if you havent set your {codex | claude | gemini | devin} automations to autoresearch how to improve your seo/aeo every week you are really truly missing out on free, should-be-commoditizing-but-weirdly-untapped alpha",
+        "link": "https://x.com/swyx/status/2078244735794413786",
+        "author": "swyx",
+        "published": "2026-07-17T22:25:31+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "this is cool:\n\nhttps://t.co/X4HEmFym68",
+        "summary": "this is cool:\n\nhttps://t.co/X4HEmFym68",
+        "link": "https://x.com/sama/status/2078244242993164716",
+        "author": "sama",
+        "published": "2026-07-17T22:23:34+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 Sol sets a new state of the art in cybersecurity on “The Last Ones” cyber range.\n\nWe’re already seeing that capa",
+        "summary": "GPT-5.6 Sol sets a new state of the art in cybersecurity on “The Last Ones” cyber range.\n\nWe’re already seeing that capability translate into defensive outcomes: helping teams find, validate, and fix vulnerabilities in real-world code.\n\nPut it to work with Codex Security: https://t.co/Fvz9wpLjrt",
+        "link": "https://x.com/OpenAI/status/2078243667081617826",
+        "author": "OpenAI",
+        "published": "2026-07-17T22:21:16+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "SQLite Query Explainer",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/sqlite-query-explainer\">SQLite Query Explainer</a></p>\n        <p>Julia Evan's, in <a href=\"https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/\">Learning a few things about running SQLite</a>:</p>\n<blockquote>\n<p>Maybe one day I’ll learn to read a query plan.</p>\n</blockquote>\n<p>Big same.... which inspired me to <a href=\"https://github.com/simonw/tools/pull/299#issue-4919268017\">have Fable build</a> this interactive explain tool, which runs SQLite in Python in Pyodide in Web Assembly in the browser and adds a layer of explanation to the results of both EXPLAIN and EXPLAIN QUERY PLAN.</p>\n<p>Approach with caution, since I don't know enough about SQLite query plans to verify the results myself, but it seems cromulent enough to me.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/sqlite\">sqlite</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/julia-evans\">julia-evans</a>, <a href=\"https://simonwillison.net/tags/pyodide\">pyodide</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/",
+        "author": "",
+        "keywords": "sql sqlite tools julia-evans pyodide claude-mythos-fable",
+        "published": "2026-07-18T17:19:10+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Claude make Fable 5 permanent",
+        "summary": "<p><strong><a href=\"https://twitter.com/claudeai/status/2078302415804379218\">Claude make Fable 5 permanent</a></strong></p>\nAn update from the <code>@claudeai</code> account on Twitter:</p>\n<blockquote>\n<p>Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans, at 50% of limits.</p>\n<p>Pro and Team Standard users will continue to have access to Fable via usage credits, and will receive a one-time $100 credit.</p>\n</blockquote>\n<p>As I was saying <a href=\"https://simonwillison.net/2026/Jul/12/bump/\">last week</a>, the competition from <a href=\"https://simonwillison.net/2026/Jul/9/gpt-5-6/\">GPT-5.6 Sol</a> (and maybe to a lesser extent <a href=\"https://simonwillison.net/2026/Jul/16/kimi-k3/\">Kimi 3</a>) made untenable Anthropic's plan to remove Fable 5 from their subscription accounts and make it available exclusively through API pricing.</p>\n<p>Why pay $100 or $200/month for a subscription plan that <em>doesn't</em> include Anthropic's best model?</p>\n<p>Their original plan was driven by concerns over compute capacity. I wonder if they'll have to dial back their training efforts in order to make more GPUs available to help serve the model.</p>\n<p>A lot of people were losing sleep over trying to make the most of Fable 5 before subscriber access was withdrawn. It's nice not to have to worry about the Fablepocalypse any more.</p>\n<p><strong>Update</strong>: Important to note that users on the $20/month plan will still not have access to Fable 5 on that subscription. The Max plans are $100 and $200/month.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/",
+        "author": "",
+        "keywords": "ai generative-ai llms anthropic claude llm-pricing claude-mythos-fable",
+        "published": "2026-07-18T06:00:13+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "nascheme/quixote",
+        "summary": "<p><strong><a href=\"https://github.com/nascheme/quixote\">nascheme/quixote</a></strong></p>\nA certain vintage if Python web nerd might be delighted to learn that the most recent commit to the Quixote web framework was <a href=\"(https://github.com/nascheme/quixote/commit/7f775cf9d1e7e80fcbb2706b4a1d971e55ca74a3)\">six hours ago</a>.</p>\n<p>The <a href=\"https://github.com/nascheme/quixote/commit/d6b73c5768c2d041b68b54cc71863604249abc18\">oldest commit</a> in that repo is from 21 years ago, and that was the initial import of Quixote 2.4 from Subversion into Git.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/computer-history\">computer-history</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/web-frameworks\">web-frameworks</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/18/quixote/",
+        "author": "",
+        "keywords": "computer-history python web-frameworks",
+        "published": "2026-07-18T05:27:49+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-07-18",
+        "summary": "AI 早报 2026 07 18 视频版 ：哔哩哔哩 ｜ YouTube 概览 模型发布 InternLM 发布 Intern S2 Preview 397B 多模态模型 ↗ 1 Google 推出 Gemma 4 更新，启用 FA4 并修补工具调用 ↗ 2 中国气象局开源“风和”气象服务大语言模型 ↗ 3 开发生态 ClaudeDevs 修复 Fable 模型无法选中问题并补偿扣费 ↗ 4 国家超算互联网发布智能体共创计划并招募开发者 ↗ 5 产品应用 ChatGPT桌面端应用推出更新：侧边栏加入历史记录与项目 ↗ 6 Google WeatherLab 更新加入 WeatherNext 2 与 MetNet 预报 ↗ 7 1Password 发布 1Password for Claude 集成及 Agen…",
+        "link": "https://daily.juya.uk/issues/2026-07-18/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-18T01:11:45+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": []
+  }
+}
