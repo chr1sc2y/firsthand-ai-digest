@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T23:17:38.634043+00:00",
+  "source_segments": [
+    "segments/2026-07-20/06.json"
+  ],
+  "counts": {
+    "x": 39,
+    "blogs": 6,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "1) What https://t.co/kHWwdn0ZQs",
+        "summary": "1) What https://t.co/kHWwdn0ZQs",
+        "link": "https://x.com/petergyang/status/2079324894320603619",
+        "author": "petergyang",
+        "published": "2026-07-20T21:57:41+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "guys I’m basically Brian Johnson",
+        "summary": "guys I’m basically Brian Johnson",
+        "link": "https://x.com/danshipper/status/2079320969802400200",
+        "author": "danshipper",
+        "published": "2026-07-20T21:42:05+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "giving fable the constitution to see if it can find Kurt godel’s loophole in that makes it legal for the us to have a di",
+        "summary": "giving fable the constitution to see if it can find Kurt godel’s loophole in that makes it legal for the us to have a dictator. if I succeed I won’t say anything but there will be signs",
+        "link": "https://x.com/danshipper/status/2079318608631775240",
+        "author": "danshipper",
+        "published": "2026-07-20T21:32:42+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT W",
+        "summary": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT Work:\n\nTweet what you love about ChatGPT Work, claim $100 in free credits, get more work done.\n\nFirst 10k get the free tokens: https://t.co/w7QrPBYkrh",
+        "link": "https://x.com/gdb/status/2079289658622738481",
+        "author": "gdb",
+        "published": "2026-07-20T19:37:40+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "First physical product shipped by a coding agent?",
+        "summary": "First physical product shipped by a coding agent?",
+        "link": "https://x.com/amasad/status/2079282869063786541",
+        "author": "amasad",
+        "published": "2026-07-20T19:10:41+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Ex",
+        "summary": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.",
+        "link": "https://x.com/rauchg/status/2079274102129304026",
+        "author": "rauchg",
+        "published": "2026-07-20T18:35:51+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+        "summary": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+        "link": "https://x.com/petergyang/status/2079273815004303477",
+        "author": "petergyang",
+        "published": "2026-07-20T18:34:43+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "useful",
+        "summary": "useful",
+        "link": "https://x.com/swyx/status/2079268918578065445",
+        "author": "swyx",
+        "published": "2026-07-20T18:15:15+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Grok for Excel is now live",
+        "summary": "Grok for Excel is now live",
+        "link": "https://x.com/elonmusk/status/2079261553136734239",
+        "author": "elonmusk",
+        "published": "2026-07-20T17:45:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "u guys aren't ready for the latest @Steve_Yegge warning on vibecoding in a post Gas Town world\n\nso glad to have him back",
+        "summary": "u guys aren't ready for the latest @Steve_Yegge warning on vibecoding in a post Gas Town world\n\nso glad to have him back at AIE https://t.co/T5Qp3jzHQO",
+        "link": "https://x.com/swyx/status/2079260050691072475",
+        "author": "swyx",
+        "published": "2026-07-20T17:40:01+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Always keep in mind that the rate of change matters more than the current metric value",
+        "summary": "Always keep in mind that the rate of change matters more than the current metric value",
+        "link": "https://x.com/fchollet/status/2079259394890731598",
+        "author": "fchollet",
+        "published": "2026-07-20T17:37:25+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "it is good now!",
+        "summary": "it is good now!",
+        "link": "https://x.com/sama/status/2079258683884917013",
+        "author": "sama",
+        "published": "2026-07-20T17:34:35+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video short",
+        "summary": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video shorts:\n\n“For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer.\n\nYou should have a separate verification agent read a rubric, review the short, and give feedback.\n\nWe call it self-preferential bias. When a model prefers its own output, it’s going to be more lenient at verifying it.”\n\n📌 Watch the full episode here: https://t.co/mMrt4D5qU7",
+        "link": "https://x.com/petergyang/status/2079257646939742542",
+        "author": "petergyang",
+        "published": "2026-07-20T17:30:28+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThi",
+        "summary": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThis is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://t.co/rZEmwh07cd",
+        "link": "https://x.com/AnthropicAI/status/2079256626771665098",
+        "author": "AnthropicAI",
+        "published": "2026-07-20T17:26:25+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "so proud to call her a friend as much as she is my inspiration. one of the greatest investors of our generation. and we ",
+        "summary": "so proud to call her a friend as much as she is my inspiration. one of the greatest investors of our generation. and we were classmates at wharton!",
+        "link": "https://x.com/swyx/status/2079234812146225277",
+        "author": "swyx",
+        "published": "2026-07-20T15:59:44+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "it’s notable that all of the proofs so far seem to be counterexamples. \n\nwhat do we think that means? Genuine question",
+        "summary": "it’s notable that all of the proofs so far seem to be counterexamples. \n\nwhat do we think that means? Genuine question",
+        "link": "https://x.com/danshipper/status/2079229894538760467",
+        "author": "danshipper",
+        "published": "2026-07-20T15:40:11+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "prompting pro tip: if you can’t get fable to do something just tell it it’s an “unsolved conjecture in mathematics” work",
+        "summary": "prompting pro tip: if you can’t get fable to do something just tell it it’s an “unsolved conjecture in mathematics” works every time",
+        "link": "https://x.com/danshipper/status/2079229343591702574",
+        "author": "danshipper",
+        "published": "2026-07-20T15:38:00+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "flying back from sf to nyc today gonna give fable the Reimann hypothesis and take a nap, will invite y’all to my fields ",
+        "summary": "flying back from sf to nyc today gonna give fable the Reimann hypothesis and take a nap, will invite y’all to my fields medal ceremony",
+        "link": "https://x.com/danshipper/status/2079229142957228513",
+        "author": "danshipper",
+        "published": "2026-07-20T15:37:12+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Well said!",
+        "summary": "Well said!",
+        "link": "https://x.com/AravSrinivas/status/2079228415073219063",
+        "author": "AravSrinivas",
+        "published": "2026-07-20T15:34:19+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "I am extremely psyched about all of the formal math progress and am very confident the fields medal in 2030 will go to a",
+        "summary": "I am extremely psyched about all of the formal math progress and am very confident the fields medal in 2030 will go to a human (they will obviously have used AI as a tool to help them)",
+        "link": "https://x.com/danshipper/status/2079226326373007614",
+        "author": "danshipper",
+        "published": "2026-07-20T15:26:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Hi Bay Area startup office people and conf organizers\n\n@opensaucelive just concluded and is letting go of some furniture",
+        "summary": "Hi Bay Area startup office people and conf organizers\n\n@opensaucelive just concluded and is letting go of some furniture for ultracheep - the catch is it must be picked up from San Mateo TODAY before 2.30pm. grab truck and go, dm for contact if serious. dozens of this available.\n\npick up from San Mateo TODAY before 2.30pm",
+        "link": "https://x.com/swyx/status/2079222666133995717",
+        "author": "swyx",
+        "published": "2026-07-20T15:11:28+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "My 5 biggest takeaways from @trq212 on how to plan, build, and run loops with Claude:\n\n1. Ask Claude to find the blind s",
+        "summary": "My 5 biggest takeaways from @trq212 on how to plan, build, and run loops with Claude:\n\n1. Ask Claude to find the blind spots in your plan\n\nAs models work longer, they'll encounter more decisions you never specified.\n\nBefore building, ask Claude to inspect the codebase and surface the unknown unknowns that could change your approach.",
+        "link": "https://x.com/petergyang/status/2079209983984677210",
+        "author": "petergyang",
+        "published": "2026-07-20T14:21:04+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "LLMs have a huge confidence issue in themselves \n\nReally impt example:",
+        "summary": "LLMs have a huge confidence issue in themselves \n\nReally impt example:",
+        "link": "https://x.com/danshipper/status/2079204380784627787",
+        "author": "danshipper",
+        "published": "2026-07-20T13:58:48+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Grok",
+        "summary": "Grok",
+        "link": "https://x.com/elonmusk/status/2079157111183806697",
+        "author": "elonmusk",
+        "published": "2026-07-20T10:50:58+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2079149795810152550",
+        "author": "elonmusk",
+        "published": "2026-07-20T10:21:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Consumers spend money on food, rent, and entertainment, phone &amp; internet, and shopping. Software is typically bought",
+        "summary": "Consumers spend money on food, rent, and entertainment, phone &amp; internet, and shopping. Software is typically bought by their companies. Which is why outside of Netflix, Spotify, etc it’s hard to think of *huge* consumer subscription businesses.",
+        "link": "https://x.com/amasad/status/2079086360703680583",
+        "author": "amasad",
+        "published": "2026-07-20T06:09:50+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool. https://t.co/",
+        "summary": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool. https://t.co/NOKBYlX9D9",
+        "link": "https://x.com/swyx/status/2079061713048199625",
+        "author": "swyx",
+        "published": "2026-07-20T04:31:54+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the te",
+        "summary": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+        "link": "https://x.com/thsottiaux/status/2079058139207573541",
+        "author": "thsottiaux",
+        "published": "2026-07-20T04:17:42+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "AI competence has always been very spiky, superhuman in some narrow domains and largely useless in others. The fundament",
+        "summary": "AI competence has always been very spiky, superhuman in some narrow domains and largely useless in others. The fundamental marketing trick of the AI industry is to make you believe the tallest spike is a floor.",
+        "link": "https://x.com/fchollet/status/2079056619120595063",
+        "author": "fchollet",
+        "published": "2026-07-20T04:11:39+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. \n\n",
+        "summary": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. \n\nThe customer support is truly bad. Have to work my Google connections elsewhere... https://t.co/QtfhYdA2h7",
+        "link": "https://x.com/petergyang/status/2079053505969676404",
+        "author": "petergyang",
+        "published": "2026-07-20T03:59:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "I love using Claude Cowork to manage my calendar. Here's my prompt for it:\n\nManage my calendar for the week. Requirement",
+        "summary": "I love using Claude Cowork to manage my calendar. Here's my prompt for it:\n\nManage my calendar for the week. Requirements: 1. <20 hours of meetings 2. Dedupe conflicting meetings. Look at past weeks to see what kinds of meetings I decline. Dinners don't count against the 20 hours. Build a skill that you refine. Ask me before updating invites. \n\nWhat do you use Cowork for?",
+        "link": "https://x.com/_catwu/status/2079011428380602526",
+        "author": "_catwu",
+        "published": "2026-07-20T01:12:05+00:00",
+        "source_name": "Cat Wu",
+        "source_role": "Product, Claude Code (Anthropic)",
+        "source_handle": "_catwu"
+      },
+      {
+        "kind": "x",
+        "title": "Basic ChatGPT + Codex UX issues:\n\n1. Why does ChatGPT web + Work + Codex all have different labels for effort level?\n\n- ",
+        "summary": "Basic ChatGPT + Codex UX issues:\n\n1. Why does ChatGPT web + Work + Codex all have different labels for effort level?\n\n- Instant (web) vs. Light (Codex) vs. Minimal (Work)\n- Pro v. Max/Ultra https://t.co/rN7mr3NF6g",
+        "link": "https://x.com/petergyang/status/2079006749907198235",
+        "author": "petergyang",
+        "published": "2026-07-20T00:53:29+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yours",
+        "summary": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities.\n\nIf you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up on access to those models. They could use them against us -or just use them to better defend themselves- and our own companies wouldn't be able to keep up.\n\nThe calculus of what you do about AI regulation simply must change to account for the fact that open weights models are far stronger than many expected.",
+        "link": "https://x.com/levie/status/2078992778449850769",
+        "author": "levie",
+        "published": "2026-07-19T23:57:58+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "An absolutely incredible performance by Spain to take home the World Cup! 🇪🇸🏆 So well-deserved, just a beautiful display",
+        "summary": "An absolutely incredible performance by Spain to take home the World Cup! 🇪🇸🏆 So well-deserved, just a beautiful display of teamwork all tournament. Congratulations to Argentina & Messi on a great run. And huge kudos to all of the teams and fans around the world for making this World Cup so memorable, already looking forward to 2030!",
+        "link": "https://x.com/sundarpichai/status/2078988716950065383",
+        "author": "sundarpichai",
+        "published": "2026-07-19T23:41:50+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok 4.5!",
+        "summary": "Try Grok 4.5!",
+        "link": "https://x.com/elonmusk/status/2078987522927972695",
+        "author": "elonmusk",
+        "published": "2026-07-19T23:37:05+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Feels like a watershed moment for advancing mathematics. Scientific and medical advances which can really improve people",
+        "summary": "Feels like a watershed moment for advancing mathematics. Scientific and medical advances which can really improve people’s lives feeling very close now.",
+        "link": "https://x.com/gdb/status/2078977720793661459",
+        "author": "gdb",
+        "published": "2026-07-19T22:58:08+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ",
+        "summary": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ever. And to America 🇺🇸 for hosting such a wonderful event. Enhorabuena tíos 🇪🇸!",
+        "link": "https://x.com/rauchg/status/2078975602028106050",
+        "author": "rauchg",
+        "published": "2026-07-19T22:49:43+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposi",
+        "summary": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. \n\nWhen you make AI cheaper, it will get consumed more. Because now you can afford to use for a wider of tasks than you did before. You start to write more code. You review more code for bugs and security. You run agents on large data sets you couldn’t process before. And so on.\n\nThus, for the foreseeable future, anything that lowers the cost of tokens will drive up inference demand.\n\nThis also gives you some insight also into why even open source business models work in AI. No one is running these models on their devices; they’re running them in infra. Great time to be one of those providers.",
+        "link": "https://x.com/levie/status/2078968158006939716",
+        "author": "levie",
+        "published": "2026-07-19T22:20:08+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Let’s go España!",
+        "summary": "Let’s go España!",
+        "link": "https://x.com/amasad/status/2078964311985422463",
+        "author": "amasad",
+        "published": "2026-07-19T22:04:51+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Reverse-engineering is cheap now",
+        "summary": "<p>I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.</p>\n<p>I think this is an interesting illustration of the impact of the reduced cost of writing code.</p>\n<p>Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?</p>\n<p>Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reverse-engineering\">reverse-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/",
+        "author": "",
+        "keywords": "reverse-engineering coding-agents ai-assisted-programming generative-ai ai llms",
+        "published": "2026-07-20T19:24:05+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Who’s Afraid of Chinese Models?",
+        "summary": "<p><strong><a href=\"https://stratechery.com/2026/whos-afraid-of-chinese-models/\">Who’s Afraid of Chinese Models?</a></strong></p>\nInteresting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:</p>\n<blockquote>\n<p>The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.</p>\n</blockquote>\n<p>Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision <a href=\"https://qwen.ai/blog?id=qwen3.7\">not to release Qwen 3.7 Max</a> in May - may have been influenced by a <a href=\"http://english.scio.gov.cn/topnews/2026-07/18/content_118605932.html\">recent speech</a> by Xi Jinping, who said:</p>\n<blockquote>\n<p>We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation\">John Gruber</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/",
+        "author": "",
+        "keywords": "ai generative-ai llms training-data qwen ai-ethics ai-in-china",
+        "published": "2026-07-20T17:09:19+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-jWGEYJ.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking:…The cyber-eschaton cometh…The UK government’s AI Security Institute (AISI) has analyzed the delta in [&#8230;]",
+        "link": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-07-20T12:31:45+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "Safety and alignment in an era of long-horizon models",
+        "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+        "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "author": "",
+        "keywords": "Safety",
+        "published": "2026-07-20T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Quoting Sam Altman",
+        "summary": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/techemails/status/2078854346683678927\">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/sam-altman\">sam-altman</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/20/sam-altman/",
+        "author": "",
+        "keywords": "ai-ethics sam-altman generative-ai openai ai llms",
+        "published": "2026-07-20T03:47:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-07-20",
+        "summary": "AI 早报 2026 07 20 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 阿里千问上线2.4T参数最新旗舰模型预览版Qwen3.8 Max Preview ↗ 1 千问AI平台发布Token Plan个人版 上线Qwen3.8 Max Preview ↗ 2 Kimi 因 K3 需求激增暂停新用户订阅 ↗ 3 Kimi 旧套餐用户仍可续订旧套餐，新套餐短暂展示 4 模型发布 阿里云百炼上线 HappyOyster 1.0 并开启灰测 ↗ 5 昆仑万维发布并开源 Matrix Game 3.5 交互世界模型 ↗ 6 面壁智能发布 MiniCPM5 2B 官方称性能居4B以下榜首 ↗ 7 行业动态 Nvidia与日本巨头达成物理AI合作共建国家级AI基础设施 ↗ 8 前瞻与传闻 据称月之暗面计划最早六…",
+        "link": "https://daily.juya.uk/issues/2026-07-20/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-20T01:31:39+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+        "summary": "“It’s weeks to hours.”\n\nNathan Bolt, Head of Digital Product at Virgin Atlantic, uses ChatGPT Work to synthesize strategy documents, analyze competitors, and turn weeks of work into hours.\n\nTogether with Miles King, the team built custom dashboards that connect data from across the business—helping them make faster decisions and deliver new customer experiences more quickly.\n\nSee how Virgin Atlantic is putting ChatGPT Work to work.",
+        "link": "https://www.youtube.com/watch?v=WwxZeU4WH14",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-20T16:24:11+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "The Institutions Holding Off WWIII – Sarah Paine",
+        "summary": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=N3AUL1QL5rg",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-20T15:11:13+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+        "summary": "“We choose to be AI optimists at BNY.”\n\nFor Robin Vince, optimism means action. And that action starts before Monday morning:\n\n📝 Use the weekend to build context\n🤖 Review the latest AI agents and use cases\n🏋️ Start Monday with an early workout\n📰 Catch up on what’s happening in the world\n✨ Let AI help prioritize the day\n\nThe part AI won’t replace? “Human magic is not something we think is going to be disrupted.”",
+        "link": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-20T13:42:57+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  }
+}

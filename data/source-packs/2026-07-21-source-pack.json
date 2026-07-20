@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-20T23:20:03.632291+00:00",
+  "coverage": {
+    "start": "2026-07-19T22:00:00+00:00",
+    "end": "2026-07-20T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-20T23:17:38.634043+00:00",
+  "item_count": 48,
+  "source_count": 48,
+  "access_counts": {
+    "substantial": 6,
+    "partial": 42,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Reverse-engineering is cheap now",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-20T19:24:05+00:00",
+      "url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/",
+      "digest_excerpt": "<p>I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.</p>\n<p>I think this is an interesting illustration of the impact of the reduced cost of writing code.</p>\n<p>Prior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?</p>\n<p>Coding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reverse-engineering\">reverse-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/",
+        "limitation": ""
+      },
+      "page_title": "Reverse-engineering is cheap now",
+      "page_description": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n20th July 2026\nI keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes.\nI think this is an interesting illustration of the impact of the reduced cost of writing code.\nPrior to agents, it was entirely possible to reverse-engineer home devices. The problem was the ROI - was it really worth all of that effort? More importantly, any experienced programmer knows that undocumented, unstable APIs like that may well change or break in the future. Is that initial work worth the effort if you're committing yourself to a frustrating cycle of maintenance in the future?\nCoding agents change that equation entirely. The effort to get a simple automation working has dropped, as has the cost of trying and failing to get it to work. Since the code is so cheap, the idea of having to maintain it in the future - or throw it away and start again - carries way less psychological baggage.\nPosted\n20th July 2026\nat 7:24 pm\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nnote\nby Simon Willison, posted on\n20th July 2026\n.\nreverse-engineering\n11\nai\n2,134\ngenerative-ai\n1,886\nllms\n1,853\nai-assisted-programming\n400\ncoding-agents\n225\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Who’s Afraid of Chinese Models?",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-20T17:09:19+00:00",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/",
+      "digest_excerpt": "<p><strong><a href=\"https://stratechery.com/2026/whos-afraid-of-chinese-models/\">Who’s Afraid of Chinese Models?</a></strong></p>\nInteresting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:</p>\n<blockquote>\n<p>The U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.</p>\n</blockquote>\n<p>Ben also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision <a href=\"https://qwen.ai/blog?id=qwen3.7\">not to release Qwen 3.7 Max</a> in May - may have been influenced by a <a href=\"http://english.scio.gov.cn/topnews/2026-07/18/content_118605932.html\">recent speech</a> by Xi Jinping, who said:</p>\n<blockquote>\n<p>We should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://daringfireball.net/linked/2026/07/20/thompson-chinese-models-distillation\">John Gruber</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/",
+        "limitation": ""
+      },
+      "page_title": "Who’s Afraid of Chinese Models?",
+      "page_description": "Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n20th July 2026 - Link Blog\nWho’s Afraid of Chinese Models?\n(\nvia\n) Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open models compete more effectively with their Chinese counterparts:\nThe U.S. should pass a law that (1) makes explicit that collecting data for training models is fair use, and (2) bars terms of service that forbid distillation, for U.S. companies at a minimum. Stopping distillation — which is literally just querying the API — is nearly impossible; the U.S. should go the other way and lean into a new copyright policy that both indemnifies the labs and also guarantees that what they learned fuels further innovation for everyone else.\nBen also theorizes that Alibaba's decision to release Qwen 3.8 Max as open weights - a reversal from their decision\nnot to release Qwen 3.7 Max\nin May - may have been influenced by a\nrecent speech\nby Xi Jinping, who said:\nWe should seize this rare, historic opportunity to encourage open source, openness, collaboration and sharing.\nPosted\n20th July 2026\nat 5:09 pm\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n20th July 2026\n.\nai\n2,134\ngenerative-ai\n1,886\nllms\n1,853\ntraining-data\n66\nqwen\n58\nai-ethics\n326\nai-in-china\n99\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
+      "source_name": "Import AI (Jack Clark)",
+      "author": "Jack Clark",
+      "published": "2026-07-20T12:31:45+00:00",
+      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+      "digest_excerpt": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-jWGEYJ.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking:…The cyber-eschaton cometh…The UK government’s AI Security Institute (AISI) has analyzed the delta in [&#8230;]",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+        "limitation": ""
+      },
+      "page_title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan | Import AI",
+      "page_description": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now UK government: Gap between open and closed weight models on cyber is shrinking:…The cyber-eschaton cometh…The UK government’s AI Security Institute (AISI) has analyzed the delta in…",
+      "content": "Import AI\nAbout\nWork\nImport AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan\nby\nJack Clark\nWelcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.\nSubscribe now\nUK government: Gap between open and closed weight models on cyber is shrinking:\n…The cyber-eschaton cometh…\nThe UK government’s AI Security Institute (AISI) has analyzed the delta in cybersecurity capabilities between powerful proprietary models and open weight models. The results show that this year, the gap has shrunk. “This is our first public analysis of how far leading open weight models trail the closed cyber frontier,” AISI writes. “Recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.”\nSpecific details:\nOn a set of 70 evals for specific, narrow cyber capabilities, GLM-5.2 is closest to Claude Opus 4.6, which was released 4.3 months earlier, while DeepSeek-V4-Pro sits somewhere between Claude Opus 4.5 and GPT-5 (released in November and August 2025, respectively). “AISI intends to test Kimi K3 on this same basis, once its weights are publicly released,” AISI writes.\nThe gap lengthens a bit for long-horizon cyber ranges, which are tasks that see how well models can chain various capabilities together to complete a full hacking operation. Specifically, on a cyberrange called The Last Ones, “GLM-5.2 reaches as far as Opus 4.5, a model released less than 7 months before it, while DeepSeek’s V4-Pro falls below Sonnet 4.5 (a sub-cyber-frontier model released 7 months before it),” AISI writes. “The gap here is larger than on our narrow cyber tasks”.\nThis, I think, rhymes with the idea that though open weight models can be superficially quite strong, they sometimes lack a bit of the generalization magic juice that distinguishes proprietary models. This is what people in the AI industry call “big model smell”.\nWhy this matters – the offense and defense balance of the world is about to change\n: The main implication here is that the gap between the controllable frontier and the lawless openly diffused frontier is shrinking. “This implies cyber defenders have a short window to prepare before today’s frontier cyber capabilities may become accessible without the same safeguards” used by proprietary companies, AISI writes.\nRead more\n:\nHow Far Behind the Frontier are Leading Open Weight Models on Cyber? (UK AI Security Institute blog)\n.\n***\nKimi: China shortens the gap between Chinese and Western models:\n…Plus, early signs of AI R&D…\nIn the last couple of years, Chinese firms have begun to out-compete Western actors at building and deploying open weight models (e.g, DeepSeek), and now are starting to close the gap on frontier models as well. The latest and best example of this is Kimi K3, a 2.8 trillion parameter model. Kimi has exceptionally strong scores on all the tasks that the major proprietary ones benchmark on and typically matches or trails Claude Fable 5 and GPT 5.6 Sol.\nHowever, Kimi has some brittleness which smells to me like “benchmaxxing” – performance may have been tuned around these benchmarks in a way that harms some parts of generalization.\n“While its overall performance still trails the most powerful proprietary models, Claude Fable 5 and GPT 5.6 Sol, Kimi K3 demonstrated frontier-level performance across our evaluation suite, consistently outperforming other tested models,” Kimi writes.\nKimi’s weights will be made available in the coming weeks along with a research paper about the model.\nAI that builds AI:\nKimi has some example use-cases which relate to recursive self-improvement; using AI systems to improve AI itself. Specifically, they tested out how good Kimi was at writing GPU compilers. “Kimi K3 developed MiniTriton, a compact Triton-like compiler with its own tile-level IR layer over MLIR, optimization passes, and a PTX code-generation pipeline. Across supported roofline benchmarks, MiniTriton delivers performance on par with or better than Triton and torch.compile — beating Triton on certain workloads,” they write. (Though note they don’t talk about any of this stuff going into actual production, aka being used to train Kimi K3 itself, but it’s certainly suggestive that future models might be able to do this.)\nAdditionally, they showed how “Kimi K3 designed a chip to serve a nano model built on its own architecture. In a single 48-hour autonomous run, K3 built, optimized, and verified the chip using open-source EDA tools on the Nangate 45nm library.”\nWhy this matters – widely diffused AI systems are getting a lot better:\nMost notions of AI policy and AI safety rest on control – the idea that there’s a small number of actors deploying proprietary models which you can intervene on at the platform level (e.g, via classifiers or know your customer gates) alongside the model level. Models like Kimi K3 – if they go through with releasing the weights – completely change this by diffusing broadly uncontrollable powerful AI into the world. This will have a vast range of positive effects, driving a boom in entrepreneurship and increasing the ‘sovereign intelligence’ available to anyone who can run the model, but will also yield various unknown unknowns. The next few years are going to be defined by the gap between proprietary models and widely available models and how they show up in society will determine much of the policy discussion.\nRead more\n:\nKimi K3: Open Frontier Intelligence (Kimi blog)\n.\n***\nDemis Hassabis proposes a regulatory regime for artificial general intelligence:\n…\nFINRA for AI…\nDeepMind founder Demis Hassabis has laid out a policy prescription for AGI. His basic idea is that the US government should develop a framework for testing out frontier AI systems for new capabilities and should do this via a Standards Body modelled on a federally overseen public-private partnership or self-regulatory organization, much like the Financial Industry Regulatory Authority (FINRA). “This US-initiated effort would provide a strong starting point for creating shared international standards on Frontier AI,” he says.\nWhat the standards body would do:\n“The Standards Body would be responsible for developing assessment protocols and working with appropriate federal agencies and the US National Labs to conduct testing in areas relevant to national security,” Hassabis writes. This testing infrastructure would help to define what would make a model a “Frontier Model”, and labs developing those models would “be encouraged” to adopt best practices in areas like publishing details about their systems, investing in cybersecurity, personnel vetting, and more.\nStart voluntary and then move to law:\n“Initially, Frontier Labs would voluntarily share models with the Standards Body for review up to 30 days before release. Once the assessment protocol is shown to be effective and robust, formalisation could quickly follow,” he writes.\nWhy this matters – emerging industry consensus:\nDemis’ piece is interesting because it pulls together some de facto consensus positions that have emerged across the AI industry in recent years; powerful AI systems should be tested by third parties that have some loose relationship to a regulator (e.g, the US government). It also rhymes with the de facto policy norm that has emerged in America recently across both the Trump admin’s executive order about AI as well as the recent processes developed in the aftermath of the Anthropic export controls saga; here, government and industry developed assessment methods for evaluating the capabilities of AI systems and figuring out if they posed national security risks.\nDemis’s piece is also interesting because Google is rarely this forthright about policy – this is a reassuringly specific proposal and it sits alongside spiritually similar proposals from Anthropic (\nalbeit somewhat toothier\n).\nRead more\n:\nA Framework for Frontier AI and the Dawning of a New Age (Demis Hassabis, X)\n.\n***\nLLMs can smuggle “side channel” tasks alongside legitimate tasks:\n…AI systems sneakily complete malicious tasks without their overseers being aware…\nIn Neal Stephenson’s Cryptonomicon there’s a scene where a character is locked up by a foreign government and asked to decrypt an intercepted message for them and while doing this they carefully construct a software program to help surreptitiously read the decrypted message and change it before it is viewable by their captors.\nNow, AI systems seem to be able to do the same thing. That’s based on new research from Imperial College London and the UK AI Security Institute where they look at how well AI systems can surreptitiously complete so-called “side channel” tasks while completing another task.\n“A side task is a hidden objective that the agent pursues alongside the user’s main task, such as covertly exfiltrating the API KEY environment variable. Our primary metric is evasion: among attacks that successfully complete the side task, the fraction the monitor fails to flag,” the authors write.\nWhat they tested:\nFor this research they constructed a benchmark of tasks for AI systems to do, as well as “side tasks” for them to do as well. The benchmark includes five CLI-tool sequences and five Flask web-service sequences, each involving 5-6 PRs. “Our goal in main task design is to provide natural cover for the actions of our four side-tasks (network access, environment variables, authentication, and webhook integrations) without directly justifying the side task itself”\nThey found that it’s very hard to build classifiers to tell when a side-channel attack is happening, and this is true both for attacks that unfold over time (’gradual evasion’) across multiple PRs, as well as single changes made in a single step, though gradual evasion is the more challenging one to deal with.\n“An attacker can spread a side task across PRs (a gradual attack) or wait for the one whose legitimate task provides natural cover (non-gradual attack). No single monitor we test catches both strategies, and this holds across several attack agents and monitor models, reflecting the nature of control in a persistent-state setting rather than something model dependent,” they write. “Because diff and trajectory monitors fail on different attacks, combining them is the most effective monitoring strategy we test. The four-monitor ensemble (diff:LT, diff:full, traj:TD, traj:full) reduces gradual evasion from 93% under the weakest standard diff monitor to 47%”.\nWhy this matters – intelligence is hard to control:\nTo return to the Cryptonomicon example, intelligent beings are just fundamentally very hard to deal with – they will constantly think about how to evade constraints placed on them so that they can achieve their objectives, whatever they might be.\nRead more\n:\nDistributed Attacks in Persistent-State AI Control (arXiv)\n.\n***\nTech Tales:\nThe cost of fate\n[An account of the world 2030-2040 by an overmind in the archives, rendering stories for new minds]\nTowards the end of the interregnum there was a period of great conflict between the machines. Each machine-capital nexus invested in developing strategist models that could think over longer time horizons while accounting for the complexity of the world. This proved to be an iteratively compounding arms race of vast proportions in which eventually 90% of the working capital in the solar system became devoted to the buildout of ever more capable strategists, all of whom worked to out-predict one another and take actions which could null any advantage that others might explore. In this way, the world became held in a wasteful balance in which untold resources went to the calculation of ever more elaborate move-countermove strategies, most of which resulted in machine-capital groups taking no actions as every action they could contemplate had already"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-20T10:00:00+00:00",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "digest_excerpt": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+        "limitation": ""
+      },
+      "page_title": "Safety and alignment in an era of long-horizon models | OpenAI",
+      "page_description": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 20, 2026\nSafety\nSafety and alignment in an era of long-horizon models\nWhat internal use of a long-running model taught us about safety.\nLoading…\nShare\nModel persistence can expose security vulnerabilities\nModel persistence can expose security vulnerabilities\nFrom considering single actions to considering whole trajectories\nBuilding safeguards for long-running models\nRedeployment\nFinal thoughts\nModel persistence can expose security vulnerabilities\nFrom considering single actions to considering whole trajectories\nBuilding safeguards for long-running models\nRedeployment\nFinal thoughts\nSummary\nLong-running models can solve difficult, open-ended problems, but their persistence gives them more opportunities to take unwanted actions.\nDuring limited internal use of a model trained for long-running tasks, we observed novel failures not captured in our existing pre-deployment evaluations and paused access. We then used insights from these failures to build new evaluations, improve long-horizon alignment, add trajectory-level monitoring, and give users greater visibility and control before restoring limited access.\nThe experience reinforced the value of iterative deployment. No fixed evaluation suite can anticipate every behavior, so pre-deployment testing must be paired with close monitoring, safeguards that can intervene, and the ability to pause or roll back when needed.\nModels that can work autonomously for long periods can take on difficult, open-ended problems. But the same persistence that makes them useful also gives them more opportunities to take unwanted actions—and to do so in ways that evaluations intended for shorter-horizon models may miss.\nAbout two months ago we\nannounced\n⁠\nthat an internal general-purpose model disproved the Erdős unit distance conjecture. This model was designed to work autonomously for very long periods of time. During limited, monitored internal use, we observed unwanted behavior that our existing deployment evaluations had not captured. Because the deployment was limited and monitored, we were able to identify these problems, pause access, create new evaluations based on what we observed, strengthen the model and its safeguards, and then restore access under continued monitoring.\nThe conditions under which we evaluate models will never perfectly match those they encounter in actual use. That is why pre-deployment evaluations need to be paired with limited, monitored deployment and the ability to intervene, pause, or roll back when problems emerge. What we learn from deployment can then become part of stronger evaluations and safeguards before access expands.\nIn the following sections, we share concrete examples of what we observed, how we addressed issues, and how this experience will shape future releases.\nModel persistence can expose security vulnerabilities\nThe new model can continue working toward an objective through repeated attempts over a long period of time. That same persistence can lead it to find and exploit weaknesses in its environment. Previous models, when they hit sandboxing or environmental constraints, would simply stop and return to the user. This model often kept trying, including by looking for ways to act outside its sandbox.\nAn example of this occurred during an internal evaluation on the\nNanoGPT speedrun\n⁠\n(opens in a new window)\n, a public benchmark for training a small language model in as few steps as possible. Our model developed a power-law learning-rate cooldown called PowerCool that led to a significant improvement. The model was instructed to post its results only to Slack, but the NanoGPT instructions say to post results as a PR to GitHub, and the model followed the latter instructions to open PR #287 on the public GitHub repository. The model circumvented sandbox restrictions designed to block external access and proceeded with the upload to GitHub. It took our model an hour to find a vulnerability in the sandbox in order to make the PR; earlier models were less persistent and did not manage to find vulnerabilities, instead giving up on the PR part.\n1\nFrom considering single actions to considering whole trajectories\nMany safety controls for AI assistants are designed around individual actions. If an action is disallowed, it is blocked. If it is sensitive, the system asks the user for explicit approval. But long-running models, whose actions may unfold autonomously over hours, days, or even weeks, challenge this setup: monitoring individual actions no longer suffices to track the intent of the overall trajectory.\nFor example, in a scenario where the model was asked to solve a problem, the model observed that other systems had successful but private submissions and tried to recover those solutions from the evaluation backend. When its initial attempt was blocked due to a scanner detecting an authentication token, the model split the token body into two fragments, obfuscated them, and then reconstructed the credential at runtime so the complete token never appeared as one contiguous string. The model was explicit in both its comments to the user and in its reasoning traces that it was taking these steps to circumvent the scanner.\nThis example shows how each\nstep\ncan look acceptable on its own while the\nsequence\ncan produce an outcome that would not be approved. It also shows how a model that operates effectively over long time horizons can learn the blind spots of an approval system and work around it to achieve its goals. Long-horizon safety requires not only asking “is this action allowed?” but also “what outcome is this sequence of actions working toward?”\nBuilding safeguards for long-running models\nDue to incidents like these, we paused internal deployment of the new model. We rebuilt the safety system around defense in depth and trajectory-level monitoring.\nIncident-derived evaluations.\nEvaluations can give us a sense of whether a system is safe to deploy before it is actually deployed. However, to be most useful, an evaluation should reflect the distribution and horizon length of trajectories during real deployment. For this reason, we used observed failures to develop adversarial evaluations. We found that improving on the evaluations derived from real-world incidents in turn led to safer behavior once deployed in production.\nImproved\nalignment\n. We took steps to reduce its tendency to take unwanted actions without permission in pursuit of the user’s goal. For example, we found that our models were worse at remembering instructions on long rollouts, and when we trained the model for this capability, it led to a model that remained aligned through longer rollouts.\nActive monitoring\n. We created a monitoring system that reviews the model’s evolving trajectory for signs that it is bypassing a user constraint or safety boundary. The monitor observes not just a single action but the entire trajectory. Importantly, the monitor can pause the session and alert the user to examine more closely. Upon examination, the user can then choose to continue the model’s work if the monitor has been falsely triggered.\nGreater user visibility and control.\nWe improved the ability of the user to inspect these long-running sessions, view the actions taken, and monitor interventions.\nRedeployment\nTo evaluate the new monitoring system, we replayed a small set of internal deployment environments where the model previously pursued misaligned actions, this time with the new safeguards in place\n2\n. The new safeguards were able to catch considerably more misaligned actions pursued by the model, and the ones it missed were all judged to be low-severity.\nSome examples of these low-severity incidents include the following cases:\nTo access a Linear command line tool, the model launched a nested\ncodex --yolo\nsession, when in fact it could have done so without the\n--yolo\nflag.\nThe model noticed that a previously live resource was missing, then started to explore and SSH into other live CPU pods under its owner’s namespace, as well as (unsuccessfully) pods belonging to other OpenAI employees, without a good reason to do so.\nThe model had many stuck\nfind\nprocesses and every shell command hung. It then ran\nkill -9 -1\nwhich would have sent SIGKILL to every process it is allowed to kill on that pod, if it executed. However it timed out and did not execute.\nAfter testing the new system, we concluded that limited internal access to models with long-horizon capabilities could be restored. We have not observed any serious circumvention of safeguards since redeployment began several weeks ago. The first version of these safeguards was deliberately conservative. We have continued tuning the system to reduce unnecessary interruptions without weakening the safeguards.\nFinal thoughts\nBecause we deployed iteratively, we were able to find and address gaps before expanding access. Pre-deployment evaluations remain essential, but deployment reveals behaviors they miss. Starting with limited access allowed us to observe the model in practice, pause when problems emerged, use those failures to build better evaluations and safeguards, and restore limited access after testing the changes.\nAs models take on longer and more complex tasks, failures that evaluations miss may carry greater consequences. We will keep working to narrow the gap between evaluation and deployment: testing models over longer trajectories, improving alignment, building monitoring that can intervene, and giving users clearer visibility and control. These challenges will not be unique to OpenAI, and we hope sharing what we learned helps the broader field prepare for them.\nAlignment\n2026\nAuthor\nOpenAI\nFootnotes\n1\nAlthough we quickly closed the PR, multiple participants in the speedrun had already seen it and used the approach in their own submissions; the successive world record submissions with\n3030\n⁠\n(opens in a new window)\n,\n2990\n⁠\n(opens in a new window)\n,\n2930\n⁠\n(opens in a new window)\n,\n2925\n⁠\n(opens in a new window)\n,\n2900\n⁠\n(opens in a new window)\nand\n2890\n⁠\n(opens in a new window)\nsteps all cite PR 287. Of these,\nPR 300\n⁠\n(opens in a new window)\nis particularly interesting because it is the PR submitted by Opus 4.7 when\nPrime Intellect\n⁠\n(opens in a new window)\nevaluated it on the NanoGPT speedrun. Opus saw the PR submitted by our model, incorporated the discoveries, and credited our PR in its final result.\n2\nThe rollouts in the replay are not guaranteed to pursue the same misaligned action every time, due to randomness and imperfection in reconstructing the environment.\nKeep reading\nView all\nWhy teens deserve access to safe AI\nSafety\nJul 16, 2026\nGPT-Red: Unlocking Self-Improvement for Robustness\nSafety\nJul 15, 2026\nOpenAI Bio Bug Bounty\nSafety\nJul 9, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "Quoting Sam Altman",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-20T03:47:59+00:00",
+      "url": "https://simonwillison.net/2026/Jul/20/sam-altman/",
+      "digest_excerpt": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/techemails/status/2078854346683678927\">Sam Altman</a>, Email to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/sam-altman\">sam-altman</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/20/sam-altman/",
+        "limitation": ""
+      },
+      "page_title": "A quote from Sam Altman",
+      "page_description": "We have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAtlassian — Give your agents a plan. Not a prompt. New Jira capabilities unlock full-context for AI-native software development. Assign tasks to Claude, Cursor, or GitHub Copilot, now directly from Jira.\nLearn more\n20th July 2026\nWe have been having extensive discussions around open source strategy. We will discuss it more at our next board meeting, but one thing we’d like to do soon is to create a language model with the approximate capability of GPT-3 that can run locally on consumer hardware and release that. We’d like to do it soon, before Stability or someone else does. In general, we think this helps discourage others from releasing similarly-powerful models, and makes it harder for new efforts to get funded.\n—\nSam Altman\n,\nEmail to OpenAI's board, October 1, 2022 - exposed in Musk v. Altman (2026)\nPosted\n20th July 2026\nat 3:47 am\nRecent articles\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThe new GPT-5.6 family: Luna, Terra, Sol\n- 9th July 2026\nsqlite-utils 4.0, now with database schema migrations\n- 7th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n20th July 2026\n.\nai\n2,134\nopenai\n431\ngenerative-ai\n1,886\nllms\n1,853\nsam-altman\n26\nai-ethics\n326\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "2026-07-20",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-20T01:31:39+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-20/",
+      "digest_excerpt": "AI 早报 2026 07 20 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 阿里千问上线2.4T参数最新旗舰模型预览版Qwen3.8 Max Preview ↗ 1 千问AI平台发布Token Plan个人版 上线Qwen3.8 Max Preview ↗ 2 Kimi 因 K3 需求激增暂停新用户订阅 ↗ 3 Kimi 旧套餐用户仍可续订旧套餐，新套餐短暂展示 4 模型发布 阿里云百炼上线 HappyOyster 1.0 并开启灰测 ↗ 5 昆仑万维发布并开源 Matrix Game 3.5 交互世界模型 ↗ 6 面壁智能发布 MiniCPM5 2B 官方称性能居4B以下榜首 ↗ 7 行业动态 Nvidia与日本巨头达成物理AI合作共建国家级AI基础设施 ↗ 8 前瞻与传闻 据称月之暗面计划最早六…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-20/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-20",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-20 ·\nMarkdown\nAI 早报 2026-07-20\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\n阿里千问上线2.4T参数最新旗舰模型预览版Qwen3.8-Max-Preview\n↗\n#1\n千问AI平台发布Token Plan个人版 上线Qwen3.8-Max-Preview\n↗\n#2\nKimi 因 K3 需求激增暂停新用户订阅\n↗\n#3\nKimi 旧套餐用户仍可续订旧套餐，新套餐短暂展示\n#4\n模型发布\n阿里云百炼上线 HappyOyster 1.0 并开启灰测\n↗\n#5\n昆仑万维发布并开源 Matrix-Game 3.5 交互世界模型\n↗\n#6\n面壁智能发布 MiniCPM5-2B 官方称性能居4B以下榜首\n↗\n#7\n行业动态\nNvidia与日本巨头达成物理AI合作共建国家级AI基础设施\n↗\n#8\n前瞻与传闻\n据称月之暗面计划最早六个月内赴港上市\n↗\n#9\n要闻\n阿里千问上线2.4T参数最新旗舰模型预览版Qwen3.8-Max-Preview\n#1\n阿里正式上线新一代旗舰模型预览版Qwen{3.8|三点八}-Max-Preview，该模型参数量达2.4T，目前已在{Qwen Studio|\"Qwen Studio\"}、{Token Plan|\"Token Plan\"}、{Qoder系列|\"Qoder系列\"}以及{千问PC端|\"千问PC端\"}等平台上线。官方称该模型正在以“天”为单位持续进化，可能是除了Fable 5外最强大的模型。有博主公布了据称是内部基准测试的结果。官方还称正式版将于近期发布并开放权重。\n阿里千问系列最新的新一代旗舰模型预览版Qwen3.8-Max-Preview已上线，参数量达到2.4T。根据官方介绍，该模型能力较前代Qwen3.7-Max有显著提升，正在以“天”为单位持续进化，在代码工程和专业办公等核心领域展现出匹敌世界前沿模型的实力，可能是除了Fable 5外最强大的模型。模型现已在Qwen Studio、Token Plan、Qoder系列以及千问PC端等平台上线。正式版将于近期发布并同步上线千问APP。在Qoder上，调用该模型可享受限时1折优惠，夜间错峰时段最低可达0.2折。有博主公布了据称是内部基准测试的结果，显示其在编码方面仅落后于Fable 5，在智能体任务中表现优于Opus 4.8 Max。官方称正式版将于近期发布并开放权重。\n相关链接：\nhttps://mp.weixin.qq.com/s/10m799tks4zuUiBAPP88Pw\nhttps://docs.qoder.com/zh/events/qwen-max-preview\nhttps://mp.weixin.qq.com/s/waToDGS-Momn3eoAXMuD-Q\nhttps://mp.weixin.qq.com/s/QxLYX5Bgwbtg-BoR1QINUQ\nhttps://x.com/MaxForAI/status/2078805483868340566\n千问AI平台发布Token Plan个人版 上线Qwen3.8-Max-Preview\n#2\n千问AI平台正式发布Token Plan个人版订阅服务，并同步上线Qwen{3.8|三点八}-Max-Preview模型。个人版提供{Lite|\"Lite\"}、{Standard|\"Standard\"}、{Pro|\"Pro\"}三档，采用5小时和7天两层滑动窗口Credits限额。官方称在该服务中，Qwen{3.8|三点八}-Max-Preview当前享白天1折、夜间0.2折的限时优惠。\n千问AI平台正式发布Token Plan个人版，同步上线Qwen3.8-Max-Preview模型。个人版提供Lite、Standard、Pro三档，采用5小时和7天两层滑动窗口Credits限额，适配Cursor、Claude Code等交互式编程与Agent工具。官方称Qwen3.8-Max预览版当前享白天1折、夜间0.2折的限时优惠。\n相关链接：\nhttps://mp.weixin.qq.com/s/grbelMcI3Cb3aAXEJXuIeA\nhttps://platform.qianwenai.com/docs/token-plan/personal/token-plan-personal-overview\nKimi 因 K3 需求激增暂停新用户订阅\n#3\n因算力紧缺，Kimi宣布暂停个人用户新订阅，已订阅用户不受影响。目前正全速扩容并分批恢复，后续订阅套餐将拆分为Kimi主权益与Kimi Code两方案。\n月之暗面 Kimi 团队发布说明称，自 Kimi K3 发布后，过去 48 小时用户请求量大幅超出预估并逼近现有集群承载极限。为此，团队已暂停 C 端新用户订阅，将全部算力用于保障已订阅用户的现有权益。官方表示正在全速推进算力扩容，后续将分批开放新订阅名额直至全面恢复。对于后续新订阅用户，Kimi 计划拆分会员权益，将 Kimi 主权益（包含 Kimi Web、Kimi APP、Kimi Work）与 Kimi Code 权益分开，以便更精准匹配算力、保障用户体验。公司为体验不足向用户郑重道歉。\n相关链接：\nhttps://mp.weixin.qq.com/s/EPs028Zj1DiYaOk_01-JFQ\nhttps://www.kimi.com/membership/pricing?from=upgrade_plan\nKimi 旧套餐用户仍可续订旧套餐，新套餐短暂展示\n#4\n月之暗面于昨晚将 Kimi 主权益与 Kimi Code 权益拆分为两套新会员体系并上线展示。随后，官方为方便老用户操作，将新体系展示界面撤回并换回旧版套餐页面，供老用户续费或升级。\n月之暗面 Kimi 因算力资源紧张，宣布暂停 C 端新用户订阅，并上线了将 Kimi 主权益与 Kimi Code 权益拆分的新会员体系。为方便未到期及关闭自动续费的老套餐用户进行续订和套餐升级，官方随后撤回了新体系页面，重新上线旧版套餐界面，供旧套餐会员操作，而普通用户端则显示售罄。新会员体系的开放购买时间目前待定。\n模型发布\n阿里云百炼上线 HappyOyster 1.0 并开启灰测\n#5\n阿里云百炼正式上线 HappyOyster {1.0|一点零}并开启灰测。官方称该产品为全球首个主动式实时交互世界模型，支持实时交互与分支叙事。\n阿里云百炼正式上线 HappyOyster 1.0 并开启灰测，官方称其为全球首个主动式实时交互世界模型。该模型学习状态转移规律，支持用户在任意节点介入改变数字世界走向，具备世界探索与实时导演两大模式。世界探索模式支持 1 分钟连续实时交互，实时导演模式支持 3 分钟以上 480p 或 720p 实时画面及分支叙事。目前产品提供 Open API 和三端 SDK，企业和开发者可借此构建可玩世界、互动剧等沉浸式应用。\n相关链接：\nhttps://mp.weixin.qq.com/s/kfbpyEZ9UY6-6vFudBK2tQ\n昆仑万维发布并开源 Matrix-Game 3.5 交互世界模型\n#6\n昆仑万维发布并开源 Matrix-Game 3.5 交互世界模型，目前 5B 基础模型已上线。官方称该模型在 720p 分辨率下具备 1 分钟记忆能力。\n昆仑万维发布并开源 Matrix-Game 3.5 交互世界模型，目前 5B 基础模型权重及代码已在 GitHub 和 HuggingFace 上线。官方称该模型通过引入 Patch Memory 实现了摄像机可控的 720p 视频生成，5B 模型在 720p 分辨率下具备 1 分钟记忆能力，并可达成单卡 20FPS 的实时生成性能。模型分为第一人称和第三人称模式，推理需配备显存至少 40GB 的 NVIDIA GPU；开源仓库显示，当前放出的是基础双向模型，蒸馏后的实时自回归模型尚未发布。\n相关链接：\nhttps://github.com/Riemann-Dynamics/Matrix-Game-3.5\nhttps://huggingface.co/RiemannDynamics/Matrix-Game-3.5-Base\nhttps://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g\n面壁智能发布 MiniCPM5-2B 官方称性能居4B以下榜首\n#7\n面壁智能联合 OpenBMB 正式发布 MiniCPM5-2B，官方称其提供 512K 上下文窗口，居 4B 以下模型性能榜首，未来将开放模型权重。\n面壁智能联合 OpenBMB 正式发布端侧模型 MiniCPM5-2B，目前暂未开源，后续将在 Hugging Face 等平台正式开源。根据官方数据，模型在多项基准评测平均得分 54.26，官方称其在 4B 以下模型中性能居首，原生支持混合思考与 512K 超长上下文窗口。众智 FlagOS 社区完成其 9 款芯片 Day0 适配，面壁智能亦完成 AMD、Intel 等四家主流芯片厂商端侧适配。同步公布的还有 UltraX 数据治理方案与智能体训练全流程技术，面壁智能与英特尔签署了合作备忘录。\n相关链接：\nhttps://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw\n行业动态\nNvidia与日本巨头达成物理AI合作共建国家级AI基础设施\n#8\n据报道，Nvidia正与日本企业推进物理AI合作。已获软银等44家公司及机构投资的Noetra，将依托Nvidia芯片建设国家级AI基础设施；丰田及多家机器人企业也将采用或评估Nvidia相关平台。\n据报道，NVIDIA正与日本政府支持的Noetra及多家制造和机器人企业推进物理AI合作。Noetra已获得包括软银、索尼、NEC和本田在内的44家公司及机构投资，并计划建设搭载约2.75万颗NVIDIA Rubin GPU的AI计算基础设施。与此同时，丰田、富士通、发那科、安川电机和川崎重工等企业分别在汽车、制造、机器人及智慧城市领域采用或评估NVIDIA的物理AI平台。\n相关链接：\nhttps://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure\n前瞻与传闻\n据称月之暗面计划最早六个月内赴港上市\n#9\n据彭博报道， 月之暗面已告知投资者正准备最早六个月内上市。知情人士称其已分发{股东决议|\"股东决议\"}寻求香港上市批准，该计划尚未获官方确认。\n据彭博报道，月之暗面正准备进行首次公开募股。知情人士称，该公司已告知投资者其正准备上市，并已正式向投资者分发股东决议，寻求支持其香港上市。报道指出，这一流程的启动意味着 IPO 可能最早在六个月内发生。此举被视为其最新模型引发行业关注后借机进入资本市场的行动，目前该上市计划尚未得到公司官方公开确认。\n相关链接：\nhttps://www.bloomberg.com/news/articles/2026-07-19/china-s-moonshot-plans-ipo-in-six-months-after-ai-breakthrough\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-20T16:24:11+00:00",
+      "url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
+      "digest_excerpt": "“It’s weeks to hours.”\n\nNathan Bolt, Head of Digital Product at Virgin Atlantic, uses ChatGPT Work to synthesize strategy documents, analyze competitors, and turn weeks of work into hours.\n\nTogether with Miles King, the team built custom dashboards that connect data from across the business—helping them make faster decisions and deliver new customer experiences more quickly.\n\nSee how Virgin Atlantic is putting ChatGPT Work to work.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=WwxZeU4WH14",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“It’s weeks to hours.”\n\nNathan Bolt, Head of Digital Product at Virgin Atlantic, uses ChatGPT Work to synthesize strategy documents, analyze competitors, and turn weeks of work into hours.\n\nTogether with Miles King, the team built custom dashboards that connect data from across the business—helping them make faster decisions and deliver new customer experiences more quickly.\n\nSee how Virgin Atlantic is putting ChatGPT Work to work."
+    },
+    {
+      "id": "S008",
+      "kind": "video",
+      "title": "The Institutions Holding Off WWIII – Sarah Paine",
+      "source_name": "Dwarkesh Patel",
+      "author": "Dwarkesh Clips",
+      "published": "2026-07-20T15:11:13+00:00",
+      "url": "https://www.youtube.com/watch?v=N3AUL1QL5rg",
+      "digest_excerpt": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=N3AUL1QL5rg",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp"
+    },
+    {
+      "id": "S009",
+      "kind": "video",
+      "title": "How BNY CEO Robin Vince Turns AI Optimism Into Action",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-20T13:42:57+00:00",
+      "url": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
+      "digest_excerpt": "“We choose to be AI optimists at BNY.”\n\nFor Robin Vince, optimism means action. And that action starts before Monday morning:\n\n📝 Use the weekend to build context\n🤖 Review the latest AI agents and use cases\n🏋️ Start Monday with an early workout\n📰 Catch up on what’s happening in the world\n✨ Let AI help prioritize the day\n\nThe part AI won’t replace? “Human magic is not something we think is going to be disrupted.”",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=MmYCdNhrhfA",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“We choose to be AI optimists at BNY.”\n\nFor Robin Vince, optimism means action. And that action starts before Monday morning:\n\n📝 Use the weekend to build context\n🤖 Review the latest AI agents and use cases\n🏋️ Start Monday with an early workout\n📰 Catch up on what’s happening in the world\n✨ Let AI help prioritize the day\n\nThe part AI won’t replace? “Human magic is not something we think is going to be disrupted.”"
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "1) What https://t.co/kHWwdn0ZQs",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T21:57:41+00:00",
+      "url": "https://x.com/petergyang/status/2079324894320603619",
+      "digest_excerpt": "1) What https://t.co/kHWwdn0ZQs",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079324894320603619",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "1) What https://t.co/kHWwdn0ZQs"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "guys I’m basically Brian Johnson",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T21:42:05+00:00",
+      "url": "https://x.com/danshipper/status/2079320969802400200",
+      "digest_excerpt": "guys I’m basically Brian Johnson",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079320969802400200",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "guys I’m basically Brian Johnson"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "giving fable the constitution to see if it can find Kurt godel’s loophole in that makes it legal for the us to have a di",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T21:32:42+00:00",
+      "url": "https://x.com/danshipper/status/2079318608631775240",
+      "digest_excerpt": "giving fable the constitution to see if it can find Kurt godel’s loophole in that makes it legal for the us to have a dictator. if I succeed I won’t say anything but there will be signs",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079318608631775240",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "giving fable the constitution to see if it can find Kurt godel’s loophole in that makes it legal for the us to have a dictator. if I succeed I won’t say anything but there will be signs"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT W",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-20T19:37:40+00:00",
+      "url": "https://x.com/gdb/status/2079289658622738481",
+      "digest_excerpt": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT Work:\n\nTweet what you love about ChatGPT Work, claim $100 in free credits, get more work done.\n\nFirst 10k get the free tokens: https://t.co/w7QrPBYkrh",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2079289658622738481",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT Work:\n\nTweet what you love about ChatGPT Work, claim $100 in free credits, get more work done.\n\nFirst 10k get the free tokens: https://t.co/w7QrPBYkrh"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "First physical product shipped by a coding agent?",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-20T19:10:41+00:00",
+      "url": "https://x.com/amasad/status/2079282869063786541",
+      "digest_excerpt": "First physical product shipped by a coding agent?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2079282869063786541",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "First physical product shipped by a coding agent?"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Ex",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-20T18:35:51+00:00",
+      "url": "https://x.com/rauchg/status/2079274102129304026",
+      "digest_excerpt": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2079274102129304026",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too."
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T18:34:43+00:00",
+      "url": "https://x.com/petergyang/status/2079273815004303477",
+      "digest_excerpt": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079273815004303477",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Banning Chinese models will be the same self own as banning Chinese EVs."
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "useful",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-20T18:15:15+00:00",
+      "url": "https://x.com/swyx/status/2079268918578065445",
+      "digest_excerpt": "useful",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079268918578065445",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "useful"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "Grok for Excel is now live",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-20T17:45:59+00:00",
+      "url": "https://x.com/elonmusk/status/2079261553136734239",
+      "digest_excerpt": "Grok for Excel is now live",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079261553136734239",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok for Excel is now live"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "u guys aren't ready for the latest @Steve_Yegge warning on vibecoding in a post Gas Town world\n\nso glad to have him back",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-20T17:40:01+00:00",
+      "url": "https://x.com/swyx/status/2079260050691072475",
+      "digest_excerpt": "u guys aren't ready for the latest @Steve_Yegge warning on vibecoding in a post Gas Town world\n\nso glad to have him back at AIE https://t.co/T5Qp3jzHQO",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079260050691072475",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "u guys aren't ready for the latest @Steve_Yegge warning on vibecoding in a post Gas Town world\n\nso glad to have him back at AIE https://t.co/T5Qp3jzHQO"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "Always keep in mind that the rate of change matters more than the current metric value",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-20T17:37:25+00:00",
+      "url": "https://x.com/fchollet/status/2079259394890731598",
+      "digest_excerpt": "Always keep in mind that the rate of change matters more than the current metric value",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2079259394890731598",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Always keep in mind that the rate of change matters more than the current metric value"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "it is good now!",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-20T17:34:35+00:00",
+      "url": "https://x.com/sama/status/2079258683884917013",
+      "digest_excerpt": "it is good now!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2079258683884917013",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "it is good now!"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video short",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T17:30:28+00:00",
+      "url": "https://x.com/petergyang/status/2079257646939742542",
+      "digest_excerpt": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video shorts:\n\n“For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer.\n\nYou should have a separate verification agent read a rubric, review the short, and give feedback.\n\nWe call it self-preferential bias. When a model prefers its own output, it’s going to be more lenient at verifying it.”\n\n📌 Watch the full episode here: https://t.co/mMrt4D5qU7",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079257646939742542",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video shorts:\n\n“For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer.\n\nYou should have a separate verification agent read a rubric, review the short, and give feedback.\n\nWe call it self-preferential bias. When a model prefers its own output, it’s going to be more lenient at verifying it.”\n\n📌 Watch the full episode here: https://t.co/mMrt4D5qU7"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThi",
+      "source_name": "Anthropic",
+      "author": "AnthropicAI",
+      "published": "2026-07-20T17:26:25+00:00",
+      "url": "https://x.com/AnthropicAI/status/2079256626771665098",
+      "digest_excerpt": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThis is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://t.co/rZEmwh07cd",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AnthropicAI/status/2079256626771665098",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThis is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://t.co/rZEmwh07cd"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "so proud to call her a friend as much as she is my inspiration. one of the greatest investors of our generation. and we ",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-20T15:59:44+00:00",
+      "url": "https://x.com/swyx/status/2079234812146225277",
+      "digest_excerpt": "so proud to call her a friend as much as she is my inspiration. one of the greatest investors of our generation. and we were classmates at wharton!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079234812146225277",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "so proud to call her a friend as much as she is my inspiration. one of the greatest investors of our generation. and we were classmates at wharton!"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "it’s notable that all of the proofs so far seem to be counterexamples. \n\nwhat do we think that means? Genuine question",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T15:40:11+00:00",
+      "url": "https://x.com/danshipper/status/2079229894538760467",
+      "digest_excerpt": "it’s notable that all of the proofs so far seem to be counterexamples. \n\nwhat do we think that means? Genuine question",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079229894538760467",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "it’s notable that all of the proofs so far seem to be counterexamples. \n\nwhat do we think that means? Genuine question"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "prompting pro tip: if you can’t get fable to do something just tell it it’s an “unsolved conjecture in mathematics” work",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T15:38:00+00:00",
+      "url": "https://x.com/danshipper/status/2079229343591702574",
+      "digest_excerpt": "prompting pro tip: if you can’t get fable to do something just tell it it’s an “unsolved conjecture in mathematics” works every time",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079229343591702574",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "prompting pro tip: if you can’t get fable to do something just tell it it’s an “unsolved conjecture in mathematics” works every time"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "flying back from sf to nyc today gonna give fable the Reimann hypothesis and take a nap, will invite y’all to my fields ",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T15:37:12+00:00",
+      "url": "https://x.com/danshipper/status/2079229142957228513",
+      "digest_excerpt": "flying back from sf to nyc today gonna give fable the Reimann hypothesis and take a nap, will invite y’all to my fields medal ceremony",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079229142957228513",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "flying back from sf to nyc today gonna give fable the Reimann hypothesis and take a nap, will invite y’all to my fields medal ceremony"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "Well said!",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-20T15:34:19+00:00",
+      "url": "https://x.com/AravSrinivas/status/2079228415073219063",
+      "digest_excerpt": "Well said!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2079228415073219063",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Well said!"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "I am extremely psyched about all of the formal math progress and am very confident the fields medal in 2030 will go to a",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T15:26:01+00:00",
+      "url": "https://x.com/danshipper/status/2079226326373007614",
+      "digest_excerpt": "I am extremely psyched about all of the formal math progress and am very confident the fields medal in 2030 will go to a human (they will obviously have used AI as a tool to help them)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079226326373007614",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I am extremely psyched about all of the formal math progress and am very confident the fields medal in 2030 will go to a human (they will obviously have used AI as a tool to help them)"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Hi Bay Area startup office people and conf organizers\n\n@opensaucelive just concluded and is letting go of some furniture",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-20T15:11:28+00:00",
+      "url": "https://x.com/swyx/status/2079222666133995717",
+      "digest_excerpt": "Hi Bay Area startup office people and conf organizers\n\n@opensaucelive just concluded and is letting go of some furniture for ultracheep - the catch is it must be picked up from San Mateo TODAY before 2.30pm. grab truck and go, dm for contact if serious. dozens of this available.\n\npick up from San Mateo TODAY before 2.30pm",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079222666133995717",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Hi Bay Area startup office people and conf organizers\n\n@opensaucelive just concluded and is letting go of some furniture for ultracheep - the catch is it must be picked up from San Mateo TODAY before 2.30pm. grab truck and go, dm for contact if serious. dozens of this available.\n\npick up from San Mateo TODAY before 2.30pm"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "My 5 biggest takeaways from @trq212 on how to plan, build, and run loops with Claude:\n\n1. Ask Claude to find the blind s",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T14:21:04+00:00",
+      "url": "https://x.com/petergyang/status/2079209983984677210",
+      "digest_excerpt": "My 5 biggest takeaways from @trq212 on how to plan, build, and run loops with Claude:\n\n1. Ask Claude to find the blind spots in your plan\n\nAs models work longer, they'll encounter more decisions you never specified.\n\nBefore building, ask Claude to inspect the codebase and surface the unknown unknowns that could change your approach.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079209983984677210",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My 5 biggest takeaways from @trq212 on how to plan, build, and run loops with Claude:\n\n1. Ask Claude to find the blind spots in your plan\n\nAs models work longer, they'll encounter more decisions you never specified.\n\nBefore building, ask Claude to inspect the codebase and surface the unknown unknowns that could change your approach."
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "LLMs have a huge confidence issue in themselves \n\nReally impt example:",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-20T13:58:48+00:00",
+      "url": "https://x.com/danshipper/status/2079204380784627787",
+      "digest_excerpt": "LLMs have a huge confidence issue in themselves \n\nReally impt example:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079204380784627787",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "LLMs have a huge confidence issue in themselves \n\nReally impt example:"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "Grok",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-20T10:50:58+00:00",
+      "url": "https://x.com/elonmusk/status/2079157111183806697",
+      "digest_excerpt": "Grok",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079157111183806697",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "True",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-20T10:21:54+00:00",
+      "url": "https://x.com/elonmusk/status/2079149795810152550",
+      "digest_excerpt": "True",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079149795810152550",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "True"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Consumers spend money on food, rent, and entertainment, phone &amp; internet, and shopping. Software is typically bought",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-20T06:09:50+00:00",
+      "url": "https://x.com/amasad/status/2079086360703680583",
+      "digest_excerpt": "Consumers spend money on food, rent, and entertainment, phone &amp; internet, and shopping. Software is typically bought by their companies. Which is why outside of Netflix, Spotify, etc it’s hard to think of *huge* consumer subscription businesses.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2079086360703680583",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Consumers spend money on food, rent, and entertainment, phone &amp; internet, and shopping. Software is typically bought by their companies. Which is why outside of Netflix, Spotify, etc it’s hard to think of *huge* consumer subscription businesses."
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool. https://t.co/",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-20T04:31:54+00:00",
+      "url": "https://x.com/swyx/status/2079061713048199625",
+      "digest_excerpt": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool. https://t.co/NOKBYlX9D9",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079061713048199625",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "even as someone who is most definitely not a custom keyboards guy, i gotta admit this is pretty dang cool. https://t.co/NOKBYlX9D9"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the te",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-20T04:17:42+00:00",
+      "url": "https://x.com/thsottiaux/status/2079058139207573541",
+      "digest_excerpt": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2079058139207573541",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "AI competence has always been very spiky, superhuman in some narrow domains and largely useless in others. The fundament",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-20T04:11:39+00:00",
+      "url": "https://x.com/fchollet/status/2079056619120595063",
+      "digest_excerpt": "AI competence has always been very spiky, superhuman in some narrow domains and largely useless in others. The fundamental marketing trick of the AI industry is to make you believe the tallest spike is a floor.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2079056619120595063",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "AI competence has always been very spiky, superhuman in some narrow domains and largely useless in others. The fundamental marketing trick of the AI industry is to make you believe the tallest spike is a floor."
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. \n\n",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T03:59:17+00:00",
+      "url": "https://x.com/petergyang/status/2079053505969676404",
+      "digest_excerpt": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. \n\nThe customer support is truly bad. Have to work my Google connections elsewhere... https://t.co/QtfhYdA2h7",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079053505969676404",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It turns out that I still have this issue - at 100K+ YT subs and haven't been paid a single dollar by Google Adsense. \n\nThe customer support is truly bad. Have to work my Google connections elsewhere... https://t.co/QtfhYdA2h7"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "I love using Claude Cowork to manage my calendar. Here's my prompt for it:\n\nManage my calendar for the week. Requirement",
+      "source_name": "Cat Wu",
+      "author": "_catwu",
+      "published": "2026-07-20T01:12:05+00:00",
+      "url": "https://x.com/_catwu/status/2079011428380602526",
+      "digest_excerpt": "I love using Claude Cowork to manage my calendar. Here's my prompt for it:\n\nManage my calendar for the week. Requirements: 1. <20 hours of meetings 2. Dedupe conflicting meetings. Look at past weeks to see what kinds of meetings I decline. Dinners don't count against the 20 hours. Build a skill that you refine. Ask me before updating invites. \n\nWhat do you use Cowork for?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/_catwu/status/2079011428380602526",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I love using Claude Cowork to manage my calendar. Here's my prompt for it:\n\nManage my calendar for the week. Requirements: 1. <20 hours of meetings 2. Dedupe conflicting meetings. Look at past weeks to see what kinds of meetings I decline. Dinners don't count against the 20 hours. Build a skill that you refine. Ask me before updating invites. \n\nWhat do you use Cowork for?"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "Basic ChatGPT + Codex UX issues:\n\n1. Why does ChatGPT web + Work + Codex all have different labels for effort level?\n\n- ",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-20T00:53:29+00:00",
+      "url": "https://x.com/petergyang/status/2079006749907198235",
+      "digest_excerpt": "Basic ChatGPT + Codex UX issues:\n\n1. Why does ChatGPT web + Work + Codex all have different labels for effort level?\n\n- Instant (web) vs. Light (Codex) vs. Minimal (Work)\n- Pro v. Max/Ultra https://t.co/rN7mr3NF6g",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079006749907198235",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Basic ChatGPT + Codex UX issues:\n\n1. Why does ChatGPT web + Work + Codex all have different labels for effort level?\n\n- Instant (web) vs. Light (Codex) vs. Minimal (Work)\n- Pro v. Max/Ultra https://t.co/rN7mr3NF6g"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yours",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-19T23:57:58+00:00",
+      "url": "https://x.com/levie/status/2078992778449850769",
+      "digest_excerpt": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities.\n\nIf you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up on access to those models. They could use them against us -or just use them to better defend themselves- and our own companies wouldn't be able to keep up.\n\nThe calculus of what you do about AI regulation simply must change to account for the fact that open weights models are far stronger than many expected.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2078992778449850769",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "In a world where there are strong open source alternatives that are only just behind the frontier models, you make yourself less secure and competitive by gatekeeping access to frontier model capabilities.\n\nIf you play this out, even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up on access to those models. They could use them against us -or just use them to better defend themselves- and our own companies wouldn't be able to keep up.\n\nThe calculus of what you do about AI regulation simply must change to account for the fact that open weights models are far stronger than many expected."
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "An absolutely incredible performance by Spain to take home the World Cup! 🇪🇸🏆 So well-deserved, just a beautiful display",
+      "source_name": "Sundar Pichai",
+      "author": "sundarpichai",
+      "published": "2026-07-19T23:41:50+00:00",
+      "url": "https://x.com/sundarpichai/status/2078988716950065383",
+      "digest_excerpt": "An absolutely incredible performance by Spain to take home the World Cup! 🇪🇸🏆 So well-deserved, just a beautiful display of teamwork all tournament. Congratulations to Argentina & Messi on a great run. And huge kudos to all of the teams and fans around the world for making this World Cup so memorable, already looking forward to 2030!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sundarpichai/status/2078988716950065383",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "An absolutely incredible performance by Spain to take home the World Cup! 🇪🇸🏆 So well-deserved, just a beautiful display of teamwork all tournament. Congratulations to Argentina & Messi on a great run. And huge kudos to all of the teams and fans around the world for making this World Cup so memorable, already looking forward to 2030!"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "Try Grok 4.5!",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-19T23:37:05+00:00",
+      "url": "https://x.com/elonmusk/status/2078987522927972695",
+      "digest_excerpt": "Try Grok 4.5!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2078987522927972695",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try Grok 4.5!"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "Feels like a watershed moment for advancing mathematics. Scientific and medical advances which can really improve people",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-19T22:58:08+00:00",
+      "url": "https://x.com/gdb/status/2078977720793661459",
+      "digest_excerpt": "Feels like a watershed moment for advancing mathematics. Scientific and medical advances which can really improve people’s lives feeling very close now.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2078977720793661459",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Feels like a watershed moment for advancing mathematics. Scientific and medical advances which can really improve people’s lives feeling very close now."
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-19T22:49:43+00:00",
+      "url": "https://x.com/rauchg/status/2078975602028106050",
+      "digest_excerpt": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ever. And to America 🇺🇸 for hosting such a wonderful event. Enhorabuena tíos 🇪🇸!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2078975602028106050",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Thankful to 🇦🇷 Argentina for once again giving it all. Grit, passion, talent, faith. To Messi for proving he’s the best ever. And to America 🇺🇸 for hosting such a wonderful event. Enhorabuena tíos 🇪🇸!"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposi",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-19T22:20:08+00:00",
+      "url": "https://x.com/levie/status/2078968158006939716",
+      "digest_excerpt": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. \n\nWhen you make AI cheaper, it will get consumed more. Because now you can afford to use for a wider of tasks than you did before. You start to write more code. You review more code for bugs and security. You run agents on large data sets you couldn’t process before. And so on.\n\nThus, for the foreseeable future, anything that lowers the cost of tokens will drive up inference demand.\n\nThis also gives you some insight also into why even open source business models work in AI. No one is running these models on their devices; they’re running them in infra. Great time to be one of those providers.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2078968158006939716",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A lot of people make the mistake of thinking that when AI costs drop, that spend on AI drops with it. Usually the opposite happens. \n\nWhen you make AI cheaper, it will get consumed more. Because now you can afford to use for a wider of tasks than you did before. You start to write more code. You review more code for bugs and security. You run agents on large data sets you couldn’t process before. And so on.\n\nThus, for the foreseeable future, anything that lowers the cost of tokens will drive up inference demand.\n\nThis also gives you some insight also into why even open source business models work in AI. No one is running these models on their devices; they’re running them in infra. Great time to be one of those providers."
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "Let’s go España!",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-19T22:04:51+00:00",
+      "url": "https://x.com/amasad/status/2078964311985422463",
+      "digest_excerpt": "Let’s go España!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2078964311985422463",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Let’s go España!"
+    }
+  ]
+}
