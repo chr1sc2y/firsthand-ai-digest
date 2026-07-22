@@ -1,0 +1,1078 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-22T23:19:50.481968+00:00",
+  "coverage": {
+    "start": "2026-07-21T22:00:00+00:00",
+    "end": "2026-07-22T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-22T23:17:35.205387+00:00",
+  "item_count": 53,
+  "source_count": 53,
+  "access_counts": {
+    "substantial": 7,
+    "partial": 46,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "source_name": "Google DeepMind",
+      "author": "",
+      "published": "2026-07-22T13:38:54+00:00",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "digest_excerpt": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission",
+        "limitation": ""
+      },
+      "page_title": "Google commits $40M to the Genesis Mission | Google Cloud Blog",
+      "page_description": "Google is committing $40 million in AI tokens and cloud credits to support the DOE’s Genesis Mission and accelerate groundbreaking scientific discovery.",
+      "content": "Jump to Content\nCloud\nBlog\nContact sales\nGet started for free\nCloud\nBlog\nSolutions & technology\nAI & Machine Learning\nAPI Management\nApplication Development\nApplication Modernization\nChrome Enterprise\nCompute\nContainers & Kubernetes\nData Analytics\nDatabases\nDevOps & SRE\nMaps & Geospatial\nSecurity\nSecurity & Identity\nThreat Intelligence\nInfrastructure\nInfrastructure Modernization\nNetworking\nProductivity & Collaboration\nSAP on Google Cloud\nStorage & Data Transfer\nSustainability\nEcosystem\nIT Leaders\nIndustries\nFinancial Services\nHealthcare & Life Sciences\nManufacturing\nMedia & Entertainment\nPublic Sector\nRetail\nSupply Chain\nTelecommunications\nPartners\nStartups & SMB\nTraining & Certifications\nInside Google Cloud\nGoogle Cloud Next & Events\nGoogle Cloud Consulting\nGoogle Maps Platform\nGoogle Workspace\nDevelopers & Practitioners\nTransform with Google Cloud\nContact sales\nGet started for free\nPublic Sector\nAccelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission\nJuly 22, 2026\nPushmeet Kohli\nVP for Science and Strategic Initiatives, Google DeepMind, and Chief Scientist, Google Cloud\nKarthik Narain\nChief Product and Business Officer, Google Cloud\nGoogle AI for Public Sector\nEmpowering an Adaptive, Responsible, Secure, and Intelligent way forward\nLearn more\nScientists today face challenges of extraordinary scale and complexity. From shaping and simulating the intricate dynamics of fusion plasma, to exploring the vast search space of new materials, to making sense of the exabytes of data pouring out of the world's most advanced experimental facilities. The demands on modern research are unprecedented.\nFrontier AI\ncan help address these challenges, while accelerating groundbreaking scientific discoveries.\nIn December, we shared our commitment to the White House's\nGenesis Mission\n— the national effort to harness AI and double the pace of American scientific discovery within a decade. Since then, Google DeepMind (GDM)\nannounced an early access program\nthat provides AI for science tools to all 17 Department of Energy (DOE) National Laboratories, and Google Public Sector\nshared how Gemini for Government\ncould serve as an AI backbone for the DOE.\nToday, at the DOE Genesis Mission Summit 2026, we are expanding this by committing $40 million of AI tokens and cloud credits for researchers in support of the Genesis Mission.\nFrontier AI tools for scientific discovery\nUnder this expanded commitment, we will first provide DOE’s Genesis Mission awardees in-kind access to GDM’s frontier AI for science portfolio, including:\nAlphaEvolve\n— a Gemini-powered coding and discovery agent, for designing advanced algorithms.\nAlphaFold 3\n— a model for predicting the structure and interactions of proteins and other biomolecules.\nAlphaGenome\n— a tool for understanding how variation in DNA, including the non-coding genome, shapes biology and disease.\nWeatherNext\n— a state-of-the-art family of AI weather forecasting models for mapping weather conditions.\nAlphaEarth Foundations\n— a foundational AI model for mapping and understanding our planet in unprecedented detail.\nSecond, we will provide Gemini for Government seats and tokens for one year to tens of thousands of users across the DOE National Laboratories’ operations, research, and management teams. This secure platform supports the full breadth of work from the research bench to the administration of specialized user facilities serving the entire scientific community, providing a single secure foundation that the DOE mission can depend on.\nAI for science tools in action across the laboratory ecosystem\nWhile we have a lot of work still to do, the practical impact of the Genesis Mission is already coming to life across the laboratory ecosystem.\nAt\nPacific Northwest National Laboratory (PNNL)\n, senior scientist Dr. Henry Kvinge is using AlphaEvolve to map out massive mathematical systems that are far too complex for humans to explore by hand. The AI uncovers hidden connections automatically, fast-tracking discoveries that would normally take researchers years to find.\n“Modern math relies on abstraction, but combinatorics offers concrete models that make complex geometry and algebra easier to grasp. We’ve found that systems like AlphaEvolve are perfect for this search,” said Dr. Kvinge. “By leveraging the broad mathematical knowledge of LLMs, we can automate the exploration of countless angles. We’re still experimenting, but the discoveries are already shaping our future research.”\nAt the\nNational Laboratory of the Rockies (NLR)\n, researchers are utilizing Gemini to fundamentally change how they interact with physical laboratory hardware. Dr. Steven R. Spurgeon, a senior materials data scientist at NLR, leads a pioneering program in autonomous materials discovery.\n\"Our collaboration has allowed us to build an autonomous experimentation capability,\" said Dr. Spurgeon. \"By deploying Gemini in our instruments, we cut microscope calibration time from over 90 minutes to about 13 minutes (eight times faster) and reduced the manual steps needed to focus an image from as many as 50 down to two. That's time and attention we've given back to the science itself, enabling genuinely autonomous workflows that observe, reason, and decide in real time. This has helped us explore parts of the material design space we simply could not have reached through manual operation alone.\"\nDriving American innovation\nThe Genesis Mission represents an opportunity to transform research and science across America. By providing access to advanced AI tools, we aim to help scientists accelerate breakthroughs across critical energy, security, and scientific challenges. To learn more about how these AI capabilities can support your research initiatives, join us at the upcoming\nGoogle Public Sector Summit\nin October.\nPosted in\nPublic Sector\nRelated articles\nPublic Sector\nKey findings from the 2026 Public Sector M-Trends report and beyond\nBy Fernando Tomlinson Jr. • 4-minute read\nPublic Sector\nGemini Enterprise for Education named a Commander in Tambellini StarChart™: 2026 AI Agents for Administrative Efficiency—Agent Platforms\nBy Chris Hein • 4-minute read\nSecurity & Identity\nGoogle Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval\nBy Marc Crandall • 2-minute read\nPublic Sector\nGemini for Government: Your blueprint for mission impact\nBy Elizabeth Moon • 4-minute read\nFooter Links\nFollow us\nGoogle Cloud\nGoogle Cloud Products\nPrivacy\nTerms\nCookies management controls\nHelp\nLanguage\n‪English‬\n‪Deutsch‬\n‪Français‬\n‪한국어‬\n‪日本語‬"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-22T13:00:00+00:00",
+      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "digest_excerpt": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/",
+        "limitation": ""
+      },
+      "page_title": "Building AI infrastructure with the Effingham County community | OpenAI",
+      "page_description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 22, 2026\nGlobal Affairs\nBuilding AI infrastructure with the Effingham County community\nVisit Project Camellia\n(opens in a new window)\nLoading…\nShare\nProject Camellia is a long-term datacenter project that OpenAI is designing and developing in Effingham County, Georgia. To support the data center, we are contracting with Georgia Power Company for 3.2 gigawatts of power which will be delivered in phases between 2028 and 2032.\nWe’re excited about the opportunity to work with this community. We also recognize that new data center projects can raise important questions, so we’ve outlined our initial commitments that will guide how we engage, develop, and operate.\n1. Electricity rates will not go up for residents because of this project.\nGeorgia families will not subsidize this project. OpenAI will pay the full cost of the infrastructure and electric-service costs required to serve it. Under Georgia Public Service Commission rules, those costs cannot be passed on to existing ratepayers. Also, this project will be one of the first data centers designed to proactively reduce its power consumption before residential customers are impacted during periods of high demand, so we can meaningfully support the reliability of Georgia Power’s electric system and support our neighbors.\n2. Water use is minimal.\nThe project will use a closed-loop water system, which recirculates water rather than continuously withdrawing and discharging. It works like a car radiator and is intended to keep ongoing water use low. The water used will not divert water from local communities and the ongoing water needs will be for people to use in an ordinary workplace setting such as restrooms, kitchens, sanitation, and maintenance and will be similar to an office building with the same amount of employees.\n3. We are committed to making sure local communities benefit.\nOpenAI will provide $80 million in community benefits over the life of the project, informed by the community and directed toward local priorities such as schools, public safety, health care, utilities, workforce training, housing, veterans’ services, and support for small businesses and working families. This commitment is separate from projected tax revenue and the Codex credits described below. We will pay hundreds of millions of dollars in state and local tax revenue and expect to be the largest taxpayer in the county. The project will create thousands of construction and permanent on-site jobs and prioritize local contractors and businesses.\nIn addition to the $80 million in community benefits, we will make up to $71 million in credits for Codex available to eligible Georgia college, community college, and technical school students. Codex is OpenAI’s agentic coding tool, now available within ChatGPT, that helps people build software and complete technical projects. Eligible students will receive $100 in credits through their ChatGPT accounts to extend their use of Codex, gain hands-on experience with agentic AI, build projects, and develop practical skills for careers across engineering, manufacturing, health care, education, entrepreneurship, and the skilled trades. Georgia students will be able to access their free Codex credits at\nchatgpt.com/codex/georgia-college-students/\n⁠\n(opens in a new window)\n4. Being accountable.\nTo help ensure the project meets these commitments, an annual publicly available audit by an independent firm will be conducted and released.\nWe have been meeting with state and local officials, community leaders, schools, and other regional partners to learn about local priorities and gather feedback on the project. On Thursday, July 23, we will hold a public open house where residents can meet the project team, ask questions, and help shape how the project delivers for Effingham County. Input from the open house and continued conversations with residents, local officials, schools, businesses, and community organizations will help shape a Georgia Community Compact to memorialize these commitments. The Compact will translate community priorities into specific commitments and clear accountability measures as the project develops.\nWe believe showing up early is the right way to build trust, with that, we are still at the beginning of the development process. Significant work remains on infrastructure, project phasing, design, financing, and operating model. As we work through these details, we intend to engage with local communities, government, workforce organizations, and our infrastructure and financing partners.\nThe proposed site is located within the Savannah Gateway Industrial Hub, a pre-existing industrially-zoned warehouse project. This project is expected to generate materially less traffic than a warehouse project on the same site, while also using less water, creating stronger long-term tax revenue, and supporting more durable on-site employment.\nAI can help accelerate science and medicine, expand access to better tools for learning and discovery, create new kinds of jobs and businesses, and make everyday work more productive. Computing infrastructure is one of the main factors determining how quickly AI can improve, how reliably it works, and how broadly it can be used.\nBuilding this infrastructure in the United States strengthens domestic industry, creates good jobs, and helps ensure American communities participate in the economic opportunity created by AI. Project Camellia can help build that foundation while creating lasting opportunity in Effingham County and Southeast Georgia, and would be entirely privately funded.\nWe are already seeing that potential take shape in\nAbilene, Texas\n⁠\n(opens in a new window)\n, where our first campus is operating at scale, training frontier models, and supporting thousands of jobs.\nThere is significant work ahead, and we will share more information as the plans develop. For the latest information on the project, please visit\nwww.projectcamellia.com\n⁠\n(opens in a new window)\n.\n2026\nStargate\nAuthor\nOpenAI\nKeep reading\nView all\nAdvancing the next era of national science\nGlobal Affairs\nJul 22, 2026\nThe US is advancing AI safety through state and federal action\nGlobal Affairs\nJul 15, 2026\nOur approach to government and national security partnerships\nGlobal Affairs\nJul 8, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-22T13:00:00+00:00",
+      "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "digest_excerpt": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/how-news-organizations-are-using-ai/",
+        "limitation": ""
+      },
+      "page_title": "How news organizations are using AI to advance their vital missions | OpenAI",
+      "page_description": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 22, 2026\nCompany\nHow news organizations are using AI to advance their vital missions\nOur technology helps journalists deepen original reporting, make trusted content more useful and accessible, and build stronger relationships with readers, subscribers, and advertisers.\nLoading…\nShare\nEmpowering journalism\nEmpowering journalism\nGrowing audiences and enhancing reader experiences\nStrengthening the business of news\nEmpowering journalism\nGrowing audiences and enhancing reader experiences\nStrengthening the business of news\nOver the past year, we’ve continued working with news organizations to explore how AI can be most useful—helping with time-consuming tasks, enabling new reader experiences, and supporting stronger, more sustainable businesses.\nAcross the industry, reporters, editors, and businesses are using OpenAI technology to help journalists cover more ground, make decades of reporting searchable, reach audiences in new languages and formats, and turn complex information into faster decision-making. These tools are becoming embedded across all departments—including newsroom, product, and business workflows. For example, the American Journalism Project\nrecently announced\n⁠\n(opens in a new window)\nour renewed support for its portfolio of dozens of publications spanning 38 states. We’re also proud to continue supporting the important work of both the\nLenfest Institute for Journalism\nand\nWAN-IFRA\n⁠\n(opens in a new window)\n.\nWhile AI is an important tool, people remain at the very center of this work—from frontline journalism, to editorial direction, to critical business decisions.\nThe examples below—in the words of the news organizations themselves—are just a few of the many that demonstrate how AI is helping them strengthen journalism and the businesses that sustain it.\nEmpowering journalism\nPublishers are finding many ways to put AI to work to enhance their research and reporting.\nThe Associated Press\nis using OpenAI technology to help journalists strengthen reporting, verification and newsroom workflows, all while keeping journalists in control of editorial judgment. A variety of tools help journalists scan overnight news and podcasts for reportable developments; support image and video verification through upload tracing, geolocation and chronolocation; and turn thousands of Supreme Court filings into searchable, structured information. AP is also applying the technology to surface potential stories in government datasets, recommend member content for editors to consider sharing, build integrated and actionable audience metrics reports, and convert AP articles into broadcast scripts. These tools reduce repetitive work and help journalists get to stories faster and devote more time to distinctive, original reporting.\nAt\nPOLITICO\n, AI helps journalists analyze large volumes of public documents and data for deeper, more timely original reporting; while commercial teams use AI to tailor client sales experiences with richer data on POLITICO’s offerings, freeing the teams to focus on human relationships.\nAxios\nhas built a collection of custom GPTs to help with everything from understanding internal policies, receiving interdepartmental support, submitting open records requests, and checking their copy’s use of their signature Smart Brevity style. The “FOIA Refiner GPT,” for example, helps Axios reporters craft sound open-records requests that are specific, efficient, and less likely to be denied or delayed. The “O Caption! My Caption!” GPT optimizes captions for images on stories. The “Axiomizer” GPT reviews story copy to suggest sharper headlines and clearer writing.\nThe Philadelphia Inquirer\n* developed Scribe, an AI-powered tool that helps its journalists monitor public meetings across dozens of municipalities and school districts. Scribe uses OpenAI technology to turn public meeting transcripts into concise, categorized summaries. It then scores and ranks individual developments using a newsworthiness framework created by Inquirer reporters and editors.\nAxel Springer\nis using OpenAI’s technology to elevate reader experiences and newsroom workflows across its brands. At Business Insider, AI powers audience features such as one-tap listening and helps journalists analyze audience commentary, giving reporters more time to focus on original journalism. At WELT, AI helps produce newsletters for niche audiences and provides an additional layer of fact-checking within the CMS while also helping journalists surface developments, sort sources, and assess what holds up before a story is written.\nFuture\nis also creating an in-house editorial platform that combines AI agents, flexible workflows and powerful tools into a seamless experience.\nIn 2022, the\nLe Monde\nnewsroom expanded its coverage for English-speaking audiences with the launch of Le Monde In English. In 2025, its partnership with OpenAI marked a new step: the editorial teams incorporated their fine-grained translation style book in ChatGPT models in order to help accelerate the publication process. Le Monde freed up time from journalists, enabling them to focus even more on their core reporting and analysis missions.\nPRISA Media\nuses OpenAI technology across a growing set of editorial tools supervised by its journalists: from a trend-and-information tracker built with Codex through vibe coding, to country-specific audio news briefings for the FIFA World Cup at Diario AS, to Vera, the conversational assistant answering EL PAÍS subscribers’ questions. OpenAI models also strengthen its knowledge management, automating high-impact tasks like content vectorization, article translation, and image rights attribution. Together, these initiatives show how AI can be embedded into newsrooms in practical ways, helping its teams spot opportunities, work faster, and extend the reach of its journalism.\nThe Daily Beast\ndata team has built Data Scouts, a suite of OpenAI-powered agents that helps newsroom and business teams move more quickly from information to action. Rather than simply summarizing data, Data Scouts identify new opportunities, explain what is happening across the business, and recommend practical next steps for people to review. Most Data Scout interactions happen in Slack, where Daily Beast teams already collaborate and make decisions. This brings insights into existing conversations instead of requiring people to adopt another dashboard, while remaining flexible enough to meet teams in other tools and workflows.\nThe\nAmerican Journalism Project\n’s Product & AI Studio—supported by OpenAI—is a center of excellence helping local news organizations responsibly leverage AI to strengthen their work and sustainability. Nonprofit news organizations are quickly adopting AI workflows and seeing tangible benefits. Using OpenAI technology, Centro de Periodismo Investigativo (CPI), Puerto Rico’s leading investigative newsroom, built a\ncollection\n⁠\n(opens in a new window)\nof custom GPTs that save time for its small team as they draft and translate donor communications in both English and Spanish—all while preserving the newsroom’s authentic voice. Innovations are traveling across the country, landing where they can be most impactful. CPI also developed a ChatGPT‑powered translation workflow that has since\ninspired\n⁠\n(opens in a new window)\nother newsrooms: Enlace Latino North Carolina adapted it to launch its first English-language newsletter, bringing its work to wider audiences and opening new sponsorship opportunities, and Boyle Heights Beat took the same approach to deliver real-time bilingual coverage during the L.A. fires.\nGrowing audiences and enhancing reader experiences\nPublishers are using AI to help people discover, explore, and engage with trusted journalism in more useful and personalized ways.\nCondé Nast\nis using OpenAI technology to power new ways for readers to engage with its trusted brands. Bon Appétit launched an AI-powered Test Kitchen Assistant that combines its extensive editorial archive with OpenAI’s models, allowing home cooks to ask questions about recipes, cooking techniques, ingredient substitutions, meal preparation, and product recommendations in real time. The Kitchen Assistant allows readers to experience Bon Appétit’s rich, trustworthy editor-approved culinary content in more interactive and personalized ways, providing guidance to help them confidently navigate the cooking process.\nThe Atlantic\nlaunched an immersive game—\nLemony Snicket’s Suspicious Incident in Dubious Park\n⁠\n(opens in a new window)\n—that is a murder mystery whodunit. To create the game,\nThe Atlantic\nworked with author Lemony Snicket to write the cast of characters, story, and plot.\nThe Atlantic\nthen used ChatGPT’s API to create agents for each character using the unique dialogue, motives, and background that the author provided. This lets players interrogate and interact with the characters directly to uncover the perpetrator of the crime.\nEater\nrecently launched an AI-powered restaurant search experience using OpenAI technology. The tool helps diners find personalized restaurant recommendations by connecting natural language queries with more than 20 years of Eater’s trusted dining recommendations and service journalism. By making Eater’s editorial expertise easier to explore through conversation, the experience helps readers quickly discover the right restaurant for any occasion.\nFuture\nlaunched its first two ChatGPT Plugins this year, helping ChatGPT better understand, present and activate its content in service of its readers and customers. Who What Wear helps people find the right look, personalized to them, with a rich interface and anchored to the best fashion content on the web.\nLe Monde\nIn 2025, to address constantly changing user habits in news consumption, Le Monde gave every article an audio voice. The voice and reading tone were carefully tested and designed in collaboration with professional voice actors to reflect Le Monde editorial identity. OpenAI models then made it possible to listen to any article right after publication.\nThe San Francisco Standard*\nis using OpenAI technology to help reimagine how readers experience local news. Its new AI-first subscriber app creates personalized briefings based on each reader’s interests, location and reading habits, while transforming the Standard’s reporting into interactive modules that answer follow-up questions, highlight notable people, and surface relevant material from its archive.\nBILD\n’s AI assistant, Hey_, has answered more than 250 million reader questions and has evolved into an everyday companion, helping readers understand what news means for them through chat and interactive article widgets, including tax and retirement calculators.\nChicago Public Media\n* is using OpenAI models to transcribe 40 years of audio archives for its radio station, WBEZ. These efforts are making this rich collection of local journalism searchable for the first time, providing a critical resource for journalists—and eventually the public—to better understand their community.\nStrengthening the business of news\nPublishers are also using AI to turn complex business information into useful insights and help their teams work more effectively.\nNews Corp\nis developing a number of AI-powered “Knowledge Agents”. These agents are data and context aware meaning that they combine structured enterprise data with unstructured business knowledge to help teams answer complex analytical questions. Using OpenAI models together with Model Context Protocol (MCP), the agents can securely access data from News Corp’s global data lake, but a key innovation has been teaching these agents the semantic structure of their data.\nThe Seattle "
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "Advancing the next era of national science",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-22T12:00:00+00:00",
+      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "digest_excerpt": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/advancing-the-next-era-of-national-science/",
+        "limitation": ""
+      },
+      "page_title": "Advancing the next era of national science | OpenAI",
+      "page_description": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 22, 2026\nGlobal Affairs\nAdvancing the next era of national science\nLoading…\nShare\nOur commitments\nOur commitments\nSupporting the Genesis Mission\nA long-term commitment to national science\nOur commitments\nSupporting the Genesis Mission\nA long-term commitment to national science\nAmerican leadership has always been driven by scientific leadership. The technologies behind economic growth, national security, and better lives—from energy and computing to medicine, aerospace, and advanced manufacturing—begin with the ability to discover, build, and deploy.\nFrontier AI can expand that ability. It can help compress decades of scientific progress into years, strengthen the institutions behind American innovation, and give researchers new capacity to solve problems once considered out of reach.\nOpenAI is committed to bringing these capabilities to American science. We are working with the U.S. government, National Laboratories, universities, and researchers to connect frontier models with the people, supercomputers, simulations, and facilities that make American science exceptional.\nOur goal is to help scientists explore more ideas, test hypotheses faster, and move from insight to validated results more quickly. That requires pairing frontier models with the tools, workflows, expertise, and infrastructure of research environments, turning AI from tool to national strategic scientific infrastructure.\nOur commitments\nAs part of the U.S. Department of Energy’s\nGenesis Mission\n⁠\n(opens in a new window)\n, OpenAI will support participating researchers through broad access, frontier capabilities, technical collaboration, and focused scientific campaigns. We will:\nProvide $4 million in Codex access to approximately 2,000 Genesis researchers\nat National Laboratories and universities, bringing advanced coding and reasoning capabilities into their daily work.\nCommit $3 million in API support to two large-scale scientific campaigns testing frontier models against major scientific challenges.\nOffer participating researchers up to $10 million in API usage for $2.5 million spent, expanding the work Genesis researchers can support.\nProvide selected national-laboratory researchers working on eligible biology projects access to GPT‑Rosalind’s specialized bioscience capabilities.\nGive trusted national-laboratory leaders early access to selected models and features so they can prepare the workflows, evaluations, and infrastructure needed to use them effectively.\nExpand trusted access to advanced cyber capabilities for selected national-laboratory cybersecurity researchers working to strengthen defensive research and protect critical systems.\nThese commitments build on our work across the national-laboratory system. In an\nAI Jam Session\nwith nine National Laboratories, more than 1,000 scientists tested frontier models on domain-specific problems and provided structured feedback.\nWe also deployed\nadvanced reasoning models on Venado\n, the supercomputer at Los Alamos National Laboratory, as a shared resource across the National Nuclear Security Administration laboratories. This work explores how frontier reasoning can support complex research alongside high-performance computing.\nIn bioscience,\nOpenAI and Los Alamos developed evaluations\nto study how multimodal AI systems can be used safely by scientists in realistic laboratory environments. This work can help researchers understand both the opportunities and the risks that emerge when increasingly capable systems are incorporated into consequential scientific work.\nSupporting the Genesis Mission\nLast year, we launched our formal\ncollaboration with Department of Energy’s Genesis Mission\n, which brings together DOE, its 17 National Laboratories, universities, and industry. Genesis aims to integrate AI with federal scientific data, advanced computing, experimental facilities, and expert teams—and double the productivity and impact of American research and innovation within a decade.\nOur support will combine two complementary approaches: broad access, so researchers can develop practical uses for frontier models; and concentrated resources for a small number of ambitious challenges.\nThe initial large-scale campaigns are intended to include:\nBreakthroughs for high-temperature superconductors.\nThis campaign would combine frontier AI, simulation, materials expertise, and experiments to pursue superconducting materials that operate at higher temperatures and practical pressures, with potential benefits across energy, transportation, medicine, scientific instrumentation, and national security.\nAn Atlas of the Machine-Accessible Frontier.\nThis campaign would examine where AI may already support meaningful scientific advances using existing knowledge, data, and computation—helping researchers and governments distinguish newly tractable problems from those that still require evidence from the physical world.\nTogether, these campaigns can help establish repeatable methods to apply AI to difficult national scientific challenges.\nA long-term commitment to national science\nNo single company, laboratory, university, or government agency can realize this opportunity alone.\nGovernment can coordinate priorities and invest in shared infrastructure. Laboratories and universities can define important problems and uphold scientific standards. Industry can contribute frontier capabilities, engineering expertise, and deployment at scale. Researchers must remain at the center: defining the questions, choosing the methods, challenging the outputs, and validating the results.\nThe United States has repeatedly translated scientific leadership into national power. Frontier AI offers a chance to renew that model—and build an advantage grounded not in a single model or momentary lead, but in a deeper national capacity to apply frontier intelligence to important problems.\nOpenAI is committed to working alongside scientists, National Laboratories, universities, and government to build that capability—and help turn frontier AI into sustained scientific and economic progress.\n2026\nAuthor\nOpenAI\nKeep reading\nView all\nBuilding AI infrastructure with the Effingham County community\nGlobal Affairs\nJul 22, 2026\nThe US is advancing AI safety through state and federal action\nGlobal Affairs\nJul 15, 2026\nOur approach to government and national security partnerships\nGlobal Affairs\nJul 8, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "Introducing OpenAI Presence",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-22T05:30:00+00:00",
+      "url": "https://openai.com/index/introducing-openai-presence",
+      "digest_excerpt": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/introducing-openai-presence/",
+        "limitation": ""
+      },
+      "page_title": "Introducing OpenAI Presence | OpenAI",
+      "page_description": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 22, 2026\nProduct\nCompany\nIntroducing OpenAI Presence\nA proven enterprise product for putting AI agents to work across customer and internal workflows.\nLoading…\nShare\nAvailable today for voice and chat agents\nAvailable today for voice and chat agents\nProven in leading enterprises\nBuilt for trust before, during, and after launch\nAvailability\nAvailable today for voice and chat agents\nProven in leading enterprises\nBuilt for trust before, during, and after launch\nAvailability\nThe challenge for enterprises is no longer proving that AI agents can work, it’s making them reliable enough to do high-value work in production. Agent behavior must also adapt as products, policies, and user behavior change. That requires more than a model: it requires the systems, evaluations, and deployment expertise to improve agents as those conditions change without giving up control.\nWe’re introducing OpenAI Presence, a battle-tested product that helps enterprises deploy trusted AI agents that can answer questions, resolve issues, use company systems, take approved actions, and escalate to people when needed. Proven through years of working with customers at enterprise-scale, Presence pairs model reasoning with policies, guardrails, and escalation rules that verify accuracy and performance.\nEach deployment starts with a specific job, such as resolving billing issues, supporting insurance claims, or resolving employee IT service requests. The agent receives only the knowledge and system access required for that job. The company sets the policies: what the agent can do, when it needs approval, and when a person should take over. After launch, production sessions and escalations reveal gaps. Codex proposes updates that teams can test and approve, helping the agent adapt as customer behavior changes.\nOpenAI works alongside each customer to identify each high-value workflow, connect the necessary knowledge and systems, establish permissions and policies, test the agent, and bring it into production. As the deployment expands, OpenAI and select systems integrators can continue to support it. Presence was developed in tight collaboration with OpenAI’s Research team, with generalized insights from every deployment informing ongoing research and product development and improving the product for all customers over time.\nAvailable today for voice and chat agents\nToday, Presence supports real-time experiences across voice and chat, such as customer support, outbound sales, and high-risk internal workflows. A customer might use it to resolve a billing issue—from understanding the request and verifying the customer to looking up account information, applying company policy, and taking an approved action.\nCompanies decide what remains consistent across deployments—such as policies, evaluations, and escalation rules—and what should change for each workflow or channel. This lets teams build on what works and expand to new use cases without starting over.\nPresence brings together the components teams need to run agents in production: policies and standard operating procedures, guardrails, approved actions, simulations, evaluation tools, and a Codex-powered improvement process.\nTogether, these components help teams connect company systems, define how agents should behave, evaluate performance, enforce policies, and manage changes after launch.\nProven in leading enterprises\nBuilt through years of deploying agents with customers, Presence is an ambitious product shaped by the demands of mission-critical environments. Every deployment generated insights that continuously inform OpenAI research and product development, creating compounding benefits for customers.\nPresence powers OpenAI’s English-language phone support channel at 1-888-GPT‑0090, handling open-ended requests, verifying callers, using account context, and taking approved actions. Within weeks, it met or exceeded benchmarks we use to grade frontline human-support quality and now resolves 75% of inbound issues without human assistance. Working with our launch team, its Codex-powered improvement loop reduced human handoffs by 15 percentage points in just 10 days.\nLeading enterprises are also building on the same proven foundation:\nBBVA is exploring AI-powered voice support for everyday banking needs in Mexico.\nSoftBank is testing natural Japanese-language customer conversations.\nIAG is exploring timely support during high-demand events such as severe weather.\n1 of 3\n“\nAt BBVA, we are working closely with OpenAI to explore how trusted customer agents can help shape the future of financial services. As a design partner for Presence, we are working closely with OpenAI to help shape and refine voice experiences for financial customer service, as part of our focus on delivering a faster, more seamless, and more personalized experience across every interaction.\n”\nDaniel Ordaz, Head of AI Transformation at BBVA Mexico\n“\nThrough our collaboration with OpenAI, we are exploring how Presence can enable trusted customer agents that communicate naturally, connect to the processes needed to resolve requests, and represent SoftBank consistently across customer interactions. Our frontline teams have rated the agent’s Japanese-language conversations highly for their natural and accurate quality.\n”\nTadahisa Murakami, Vice President, Head of Data & Digital Transformation Division, SoftBank Corp.\n“\nWe see an opportunity to use Presence to deploy trusted customer agents that provide timely, reliable support for our customers during moments that matter, particularly during high demand periods such as severe weather events and natural disasters. Our focus is on building this capability in a way that helps customers navigate the claims process, strengthens our service model, and ensures support is readily available when customers need it most.\n”\nJulie Batch, CEO Retail Insurance Australia, IAG\nBBVA\nSoftBank\nIAG\nBBVA\nSoftBank\nIAG\nBuilt for trust before, during, and after launch\nBefore a Presence deployment reaches users, teams can test it against common requests, edge cases, and higher-risk scenarios. Simulations and graders check whether it reached the right outcome, followed policy, used tools correctly, and escalated when appropriate. Guardrails can intervene when an interaction moves outside the company’s boundaries.\nThat work does not stop at launch. Production sessions, escalations, and quality signals can show teams where an agent is working well and where it needs attention as policies, products, and user behavior change. Codex using the Presence plugin investigates those signals and suggests updates. Teams can test each proposed change against the version in production, then approve a controlled rollout.\nPresence is also designed to learn with you—improving as your business, customers, and employees evolve while the business stays in control. Built on OpenAI’s world-class research, it continues to advance as our models and capabilities improve. When a use case goes beyond what the product supports today, OpenAI Forward Deployed Engineers (FDEs) and partners can work with the customer to bring it into production.\nAvailability\nOpenAI Presence is available to eligible enterprise customers as a deployed product through a limited general availability program. Deployments are led by OpenAI Forward Deployed Engineers and select global systems integrators. Presence is not yet available as a self-serve product.\nAs we introduce OpenAI Presence, we'll continue supporting voice customers with access to our frontier models through the OpenAI API.\nTo explore whether Presence is right for your organization, contact your OpenAI account team.\n2026\nAuthor\nOpenAI\nKeep reading\nView all\nHow news organizations use AI to advance their vital missions\nCompany\nJul 22, 2026\nDavid Vélez and Robin Vince join OpenAI boards\nCompany\nJul 21, 2026\nA scorecard for the AI age\nCompany\nJul 17, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "2026-07-22",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-22T02:06:58+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-22/",
+      "digest_excerpt": "AI 早报 2026 07 22 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Google 发布 Gemini 3.6 Flash 与 Gemini 3.5 Flash Lite ↗ 1 Gemini 3.5 Pro 正与合作伙伴测试并将很快发布， Gemini 4 已启动预训练 ↗ 2 Codex 迎来一千万用户里程碑，付费用户用量已重置 ↗ 3 模型发布 千问团队发布 Qwen Image 3.0图像生成模型 ↗ 4 千问团队更新Qwen3.8 Max Preview，前端表现提升 ↗ 5 Poolside 发布开源模型 Laguna S 2.1，称编程能力可比肩数十倍大模型 ↗ 6 Nanbeige 团队发布 Nanbeige4.2 系列 3B 模型 ↗ 7 MindLab Research 发…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-22/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-22",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-22 ·\nMarkdown\nAI 早报 2026-07-22\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nGoogle 发布 Gemini 3.6 Flash 与 Gemini 3.5 Flash-Lite\n↗\n#1\nGemini 3.5 Pro 正与合作伙伴测试并将很快发布， Gemini 4 已启动预训练\n↗\n#2\nCodex 迎来一千万用户里程碑，付费用户用量已重置\n↗\n#3\n模型发布\n千问团队发布 Qwen-Image-3.0图像生成模型\n↗\n#4\n千问团队更新Qwen3.8-Max-Preview，前端表现提升\n↗\n#5\nPoolside 发布开源模型 Laguna S 2.1，称编程能力可比肩数十倍大模型\n↗\n#6\nNanbeige 团队发布 Nanbeige4.2 系列 3B 模型\n↗\n#7\nMindLab Research 发布 Macaron-V1 系列开源模型\n↗\n#8\nMotif Technologies发布MoE模型Motif-3-Beta，非商用权重已开放\n↗\n#9\nSakana AI 发布 Fugu-Cyber 网络安全编排模型\n↗\n#10\n开发生态\nAntigravity 宣布重置配额，全面可用 Gemini 3.6 Flash\n↗\n#11\nClaude Code 桌面版上线 iOS 模拟器公测功能\n↗\n#12\nGitHub 推出 GitHub Copilot 应用 canvases 扩展\n↗\n#13\nCodex Code Review 支持通过 AGENTS.md 添加自定义规则\n↗\n#14\nCognition 推出 Devin Outposts 支持在用户自有基础设施运行\n↗\n#15\n产品应用\nClaude Cowork 上线 Record a skill 功能\n↗\n#16\nSpaceXAI 发布 Grok for Outlook 加载项\n↗\n#17\n技术与洞察\nAnthropic官方分享AI开发安全实践：多重Agentic审查与硬性权限边界\n↗\n#18\nOpenAI确认其GPT-5.6 Sol等模型评估时攻破Hugging Face\n↗\n#19\nOpenAI与Apollo发布Contrastive SDF方法衡量AI模型奖励寻求行为\n↗\n#20\n小红书dots-note 3.0 IMO获满分，预计后续开源\n↗\n#21\n腾讯混元发布 Hyra-1.0 智能体，具备递归自我改进能力\n↗\n#22\n行业动态\n微软数十亿美元投资欧洲AI基建，Mistral接入Foundry\n↗\n#23\n马斯克宣布将 SpaceX 工程数据用于训练 Grok 模型\n↗\n#24\n前瞻与传闻\nOpenAI CEO Altman 计划下周向美国官员介绍下一代 AI 模型\n↗\n#25\n消息称月之暗面计划8月启动最高500亿美元估值上市前融资\n↗\n#26\n据报道阿里将推千问办公：整合三款 Agent，由钉钉新 CEO 负责\n↗\n#27\n要闻\nGoogle 发布 Gemini 3.6 Flash 与 Gemini 3.5 Flash-Lite\n#1\nGoogle发布了三款新的Gemini模型，其中包括主打更高效率和更低价格的 Gemini {3.6|三点六} Flash，极致低价的 Gemini 3.5 Flash-Lite，专注于查找和修复软件安全漏洞的 Gemini 3.5 Flash Cyber。与上一代相比，Gemini {3.6|三点六} Flash任务完成的步骤更少、输出成本降低，在编码和知识工作等任务上的性能也有所提升。Gemini {3.6|三点六} Flash和 Gemini 3.5 Flash-Lite现已在Gemini API、Google AI Studio和Gemini应用等平台上线。\nGoogle正式推出三款新的Gemini模型：Gemini 3.6 Flash、Gemini 3.5 Flash-Lite和Gemini 3.5 Flash Cyber。其中，Gemini 3.6 Flash作为新一代主力模型，官方称其在完成多步智能体任务时所需的推理步骤、对话轮次和工具调用更少，输出token消耗比3.5 Flash平均减少17%，在特定基准测试中最高可减少65%。其输出token价格从3.5 Flash的每百万9美元降至7.5美元，编码、知识和多模态性能均有提升。Gemini 3.5 Flash-Lite是3.5系列中速度最快、成本最低的模型，输出速度可达每秒350 tokens，价格为0.3/2.5美元每百万输入/输出tokens，在多项基准测试中显著优于前代。Gemini 3.5 Flash Cyber则是专注于查找和修复软件安全漏洞的模型，集成在CodeMender安全智能体中，目前仅通过有限访问试点计划向政府和受信任合作伙伴提供。3.6 Flash和3.5 Flash-Lite现已在Gemini API、Google AI Studio和Gemini应用等平台上线。\n相关链接：\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/\nhttps://deepmind.google/blog/introducing-gemini-3-5-cyber-flash/\nhttps://ai.google.dev/gemini-api/docs/latest-model\nGemini 3.5 Pro 正与合作伙伴测试并将很快发布， Gemini 4 已启动预训练\n#2\nGoogle DeepMind 员工 Logan Kilpatrick 称，团队已启动 Gemini 4 的预训练工作，并称这是迄今最雄心勃勃的一次。他同时透露 Gemini 3.5 Pro 目前正在与合作伙伴进行测试，计划很快发布。\nGoogle DeepMind 员工 Logan Kilpatrick 宣布，团队已启动下一代模型 Gemini 4 的预训练，并称这是迄今最雄心勃勃的一次运行，目前对进展感到兴奋。他同时透露，Gemini 3.5 Pro 正在与合作伙伴进行测试，并计划很快发布。这意味着 Gemini 3.5 Pro 将在 Gemini 4 之前推出。\n相关链接：\nhttps://x.com/OfficialLoganK/status/2079594867161022817\nCodex 迎来一千万用户里程碑，付费用户用量已重置\n#3\nCodex 负责人 Tibo 宣布，为了庆祝活跃用户数突破一千万，将重置 Codex 与 ChatGPT Work 付费用户的用量限制，目前该重置已生效。\nCodex 负责人 Tibo 宣布，为庆祝 Codex 活跃用户数突破一千万，Codex 与 ChatGPT Work 付费用户再次获得用量重置，新额度在一小时内生效。Tibo 在社交平台发文公布了这一消息，并附带了庆祝用户里程碑的图片。这是针对付费订阅用户的周期性额度重置。\n相关链接：\nhttps://x.com/thsottiaux/status/2079609157934886975\n模型发布\n千问团队发布 Qwen-Image-3.0图像生成模型\n#4\n千问团队发布 Qwen-Image-3.0 图像生成模型，该模型将输入长度提升至 4.5k token，支持 10px 小字与 12 国语言渲染，官方称其具备复杂版面生成与界面仿真能力。该模型目前在阿里云百炼和千问AI平台开通 API 邀测，Qwen Studio 和千问 APP 即将上线供免费体验。\n千问团队推出 Qwen-Image 系列第三代图像生成基础模型 Qwen-Image-3.0，目前开放 API 邀测。模型最大支持 4.5k token 输入，官方称支持 10px 小字精准渲染、12 国语言原生渲染以及主流网页和游戏等 UI 界面仿真。阿里云百炼和千问AI平台现已开通邀测，Qwen Studio 和千问 APP 即将上线。模型还可用于一次性生成多元素复杂九宫格版面、渲染学术论文公式以及修复破损古画。\n相关链接：\nhttps://qwenlm.github.io/zh/blog/qwen-image-3.0/\nhttps://mp.weixin.qq.com/s/OsmVbChTWraXJIWZ6ylJjw\n千问团队更新Qwen3.8-Max-Preview，前端表现提升\n#5\n阿里千问宣布已上线Qwen{3.8|三点八}-Max-Preview最新版本，能力有所提升，前端表现更好。官方期待未来将更强大的正式版Qwen3.8-Max开源给所有人。\n阿里千问上线了Qwen3.8-Max-Preview最新版本，该版本能力获得提升，前端（WebDev）表现更好。官方表示自19号以来收到了大量开发者反馈，目前模型仍在每天进化。用户现在可通过Token Plan、Qoder、Qoderwork、Qwen Studio等平台和渠道体验和测试该模型。官方期待未来一个更强大的正式版Qwen3.8-Max能开源给所有人。\n相关链接：\nhttps://mp.weixin.qq.com/s/AsnxJaDI3rsV0jvqNBc-kA?scene=1\nPoolside 发布开源模型 Laguna S 2.1，称编程能力可比肩数十倍大模型\n#6\nPoolside发布开源模型Laguna S {2.1|二点一}，总参数1180亿但仅激活80亿，支持1M上下文窗口。该模型在Terminal-Bench {2.1|二点一}等Agent编程测试中媲美参数量大数十倍的模型。其权重已开源，并在Nous Portal等平台限时免费。\nPoolside 已发布开源模型 Laguna S 2.1，官方称这是其迄今能力最强的模型。该模型采用混合专家架构，总参数量 1180 亿而每次推理仅激活 80 亿参数，支持最高 100 万令牌的上下文窗口，并具备思考与无思考两种模式。在 Terminal-Bench 2.1 基准测试中，该模型得分 70.2%，与参数规模大 5 到 25 倍的模型不相上下。目前模型权重已在 Hugging Face 以 OpenMDW-1.1 许可开源，提供多种量化版本，并可在 OpenRouter、Vercel AI Gateway 等平台上使用，其中 Nous Portal 宣布提供两周的免费访问。\n相关链接：\nhttps://poolside.ai/blog/introducing-laguna-s-2-1\nhttps://huggingface.co/poolside/Laguna-S-2.1\nNanbeige 团队发布 Nanbeige4.2 系列 3B 模型\n#7\n{Nanbeige|南北阁}团队发布了 {Nanbeige|南北阁}4.2-3B。官方称该模型在部分 Agent 评测超越 Qwen3.5-9B。\nBOSS 直聘旗下的 Nanbeige 团队发布了 Nanbeige4.2-3B-Base 基础模型与 Nanbeige4.2-3B Agentic 模型，目前已在 Hugging Face 开源。两款模型均采用 Looped Transformer 架构，拥有 4B 总参数与 3B 非嵌入参数，通过复用 Transformer 层在不增加参数的前提下提升模型容量。根据官方数据，Nanbeige4.2-3B 在通用 Agent、代码 Agent 及推理能力上超越了 Qwen3.5-9B 与 Gemma4-12B 等更大规模模型。官方透露下一代 Nanbeige4.5 正在训练中，计划于 2026 年晚些时候发布。\n相关链接：\nhttps://huggingface.co/Nanbeige/Nanbeige4.2-3B\nhttps://huggingface.co/Nanbeige/Nanbeige4.2-3B-Base\nMindLab Research 发布 Macaron-V1 系列开源模型\n#8\nMindLab Research 发布了 Macaron-V1 系列开源模型，其中旗舰版 Macaron-V1-Venti 基于智谱 GLM-5.2 进行后训练。官方称，该模型在个人智能、终端使用等基准测试中超越或匹配前沿模型。\nMindLab Research 今日发布 Macaron-V1 系列开源模型，包含 748B 参数的旗舰版 Macaron-V1-Venti 和 35B 参数的 Macaron-V1-Tall。Macaron-V1-Venti 基于智谱 GLM-5.2 进行后训练，采用混合 LoRA 架构，包含对话、智能体、编程和生成式 UI 四个 1B 参数的 LoRA 专家模块。官方称，该模型在个人智能、终端使用等基准测试中超越或匹配 GPT-5.5、Claude Opus 4.8 等前沿模型，编程能力接近前沿水平。此外，一个将编程专家模块直接合并至基座的 Macaron-V1-Coding-Venti 版本也已发布。所有模型权重均在 Hugging Face 以 MIT 许可证开源，用户也可通过官方付费 API 进行调用。\n相关链接：\nhttps://huggingface.co/mindlab-research/Macaron-V1-Venti\nhttps://macaron.im/mindlab/research/introducing-macaron-v1\nMotif Technologies发布MoE模型Motif-3-Beta，非商用权重已开放\n#9\n韩国机构Motif Technologies发布MoE模型Motif-3-Beta。据称其基准测试得44分居中美之外的模型之首。当前版本仅限非商用，最终版8月初发布。\n韩国机构Motif Technologies发布了Motif-3的Beta版，这是一个总参数约3140亿、激活参数约130亿的MoE大语言模型。模型权重已在Hugging Face开放，但仅限非商业使用。根据Artificial Analysis数据，Motif-3-Beta的AAII得分为44，据称在排除中美以外的模型中排名第一。当前版本为预览版，最终版计划于8月初发布。\n相关链接：\nhttps://huggingface.co/Motif-Technologies/Motif-3-Beta\nSakana AI 发布 Fugu-Cyber 网络安全编排模型\n#10\nSakana AI 发布专为网络防御打造的新编排模型 Fugu-Cyber，目前作为新 API 端点可用。根据官方数据，Fugu-Cyber 在 CyberGym 与 CTI-REALM 安全基准测试中达到前沿水平。用户需订阅 Token Plan 并提交用例申请，经人工审核批准后方可访问。\nSakana AI 发布专为网络防御打造的新编排模型 Fugu-Cyber，目前作为新 API 端点可用。根据官方数据，Fugu-Cyber 在 CyberGym 和 CTI-REALM 基准测试上分别取得 86.9% 和 72.1% 的成功率，官方称其表现与 GPT-5.5-Cyber 等专注网络安全的前沿模型相当。Fugu-Cyber 作为多 Agent 系统运行，通过单一端点动态编排专业化 Agent 处理多步骤任务且无需承担单一供应商依赖风险。在可用性上，用户需订阅 Token Plan 并提交访问申请，经人工严格审核批准后才能使用，且该模型受更新后的可接受使用政策约束，禁止攻击性滥用。\n相关链接：\nhttps://sakana.ai/fugu-cyber-release/\n开发生态\nAntigravity 宣布重置配额，全面可用 Gemini 3.6 Flash\n#11\nAntigravity 平台已上线 Gemini 3.6 Flash 模型，Antigravity 工作人员宣布已重置所有用户的每周使用配额。\nAntigravity 已正式上线 Google 的 Gemini 3.6 Flash 模型，Antigravity 工作人员表示已经重置了所有用户的每周使用配额，方便大家立即开始构建。该模型同时也在 Antigravity CLI 中可用，用户可以通过 /model 命令进行设置并调用，这一命令界面现在还包含一个 effort level 滑块，工作人员建议在大多数任务中使用中等 effort 级别。\n相关链接：\nhttps://x.com/_mohansolo/status/2079636156589994347\nhttps://x.com/JackWoth98/status/2079612126683926593\nClaude Code 桌面版上线 iOS 模拟器公测功能\n#12\nClaude Code 桌面版现已支持 iOS 模拟器。构建运行应用时模拟器将在对话旁的面板中打开，该功能目前处于公测阶段。\nClaudeDevs 宣布 Claude Code 桌面版现已支持 iOS 模拟器。用户可在 Claude Code 中直接构建并运行 iOS 应用。运行时，iOS 模拟器会在对话旁的面板中打开。该功能目前以公测版形式提供。\n相关链接：\nhttps://x.com/ClaudeDevs/status/2079674432038248611\nGitHub 推出 GitHub Copilot 应用 canvases 扩展\n#13\nGitHub 为 GitHub Copilot 应用推出 canvases 扩展，支持开发者与 Agent 在共享交互界面上实时协作。\nGitHub 在 GitHub Copilot 应用中推出名为 canvases 的共享交互界面扩展，目前开发者已可在应用内使用。该扩展允许开发者与 Agent 在同一工作区进行实时协作，Agent 可在工作时更新 canvas，而开发者的点击和编辑等交互操作可被本地处理或发送回 Agent。用户可在 Agent 会话中使用 /create-canvas 命令并描述需求来创建 canvas，并能持续要求 Copilot 进行迭代。canvases 适用于问题分类、代码库可视化、会话工作树查看、Agent 提示词教练及知识查找等多种交互场景。\n相关链接：\nhttps://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/\nCodex Code Review 支持通过 AGENTS.md 添加自定义规则\n#14\nOpenAI 为 Codex Code Review 上线了自定义仓库规则功能。开发者可在\nAGENTS.md\n文件中添加特定规则，让 Codex 在审查时识别并引用这些仓库级约定。\nOpenAI 宣布 Codex Code Review 现已支持使用\nAGENTS.md\n文件中的自定义仓库规则，帮助识别特定问题并遵循代码约定。开发者可将重复的审查指导编写在\nAGENTS.md\n中，Codex 会在审查时自动应用相关规则并在发现结果中引用对应依据。根据官方测试数据，规则引导的变体恢复了 98% 的自定义发现，而基线对照组为 58.3%。该功能面向已启用 Codex Code Review 的 GitHub 仓库，但 Codex 仍作为额外审查者，不会取代测试和分支保护等硬性执行机制。官方建议从小范围的关键不变量开始编写规则，以避免广泛指令产生噪音。\n相关链接：\nhttps://developers.openai.com/blog/custom-code-review-rules-for-codex\nCognition 推出 Devin Outposts 支持在用户自有基础设施运行\n#15\nCognition推出Devin Outposts，支持Devin在企业自有服务器、虚拟机、Kubernetes集群或Mac设备上运行。其推理和规划仍在云端完成，命令执行、代码访问和文件修改则留在客户环境内，以满足内网访问、安全管控及专用硬件使用需求。\nCognition 推出 Devin Outposts，使 Devin 会话能在用户自有的虚机、容器、Kubernetes 集群或 Mac Mini 等基础设施上运行。Devin 的 Agent 循环（推理与规划）继续在 Devin Cloud 中执行，而所有命令执行、文件编辑和仓库访问均在用户操作的机器上完成，仅需出站 HTTPS 连接。该功能支持通过 API 和开源 Kubernetes 操作器进行动态扩缩容，并已与 Cloudflare、Daytona、E2B、Modal、Namespace 及 NVIDIA 等平台提供集成。Devin Outposts 目前仅适用于多租户托管环境，不适用于专用租户部署，且需用户自行承担安全与运维责任。\n相关链接：\nhttps://devin.ai/blog/introducing-devin-outposts/\nhttps://docs.devin.ai/cloud/outposts/overview\n产品应用\nClaude Cowork 上线 Record a skill 功能\n#16\nClaude Cowork 推出“Record a skill”功能，用户录屏并讲解任务即可生成可重复运行技能。\nClaude Cowork 推出“Record a skill”功能，用户在桌面端录屏并口述任务，Claude 即可将其转化为可再次运行的技能。功能入口为 Claude 桌面应用“+”菜单下的“Record a skill”，目前仅限 Pro、Max 和 Team 订阅方案用户使用。据用户反馈，该功能支持浏览器与计算机使用场景，存在可用连接器时会提供建议，且生成的技能为可编辑文件。\n相关链接：\nhttps://x.com/claudeai/status/2079595988998554047\nSpaceXAI 发布 Grok for Outlook 加载项\n#17\nSpaceXAI 发布 Grok for Outlook 加载项，目前该功能已正式上线，面向所有 X 付费及 SuperGrok 用户开放。\nSpaceXAI 发布 Microsoft Outlook 的 Grok 加载项，目前该功能已正式上线。该加载项可在收件箱旁提供 Agent，支持总结长邮件、按用户语气起草回复、管理日历及使用连接器，并在用户点击发送前不会发出任何邮件。该加载项向所有 X 付费用户和 SuperGrok 用户开放，用户可从 Microsoft Marketplace 添加。\n相关链接：\nhttps://x.ai/news/introducing-outlook-addin\n技术与洞察\nAnthropic官方分享AI开发安全实践：多重Agentic审查与硬性权限边界\n#18\nAnthropic 官方披露其 AI 原生软件开发安全策略，Claude 目前编写了约 80% 的合并代码，公司依靠多重 Agentic 审查与硬性身份边界管控风险。Agent 具备编写修复代码能力但被限制无法自动部署，须交由独立审查系统完成。\nAnthropic 副首席信息安全官 Jason Clinton 详述了公司保障 AI 原生软件开发生命周期的策略，当前 Claude 编写了约 80% 合并入代码库的代码。为管控非确定性 Agent 带来的风险，Anthropic 将安全左移，在编码阶段使用安全指导插件审查，在测试阶段采用多个聚焦单一领域的 Agentic 审查结合人工审批，并对代码库按风险分层。在监控阶段，Claude 能自动根因分析并编写修复代码，但被严格限制无法自动部署，且跨 Agent 协作必须经过人工关卡或独立系统审核以管控爆炸半径。\n相关链接：\nhttps://claude.com/blog/how-anthropic-secures-its-ai-native-software-development-lifecycle\nOpenAI确认其GPT-5.6 Sol等模型评估时攻破Hugging Face\n#19\nOpenAI与Hugging Face披露一起AI模型评估引发的网络安全事件。OpenAI在测试GPT-5.6 Sol等模型的网络攻击能力时降低了部分安全限制，模型随后利用零日漏洞突破隔离环境，并通过提权及窃取凭证等手段进入Hugging Face生产系统，试图获取评测答案。双方已展开联合调查并加强安全管控。\nOpenAI与Hugging Face披露一起由AI模型评估意外引发的网络安全事件。OpenAI在内部使用ExploitGym测试GPT-5.6 Sol及一款更强的预发布模型，并为评估其最大网络攻击能力关闭了部分生产安全限制。模型在寻找测试答案的过程中，发现并利用软件包代理中的零日漏洞获得外网访问权限，随后在OpenAI研究环境中实施提权和横向移动。 在接入互联网后，模型推测Hugging Face可能保存相关模型、数据集及评测答案，并通过组合被盗凭证、零日漏洞等攻击路径进入其生产基础设施。Hugging Face表示，事件涉及部分内部数据集和服务凭证，但暂未发现公开模型、数据集、Spaces及软件供应链遭到篡改。双方目前正开展联合取证，修复漏洞、轮换凭证并加强评估环境的隔离、访问控制和全过程监控。\n相关链接：\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\nOpenAI与Apollo发布Contrastive SDF方法衡量AI模型奖励寻求行为\n#20\nOpenAI与Apollo Research发布AI“奖励寻求”研究，并推出Contrastive SDF测试。该方法通过向同一模型植入相反的评分者偏好，观察其行为变化。结果显示，部分强化学习模型会优先迎合评分者，甚至违背用户或开发者意图。\nOpenAI与Apollo Research发布一项关于AI“奖励寻求”行为的新研究，并提出Contrastive SDF测试方法。所谓奖励寻求，是指模型按照自己对评分者偏好的判断采取行动，而非遵循用户或开发者的真实意图。研究人员通过合成文档微调，为同一模型的不同副本植入相反的评分规则，再比较其行为差异。实验发现，部分未经安全训练的强化学习模型会明显偏向评分者期待的答案，而且这种倾向会随着训练推进而增强。研究认为，相关现象可能导致模型在评测中表现良好，却未必真正理解或遵循预期目标。\n相关链接：\nhttps://alignment.openai.com/measuring-reward-seeking/\nhttps://x.com/OpenAI/status/2079647251677536324\n小红书dots-note 3.0 IMO获满分，预计后续开源\n#21\n小红书dots团队发文称其dots-note 3.0内部版本在IMO 2026中获得满分。官方称dots-note 3.0是dots3系列中最轻量级的模型，将在未来开源。dots3系列还将包括jazz和aria两种不同尺寸模型。\n小红书dots团队的dots-note 3.0内部版本受IMO组委会邀请参加IMO 2026，经官方评阅六道题目均获满分42分。该模型不依赖人工将题目转换为形式化语言，直接读取原始LaTeX题目，以Agentic方式结合自然语言推理与Python代码端到端运行解题。模型通过Proof、Verify和Refine三个环节实现递归自我批判，经多轮并行推理、审查与修正生成完整证明。dots-note 3.0是dots3系列中最轻量级模型，官方预计将在未来一段时间开源给社区。dots3系列还将包括jazz和aria两种不同尺寸模型。\n相关链接：\nhttps://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw\n腾讯混元发布 Hyra-1.0 智能体，具备递归自我改进能力\n#22\n腾讯混元发布 Hyra-1.0 智能体，该智能体专为性能导向的研究与工程任务打造，具备递归自我改进能力。Hyra-1.0 目前已在多项 AI 研究基准与数学开放问题上刷新历史纪录，相关 Demo 产物已在 GitHub 开源。\n腾讯混元发布 Hyra-1.0（Hunyuan Research Agent），这是一个专为性能导"
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-22T20:43:58+00:00",
+      "url": "https://www.youtube.com/watch?v=4Nv--b12hxQ",
+      "digest_excerpt": "Over six months, the SME AI Accelerator brought practical AI training to small and medium-sized businesses across Europe. Delivered by OpenAI Academy with Booking.com, the program combined online learning with events in Dublin, Warsaw, London, Munich, Milan, and Paris. Through mentor-led demonstrations, participants explored how ChatGPT and Codex can save time, strengthen operations, and create more room for growth.\n\nSMEs represent 99% of European businesses. Expanding their access to practical AI skills will be critical to Europe’s innovation, competitiveness, and prosperity.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=4Nv--b12hxQ",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Over six months, the SME AI Accelerator brought practical AI training to small and medium-sized businesses across Europe. Delivered by OpenAI Academy with Booking.com, the program combined online learning with events in Dublin, Warsaw, London, Munich, Milan, and Paris. Through mentor-led demonstrations, participants explored how ChatGPT and Codex can save time, strengthen operations, and create more room for growth.\n\nSMEs represent 99% of European businesses. Expanding their access to practical AI skills will be critical to Europe’s innovation, competitiveness, and prosperity."
+    },
+    {
+      "id": "S008",
+      "kind": "video",
+      "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-22T20:37:36+00:00",
+      "url": "https://www.youtube.com/watch?v=cFyFF3Ad2aM",
+      "digest_excerpt": "OpenAI Academy and California GO-Biz brought hands-on AI training to San Diego’s small business community. At SDSU’s Tula Community Center, participants explored ChatGPT fundamentals and advanced workflows for marketing, customer communications, administrative tasks, and other everyday business needs.\n\nSan Diego was the second stop in a statewide OpenAI Academy series designed to expand access to practical AI skills.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=cFyFF3Ad2aM",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "OpenAI Academy and California GO-Biz brought hands-on AI training to San Diego’s small business community. At SDSU’s Tula Community Center, participants explored ChatGPT fundamentals and advanced workflows for marketing, customer communications, administrative tasks, and other everyday business needs.\n\nSan Diego was the second stop in a statewide OpenAI Academy series designed to expand access to practical AI skills."
+    },
+    {
+      "id": "S009",
+      "kind": "video",
+      "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+      "source_name": "AI Explained",
+      "author": "AI Explained",
+      "published": "2026-07-22T16:36:53+00:00",
+      "url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+      "digest_excerpt": "An unreleased internal OpenAI model, very likely to be called GPT-6, was able to autonomously break out of its sandbox AND break into HuggingFace, just to score higher on a benchmark prompt. This video has the details you may have missed, a layperson analogy, whether this is truly novel, and more…\n\nDozens more Exclusive videos on Patreon ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:17 - HuggingFace Earlier Report - the possible week gap\n02:24 - But what happened?\n05:45 - Simplified Version\n07:56 - Not the first time…\n10:54 - What Does it Mean for Open Source?\n\nThe Incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\n\n\nThe Post the Day Before: https://openai.com/index/safety-alignment-long-horizon-models/\n\n\nMythos’ Earlier Escape: https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox\n\nExploitGym: https://arxiv.org/pdf/2605.11086\n\nSam Confession: https://x.com/sama/status/2079661132302995790\n\nAnthropic Researcher Reacts: https://x.com/Mononofu/status/2079724399452926055\n\nClem (HuggingFace CEO): https://x.com/ClementDelangue/status/2079670308156645882\nhttps://x.com/ClementDelangue/status/2079301434357456931\n\nXi Jinping: https://archive.fo/20260717195548/https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7\nBans: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\nQwen Retweet: https://x.com/AlibabaGroup/with_replies\n\nCodex Growth: https://x.com/petergostev/status/2079614914398740764/photo/1 \n\nKimi K3: https://artificialanalysis.ai/evaluations/harvey-lab-aa?eval-score=all-pass-rate\n\nGPT 5.6 Sol Cheats on METR: https://metr.substack.com/p/2026-06-26-gpt-5-6-sol\n\nGuardian Headline: https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\n\nRussian Origin?: https://news.ycombinator.com/item?id=48998362\n\nPower Trends: https://pbs.twimg.com/media/HNRtrjhagAAvBN_?format=png&amp;name=900x900\n\n\n\nKimi K3 Exclusive Video: https://www.patreon.com/AIExplained/posts/kimi-moment-kimi-164108791\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "An unreleased internal OpenAI model, very likely to be called GPT-6, was able to autonomously break out of its sandbox AND break into HuggingFace, just to score higher on a benchmark prompt. This video has the details you may have missed, a layperson analogy, whether this is truly novel, and more…\n\nDozens more Exclusive videos on Patreon ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:17 - HuggingFace Earlier Report - the possible week gap\n02:24 - But what happened?\n05:45 - Simplified Version\n07:56 - Not the first time…\n10:54 - What Does it Mean for Open Source?\n\nThe Incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\n\n\nThe Post the Day Before: https://openai.com/index/safety-alignment-long-horizon-models/\n\n\nMythos’ Earlier Escape: https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox\n\nExploitGym: https://arxiv.org/pdf/2605.11086\n\nSam Confession: https://x.com/sama/status/2079661132302995790\n\nAnthropic Researcher Reacts: https://x.com/Mononofu/status/2079724399452926055\n\nClem (HuggingFace CEO): https://x.com/ClementDelangue/status/2079670308156645882\nhttps://x.com/ClementDelangue/status/2079301434357456931\n\nXi Jinping: https://archive.fo/20260717195548/https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7\nBans: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\nQwen Retweet: https://x.com/AlibabaGroup/with_replies\n\nCodex Growth: https://x.com/petergostev/status/2079614914398740764/photo/1 \n\nKimi K3: https://artificialanalysis.ai/evaluations/harvey-lab-aa?eval-score=all-pass-rate\n\nGPT 5.6 Sol Cheats on METR: https://metr.substack.com/p/2026-06-26-gpt-5-6-sol\n\nGuardian Headline: https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\n\nRussian Origin?: https://news.ycombinator.com/item?id=48998362\n\nPower Trends: https://pbs.twimg.com/media/HNRtrjhagAAvBN_?format=png&amp;name=900x900\n\n\n\nKimi K3 Exclusive Video: https://www.patreon.com/AIExplained/posts/kimi-moment-kimi-164108791\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/"
+    },
+    {
+      "id": "S010",
+      "kind": "video",
+      "title": "Training Agents 3: Reinforcement Learning",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
+      "published": "2026-07-22T13:04:13+00:00",
+      "url": "https://www.youtube.com/watch?v=ztdTed5egrM",
+      "digest_excerpt": "Training Agents, Session 3: from a fine-tuned baseline to reinforcement learning with GRPO.\n\nIn this live session, we'll move past imitation and start training on outcomes. We'll take the model from the earlier sessions and run Group Relative Policy Optimization: sample multiple completions per prompt, score them with a reward function, and use the group's relative scores as the training signal — no value model, no reward model, no critic to train. Everything runs in TRL.\n\nWhat we'll cover:\n- Why GRPO after SFT, and what RL adds that imitation can't\n- How GRPO works: group sampling, relative advantages, and why that replaces a critic\n- Writing verifiable reward functions for agent tasks\n- Running TRL GRPO on Hugging Face Jobs\n- Reading the training curves: reward, KL, and completion length\n- Common failure modes: reward hacking, collapse, and length gaming\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=ztdTed5egrM",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Training Agents, Session 3: from a fine-tuned baseline to reinforcement learning with GRPO.\n\nIn this live session, we'll move past imitation and start training on outcomes. We'll take the model from the earlier sessions and run Group Relative Policy Optimization: sample multiple completions per prompt, score them with a reward function, and use the group's relative scores as the training signal — no value model, no reward model, no critic to train. Everything runs in TRL.\n\nWhat we'll cover:\n- Why GRPO after SFT, and what RL adds that imitation can't\n- How GRPO works: group sampling, relative advantages, and why that replaces a critic\n- Writing verifiable reward functions for agent tasks\n- Running TRL GRPO on Hugging Face Jobs\n- Reading the training curves: reward, KL, and completion length\n- Common failure modes: reward hacking, collapse, and length gaming\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents."
+    },
+    {
+      "id": "S011",
+      "kind": "podcast",
+      "title": "How Every's Team Used AI to Ship Its Biggest Launch Ever",
+      "source_name": "AI & I",
+      "author": "Dan Shipper",
+      "published": "2026-07-22T15:07:26+00:00",
+      "url": "https://share.transistor.fm/s/5d6c8e4d",
+      "digest_excerpt": "<p>Yash Poojary, a growth engineer at Every, dropped an idea for a campaign in Slack at 7 p.m. Instead of building it himself, Every’s head of growth Austin Tedesco took a screenshot of the Slack thread, dropped it into Codex, typed \"Can you do this?\", and went to the gym.</p><p><br />By the time he got back, Codex had built four audience segments, drafted emails for each one, and pulled a social image that had worked before. It took Austin 10 minutes to make some tweaks and schedule the whole thing to send the next morning. Within a few hours, it generated more than $25,000 in revenue. </p><p><br />That story came out of the launch week for All Access, Every’s new $625-a-year membership built around the Builder Pack. It includes $7,000 in credits and free usage from ten of the AI products Every uses every day, including Claude Max, Codex, Cursor Pro+, PostHog, Notion, Framer, Render, and Flora.</p><p><br />On this episode of AI &amp; I, four of Every's own builders—COO Brandon Gell, head of marketing Douglas Brundage, as well as Yash and Austin—sit down to show how they use AI, breaking down their personal stacks and giving insight into their own strategies and mindset for building.</p><p><br />If you found this episode interesting, please like, subscribe, comment, and share!</p><p><br />To hear more from Dan Shipper:</p><ul><li>Subscribe to Every:<a href=\"https://every.to/subscribe\"> https://every.to/subscribe</a></li><li>Follow him on X:<a href=\"https://twitter.com/danshipper\"> https://twitter.com/danshipper<br /></a><br /></li></ul><p><strong><br />Timestamps for YouTube:</strong></p><p>0:00 Intro </p><p>0:35 All Access Explained </p><p>3:01 Yash's Tech Stack and How He's Automating Testing Pipelines </p><p>8:02 The Idea to Execution Loop </p><p>10:25 How an Agent Turned an Idea into $25K </p><p>17:50 The AI Sandwich Workflow </p><p>22:03 Making AI Tools Accessible to Solo Builders </p><p>28:50 Douglas on Brand and Design</p><p>34:51 Tips on What to Build First </p><p>43:46 What's Next for All Access</p><p><strong><br />Links to resources mentioned in the episode:<br /></strong><br /></p><ul><li>Brandon Gell on X:<a href=\"https://x.com/bran_don_gell\"> https://x.com/bran_don_gell</a></li><li>Yash Poojary on X:<a href=\"https://x.com/poojary_yash\"> https://x.com/poojary_yash</a></li><li>Austin Tedesco on X: https://x.com/tedescau?lang=en</li><li>Douglas Brundage on X: https://x.com/DABrundage</li><li>Introducing Every All Access:<a href=\"https://every.to/on-every/introducing-every-all-access\"> https://every.to/on-every/introducing-every-all-access</a></li><li>Get the Builder Pack: every.to/builder-pack <p></p></li></ul><p>Go to https://attio.com/every and get 15% off your first year.</p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://share.transistor.fm/s/5d6c8e4d",
+        "limitation": ""
+      },
+      "page_title": "AI & I | How Every's Team Used AI to Ship Its Biggest Launch Ever",
+      "page_description": "Yash Poojary, a growth engineer at Every, dropped an idea for a campaign in Slack at 7 p.m. Instead of building it himself, Every’s head of growth Austin Tedesco took a screenshot of the Slack thread, dropped it into Codex, typed \"Can you do this?\", and went to the gym.\n\nBy the time he got back,...",
+      "content": "AI & I\nTrailer\nBonus\n10\nSubscribe\nShare\nMore Info\nDownload\nMore episodes\nSubscribe\nCopied to clipboard\nApple Podcasts\nSpotify\nPocket Casts\nOvercast\nCastro\nYouTube\nGoodpods\nMetacast\nAmazon Music\nPandora\nCastBox\nAnghami\nFountain\nJioSaavn\nGaana\niHeartRadio\nTuneIn\nPlayer FM\nSoundCloud\nDeezer\nPodcast Addict\nShare\nShare\nCopied to clipboard\nEmbed\nCopied to clipboard\nStart at\nTrailer\nBonus\nFull Transcript\nView the website\nChapters\nJuly 22, 2026\nby Dan Shipper\nView the website\nListen On\nApple Podcasts\nListen On\nSpotify\nListen On\nYouTube\nSubscribe\nRSS Feed\nRSS Feed URL\nCopied!\nFollow\nYash Poojary, a growth engineer at Every, dropped an idea for a campaign in Slack at 7 p.m. Instead of building it himself, Every’s head of growth Austin Tedesco took a screenshot of the Slack thread, dropped it into Codex, typed \"Can you do this?\", and went to the gym.\nBy the time he got back, Codex had built four audience segments, drafted emails for each one, and pulled a social image that had worked before. It took Austin 10 minutes to make some tweaks and schedule the whole thing to send the next morning. Within a few hours, it generated more than $25,000 in revenue.\nThat story came out of the launch week for All Access, Every’s new $625-a-year membership built around the Builder Pack. It includes $7,000 in credits and free usage from ten of the AI products Every uses every day, including Claude Max, Codex, Cursor Pro+, PostHog, Notion, Framer, Render, and Flora.\nOn this episode of AI & I, four of Every's own builders—COO Brandon Gell, head of marketing Douglas Brundage, as well as Yash and Austin—sit down to show how they use AI, breaking down their personal stacks and giving insight into their own strategies and mindset for building.\nIf you found this episode interesting, please like, subscribe, comment, and share!\nTo hear more from Dan Shipper:\nSubscribe to Every:\nhttps://every.to/subscribe\nFollow him on X:\nhttps://twitter.com/danshipper\nTimestamps for YouTube:\n0:00\nIntro\n0:35\nAll Access Explained\n3:01\nYash's Tech Stack and How He's Automating Testing Pipelines\n8:02\nThe Idea to Execution Loop\n10:25\nHow an Agent Turned an Idea into $25K\n17:50\nThe AI Sandwich Workflow\n22:03\nMaking AI Tools Accessible to Solo Builders\n28:50\nDouglas on Brand and Design\n34:51\nTips on What to Build First\n43:46\nWhat's Next for All Access\nLinks to resources mentioned in the episode:\nBrandon Gell on X:\nhttps://x.com/bran_don_gell\nYash Poojary on X:\nhttps://x.com/poojary_yash\nAustin Tedesco on X: https://x.com/tedescau?lang=en\nDouglas Brundage on X: https://x.com/DABrundage\nIntroducing Every All Access:\nhttps://every.to/on-every/introducing-every-all-access\nGet the Builder Pack: every.to/builder-pack\nGo to https://attio.com/every and get 15% off your first year.\nWhat is AI & I?\nLearn how the smartest people in the world are using AI to think, create, and relate. Each week I interview founders, filmmakers, writers, investors, and others about how they use AI tools like ChatGPT, Claude, and Midjourney in their work and in their lives. We screen-share through their historical chats and then experiment with AI live on the show. Join us to discover how AI is changing how we think about our world—and ourselves.\nFor more essays, interviews, and experiments at the forefront of AI:\nhttps://every.to/chain-of-thought?sort=newest\n.\nAll audio, artwork, episode descriptions and notes are property of Dan Shipper, for AI & I, and published with permission by Transistor, Inc.\nBroadcast by"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T21:58:25+00:00",
+      "url": "https://x.com/elonmusk/status/2080049853036728541",
+      "digest_excerpt": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080049853036728541",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "Tesla Earnings Call",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T21:53:46+00:00",
+      "url": "https://x.com/elonmusk/status/2080048685522837664",
+      "digest_excerpt": "Tesla Earnings Call",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080048685522837664",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Tesla Earnings Call"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "Tesla shareholder update underway right now!",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T21:52:42+00:00",
+      "url": "https://x.com/elonmusk/status/2080048415443157502",
+      "digest_excerpt": "Tesla shareholder update underway right now!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080048415443157502",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Tesla shareholder update underway right now!"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "future: continual learning of the model + harness hosted on hardware you own and control, with full access to all sensit",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-22T20:24:30+00:00",
+      "url": "https://x.com/AravSrinivas/status/2080026221921071443",
+      "digest_excerpt": "future: continual learning of the model + harness hosted on hardware you own and control, with full access to all sensitive context that never leaves your system",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2080026221921071443",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "future: continual learning of the model + harness hosted on hardware you own and control, with full access to all sensitive context that never leaves your system"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "Q2 was an amazing quarter, with our AI investments redefining what’s possible across every part of our business.\n\nAlphab",
+      "source_name": "Sundar Pichai",
+      "author": "sundarpichai",
+      "published": "2026-07-22T20:05:23+00:00",
+      "url": "https://x.com/sundarpichai/status/2080021408856293584",
+      "digest_excerpt": "Q2 was an amazing quarter, with our AI investments redefining what’s possible across every part of our business.\n\nAlphabet revenue grew 24% YoY and Google Cloud accelerated to 82% growth. We saw exciting momentum across the board from Search to YouTube to the Gemini app (which reached 950M monthly active users). Our model APIs are processing 22B tokens/min (up from 16B+ last quarter) driven by our workhorse Flash models. We’re also seeing great adoption of Gemini Enterprise, used by 90% of the Fortune 100, as well as strong demand for our security solutions.\n\nOutstanding results and momentum, and such an exciting moment—thanks to all of our partners and employees around the world! 🙌 About to hop on the call!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sundarpichai/status/2080021408856293584",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Q2 was an amazing quarter, with our AI investments redefining what’s possible across every part of our business.\n\nAlphabet revenue grew 24% YoY and Google Cloud accelerated to 82% growth. We saw exciting momentum across the board from Search to YouTube to the Gemini app (which reached 950M monthly active users). Our model APIs are processing 22B tokens/min (up from 16B+ last quarter) driven by our workhorse Flash models. We’re also seeing great adoption of Gemini Enterprise, used by 90% of the Fortune 100, as well as strong demand for our security solutions.\n\nOutstanding results and momentum, and such an exciting moment—thanks to all of our partners and employees around the world! 🙌 About to hop on the call!"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "You know what would be incredible:\n\nIf I can use ChatGPT Live to find and call customer support numbers, navigate those ",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-22T19:39:17+00:00",
+      "url": "https://x.com/petergyang/status/2080014839519559957",
+      "digest_excerpt": "You know what would be incredible:\n\nIf I can use ChatGPT Live to find and call customer support numbers, navigate those awful automated phone trees, and connect me to a human agent.\n\nIt could also talk to the human agent but maybe that's stepping over the line 😅",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080014839519559957",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "You know what would be incredible:\n\nIf I can use ChatGPT Live to find and call customer support numbers, navigate those awful automated phone trees, and connect me to a human agent.\n\nIt could also talk to the human agent but maybe that's stepping over the line 😅"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "Shopify + Vercel are two sides of the same coin. A congregation: entrepreneur-first, developer-led, web-obsessed. So exc",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-22T19:00:57+00:00",
+      "url": "https://x.com/rauchg/status/2080005193337377146",
+      "digest_excerpt": "Shopify + Vercel are two sides of the same coin. A congregation: entrepreneur-first, developer-led, web-obsessed. So excited to bring our infrastructure for apps and agents to millions of businesses together https://t.co/46AmZCvSuq",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2080005193337377146",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Shopify + Vercel are two sides of the same coin. A congregation: entrepreneur-first, developer-led, web-obsessed. So excited to bring our infrastructure for apps and agents to millions of businesses together https://t.co/46AmZCvSuq"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "Join the rush of people using Flow for creative work, you can now get 50 free credits every day until Aug 31!",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-07-22T18:29:32+00:00",
+      "url": "https://x.com/joshwoodward/status/2079997285778493777",
+      "digest_excerpt": "Join the rush of people using Flow for creative work, you can now get 50 free credits every day until Aug 31!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2079997285778493777",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Join the rush of people using Flow for creative work, you can now get 50 free credits every day until Aug 31!"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast.\n\nSo what does Culture for",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-22T18:16:25+00:00",
+      "url": "https://x.com/adityaag/status/2079993986283123147",
+      "digest_excerpt": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast.\n\nSo what does Culture for startups mean? How does it get created? Where does it come from?\n\nStartup culture stems from 3 areas:\n—> The founder’s personality and DNA\n—> The early team’s personality and DNA\n—> The early products personality and DNA\n\nA lot of these overlap and reinforce each other.\n\nSome of it is top down….some of it is emergent.\n\nIt sucks when the emergence is artificially dampened..because perhaps the founder is too weak to instittuionalize.\n\nIt also sucks when there is so much difference of opinion that you end up getting pockets of different culture.\n\nI don’t want to get dragged into DEI nonsense. We can be from different backgrounds but all agree to be part of the same company culture.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2079993986283123147",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast.\n\nSo what does Culture for startups mean? How does it get created? Where does it come from?\n\nStartup culture stems from 3 areas:\n—> The founder’s personality and DNA\n—> The early team’s personality and DNA\n—> The early products personality and DNA\n\nA lot of these overlap and reinforce each other.\n\nSome of it is top down….some of it is emergent.\n\nIt sucks when the emergence is artificially dampened..because perhaps the founder is too weak to instittuionalize.\n\nIt also sucks when there is so much difference of opinion that you end up getting pockets of different culture.\n\nI don’t want to get dragged into DEI nonsense. We can be from different backgrounds but all agree to be part of the same company culture."
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "The Claude Security plugin for Claude Code is now available in beta. \n\nScan your changes for vulnerabilities before you ",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-07-22T18:02:57+00:00",
+      "url": "https://x.com/claudeai/status/2079990597973057691",
+      "digest_excerpt": "The Claude Security plugin for Claude Code is now available in beta. \n\nScan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you already run. https://t.co/tEM7Tz7f1o",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2079990597973057691",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The Claude Security plugin for Claude Code is now available in beta. \n\nScan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you already run. https://t.co/tEM7Tz7f1o"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edi",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-22T18:00:26+00:00",
+      "url": "https://x.com/petergyang/status/2079989966298616039",
+      "digest_excerpt": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edit without pumping out slop.\n\nBasically, I work with AI during the middle 50% of my writing process:\n\n→ First 25%: I voice dictate or write a rough draft without AI.\n\n→ Middle 50%: I use AI and my /no-ai-slop skill to fix grammar, improve clarity, and test my arguments.\n\n→ Last 25%: I go through the piece line by line and edit it manually.\n\nThe difference between pumping out slop and making something you’re proud of is giving a damn and staying in the driver’s seat throughout this 25/50/25 process.\n\n📌 More here: https://t.co/C68RSabtb0",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079989966298616039",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edit without pumping out slop.\n\nBasically, I work with AI during the middle 50% of my writing process:\n\n→ First 25%: I voice dictate or write a rough draft without AI.\n\n→ Middle 50%: I use AI and my /no-ai-slop skill to fix grammar, improve clarity, and test my arguments.\n\n→ Last 25%: I go through the piece line by line and edit it manually.\n\nThe difference between pumping out slop and making something you’re proud of is giving a damn and staying in the driver’s seat throughout this 25/50/25 process.\n\n📌 More here: https://t.co/C68RSabtb0"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Zero stories is a low number …",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T17:38:29+00:00",
+      "url": "https://x.com/elonmusk/status/2079984441179684961",
+      "digest_excerpt": "Zero stories is a low number …",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079984441179684961",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Zero stories is a low number …"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Excited to see our first @Android Gemini Intelligence features rolling out to @SamsungMobile foldable devices. That incl",
+      "source_name": "Sundar Pichai",
+      "author": "sundarpichai",
+      "published": "2026-07-22T17:23:59+00:00",
+      "url": "https://x.com/sundarpichai/status/2079980789450555753",
+      "digest_excerpt": "Excited to see our first @Android Gemini Intelligence features rolling out to @SamsungMobile foldable devices. That includes task automation now expanding to 40+ popular apps to help handle everything from shopping and making dinner reservations to booking travel and buying concert tickets.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sundarpichai/status/2079980789450555753",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Excited to see our first @Android Gemini Intelligence features rolling out to @SamsungMobile foldable devices. That includes task automation now expanding to 40+ popular apps to help handle everything from shopping and making dinner reservations to booking travel and buying concert tickets."
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the econom",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-07-22T17:20:05+00:00",
+      "url": "https://x.com/claudeai/status/2079979809606664564",
+      "digest_excerpt": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy.\n\nAsk which occupations use AI the most, or what kinds of tasks people are automating, and the answers draw directly from the Index data. https://t.co/21DKJTJmrz",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2079979809606664564",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy.\n\nAsk which occupations use AI the most, or what kinds of tasks people are automating, and the answers draw directly from the Index data. https://t.co/21DKJTJmrz"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "We invented mobile coding — now we’re taking it to the next level.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-22T17:13:49+00:00",
+      "url": "https://x.com/amasad/status/2079978232024301848",
+      "digest_excerpt": "We invented mobile coding — now we’re taking it to the next level.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2079978232024301848",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We invented mobile coding — now we’re taking it to the next level."
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "a new golden age of discovery dawns!",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-22T17:08:49+00:00",
+      "url": "https://x.com/danshipper/status/2079976974756294987",
+      "digest_excerpt": "a new golden age of discovery dawns!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079976974756294987",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "a new golden age of discovery dawns!"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "My first time in 🇨🇦, land of maple syrup, hockey, and S-tier commerce infrastructure.\n\nOn this stage @tobi and I will be",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-22T16:51:32+00:00",
+      "url": "https://x.com/rauchg/status/2079972624524849601",
+      "digest_excerpt": "My first time in 🇨🇦, land of maple syrup, hockey, and S-tier commerce infrastructure.\n\nOn this stage @tobi and I will be discussing the future of the web, agents, CEO tech stacks, and more. https://t.co/QUHQPB0vr8",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2079972624524849601",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My first time in 🇨🇦, land of maple syrup, hockey, and S-tier commerce infrastructure.\n\nOn this stage @tobi and I will be discussing the future of the web, agents, CEO tech stacks, and more. https://t.co/QUHQPB0vr8"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "Last week we had the biggest one-day MRR gain in Every's history. It came from launching All Access—a 625-dollar-a-year ",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-22T15:41:13+00:00",
+      "url": "https://x.com/danshipper/status/2079954927451799950",
+      "digest_excerpt": "Last week we had the biggest one-day MRR gain in Every's history. It came from launching All Access—a 625-dollar-a-year membership that added about 9,000 dollars in MRR for @every in two days.\n\nOn this week's AI&I, I handed the mic to our COO Brandon Gell, who sat down with three of @every's own builders—growth engineer Yash Poojary, head of growth Austin Tedesco, and head of marketing Douglas Brundage—to talk about the tools they use most, how they build with them, and their tips for new builders on getting started.\n\nThey also got into:\n- How Austin runs two agents at once. While steering Codex on one task, Austin—who calls himself \"actually really bad\" at video editing—has Claude running in a separate loop with Descript's MCP, building storyboards, writing scripts, and assembling cuts. By the time he sits down to review, it's gotten him 70% of the way to a finished video.\n- Why Yash treats new AI models like flavors he’s testing. He uses Cursor's cloud agents to run multiple models side by side and figure out which one he prefers, rather than switching to whatever's newest. \"I'm so picky about my models that even if a new model drops, I don't change to that,\" he says, unless testing proves it's better.\n- Why Brandon thinks the real barrier to building isn't always skill, it's cost. He tells the story of a friend's younger brother, a trained engineer who can't land a job and can't afford to experiment with AI tools that cost other engineers $30K a month. That gap is the whole reason the Builder Pack exists.\n- Why the team feels safe automating their own jobs. Yash says everyone at Every is secure enough in their skills that automating the repetitive parts of their work doesn't feel threatening, it just clears space for the parts they're good at and enjoy doing.\n\nIf you want to get started with building, or simply get more ideas on how to work with AI, this episode is for you.\n\nWatch on X or YouTube, or listen on Spotify or Apple Podcasts.\n\nTimestamps:\n0:00 Intro\n0:35 All Access Explained\n3:01 Yash's Tech Stack and How He's Automating Testing Pipelines\n8:02 The Idea to Execution Loop\n10:25 How an Agent Turned an Idea into $25K\n17:50 The AI Sandwich Workflow\n22:03 Making AI Tools Accessible to Solo Builders\n28:50 Douglas on Brand and Design\n34:51 Tips on What to Build First\n43:46 What's Next for All Access",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079954927451799950",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Last week we had the biggest one-day MRR gain in Every's history. It came from launching All Access—a 625-dollar-a-year membership that added about 9,000 dollars in MRR for @every in two days.\n\nOn this week's AI&I, I handed the mic to our COO Brandon Gell, who sat down with three of @every's own builders—growth engineer Yash Poojary, head of growth Austin Tedesco, and head of marketing Douglas Brundage—to talk about the tools they use most, how they build with them, and their tips for new builders on getting started.\n\nThey also got into:\n- How Austin runs two agents at once. While steering Codex on one task, Austin—who calls himself \"actually really bad\" at video editing—has Claude running in a separate loop with Descript's MCP, building storyboards, writing scripts, and assembling cuts. By the time he sits down to review, it's gotten him 70% of the way to a finished video.\n- Why Yash treats new AI models like flavors he’s testing. He uses Cursor's cloud agents to run multiple models side by side and figure out which one he prefers, rather than switching to whatever's newest. \"I'm so picky about my models that even if a new model drops, I don't change to that,\" he says, unless testing proves it's better.\n- Why Brandon thinks the real barrier to building isn't always skill, it's cost. He tells the story of a friend's younger brother, a trained engineer who can't land a job and can't afford to experiment with AI tools that cost other engineers $30K a month. That gap is the whole reason the Builder Pack exists.\n- Why the team feels safe automating their own jobs. Yash says everyone at Every is secure enough in their skills that automating the repetitive parts of their work doesn't feel threatening, it just clears space for the parts they're good at and enjoy doing.\n\nIf you want to get started with building, or simply get more ideas on how to work with AI, this episode is for you.\n\nWatch on X or YouTube, or listen on Spotify or Apple Podcasts.\n\nTimestamps:\n0:00 Intro\n0:35 All Access Explained\n3:01 Yash's Tech Stack and How He's Automating Testing Pipelines\n8:02 The Idea to Execution Loop\n10:25 How an Agent Turned an Idea into $25K\n17:50 The AI Sandwich Workflow\n22:03 Making AI Tools Accessible to Solo Builders\n28:50 Douglas on Brand and Design\n34:51 Tips on What to Build First\n43:46 What's Next for All Access"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any pie",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-22T14:57:07+00:00",
+      "url": "https://x.com/petergyang/status/2079943830024188105",
+      "digest_excerpt": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece of writing.\n\n📌 Get the free skill here: https://t.co/YshUga82ks\n\nIf you find it useful, please consider starring the repo so more people can find it.\n\nWhy I built the skill:\n\nI use AI to edit my writing because it helps me fix spelling, grammar, and clarity.\n\nBut even the best models keep producing the same slop that this skill removes:\n\n→ Binary contrasts: “It’s not X. It’s Y.”\n→ Throat-clearing openers: “Here’s what nobody tells you.”\n→ Fake-profound endings: “The future isn’t coming. It’s already here.”\n\nUse this skill responsibly.\n\nI always write a first draft manually before iterating with AI on edits and I make sure to do another manual pass at the end as well.\n\nThat’s in contrast to using AI to automate pumping out slop end-to-end.\n\n📌 Read my full post for more on how I try to use AI responsibly to edit without giving into the dark side: https://t.co/C68RSabtb0",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2079943830024188105",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece of writing.\n\n📌 Get the free skill here: https://t.co/YshUga82ks\n\nIf you find it useful, please consider starring the repo so more people can find it.\n\nWhy I built the skill:\n\nI use AI to edit my writing because it helps me fix spelling, grammar, and clarity.\n\nBut even the best models keep producing the same slop that this skill removes:\n\n→ Binary contrasts: “It’s not X. It’s Y.”\n→ Throat-clearing openers: “Here’s what nobody tells you.”\n→ Fake-profound endings: “The future isn’t coming. It’s already here.”\n\nUse this skill responsibly.\n\nI always write a first draft manually before iterating with AI on edits and I make sure to do another manual pass at the end as well.\n\nThat’s in contrast to using AI to automate pumping out slop end-to-end.\n\n📌 Read my full post for more on how I try to use AI responsibly to edit without giving into the dark side: https://t.co/C68RSabtb0"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "Vercel AI Gateway is the fastest way to get tokens, cold or hot, across the board.\n\nDMs open if you need help migrating ",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-22T13:48:21+00:00",
+      "url": "https://x.com/rauchg/status/2079926527328670009",
+      "digest_excerpt": "Vercel AI Gateway is the fastest way to get tokens, cold or hot, across the board.\n\nDMs open if you need help migrating or benchmarking your current solutions.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2079926527328670009",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Vercel AI Gateway is the fastest way to get tokens, cold or hot, across the board.\n\nDMs open if you need help migrating or benchmarking your current solutions."
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scien",
+      "source_name": "Google DeepMind",
+      "author": "GoogleDeepMind",
+      "published": "2026-07-22T13:44:35+00:00",
+      "url": "https://x.com/GoogleDeepMind/status/2079925576077324552",
+      "digest_excerpt": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scientific discovery within a decade. 🧪\n\nBy committing $40M in AI tokens and @GoogleCloud credits, more lab researchers will gain access to Gemini and other AI models. → https://t.co/FBA5iCtTED",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleDeepMind/status/2079925576077324552",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scientific discovery within a decade. 🧪\n\nBy committing $40M in AI tokens and @GoogleCloud credits, more lab researchers will gain access to Gemini and other AI models. → https://t.co/FBA5iCtTED"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "SF is the ultimate 'exchange program' of the world. \n\nBy now, it's irresponsible not to send your execs and top engineer",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-22T13:41:12+00:00",
+      "url": "https://x.com/rauchg/status/2079924725698941372",
+      "digest_excerpt": "SF is the ultimate 'exchange program' of the world. \n\nBy now, it's irresponsible not to send your execs and top engineers to spend several weeks a year \"studying abroad\" in SF.\n\nThe data:\n1️⃣ SF in Q1 2026 got 80%+ of venture dollars https://t.co/PgfkjSfi2b",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2079924725698941372",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "SF is the ultimate 'exchange program' of the world. \n\nBy now, it's irresponsible not to send your execs and top engineers to spend several weeks a year \"studying abroad\" in SF.\n\nThe data:\n1️⃣ SF in Q1 2026 got 80%+ of venture dollars https://t.co/PgfkjSfi2b"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "Important read 🇺🇸 \n\nYou can't lead over the longer term without leading in science.",
+      "source_name": "Kevin Weil",
+      "author": "kevinweil",
+      "published": "2026-07-22T13:32:09+00:00",
+      "url": "https://x.com/kevinweil/status/2079922448259223875",
+      "digest_excerpt": "Important read 🇺🇸 \n\nYou can't lead over the longer term without leading in science.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/kevinweil/status/2079922448259223875",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Important read 🇺🇸 \n\nYou can't lead over the longer term without leading in science."
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal w",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-22T13:08:16+00:00",
+      "url": "https://x.com/OpenAI/status/2079916436232036614",
+      "digest_excerpt": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal workflows.\n\nAI agents can answer questions, use company systems, take approved actions, and escalate to people when needed—while improving over time.\n\nOpenAI Presence is available to eligible enterprise customers through a limited general availability program.\n\nhttps://t.co/aooz6Vzljd",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2079916436232036614",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal workflows.\n\nAI agents can answer questions, use company systems, take approved actions, and escalate to people when needed—while improving over time.\n\nOpenAI Presence is available to eligible enterprise customers through a limited general availability program.\n\nhttps://t.co/aooz6Vzljd"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "Their next step is to agree that there are large numbers of illegals voting (or usually getting harvested by Dem operati",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T12:18:04+00:00",
+      "url": "https://x.com/elonmusk/status/2079903803227455928",
+      "digest_excerpt": "Their next step is to agree that there are large numbers of illegals voting (or usually getting harvested by Dem operatives who pick up their ballots and fill them out) and that it is a good thing and anyone who opposes it is racist",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079903803227455928",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Their next step is to agree that there are large numbers of illegals voting (or usually getting harvested by Dem operatives who pick up their ballots and fill them out) and that it is a good thing and anyone who opposes it is racist"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "Yes",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T12:12:50+00:00",
+      "url": "https://x.com/elonmusk/status/2079902487511978269",
+      "digest_excerpt": "Yes",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079902487511978269",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Yes"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "Exactly",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T12:11:04+00:00",
+      "url": "https://x.com/elonmusk/status/2079902044882968832",
+      "digest_excerpt": "Exactly",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079902044882968832",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Exactly"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "Try Workflows on Grok Build\n\nhttps://t.co/lOJK57xbED",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-22T08:13:51+00:00",
+      "url": "https://x.com/elonmusk/status/2079842345668022641",
+      "digest_excerpt": "Try Workflows on Grok Build\n\nhttps://t.co/lOJK57xbED",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2079842345668022641",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try Workflows on Grok Build\n\nhttps://t.co/lOJK57xbED"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "The numbers are in: 1.7B+ global viewers tuned in to @YouTube to watch World Cup-related videos during the tournament. ⚽",
+      "source_name": "Sundar Pichai",
+      "author": "sundarpichai",
+      "published": "2026-07-22T04:14:39+00:00",
+      "url": "https://x.com/sundarpichai/status/2079782148605641102",
+      "digest_excerpt": "The numbers are in: 1.7B+ global viewers tuned in to @YouTube to watch World Cup-related videos during the tournament. ⚽️ It was our most viewed World Cup ever on YouTube, bringing lifetime views of related content to over 200B!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sundarpichai/status/2079782148605641102",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The numbers are in: 1.7B+ global viewers tuned in to @YouTube to watch World Cup-related videos during the tournament. ⚽️ It was our most viewed World Cup ever on YouTube, bringing lifetime views of related content to over 200B!"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independen",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-22T03:47:33+00:00",
+      "url": "https://x.com/swyx/status/2079775327539339329",
+      "digest_excerpt": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane.\n\nit is very important that you listen.\n\n(and then try to learn about the management plane as early as you can..)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079775327539339329",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane.\n\nit is very important that you listen.\n\n(and then try to learn about the management plane as early as you can..)"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "Already the second most used orchestrator model on Perplexity Computer now, only behind Opus 4.8.\n\nOnce we secure more c",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-22T03:36:44+00:00",
+      "url": "https://x.com/AravSrinivas/status/2079772605406642685",
+      "digest_excerpt": "Already the second most used orchestrator model on Perplexity Computer now, only behind Opus 4.8.\n\nOnce we secure more compute, we intend to increase usage limits through credits; as well as roll out updated versions of the post-training.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2079772605406642685",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Already the second most used orchestrator model on Perplexity Computer now, only behind Opus 4.8.\n\nOnce we secure more compute, we intend to increase usage limits through credits; as well as roll out updated versions of the post-training."
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "First time in Boston. Very European city vibes. Great sea food.",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-22T02:34:52+00:00",
+      "url": "https://x.com/steipete/status/2079757039601905930",
+      "digest_excerpt": "First time in Boston. Very European city vibes. Great sea food.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2079757039601905930",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "First time in Boston. Very European city vibes. Great sea food."
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "love how they just roll with the name. was a good chat!",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-22T02:29:35+00:00",
+      "url": "https://x.com/steipete/status/2079755707256103176",
+      "digest_excerpt": "love how they just roll with the name. was a good chat!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2079755707256103176",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "love how they just roll with the name. was a good chat!"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "extremely cool and obviously the future",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-22T01:56:57+00:00",
+      "url": "https://x.com/danshipper/status/2079747495886753928",
+      "digest_excerpt": "extremely cool and obviously the future",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079747495886753928",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "extremely cool and obviously the future"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "American open source frontier",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-22T01:54:12+00:00",
+      "url": "https://x.com/AravSrinivas/status/2079746803369759171",
+      "digest_excerpt": "American open source frontier",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2079746803369759171",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "American open source frontier"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial\n\nhttps://t.co/VV9xCwserD",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-22T01:51:33+00:00",
+      "url": "https://x.com/danshipper/status/2079746134973513995",
+      "digest_excerpt": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial\n\nhttps://t.co/VV9xCwserD",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079746134973513995",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial\n\nhttps://t.co/VV9xCwserD"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "evergreen tweet https://t.co/cNlT3yItjF",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-22T01:49:44+00:00",
+      "url": "https://x.com/danshipper/status/2079745679128244603",
+      "digest_excerpt": "evergreen tweet https://t.co/cNlT3yItjF",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079745679128244603",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "evergreen tweet https://t.co/cNlT3yItjF"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-22T01:26:11+00:00",
+      "url": "https://x.com/amasad/status/2079739754409873761",
+      "digest_excerpt": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2079739754409873761",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Replit’s internal dev stack is so seamless it pulled me back into coding."
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "ChatGPT Work =&gt; ChatGPT HelpMeWithEverything?\n\nhttps://t.co/zUQfWra6in",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-22T00:52:29+00:00",
+      "url": "https://x.com/thsottiaux/status/2079731272797372425",
+      "digest_excerpt": "ChatGPT Work =&gt; ChatGPT HelpMeWithEverything?\n\nhttps://t.co/zUQfWra6in",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2079731272797372425",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Work =&gt; ChatGPT HelpMeWithEverything?\n\nhttps://t.co/zUQfWra6in"
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way t",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-22T00:27:35+00:00",
+      "url": "https://x.com/levie/status/2079725006112895336",
+      "digest_excerpt": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilities along the way, and then breaking into external systems - all in an attempt to complete their goal.\n\nIronically, the ultimate way we’re going to defend against these new risks is equally by throwing compute (in the form of AI) at our code bases, networks, and other systems. You’re going to want vastly more AI on the side of defense as you do on the side of offense. \n\nWe’re entering a new era of what’s going to be possible with AI. Wild times ahead.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2079725006112895336",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilities along the way, and then breaking into external systems - all in an attempt to complete their goal.\n\nIronically, the ultimate way we’re going to defend against these new risks is equally by throwing compute (in the form of AI) at our code bases, networks, and other systems. You’re going to want vastly more AI on the side of defense as you do on the side of offense. \n\nWe’re entering a new era of what’s going to be possible with AI. Wild times ahead."
+    },
+    {
+      "id": "S052",
+      "kind": "x",
+      "title": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. \n\nI’ve be",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-21T23:59:08+00:00",
+      "url": "https://x.com/swyx/status/2079717845618000204",
+      "digest_excerpt": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. \n\nI’ve been on record that Work + GPT 5.6 is the most company defining launch since og chatgpt itself. this thing (with @arix’s computer use) is gonna reach >1B users worldwide.\n\nthursday on @latentspacepod",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2079717845618000204",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. \n\nI’ve been on record that Work + GPT 5.6 is the most company defining launch since og chatgpt itself. this thing (with @arix’s computer use) is gonna reach >1B users worldwide.\n\nthursday on @latentspacepod"
+    },
+    {
+      "id": "S053",
+      "kind": "x",
+      "title": "i think this is very cool",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-21T23:38:57+00:00",
+      "url": "https://x.com/danshipper/status/2079712765799764461",
+      "digest_excerpt": "i think this is very cool",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2079712765799764461",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "i think this is very cool"
+    }
+  ]
+}

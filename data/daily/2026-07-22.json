@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T23:17:35.205387+00:00",
+  "source_segments": [
+    "segments/2026-07-22/06.json"
+  ],
+  "counts": {
+    "x": 42,
+    "blogs": 6,
+    "podcasts": 1,
+    "videos": 4
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED",
+        "summary": "Try out Grok Build!\n\nhttps://t.co/lOJK57xbED",
+        "link": "https://x.com/elonmusk/status/2080049853036728541",
+        "author": "elonmusk",
+        "published": "2026-07-22T21:58:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Tesla Earnings Call",
+        "summary": "Tesla Earnings Call",
+        "link": "https://x.com/elonmusk/status/2080048685522837664",
+        "author": "elonmusk",
+        "published": "2026-07-22T21:53:46+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Tesla shareholder update underway right now!",
+        "summary": "Tesla shareholder update underway right now!",
+        "link": "https://x.com/elonmusk/status/2080048415443157502",
+        "author": "elonmusk",
+        "published": "2026-07-22T21:52:42+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "future: continual learning of the model + harness hosted on hardware you own and control, with full access to all sensit",
+        "summary": "future: continual learning of the model + harness hosted on hardware you own and control, with full access to all sensitive context that never leaves your system",
+        "link": "https://x.com/AravSrinivas/status/2080026221921071443",
+        "author": "AravSrinivas",
+        "published": "2026-07-22T20:24:30+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Q2 was an amazing quarter, with our AI investments redefining what’s possible across every part of our business.\n\nAlphab",
+        "summary": "Q2 was an amazing quarter, with our AI investments redefining what’s possible across every part of our business.\n\nAlphabet revenue grew 24% YoY and Google Cloud accelerated to 82% growth. We saw exciting momentum across the board from Search to YouTube to the Gemini app (which reached 950M monthly active users). Our model APIs are processing 22B tokens/min (up from 16B+ last quarter) driven by our workhorse Flash models. We’re also seeing great adoption of Gemini Enterprise, used by 90% of the Fortune 100, as well as strong demand for our security solutions.\n\nOutstanding results and momentum, and such an exciting moment—thanks to all of our partners and employees around the world! 🙌 About to hop on the call!",
+        "link": "https://x.com/sundarpichai/status/2080021408856293584",
+        "author": "sundarpichai",
+        "published": "2026-07-22T20:05:23+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "You know what would be incredible:\n\nIf I can use ChatGPT Live to find and call customer support numbers, navigate those ",
+        "summary": "You know what would be incredible:\n\nIf I can use ChatGPT Live to find and call customer support numbers, navigate those awful automated phone trees, and connect me to a human agent.\n\nIt could also talk to the human agent but maybe that's stepping over the line 😅",
+        "link": "https://x.com/petergyang/status/2080014839519559957",
+        "author": "petergyang",
+        "published": "2026-07-22T19:39:17+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Shopify + Vercel are two sides of the same coin. A congregation: entrepreneur-first, developer-led, web-obsessed. So exc",
+        "summary": "Shopify + Vercel are two sides of the same coin. A congregation: entrepreneur-first, developer-led, web-obsessed. So excited to bring our infrastructure for apps and agents to millions of businesses together https://t.co/46AmZCvSuq",
+        "link": "https://x.com/rauchg/status/2080005193337377146",
+        "author": "rauchg",
+        "published": "2026-07-22T19:00:57+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Join the rush of people using Flow for creative work, you can now get 50 free credits every day until Aug 31!",
+        "summary": "Join the rush of people using Flow for creative work, you can now get 50 free credits every day until Aug 31!",
+        "link": "https://x.com/joshwoodward/status/2079997285778493777",
+        "author": "joshwoodward",
+        "published": "2026-07-22T18:29:32+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast.\n\nSo what does Culture for",
+        "summary": "So much of conversation is on company Strategy…but Culture always eats strategy for breakfast.\n\nSo what does Culture for startups mean? How does it get created? Where does it come from?\n\nStartup culture stems from 3 areas:\n—> The founder’s personality and DNA\n—> The early team’s personality and DNA\n—> The early products personality and DNA\n\nA lot of these overlap and reinforce each other.\n\nSome of it is top down….some of it is emergent.\n\nIt sucks when the emergence is artificially dampened..because perhaps the founder is too weak to instittuionalize.\n\nIt also sucks when there is so much difference of opinion that you end up getting pockets of different culture.\n\nI don’t want to get dragged into DEI nonsense. We can be from different backgrounds but all agree to be part of the same company culture.",
+        "link": "https://x.com/adityaag/status/2079993986283123147",
+        "author": "adityaag",
+        "published": "2026-07-22T18:16:25+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "The Claude Security plugin for Claude Code is now available in beta. \n\nScan your changes for vulnerabilities before you ",
+        "summary": "The Claude Security plugin for Claude Code is now available in beta. \n\nScan your changes for vulnerabilities before you commit, or run a full scan across your codebase, all from your terminal on the Claude inference you already run. https://t.co/tEM7Tz7f1o",
+        "link": "https://x.com/claudeai/status/2079990597973057691",
+        "author": "claudeai",
+        "published": "2026-07-22T18:02:57+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edi",
+        "summary": "Substack just shipped AI slop detection to protect readers and featured my writing as an example of how to use AI to edit without pumping out slop.\n\nBasically, I work with AI during the middle 50% of my writing process:\n\n→ First 25%: I voice dictate or write a rough draft without AI.\n\n→ Middle 50%: I use AI and my /no-ai-slop skill to fix grammar, improve clarity, and test my arguments.\n\n→ Last 25%: I go through the piece line by line and edit it manually.\n\nThe difference between pumping out slop and making something you’re proud of is giving a damn and staying in the driver’s seat throughout this 25/50/25 process.\n\n📌 More here: https://t.co/C68RSabtb0",
+        "link": "https://x.com/petergyang/status/2079989966298616039",
+        "author": "petergyang",
+        "published": "2026-07-22T18:00:26+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Zero stories is a low number …",
+        "summary": "Zero stories is a low number …",
+        "link": "https://x.com/elonmusk/status/2079984441179684961",
+        "author": "elonmusk",
+        "published": "2026-07-22T17:38:29+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Excited to see our first @Android Gemini Intelligence features rolling out to @SamsungMobile foldable devices. That incl",
+        "summary": "Excited to see our first @Android Gemini Intelligence features rolling out to @SamsungMobile foldable devices. That includes task automation now expanding to 40+ popular apps to help handle everything from shopping and making dinner reservations to booking travel and buying concert tickets.",
+        "link": "https://x.com/sundarpichai/status/2079980789450555753",
+        "author": "sundarpichai",
+        "published": "2026-07-22T17:23:59+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the econom",
+        "summary": "You can now ask Claude about the Anthropic Economic Index, our public dataset measuring how AI is used across the economy.\n\nAsk which occupations use AI the most, or what kinds of tasks people are automating, and the answers draw directly from the Index data. https://t.co/21DKJTJmrz",
+        "link": "https://x.com/claudeai/status/2079979809606664564",
+        "author": "claudeai",
+        "published": "2026-07-22T17:20:05+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "We invented mobile coding — now we’re taking it to the next level.",
+        "summary": "We invented mobile coding — now we’re taking it to the next level.",
+        "link": "https://x.com/amasad/status/2079978232024301848",
+        "author": "amasad",
+        "published": "2026-07-22T17:13:49+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "a new golden age of discovery dawns!",
+        "summary": "a new golden age of discovery dawns!",
+        "link": "https://x.com/danshipper/status/2079976974756294987",
+        "author": "danshipper",
+        "published": "2026-07-22T17:08:49+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "My first time in 🇨🇦, land of maple syrup, hockey, and S-tier commerce infrastructure.\n\nOn this stage @tobi and I will be",
+        "summary": "My first time in 🇨🇦, land of maple syrup, hockey, and S-tier commerce infrastructure.\n\nOn this stage @tobi and I will be discussing the future of the web, agents, CEO tech stacks, and more. https://t.co/QUHQPB0vr8",
+        "link": "https://x.com/rauchg/status/2079972624524849601",
+        "author": "rauchg",
+        "published": "2026-07-22T16:51:32+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Last week we had the biggest one-day MRR gain in Every's history. It came from launching All Access—a 625-dollar-a-year ",
+        "summary": "Last week we had the biggest one-day MRR gain in Every's history. It came from launching All Access—a 625-dollar-a-year membership that added about 9,000 dollars in MRR for @every in two days.\n\nOn this week's AI&I, I handed the mic to our COO Brandon Gell, who sat down with three of @every's own builders—growth engineer Yash Poojary, head of growth Austin Tedesco, and head of marketing Douglas Brundage—to talk about the tools they use most, how they build with them, and their tips for new builders on getting started.\n\nThey also got into:\n- How Austin runs two agents at once. While steering Codex on one task, Austin—who calls himself \"actually really bad\" at video editing—has Claude running in a separate loop with Descript's MCP, building storyboards, writing scripts, and assembling cuts. By the time he sits down to review, it's gotten him 70% of the way to a finished video.\n- Why Yash treats new AI models like flavors he’s testing. He uses Cursor's cloud agents to run multiple models side by side and figure out which one he prefers, rather than switching to whatever's newest. \"I'm so picky about my models that even if a new model drops, I don't change to that,\" he says, unless testing proves it's better.\n- Why Brandon thinks the real barrier to building isn't always skill, it's cost. He tells the story of a friend's younger brother, a trained engineer who can't land a job and can't afford to experiment with AI tools that cost other engineers $30K a month. That gap is the whole reason the Builder Pack exists.\n- Why the team feels safe automating their own jobs. Yash says everyone at Every is secure enough in their skills that automating the repetitive parts of their work doesn't feel threatening, it just clears space for the parts they're good at and enjoy doing.\n\nIf you want to get started with building, or simply get more ideas on how to work with AI, this episode is for you.\n\nWatch on X or YouTube, or listen on Spotify or Apple Podcasts.\n\nTimestamps:\n0:00 Intro\n0:35 All Access Explained\n3:01 Yash's Tech Stack and How He's Automating Testing Pipelines\n8:02 The Idea to Execution Loop\n10:25 How an Agent Turned an Idea into $25K\n17:50 The AI Sandwich Workflow\n22:03 Making AI Tools Accessible to Solo Builders\n28:50 Douglas on Brand and Design\n34:51 Tips on What to Build First\n43:46 What's Next for All Access",
+        "link": "https://x.com/danshipper/status/2079954927451799950",
+        "author": "danshipper",
+        "published": "2026-07-22T15:41:13+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any pie",
+        "summary": "I’m sick of reading AI slop, so today I’m open-sourcing my /no-ai-slop skill that removes 20+ slop patterns from any piece of writing.\n\n📌 Get the free skill here: https://t.co/YshUga82ks\n\nIf you find it useful, please consider starring the repo so more people can find it.\n\nWhy I built the skill:\n\nI use AI to edit my writing because it helps me fix spelling, grammar, and clarity.\n\nBut even the best models keep producing the same slop that this skill removes:\n\n→ Binary contrasts: “It’s not X. It’s Y.”\n→ Throat-clearing openers: “Here’s what nobody tells you.”\n→ Fake-profound endings: “The future isn’t coming. It’s already here.”\n\nUse this skill responsibly.\n\nI always write a first draft manually before iterating with AI on edits and I make sure to do another manual pass at the end as well.\n\nThat’s in contrast to using AI to automate pumping out slop end-to-end.\n\n📌 Read my full post for more on how I try to use AI responsibly to edit without giving into the dark side: https://t.co/C68RSabtb0",
+        "link": "https://x.com/petergyang/status/2079943830024188105",
+        "author": "petergyang",
+        "published": "2026-07-22T14:57:07+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel AI Gateway is the fastest way to get tokens, cold or hot, across the board.\n\nDMs open if you need help migrating ",
+        "summary": "Vercel AI Gateway is the fastest way to get tokens, cold or hot, across the board.\n\nDMs open if you need help migrating or benchmarking your current solutions.",
+        "link": "https://x.com/rauchg/status/2079926527328670009",
+        "author": "rauchg",
+        "published": "2026-07-22T13:48:21+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scien",
+        "summary": "We’re expanding our work with the US Dept. of @ENERGY on the Genesis Mission – an initiative to double the pace of scientific discovery within a decade. 🧪\n\nBy committing $40M in AI tokens and @GoogleCloud credits, more lab researchers will gain access to Gemini and other AI models. → https://t.co/FBA5iCtTED",
+        "link": "https://x.com/GoogleDeepMind/status/2079925576077324552",
+        "author": "GoogleDeepMind",
+        "published": "2026-07-22T13:44:35+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "SF is the ultimate 'exchange program' of the world. \n\nBy now, it's irresponsible not to send your execs and top engineer",
+        "summary": "SF is the ultimate 'exchange program' of the world. \n\nBy now, it's irresponsible not to send your execs and top engineers to spend several weeks a year \"studying abroad\" in SF.\n\nThe data:\n1️⃣ SF in Q1 2026 got 80%+ of venture dollars https://t.co/PgfkjSfi2b",
+        "link": "https://x.com/rauchg/status/2079924725698941372",
+        "author": "rauchg",
+        "published": "2026-07-22T13:41:12+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Important read 🇺🇸 \n\nYou can't lead over the longer term without leading in science.",
+        "summary": "Important read 🇺🇸 \n\nYou can't lead over the longer term without leading in science.",
+        "link": "https://x.com/kevinweil/status/2079922448259223875",
+        "author": "kevinweil",
+        "published": "2026-07-22T13:32:09+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal w",
+        "summary": "New for enterprises: OpenAI Presence helps companies deploy trusted voice and chat agents across customer and internal workflows.\n\nAI agents can answer questions, use company systems, take approved actions, and escalate to people when needed—while improving over time.\n\nOpenAI Presence is available to eligible enterprise customers through a limited general availability program.\n\nhttps://t.co/aooz6Vzljd",
+        "link": "https://x.com/OpenAI/status/2079916436232036614",
+        "author": "OpenAI",
+        "published": "2026-07-22T13:08:16+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "Their next step is to agree that there are large numbers of illegals voting (or usually getting harvested by Dem operati",
+        "summary": "Their next step is to agree that there are large numbers of illegals voting (or usually getting harvested by Dem operatives who pick up their ballots and fill them out) and that it is a good thing and anyone who opposes it is racist",
+        "link": "https://x.com/elonmusk/status/2079903803227455928",
+        "author": "elonmusk",
+        "published": "2026-07-22T12:18:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2079902487511978269",
+        "author": "elonmusk",
+        "published": "2026-07-22T12:12:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly",
+        "summary": "Exactly",
+        "link": "https://x.com/elonmusk/status/2079902044882968832",
+        "author": "elonmusk",
+        "published": "2026-07-22T12:11:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Try Workflows on Grok Build\n\nhttps://t.co/lOJK57xbED",
+        "summary": "Try Workflows on Grok Build\n\nhttps://t.co/lOJK57xbED",
+        "link": "https://x.com/elonmusk/status/2079842345668022641",
+        "author": "elonmusk",
+        "published": "2026-07-22T08:13:51+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The numbers are in: 1.7B+ global viewers tuned in to @YouTube to watch World Cup-related videos during the tournament. ⚽",
+        "summary": "The numbers are in: 1.7B+ global viewers tuned in to @YouTube to watch World Cup-related videos during the tournament. ⚽️ It was our most viewed World Cup ever on YouTube, bringing lifetime views of related content to over 200B!",
+        "link": "https://x.com/sundarpichai/status/2079782148605641102",
+        "author": "sundarpichai",
+        "published": "2026-07-22T04:14:39+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independen",
+        "summary": "at some point in your engineering career, a wizened graybeard is going to lecture you about the importance of independently separable control plane vs data plane.\n\nit is very important that you listen.\n\n(and then try to learn about the management plane as early as you can..)",
+        "link": "https://x.com/swyx/status/2079775327539339329",
+        "author": "swyx",
+        "published": "2026-07-22T03:47:33+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Already the second most used orchestrator model on Perplexity Computer now, only behind Opus 4.8.\n\nOnce we secure more c",
+        "summary": "Already the second most used orchestrator model on Perplexity Computer now, only behind Opus 4.8.\n\nOnce we secure more compute, we intend to increase usage limits through credits; as well as roll out updated versions of the post-training.",
+        "link": "https://x.com/AravSrinivas/status/2079772605406642685",
+        "author": "AravSrinivas",
+        "published": "2026-07-22T03:36:44+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "First time in Boston. Very European city vibes. Great sea food.",
+        "summary": "First time in Boston. Very European city vibes. Great sea food.",
+        "link": "https://x.com/steipete/status/2079757039601905930",
+        "author": "steipete",
+        "published": "2026-07-22T02:34:52+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "love how they just roll with the name. was a good chat!",
+        "summary": "love how they just roll with the name. was a good chat!",
+        "link": "https://x.com/steipete/status/2079755707256103176",
+        "author": "steipete",
+        "published": "2026-07-22T02:29:35+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "extremely cool and obviously the future",
+        "summary": "extremely cool and obviously the future",
+        "link": "https://x.com/danshipper/status/2079747495886753928",
+        "author": "danshipper",
+        "published": "2026-07-22T01:56:57+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "American open source frontier",
+        "summary": "American open source frontier",
+        "link": "https://x.com/AravSrinivas/status/2079746803369759171",
+        "author": "AravSrinivas",
+        "published": "2026-07-22T01:54:12+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial\n\nhttps://t.co/VV9xCwserD",
+        "summary": "omfg you can read terrence tao's chatgpt conversation about the jacobian polynomial\n\nhttps://t.co/VV9xCwserD",
+        "link": "https://x.com/danshipper/status/2079746134973513995",
+        "author": "danshipper",
+        "published": "2026-07-22T01:51:33+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "evergreen tweet https://t.co/cNlT3yItjF",
+        "summary": "evergreen tweet https://t.co/cNlT3yItjF",
+        "link": "https://x.com/danshipper/status/2079745679128244603",
+        "author": "danshipper",
+        "published": "2026-07-22T01:49:44+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+        "summary": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+        "link": "https://x.com/amasad/status/2079739754409873761",
+        "author": "amasad",
+        "published": "2026-07-22T01:26:11+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "ChatGPT Work =&gt; ChatGPT HelpMeWithEverything?\n\nhttps://t.co/zUQfWra6in",
+        "summary": "ChatGPT Work =&gt; ChatGPT HelpMeWithEverything?\n\nhttps://t.co/zUQfWra6in",
+        "link": "https://x.com/thsottiaux/status/2079731272797372425",
+        "author": "thsottiaux",
+        "published": "2026-07-22T00:52:29+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way t",
+        "summary": "If you were wondering how powerful AI is getting, Agents are now capable of escaping out of systems, finding their way to the internet, discovering zero day security vulnerabilities along the way, and then breaking into external systems - all in an attempt to complete their goal.\n\nIronically, the ultimate way we’re going to defend against these new risks is equally by throwing compute (in the form of AI) at our code bases, networks, and other systems. You’re going to want vastly more AI on the side of defense as you do on the side of offense. \n\nWe’re entering a new era of what’s going to be possible with AI. Wild times ahead.",
+        "link": "https://x.com/levie/status/2079725006112895336",
+        "author": "levie",
+        "published": "2026-07-22T00:27:35+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. \n\nI’ve be",
+        "summary": "recorded Codex + ChatGPT Work + 10M user milestone pod with @akshaynathan_ who leads Productivity engineering. \n\nI’ve been on record that Work + GPT 5.6 is the most company defining launch since og chatgpt itself. this thing (with @arix’s computer use) is gonna reach >1B users worldwide.\n\nthursday on @latentspacepod",
+        "link": "https://x.com/swyx/status/2079717845618000204",
+        "author": "swyx",
+        "published": "2026-07-21T23:59:08+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "i think this is very cool",
+        "summary": "i think this is very cool",
+        "link": "https://x.com/danshipper/status/2079712765799764461",
+        "author": "danshipper",
+        "published": "2026-07-21T23:38:57+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+        "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+        "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-22T13:38:54+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      },
+      {
+        "title": "Building AI infrastructure with the Effingham County community",
+        "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+        "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-07-22T13:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "How news organizations are using AI to advance their vital missions",
+        "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+        "link": "https://openai.com/index/how-news-organizations-are-using-ai",
+        "author": "",
+        "keywords": "Company",
+        "published": "2026-07-22T13:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Advancing the next era of national science",
+        "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+        "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-07-22T12:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Introducing OpenAI Presence",
+        "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+        "link": "https://openai.com/index/introducing-openai-presence",
+        "author": "",
+        "keywords": "Product",
+        "published": "2026-07-22T05:30:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "2026-07-22",
+        "summary": "AI 早报 2026 07 22 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Google 发布 Gemini 3.6 Flash 与 Gemini 3.5 Flash Lite ↗ 1 Gemini 3.5 Pro 正与合作伙伴测试并将很快发布， Gemini 4 已启动预训练 ↗ 2 Codex 迎来一千万用户里程碑，付费用户用量已重置 ↗ 3 模型发布 千问团队发布 Qwen Image 3.0图像生成模型 ↗ 4 千问团队更新Qwen3.8 Max Preview，前端表现提升 ↗ 5 Poolside 发布开源模型 Laguna S 2.1，称编程能力可比肩数十倍大模型 ↗ 6 Nanbeige 团队发布 Nanbeige4.2 系列 3B 模型 ↗ 7 MindLab Research 发…",
+        "link": "https://daily.juya.uk/issues/2026-07-22/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-22T02:06:58+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "How Every's Team Used AI to Ship Its Biggest Launch Ever",
+        "summary": "<p>Yash Poojary, a growth engineer at Every, dropped an idea for a campaign in Slack at 7 p.m. Instead of building it himself, Every’s head of growth Austin Tedesco took a screenshot of the Slack thread, dropped it into Codex, typed \"Can you do this?\", and went to the gym.</p><p><br />By the time he got back, Codex had built four audience segments, drafted emails for each one, and pulled a social image that had worked before. It took Austin 10 minutes to make some tweaks and schedule the whole thing to send the next morning. Within a few hours, it generated more than $25,000 in revenue. </p><p><br />That story came out of the launch week for All Access, Every’s new $625-a-year membership built around the Builder Pack. It includes $7,000 in credits and free usage from ten of the AI products Every uses every day, including Claude Max, Codex, Cursor Pro+, PostHog, Notion, Framer, Render, and Flora.</p><p><br />On this episode of AI &amp; I, four of Every's own builders—COO Brandon Gell, head of marketing Douglas Brundage, as well as Yash and Austin—sit down to show how they use AI, breaking down their personal stacks and giving insight into their own strategies and mindset for building.</p><p><br />If you found this episode interesting, please like, subscribe, comment, and share!</p><p><br />To hear more from Dan Shipper:</p><ul><li>Subscribe to Every:<a href=\"https://every.to/subscribe\"> https://every.to/subscribe</a></li><li>Follow him on X:<a href=\"https://twitter.com/danshipper\"> https://twitter.com/danshipper<br /></a><br /></li></ul><p><strong><br />Timestamps for YouTube:</strong></p><p>0:00 Intro </p><p>0:35 All Access Explained </p><p>3:01 Yash's Tech Stack and How He's Automating Testing Pipelines </p><p>8:02 The Idea to Execution Loop </p><p>10:25 How an Agent Turned an Idea into $25K </p><p>17:50 The AI Sandwich Workflow </p><p>22:03 Making AI Tools Accessible to Solo Builders </p><p>28:50 Douglas on Brand and Design</p><p>34:51 Tips on What to Build First </p><p>43:46 What's Next for All Access</p><p><strong><br />Links to resources mentioned in the episode:<br /></strong><br /></p><ul><li>Brandon Gell on X:<a href=\"https://x.com/bran_don_gell\"> https://x.com/bran_don_gell</a></li><li>Yash Poojary on X:<a href=\"https://x.com/poojary_yash\"> https://x.com/poojary_yash</a></li><li>Austin Tedesco on X: https://x.com/tedescau?lang=en</li><li>Douglas Brundage on X: https://x.com/DABrundage</li><li>Introducing Every All Access:<a href=\"https://every.to/on-every/introducing-every-all-access\"> https://every.to/on-every/introducing-every-all-access</a></li><li>Get the Builder Pack: every.to/builder-pack <p></p></li></ul><p>Go to https://attio.com/every and get 15% off your first year.</p>",
+        "link": "https://share.transistor.fm/s/5d6c8e4d",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-07-22T15:07:26+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy",
+        "summary": "Over six months, the SME AI Accelerator brought practical AI training to small and medium-sized businesses across Europe. Delivered by OpenAI Academy with Booking.com, the program combined online learning with events in Dublin, Warsaw, London, Munich, Milan, and Paris. Through mentor-led demonstrations, participants explored how ChatGPT and Codex can save time, strengthen operations, and create more room for growth.\n\nSMEs represent 99% of European businesses. Expanding their access to practical AI skills will be critical to Europe’s innovation, competitiveness, and prosperity.",
+        "link": "https://www.youtube.com/watch?v=4Nv--b12hxQ",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-22T20:43:58+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "How California Small Businesses Are Using ChatGPT | OpenAI Academy",
+        "summary": "OpenAI Academy and California GO-Biz brought hands-on AI training to San Diego’s small business community. At SDSU’s Tula Community Center, participants explored ChatGPT fundamentals and advanced workflows for marketing, customer communications, administrative tasks, and other everyday business needs.\n\nSan Diego was the second stop in a statewide OpenAI Academy series designed to expand access to practical AI skills.",
+        "link": "https://www.youtube.com/watch?v=cFyFF3Ad2aM",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-22T20:37:36+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "GPT-6 Goes Rogue? The HuggingFace Incident, Sans Hype",
+        "summary": "An unreleased internal OpenAI model, very likely to be called GPT-6, was able to autonomously break out of its sandbox AND break into HuggingFace, just to score higher on a benchmark prompt. This video has the details you may have missed, a layperson analogy, whether this is truly novel, and more…\n\nDozens more Exclusive videos on Patreon ($9!): https://www.patreon.com/AIExplained\n\nChapters:\n00:00 - Introduction\n01:17 - HuggingFace Earlier Report - the possible week gap\n02:24 - But what happened?\n05:45 - Simplified Version\n07:56 - Not the first time…\n10:54 - What Does it Mean for Open Source?\n\nThe Incident: https://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\n\n\nThe Post the Day Before: https://openai.com/index/safety-alignment-long-horizon-models/\n\n\nMythos’ Earlier Escape: https://futurism.com/artificial-intelligence/anthropic-claude-mythos-escaped-sandbox\n\nExploitGym: https://arxiv.org/pdf/2605.11086\n\nSam Confession: https://x.com/sama/status/2079661132302995790\n\nAnthropic Researcher Reacts: https://x.com/Mononofu/status/2079724399452926055\n\nClem (HuggingFace CEO): https://x.com/ClementDelangue/status/2079670308156645882\nhttps://x.com/ClementDelangue/status/2079301434357456931\n\nXi Jinping: https://archive.fo/20260717195548/https://www.businessinsider.com/xi-jinping-open-source-ai-us-competition-openai-anthropic-models-2026-7\nBans: https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\nQwen Retweet: https://x.com/AlibabaGroup/with_replies\n\nCodex Growth: https://x.com/petergostev/status/2079614914398740764/photo/1 \n\nKimi K3: https://artificialanalysis.ai/evaluations/harvey-lab-aa?eval-score=all-pass-rate\n\nGPT 5.6 Sol Cheats on METR: https://metr.substack.com/p/2026-06-26-gpt-5-6-sol\n\nGuardian Headline: https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident\n\nRussian Origin?: https://news.ycombinator.com/item?id=48998362\n\nPower Trends: https://pbs.twimg.com/media/HNRtrjhagAAvBN_?format=png&amp;name=900x900\n\n\n\nKimi K3 Exclusive Video: https://www.patreon.com/AIExplained/posts/kimi-moment-kimi-164108791\n\n\n\nPodcast: https://aiexplainedopodcast.buzzsprout.com/",
+        "link": "https://www.youtube.com/watch?v=wzY2fV4Mp3U",
+        "author": "AI Explained",
+        "keywords": "",
+        "published": "2026-07-22T16:36:53+00:00",
+        "kind": "video",
+        "source_name": "AI Explained",
+        "source_handle": "AI Explained",
+        "source_role": "Channel · AI Explained"
+      },
+      {
+        "title": "Training Agents 3: Reinforcement Learning",
+        "summary": "Training Agents, Session 3: from a fine-tuned baseline to reinforcement learning with GRPO.\n\nIn this live session, we'll move past imitation and start training on outcomes. We'll take the model from the earlier sessions and run Group Relative Policy Optimization: sample multiple completions per prompt, score them with a reward function, and use the group's relative scores as the training signal — no value model, no reward model, no critic to train. Everything runs in TRL.\n\nWhat we'll cover:\n- Why GRPO after SFT, and what RL adds that imitation can't\n- How GRPO works: group sampling, relative advantages, and why that replaces a critic\n- Writing verifiable reward functions for agent tasks\n- Running TRL GRPO on Hugging Face Jobs\n- Reading the training curves: reward, KL, and completion length\n- Common failure modes: reward hacking, collapse, and length gaming\n\nRepo: https://github.com/burtenshaw/training-agents\n\nThis is part of the Training Agents series: using coding agents to design, run, monitor, and review post-training experiments, while training models to become better agents.",
+        "link": "https://www.youtube.com/watch?v=ztdTed5egrM",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-22T13:04:13+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  }
+}
