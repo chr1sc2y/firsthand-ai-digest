@@ -1,0 +1,1078 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-24T23:21:30.749512+00:00",
+  "coverage": {
+    "start": "2026-07-23T22:00:00+00:00",
+    "end": "2026-07-24T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-24T23:18:48.616142+00:00",
+  "item_count": 53,
+  "source_count": 53,
+  "access_counts": {
+    "substantial": 2,
+    "partial": 51,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "2026-07-24",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-24T01:43:37+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-24/",
+      "digest_excerpt": "AI 早报 2026 07 24 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 ChatGPT 桌面应用推出 ChatGPT Voice，支持语音控制电脑并协调多个Agent ↗ 1 Anthropic 更新 Claude 语音模式，支持更强模型并可调用第三方应用 ↗ 2 模型发布 Black Forest Labs 发布 FLUX 3 多模态模型 ↗ 3 Ant Ling 发布 Ling 3.0 flash 模型，多平台限时免费开放 ↗ 4 inclusionAI 发布 LLaDA2.2 flash 面向 Agent 的扩散语言模型 ↗ 5 KwaiKAT 发布 KAT Coder V2.5 Dev 开源权重 ↗ 6 PaddlePaddle 发布 HPD Parsing 模型，主打高吞吐文档解析 ↗…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-24/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-24",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-24 ·\nMarkdown\nAI 早报 2026-07-24\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nChatGPT 桌面应用推出 ChatGPT Voice，支持语音控制电脑并协调多个Agent\n↗\n#1\nAnthropic 更新 Claude 语音模式，支持更强模型并可调用第三方应用\n↗\n#2\n模型发布\nBlack Forest Labs 发布 FLUX 3 多模态模型\n↗\n#3\nAnt Ling 发布 Ling-3.0-flash 模型，多平台限时免费开放\n↗\n#4\ninclusionAI 发布 LLaDA2.2-flash 面向 Agent 的扩散语言模型\n↗\n#5\nKwaiKAT 发布 KAT-Coder-V2.5-Dev 开源权重\n↗\n#6\nPaddlePaddle 发布 HPD-Parsing 模型，主打高吞吐文档解析\n↗\n#7\nSpaceXAI 宣布 Grok 4.5 模型全面上线多平台\n↗\n#8\n微软宣布MAI-Image-2.5-Pro与MAI-Voice-2-Flash进入公测阶段\n↗\n#9\n开发生态\nOpenAI 宣布 Codex 支持多文件夹配置项目及站点分析公测\n↗\n#10\nMiMo Code 将于 7 月 26 日结束免费使用阶段\n↗\n#11\nRunway 推出 Runway Media Router，自动匹配生成式媒体模型\n↗\n#12\n产品应用\nOpenAI 面向美国成年用户推出 ChatGPT Health 功能\n↗\n#13\nGoogle 向美国 Google AI Pro 订阅者推出 Gemini Spark\n↗\n#14\n行业动态\n马斯克呼吁 AI 公司发布前沿模型前互相审查，政府干预应为最后手段\n↗\n#15\n字节跳动Seed团队启动Seed STEM科学家计划\n↗\n#16\nAI芯片初创公司Etched完成3亿美元C轮融资 估值翻倍至103亿美元\n↗\n#17\n有关部门回应白宫指责月之暗面：反对科技经贸问题政治化\n↗\n#18\n北京四部门联合印发加快智能体引领发展若干措施\n↗\n#19\n要闻\nChatGPT 桌面应用推出 ChatGPT Voice，支持语音控制电脑并协调多个Agent\n#1\nOpenAI在ChatGPT桌面应用中正式推出ChatGPT Voice功能，支持特定付费用户通过语音在Chat、Work和Codex中直接控制电脑并协调多个Agent。同时，iOS端也可通过配对远程访问在Codex中使用语音。语音对话使用独立的、按滚动五小时窗口计量的配额限制，配额取决于订阅方案。\nOpenAI宣布，ChatGPT Voice功能已在 ChatGPT 桌面应用中上线。该功能由GPT-Live驱动，目前已向ChatGPT Plus、Pro、Business、Edu和Enterprise订阅方案用户开放。用户可在macOS和Windows桌面应用中开启语音对话，实现自然的多轮交流，并在对话中发布任务、检查进度或改变方向。同时，iOS用户也可通过配对远程访问在Codex中使用语音，Android支持据称即将推出。同一时间内，整个ChatGPT桌面应用只能有一个活跃的语音聊天。语音对话使用独立的、按滚动五小时窗口计量的配额限制，配额取决于订阅方案。\n相关链接：\nhttps://learn.chatgpt.com/docs/features/voice\nhttps://x.com/OpenAI/status/2080378182469857576\nAnthropic 更新 Claude 语音模式，支持更强模型并可调用第三方应用\n#2\nAnthropic 为 Claude 的语音模式推送更新，即日起用户可在语音对话中使用 Opus 和 Sonnet 等更强模型，并能在对话中途调用邮箱和日历等第三方工具。\nAnthropic 宣布 Claude 语音模式迎来更新，用户现在可以在语音对话中使用 Opus 和 Sonnet 模型，而非此前的 Haiku 默认模型，同时该语音模式还能在对话中途连接 Gmail、Google Calendar、Slack、Canva 和 Notion 等第三方应用来执行更新会议、起草邮件等操作。语音模式目前已支持十余种语言，但需要用户手动指定对话语言。本次更新以公开测试版形式向所有用户推出，覆盖移动端、桌面端和网页端；免费用户将仅限使用 Haiku 模型且只能连接一个第三方应用。\n相关链接：\nhttps://x.com/claudeai/status/2080376094939603366\n模型发布\nBlack Forest Labs 发布 FLUX 3 多模态模型\n#3\nBlack Forest Labs 发布多模态模型 FLUX 3，在统一架构下联合学习图像、视频和音频。根据官方初步评估数据，FLUX 3 在视频生成对比中，偏好率稍微领先于Gemini Omni Flash 和 Seedance 2.0。FLUX 3 Video 已开放抢先体验，FLUX 3 Image 计划在未来几周内进入抢先体验，FLUX 3 Dev 开放权重版本也在推出计划中。\nBlack Forest Labs 正式发布多模态基础模型 FLUX 3，该模型基于 Self-Flow 方法，在统一架构下联合学习图像、视频和音频，同时支持机器人动作预测。FLUX 3 可单次生成最长 20 秒带原生音频的视频，并具备图像合成与编辑能力。根据官方初步评估数据，FLUX 3 在视频生成对比中分别以最高 69% 和 60% 的偏好率偏好率稍微领先于Gemini Omni Flash 和 Seedance 2.0。目前 FLUX 3 Video 已开放抢先体验，FLUX 3 Image 计划在未来几周内进入抢先体验，FLUX 3 Dev 开放权重版本也在推出计划中。\n相关链接：\nhttps://bfl.ai/blog/flux-3\nhttps://bfl.ai/models/flux-3\nhttps://bfl.ai/blog/flux-3-mimic\nAnt Ling 发布 Ling-3.0-flash 模型，多平台限时免费开放\n#4\n蚂蚁百灵发布 Ling-3.0-flash。该模型总参数为 124B，激活参数 5.1B。官方称其多数基准测试表现达到或超越自家 1T 旗舰模型，目前该模型已在多个平台上线并开放限时免费使用。\n蚂蚁集团百灵大模型团队发布了混合推理 MoE 模型 Ling-3.0-flash，专为生产级 Agent 工作负载设计。该模型总参数为 124B，每 token 仅激活 5.1B。官方称其在多数展示的基准测试中，表现达到或超越了该团队此前的 1T 旗舰模型。模型原生支持 256K 上下文并可扩展至 1M，目前已上线 OpenRouter、Vercel AI Gateway 等多个平台并开放限时免费使用。\n相关链接：\nhttps://x.com/AntLingAGI/status/2080351022028095681\nhttps://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway\ninclusionAI 发布 LLaDA2.2-flash 面向 Agent 的扩散语言模型\n#5\ninclusionAI 发布 {LLaDA|Lada}{2.2|二点二}-flash 扩散语言模型。该模型引入 Levenshtein Editing 机制，支持 128K 上下文，已在 Hugging Face 和 ModelScope 上线。\n蚂蚁集团 inclusionAI 发布了 LLaDA2 系列中的 Agent 导向 MoE 扩散语言模型 LLaDA2.2-flash，通过引入 Levenshtein Editing（含 DELETE 和 INSERT 控制标记）实现扩散解码过程中的序列结构编辑与纠错。模型总非嵌入参数量为 100B，上下文窗口扩展至 128K，引入 Block Routing 将 MoE 专家激活限制在扩散块级别以支持高效长上下文 Agentic 工作负载。模型已在 Hugging Face 和 ModelScope 上线，许可为 Apache License 2.0，SGLang 部署支持即将推出。\n相关链接：\nhttps://huggingface.co/inclusionAI/LLaDA2.2-flash\nhttps://modelscope.cn/models/inclusionAI/LLaDA2.2-flash\nKwaiKAT 发布 KAT-Coder-V2.5-Dev 开源权重\n#6\n快手 KwaiKAT 团队发布 KAT-Coder-V2.5-Dev 模型权重，该模型基于 Qwen3.6‑35B‑{A3B|\"A3B\"} 后训练，在多个 Agentic Coding 基准测试上取得同参数量级的领先结果。\n快手 KwaiKAT 已将 KAT‑Coder‑V2.5‑Dev 的模型权重在 Hugging Face 开源，该模型基于 Qwen3.6‑35B‑A3B 进行后训练，总参数 350 亿、激活参数 30 亿。在 SWE‑bench Verified、Multilingual、Pro 和 Terminal‑Bench 2.1 等 Agentic Coding 基准测试中均取得当前同参数量级的领先结果。使用 Apache 2.0 许可，仅包含语言模型权重，不包含视觉/多模态组件，支持通过 vLLM、SGLang 等框架部署。\n相关链接：\nhttps://huggingface.co/Kwaipilot/KAT-Coder-V2.5-Dev\nhttps://arxiv.org/pdf/2607.05471\nPaddlePaddle 发布 HPD-Parsing 模型，主打高吞吐文档解析\n#7\nPaddlePaddle发布1B参数{文档解析模型|\"文档解析模型\"}HPD-Parsing。它基于InternVL3.5-1B，引入分层并行解码与渐进式多词元预测技术，破解长文档解码瓶颈。该模型在OmniDocBench v1.6基准取得94.91%准确率。\n百度 PaddlePaddle 目前在 Hugging Face 上发布了 HPD-Parsing，这是一个 1B 参数的轻量级高吞吐量文档解析模型。该模型基于 InternVL3.5-1B 骨干网络，引入了分层并行解码范式与渐进式多词元预测技术，将传统的单页自回归生成重构为全局协调的局部并行解码。官方数据显示，HPD-Parsing 在 OmniDocBench v1.6 基准测试中达到 94.91% 的总体准确率，同时实现了每秒 4752 个令牌的峰值吞吐量。目前用户可通过 Hugging Face 平台获取该模型的权重，官方也同步提供了在线演示。\n相关链接：\nhttps://huggingface.co/PaddlePaddle/HPD-Parsing\nhttps://huggingface.co/spaces/hugging-apps/hpd-parsing\nhttps://arxiv.org/abs/2607.18839\nSpaceXAI 宣布 Grok 4.5 模型全面上线多平台\n#8\nSpaceXAI 官方宣布 Grok 4.5 模型目前已在 grok.com、X 以及 iOS 和 Android 应用中全面上线。\nSpaceXAI 官方宣布 Grok 4.5 模型现已全面登陆 grok.com、X 及 iOS 和 Android 应用平台。根据官方说明，Grok 4.5 是其目前最强大的模型，能更好地理解用户提问并跟踪更长对话。此外，该模型提升了推理效率以更快给出答案，并能承担处理电子表格、转换幻灯片和提取长 PDF 要点等知识工作。SpaceXAI 还指出，用户可通过 Microsoft 365 加载项在 Word、Excel 等软件中直接使用该模型。\n相关链接：\nhttps://x.ai/news/grok-4-5-everywhere\n微软宣布MAI-Image-2.5-Pro与MAI-Voice-2-Flash进入公测阶段\n#9\nMicrosoft AI 宣布，其 MAI-Image-2.5-Pro 和 MAI-Voice-2-Flash 两款模型已进入公测阶段。这两款模型已为必应图片创建器和PowerPoint 等多项微软产品提供支持。\n微软人工智能部门宣布旗下两款自研模型 MAI-Image-2.5-Pro 和 MAI-Voice-2-Flash 进入公测阶段。官方称这两款模型已经在微软的多项核心产品中投入生产，为必应图片创建器、PowerPoint 的图片生成与编辑、OneDrive 的图片编辑以及 Dynamics 365 客服中心的语音智能体提供支持。此外，MAI-Transcribe-1.5 转录模型现支持 58 种语言，正用于医疗笔录解决方案 Dragon Copilot。\n相关链接：\nhttps://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/\n开发生态\nOpenAI 宣布 Codex 支持多文件夹配置项目及站点分析公测\n#10\nOpenAI 开发者账号宣布，Codex 本地项目现已支持读取和写入多个文件夹的代码与文件，并保留一个主文件夹作为 Git 根目录。同时，用于查看 Codex 发布站点基本性能指标的 Sites Analytics 功能已进入公开测试。\nOpenAI 开发者账号宣布对 Codex 进行两项功能更新。首先，Codex 本地项目现已支持包含来自多个文件夹的相关代码、文档和参考文件，Codex 能够跨这些文件夹进行读取和写入。在这一机制下，其中一个主文件夹将作为 Git 根目录，负责处理 Git 操作、审查、pull requests、AGENTS.md 以及技能发现。其次，名为 Sites Analytics 的新功能现已进入公开测试阶段，为用户使用 Codex 发布的站点提供基本的性能指标。\n相关链接：\nhttps://x.com/OpenAIDevs/status/2080383045472075856\nhttps://x.com/OpenAIDevs/status/2080390328880951299\nMiMo Code 将于 7 月 26 日结束免费使用阶段\n#11\n小米MiMo团队宣布，MiMo Code 将于 7 月 26 日 18:00 结束免费阶段。此后用户需订阅 Token Plan 才能继续使用，首次订阅可享 {88|八八} 折优惠。\n小米MiMo团队宣布，MiMo Code 的免费使用阶段即将结束，自 7 月 26 日 18:00 起正式生效。限免结束后，用户需要前往 MiMo 开放平台订阅 Token Plan 才能继续享用 MiMo Code。目前首次订阅 Token Plan 的用户可以享受 88 折优惠。\n相关链接：\nhttps://platform.xiaomimimo.com/token-plan\nRunway 推出 Runway Media Router，自动匹配生成式媒体模型\n#12\nRunway 宣布推出 Runway Media Router。该功能是内置于 Runway Dev 平台的生成式媒体模型路由，可自动为视频、图像或音频请求{选择最佳模型|\"选择最佳模型\"}。\nRunway 在 Runway Dev 平台推出并上线了 Runway Media Router。作为官方所称的“世界首个”面向生成式媒体的偏好优化路由，它能根据用户设定的成本、延迟和质量偏好，自动为视频、图像或音频生成请求匹配合适的模型。用户可以在平台门户中设置价格上限，并配置允许或拒绝的提供商与模型名单，系统会据此筛选并调用得分最高的模型。该功能目前已面向 Runway Dev 用户开放，支持视频、图像和音频模型。\n相关链接：\nhttps://runway.com/news/company-news/introducing-runway-media-router\n产品应用\nOpenAI 面向美国成年用户推出 ChatGPT Health 功能\n#13\nOpenAI 宣布 ChatGPT 的 Health 功能目前已向美国 18 岁及以上用户推出。用户可连接 Apple Health 和医疗记录，在对话中结合个人健康数据获取更个性化的参考。\nOpenAI 正式向美国 18 岁及以上的 ChatGPT 用户推出 Health 功能，覆盖网页端和 iOS 端的 Free、Go、Plus 和 Pro 套餐。该功能允许用户安全连接 Apple Health、部分美国医院系统及 One Medical 等支持的医疗记录，ChatGPT 将在获得用户许可后，结合这些数据回答健康问题、追踪指标变化并提供上下文参考。根据官方说明，用户连接的医疗数据和生成的相关对话不会被用于训练 OpenAI 的基础模型或定向投放广告。目前该功能尚不支持 Codex，且根据用户反馈，暂不支持直接连接 Google Health 或 Fitbit。\n相关链接：\nhttps://openai.com/index/health-in-chatgpt/\nhttps://x.com/OpenAI/status/2080339982288568709\nGoogle 向美国 Google AI Pro 订阅者推出 Gemini Spark\n#14\nGoogle 正向美国 Google AI Pro 订阅用户推出 Gemini Spark。官方称 Gemini Spark 很快将扩展至更多国家的 AI Pro 订阅用户。\nGoogle 目前正开始向美国境内的 Google AI Pro 订阅者推出个人 AI agent Gemini Spark，当前版本为英语。官方称 Gemini Spark 是一款在后台全天候运行、按用户指示完成任务的助手，且用户可让其帮忙设置首项技能和任务。此前，Gemini Spark 已向更多国家和语言的 Google AI Ultra 订阅者推出。Google 表示，很快将把 Gemini Spark 带给更多国家的 AI Pro 订阅者。\n相关链接：\nhttps://x.com/GeminiApp/status/2080401074083799229\nhttps://support.google.com/gemini/answer/17171264?hl=zh-CN\n行业动态\n马斯克呼吁 AI 公司发布前沿模型前互相审查，政府干预应为最后手段\n#15\n马斯克提议，领先 AI 公司发布{前沿模型|\"前沿模型\"}之前应互相审查。他建议竞争对手定期沟通安全问题以互相监督，将政府干预作为最后手段。\n埃隆·马斯克在接受采访时提议，OpenAI、Anthropic 和 SpaceXAI 等前沿 AI 公司应在发布最先进模型前互相审查。他表示政府缺乏足够的技术深度，因此政府干预应仅作为公司拒绝修复安全问题时才启用的最后手段。马斯克强调此机制应立即实施，并愿意为此搁置与 OpenAI 首席执行官的个人分歧。目前，这些公司虽通过前沿模型论坛共享漏洞信息，但并未共享未发布的模型。\n相关链接：\nhttps://fortune.com/article/elon-musk-says-rival-ai-labs-should-peer-review-frontier-models-before-release-with-government-as-last-resort/\n字节跳动Seed团队启动Seed STEM科学家计划\n#16\n字节跳动Seed团队启动Seed STEM科学家计划，邀请100位前沿科学学者共同合作。首期约持续6个月，现已开放申请。\n字节跳动Seed团队正式启动Seed STEM科学家计划，邀请100位前沿科学领域学者围绕真实科研问题展开合作。该计划面向STEM相关领域已获或正在攻读博士学位及同等研究水平人员，提供科学家顾问与博士实习生两种参与方式。参与者可获得充足算力资源、专业团队协作机会及竞争性薪酬。首期计划约持续6个月，需在办公现场协作，目前工作地点确认在北京海淀区。申请者需通过飞书账号提交包含简历的申请材料，申请截止时间为2026年9月30日。\n相关链接：\nhttps://seed.bytedance.com/zh/seedstem\nhttps://bytedance.larkoffice.com/share/base/form/shrcnvPJHbfgPhEo10goHD7I0IQ\nAI芯片初创公司Etched完成3亿美元C轮融资 估值翻倍至103亿美元\n#17\n专注加速AI推理的芯片初创公司Etched宣布完成3亿美元C轮融资，估值达103亿美元。公司称新资金将加速其定制芯片及推理系统的生产，目前系统仅供投资方与早期客户测试。\n致力于研发加速AI推理系统的芯片初创公司Etched完成3亿美元C轮融资，由Sequoia领投，估值达103亿美元。公司称这是Sequoia领投的C轮中估值最高的一次，该轮融资将用于加速其推理集群的生产与交付。Etched从头设计了针对推理预填充阶段的低压芯片以及用于生成解码阶段的集群级内存，称其系统能运行包括DeepSeek在内的任何AI模型。尽管公司已获10亿美元订单，但联合创始人承认硬件目前仅供投资者和早期客户测试使用，距离大规模量产交付仍有距离。\n相关链接：\nhttps://x.com/Etched/status/2080307393699987849\n有关部门回应白宫指责月之暗面：反对科技经贸问题政治化\n#18\n针对白宫官员指责月之暗面一事，有关部门发言人作出回应。他表示，中方一贯反对将科技经贸问题政治化、工具化，这种行径只会干扰全球人工智能的发展进程，不符合任何一方利益。\n针对白宫官员指责月之暗面一事，有关部门发言人在例行记者会上回应了关于白宫高级官员指责中国公司月之暗面蒸馏Anthropic模型的提问。他表示，中国人工智能的发展得益于秉持共商共建共享理念，中方一贯反对将科技经贸问题政治化、工具化。他强调，这种行径只会干扰全球人工智能的发展进程，不符合任何一方的利益。\n相关链接：\nhttps://mp.weixin.qq.com/s/jjyiEECaDLwwGxKKw3RjGQ\n北京四部门联合印发加快智能体引领发展若干措施\n#19\n北京市发改委等四部门正式印发《北京市关于加快智能体引领发展的若干措施》，提出十条措施覆盖基础模型、原生应用、终端融合、Token经济与安全治理等方向。\n北京市发展和改革委员会等四部门联合制定《北京市关于加快智能体引领发展的若干措施》。文件提出十条措施，旨在推动代理式人工智能技术创新，率先培育智能经济新形态，加快建设全球人工智能创新高地。措施覆盖从基础模型能力提升到终端产品融合、从创新创业新模式到Token经济培育的完整链条，并将符合条件的智能体终端新产品纳入家电以旧换新及数码和智能产品购新范围。\n相关链接：\nhttps://www.beijing.gov.cn/zhengce/zhengcefagui/202607/t20260723_4781085.html\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-23T22:53:08+00:00",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/",
+      "digest_excerpt": "<p><strong><a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\">The first known runaway AI agent - or a very bad marketing stunt?</a></strong></p>\nMartin Alderson's commentary on the <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">OpenAI accidental cyberattack against Hugging Face</a> includes a couple of details I hadn't considered.</p>\n<p>First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:</p>\n<blockquote>\n<p>Hugging Face has an <em>enormous</em> attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.</p>\n</blockquote>\n<p>Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?</p>\n<p>Martin points out that:</p>\n<blockquote>\n<p>It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.</p>\n</blockquote>\n<p>The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/hugging-face\">hugging-face</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/",
+        "limitation": ""
+      },
+      "page_title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "page_description": "Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging Face offers a truly rich target if you're trying …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n23rd July 2026 - Link Blog\nThe first known runaway AI agent - or a very bad marketing stunt?\n(\nvia\n) Martin Alderson's commentary on the\nOpenAI accidental cyberattack against Hugging Face\nincludes a couple of details I hadn't considered.\nFirst, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:\nHugging Face has an\nenormous\nattack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.\nSecondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?\nMartin points out that:\nIt's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.\nThe mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments.\nPosted\n23rd July 2026\nat 10:53 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n23rd July 2026\n.\nsecurity\n617\nai\n2,140\nopenai\n434\ngenerative-ai\n1,892\nllms\n1,859\nhugging-face\n24\nai-security-research\n27\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S003",
+      "kind": "video",
+      "title": "Build Hour: Valuemaxxing with GPT-5.6",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-24T19:47:16+00:00",
+      "url": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+      "digest_excerpt": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance.\n\nCharlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) will cover how to:\n\n• Choose between GPT‑5.6 Sol, Terra, and Luna based on intelligence, latency, and cost\n• Measure and optimize cost-performance across real workloads\n• Adapt evals, agent harnesses, tool schemas, and prompt caching when migrating models\n• Move production agents to GPT‑5.6, featuring a customer spotlight on how Ploy achieved 2.2× faster builds at 27% lower cost\n• Apply these lessons through live demos and Q&amp;A\n\n👉 GPT-5.6 blog: https://openai.com/index//gpt-5-6\n👉 Programmatic tool-calling: https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling\n👉 Compare models: https://developers.openai.com/api/docs/models/compare \n👉 Migrating a production AI agent: https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6 \n👉 Build Hour repo: https://github.com/openai/build-hours\n\n00:00 Introduction\n02:50 Tokenmaxxing vs. valuemaxxing\n07:11 Valuemaxxing Codex\n15:16 Valuemaxxing your harness\n23:48 Customer spotlight: Ploy’s migration to GPT-5.6\n39:57 Q&amp;A\n53:13 Resources and closing",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=jyuyY86GJnA",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Get more useful work from every token with GPT‑5.6. In this Build Hour, you’ll learn how to choose the right model for your workload—and migrate production agents while improving speed, cost, and performance.\n\nCharlie Guo (DevEx), Bryant Chou (Founder, Ploy) and Lorenzo Gentile (AI Engineer, Ploy) will cover how to:\n\n• Choose between GPT‑5.6 Sol, Terra, and Luna based on intelligence, latency, and cost\n• Measure and optimize cost-performance across real workloads\n• Adapt evals, agent harnesses, tool schemas, and prompt caching when migrating models\n• Move production agents to GPT‑5.6, featuring a customer spotlight on how Ploy achieved 2.2× faster builds at 27% lower cost\n• Apply these lessons through live demos and Q&amp;A\n\n👉 GPT-5.6 blog: https://openai.com/index//gpt-5-6\n👉 Programmatic tool-calling: https://developers.openai.com/api/docs/guides/tools-programmatic-tool-calling\n👉 Compare models: https://developers.openai.com/api/docs/models/compare \n👉 Migrating a production AI agent: https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6 \n👉 Build Hour repo: https://github.com/openai/build-hours\n\n00:00 Introduction\n02:50 Tokenmaxxing vs. valuemaxxing\n07:11 Valuemaxxing Codex\n15:16 Valuemaxxing your harness\n23:48 Customer spotlight: Ploy’s migration to GPT-5.6\n39:57 Q&amp;A\n53:13 Resources and closing"
+    },
+    {
+      "id": "S004",
+      "kind": "video",
+      "title": "Building at the pace of AI innovation | Grant Lee, Gamma",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-24T09:12:21+00:00",
+      "url": "https://www.youtube.com/watch?v=PB7DBemxl3E",
+      "digest_excerpt": "We caught up with Grant Lee, Founder and CEO of Gamma, at RAISE Summit in Paris to discuss what it takes to build at the pace of AI innovation. As AI capabilities continue to evolve, the companies that move fastest are those that can quickly turn new breakthroughs into better products and better customer experiences. Grant shares how Gamma uses OpenAI across its platform and internal engineering workflows, why strong partnerships have been key to its growth, and why adaptability has become one of the most important advantages for businesses navigating rapid technological change.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=PB7DBemxl3E",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We caught up with Grant Lee, Founder and CEO of Gamma, at RAISE Summit in Paris to discuss what it takes to build at the pace of AI innovation. As AI capabilities continue to evolve, the companies that move fastest are those that can quickly turn new breakthroughs into better products and better customer experiences. Grant shares how Gamma uses OpenAI across its platform and internal engineering workflows, why strong partnerships have been key to its growth, and why adaptability has become one of the most important advantages for businesses navigating rapid technological change."
+    },
+    {
+      "id": "S005",
+      "kind": "x",
+      "title": "Gemini does more than talk. It gets things done.\n\nToday’s use case: Drop in a school calendar PDF. Tell Gemini to add ev",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-07-24T21:44:43+00:00",
+      "url": "https://x.com/joshwoodward/status/2080771183944073347",
+      "digest_excerpt": "Gemini does more than talk. It gets things done.\n\nToday’s use case: Drop in a school calendar PDF. Tell Gemini to add every \"No School\" day to your Google Calendar. Done.\n\n📍Gemini Spark is live now for all Google AI Pro subscribers in the US, expanding globally next.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2080771183944073347",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Gemini does more than talk. It gets things done.\n\nToday’s use case: Drop in a school calendar PDF. Tell Gemini to add every \"No School\" day to your Google Calendar. Done.\n\n📍Gemini Spark is live now for all Google AI Pro subscribers in the US, expanding globally next."
+    },
+    {
+      "id": "S006",
+      "kind": "x",
+      "title": "Wow",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-24T21:21:43+00:00",
+      "url": "https://x.com/elonmusk/status/2080765392855707884",
+      "digest_excerpt": "Wow",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080765392855707884",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Wow"
+    },
+    {
+      "id": "S007",
+      "kind": "x",
+      "title": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message.\n\nThe ke",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-24T21:06:11+00:00",
+      "url": "https://x.com/levie/status/2080761484305654091",
+      "digest_excerpt": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message.\n\nThe key now is that America should actually step up and continue to push open weights innovation. It’s good for the entire market, including the frontier labs. \n\nOpen weights accelerates the diffusion of AI across the economy by providing more options for specific customer requirements, can lower the cost of certain workloads, and you can tune models for areas of work that don’t always make sense in a horizontal frontier model.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2080761484305654091",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Not sure if anything in tech has ever gotten as much broad-based support and alignment as this post and message.\n\nThe key now is that America should actually step up and continue to push open weights innovation. It’s good for the entire market, including the frontier labs. \n\nOpen weights accelerates the diffusion of AI across the economy by providing more options for specific customer requirements, can lower the cost of certain workloads, and you can tune models for areas of work that don’t always make sense in a horizontal frontier model."
+    },
+    {
+      "id": "S008",
+      "kind": "x",
+      "title": "Grok 4.5 is excellent for real-world work",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-24T20:58:29+00:00",
+      "url": "https://x.com/elonmusk/status/2080759547753361804",
+      "digest_excerpt": "Grok 4.5 is excellent for real-world work",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080759547753361804",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.5 is excellent for real-world work"
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "Overwhelming support for open source",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-24T20:57:33+00:00",
+      "url": "https://x.com/elonmusk/status/2080759312029294871",
+      "digest_excerpt": "Overwhelming support for open source",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080759312029294871",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Overwhelming support for open source"
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "Show me your pet",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-24T20:45:59+00:00",
+      "url": "https://x.com/thsottiaux/status/2080756403493560652",
+      "digest_excerpt": "Show me your pet",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2080756403493560652",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Show me your pet"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "Just as Tesla made the original Roadster design &amp; software open source, we plan to do the same with Model S &amp; X",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-24T20:43:08+00:00",
+      "url": "https://x.com/elonmusk/status/2080755686615437501",
+      "digest_excerpt": "Just as Tesla made the original Roadster design &amp; software open source, we plan to do the same with Model S &amp; X",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080755686615437501",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Just as Tesla made the original Roadster design &amp; software open source, we plan to do the same with Model S &amp; X"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations https://t.co/6uSOT102QS",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-24T20:22:17+00:00",
+      "url": "https://x.com/swyx/status/2080750437133901925",
+      "digest_excerpt": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations https://t.co/6uSOT102QS",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2080750437133901925",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ok fine 4 new features - SmolForge is now getting customizable skins and spritesheet animations https://t.co/6uSOT102QS"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "people are still just scratching the surface of how chatgpt work can be used. we want AI to empower people to live bette",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-24T19:25:17+00:00",
+      "url": "https://x.com/gdb/status/2080736094157488201",
+      "digest_excerpt": "people are still just scratching the surface of how chatgpt work can be used. we want AI to empower people to live better lives, and believe agentic capabilities will be a core part of how it'll happen.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2080736094157488201",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "people are still just scratching the surface of how chatgpt work can be used. we want AI to empower people to live better lives, and believe agentic capabilities will be a core part of how it'll happen."
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consu",
+      "source_name": "Alex Albert",
+      "author": "alexalbert__",
+      "published": "2026-07-24T19:08:56+00:00",
+      "url": "https://x.com/alexalbert__/status/2080731979528679617",
+      "digest_excerpt": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make. Things are changing fast. https://t.co/HKpFPP4hrM",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/alexalbert__/status/2080731979528679617",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make. Things are changing fast. https://t.co/HKpFPP4hrM"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "Grok 4.5 and Opus 5 are alone on Pareto frontier https://t.co/FZPeCT5wQr",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-24T18:36:40+00:00",
+      "url": "https://x.com/elonmusk/status/2080723860073091158",
+      "digest_excerpt": "Grok 4.5 and Opus 5 are alone on Pareto frontier https://t.co/FZPeCT5wQr",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2080723860073091158",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.5 and Opus 5 are alone on Pareto frontier https://t.co/FZPeCT5wQr"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "The knowledge that makes AI useful is diffused. It lives with scientists, engineers, clinicians, firms. For AI to benefi",
+      "source_name": "Mira Murati",
+      "author": "miramurati",
+      "published": "2026-07-24T18:03:01+00:00",
+      "url": "https://x.com/miramurati/status/2080715390179766646",
+      "digest_excerpt": "The knowledge that makes AI useful is diffused. It lives with scientists, engineers, clinicians, firms. For AI to benefit from distributed knowledge, it must itself be distributed. Agree with Jensen that this is a future worth building.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/miramurati/status/2080715390179766646",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The knowledge that makes AI useful is diffused. It lives with scientists, engineers, clinicians, firms. For AI to benefit from distributed knowledge, it must itself be distributed. Agree with Jensen that this is a future worth building."
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "Opus 5 sets a new state-of-the-art on ARC-AGI-3, at 30%.\n\nARC-AGI-3 measures solving problems with no prior exposure -- ",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-24T17:32:48+00:00",
+      "url": "https://x.com/fchollet/status/2080707785910534147",
+      "digest_excerpt": "Opus 5 sets a new state-of-the-art on ARC-AGI-3, at 30%.\n\nARC-AGI-3 measures solving problems with no prior exposure -- the setting where scaling has historically bought the least. Impressive jump!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2080707785910534147",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Opus 5 sets a new state-of-the-art on ARC-AGI-3, at 30%.\n\nARC-AGI-3 measures solving problems with no prior exposure -- the setting where scaling has historically bought the least. Impressive jump!"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :)",
+      "source_name": "Cat Wu",
+      "author": "_catwu",
+      "published": "2026-07-24T17:32:02+00:00",
+      "url": "https://x.com/_catwu/status/2080707593115516985",
+      "digest_excerpt": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/_catwu/status/2080707593115516985",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Claude Opus 5 is great at long-running autonomous work! Try it out and let us know what you think :)"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "Ok let's see what you can do https://t.co/w3vt8GmwMK",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-24T17:29:35+00:00",
+      "url": "https://x.com/rauchg/status/2080706974476583337",
+      "digest_excerpt": "Ok let's see what you can do https://t.co/w3vt8GmwMK",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2080706974476583337",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Ok let's see what you can do https://t.co/w3vt8GmwMK"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "as usual claire and i are on the same page",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-24T17:23:15+00:00",
+      "url": "https://x.com/danshipper/status/2080705381794288032",
+      "digest_excerpt": "as usual claire and i are on the same page",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2080705381794288032",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "as usual claire and i are on the same page"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit https://t.co/rO3dn0F2",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-24T17:23:04+00:00",
+      "url": "https://x.com/swyx/status/2080705334587605122",
+      "digest_excerpt": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit https://t.co/rO3dn0F26S",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2080705334587605122",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "the reason i am working on a new gsuite is because of extremely stupid defaults like this bullshit https://t.co/rO3dn0F26S"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. \n\nAt Box, we've been test",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-24T17:21:13+00:00",
+      "url": "https://x.com/levie/status/2080704871934931221",
+      "digest_excerpt": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. \n\nAt Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries.  We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. \n\nHere are a few examples of some of the wins we saw in testing:\n\n* Due diligence (+17%): On a transaction due-diligence review, Opus 5 worked through the full set of required findings and flagged the ones Opus 4.8 missed. It stays thorough as the checklist grows instead of catching the obvious items and stopping.\n\n* Life Sciences (+30%): On a target-identification task, it intersected several ranked datasets under a strict matching rule to find the targets common to all of them. Opus 4.8 over-included partial matches and dropped genuine ones.\n\n* Legal (+12%): On a clause-by-clause contract review against a policy, Opus 5 scored every item and correctly cleared the clauses that were acceptable under an exception where Opus 4.8 both missed items and mis-scored the exception.\n\n* Technology (+19%) and Healthcare (+13%) showed the same pattern: complete, precise, multi-step analysis over messy source material.\n\nOverall, the reasoning, analytical, and data processing skills of Opus 5 outshine Opus 4.8 meaningfully. Going to be very powerful for enterprise agentic use-cases. You'll be able to build agents with Opus 5 in the Box AI Studio shortly.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2080704871934931221",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Claude Opus 5 is out now, and it's a huge jump over Opus 4.8 on a wide number of capabilities. \n\nAt Box, we've been testing Claude Opus 5 with the Box AI Agent on Box's Complex Work Eval, our agentic benchmark that puts models through real enterprise document work end-to-end across a variety of industries.  We saw meaningful gains in performance across some of the most complex enterprise tasks on unstructured data. \n\nHere are a few examples of some of the wins we saw in testing:\n\n* Due diligence (+17%): On a transaction due-diligence review, Opus 5 worked through the full set of required findings and flagged the ones Opus 4.8 missed. It stays thorough as the checklist grows instead of catching the obvious items and stopping.\n\n* Life Sciences (+30%): On a target-identification task, it intersected several ranked datasets under a strict matching rule to find the targets common to all of them. Opus 4.8 over-included partial matches and dropped genuine ones.\n\n* Legal (+12%): On a clause-by-clause contract review against a policy, Opus 5 scored every item and correctly cleared the clauses that were acceptable under an exception where Opus 4.8 both missed items and mis-scored the exception.\n\n* Technology (+19%) and Healthcare (+13%) showed the same pattern: complete, precise, multi-step analysis over messy source material.\n\nOverall, the reasoning, analytical, and data processing skills of Opus 5 outshine Opus 4.8 meaningfully. Going to be very powerful for enterprise agentic use-cases. You'll be able to build agents with Opus 5 in the Box AI Studio shortly."
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domain",
+      "source_name": "Alex Albert",
+      "author": "alexalbert__",
+      "published": "2026-07-24T17:14:15+00:00",
+      "url": "https://x.com/alexalbert__/status/2080703118086693121",
+      "digest_excerpt": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domains while still raising the intelligence bar. \n\nIt feels very smooth to use and I prefer it over Fable 5 for  many coding tasks. https://t.co/bScX0FgtLq",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/alexalbert__/status/2080703118086693121",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Some of my favorite graphs from Opus 5 launch. We put a ton of work into making this model token efficient across domains while still raising the intelligence bar. \n\nIt feels very smooth to use and I prefer it over Fable 5 for  many coding tasks. https://t.co/bScX0FgtLq"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Welcome to the world, Opus 5.",
+      "source_name": "Alex Albert",
+      "author": "alexalbert__",
+      "published": "2026-07-24T17:09:49+00:00",
+      "url": "https://x.com/alexalbert__/status/2080702002120757562",
+      "digest_excerpt": "Welcome to the world, Opus 5.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/alexalbert__/status/2080702002120757562",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Welcome to the world, Opus 5."
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd…it’s a hard model to love.\n\nWe’ve spent the last week @every testing it across ",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-24T17:02:05+00:00",
+      "url": "https://x.com/danshipper/status/2080700057892815114",
+      "digest_excerpt": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd…it’s a hard model to love.\n\nWe’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent.\n\nIt argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy?\n\nThen we deleted our existing skills and started from scratch.\n\nWithout the elaborate workflows we had built for earlier models, Opus 5 got dramatically better, and even showed flashes of brilliance.\n\nHere’s our Day 0 vibe check:\n\n- It’s a poor man’s Fable. It has many of Fable’s personality quirks without Fable’s genius.\n- It breaks backward compatibility. If you’re using it with existing skills and workflows, watch out. It will often stop early or otherwise miss your instructions.\n- If you start from scratch, you’ll have better results. @KieranKlaassen figured out that if he just started from scratch without his existing skills, he could get dramatically better results. This is a model that takes some time to rebuild your workflows around—but if you do, there’s a payoff waiting.\n- Medium or low effort works better. @KieranKlassenn also found better results using Opus 5 on lower thinking levels. It seems that the more time you give it to think, the more likely it is to do the more annoying behaviors. Don’t just switch to Sonnet for a faster response! Try low thinking.\n\nI have two slots in my workflow:\n\n1. The genius model I use for my biggest hardest tasks, currently Fable.\n2. The smart, fast generalist I use for everything else, currently GPT-5.6.\n\nOpus 5 has the personality of the genius, but doesn’t have its top end. So that puts it in a strange middle ground that doesn’t really have a home in my day to day. I think I’ll use it mostly when I run out of Fable tokens.\n\nfull vibe check on @every in the next tweet 👇",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2080700057892815114",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd…it’s a hard model to love.\n\nWe’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent.\n\nIt argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy?\n\nThen we deleted our existing skills and started from scratch.\n\nWithout the elaborate workflows we had built for earlier models, Opus 5 got dramatically better, and even showed flashes of brilliance.\n\nHere’s our Day 0 vibe check:\n\n- It’s a poor man’s Fable. It has many of Fable’s personality quirks without Fable’s genius.\n- It breaks backward compatibility. If you’re using it with existing skills and workflows, watch out. It will often stop early or otherwise miss your instructions.\n- If you start from scratch, you’ll have better results. @KieranKlaassen figured out that if he just started from scratch without his existing skills, he could get dramatically better results. This is a model that takes some time to rebuild your workflows around—but if you do, there’s a payoff waiting.\n- Medium or low effort works better. @KieranKlassenn also found better results using Opus 5 on lower thinking levels. It seems that the more time you give it to think, the more likely it is to do the more annoying behaviors. Don’t just switch to Sonnet for a faster response! Try low thinking.\n\nI have two slots in my workflow:\n\n1. The genius model I use for my biggest hardest tasks, currently Fable.\n2. The smart, fast generalist I use for everything else, currently GPT-5.6.\n\nOpus 5 has the personality of the genius, but doesn’t have its top end. So that puts it in a strange middle ground that doesn’t really have a home in my day to day. I think I’ll use it mostly when I run out of Fable tokens.\n\nfull vibe check on @every in the next tweet 👇"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "A beautiful day in Vancouver https://t.co/hz7D2PgNOz",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T17:01:48+00:00",
+      "url": "https://x.com/petergyang/status/2080699985612484986",
+      "digest_excerpt": "A beautiful day in Vancouver https://t.co/hz7D2PgNOz",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080699985612484986",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A beautiful day in Vancouver https://t.co/hz7D2PgNOz"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "Introducing Claude Opus 5.\n\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-07-24T16:59:51+00:00",
+      "url": "https://x.com/claudeai/status/2080699495453528290",
+      "digest_excerpt": "Introducing Claude Opus 5.\n\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price. https://t.co/GQWhcq2CQL",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2080699495453528290",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Introducing Claude Opus 5.\n\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price. https://t.co/GQWhcq2CQL"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "today is the most positive i have felt about the future of american ai. the coming together of so many companies in a un",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-24T16:47:33+00:00",
+      "url": "https://x.com/AravSrinivas/status/2080696397020725364",
+      "digest_excerpt": "today is the most positive i have felt about the future of american ai. the coming together of so many companies in a united manner to fight against regulatory capture is incredible to watch. 🇺🇸",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2080696397020725364",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "today is the most positive i have felt about the future of american ai. the coming together of so many companies in a united manner to fight against regulatory capture is incredible to watch. 🇺🇸"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-24T15:55:45+00:00",
+      "url": "https://x.com/sama/status/2080683363174945065",
+      "digest_excerpt": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2080683363174945065",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "i want the US to win in AI both in open source and proprietary models, and i am glad to see this"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "let us know what you think of pro-ultra-superhard",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-24T15:54:47+00:00",
+      "url": "https://x.com/sama/status/2080683119959757243",
+      "digest_excerpt": "let us know what you think of pro-ultra-superhard",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2080683119959757243",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "let us know what you think of pro-ultra-superhard"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI.\n\nOpen weights models help ",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-24T15:23:22+00:00",
+      "url": "https://x.com/levie/status/2080675210991443982",
+      "digest_excerpt": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI.\n\nOpen weights models help to drive the industry forward in a variety of ways to ensure more innovation, creativity, and diffusion of AI.\n\nYou get to have layers of the stack that emerge to post train models for highly specific purposes, which makes AI more useful in real world scenarios. Instead of waiting for just a few players to go deep in a domain, you get dozens or hundreds of attempts at that vertical, like in finance, life sciences, legal, healthcare, and more.\n\nYou get to see variance in how to handle safety and cyber risks. Instead of just one approach, you get a peek into what happens advanced capabilities can be used to build better systems to are used to defend systems. \n\nYou get alternative approaches to training and building AI models. In more compute constrained environments, you develop more novel and efficient approaches to model training, which every other lab can learn from. \n\nAnd you get different cost structures for different workloads. High end and orchestration tasks can go to the closed frontier models and specific workhorse tasks can be done more cheaply. \n\nOpen vs. closed is not a zero sum battle. The reason why you want strong open weights models is because it pushes the entire AI industry forward.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2080675210991443982",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Very happy to have Box sign this letter. We’re big believers in the power of open weights AI.\n\nOpen weights models help to drive the industry forward in a variety of ways to ensure more innovation, creativity, and diffusion of AI.\n\nYou get to have layers of the stack that emerge to post train models for highly specific purposes, which makes AI more useful in real world scenarios. Instead of waiting for just a few players to go deep in a domain, you get dozens or hundreds of attempts at that vertical, like in finance, life sciences, legal, healthcare, and more.\n\nYou get to see variance in how to handle safety and cyber risks. Instead of just one approach, you get a peek into what happens advanced capabilities can be used to build better systems to are used to defend systems. \n\nYou get alternative approaches to training and building AI models. In more compute constrained environments, you develop more novel and efficient approaches to model training, which every other lab can learn from. \n\nAnd you get different cost structures for different workloads. High end and orchestration tasks can go to the closed frontier models and specific workhorse tasks can be done more cheaply. \n\nOpen vs. closed is not a zero sum battle. The reason why you want strong open weights models is because it pushes the entire AI industry forward."
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "The commies are out in full force supporting open weights",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-24T15:18:57+00:00",
+      "url": "https://x.com/amasad/status/2080674101426037060",
+      "digest_excerpt": "The commies are out in full force supporting open weights",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2080674101426037060",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The commies are out in full force supporting open weights"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "I tend to agree with this. \n\nFeels like pure software is really hard to monetize now for indie developers.\n\nYou need sof",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T15:01:14+00:00",
+      "url": "https://x.com/petergyang/status/2080669643577176573",
+      "digest_excerpt": "I tend to agree with this. \n\nFeels like pure software is really hard to monetize now for indie developers.\n\nYou need software + something else (e.g., services).\n\nWould love to hear counter examples in the replies.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080669643577176573",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I tend to agree with this. \n\nFeels like pure software is really hard to monetize now for indie developers.\n\nYou need software + something else (e.g., services).\n\nWould love to hear counter examples in the replies."
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "oooof",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-24T14:57:41+00:00",
+      "url": "https://x.com/danshipper/status/2080668747438670140",
+      "digest_excerpt": "oooof",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2080668747438670140",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "oooof"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "“Open weights strengthen competition and competition is what keeps the benefits of AI broadly shared rather than concent",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-24T14:41:32+00:00",
+      "url": "https://x.com/AravSrinivas/status/2080664685792371173",
+      "digest_excerpt": "“Open weights strengthen competition and competition is what keeps the benefits of AI broadly shared rather than concentrated in the hands of few”. We believe this strongly at @perplexity_ai and are co-signing this letter, with @nvidia! Thanks to @a16z for putting this together!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2080664685792371173",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“Open weights strengthen competition and competition is what keeps the benefits of AI broadly shared rather than concentrated in the hands of few”. We believe this strongly at @perplexity_ai and are co-signing this letter, with @nvidia! Thanks to @a16z for putting this together!"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "GOAT",
+      "source_name": "Jim Fan",
+      "author": "DrJimFan",
+      "published": "2026-07-24T14:24:43+00:00",
+      "url": "https://x.com/DrJimFan/status/2080660454184226908",
+      "digest_excerpt": "GOAT",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/DrJimFan/status/2080660454184226908",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GOAT"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "Figma2React. It’s good",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-24T13:29:28+00:00",
+      "url": "https://x.com/rauchg/status/2080646549336678597",
+      "digest_excerpt": "Figma2React. It’s good",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2080646549336678597",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Figma2React. It’s good"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "Tired of winning",
+      "source_name": "Yann LeCun",
+      "author": "ylecun",
+      "published": "2026-07-24T09:37:29+00:00",
+      "url": "https://x.com/ylecun/status/2080588168781336630",
+      "digest_excerpt": "Tired of winning",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/ylecun/status/2080588168781336630",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Tired of winning"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-24T06:40:17+00:00",
+      "url": "https://x.com/thsottiaux/status/2080543574211666029",
+      "digest_excerpt": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2080543574211666029",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Should we rename ChatGPT Work to ChatGPT Vibe?"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful tec",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-24T06:14:45+00:00",
+      "url": "https://x.com/thsottiaux/status/2080537149204758689",
+      "digest_excerpt": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2080537149204758689",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology."
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "try chatgpt voice in the desktop app:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-24T05:26:20+00:00",
+      "url": "https://x.com/gdb/status/2080524965514723414",
+      "digest_excerpt": "try chatgpt voice in the desktop app:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2080524965514723414",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "try chatgpt voice in the desktop app:"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "Autoscale deployments, which is typically the most expensive of scaled apps is down 80%! https://t.co/5Thud2waXD",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-24T04:40:14+00:00",
+      "url": "https://x.com/amasad/status/2080513361301925957",
+      "digest_excerpt": "Autoscale deployments, which is typically the most expensive of scaled apps is down 80%! https://t.co/5Thud2waXD",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2080513361301925957",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Autoscale deployments, which is typically the most expensive of scaled apps is down 80%! https://t.co/5Thud2waXD"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-24T04:36:54+00:00",
+      "url": "https://x.com/amasad/status/2080512523389005894",
+      "digest_excerpt": "My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2080512523389005894",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My chess autoresearch agent got a PhD in modern LLM finetuning. https://t.co/xw9mvVRhgY"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and t",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T04:19:28+00:00",
+      "url": "https://x.com/petergyang/status/2080508139091427741",
+      "digest_excerpt": "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080508139091427741",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other. 🔥"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "Before and after with ChatGPT Voice https://t.co/kzNE5odHSy",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T04:10:50+00:00",
+      "url": "https://x.com/petergyang/status/2080505964936241226",
+      "digest_excerpt": "Before and after with ChatGPT Voice https://t.co/kzNE5odHSy",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080505964936241226",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Before and after with ChatGPT Voice https://t.co/kzNE5odHSy"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "Initial impressions of ChatGPT Voice in Codex:\n\n1. It's an orchestrator thread that you can use voice to drive your othe",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T03:50:12+00:00",
+      "url": "https://x.com/petergyang/status/2080500770106134894",
+      "digest_excerpt": "Initial impressions of ChatGPT Voice in Codex:\n\n1. It's an orchestrator thread that you can use voice to drive your other threads. \n\n2. It works ok mostly but it seems you have to be smart about asking it to \"start new thread\" or \"use thread A\" otherwise it'll bundle all your random requests into one thread.\n\n3. While the other thread is working it's just silent, which kind of breaks the immersion a bit.\n\nAny other tips @theteriyu @guinnesschen? \n\nI still want to be able to start voice from existing threads btw :)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080500770106134894",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Initial impressions of ChatGPT Voice in Codex:\n\n1. It's an orchestrator thread that you can use voice to drive your other threads. \n\n2. It works ok mostly but it seems you have to be smart about asking it to \"start new thread\" or \"use thread A\" otherwise it'll bundle all your random requests into one thread.\n\n3. While the other thread is working it's just silent, which kind of breaks the immersion a bit.\n\nAny other tips @theteriyu @guinnesschen? \n\nI still want to be able to start voice from existing threads btw :)"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. e",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-24T03:50:07+00:00",
+      "url": "https://x.com/swyx/status/2080500752183960017",
+      "digest_excerpt": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\n\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2080500752183960017",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "btw ive been dogfooding an agentic github clone over the past month or so and its gotten quite quite enjoyable to use. even complete with built in CI/CD thanks to workers for platforms!\n\nthere's 3 more ideas i have to implement (not shown here) before this goes live. but if you're looking to hack on this with me it's a really good time to join swyx inc and influence the roadmap"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "Excited to welcome Jacob Tsimerman to the team!",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-24T03:25:11+00:00",
+      "url": "https://x.com/gdb/status/2080494474287780286",
+      "digest_excerpt": "Excited to welcome Jacob Tsimerman to the team!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2080494474287780286",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Excited to welcome Jacob Tsimerman to the team!"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "Finally got access to ChatGPT Voice in the app, is it not available in existing threads?",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-24T03:03:45+00:00",
+      "url": "https://x.com/petergyang/status/2080489081184874542",
+      "digest_excerpt": "Finally got access to ChatGPT Voice in the app, is it not available in existing threads?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2080489081184874542",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Finally got access to ChatGPT Voice in the app, is it not available in existing threads?"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which ",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-24T01:55:50+00:00",
+      "url": "https://x.com/levie/status/2080471989060559336",
+      "digest_excerpt": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \n\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\n\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\n\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2080471989060559336",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one). The 3rd category -no existing judgment, no interest in developing it- will basically produce slop and won’t drive that much economically productive activity. \n\nWhat will happen is that the experts will get better and better at their craft and be able to do so much more. Because they can wield these tools in ways that actually drive high quality output, veer agents in the right direction when they go off, and actually incorporate the work into something useful.\n\nThe expert engineer with agents will do far more productive work, precisely because they know how to steer the agent properly. The designer will product far better outcomes using AI than someone without an eye for design. And so on.\n\nAs a result of this dynamic, specialization will continue to be important, if not even more so as the tools get more powerful. Because the expectation of the market gets to be much higher. Getting good at any craft will continue to be necessary in the future."
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "Wise words.",
+      "source_name": "Kevin Weil",
+      "author": "kevinweil",
+      "published": "2026-07-24T01:54:30+00:00",
+      "url": "https://x.com/kevinweil/status/2080471656674594985",
+      "digest_excerpt": "Wise words.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/kevinweil/status/2080471656674594985",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Wise words."
+    },
+    {
+      "id": "S052",
+      "kind": "x",
+      "title": "Python code now starts 2x faster on Vercel. Automatically!",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-24T00:46:22+00:00",
+      "url": "https://x.com/rauchg/status/2080454509508387251",
+      "digest_excerpt": "Python code now starts 2x faster on Vercel. Automatically!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2080454509508387251",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Python code now starts 2x faster on Vercel. Automatically!"
+    },
+    {
+      "id": "S053",
+      "kind": "x",
+      "title": "voice makes you feel just how unnatural it is to type",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-23T22:06:55+00:00",
+      "url": "https://x.com/gdb/status/2080414383352529085",
+      "digest_excerpt": "voice makes you feel just how unnatural it is to type",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2080414383352529085",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "voice makes you feel just how unnatural it is to type"
+    }
+  ]
+}
