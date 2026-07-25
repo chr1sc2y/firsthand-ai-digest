@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T23:15:44.465821+00:00",
+  "source_segments": [
+    "segments/2026-07-25/06.json"
+  ],
+  "counts": {
+    "x": 36,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "https://t.co/WqFXbxd8MS",
+        "summary": "https://t.co/WqFXbxd8MS",
+        "link": "https://x.com/elonmusk/status/2081136328004063352",
+        "author": "elonmusk",
+        "published": "2026-07-25T21:55:40+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cool",
+        "summary": "Cool",
+        "link": "https://x.com/elonmusk/status/2081135033352347783",
+        "author": "elonmusk",
+        "published": "2026-07-25T21:50:32+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "🔥💯",
+        "summary": "🔥💯",
+        "link": "https://x.com/elonmusk/status/2081134752225009879",
+        "author": "elonmusk",
+        "published": "2026-07-25T21:49:25+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My friend Kun gives some of the best analysis on models there is, read it below:",
+        "summary": "My friend Kun gives some of the best analysis on models there is, read it below:",
+        "link": "https://x.com/petergyang/status/2081132101441823068",
+        "author": "petergyang",
+        "published": "2026-07-25T21:38:53+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it",
+        "summary": "The (software) factory is the product. Your product is only as good as the agents you set up to autonomously maintain it.\n\nThis is what @elonmusk figured out about Tesla, and it's now true for the software world. https://t.co/8Jj6JH6FAZ",
+        "link": "https://x.com/rauchg/status/2081123293340520642",
+        "author": "rauchg",
+        "published": "2026-07-25T21:03:53+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "cognition buying poke is the kind of quick @ScottWu46  acquisition that makes more sense with each passing day",
+        "summary": "cognition buying poke is the kind of quick @ScottWu46  acquisition that makes more sense with each passing day",
+        "link": "https://x.com/swyx/status/2081118746949878141",
+        "author": "swyx",
+        "published": "2026-07-25T20:45:49+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The most powerful moving object ever created by humans",
+        "summary": "The most powerful moving object ever created by humans",
+        "link": "https://x.com/elonmusk/status/2081116761085100213",
+        "author": "elonmusk",
+        "published": "2026-07-25T20:37:55+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The era of new model launches as big milestones will eventually come to an end -- at some point they will simply be cont",
+        "summary": "The era of new model launches as big milestones will eventually come to an end -- at some point they will simply be continuously updated, with no widely publicized version number. Probably less than 2 years away",
+        "link": "https://x.com/fchollet/status/2081107433980563841",
+        "author": "fchollet",
+        "published": "2026-07-25T20:00:52+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "I started doing all my research with agent CLIs and the filesystem. A 📁 𝚛𝚎𝚜𝚎𝚊𝚛𝚌𝚑/ folder, an 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍 describing the fo",
+        "summary": "I started doing all my research with agent CLIs and the filesystem. A 📁 𝚛𝚎𝚜𝚎𝚊𝚛𝚌𝚑/ folder, an 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍 describing the format I like and best practices. Then launch my agent and ask a question.\n\nNo fancy apps, knowledge graphs, UIs. The agent can be asked to find and correlate knowledge from previous sessions. Scales to infinity. The folder can be synced via iCloud, git, etc.\n\nIf I want to share some outcome, I can ask the agent to render a cool HTML report and deploy it to Vercel. The \"software\" that powers this is English in 𝙰𝙶𝙴𝙽𝚃𝚂.𝚖𝚍.",
+        "link": "https://x.com/rauchg/status/2081103993917649134",
+        "author": "rauchg",
+        "published": "2026-07-25T19:47:11+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "beautiful engineering https://t.co/Z5xp3ButAK",
+        "summary": "beautiful engineering https://t.co/Z5xp3ButAK",
+        "link": "https://x.com/elonmusk/status/2081098739104571671",
+        "author": "elonmusk",
+        "published": "2026-07-25T19:26:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Real photo of Starship taken by Starlink satellites",
+        "summary": "Real photo of Starship taken by Starlink satellites",
+        "link": "https://x.com/elonmusk/status/2081097702624952714",
+        "author": "elonmusk",
+        "published": "2026-07-25T19:22:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/8W7azDM0dZ",
+        "summary": "https://t.co/8W7azDM0dZ",
+        "link": "https://x.com/elonmusk/status/2081096946953945509",
+        "author": "elonmusk",
+        "published": "2026-07-25T19:19:11+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost glo",
+        "summary": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
+        "link": "https://x.com/thsottiaux/status/2081096447718723984",
+        "author": "thsottiaux",
+        "published": "2026-07-25T19:17:12+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Just deployed a new chess engine; we're closing in on an estimated 1200 Elo. \n\nThe goal is to get it to 2000+, while kee",
+        "summary": "Just deployed a new chess engine; we're closing in on an estimated 1200 Elo. \n\nThe goal is to get it to 2000+, while keeping the constraints:\n\n1. One small finetuned LLM (no custom pretraining or architecture)\n2. The model has to produce the moves with no chess engine assistance\n\nIf you relax these constraints, it gets much easier.",
+        "link": "https://x.com/amasad/status/2081086837263937543",
+        "author": "amasad",
+        "published": "2026-07-25T18:39:01+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "I find them baffling even to me. Especially bad for the ADHD brain.",
+        "summary": "I find them baffling even to me. Especially bad for the ADHD brain.",
+        "link": "https://x.com/amasad/status/2081081149355708749",
+        "author": "amasad",
+        "published": "2026-07-25T18:16:25+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "1B next!",
+        "summary": "1B next!",
+        "link": "https://x.com/sundarpichai/status/2081068241883918634",
+        "author": "sundarpichai",
+        "published": "2026-07-25T17:25:07+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "this is crazy",
+        "summary": "this is crazy",
+        "link": "https://x.com/danshipper/status/2081065765638201474",
+        "author": "danshipper",
+        "published": "2026-07-25T17:15:17+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Now with Google on board, this is a complete endorsement of open weights AI. Pretty big moment for the industry. https:/",
+        "summary": "Now with Google on board, this is a complete endorsement of open weights AI. Pretty big moment for the industry. https://t.co/ixwG6O6pWR",
+        "link": "https://x.com/levie/status/2081054531908247937",
+        "author": "levie",
+        "published": "2026-07-25T16:30:39+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/zdMaJvbYgT",
+        "summary": "https://t.co/zdMaJvbYgT",
+        "link": "https://x.com/rauchg/status/2081047912008872293",
+        "author": "rauchg",
+        "published": "2026-07-25T16:04:20+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed",
+        "summary": "A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed heavily to open source and science from Jax to Transformers to AlphaFold to Gemma open models which have now been downloaded 300M+ times. And the standards framework we’ve proposed supports responsible deployment of both open and proprietary models.",
+        "link": "https://x.com/demishassabis/status/2081039623422177765",
+        "author": "demishassabis",
+        "published": "2026-07-25T15:31:24+00:00",
+        "source_name": "Demis Hassabis",
+        "source_role": "CEO, Google DeepMind",
+        "source_handle": "demishassabis"
+      },
+      {
+        "kind": "x",
+        "title": "Jason is a DevEx engineer at OpenAI who wrote the official guidebook on how to use Codex for work.\n\nIn tomorrow’s episod",
+        "summary": "Jason is a DevEx engineer at OpenAI who wrote the official guidebook on how to use Codex for work.\n\nIn tomorrow’s episode, he showed me his complete Codex work system, including how to:\n\n→ Run a chief of staff across Slack and email\n→ Turn past sessions into new skills and workflows\n→ Build sites to learn anything, like the drums\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2081029209993154980",
+        "author": "petergyang",
+        "published": "2026-07-25T14:50:01+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Very happy to support this on behalf of Google. We have long benefited from open source, are big contributors to open so",
+        "summary": "Very happy to support this on behalf of Google. We have long benefited from open source, are big contributors to open source and in fact have consistently made open weights models with Gemma available from @GoogleDeepMind @demishassabis . Onwards!",
+        "link": "https://x.com/sundarpichai/status/2081026488158040181",
+        "author": "sundarpichai",
+        "published": "2026-07-25T14:39:13+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "ChatGPT Work for using websites which require login:",
+        "summary": "ChatGPT Work for using websites which require login:",
+        "link": "https://x.com/gdb/status/2080939030062178512",
+        "author": "gdb",
+        "published": "2026-07-25T08:51:41+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Hit a new record with our autoreview skill. 66 rounds on a gnarly refactor. https://t.co/zbUjIS2LQQ",
+        "summary": "Hit a new record with our autoreview skill. 66 rounds on a gnarly refactor. https://t.co/zbUjIS2LQQ",
+        "link": "https://x.com/steipete/status/2080899298838098034",
+        "author": "steipete",
+        "published": "2026-07-25T06:13:48+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "What has happened to towns who did nothing to deserve it, like little Piddington village, will happen to all of Britain,",
+        "summary": "What has happened to towns who did nothing to deserve it, like little Piddington village, will happen to all of Britain, unless there is fundamental political change.\n\nIt’s not right. Not right at all.",
+        "link": "https://x.com/elonmusk/status/2080894727130435596",
+        "author": "elonmusk",
+        "published": "2026-07-25T05:55:38+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Perplexity is now available as a CLI that can be used inside any harness. Pretty useful for letting coding agents use th",
+        "summary": "Perplexity is now available as a CLI that can be used inside any harness. Pretty useful for letting coding agents use the web.",
+        "link": "https://x.com/AravSrinivas/status/2080881062750933296",
+        "author": "AravSrinivas",
+        "published": "2026-07-25T05:01:20+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Pets make building fun",
+        "summary": "Pets make building fun",
+        "link": "https://x.com/gdb/status/2080874519091151227",
+        "author": "gdb",
+        "published": "2026-07-25T04:35:20+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "It was always perplexing to me that VCs passed on Etched in the early rounds. Glad they woke up… and early believers get",
+        "summary": "It was always perplexing to me that VCs passed on Etched in the early rounds. Glad they woke up… and early believers get less dilution 🙂",
+        "link": "https://x.com/amasad/status/2080864869130416320",
+        "author": "amasad",
+        "published": "2026-07-25T03:57:00+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "stories like this should be told more",
+        "summary": "stories like this should be told more",
+        "link": "https://x.com/gdb/status/2080861203010568232",
+        "author": "gdb",
+        "published": "2026-07-25T03:42:25+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Will Anthropic sign? \n\nIf you work at Anthropic worth asking your leadership to sign or make their position clear: Are t",
+        "summary": "Will Anthropic sign? \n\nIf you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models?",
+        "link": "https://x.com/amasad/status/2080850075358826871",
+        "author": "amasad",
+        "published": "2026-07-25T02:58:12+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "If you haven’t used Replit for a while, you’re in for a big surprise.",
+        "summary": "If you haven’t used Replit for a while, you’re in for a big surprise.",
+        "link": "https://x.com/amasad/status/2080848381967212975",
+        "author": "amasad",
+        "published": "2026-07-25T02:51:29+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Work life harmony",
+        "summary": "Work life harmony",
+        "link": "https://x.com/amasad/status/2080848245920837778",
+        "author": "amasad",
+        "published": "2026-07-25T02:50:56+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Stay hungry, stay foolish. Absolute legend https://t.co/PMHyBdkxGT",
+        "summary": "Stay hungry, stay foolish. Absolute legend https://t.co/PMHyBdkxGT",
+        "link": "https://x.com/DrJimFan/status/2080798306566045756",
+        "author": "DrJimFan",
+        "published": "2026-07-24T23:32:30+00:00",
+        "source_name": "Jim Fan",
+        "source_role": "Senior Research Scientist, NVIDIA",
+        "source_handle": "DrJimFan"
+      },
+      {
+        "kind": "x",
+        "title": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great.\n\nTo do this well I think you have to ",
+        "summary": "Lying on the bed and talking to ChatGPT Voice to do work in codex is pretty great.\n\nTo do this well I think you have to remember the names of all your long running threads.",
+        "link": "https://x.com/petergyang/status/2080793867960643823",
+        "author": "petergyang",
+        "published": "2026-07-24T23:14:52+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Better late than never https://t.co/vw7ACmrVhy",
+        "summary": "Better late than never https://t.co/vw7ACmrVhy",
+        "link": "https://x.com/amasad/status/2080782941899370885",
+        "author": "amasad",
+        "published": "2026-07-24T22:31:27+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "am I a graph engineer now https://t.co/QYO04bQDIW",
+        "summary": "am I a graph engineer now https://t.co/QYO04bQDIW",
+        "link": "https://x.com/steipete/status/2080779917130858598",
+        "author": "steipete",
+        "published": "2026-07-24T22:19:25+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "2026-07-25",
+        "summary": "AI 早报 2026 07 25 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Anthropic 发布 Claude Opus 5，以一半价格提供接近 Fable 5 的前沿智能 ↗ 1 NVIDIA、Meta和微软等公司联名呼吁美政府勿对开放权重AI设限 ↗ 2 Kimi 在 Kimi Code Plan 新增 k3 256k 模型ID ↗ 3 模型发布 Sakana AI 发布 Fugu Ultra v1.1 及兼容 Claude Code 的接口 ↗ 4 Midjourney 推出 V8.2 模型以提升图像质量与个性化能力 ↗ 5 SANA Video 2.0 发布：涵盖 5B 与 14B 规格，效率大幅提升 ↗ 6 Swiss AI Initiative 发布完全开源多模态模型 Apertus…",
+        "link": "https://daily.juya.uk/issues/2026-07-25/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-25T01:27:01+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Quoting Boris Cherny",
+        "summary": "<blockquote cite=\"https://twitter.com/bcherny/status/2080713091688583312\"><p>More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/bcherny/status/2080713091688583312\">Boris Cherny</a>, here's that <a href=\"https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73\">System Card section</a>, page 73</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/boris-cherny\">boris-cherny</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/",
+        "author": "",
+        "keywords": "prompt-injection anthropic claude generative-ai ai llms boris-cherny",
+        "published": "2026-07-25T00:42:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Introducing Claude Opus 5",
+        "summary": "<p><strong><a href=\"https://www.anthropic.com/news/claude-opus-5\">Introducing Claude Opus 5</a></strong></p>\nI've been offline <a href=\"https://en.wikipedia.org/wiki/Elkhorn_Slough\">kayaking with sea otters</a> for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently <a href=\"https://twitter.com/artificialanlys/status/2080777718933995967\">leading the Artificial Analysis leaderboard</a>, in front of even Fable 5.</p>\n<p>It's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model.</p>\n<p>Based on this anecdote in the release post it sounds like it might be <a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\">relentlessly proactive</a>:</p>\n<blockquote>\n<p>On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part.</p>\n</blockquote>\n<p>It's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down!</p>\n<blockquote>\n<p>As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at <em>finding</em> cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the <em>exploitation</em> of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats.</p>\n</blockquote>\n<p>Anthropic have published a <a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5\">prompting guide for Claude Opus 5</a>. Thariq Shihipar has also written <a href=\"https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models\">The new rules of context engineering for Claude 5 generation models</a>.</p>\n<p>The <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2F8272dfee5bdb65d5c88eef083da3ad885539b7df%2Flog.md\">first pelican I got</a> was missing the bicycle wheels; the <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fraw.githubusercontent.com%2Fsimonw%2Fllm-anthropic%2Ffeaab840ea20eb15e29d8f72a9e42feceb23876a%2Flog.md\">second attempt</a> was better.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/",
+        "author": "",
+        "keywords": "ai generative-ai llms anthropic claude llm-release",
+        "published": "2026-07-24T23:48:50+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Belt and Road Was Doomed From the Start – Sarah Paine",
+        "summary": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=ZITx3fBlkE8",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-25T18:02:31+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  }
+}
