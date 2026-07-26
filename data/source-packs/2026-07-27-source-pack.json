@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-26T23:17:17.757723+00:00",
+  "coverage": {
+    "start": "2026-07-25T22:00:00+00:00",
+    "end": "2026-07-26T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-26T23:14:58.636052+00:00",
+  "item_count": 31,
+  "source_count": 31,
+  "access_counts": {
+    "substantial": 3,
+    "partial": 28,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-26T19:30:54+00:00",
+      "url": "https://simonwillison.net/2026/Jul/26/relay-market/",
+      "digest_excerpt": "<p><strong><a href=\"https://vectoral.com/blog/token-relay-market\">An Inside Look at the Relay Market Powering Token Resellers and Fraud</a></strong></p>\nFascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources.</p>\n<p>This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks.</p>\n<p>The software they are using for these proxies is open source - mostly <a href=\"https://github.com/songquanpeng/one-api\">one-api</a> and its more actively developed fork <a href=\"https://github.com/QuantumNous/new-api\">new-api</a>, both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials.</p>\n<p>The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation.</p>\n<p>I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new unprotected endpoint to exploit.</p>\n<p>LLM vendors <em>really</em> need to get better at offering strict caps for their API keys. I want my LLM apps to stop working the moment they hit a dollar threshold I've set for a period of time.</p>\n<p>Here's <a href=\"https://www.v2ex.com/t/1196011\">the (Chinese language) forum thread</a> that served as the principal source for Matt's article.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49058993\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm-pricing\">llm-pricing</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/26/relay-market/",
+        "limitation": ""
+      },
+      "page_title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "page_description": "Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n26th July 2026 - Link Blog\nAn Inside Look at the Relay Market Powering Token Resellers and Fraud\n(\nvia\n) Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources.\nThis looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks.\nThe software they are using for these proxies is open source - mostly\none-api\nand its more actively developed fork\nnew-api\n, both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials.\nThe buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation.\nI've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new unprotected endpoint to exploit.\nLLM vendors\nreally\nneed to get better at offering strict caps for their API keys. I want my LLM apps to stop working the moment they hit a dollar threshold I've set for a period of time.\nHere's\nthe (Chinese language) forum thread\nthat served as the principal source for Matt's article.\nPosted\n26th July 2026\nat 7:30 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n26th July 2026\n.\nai\n2,143\ngenerative-ai\n1,895\nllms\n1,862\nllm-pricing\n85\nai-ethics\n327\nai-in-china\n100\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "2026-07-26",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-26T01:11:46+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-26/",
+      "digest_excerpt": "AI 早报 2026 07 26 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 OpenAI 昨日遭遇严重服务中断，已恢复并重置用户使用限制 1 行业动态 多企签署公开信支持开放权重 AI，OpenAI 与 Google 已加入 ↗ 2 韩美科技企业在旧金山AI峰会签署约9500亿美元合作协议 ↗ 3 前瞻与传闻 彭博社：DeepSeek暂停第二轮融资 ↗ 4 要闻 OpenAI 昨日遭遇严重服务中断，已恢复并重置用户使用限制 1 昨日，OpenAI 发生严重的服务中断，波及 APIs、ChatGPT 和 Codex。OpenAI 团队成员 Tibo 表示服务已恢复，并已重置所有 Codex 和 ChatGPT Work 用户的使用限制。 昨日，OpenAI 遭遇近乎全面的服务中断，影响 APIs、Ch…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-26/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-26",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-26 ·\nMarkdown\nAI 早报 2026-07-26\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nOpenAI 昨日遭遇严重服务中断，已恢复并重置用户使用限制\n#1\n行业动态\n多企签署公开信支持开放权重 AI，OpenAI 与 Google 已加入\n↗\n#2\n韩美科技企业在旧金山AI峰会签署约9500亿美元合作协议\n↗\n#3\n前瞻与传闻\n彭博社：DeepSeek暂停第二轮融资\n↗\n#4\n要闻\nOpenAI 昨日遭遇严重服务中断，已恢复并重置用户使用限制\n#1\n昨日，OpenAI 发生严重的服务中断，波及 APIs、ChatGPT 和 Codex。OpenAI 团队成员 Tibo 表示服务已恢复，并已重置所有 Codex 和 ChatGPT Work 用户的使用限制。\n昨日，OpenAI 遭遇近乎全面的服务中断，影响 APIs、ChatGPT 和 Codex 等多项服务。OpenAI 团队成员 Tibo 随后宣布，已为所有 Codex 和 ChatGPT Work 用户重置使用限制，并确认目前服务已恢复。\n行业动态\n多企签署公开信支持开放权重 AI，OpenAI 与 Google 已加入\n#2\nNVIDIA、微软和 Meta 等公司于北京时间 7 月 24 日联合发布了一封公开信，呼吁支持开放权重 AI 模型。OpenAI 在公开信最初发布时并未列入联署方名单，之后才加入。Sundar Pichai 和 Demis Hassabis 也先后发文表示支持，并随后参与联署。目前，已有约 50 家企业和机构在该公开信上联署。\nNvidia、微软、Meta、IBM 等公司此前签署了名为《开放权重与美国 AI 领导力》的公开信，呼吁美国政策制定者避免对开放权重 AI 模型实施过早或大范围限制。公开信认为，开放模型有助于加强安全与网络安全、加速创新与扩散，并巩固美国的 AI 领导地位。OpenAI 在公开信最初发布时并未列入联署方名单，之后才加入。Sundar Pichai 和 Demis Hassabis 也先后发文表示支持，并随后参与联署。目前，已有约 50 家企业和机构在该公开信上联署。\n相关链接：\nhttps://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\nhttps://x.com/sama/status/2080683363174945065\nhttps://x.com/sundarpichai/status/2081026488158040181\nhttps://x.com/demishassabis/status/2081039623422177765\n韩美科技企业在旧金山AI峰会签署约9500亿美元合作协议\n#3\n韩国政商领袖参与旧金山AI峰会，韩美科技企业签署约9500亿美元AI合作协议，覆盖先进存储、AI芯片代工及数据中心等领域，为期五年。\n韩国政商领袖参与了旧金山AI峰会。据韩国总统府政策室长金容范介绍，峰会期间三星电子与博通签署五年期2000亿美元合作谅解备忘录，覆盖先进存储半导体供应及AI芯片晶圆代工。SK集团与英伟达等美企达成五年7500亿美元合作，其中SK hynix与英伟达合作计划超5000亿美元，涵盖AI数据中心及下一代存储芯片研发。整体合作项目规模约1375万亿韩元，约150名企业高管出席峰会。\n相关链接：\nhttps://blogs.nvidia.com/blog/ai-summit-korea-partners-and-nvidia/\nhttps://www.hyundai.com/worldwide/en/newsroom/detail/0000001238\nhttps://m.21jingji.com/article/20260726/herald/8c979ea95be54369426fab2e10838012.html?utm_source=chatgpt.com\n前瞻与传闻\n彭博社：DeepSeek暂停第二轮融资\n#4\n据报道，因创始人梁文锋对内部发言外泄的不满，DeepSeek已暂停第二轮融资，并口头通知部分{潜在投资者|\"潜在投资者\"}将不会按预期签署投资协议，但仍可能恢复融资，并已开始筹备IPO。\n据彭博社报道，DeepSeek已暂停其第二轮融资，并口头通知部分潜在投资者将不会按预期签署投资协议。此次暂停部分源于创始人梁文锋对首轮融资期间近4小时内部发言遭外泄的不满。报道称，DeepSeek仍可能在日后恢复交易流程，且已开始筹备首次公开募股，IPO最早可能在今年内申报。\n相关链接：\nhttps://www.bloomberg.com/news/articles/2026-07-25/deepseek-said-to-tell-backers-of-funding-pause-after-viral-posts\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "Ruff v0.16.0",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-25T22:44:05+00:00",
+      "url": "https://simonwillison.net/2026/Jul/25/ruff/",
+      "digest_excerpt": "<p><strong><a href=\"https://astral.sh/blog/ruff-v0.16.0\">Ruff v0.16.0</a></strong></p>\nAstral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned <code>\"ruff\"</code> dev dependency.</p>\n<p>From Brent Westbrook's announcement post:</p>\n<blockquote>\n<p>Ruff now enables 413 rules by default, up from 59 in previous versions.</p>\n<p>Since Ruff's default rule set was last modified in <a href=\"https://github.com/astral-sh/ruff/blob/main/changelogs/0.1.x.md#breaking-changes\">v0.1.0</a>, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including <a href=\"https://docs.astral.sh/ruff/rules/load-before-global-declaration\">syntax errors</a> and <a href=\"https://docs.astral.sh/ruff/rules/yield-in-init/\">immediate runtime errors</a> but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.</p>\n</blockquote>\n<p>Here's a one-liner for trying it on any Python project:</p>\n<pre><code>uvx ruff@latest check .\n</code></pre>\n<p>I ran the latest Ruff against my three biggest projects - <a href=\"https://datasette.io/\">Datasette</a>, <a href=\"https://sqlite-utils.datasette.io/\">sqlite-utils</a>, and <a href=\"https://llm.datasette.io/\">LLM</a> - and it found <em>hundreds</em> of minor issues that breached the new default rules.</p>\n<p>All three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:</p>\n<pre><code>uvx ruff@latest check . --fix --unsafe-fixes\n</code></pre>\n<p>Against <code>sqlite-utils</code>, that command reported:</p>\n<pre><code>Found 1618 errors (1538 fixed, 80 remaining).\n</code></pre>\n<p>As an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:</p>\n<pre><code>DTZ005 `datetime.datetime.now()` called without a `tz` argument\n  --&gt; tests/test_duplicate.py:17:10\n   |\n15 |     \"datetime_col\" TEXT)\"\"\")\n16 |     # Insert one row of mock data:\n17 |     dt = datetime.datetime.now()\n   |          ^^^^^^^^^^^^^^^^^^^^^^^\n18 |     data = {\n19 |         \"text_col\": \"Cleo\",\n   |\nhelp: Pass a `datetime.timezone` object to the `tz` parameter\n\nBLE001 Do not catch blind exception: `Exception`\n  --&gt; tests/test_plugins.py:16:12\n   |\n14 |         db.execute(\"select * from pragma_function_list()\")\n15 |         return True\n16 |     except Exception:\n   |            ^^^^^^^^^\n17 |         return False\n18 |     finally:\n   |\n\nB018 Found useless attribute access. Either assign it to a variable or remove it.\n  --&gt; tests/test_update.py:46:5\n   |\n44 | def test_update_invalid_pk(fresh_db, pk, update_pk):\n45 |     table = fresh_db[\"table\"]\n46 |     table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk\n   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n47 |     with pytest.raises(NotFoundError):\n48 |         table.update(update_pk, {\"v\": 2})\n   |\n</code></pre>\n<p>Unsurprisingly, given Astral's <a href=\"https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/\">new home at OpenAI</a>, this output provides everything a coding agent would need to fix the problems.</p>\n<p>I had Codex (GPT-5.6 Sol high) <a href=\"https://github.com/simonw/llm/pull/1557\">upgrade LLM</a> and <a href=\"https://github.com/simonw/sqlite-utils/pull/814\">sqlite-utils</a>, and Claude Code (with Opus 5) <a href=\"https://github.com/simonw/datasette/pull/2857\">upgrade Datasette</a>.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/ruff\">ruff</a>, <a href=\"https://simonwillison.net/tags/astral\">astral</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/25/ruff/",
+        "limitation": ""
+      },
+      "page_title": "Ruff v0.16.0",
+      "page_description": "Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n25th July 2026 - Link Blog\nRuff v0.16.0\n. Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned\n\"ruff\"\ndev dependency.\nFrom Brent Westbrook's announcement post:\nRuff now enables 413 rules by default, up from 59 in previous versions.\nSince Ruff's default rule set was last modified in\nv0.1.0\n, the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including\nsyntax errors\nand\nimmediate runtime errors\nbut were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration.\nHere's a one-liner for trying it on any Python project:\nuvx ruff@latest check .\nI ran the latest Ruff against my three biggest projects -\nDatasette\n,\nsqlite-utils\n, and\nLLM\n- and it found\nhundreds\nof minor issues that breached the new default rules.\nAll three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades:\nuvx ruff@latest check . --fix --unsafe-fixes\nAgainst\nsqlite-utils\n, that command reported:\nFound 1618 errors (1538 fixed, 80 remaining).\nAs an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one:\nDTZ005 `datetime.datetime.now()` called without a `tz` argument --> tests/test_duplicate.py:17:10 | 15 | \"datetime_col\" TEXT)\"\"\") 16 | # Insert one row of mock data: 17 | dt = datetime.datetime.now() | ^^^^^^^^^^^^^^^^^^^^^^^ 18 | data = { 19 | \"text_col\": \"Cleo\", | help: Pass a `datetime.timezone` object to the `tz` parameter BLE001 Do not catch blind exception: `Exception` --> tests/test_plugins.py:16:12 | 14 | db.execute(\"select * from pragma_function_list()\") 15 | return True 16 | except Exception: | ^^^^^^^^^ 17 | return False 18 | finally: | B018 Found useless attribute access. Either assign it to a variable or remove it. --> tests/test_update.py:46:5 | 44 | def test_update_invalid_pk(fresh_db, pk, update_pk): 45 | table = fresh_db[\"table\"] 46 | table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 47 | with pytest.raises(NotFoundError): 48 | table.update(update_pk, {\"v\": 2}) |\nUnsurprisingly, given Astral's\nnew home at OpenAI\n, this output provides everything a coding agent would need to fix the problems.\nI had Codex (GPT-5.6 Sol high)\nupgrade LLM\nand\nsqlite-utils\n, and Claude Code (with Opus 5)\nupgrade Datasette\n.\nPosted\n25th July 2026\nat 10:44 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n25th July 2026\n.\npython\n1,268\nruff\n7\nastral\n18\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S004",
+      "kind": "video",
+      "title": "Why Russia Can't Build America's Empire – Sarah Paine",
+      "source_name": "Dwarkesh Patel",
+      "author": "Dwarkesh Clips",
+      "published": "2026-07-26T17:45:06+00:00",
+      "url": "https://www.youtube.com/watch?v=KJh5Nld1kdI",
+      "digest_excerpt": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=KJh5Nld1kdI",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp"
+    },
+    {
+      "id": "S005",
+      "kind": "x",
+      "title": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton o",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-26T21:27:29+00:00",
+      "url": "https://x.com/levie/status/2081491621162668207",
+      "digest_excerpt": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows.\n\nIntelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world feedback loops. That requires connecting to various enterprise systems, getting the right data to the AI, enabling humans to make decisions at different steps in a process through the right UX, having workflows that improve the underlying data and models over time, dealing with regulatory and compliance challenges, and more. \n\nThe way you implement AI agents for doing client onboarding in a bank is entirely different from contract review in a legal team. In life sciences, financial services, legal, manufacturing, and many other critical industries, AI is only valuable if it makes contact with the real world in a contextual way. \n\nThe way that interaction is going to happen is through an applied AI layer. Some of that will come from the labs directly, but lots of the opportunity will necessarily come from independent companies that can go deep in each industry.\n\nAnd counter to some beliefs, this need isn’t reduced even as AI model capability improves over time. In fact, the better the models get, the more ambitious you can be in the workflows you can automate, which generally requires even more of this applied layer. Tons of opportunity right now.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2081491621162668207",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "There’s still so much opportunity in the diffusion of AI into the real world. Most enterprises are going to need a ton of support to be able to apply the model breakthroughs to their workflows.\n\nIntelligence alone is not enough to transform most processes because you need to bridge that intelligence with real world feedback loops. That requires connecting to various enterprise systems, getting the right data to the AI, enabling humans to make decisions at different steps in a process through the right UX, having workflows that improve the underlying data and models over time, dealing with regulatory and compliance challenges, and more. \n\nThe way you implement AI agents for doing client onboarding in a bank is entirely different from contract review in a legal team. In life sciences, financial services, legal, manufacturing, and many other critical industries, AI is only valuable if it makes contact with the real world in a contextual way. \n\nThe way that interaction is going to happen is through an applied AI layer. Some of that will come from the labs directly, but lots of the opportunity will necessarily come from independent companies that can go deep in each industry.\n\nAnd counter to some beliefs, this need isn’t reduced even as AI model capability improves over time. In fact, the better the models get, the more ambitious you can be in the workflows you can automate, which generally requires even more of this applied layer. Tons of opportunity right now."
+    },
+    {
+      "id": "S006",
+      "kind": "x",
+      "title": "Grok 4.5 is a solid workhorse",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-26T21:01:16+00:00",
+      "url": "https://x.com/elonmusk/status/2081485024872796427",
+      "digest_excerpt": "Grok 4.5 is a solid workhorse",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081485024872796427",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.5 is a solid workhorse"
+    },
+    {
+      "id": "S007",
+      "kind": "x",
+      "title": "The innateness of personality is obvious in kids because they haven't yet had the time to undergo any meaningful environ",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-26T20:08:44+00:00",
+      "url": "https://x.com/fchollet/status/2081471801729708526",
+      "digest_excerpt": "The innateness of personality is obvious in kids because they haven't yet had the time to undergo any meaningful environment-induced (or self-induced) change. They express their raw nature.\n\nHowever, I believe that experience shapes personality significantly over the long term, especially between the ages of ~15 and ~25. I also believe that people are capable of deliberately building themselves, choosing to alter their own personalities through a wide range of means. The person you were born as doesn't have to be the person you die as.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2081471801729708526",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The innateness of personality is obvious in kids because they haven't yet had the time to undergo any meaningful environment-induced (or self-induced) change. They express their raw nature.\n\nHowever, I believe that experience shapes personality significantly over the long term, especially between the ages of ~15 and ~25. I also believe that people are capable of deliberately building themselves, choosing to alter their own personalities through a wide range of means. The person you were born as doesn't have to be the person you die as."
+    },
+    {
+      "id": "S008",
+      "kind": "x",
+      "title": "\"Turn this thread into a heartbeat. Check my emails, Slack, and Linear at 9 am, 1 pm, 5 pm, and tell me what I need to p",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-26T19:30:05+00:00",
+      "url": "https://x.com/petergyang/status/2081462078758592947",
+      "digest_excerpt": "\"Turn this thread into a heartbeat. Check my emails, Slack, and Linear at 9 am, 1 pm, 5 pm, and tell me what I need to prioritize.\"\n\nFrom @jxnlco (DevEx at OpenAI):\n\n\"Just by doing this, [Codex] will give you a pretty good overview of your day. Then you layer on more preferences over time.\n\nFor example, when it first ran, it didn't include links, so I asked for links. Then I had it use Linear. Now it pre-drafts my Slack replies and emails for me.\"\n\n📌 Watch the full episode here: https://t.co/DulNtYvqGD",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081462078758592947",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "\"Turn this thread into a heartbeat. Check my emails, Slack, and Linear at 9 am, 1 pm, 5 pm, and tell me what I need to prioritize.\"\n\nFrom @jxnlco (DevEx at OpenAI):\n\n\"Just by doing this, [Codex] will give you a pretty good overview of your day. Then you layer on more preferences over time.\n\nFor example, when it first ran, it didn't include links, so I asked for links. Then I had it use Linear. Now it pre-drafts my Slack replies and emails for me.\"\n\n📌 Watch the full episode here: https://t.co/DulNtYvqGD"
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "ChatGPT is increasingly becoming your personal AGI",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-26T19:14:35+00:00",
+      "url": "https://x.com/gdb/status/2081458174662726009",
+      "digest_excerpt": "ChatGPT is increasingly becoming your personal AGI",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2081458174662726009",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT is increasingly becoming your personal AGI"
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "Grok Build /deep-research",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-26T18:40:44+00:00",
+      "url": "https://x.com/elonmusk/status/2081449658363134075",
+      "digest_excerpt": "Grok Build /deep-research",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081449658363134075",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Build /deep-research"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam ema",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-26T18:21:29+00:00",
+      "url": "https://x.com/thsottiaux/status/2081444811647963244",
+      "digest_excerpt": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081444811647963244",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised."
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "Jensen is awesome",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-26T17:35:44+00:00",
+      "url": "https://x.com/elonmusk/status/2081433297846935762",
+      "digest_excerpt": "Jensen is awesome",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081433297846935762",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Jensen is awesome"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "https://t.co/yMnPF5qb4t",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-26T17:16:50+00:00",
+      "url": "https://x.com/elonmusk/status/2081428541585899753",
+      "digest_excerpt": "https://t.co/yMnPF5qb4t",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081428541585899753",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/yMnPF5qb4t"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-26T16:12:04+00:00",
+      "url": "https://x.com/danshipper/status/2081412243388788988",
+      "digest_excerpt": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders @openai) \n\npublishing on @every in a few weeks\n\ni will be dropping breadcrumbs and learnings as i go :)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2081412243388788988",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "i am taking the week off to write the definitive history of how codex happened (as told by deep interviews with insiders @openai) \n\npublishing on @every in a few weeks\n\ni will be dropping breadcrumbs and learnings as i go :)"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "put chatgpt to work",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-26T16:00:11+00:00",
+      "url": "https://x.com/gdb/status/2081409255916359771",
+      "digest_excerpt": "put chatgpt to work",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2081409255916359771",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "put chatgpt to work"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "chatgpt work is remarkable, and \"work\" undersells it.\n\nfrom my phone i sent:\n\n\"use all my chat history to figure out ide",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-26T15:10:41+00:00",
+      "url": "https://x.com/sama/status/2081396796174282900",
+      "digest_excerpt": "chatgpt work is remarkable, and \"work\" undersells it.\n\nfrom my phone i sent:\n\n\"use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate on what we would want to do in each place and decide where to go, and then after we get to group agreement make reservations. draft an email in my gmail i can send out to my friends when the site is ready.\"\n\nit...just worked.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2081396796174282900",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "chatgpt work is remarkable, and \"work\" undersells it.\n\nfrom my phone i sent:\n\n\"use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate on what we would want to do in each place and decide where to go, and then after we get to group agreement make reservations. draft an email in my gmail i can send out to my friends when the site is ready.\"\n\nit...just worked."
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "“The only job left is to understand what you don't like, put it into words, and tell the AI.”\n\nHere’s my new episode wit",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-26T14:15:10+00:00",
+      "url": "https://x.com/petergyang/status/2081382827548148091",
+      "digest_excerpt": "“The only job left is to understand what you don't like, put it into words, and tell the AI.”\n\nHere’s my new episode with @jxnlco (DevEx at OpenAI) where he showed me how he uses Codex throughout his workday, including how to:\n\n→ Set up a chief of staff for Slack and email\n→ Turn past sessions into new AI skills\n→ Give long-running projects verifiable goals\n\nSome example Codex use cases from Jason:\n\n“I want you to read the past week of Slack messages I’ve written and make a skill to figure out how to talk like me.”\n\n“Turn this thread into a heartbeat. I want you to check my emails, my Slack, my Linear, and tell me what I need to prioritize.”\n\n“Codex can find a booking ticket and check into the flight for me and text me the boarding pass to my phone.”\n\nJason wrote the official OpenAI handbook on how to get the most out of Codex, so don’t miss this episode.\n\n📌 Watch now: https://t.co/DulNtYvqGD\n\nThanks to our sponsors:\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE\n\nGoogle AI Studio: Build apps with Nano Banana, and more https://t.co/9JFUknWYNR",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081382827548148091",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "“The only job left is to understand what you don't like, put it into words, and tell the AI.”\n\nHere’s my new episode with @jxnlco (DevEx at OpenAI) where he showed me how he uses Codex throughout his workday, including how to:\n\n→ Set up a chief of staff for Slack and email\n→ Turn past sessions into new AI skills\n→ Give long-running projects verifiable goals\n\nSome example Codex use cases from Jason:\n\n“I want you to read the past week of Slack messages I’ve written and make a skill to figure out how to talk like me.”\n\n“Turn this thread into a heartbeat. I want you to check my emails, my Slack, my Linear, and tell me what I need to prioritize.”\n\n“Codex can find a booking ticket and check into the flight for me and text me the boarding pass to my phone.”\n\nJason wrote the official OpenAI handbook on how to get the most out of Codex, so don’t miss this episode.\n\n📌 Watch now: https://t.co/DulNtYvqGD\n\nThanks to our sponsors:\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE\n\nGoogle AI Studio: Build apps with Nano Banana, and more https://t.co/9JFUknWYNR"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "The @ChatGPT mobile app becomes very laggy if you’re having a long conversation - even inputting text becomes slow.",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-26T13:11:56+00:00",
+      "url": "https://x.com/petergyang/status/2081366913658307027",
+      "digest_excerpt": "The @ChatGPT mobile app becomes very laggy if you’re having a long conversation - even inputting text becomes slow.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081366913658307027",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The @ChatGPT mobile app becomes very laggy if you’re having a long conversation - even inputting text becomes slow."
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "Most people are conditioned to expect that all known problems already have canonical solutions, that these solutions are",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-26T07:55:42+00:00",
+      "url": "https://x.com/fchollet/status/2081287329302323482",
+      "digest_excerpt": "Most people are conditioned to expect that all known problems already have canonical solutions, that these solutions are the best that can be achieved, and that attempting to reinvent them would be a pointless, quixotic effort.\n\nIn reality, everything out there was made by people no smarter than you, often idiots stumbling in the dark. Not only can new solutions be found, but entirely new paradigms are absolutely possible, including ones that completely bypass the current tech tree.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2081287329302323482",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Most people are conditioned to expect that all known problems already have canonical solutions, that these solutions are the best that can be achieved, and that attempting to reinvent them would be a pointless, quixotic effort.\n\nIn reality, everything out there was made by people no smarter than you, often idiots stumbling in the dark. Not only can new solutions be found, but entirely new paradigms are absolutely possible, including ones that completely bypass the current tech tree."
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "GPT-Live for a different reading experience:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-26T07:46:41+00:00",
+      "url": "https://x.com/gdb/status/2081285058485534856",
+      "digest_excerpt": "GPT-Live for a different reading experience:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2081285058485534856",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-Live for a different reading experience:"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-26T05:43:59+00:00",
+      "url": "https://x.com/thsottiaux/status/2081254182502465981",
+      "digest_excerpt": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081254182502465981",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug."
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "true fact",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-26T04:23:17+00:00",
+      "url": "https://x.com/gdb/status/2081233872168390661",
+      "digest_excerpt": "true fact",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2081233872168390661",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "true fact"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Game changer when used from mobile. Available in the ChatGPT app already.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-26T04:04:58+00:00",
+      "url": "https://x.com/thsottiaux/status/2081229262452097169",
+      "digest_excerpt": "Game changer when used from mobile. Available in the ChatGPT app already.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081229262452097169",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Game changer when used from mobile. Available in the ChatGPT app already."
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "There really is nothing like X.",
+      "source_name": "Kevin Weil",
+      "author": "kevinweil",
+      "published": "2026-07-26T03:44:35+00:00",
+      "url": "https://x.com/kevinweil/status/2081224133770412113",
+      "digest_excerpt": "There really is nothing like X.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/kevinweil/status/2081224133770412113",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "There really is nothing like X."
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "Grok Imagine https://t.co/wDMHRZYL0d",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-26T03:25:03+00:00",
+      "url": "https://x.com/elonmusk/status/2081219220415652110",
+      "digest_excerpt": "Grok Imagine https://t.co/wDMHRZYL0d",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081219220415652110",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Imagine https://t.co/wDMHRZYL0d"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "tfw when last nights edible finally kicks in https://t.co/k8QkUUo7go",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-26T02:50:39+00:00",
+      "url": "https://x.com/amasad/status/2081210562881716339",
+      "digest_excerpt": "tfw when last nights edible finally kicks in https://t.co/k8QkUUo7go",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2081210562881716339",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "tfw when last nights edible finally kicks in https://t.co/k8QkUUo7go"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-26T02:03:09+00:00",
+      "url": "https://x.com/thsottiaux/status/2081198608293187635",
+      "digest_excerpt": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081198608293187635",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go."
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "1) Competition is good for the ecosystem.\n2) Serving models at scale is hard.\n\nProud that @OpenAI signed the letter. Ant",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-26T00:32:30+00:00",
+      "url": "https://x.com/steipete/status/2081175795587072421",
+      "digest_excerpt": "1) Competition is good for the ecosystem.\n2) Serving models at scale is hard.\n\nProud that @OpenAI signed the letter. Ant is silent on it.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2081175795587072421",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "1) Competition is good for the ecosystem.\n2) Serving models at scale is hard.\n\nProud that @OpenAI signed the letter. Ant is silent on it."
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really unders",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-26T00:06:59+00:00",
+      "url": "https://x.com/steipete/status/2081169373784633552",
+      "digest_excerpt": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at compaction boundaries and/or the model started cheating. https://t.co/5xnKD6nAKh",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2081169373784633552",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Been running codex all day to do massive parallel QA in prep of the next release. Sol got insanely good at really understanding intent and is finding complex behavior issues.\n\nIn the past such workflow did fell apart at compaction boundaries and/or the model started cheating. https://t.co/5xnKD6nAKh"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "https://t.co/O7y9dmUqk5 is more fundamental than any other framework we’ve built.\n\nIt’s the genesis of your company. Whe",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-25T22:48:59+00:00",
+      "url": "https://x.com/rauchg/status/2081149743368122723",
+      "digest_excerpt": "https://t.co/O7y9dmUqk5 is more fundamental than any other framework we’ve built.\n\nIt’s the genesis of your company. When you have a new idea, don’t think: “I’ll go to an agent and ad-hoc prompt.”\n\nThink: how can I build the factory that will start, maintain and grow my idea",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081149743368122723",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/O7y9dmUqk5 is more fundamental than any other framework we’ve built.\n\nIt’s the genesis of your company. When you have a new idea, don’t think: “I’ll go to an agent and ad-hoc prompt.”\n\nThink: how can I build the factory that will start, maintain and grow my idea"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "lmao @ClementDelangue doing the 🇳🇴 https://t.co/K4fzvccUFA",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-25T22:19:00+00:00",
+      "url": "https://x.com/swyx/status/2081142196510843374",
+      "digest_excerpt": "lmao @ClementDelangue doing the 🇳🇴 https://t.co/K4fzvccUFA",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2081142196510843374",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "lmao @ClementDelangue doing the 🇳🇴 https://t.co/K4fzvccUFA"
+    }
+  ]
+}
