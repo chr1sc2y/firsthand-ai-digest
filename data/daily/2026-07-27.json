@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T23:29:24.571806+00:00",
+  "source_segments": [
+    "segments/2026-07-27/06.json"
+  ],
+  "counts": {
+    "x": 41,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 3
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush ",
+        "summary": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
+        "link": "https://x.com/thsottiaux/status/2081860991210631476",
+        "author": "thsottiaux",
+        "published": "2026-07-27T21:55:14+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-perfo",
+        "summary": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance.\n\nIt's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf.\n\nSol remains the frontier, ahead of Opus 5.",
+        "link": "https://x.com/rauchg/status/2081852481517318560",
+        "author": "rauchg",
+        "published": "2026-07-27T21:21:25+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "🇪🇺/acc",
+        "summary": "🇪🇺/acc",
+        "link": "https://x.com/rauchg/status/2081845695112446364",
+        "author": "rauchg",
+        "published": "2026-07-27T20:54:27+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Kimi's paper underlines the importance of the right security boundary for agents to run in.\n\ntl:DR: container-level isol",
+        "summary": "Kimi's paper underlines the importance of the right security boundary for agents to run in.\n\ntl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics).\n\nFirecracker microVMs (as in Vercel Sandbox) are safe. https://t.co/wvbdBo5Ng8",
+        "link": "https://x.com/rauchg/status/2081842439304995169",
+        "author": "rauchg",
+        "published": "2026-07-27T20:41:30+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+        "summary": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+        "link": "https://x.com/thsottiaux/status/2081839118531834176",
+        "author": "thsottiaux",
+        "published": "2026-07-27T20:28:19+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "In science, you have to report the experiments that didn't work, not just the ones that did. Same with AI. (I wish.)",
+        "summary": "In science, you have to report the experiments that didn't work, not just the ones that did. Same with AI. (I wish.)",
+        "link": "https://x.com/fchollet/status/2081836094044168339",
+        "author": "fchollet",
+        "published": "2026-07-27T20:16:18+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "At a small business, the person closest to a problem is often the one who has to solve it—even when it falls outside the",
+        "summary": "At a small business, the person closest to a problem is often the one who has to solve it—even when it falls outside their job description.\n\nWe studied how AI is becoming powerful generalist tool for small teams, helping them work across functions. https://t.co/oE8HcC3aGf",
+        "link": "https://x.com/OpenAI/status/2081833350323720219",
+        "author": "OpenAI",
+        "published": "2026-07-27T20:05:23+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "wrong",
+        "summary": "wrong",
+        "link": "https://x.com/sama/status/2081832600591892712",
+        "author": "sama",
+        "published": "2026-07-27T20:02:25+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare m",
+        "summary": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare mirror that is the legacy mainstream press",
+        "link": "https://x.com/elonmusk/status/2081803897883046220",
+        "author": "elonmusk",
+        "published": "2026-07-27T18:08:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Actual footage 😂",
+        "summary": "Actual footage 😂",
+        "link": "https://x.com/elonmusk/status/2081801843022111055",
+        "author": "elonmusk",
+        "published": "2026-07-27T18:00:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "first \"100k views in 4 days\" since @trq212's keynote. especially hard to achieve s.t. no biglab boost, no hypey buzzword",
+        "summary": "first \"100k views in 4 days\" since @trq212's keynote. especially hard to achieve s.t. no biglab boost, no hypey buzzword bingo. \n\njust a useful concept, presented well, that will stand the test of time.\n\nalways glad to see these show up in our CFPs. usually this early traction is a good predictor that @coyle_frankp  will join our rare ranks of >1M view speakers.\n\nWe've got more professors coming - I'm excited for @JohnOusterhout's keynote! increasingly like the idea of leaning on youtubers and professors as keynoters for industry conferences as 1) they obviously speak for a living so are good at it, 2) they dont have obvious bias for a single specific startup to sell you on (usually), 3) they can condense years of thinking/already public output into a concise talk for you to rabbithole on further if the keynote interests you (others are not nearly as public)",
+        "link": "https://x.com/swyx/status/2081799957607305496",
+        "author": "swyx",
+        "published": "2026-07-27T17:52:42+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "This is so funny 🤣🤣",
+        "summary": "This is so funny 🤣🤣",
+        "link": "https://x.com/elonmusk/status/2081799342948524075",
+        "author": "elonmusk",
+        "published": "2026-07-27T17:50:15+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Extremely important point",
+        "summary": "Extremely important point",
+        "link": "https://x.com/elonmusk/status/2081798385833570773",
+        "author": "elonmusk",
+        "published": "2026-07-27T17:46:27+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-Live in ChatGPT Voice is now available to Edu, Business, and Enterprise plans globally.",
+        "summary": "GPT-Live in ChatGPT Voice is now available to Edu, Business, and Enterprise plans globally.",
+        "link": "https://x.com/OpenAI/status/2081794871795589485",
+        "author": "OpenAI",
+        "published": "2026-07-27T17:32:29+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃",
+        "summary": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃",
+        "link": "https://x.com/steipete/status/2081790109415002468",
+        "author": "steipete",
+        "published": "2026-07-27T17:13:34+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face h",
+        "summary": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. \n\nLets stop believing the PR that closed models are safer. - that's just regulatory capture.",
+        "link": "https://x.com/AndrewYNg/status/2081787106062746002",
+        "author": "AndrewYNg",
+        "published": "2026-07-27T17:01:38+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "somehow without me noticing, @latentspacepod has quietly overtaken some of my own podcast heroes like @ProfCalNewport, @",
+        "summary": "somehow without me noticing, @latentspacepod has quietly overtaken some of my own podcast heroes like @ProfCalNewport, @TBPN, @gruber, and other AI pod friends! wow!\n\nwe are seriously ramping up LS as a new tech media org, thanks to subscribers and donors. @ricmac joins us as our first fulltime Head of Editorial to build out technical  coverage of AI news; we will also be FINALLY opening up for sponsorships.\n\nwe are hiring writers and show producers. reply/reach out if you are interested!",
+        "link": "https://x.com/swyx/status/2081784874994942271",
+        "author": "swyx",
+        "published": "2026-07-27T16:52:46+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2081782292591104077",
+        "author": "elonmusk",
+        "published": "2026-07-27T16:42:30+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Big news! Our new MAI-Cyber-1-Flash model combined with MDASH, our multi agent security harness, delivers 96% on the Cyb",
+        "summary": "Big news! Our new MAI-Cyber-1-Flash model combined with MDASH, our multi agent security harness, delivers 96% on the CyberGym benchmark, 12pts above Mythos, at HALF the cost.  \n \nProud of the team. More details in THREAD: https://t.co/soH8AvvqHt",
+        "link": "https://x.com/mustafasuleyman/status/2081781833100820681",
+        "author": "mustafasuleyman",
+        "published": "2026-07-27T16:40:41+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?”\n\nHere’s his answer:\n\n“I was on a bike ",
+        "summary": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?”\n\nHere’s his answer:\n\n“I was on a bike ride when a coworker asked me to fix a launch video. So I connected remotely from my phone and asked Codex to use computer use to edit the video, export it, and post it back to Slack.\n\nTwenty minutes later, there was a new video in the Slack thread. Then I told Codex:\n\n‘Every 30 minutes, check the thread for feedback and export V2, V3, V4.’\n\nBy the time I got home, the launch video was greenlit.”\n\nCodex had handled the revisions by repeatedly checking Slack for feedback.\n\n📌 Watch the full episode here: https://t.co/DulNtYvqGD",
+        "link": "https://x.com/petergyang/status/2081775399097549083",
+        "author": "petergyang",
+        "published": "2026-07-27T16:15:07+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "My agent reported a bug, their agent fixed it. [in the same night]\n@jarredsumner's robobun setup is future. https://t.co",
+        "summary": "My agent reported a bug, their agent fixed it. [in the same night]\n@jarredsumner's robobun setup is future. https://t.co/KQI5cqvzRP",
+        "link": "https://x.com/steipete/status/2081767828278170002",
+        "author": "steipete",
+        "published": "2026-07-27T15:45:02+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "My 5 biggest takeaways from @jxnlco (DevEx at OpenAI) on how to use Codex for work:\n\n1. Ask Codex to mine your past sess",
+        "summary": "My 5 biggest takeaways from @jxnlco (DevEx at OpenAI) on how to use Codex for work:\n\n1. Ask Codex to mine your past sessions for new skills and workflows\n\nAsk Codex to review all your threads from the last 30 days or so and suggest new skills and workflows for the tasks that you repeat the most often.\n\nPrompt and more below 👇",
+        "link": "https://x.com/petergyang/status/2081767492184387765",
+        "author": "petergyang",
+        "published": "2026-07-27T15:43:42+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Kimi K3 is the most powerful open-weight model in the world. It's now available on @vercel AI Gateway from 🇺🇸 USA-based ",
+        "summary": "Kimi K3 is the most powerful open-weight model in the world. It's now available on @vercel AI Gateway from 🇺🇸 USA-based inference providers at high availability &amp; performance. We've signed ZDR (Zero-Data Retention) agreements, which you can enable for all your token traffic.",
+        "link": "https://x.com/rauchg/status/2081766163865088220",
+        "author": "rauchg",
+        "published": "2026-07-27T15:38:25+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Fauci smelled it and he also dealt it",
+        "summary": "Fauci smelled it and he also dealt it",
+        "link": "https://x.com/elonmusk/status/2081765886617067831",
+        "author": "elonmusk",
+        "published": "2026-07-27T15:37:19+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "The k3 weights have arrived",
+        "summary": "The k3 weights have arrived",
+        "link": "https://x.com/levie/status/2081760710108012702",
+        "author": "levie",
+        "published": "2026-07-27T15:16:45+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "if true, this sucks and shouldn't continue with rare books",
+        "summary": "if true, this sucks and shouldn't continue with rare books",
+        "link": "https://x.com/danshipper/status/2081754482568835152",
+        "author": "danshipper",
+        "published": "2026-07-27T14:52:00+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Good observations",
+        "summary": "Good observations",
+        "link": "https://x.com/AravSrinivas/status/2081750922745827653",
+        "author": "AravSrinivas",
+        "published": "2026-07-27T14:37:51+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Time to scale that SSI:",
+        "summary": "Time to scale that SSI:",
+        "link": "https://x.com/ilyasut/status/2081732293161582930",
+        "author": "ilyasut",
+        "published": "2026-07-27T13:23:50+00:00",
+        "source_name": "Ilya Sutskever",
+        "source_role": "Co-founder, Safe Superintelligence",
+        "source_handle": "ilyasut"
+      },
+      {
+        "kind": "x",
+        "title": "I will not forget about Mars",
+        "summary": "I will not forget about Mars",
+        "link": "https://x.com/elonmusk/status/2081627240777895998",
+        "author": "elonmusk",
+        "published": "2026-07-27T06:26:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I don’t pay the protection money to the media",
+        "summary": "I don’t pay the protection money to the media",
+        "link": "https://x.com/elonmusk/status/2081624723432124681",
+        "author": "elonmusk",
+        "published": "2026-07-27T06:16:23+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/aJFsX8AYth",
+        "summary": "https://t.co/aJFsX8AYth",
+        "link": "https://x.com/elonmusk/status/2081622225023611265",
+        "author": "elonmusk",
+        "published": "2026-07-27T06:06:27+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for at",
+        "summary": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models. https://t.co/gSVw9tv346",
+        "link": "https://x.com/amasad/status/2081576172656456076",
+        "author": "amasad",
+        "published": "2026-07-27T03:03:28+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "👨‍💻 https://t.co/e8wWoxxSi4 https://t.co/S2kthc0VMF",
+        "summary": "👨‍💻 https://t.co/e8wWoxxSi4 https://t.co/S2kthc0VMF",
+        "link": "https://x.com/rauchg/status/2081571905157714199",
+        "author": "rauchg",
+        "published": "2026-07-27T02:46:30+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Living life on the edge everyday https://t.co/t5rgfthg5f",
+        "summary": "Living life on the edge everyday https://t.co/t5rgfthg5f",
+        "link": "https://x.com/petergyang/status/2081559330537734574",
+        "author": "petergyang",
+        "published": "2026-07-27T01:56:32+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Just call me Jean Luc Peter https://t.co/LLLvPOnan6",
+        "summary": "Just call me Jean Luc Peter https://t.co/LLLvPOnan6",
+        "link": "https://x.com/petergyang/status/2081558653300355083",
+        "author": "petergyang",
+        "published": "2026-07-27T01:53:51+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens",
+        "summary": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, etc.\"",
+        "link": "https://x.com/petergyang/status/2081555286817648738",
+        "author": "petergyang",
+        "published": "2026-07-27T01:40:28+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. \n\nOpen source, data, protocols &amp; researc",
+        "summary": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. \n\nOpen source, data, protocols &amp; research enable the technological wonders we enjoy every day, enriching our lives and our world.\n\nOpen weights are the logical next frontier: https://t.co/SMeMS2lINu https://t.co/JeQwc1YvtL",
+        "link": "https://x.com/rauchg/status/2081546513885622760",
+        "author": "rauchg",
+        "published": "2026-07-27T01:05:36+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Vibes are strong. Never seen OpenAI more focused and humming.",
+        "summary": "Vibes are strong. Never seen OpenAI more focused and humming.",
+        "link": "https://x.com/thsottiaux/status/2081534792903147881",
+        "author": "thsottiaux",
+        "published": "2026-07-27T00:19:02+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible.\n\n✓ Resulting binary size: 1.28mb \n✓ Startup overhea",
+        "summary": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible.\n\n✓ Resulting binary size: 1.28mb \n✓ Startup overhead: 1.5ms (mean)\n✓ Compiles in 2.94s (mean)\n✓ Uses 𝚗𝚘𝚍𝚎:𝚑𝚝𝚝𝚙𝚜, 𝚗𝚘𝚍𝚎:𝚏𝚜, 𝚗𝚘𝚍𝚎:𝚙𝚊𝚝𝚑, 𝚗𝚘𝚍𝚎:𝚘𝚜, 𝚗𝚘𝚍𝚎:𝚌𝚛𝚢𝚙𝚝𝚘\n✓ Highly readable TypeScript\n✓ Code translated by GLM 5.2 Fast\n✓ Deploys like a charm!\n\nNo embedded v8 / QuickJS, fully static.",
+        "link": "https://x.com/rauchg/status/2081517519303737559",
+        "author": "rauchg",
+        "published": "2026-07-26T23:10:23+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "agreed feels big, i want a new kind of computer",
+        "summary": "agreed feels big, i want a new kind of computer",
+        "link": "https://x.com/sama/status/2081513071135346814",
+        "author": "sama",
+        "published": "2026-07-26T22:52:43+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Games are arguably the type of software that humans most want to play and use themselves vs. delegate to agents.",
+        "summary": "Games are arguably the type of software that humans most want to play and use themselves vs. delegate to agents.",
+        "link": "https://x.com/petergyang/status/2081508562661245209",
+        "author": "petergyang",
+        "published": "2026-07-26T22:34:48+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "An opinionated guide to which AI to use to do stuff",
+        "summary": "<p><strong><a href=\"https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22\">An opinionated guide to which AI to use to do stuff</a></strong></p>\nIt's interesting watching the evolution of Ethan Mollick's guide over time. </p>\n<p><a href=\"https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide\">A year ago</a> it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.</p>\n<p>Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\".</p>\n<p>Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. <a href=\"https://gemini.google/overview/agent/spark/\">Gemini Spark</a> has yet to prove itself!</p>\n<p>Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:</p>\n<blockquote>\n<p>To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]</p>\n<p>The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.</p>\n</blockquote>\n<p>I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.</p>\n<p>Short version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ethan-mollick\">ethan-mollick</a>, <a href=\"https://simonwillison.net/tags/code-interpreter\">code-interpreter</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
+        "link": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/",
+        "author": "",
+        "keywords": "ai generative-ai llms ethan-mollick code-interpreter general-agents",
+        "published": "2026-07-27T21:55:53+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-MrVmhb.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks:…AI systems can’t solve the hardest tasks yet (good!)&#8230;Epoch [&#8230;]",
+        "link": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-07-27T13:30:53+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "How AI is expanding what people do at work",
+        "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+        "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+        "author": "",
+        "keywords": "Company",
+        "published": "2026-07-27T03:30:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "2026-07-27",
+        "summary": "AI 早报 2026 07 27 视频版 ：哔哩哔哩 ｜ YouTube 概览 行业动态 OpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex ↗ 1 Kimi K3 计划7月27日前开放权重，目前尚未发布。 ↗ 2 Andrej Karpathy 否认从 Anthropic 离职，称相关传闻为虚假信息 ↗ 3 开发生态 Grok Build 新增支持 /deep research ↗ 4 其他 Claude 共享链接遭搜索引擎索引 ↗ 5 行业动态 OpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex 1 Codex 负责人 Tibo 宣布，ChatGPT Work 的活跃用户数已正式超越 Codex。 Codex 负责人 Tibo 通过社交平台宣布，ChatGPT…",
+        "link": "https://daily.juya.uk/issues/2026-07-27/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-07-27T01:24:04+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How We Know Black Holes Exist – Adam Brown",
+        "summary": "Full episode: https://www.youtube.com/watch?v=QbdbAhaJoCQ\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=OesjekPz-Gc",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-07-27T16:43:06+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+        "summary": "We caught up with Jonathan Williams, Head of France at Legora, at RAISE Summit in Paris to discuss how AI is transforming the legal industry. As law firms and in-house legal teams embrace AI, the challenge is no longer just adopting new technology—it’s helping entire organisations adapt to a new way of working. Jonathan shares how Legora uses OpenAI models across its platform, why the pace of AI innovation continues to accelerate, and his advice for enterprise leaders navigating rapid technological change.",
+        "link": "https://www.youtube.com/watch?v=oXu6JGxW_YM",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-07-27T12:37:15+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "The Hugging Face Hub for Enterprise & Academia",
+        "summary": "Your team already uses the Hugging Face Hub. Here's what a paid organization plan unlocks — for Enterprise and Academia alike.\n\n🤝 Better collaboration — a private org workspace: one shared namespace for models, datasets, and Spaces, with versioning and lineage built in. Resource Groups, Dataset Viewer for private data, Dev Mode (SSH/VS Code), HF Jobs, and publisher analytics.\n\n🔒 Better security — SSO (SAML/OIDC), enforced 2FA, centralized token management, and SOC 2 Type II certified infrastructure. Enterprise+ adds IP allowlisting and storage regions.\n\n📋 Better governance — audit logs, service accounts, SCIM provisioning, usage analytics, and gated access flows to adopt open-weight models at scale, on your terms.\n\n⚡ Built to scale — higher Hub API rate limits, ZeroGPU priority quota for Spaces, and monthly Inference Provider credits.\n\n💰 Simple billing, real support — prepaid Hub credits for inference, endpoints, Jobs, Space upgrades, and extra ZeroGPU quota. One balance, one invoice, storage and compute billed separately. Onboarding by our Solution Engineers and a dedicated Slack channel.\n\n👉 Learn more: https://huggingface.co/pricing\n👉 Talk to our sales team: https://huggingface.co/contact/sales",
+        "link": "https://www.youtube.com/watch?v=wUzfRBi9wZ0",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-07-27T09:16:37+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  }
+}

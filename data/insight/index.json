@@ -2,6 +2,11 @@
   "schema_version": 1,
   "briefs": [
     {
+      "date": "2026-07-28",
+      "title": "2026-07-28 AI 解读",
+      "path": "archive/2026-07-28-ai-brief.html"
+    },
+    {
       "date": "2026-07-27",
       "title": "2026-07-27 AI 解读",
       "path": "archive/2026-07-27-ai-brief.html"
@@ -292,5 +297,5 @@
       "path": "archive/2026-05-24-ai-brief.html"
     }
   ],
-  "updated_at": "2026-07-26T23:18:23.352876+00:00"
+  "updated_at": "2026-07-27T23:32:47.233057+00:00"
 }

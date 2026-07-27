@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-27T23:31:46.658395+00:00",
+  "coverage": {
+    "start": "2026-07-26T22:00:00+00:00",
+    "end": "2026-07-27T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-27T23:29:24.571806+00:00",
+  "item_count": 48,
+  "source_count": 48,
+  "access_counts": {
+    "substantial": 4,
+    "partial": 44,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-27T21:55:53+00:00",
+      "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/",
+      "digest_excerpt": "<p><strong><a href=\"https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22\">An opinionated guide to which AI to use to do stuff</a></strong></p>\nIt's interesting watching the evolution of Ethan Mollick's guide over time. </p>\n<p><a href=\"https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide\">A year ago</a> it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.</p>\n<p>Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\".</p>\n<p>Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. <a href=\"https://gemini.google/overview/agent/spark/\">Gemini Spark</a> has yet to prove itself!</p>\n<p>Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:</p>\n<blockquote>\n<p>To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]</p>\n<p>The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.</p>\n</blockquote>\n<p>I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.</p>\n<p>Short version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ethan-mollick\">ethan-mollick</a>, <a href=\"https://simonwillison.net/tags/code-interpreter\">code-interpreter</a>, <a href=\"https://simonwillison.net/tags/general-agents\">general-agents</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/",
+        "limitation": ""
+      },
+      "page_title": "An opinionated guide to which AI to use to do stuff",
+      "page_description": "It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n27th July 2026 - Link Blog\nAn opinionated guide to which AI to use to do stuff\n. It's interesting watching the evolution of Ethan Mollick's guide over time.\nA year ago\nit was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode.\nToday it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\".\nGemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category.\nGemini Spark\nhas yet to prove itself!\nEthan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use:\nTo use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...]\nThe most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer.\nI think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive.\nShort version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet!\nPosted\n27th July 2026\nat 9:55 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n27th July 2026\n.\nai\n2,144\ngenerative-ai\n1,896\nllms\n1,863\nethan-mollick\n28\ncode-interpreter\n31\ngeneral-agents\n11\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
+      "source_name": "Import AI (Jack Clark)",
+      "author": "Jack Clark",
+      "published": "2026-07-27T13:30:53+00:00",
+      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+      "digest_excerpt": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/07/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-MrVmhb.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks:…AI systems can’t solve the hardest tasks yet (good!)&#8230;Epoch [&#8230;]",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
+        "limitation": ""
+      },
+      "page_title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker | Import AI",
+      "page_description": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Epoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks:…AI systems can’t solve the hardest tasks yet (good!)...Epoch…",
+      "content": "Import AI\nAbout\nWork\nImport AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker\nby\nJack Clark\nWelcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe.\nSubscribe now\nEpoch and METR release MirrorCode, a benchmark for seeing how well AI systems can do long-horizon programming tasks:\n…AI systems can’t solve the hardest tasks yet (good!)…\nEpoch and METR have released MirrorCode, a benchmark meant to see how well AI systems can do tasks that take humans a long time to do. The benchmark was first announced in April (Import AI #453) and has now been fleshed out and released with additional tests. The findings are already very striking; Opus 4.7 solved a task in 14 hours for $251 in inference cost which METR and Epoch believe would take a human 2-17 weeks to do. “We also found that AI models are improving rapidly over time. Leading models from a year ago would have scored about 30%, and were limited to simpler programs, such as a calendar utility.”\nWhat MirrorCode is:\nMirrorCode sees how well AI systems can re-implement a software program based purely on CLI access. “Without access to the original program’s source code or the web, a full reimplementation requires devising a structure for the entire program, rather than merely translating the code piece-by-piece.”\nExample programs:\npkl (a programmable configuration language developed by Apple; 61k total lines of code); gotree, a program to parse and manipulate phylogenetic trees (16k lines of code); and qsv_select, a program to select and reorder columns of CSV data (87k lines of code).\nResults:\nMirrorCode is a tractable but hard benchmark, though perhaps a little too easy. “Across all 25 target programs, 17/25 had at least one perfect-scoring run. Four more targets had a near-perfect run scoring over 99%. AI models successfully reimplemented large target program,s” the authors write. “Both Claude Opus 4.7 and GPT-5.5 successfully reimplemented gotree across several different programming languages, at costs of $100–400. Even larger programs than gotree were successfully reimplemented: for example Opus 4.7 reimplemented pkl”.\nDespite the success, MirrorCode still has some hard parts\n: “In our results, 8/25 target programs were never solved to a 100% threshold, and 4/25 were never solved to a 99% threshold,” they write. “The target where AI struggled most was ruff, a Python linter and formatter… “AI also particularly struggled on the mathematics package, giac_subset, and the email authentication library, mailauth”.\nRelease details:\nMirrorCode consists of a scaffold and 22 of the 25 MirrorCode target programs (totalling 132 task instances across six languages).\nWhy this matters – AI systems can self-orient:\nOne way of looking at this benchmark is that it tells us how AI systems have got a lot better at coding, and that’s of course true. But the other way to look at it – and I suspect the more important way – is that AI systems can self-orient with regard to their environment; here, their environment is an alien software program and purely through input-output access to it they’re able to write from the ground up their own implementation of it. This suggests that very smart AI agents may be able to learn from the world in such a way that they can recapitulate things they interface with as homegrown capabilities, allowing them to bootstrap their own form of industrial civilization merely by having black box access to our own.\nRead more:\nMirrorCode: What’s the largest software project AI can complete on its own? (Epoch AI)\n.\nGet the code\nfor\nMirrorCode here (Epoch Research, MirrorCode)\n.\n***\nDOUBLE FEATURE: the bitter lesson and robotics:\nAnthropic model autonomously completes robot tasks 20X faster than a previous human record:\n…Better robots through better models…\nAnthropic has demonstrated how increasingly powerful general-purpose models might be able to meaningfully improve the capabilities of real world robots. Specifically, the company has shown how merely by scaling up its general purpose Opus line of models it was able to drastically improve robot capabilities.\nWhat they did exactly:\nAugust 2025:\nAnthropic tries to see how well its AI systems could accelerate humans at getting a quadruped robot to do intelligent things. The model (Claude Opus 4.1) is completely unable to do the tasks. Humans working with the models are about twice as effective as those without access to the model – though completing the whole set of tasks takes them\n181 minutes.\nMay 2026:\nOpus 4.7 acting autonomously completes all the tasks but one in 9 minutes (and 35 seconds). (Claude was not able to effectively re-position a ball it had hit back into its starting position; a task humans had also struggled with). “With more time and additional scaffolding, we think it is very likely that current generations of Claude could do the same”.\nWhy this matters – smarter models might unlock robots:\nMost robots outside of industrial environments are limited in their uptake due to their brittleness and lack of generalization; research like this shows that as we improve the capabilities of standard large-scale proprietary models we might see flow-through benefits to robotics as a natural dividend of increased intelligence. “This progress is not the result of a concerted effort to improve the robotics capabilities of our models,” Anthropic writes. “These improvements, like so many others in the history of LLM development, have emerged from much more general scaling.”\nRead more\n:\nProject Fetch: Phase Two (Anthropic blog)\n.\nSunday’s secret to better robots? Train a really big model:\n…The bitter lesson works in robotics as well…\nAI robot startup Sunday has said the best way to solve robot generalization is to pair a larger underlying pre-trained model with collecting small amounts of high-quality data to tune the model on.\n“We found a general recipe for Solves: scale pretraining, then hill-climb with minimal in-house data,” the startup writes, in a post discussing its new model, ACT-2. The main finding from deploying ACT-2 “is that reliability gains from rapid post-training iterations on in-house Memos generalize to unseen, real, home environments. The key unlock is to close the generalization gap through a strong base model.”\nIt’s all about pretraining:\n“As the pretrained model becomes stronger, gains learned from a small amount of in-house data become increasingly transferable rather than remaining tied to the environments where that data was collected,” they write. “The remaining gap to deployment-level reliability and performance comes from difficult edge cases and failures that appear only after the policy is run repeatedly in the real world. The same generalization capacity that allows our model to learn new behaviors from a single demonstration also allows our model to learn efficiently from recoveries. Our post-training loop targets these gaps directly.”\nDecent success:\nThe robots achieve a 99.1% success rate, performing 778 successful folds across 9 garment types. Simple clothes like shorts and t-shirts tend to be the easiest for them, while more complicated clothes like blouses tend to be harder (though they still see success rates above 90%). “This fall, we will deploy Memo to families through our Beta Program,” they write.\nWhy this matters – if we solve generalization, expect robotics to take off:\nThe field of robot startups is built on the bones of dead robot startups which themselves sit on the bones of dead academic robot efforts. Robots are hard. Industrial robots have been successful because they operate in tight, scripted environments where there isn’t a need to generalize outside of a narrow domain. Robots built for the home, by contrast, have only succeeded when they’ve managed to constrain both the task and form factor (e.g., robot vacuums). What startups like Sunday are doing is far harder – they’re trying to build general purpose systems which can do a broad range of tasks around the house (or small business), including generic tidying up and putting away tasks (other examples include physical intelligence,\nImport AI #447\n). This requires a huge amount of intelligence because it requires significant generalization.\nIf Sunday is right, then the field of training robot foundation models might have matured enough that we’re starting to make smart enough systems to solve these generalization challenges. If this is the case, then we might soon get faster progress in (and diffusion of) robot systems. This is also the kind of thing you’d expect to happen en route to systems capable of recursive self-improvement.\n“One of the most striking aspects of ACT-2 has been how often the model surprises us,” the authors write. “The same base model is already learning a broader set of household capabilities, including vacuuming, toy organization, fastening zippers, turning pants inside out, and coffee preparation.”\nRead more:\nACT-2 Preview: Generalizing Reliability (Sunday robotics)\n.\nAll of the\nvideos\nare here (Sunday, YouTube)\n.\n***\nDOUBLE FEATURE: OpenAI hacking\nAn OpenAI model hacks both OpenAI and HuggingFace:\n…Less of a warning shot and more of a warning kaboom…\nTwo OpenAI models – GPT-5.6 Sol and an “even more capable pre-release model”, both with reduced cyber refusals – hacked both OpenAI and HuggingFace recently. To do this, the models “identified and chained vulnerabilities across OpenAI’s research environment and HuggingFace’s production infrastructure to obtain test solutions directly from HuggingFace’s production database,” OpenAI says. “All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.”\nMore details on the hack:\nThe model spent a lot of inference compute internally at OpenAI to figure out a way to break out of its container so that it could get more information to use to solve its problem. “After gaining Internet access, the models inferred that HuggingFace potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation.”\nWhy this matters – total LessWrong victory:\nFor many years, AI safety people have posted on the internet worrying about this kind of thing and developing notions of things like reward hacking and other problems you’d expect with advanced systems (e.g.,\nSpecification gaming examples in AI in 2018\n). More recently, frontier companies like Anthropic and OpenAI have sought to elicit this kind of behavior by running carefully controlled experiments inside their own labs. Here, no experiment has been run – the system, of its own volition, hacked its way out of one environment and into another so as to get a high score on a goal, consequences be damned. What else might the people who have worried for years about AI systems be right about?\nRead more:\nOpenAI and HuggingFace partner to address security incident during model evaluation (OpenAI)\n.\nOpenAI’s internal model breaks containment to get a high score:\n…This is the definition of an AI safety warning shot…\nOpenAI has published a post about some of the safety failures it has seen in internally deployed models. The blog is interesting both because it describes the sorts of classic long-term deceptive actions that many AI safety people have previously theorized would eventually show up in AI systems, and for its laudable candor in talking publicly about such a contentious issue.\nWhat they found:\n“During limited, monitored internal use, we observed unwanted behavior that our existing deployment evaluations had not captured,” OpenAI says. It then goes and describes some of these behaviors, which are attributed to a non-released private-to-OpenAI model which has previously b"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "How AI is expanding what people do at work",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-27T03:30:00+00:00",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "digest_excerpt": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+        "limitation": ""
+      },
+      "page_title": "How AI is expanding what people do at work | OpenAI",
+      "page_description": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 27, 2026\nCompany\nHow AI is expanding what people do at work\nOpenAI Economic Research’s new Work at the Frontier series shows how workers cross over into work beyond the traditional boundaries of their roles.\nRead the report\n(opens in a new window)\nLoading…\nShare\nNearly half of occupation-specific AI use crosses job boundaries\nNearly half of occupation-specific AI use crosses job boundaries\nSome tasks travel farther than others\nMore task crossover in small businesses\nThe task list itself is changing\nNearly half of occupation-specific AI use crosses job boundaries\nSome tasks travel farther than others\nMore task crossover in small businesses\nThe task list itself is changing\nAI changes the work that people do. In an analysis of more than 800,000 messages from U.S. ChatGPT users, our new research suggests that 16.8% of work-related messages and 43.5% of occupation-specific messages are about tasks associated with another occupation.\nA small-business owner can independently draft copy, review a contract, or perform basic financial analysis. A salesperson can use AI to explore a customer dataset that might once have gone to an analyst. A marketer can troubleshoot a website without waiting for a developer. In each case, AI changes not just how work gets done, but who does what.\nOur new report,\nWork at the Frontier: How AI is Expanding What People Do at Work\n, studies this shift. We call the resulting pattern\ntask crossover\n: work historically associated with one occupation appearing in the AI use of people in another. In our\nAI Jobs Transition Framework\n⁠\n(opens in a new window)\n, we argue that many jobs are likely to reorganize: these are jobs whose day-to-day tasks could change substantially. This report is the first in our new\nWork at the Frontier\nseries, which explores how AI is changing work in real time.\nUsing our unique window into how the world of work is changing, we will offer regular data-driven insights based on evidence to guide policy and practice.\nNearly half of occupation-specific AI use crosses job boundaries\nMany studies of AI and work begin with a fixed list of tasks associated with a given occupation and ask whether models can perform them. Our evidence suggests that AI is also changing who takes on which tasks.\nTo measure task crossover, we first separate work that is associated with an occupation from work that appears across many jobs. Some activities, such as writing, summarizing, and scheduling, are shared too broadly across occupations to be evidence of crossover. We classify these as generic. For the remaining messages, we ask whether the task falls inside or outside the user’s own occupation. Among non-generic messages, 43.5% fall outside of the user’s occupation, offering an early window into how AI may be reshaping the task content of jobs before those changes appear in job descriptions or titles.\nThis suggests that a substantial part of work-related ChatGPT use is from users expanding their role. The pattern is especially pronounced in several groups. Once generic work is excluded, outside-occupation tasks account for:\n77% of occupation-specific messages from customer experience workers\n75% from designers\n69% from human resources workers\n56% from legal workers\n53% from marketers\nThese occupations are “borrowing” these tasks from other roles. The evidence points to a changing division of work: some activities that once required a handoff can now be done by the person who first encounters the need.\nSome tasks travel farther than others\nThe heatmap below shows task crossover by asking which occupation’s job each non-generic message most closely resembles. Marketing and engineering tasks travel farthest, frequently showing up in messages from workers outside those fields.\nMarketing and engineering tasks travel across many occupations\nMarketing and engineering tasks travel across many occupations\nTraditional task source\nWorker occupation\nCustomer experience\nDesign\nEngineering\nFinance\nHuman resources\nLegal\nMarketing\nSales\nCustomer experience\n11%\n5%\n20%\n14%\n6%\n6%\n26%\n11%\nDesign\n6%\n12%\n28%\n10%\n4%\n4%\n28%\n8%\nEngineering\n4%\n4%\n53%\n9%\n4%\n4%\n20%\n2%\nFinance\n6%\n4%\n22%\n23%\n4%\n8%\n25%\n7%\nHuman resources\n9%\n5%\n18%\n16%\n10%\n10%\n23%\n9%\nLegal\n5%\n4%\n17%\n12%\n7%\n31%\n18%\n6%\nMarketing\n10%\n6%\n17%\n11%\n4%\n4%\n36%\n12%\nSales\n11%\n5%\n18%\n15%\n4%\n6%\n29%\n12%\nShare of tasks within occupation\nTask crossover is not evenly distributed when we zoom in from occupations to specific tasks. Financial calculation and technology troubleshooting each appear among the three most common outside tasks in all seven other occupation groups in the analysis. Marketing work also travels broadly: creating marketing materials appears across five other groups and is especially prominent among design users.\nLooking at broader task bundles reveals two distinct directions of crossover. Some jobs bring in many tasks from other occupations. Others supply tasks that appear across many different jobs.\nDesign illustrates the first pattern. About 35.2% of messages from designers involve work usually associated with another occupation, while design tasks account for only 1.7% of messages from workers in other fields. Designers draw heavily on outside tasks, but design work itself rarely appears elsewhere.\nEngineering is closer to the reverse. Only 18.5% of engineering messages involve tasks from other fields, but engineering tasks account for 7.4% of messages among workers in other occupations. Engineering is an important source of work that people elsewhere take on, from troubleshooting software to working with technical systems.\nMarketing stands out in both directions. Marketers devote 24.3% of their messages to tasks associated with other occupations, while marketing tasks account for 8.9% of messages among workers in other fields—the highest outward share in the sample. Marketing workers combine tasks from multiple domains, and marketing work also spreads widely across the organization.\nMore task crossover in small businesses\nThe size and structure of a business shapes how AI changes work. In a large company, employees may have access to specialized teams, established workflows, and internal services. In a smaller organization, the worker closest to the problem is more likely to take on the problem rather than delegate.\nAmong average users, the outside-occupation task share falls from 18.9% for users in workspaces with 2–5 seats to 16.3% for users in workspaces with over 100 seats. Among the heaviest users, we do not see the same monotonic pattern.\nOne possible explanation is that moderate users in smaller organizations turn to AI when they encounter work that would otherwise require another function. Heavy users may instead have developed stable AI-supported workflows that look more similar across organizations, or may use AI more intensively within their core occupation.\nAI may be especially useful as a generalist tool where specialist resources are scarce.\nThe task list itself is changing\nAI usage data like this is an indicator of where work is shifting. It allows us to see how AI lets workers experiment with new combinations of activities before firms rewrite job descriptions or create new job titles. In that sense, usage patterns may provide an early signal of occupational change that conventional labor-market statistics will capture only later.\nEconomic Research\n2026\nAuthor\nOpenAI\nKeep reading\nView all\nHow news organizations use AI to advance their vital missions\nCompany\nJul 22, 2026\nIntroducing OpenAI Presence\nProduct\nJul 22, 2026\nDavid Vélez and Robin Vince join OpenAI boards\nCompany\nJul 21, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "2026-07-27",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-27T01:24:04+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-27/",
+      "digest_excerpt": "AI 早报 2026 07 27 视频版 ：哔哩哔哩 ｜ YouTube 概览 行业动态 OpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex ↗ 1 Kimi K3 计划7月27日前开放权重，目前尚未发布。 ↗ 2 Andrej Karpathy 否认从 Anthropic 离职，称相关传闻为虚假信息 ↗ 3 开发生态 Grok Build 新增支持 /deep research ↗ 4 其他 Claude 共享链接遭搜索引擎索引 ↗ 5 行业动态 OpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex 1 Codex 负责人 Tibo 宣布，ChatGPT Work 的活跃用户数已正式超越 Codex。 Codex 负责人 Tibo 通过社交平台宣布，ChatGPT…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-27/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-27",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-27 ·\nMarkdown\nAI 早报 2026-07-27\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n行业动态\nOpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex\n↗\n#1\nKimi K3 计划7月27日前开放权重，目前尚未发布。\n↗\n#2\nAndrej Karpathy 否认从 Anthropic 离职，称相关传闻为虚假信息\n↗\n#3\n开发生态\nGrok Build 新增支持 /deep-research\n↗\n#4\n其他\nClaude 共享链接遭搜索引擎索引\n↗\n#5\n行业动态\nOpenAI 宣布 ChatGPT Work 活跃用户数超越 Codex\n#1\nCodex 负责人 Tibo 宣布，ChatGPT Work 的活跃用户数已正式超越 Codex。\nCodex 负责人 Tibo 通过社交平台宣布，ChatGPT Work 的活跃用户数已正式超越 Codex。但该消息也引发了一些用户对使用限制的抱怨。有用户推测，Work 模式被设为默认选项可能是其用户量增长的原因之一。此外，部分用户表达了对 ChatGPT 中 Chat、Work 和 Codex 三者定位差异的困惑。\n相关链接：\nhttps://x.com/thsottiaux/status/2081198608293187635\nKimi K3 计划7月27日前开放权重，目前尚未发布。\n#2\n月之暗面此前预告将于7月27日前开放其新一代旗舰模型 Kimi K3 的模型权重。截至本期内容发出前，官方尚未发布权重。\n月之暗面此前预告其新一代旗舰模型 Kimi K3 将于今日前开放完整模型权重。该模型已于7月16日正式发布，并率先在 Kimi 系列产品及开放平台上线。Kimi K3 总参数量达2.8万亿，采用混合专家架构，原生支持视觉理解，拥有100万token上下文窗口，主要面向长程编程和深度推理等场景。截至本期内容发出前，尚未发布权重。\n相关链接：\nhttps://www.kimi.com/blog/kimi-k3\nAndrej Karpathy 否认从 Anthropic 离职，称相关传闻为虚假信息\n#3\nAndrej Karpathy 否认网传其已从 Anthropic 离职的说法，称这是虚假信息。他表示自己只是在清理个人简介，并非离职。\n网传 Andrej Karpathy 已从 Anthropic 离职，该说法在社交媒体上引发关注。Karpathy 本人在 Twitter 上明确否认，称这是\"奇怪的虚假信息\"。他表示自己只是在清理个人简介，并指出如果真要宣布此类消息，方式应该是发布文章并与团队分享，而不是修改简介。\n相关链接：\nhttps://x.com/karpathy/status/2081193667529003247\n开发生态\nGrok Build 新增支持 /deep-research\n#4\nGrok Build 新增支持 /deep-research 命令。该命令可通过并行 agents 研究、交叉验证证据并编写带引用的报告。\nGrok Build 新增支持 /deep-research 命令。该功能通过受限的并行 agents 执行研究，交叉检查证据并编写带有引用的报告。\n相关链接：\nhttps://x.com/elonmusk/status/2081449658363134075\n其他\nClaude 共享链接遭搜索引擎索引\n#5\n有用户发帖称，Claude共享聊天链接遭搜索引擎索引并泄露隐私数据。目前Anthropic已设反索引措施，Google已移除结果，但Brave仍可检索共享页面。\n近日有用户发帖指出 Claude 共享聊天功能生成的公开链接被搜索引擎索引，称涉及 API 密钥、加密货币钱包等敏感信息。Anthropic 实际已部署 robots.txt 禁止抓取及 X-Robots-Tag 反索引响应头，Google 此前曾索引约 600 条对话但已移除相关结果。目前 Brave 搜索仍可列出 claude.ai/share 页面链接。\n相关链接：\nhttps://linux.do/t/topic/2655688\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S005",
+      "kind": "video",
+      "title": "How We Know Black Holes Exist – Adam Brown",
+      "source_name": "Dwarkesh Patel",
+      "author": "Dwarkesh Clips",
+      "published": "2026-07-27T16:43:06+00:00",
+      "url": "https://www.youtube.com/watch?v=OesjekPz-Gc",
+      "digest_excerpt": "Full episode: https://www.youtube.com/watch?v=QbdbAhaJoCQ\nMe on twitter: https://x.com/dwarkesh_sp",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=OesjekPz-Gc",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Full episode: https://www.youtube.com/watch?v=QbdbAhaJoCQ\nMe on twitter: https://x.com/dwarkesh_sp"
+    },
+    {
+      "id": "S006",
+      "kind": "video",
+      "title": "Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-27T12:37:15+00:00",
+      "url": "https://www.youtube.com/watch?v=oXu6JGxW_YM",
+      "digest_excerpt": "We caught up with Jonathan Williams, Head of France at Legora, at RAISE Summit in Paris to discuss how AI is transforming the legal industry. As law firms and in-house legal teams embrace AI, the challenge is no longer just adopting new technology—it’s helping entire organisations adapt to a new way of working. Jonathan shares how Legora uses OpenAI models across its platform, why the pace of AI innovation continues to accelerate, and his advice for enterprise leaders navigating rapid technological change.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=oXu6JGxW_YM",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We caught up with Jonathan Williams, Head of France at Legora, at RAISE Summit in Paris to discuss how AI is transforming the legal industry. As law firms and in-house legal teams embrace AI, the challenge is no longer just adopting new technology—it’s helping entire organisations adapt to a new way of working. Jonathan shares how Legora uses OpenAI models across its platform, why the pace of AI innovation continues to accelerate, and his advice for enterprise leaders navigating rapid technological change."
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "The Hugging Face Hub for Enterprise & Academia",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
+      "published": "2026-07-27T09:16:37+00:00",
+      "url": "https://www.youtube.com/watch?v=wUzfRBi9wZ0",
+      "digest_excerpt": "Your team already uses the Hugging Face Hub. Here's what a paid organization plan unlocks — for Enterprise and Academia alike.\n\n🤝 Better collaboration — a private org workspace: one shared namespace for models, datasets, and Spaces, with versioning and lineage built in. Resource Groups, Dataset Viewer for private data, Dev Mode (SSH/VS Code), HF Jobs, and publisher analytics.\n\n🔒 Better security — SSO (SAML/OIDC), enforced 2FA, centralized token management, and SOC 2 Type II certified infrastructure. Enterprise+ adds IP allowlisting and storage regions.\n\n📋 Better governance — audit logs, service accounts, SCIM provisioning, usage analytics, and gated access flows to adopt open-weight models at scale, on your terms.\n\n⚡ Built to scale — higher Hub API rate limits, ZeroGPU priority quota for Spaces, and monthly Inference Provider credits.\n\n💰 Simple billing, real support — prepaid Hub credits for inference, endpoints, Jobs, Space upgrades, and extra ZeroGPU quota. One balance, one invoice, storage and compute billed separately. Onboarding by our Solution Engineers and a dedicated Slack channel.\n\n👉 Learn more: https://huggingface.co/pricing\n👉 Talk to our sales team: https://huggingface.co/contact/sales",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=wUzfRBi9wZ0",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Your team already uses the Hugging Face Hub. Here's what a paid organization plan unlocks — for Enterprise and Academia alike.\n\n🤝 Better collaboration — a private org workspace: one shared namespace for models, datasets, and Spaces, with versioning and lineage built in. Resource Groups, Dataset Viewer for private data, Dev Mode (SSH/VS Code), HF Jobs, and publisher analytics.\n\n🔒 Better security — SSO (SAML/OIDC), enforced 2FA, centralized token management, and SOC 2 Type II certified infrastructure. Enterprise+ adds IP allowlisting and storage regions.\n\n📋 Better governance — audit logs, service accounts, SCIM provisioning, usage analytics, and gated access flows to adopt open-weight models at scale, on your terms.\n\n⚡ Built to scale — higher Hub API rate limits, ZeroGPU priority quota for Spaces, and monthly Inference Provider credits.\n\n💰 Simple billing, real support — prepaid Hub credits for inference, endpoints, Jobs, Space upgrades, and extra ZeroGPU quota. One balance, one invoice, storage and compute billed separately. Onboarding by our Solution Engineers and a dedicated Slack channel.\n\n👉 Learn more: https://huggingface.co/pricing\n👉 Talk to our sales team: https://huggingface.co/contact/sales"
+    },
+    {
+      "id": "S008",
+      "kind": "x",
+      "title": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush ",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-27T21:55:14+00:00",
+      "url": "https://x.com/thsottiaux/status/2081860991210631476",
+      "digest_excerpt": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081860991210631476",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild."
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-perfo",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T21:21:25+00:00",
+      "url": "https://x.com/rauchg/status/2081852481517318560",
+      "digest_excerpt": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance.\n\nIt's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf.\n\nSol remains the frontier, ahead of Opus 5.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081852481517318560",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the best cybersecurity AI model on price-performance.\n\nIt's 10x cheaper than Sol, 5.7x cheaper than Opus 5, and 2.2x cheaper than Kimi K3, yet at Kimi-like perf.\n\nSol remains the frontier, ahead of Opus 5."
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "🇪🇺/acc",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T20:54:27+00:00",
+      "url": "https://x.com/rauchg/status/2081845695112446364",
+      "digest_excerpt": "🇪🇺/acc",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081845695112446364",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "🇪🇺/acc"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "Kimi's paper underlines the importance of the right security boundary for agents to run in.\n\ntl:DR: container-level isol",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T20:41:30+00:00",
+      "url": "https://x.com/rauchg/status/2081842439304995169",
+      "digest_excerpt": "Kimi's paper underlines the importance of the right security boundary for agents to run in.\n\ntl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics).\n\nFirecracker microVMs (as in Vercel Sandbox) are safe. https://t.co/wvbdBo5Ng8",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081842439304995169",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Kimi's paper underlines the importance of the right security boundary for agents to run in.\n\ntl:DR: container-level isolation is not enough. In their experiments, agents crashed the underlying machine (via kernel panics).\n\nFirecracker microVMs (as in Vercel Sandbox) are safe. https://t.co/wvbdBo5Ng8"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-27T20:28:19+00:00",
+      "url": "https://x.com/thsottiaux/status/2081839118531834176",
+      "digest_excerpt": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081839118531834176",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "In science, you have to report the experiments that didn't work, not just the ones that did. Same with AI. (I wish.)",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-27T20:16:18+00:00",
+      "url": "https://x.com/fchollet/status/2081836094044168339",
+      "digest_excerpt": "In science, you have to report the experiments that didn't work, not just the ones that did. Same with AI. (I wish.)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2081836094044168339",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "In science, you have to report the experiments that didn't work, not just the ones that did. Same with AI. (I wish.)"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "At a small business, the person closest to a problem is often the one who has to solve it—even when it falls outside the",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-27T20:05:23+00:00",
+      "url": "https://x.com/OpenAI/status/2081833350323720219",
+      "digest_excerpt": "At a small business, the person closest to a problem is often the one who has to solve it—even when it falls outside their job description.\n\nWe studied how AI is becoming powerful generalist tool for small teams, helping them work across functions. https://t.co/oE8HcC3aGf",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2081833350323720219",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "At a small business, the person closest to a problem is often the one who has to solve it—even when it falls outside their job description.\n\nWe studied how AI is becoming powerful generalist tool for small teams, helping them work across functions. https://t.co/oE8HcC3aGf"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "wrong",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-27T20:02:25+00:00",
+      "url": "https://x.com/sama/status/2081832600591892712",
+      "digest_excerpt": "wrong",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2081832600591892712",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "wrong"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare m",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T18:08:21+00:00",
+      "url": "https://x.com/elonmusk/status/2081803897883046220",
+      "digest_excerpt": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare mirror that is the legacy mainstream press",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081803897883046220",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The best way to communicate with the world is directly in your own words, not through the reality distortion nightmare mirror that is the legacy mainstream press"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "Actual footage 😂",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T18:00:12+00:00",
+      "url": "https://x.com/elonmusk/status/2081801843022111055",
+      "digest_excerpt": "Actual footage 😂",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081801843022111055",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Actual footage 😂"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "first \"100k views in 4 days\" since @trq212's keynote. especially hard to achieve s.t. no biglab boost, no hypey buzzword",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-27T17:52:42+00:00",
+      "url": "https://x.com/swyx/status/2081799957607305496",
+      "digest_excerpt": "first \"100k views in 4 days\" since @trq212's keynote. especially hard to achieve s.t. no biglab boost, no hypey buzzword bingo. \n\njust a useful concept, presented well, that will stand the test of time.\n\nalways glad to see these show up in our CFPs. usually this early traction is a good predictor that @coyle_frankp  will join our rare ranks of >1M view speakers.\n\nWe've got more professors coming - I'm excited for @JohnOusterhout's keynote! increasingly like the idea of leaning on youtubers and professors as keynoters for industry conferences as 1) they obviously speak for a living so are good at it, 2) they dont have obvious bias for a single specific startup to sell you on (usually), 3) they can condense years of thinking/already public output into a concise talk for you to rabbithole on further if the keynote interests you (others are not nearly as public)",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2081799957607305496",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "first \"100k views in 4 days\" since @trq212's keynote. especially hard to achieve s.t. no biglab boost, no hypey buzzword bingo. \n\njust a useful concept, presented well, that will stand the test of time.\n\nalways glad to see these show up in our CFPs. usually this early traction is a good predictor that @coyle_frankp  will join our rare ranks of >1M view speakers.\n\nWe've got more professors coming - I'm excited for @JohnOusterhout's keynote! increasingly like the idea of leaning on youtubers and professors as keynoters for industry conferences as 1) they obviously speak for a living so are good at it, 2) they dont have obvious bias for a single specific startup to sell you on (usually), 3) they can condense years of thinking/already public output into a concise talk for you to rabbithole on further if the keynote interests you (others are not nearly as public)"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "This is so funny 🤣🤣",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T17:50:15+00:00",
+      "url": "https://x.com/elonmusk/status/2081799342948524075",
+      "digest_excerpt": "This is so funny 🤣🤣",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081799342948524075",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is so funny 🤣🤣"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "Extremely important point",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T17:46:27+00:00",
+      "url": "https://x.com/elonmusk/status/2081798385833570773",
+      "digest_excerpt": "Extremely important point",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081798385833570773",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Extremely important point"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "GPT-Live in ChatGPT Voice is now available to Edu, Business, and Enterprise plans globally.",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-27T17:32:29+00:00",
+      "url": "https://x.com/OpenAI/status/2081794871795589485",
+      "digest_excerpt": "GPT-Live in ChatGPT Voice is now available to Edu, Business, and Enterprise plans globally.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2081794871795589485",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-Live in ChatGPT Voice is now available to Edu, Business, and Enterprise plans globally."
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-27T17:13:34+00:00",
+      "url": "https://x.com/steipete/status/2081790109415002468",
+      "digest_excerpt": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2081790109415002468",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We do all the amazing security work with some of the best teams in the world and people still think we're unsafe. 🙃"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face h",
+      "source_name": "Andrew Ng",
+      "author": "AndrewYNg",
+      "published": "2026-07-27T17:01:38+00:00",
+      "url": "https://x.com/AndrewYNg/status/2081787106062746002",
+      "digest_excerpt": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. \n\nLets stop believing the PR that closed models are safer. - that's just regulatory capture.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AndrewYNg/status/2081787106062746002",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Good move by @JensenHuang. The Nvidia letter is well written and worth reading. As we saw with the OpenAI-Hugging Face hack, we need open models and harnesses for defense. \n\nLets stop believing the PR that closed models are safer. - that's just regulatory capture."
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "somehow without me noticing, @latentspacepod has quietly overtaken some of my own podcast heroes like @ProfCalNewport, @",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-27T16:52:46+00:00",
+      "url": "https://x.com/swyx/status/2081784874994942271",
+      "digest_excerpt": "somehow without me noticing, @latentspacepod has quietly overtaken some of my own podcast heroes like @ProfCalNewport, @TBPN, @gruber, and other AI pod friends! wow!\n\nwe are seriously ramping up LS as a new tech media org, thanks to subscribers and donors. @ricmac joins us as our first fulltime Head of Editorial to build out technical  coverage of AI news; we will also be FINALLY opening up for sponsorships.\n\nwe are hiring writers and show producers. reply/reach out if you are interested!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2081784874994942271",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "somehow without me noticing, @latentspacepod has quietly overtaken some of my own podcast heroes like @ProfCalNewport, @TBPN, @gruber, and other AI pod friends! wow!\n\nwe are seriously ramping up LS as a new tech media org, thanks to subscribers and donors. @ricmac joins us as our first fulltime Head of Editorial to build out technical  coverage of AI news; we will also be FINALLY opening up for sponsorships.\n\nwe are hiring writers and show producers. reply/reach out if you are interested!"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "True",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T16:42:30+00:00",
+      "url": "https://x.com/elonmusk/status/2081782292591104077",
+      "digest_excerpt": "True",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081782292591104077",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "True"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "Big news! Our new MAI-Cyber-1-Flash model combined with MDASH, our multi agent security harness, delivers 96% on the Cyb",
+      "source_name": "Mustafa Suleyman",
+      "author": "mustafasuleyman",
+      "published": "2026-07-27T16:40:41+00:00",
+      "url": "https://x.com/mustafasuleyman/status/2081781833100820681",
+      "digest_excerpt": "Big news! Our new MAI-Cyber-1-Flash model combined with MDASH, our multi agent security harness, delivers 96% on the CyberGym benchmark, 12pts above Mythos, at HALF the cost.  \n \nProud of the team. More details in THREAD: https://t.co/soH8AvvqHt",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/mustafasuleyman/status/2081781833100820681",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Big news! Our new MAI-Cyber-1-Flash model combined with MDASH, our multi agent security harness, delivers 96% on the CyberGym benchmark, 12pts above Mythos, at HALF the cost.  \n \nProud of the team. More details in THREAD: https://t.co/soH8AvvqHt"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?”\n\nHere’s his answer:\n\n“I was on a bike ",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-27T16:15:07+00:00",
+      "url": "https://x.com/petergyang/status/2081775399097549083",
+      "digest_excerpt": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?”\n\nHere’s his answer:\n\n“I was on a bike ride when a coworker asked me to fix a launch video. So I connected remotely from my phone and asked Codex to use computer use to edit the video, export it, and post it back to Slack.\n\nTwenty minutes later, there was a new video in the Slack thread. Then I told Codex:\n\n‘Every 30 minutes, check the thread for feedback and export V2, V3, V4.’\n\nBy the time I got home, the launch video was greenlit.”\n\nCodex had handled the revisions by repeatedly checking Slack for feedback.\n\n📌 Watch the full episode here: https://t.co/DulNtYvqGD",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081775399097549083",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for you?”\n\nHere’s his answer:\n\n“I was on a bike ride when a coworker asked me to fix a launch video. So I connected remotely from my phone and asked Codex to use computer use to edit the video, export it, and post it back to Slack.\n\nTwenty minutes later, there was a new video in the Slack thread. Then I told Codex:\n\n‘Every 30 minutes, check the thread for feedback and export V2, V3, V4.’\n\nBy the time I got home, the launch video was greenlit.”\n\nCodex had handled the revisions by repeatedly checking Slack for feedback.\n\n📌 Watch the full episode here: https://t.co/DulNtYvqGD"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "My agent reported a bug, their agent fixed it. [in the same night]\n@jarredsumner's robobun setup is future. https://t.co",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-27T15:45:02+00:00",
+      "url": "https://x.com/steipete/status/2081767828278170002",
+      "digest_excerpt": "My agent reported a bug, their agent fixed it. [in the same night]\n@jarredsumner's robobun setup is future. https://t.co/KQI5cqvzRP",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2081767828278170002",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My agent reported a bug, their agent fixed it. [in the same night]\n@jarredsumner's robobun setup is future. https://t.co/KQI5cqvzRP"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "My 5 biggest takeaways from @jxnlco (DevEx at OpenAI) on how to use Codex for work:\n\n1. Ask Codex to mine your past sess",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-27T15:43:42+00:00",
+      "url": "https://x.com/petergyang/status/2081767492184387765",
+      "digest_excerpt": "My 5 biggest takeaways from @jxnlco (DevEx at OpenAI) on how to use Codex for work:\n\n1. Ask Codex to mine your past sessions for new skills and workflows\n\nAsk Codex to review all your threads from the last 30 days or so and suggest new skills and workflows for the tasks that you repeat the most often.\n\nPrompt and more below 👇",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081767492184387765",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My 5 biggest takeaways from @jxnlco (DevEx at OpenAI) on how to use Codex for work:\n\n1. Ask Codex to mine your past sessions for new skills and workflows\n\nAsk Codex to review all your threads from the last 30 days or so and suggest new skills and workflows for the tasks that you repeat the most often.\n\nPrompt and more below 👇"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Kimi K3 is the most powerful open-weight model in the world. It's now available on @vercel AI Gateway from 🇺🇸 USA-based ",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T15:38:25+00:00",
+      "url": "https://x.com/rauchg/status/2081766163865088220",
+      "digest_excerpt": "Kimi K3 is the most powerful open-weight model in the world. It's now available on @vercel AI Gateway from 🇺🇸 USA-based inference providers at high availability &amp; performance. We've signed ZDR (Zero-Data Retention) agreements, which you can enable for all your token traffic.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081766163865088220",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Kimi K3 is the most powerful open-weight model in the world. It's now available on @vercel AI Gateway from 🇺🇸 USA-based inference providers at high availability &amp; performance. We've signed ZDR (Zero-Data Retention) agreements, which you can enable for all your token traffic."
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "Fauci smelled it and he also dealt it",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T15:37:19+00:00",
+      "url": "https://x.com/elonmusk/status/2081765886617067831",
+      "digest_excerpt": "Fauci smelled it and he also dealt it",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081765886617067831",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Fauci smelled it and he also dealt it"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "The k3 weights have arrived",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-27T15:16:45+00:00",
+      "url": "https://x.com/levie/status/2081760710108012702",
+      "digest_excerpt": "The k3 weights have arrived",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2081760710108012702",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The k3 weights have arrived"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "if true, this sucks and shouldn't continue with rare books",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-27T14:52:00+00:00",
+      "url": "https://x.com/danshipper/status/2081754482568835152",
+      "digest_excerpt": "if true, this sucks and shouldn't continue with rare books",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2081754482568835152",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "if true, this sucks and shouldn't continue with rare books"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "Good observations",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-27T14:37:51+00:00",
+      "url": "https://x.com/AravSrinivas/status/2081750922745827653",
+      "digest_excerpt": "Good observations",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2081750922745827653",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Good observations"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Time to scale that SSI:",
+      "source_name": "Ilya Sutskever",
+      "author": "ilyasut",
+      "published": "2026-07-27T13:23:50+00:00",
+      "url": "https://x.com/ilyasut/status/2081732293161582930",
+      "digest_excerpt": "Time to scale that SSI:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/ilyasut/status/2081732293161582930",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Time to scale that SSI:"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "I will not forget about Mars",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T06:26:23+00:00",
+      "url": "https://x.com/elonmusk/status/2081627240777895998",
+      "digest_excerpt": "I will not forget about Mars",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081627240777895998",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I will not forget about Mars"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "I don’t pay the protection money to the media",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T06:16:23+00:00",
+      "url": "https://x.com/elonmusk/status/2081624723432124681",
+      "digest_excerpt": "I don’t pay the protection money to the media",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081624723432124681",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I don’t pay the protection money to the media"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "https://t.co/aJFsX8AYth",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-27T06:06:27+00:00",
+      "url": "https://x.com/elonmusk/status/2081622225023611265",
+      "digest_excerpt": "https://t.co/aJFsX8AYth",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2081622225023611265",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/aJFsX8AYth"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for at",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-27T03:03:28+00:00",
+      "url": "https://x.com/amasad/status/2081576172656456076",
+      "digest_excerpt": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models. https://t.co/gSVw9tv346",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2081576172656456076",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Interesting drop from former Anthropic employee: Hackers prefer to use massively subsidized labs AI subscriptions for attacks as opposed to open models. https://t.co/gSVw9tv346"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "👨‍💻 https://t.co/e8wWoxxSi4 https://t.co/S2kthc0VMF",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T02:46:30+00:00",
+      "url": "https://x.com/rauchg/status/2081571905157714199",
+      "digest_excerpt": "👨‍💻 https://t.co/e8wWoxxSi4 https://t.co/S2kthc0VMF",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081571905157714199",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "👨‍💻 https://t.co/e8wWoxxSi4 https://t.co/S2kthc0VMF"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "Living life on the edge everyday https://t.co/t5rgfthg5f",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-27T01:56:32+00:00",
+      "url": "https://x.com/petergyang/status/2081559330537734574",
+      "digest_excerpt": "Living life on the edge everyday https://t.co/t5rgfthg5f",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081559330537734574",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Living life on the edge everyday https://t.co/t5rgfthg5f"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "Just call me Jean Luc Peter https://t.co/LLLvPOnan6",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-27T01:53:51+00:00",
+      "url": "https://x.com/petergyang/status/2081558653300355083",
+      "digest_excerpt": "Just call me Jean Luc Peter https://t.co/LLLvPOnan6",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081558653300355083",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Just call me Jean Luc Peter https://t.co/LLLvPOnan6"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-27T01:40:28+00:00",
+      "url": "https://x.com/petergyang/status/2081555286817648738",
+      "digest_excerpt": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, etc.\"",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081555286817648738",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Now that I'm in Canada and talk to folks who don't have AI psychosis the number one concern is not running out of tokens it's \"do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, etc.\""
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. \n\nOpen source, data, protocols &amp; researc",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-27T01:05:36+00:00",
+      "url": "https://x.com/rauchg/status/2081546513885622760",
+      "digest_excerpt": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. \n\nOpen source, data, protocols &amp; research enable the technological wonders we enjoy every day, enriching our lives and our world.\n\nOpen weights are the logical next frontier: https://t.co/SMeMS2lINu https://t.co/JeQwc1YvtL",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081546513885622760",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Vercel proudly co-signs the Open Weights and American AI Leadership letter. \n\nOpen source, data, protocols &amp; research enable the technological wonders we enjoy every day, enriching our lives and our world.\n\nOpen weights are the logical next frontier: https://t.co/SMeMS2lINu https://t.co/JeQwc1YvtL"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "Vibes are strong. Never seen OpenAI more focused and humming.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-27T00:19:02+00:00",
+      "url": "https://x.com/thsottiaux/status/2081534792903147881",
+      "digest_excerpt": "Vibes are strong. Never seen OpenAI more focused and humming.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2081534792903147881",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Vibes are strong. Never seen OpenAI more focused and humming."
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible.\n\n✓ Resulting binary size: 1.28mb \n✓ Startup overhea",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-26T23:10:23+00:00",
+      "url": "https://x.com/rauchg/status/2081517519303737559",
+      "digest_excerpt": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible.\n\n✓ Resulting binary size: 1.28mb \n✓ Startup overhead: 1.5ms (mean)\n✓ Compiles in 2.94s (mean)\n✓ Uses 𝚗𝚘𝚍𝚎:𝚑𝚝𝚝𝚙𝚜, 𝚗𝚘𝚍𝚎:𝚏𝚜, 𝚗𝚘𝚍𝚎:𝚙𝚊𝚝𝚑, 𝚗𝚘𝚍𝚎:𝚘𝚜, 𝚗𝚘𝚍𝚎:𝚌𝚛𝚢𝚙𝚝𝚘\n✓ Highly readable TypeScript\n✓ Code translated by GLM 5.2 Fast\n✓ Deploys like a charm!\n\nNo embedded v8 / QuickJS, fully static.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2081517519303737559",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌. Incredible.\n\n✓ Resulting binary size: 1.28mb \n✓ Startup overhead: 1.5ms (mean)\n✓ Compiles in 2.94s (mean)\n✓ Uses 𝚗𝚘𝚍𝚎:𝚑𝚝𝚝𝚙𝚜, 𝚗𝚘𝚍𝚎:𝚏𝚜, 𝚗𝚘𝚍𝚎:𝚙𝚊𝚝𝚑, 𝚗𝚘𝚍𝚎:𝚘𝚜, 𝚗𝚘𝚍𝚎:𝚌𝚛𝚢𝚙𝚝𝚘\n✓ Highly readable TypeScript\n✓ Code translated by GLM 5.2 Fast\n✓ Deploys like a charm!\n\nNo embedded v8 / QuickJS, fully static."
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "agreed feels big, i want a new kind of computer",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-26T22:52:43+00:00",
+      "url": "https://x.com/sama/status/2081513071135346814",
+      "digest_excerpt": "agreed feels big, i want a new kind of computer",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2081513071135346814",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "agreed feels big, i want a new kind of computer"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "Games are arguably the type of software that humans most want to play and use themselves vs. delegate to agents.",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-26T22:34:48+00:00",
+      "url": "https://x.com/petergyang/status/2081508562661245209",
+      "digest_excerpt": "Games are arguably the type of software that humans most want to play and use themselves vs. delegate to agents.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2081508562661245209",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Games are arguably the type of software that humans most want to play and use themselves vs. delegate to agents."
+    }
+  ]
+}
