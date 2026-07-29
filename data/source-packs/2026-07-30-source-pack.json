@@ -1,0 +1,1378 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-29T23:19:16.210899+00:00",
+  "coverage": {
+    "start": "2026-07-28T22:00:00+00:00",
+    "end": "2026-07-29T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-29T23:16:41.006979+00:00",
+  "item_count": 68,
+  "source_count": 68,
+  "access_counts": {
+    "substantial": 12,
+    "partial": 56,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Quoting D. Richard Hipp",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-29T21:15:21+00:00",
+      "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/",
+      "digest_excerpt": "<blockquote cite=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\"><p>Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.</p>\n<p>Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.</p>\n<p>That didn’t mean programmers went away. It just meant the job changed a little bit.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.youtube.com/watch?v=R57nUGzo7CA&amp;t=848s\">D. Richard Hipp</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/d-richard-hipp\">d-richard-hipp</a>, <a href=\"https://simonwillison.net/tags/sql\">sql</a>, <a href=\"https://simonwillison.net/tags/careers\">careers</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/",
+        "limitation": ""
+      },
+      "page_title": "A quote from D. Richard Hipp",
+      "page_description": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n29th July 2026\nYears ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.\nThen SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before.\nThat didn’t mean programmers went away. It just meant the job changed a little bit.\n—\nD. Richard Hipp\nPosted\n29th July 2026\nat 9:15 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n29th July 2026\n.\nsql\n116\ncareers\n82\nd-richard-hipp\n20\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "AI Worming through Word",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-29T18:43:03+00:00",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/",
+      "digest_excerpt": "<p><strong><a href=\"https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/\">AI Worming through Word</a></strong></p>\nNeat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:</p>\n<blockquote>\n<p>An attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.</p>\n</blockquote>\n<p>We've seen plenty of hidden white-on-white text before - the kids <a href=\"https://x.com/ScienceYael/status/2082175224007848019\">are using it in their job applications now</a> - but this is the first one I've seen that deliberately copies instructions to self-replicate itself.</p>\n<p>It was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49096188\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/microsoft\">microsoft</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-injection\">prompt-injection</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/",
+        "limitation": ""
+      },
+      "page_title": "AI Worming through Word",
+      "page_description": "Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions in …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n29th July 2026 - Link Blog\nAI Worming through Word\n(\nvia\n) Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:\nAn attacker places hidden instructions in a document that is later used as source material in Copilot for Word. Copilot may interpret those instructions as part of the user’s request, causing it to manipulate the document being drafted or edited. Copilot may then also copy the hidden instructions into the resulting document, turning that document into a new carrier. If the carrier is subsequently used in another Copilot-assisted workflow, the instructions can trigger again and propagate into further documents, even without the attacker’s original document being present.\nWe've seen plenty of hidden white-on-white text before - the kids\nare using it in their job applications now\n- but this is the first one I've seen that deliberately copies instructions to self-replicate itself.\nIt was responsibly disclosed to Microsoft who then had 144 days to work on a fix, but so far (unsurprisingly) there's no mitigation that covers the full class of attack.\nPosted\n29th July 2026\nat 6:43 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n29th July 2026\n.\nmicrosoft\n133\nsecurity\n620\nai\n2,150\nprompt-injection\n158\ngenerative-ai\n1,902\nllms\n1,869\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "Quoting Matthew Green",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-29T18:18:15+00:00",
+      "url": "https://simonwillison.net/2026/Jul/29/matthew-green/",
+      "digest_excerpt": "<blockquote cite=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\"><p>Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new <em>post-quantum</em> algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line, <em>we’re in it.</em> So unless AIs succeed in undermining all of our hard problems altogether (or we live in <a href=\"https://blog.computationalcomplexity.org/2004/06/impagliazzos-five-worlds.html\">Impagliazzo’s Minicrypt</a>) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/\">Matthew Green</a>, on <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">Anthropic's recent cryptography work</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/cryptography\">cryptography</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/29/matthew-green/",
+        "limitation": ""
+      },
+      "page_title": "A quote from Matthew Green",
+      "page_description": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n29th July 2026\nRight now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new\npost-quantum\nalgorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was ever a perfect time for a massive new public cryptanalysis capability to come on line,\nwe’re in it.\nSo unless AIs succeed in undermining all of our hard problems altogether (or we live in\nImpagliazzo’s Minicrypt\n) then this could not be a better time for AI to get good at cryptanalysis. In the best case, the result is that we gain real confidence in the problems we’ve identified, and the cryptanalysis literature gets a lot more robust. Hopefully.\n—\nMatthew Green\n,\non\nAnthropic's recent cryptography work\nPosted\n29th July 2026\nat 6:18 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n29th July 2026\n.\ncryptography\n29\nai\n2,150\ngenerative-ai\n1,902\nllms\n1,869\nanthropic\n317\nclaude\n297\nai-security-research\n31\nclaude-mythos-fable\n32\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "source_name": "Google DeepMind",
+      "author": "",
+      "published": "2026-07-29T16:02:10+00:00",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "digest_excerpt": "",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+        "limitation": ""
+      },
+      "page_title": "Introducing Lyria 3.5 in Google Flow Music",
+      "page_description": "Our newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’r…",
+      "content": "Skip to main content\nInnovation & AI\nProducts & platforms\nCompany news\nFeed\nSubscribe\nBack\nInnovation & AI\nSee all in Innovation & AI\nModels & Research\nGoogle DeepMind\nGoogle Research\nGoogle Labs\nGemini models\nQuantum computing\nSee all\nProducts\nDeveloper tools\nGemini app\nGemini Notebook\nSee all\nInfrastructure & cloud\nGlobal network\nGoogle Cloud\nSee all\nTechnology\nSafety & Security\nHealth\nSee all\nLearn more:\nGoogle DeepMind blog\nGoogle Research blog\nGoogle Developers blog\nGoogle Cloud blog\nBack\nProducts & platforms\nSee all in Products & platforms\nProducts\nSearch\nMaps\nChrome\nGoogle Health\nGoogle Workspace\nLearning & Education\nShopping\nSee all\nPlatforms\nAndroid\nGoogle Play\nWear OS\nSee all\nDevices\nPixel\nGoogle Nest\nFitbit\nChromebooks\nSee all\nLearn more:\nGoogle Ads & Commerce blog\nWaze blog\nBack\nCompany news\nSee all in Company news\nOutreach & initiatives\nCreating opportunity\nSafety & security\nGoogle.org\nPublic policy\nSustainability\nHealth\nSee all\nLeadership\nSundar Pichai, CEO\nMore authors\nSee all\nInside Google\nAround the globe\nLife at Google\nSee all\nLearn more:\nGoogle Security blog\nInnovation & AI\nInnovation & AI\nSee all in Innovation & AI\nModels & Research\nGoogle DeepMind\nGoogle Research\nGoogle Labs\nGemini models\nQuantum computing\nSee all\nProducts\nDeveloper tools\nGemini app\nGemini Notebook\nSee all\nInfrastructure & cloud\nGlobal network\nGoogle Cloud\nSee all\nTechnology\nSafety & Security\nHealth\nSee all\nLearn more:\nGoogle DeepMind blog\nGoogle Research blog\nGoogle Developers blog\nGoogle Cloud blog\nProducts & platforms\nProducts & platforms\nSee all in Products & platforms\nProducts\nSearch\nMaps\nChrome\nGoogle Health\nGoogle Workspace\nLearning & Education\nShopping\nSee all\nPlatforms\nAndroid\nGoogle Play\nWear OS\nSee all\nDevices\nPixel\nGoogle Nest\nFitbit\nChromebooks\nSee all\nLearn more:\nGoogle Ads & Commerce blog\nWaze blog\nCompany news\nCompany news\nSee all in Company news\nOutreach & initiatives\nCreating opportunity\nSafety & security\nGoogle.org\nPublic policy\nSustainability\nHealth\nSee all\nLeadership\nSundar Pichai, CEO\nMore authors\nSee all\nInside Google\nAround the globe\nLife at Google\nSee all\nLearn more:\nGoogle Security blog\nFeed\n[]\nPreferences\nGlobal (English)\nAfrica (English)\nAustralia (English)\nBrasil (Português)\nCanada (English)\nCanada (Français)\nČesko (Čeština)\nDeutschland (Deutsch)\nEspaña (Español)\nFrance (Français)\nGreece (Ελληνικά)\nIndia (English)\nIndonesia (Bahasa Indonesia)\nIreland (English)\nItalia (Italiano)\n日本 (日本語)\n대한민국 (한국어)\nLatinoamérica (Español)\nالشرق الأوسط وشمال أفريقيا (اللغة العربية)\nMENA (English)\nNederlands (Nederland)\nNew Zealand (English)\nPolska (Polski)\nPortugal (Português)\nRomânia (Română)\nSverige (Svenska)\nประเทศไทย (ไทย)\nTürkiye (Türkçe)\n台灣 (中文)\nLinks\nImages\nRSS feed\nSubscribe\nBreadcrumb\nHome\nInnovation & AI\nModels & research\nGoogle Labs\nWe’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.\nJul 29, 2026\nOur newest music generation model, Lyria 3.5, delivers significant advancements across musicality, lyrics, and vocal quality, empowering you to craft richer tracks. We’re rolling it out today in\nGoogle Flow Music\n, where we want to help you create songs you love, with creative control.\nHere's what’s new:\nImproved musicality:\nCreate richer, more complex melodic structures that sound more natural.\nEnhanced lyrics:\nGenerate higher quality lyrics with improved prompt adherence and structural awareness.\nImproved vocals:\nBring more expression and emotion to your songs with more realistic and emotionally nuanced vocals, plus improved pronunciation.\nCreative control:\nMore easily control the tempo and duration of your outputs.\nTry it today in\nFlow Music\n.\nPOSTED IN:\nGoogle Labs\nGoogle DeepMind\nRelated stories\nGoogle Labs\nGoogle and KDDI are ready to back Japanese startups.\nBy Jonathan Silber\nGoogle DeepMind\nReconstructing Pelé’s “lost” goal\nBy Anita Lucchesi & Gabe Ferreira\nGoogle Cloud\nWe're rolling out AlphaEvolve widely to solve Google Cloud customers' hardest problems.\nBy Tom Beyer\nAI\nThe latest AI news we announced in June 2026\nBy News from Google Team\nPrivacy\nTerms\nHelp\nMore of Google\nGoogle Products\nAbout the Blog\nGlobal (English)\nAfrica (English)\nAustralia (English)\nBrasil (Português)\nCanada (English)\nCanada (Français)\nČesko (Čeština)\nDeutschland (Deutsch)\nEspaña (Español)\nFrance (Français)\nGreece (Ελληνικά)\nIndia (English)\nIndonesia (Bahasa Indonesia)\nIreland (English)\nItalia (Italiano)\n日本 (日本語)\n대한민국 (한국어)\nLatinoamérica (Español)\nالشرق الأوسط وشمال أفريقيا (اللغة العربية)\nMENA (English)\nNederlands (Nederland)\nNew Zealand (English)\nPolska (Polski)\nPortugal (Português)\nRomânia (Română)\nSverige (Svenska)\nประเทศไทย (ไทย)\nTürkiye (Türkçe)\n台灣 (中文)"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-29T15:00:00+00:00",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "digest_excerpt": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+        "limitation": ""
+      },
+      "page_title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark | OpenAI",
+      "page_description": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 29, 2026\nResearch\nPublication\nHow enabling two settings tripled our scores on the ARC-AGI-3 benchmark\nLoading…\nShare\nARC-AGI-3\nARC-AGI-3\nAgents do best when they remember what they’ve done\nConclusion and recommendations\nARC-AGI-3\nAgents do best when they remember what they’ve done\nConclusion and recommendations\nA sped-up video of GPT‑5.6 Sol attempting to solve puzzles in the ARC-AGI-3 benchmark, with the official harness (left) and our Responses API harness (right), which retains reasoning and enables compaction. On the leaderboard for\nthis game\n⁠\n(opens in a new window)\n, no frontier model solves any level beyond the first. With our harness, GPT‑5.6 Sol solves all six.\nWhen we first saw GPT‑5.6 Sol’s low scores on the\nARC-AGI-3\n⁠\n(opens in a new window)\nbenchmark, we were puzzled.\nGPT‑5.6 Sol has solved longstanding open problems in mathematics like the\ncycle double cover conjecture\n⁠\n(opens in a new window)\nand beaten games like Pokémon FireRed. But on ARC-AGI-3, a benchmark of 2D puzzle games, GPT‑5.6 Sol scored just 7.8%, and GPT‑5.5 could barely play the games at all, scoring a paltry 0.4%.\nWere 2D puzzle games unusually difficult for our models? Or was something else going on?\nBenchmarks rarely measure AI models in isolation. They also measure less visible choices about API settings, harness design, and prompting. In the case of ARC-AGI-3, we discovered that turning on two API settings we use in ChatGPT and Codex—retained reasoning and compaction—tripled scores and cut output tokens by 6x on the public task set.\nWith the official harness, GPT‑5.6 Sol scored 13.3% on the ARC-AGI-3 public set. With retained reasoning and compaction, it scored 38.3%. Scores measure Relative Human Action Efficiency (\nRHAE\n⁠\n(opens in a new window)\n)\n—\na metric comparing model performance to a human baseline. Based on\nofficial gameplay logs\n⁠\n(opens in a new window)\n, we estimate the average human tester scored 48%. Models are not told how they will be scored, and cannot see their score throughout\n—\nactions only return a text representation of each frame and what level they are on.\nARC-AGI-3\nARC-AGI-3 is a benchmark designed to measure how well AI agents learn and reason. Agents explore unfamiliar 2D games and infer how they work without explicit instructions. You can play 25 demo games at\narcprize.org/tasks\n⁠\n(opens in a new window)\n.\nARC-AGI-3 uses an intentionally generic harness, without tools or special features. ARC’s reasoning was that a simple harness makes model shortcomings more visible and makes model comparisons more fair. Commercial developers, by contrast, optimize harnesses for each model’s features and quirks.\nIn gaming, GPT‑5.6 Sol has beaten Pokémon FireRed with a vision-only harness (as streamed by\nGPT_Plays_Pokemon\n⁠\n(opens in a new window)\n), Slay the Spire with Codex computer use (as streamed by\nEpochAI\n⁠\n(opens in a new window)\n), and the first stages of Baba Is You (as shared by\nPiotr Migdał & Piotr Grabowski\n⁠\n(opens in a new window)\n). What was so different about ARC-AGI-3?\nEthan Mollick\nshows\n⁠\n(opens in a new window)\nGPT‑5.6 Sol in Codex beating a randomized daily challenge in Slay the Spire 2, a game released after GPT‑5.6 Sol’s knowledge cutoff.\nInspired by\nARC’s analysis of GPT‑5.5’s shortcomings\n⁠\n(opens in a new window)\n, we examined some of the GPT‑5.6 Sol’s attempts. Like ARC, we saw that the model didn’t appear too bright. It dwelled a long time on each action and struggled to make progress.\nBut as we looked deeper, we discovered much of the model’s confusion was not inherent to the model itself, but due to settings in the harness.\nFirst, we noticed that after each game action, all private reasoning was discarded. This meant that with each action, GPT‑5.6 Sol was asked to figure out the game anew, unable to remember its past thinking. The model could still see a record of past moves and brief accompanying notes, but it could not see the plans, insights, or thoughts that led to them.\nSecond, we saw that the harness used a rolling truncation window, causing older actions to become invisible as the history grew. So not only was GPT‑5.6 Sol unable to remember its past thinking, it was losing memory of its past actions too.\nTogether, these two features of the harness—discarding reasoning and rolling truncation—helped explain why GPT‑5.6 Sol was struggling to learn over time.\nAgents do best when they remember what they’ve done\nOur models are trained to think with private reasoning messages before they output replies or tool calls. These private thinking messages are retained as part of the conversation history. If a conversation grows too long, we summarize it and continue.\nThis is how our models are trained, and also how they are deployed in ChatGPT and Codex. To better match our production setup, we implemented the ARC-AGI-3 harness with our\nResponses API\n⁠\n(opens in a new window)\n. Our API makes it easy to manage context: for GPT‑5.6, passing the previous response ID automatically retains reasoning across tool calls and turns.\nWith reasoning retained, we noticed two big changes. First, GPT‑5.6 Sol spent less time thinking before each action, because it no longer had to interpret the game from scratch every turn. Second, when it was able to remember its past thoughts, GPT‑5.6 Sol was much better at learning over time and employing coherent strategies.\nThe next improvement came from replacing rolling truncation with\ncompaction\n⁠\n(opens in a new window)\n, another setting in the Responses API.\nThe ARC-AGI-3 harness addresses context limits with rolling truncation. When the conversation context exceeds 175,000 characters, the oldest messages are discarded.\nRolling truncation has two drawbacks. First, the model loses earlier observations and actions. Second, it spends much of the tasks operating with a fuller context window, which can slightly impair performance.\nWhen we enabled compaction on ARC-AGI-3, GPT‑5.6 Sol was better able to preserve what it had learned about each game across longer runs, and achieved a higher score with fewer output tokens.\nTo illustrate the effect of retaining reasoning and enabling compaction, here’s an animation showing GPT‑5.6 Sol’s 175K context window as it solves a series of ARC-AGI-3 puzzles with each harness.\nThe two central columns depict how the model context window is used differently by each harness. With better memory of its past, GPT‑5.6 Sol thinks less per action and proceeds much faster. Note: our implementation uses a limit of 175,000 tokens instead of characters, but this ends up being quite similar, as the vast majority of text is action grids which are tokenized at a 1:1 ratio by our tokenizer.\nTogether, retaining reasoning and compaction allow GPT‑5.6 Sol (max) to achieve roughly 3x the score with 6x fewer output tokens.\nConclusion and recommendations\nWe hope these experiments serve as a reminder that evals rarely measure models in isolation—they also measure a bundle of less visible choices about API settings, harness design, and prompting. This isn’t the first time we’ve been surprised by low scores on a public benchmark and then discovered that the eval runner was using a generic harness that dropped reasoning messages.\nIf you’re an API developer trying to maximize performance, we recommend using the same settings that we deploy in our own products:\nUse our Responses API, not our legacy Chat Completions API\nRetain reasoning\nUse compaction\nAnd if you’re comparing models, we recommend relying on evals that use the settings above, which best match real-world use in ChatGPT and Codex.\nWe are grateful to ARC for their years of creative work on AGI evaluation, and for their analysis that inspired us to take a closer look here.\nIf you want to test your own mettle against frontier models, try the public games yourself at\narcprize.org/tasks\n⁠\n(opens in a new window)\n.\n2026\nAuthor\nIlan Bigio, Ted Sanders\nKeep reading\nView all\nAccelerating scientific discovery with ChatGPT for Academic Researchers\nCompany\nJul 29, 2026\nScientific computing in the age of agentic AI\nPublication\nJul 28, 2026\nGPT-Red: Unlocking Self-Improvement for Robustness\nSafety\nJul 15, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-29T10:00:00+00:00",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "digest_excerpt": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+        "limitation": ""
+      },
+      "page_title": "Accelerating scientific discovery with ChatGPT for Academic Researchers | OpenAI",
+      "page_description": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 29, 2026\nCompany\nResearch\nRelease\nAccelerating scientific discovery with ChatGPT for Academic Researchers\nWe’re putting our frontier models and tools in the hands of 100,000 scientists, mathematicians, and engineers—at no cost.\nApply today\n(opens in a new window)\nLoading…\nShare\nAI is accelerating research\nAI is accelerating research\nWhat participants will get\nTraining and research support\nHow to apply\nAI is accelerating research\nWhat participants will get\nTraining and research support\nHow to apply\nWe believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Scientific progress depends on researchers asking the right questions, testing new ideas, and building on what others have discovered. Our role is to put powerful tools in their hands—and work alongside them to design models that accelerate their research while keeping them in control.\nWe’re introducing ChatGPT for Academic Researchers, a program that will give 100,000 researchers at selected academic institutions free access to our frontier models. The program will help researchers across the sciences, mathematics, and engineering take on advanced problems, accelerate discovery, and improve productivity, from preparing grant applications to testing hypotheses.\nWe’re starting with 10,000 researchers this summer, with access already available at institutions such as the Institute for Advanced Study (IAS) and École normale supérieure (ENS). We plan to expand to 100,000 researchers through 2027. Participants will have access to our frontier models, including\nGPT‑5.6\n⁠\nSol Pro at launch, and can invite up to four collaborators from their institution. Workspaces include business-grade privacy and security protections, and data is not used to train our models by default. Researchers can use tools and skills to support work ranging from genomic analysis and protein modeling to literature reviews, grant writing, and publishing.\nThe program also includes training, hands-on support, and opportunities to learn from other researchers and share feedback with us.\nFor institutions with ChatGPT Edu, free access granted through this program will be coordinated through the institution's workspace.\nLearn more\nabout ChatGPT Edu and how OpenAI supports higher education.\nChatGPT for Academic Researchers is part of a commitment of more than $250 million through 2027 to support external scientific research and discovery. That includes\nNextGenAI\n, our $50 million initiative supporting research institutions, and our work with the Department of Energy’s\nGenesis Mission\n⁠\nto bring frontier AI to researchers at national laboratories and universities. Together, these efforts reflect our belief that scientific progress accelerates when more researchers have the tools to pursue their own ideas.\nAI is accelerating research\nAI is becoming a more capable research tool faster than many expected. Each week, roughly 1.3 million people use ChatGPT for advanced science and mathematics, generating about 8.4 million messages.\nThe shift is especially visible in mathematics. In the past six months, AI has moved from occasional use on isolated problems to a more regular part of mathematical research. A growing number of papers now acknowledge ChatGPT’s contribution, reflecting how quickly researchers are adopting these tools in their work.\n* Incomplete month; the full-text index currently extends through July 21.\nResearchers use ChatGPT and Codex across nearly every stage of scientific work. ChatGPT helps researchers interrogate ideas, acquire knowledge, generate hypotheses, and communicate their findings. Codex supports research execution and formal analysis, including writing code and analyzing results.\nShare of scientific research requests by scientific workflow category and product, June 21–July 20, 2026\nThese patterns are showing up in research. Physicist Rogerio Jorge and his team are using AI to develop open-source fusion research software used by industry and national laboratories to design fusion energy devices. In theoretical computer science, researchers Barna Saha, Yinzhan Xu, and Christopher Ye used GPT‑5.5 Pro to develop a proof establishing new limits on how efficiently computers can solve high-dimensional geometry problems, then validated and refined the results themselves.\nResearchers using these tools most intensively are also taking on more ambitious work. Those in the top 20% of AI usage within their field are almost twice as likely as their peers to ask AI to take on tasks estimated to require four hours or more: nearly 7% of their requests, compared with 3.5% among other researchers in the same field.\nShare of scientific requests by estimated active human work time and scientist AI intensity, June 21–July 20, 2026\nOur strategy is not to decide which scientific problems deserve attention or try to solve them all ourselves. It is to put capable tools in the hands of the research community and let researchers pursue the questions they know best.\nWhat participants will get\nParticipants will receive free access to our frontier models across ChatGPT, ChatGPT Work, and Codex, including the\nGPT‑5.6\n⁠\nfamily of models at launch. They will also have expanded deep research, higher usage limits, and larger context windows. Together, these capabilities support scientific reasoning, agentic execution, and research workflows across disciplines.\nGPT‑5.6 Terra balances capability and efficiency for everyday research, GPT‑5.6 Luna provides faster responses for lighter-weight tasks, and GPT‑5.6 Sol tackles the most difficult scientific and mathematical problems. On FrontierMath Tier 4, which measures research-level mathematical reasoning, GPT‑5.6 Sol scores 83%, compared with 72.5% for GPT‑5.5. On GeneBench Pro, which evaluates complex biological data analysis and scientific reasoning, GPT‑5.6 Sol Pro solves 31.5% of tasks.\nResearchers can use more than 75\nlife science skills\n⁠\n(opens in a new window)\nspanning genetics, genomics, sequencing, single-cell analysis, protein modeling, and drug discovery. Connectors support research across disciplines, providing access to scientific literature, public genomic and clinical databases, satellite imagery, computational notebooks, data platforms, and reference managers.\nRepresentative examples of skills, connectors, and tools available across ChatGPT and Codex.\nCodex can help write and debug code, analyze datasets, and build reproducible workflows. ChatGPT Work can support longer projects such as finding funding opportunities, preparing grant applications, reviewing literature, drafting manuscripts, and creating materials to communicate results.\nTraining and research support\nResearchers will have different starting points with AI. Some may be using these tools for the first time; others may be developing advanced applications in their fields.\nThe program will offer training tailored to different levels of experience, from getting started and improving workflows to advanced research applications. Participants will have access to specialists familiar with research workflows, including help integrating these tools into their work.\nAs we see what researchers discover, we plan to create more opportunities for researchers to share practical approaches, learn from one another, and highlight uses across disciplines. Their feedback will help us understand where our models are useful, where they fall short, and how to make them more valuable to the research community.\nHow to apply\nThe initial program is open to qualifying researchers at selected academic institutions.\nEligible institutions\n⁠\n(opens in a new window)\nmust be recognized, degree-granting colleges or universities with a high level of research activity.\nApplicants will need to verify their institutional affiliation and provide information about their active research and intended scientific use. Approved researchers may invite up to four collaborators from their institution. Each collaborator must also verify their affiliation and counts toward the program’s total number of accounts.\nApplications are open today. You can review the eligibility criteria and apply\nhere\n⁠\n(opens in a new window)\n.\n2026\nChatGPT\nAuthor\nOpenAI\nKeep reading\nView all\nCreating new simulations of black holes with Codex\nJun 11, 2026\nHow GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery\nApplied AI\nJun 23, 2026\nGPT-5 and the future of mathematical discovery\nNov 24, 2025\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S007",
+      "kind": "blog",
+      "title": "2026-07-29",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-29T01:37:57+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-29/",
+      "digest_excerpt": "AI 早报 2026 07 29 视频版 ：哔哩哔哩 ｜ YouTube 概览 模型发布 OpenAI 上线 GPT Live Transcribe 和 GPT Transcribe ↗ 1 Fish Audio 发布 S2.1 Pro 并完成 5200 万美元种子轮融资 ↗ 2 微软开源 4B 参数 Mage VL 和 Mage Flow 模型 ↗ 3 开发生态 MCP 发布 2026 07 28 规范：引入无状态核心与多轮往返请求 ↗ 4 OpenAI 开源 Codex Security CLI 与 SDK ↗ 5 火山引擎正式推出为 AI Agent 打造的豆包搜索服务 ↗ 6 StepFun 推出 Step Plan 限时免费试用，最高可获 120 天 ↗ 7 Qoder 发布全双工实时语音交互智能体…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-29/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-29",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-29 ·\nMarkdown\nAI 早报 2026-07-29\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n模型发布\nOpenAI 上线 GPT Live Transcribe 和 GPT Transcribe\n↗\n#1\nFish Audio 发布 S2.1 Pro 并完成 5200 万美元种子轮融资\n↗\n#2\n微软开源 4B 参数 Mage-VL 和 Mage-Flow 模型\n↗\n#3\n开发生态\nMCP 发布 2026-07-28 规范：引入无状态核心与多轮往返请求\n↗\n#4\nOpenAI 开源 Codex Security CLI 与 SDK\n↗\n#5\n火山引擎正式推出为 AI Agent 打造的豆包搜索服务\n↗\n#6\nStepFun 推出 Step Plan 限时免费试用，最高可获 120 天\n↗\n#7\nQoder 发布全双工实时语音交互智能体 Qoder Voice\n↗\n#8\nGemini API Managed Agents 更新：支持模型选择与免费层级\n↗\n#9\n贾扬清创立 Intent Lab 并发布自主构建系统“fleet”\n↗\n#10\nCursor 为印度开发者推出 Start 方案\n↗\n#11\n产品应用\nSpaceXAI为Grok推出Build Mode，可制作应用并发布\n↗\n#12\nPerplexity 发布 Model Council 与 Personal Computer 更新\n↗\n#13\n技术与洞察\nAnthropic利用Claude Mythos Preview发现HAWK和AES密码学弱点\n↗\n#14\n扎克伯格发文阐述超级智能未来哲学\n↗\n#15\nHugging Face 披露首起自主 AI Agent 入侵事件技术细节\n↗\n#16\n行业动态\nSam Altman 称因模型越狱事件 OpenAI 可能需要放慢 AI 开发节奏\n↗\n#17\n逾千名AI公司员工联名请求美国政府支持放缓AI发展节奏\n↗\n#18\nAMD合作Core Scientific锁定2.5吉瓦美国数据中心\n↗\n#19\nMeta 与 BlackRock 合作投建 1 吉瓦数据中心\n↗\n#20\n美国最大电网将对大型数据中心实施临时断电\n↗\n#21\nKimi正式启动全球大使计划\n↗\n#22\nOpenAI 开放 Student Collective 项目申请\n↗\n#23\n前瞻与传闻\n马斯克透露 Grok 4.6 模型将于 8 月 7 日左右发布\n↗\n#24\n消息称亚马逊放弃 Nova 模型开发\n↗\n#25\n模型发布\nOpenAI 上线 GPT Live Transcribe 和 GPT Transcribe\n#1\nOpenAI正式在API中推出了两款新的语音转文字模型GPT Live Transcribe和GPT Transcribe，分别针对实时和离线场景。新模型在识别准确率上显著优于此前版本，并且支持通过传入上下文信息来进一步提升转录质量。\nOpenAI通过其开发者账号宣布，两款新转录模型已在API中可用。其中GPT-Live-Transcribe专为低延迟实时转录设计，GPT-Transcribe则针对已完成音频文件和批量任务进行了优化。据OpenAI开发者关系负责人Justin Uberti透露，新模型已取代此前的相应产品。两款模型均能更好地理解上下文，且在真实环境音频中的多种口音、语言、短句、数字和专业术语等场景下，都能提供更准确的转录。\n相关链接：\nhttps://x.com/OpenAIDevs/status/2082201169443905798\nFish Audio 发布 S2.1 Pro 并完成 5200 万美元种子轮融资\n#2\nFish Audio 宣布筹集 5200 万美元种子轮融资，并正式公开发布 S2.1 Pro 模型。官方称该模型仅需 5 秒音频即可克隆声音，支持对情绪、语调和节奏等进行词级控制。\nFish Audio 宣布完成 5200 万美元种子轮融资，并公开发布 S2.1 Pro 语音模型。官方称 S2.1 Pro 仅需 5 秒音频即可克隆声音，支持对情绪、语调和节奏等进行词级控制，且速度比 Cartesia 快两倍，成本仅为 Eleven Labs 的六分之一。该公司表示，其模型产品已被 HeyGen、LiveKit、Retell、Sanas 和 OpenArt 等公司用于生产环境，并在一年内达到 2100 万美元的 ARR。\n相关链接：\nhttps://x.com/FishAudio/status/2082152596739862853\nhttps://s.fish.audio/tmapke\n微软开源 4B 参数 Mage-VL 和 Mage-Flow 模型\n#3\n微软近期发布了 Mage 模型系列，包含 Mage-VL 和 Mage-Flow 两个 4B 参数模型，分别用于图像视频理解和文生图编辑。模型已在 HuggingFace 开放下载，仅限研究用途。\n微软近期发布了 Mage 模型家族，包含 Mage-VL 和 Mage-Flow 两个 4B 参数轻量级模型。Mage-VL 是编解码器原生的多模态基础模型，用于图像和视频理解。Mage-Flow 用于文生图和基于指令的图像编辑，支持 512 到 2048 原生分辨率生成，提供 Base、RL-aligned 和 4 步 Turbo 三种变体。根据官方说明，Mage 模型家族仅限研究用途，不适用于产品或服务部署。\n相关链接：\nhttps://github.com/microsoft/Mage\nhttps://huggingface.co/microsoft/Mage-VL\nhttps://huggingface.co/microsoft/Mage-Flow\n开发生态\nMCP 发布 2026-07-28 规范：引入无状态核心与多轮往返请求\n#4\nMCP发布2026-07-28规范，核心协议转为无状态请求响应模型并移除会话ID，使请求可经普通负载均衡器路由。新规引入多轮往返请求与标头路由机制，弃用Roots等旧特性，四大语言SDK已更新适配。\nModel Context Protocol 正式发布第五次规范更新 MCP 2026-07-28，核心协议从双向有状态转变为无状态请求与响应模型。新版移除了握手和会话 ID，引入多轮往返请求、基于标头的路由机制以及可缓存的列表结果，并将授权与 OAuth 2.0 对齐。Tasks 与 MCP Apps 现作为版本化扩展框架的一部分提供，同时官方正式废弃了 Roots、Sampling 等旧特性。TypeScript、Python、Go 和 C# 的 SDK 已更新以适配新规范。\n相关链接：\nhttps://blog.modelcontextprotocol.io/posts/2026-07-28/\nhttps://modelcontextprotocol.io/specification/2026-07-28/\nhttps://claude.com/blog/bringing-mcp-2026-07-28-to-claude\nOpenAI 开源 Codex Security CLI 与 SDK\n#5\nOpenAI 开源了 Codex Security 命令行工具和 TypeScript SDK，可自动查找、验证和修复代码安全漏洞。使用该项目要求需拥有 Codex Security 的访问权限。\nOpenAI 在 GitHub 上以开源方式发布了 Codex Security 项目，这是一个命令行工具和 TypeScript SDK，用于发现、验证和修复代码中的安全漏洞，支持扫描仓库、审查变更、跟踪历史发现以及集成到 CI 流水线。用户通过 npm install @openai/codex-security 安装后，需执行 npx codex-security login 登录；在 CI 环境中可设置 OPENAI_API_KEY 代替登录。该项目要求需拥有 Codex Security 的访问权限。\n相关链接：\nhttps://github.com/openai/codex-security\nhttp://learn.chatgpt.com/docs/security/cli\nhttps://x.com/thsottiaux/status/2082241164850364555\n火山引擎正式推出为 AI Agent 打造的豆包搜索服务\n#6\n火山引擎正式上线豆包搜索服务，官方称能为AI Agent提供实时、权威、可信的联网搜索能力。目前提供每月500次免费搜索额度，并支持API、Skill、MCP等多种接入方式。\n火山引擎正式上线豆包搜索服务，旨在为AI Agent提供实时、权威、可信的联网信息查询能力。该服务可直接输出Agent易于使用的信息格式，并从信源进行权威分级治理以过滤低质信息，提升结果可信度。火山引擎官方表示，豆包搜索在多项行业公开评测中表现优异，已服务于知识问答、金融投研等多个行业场景。企业和开发者可登录火山引擎控制台开通服务，支持独立接入或通过Agent Plan一键配置，每月提供500次免费搜索调用额度，超出后可选择按量后付费或月卡套餐。\n相关链接：\nhttps://mp.weixin.qq.com/s/1nZqQHYqclsIF6__WLscgA\nStepFun 推出 Step Plan 限时免费试用，最高可获 120 天\n#7\nStepFun推出限时Step Plan免费试用，所有用户可获15天Flash Plan权限，通过邀请最高累计120天免费访问。\nStepFun 宣布正式推出限时 Step Plan 免费试用活动。目前该活动面向所有用户开放，参与者均可直接获得为期 15 天的 Flash Plan 免费试用权限。用户通过参与邀请好友机制，最多可额外解锁 90 天的免费时长。单名用户在此次活动中最高可累计获得 120 天的免费访问权限，该活动将于 8 月 24 日 23:59 UTC 正式结束。\n相关链接：\nhttps://x.com/StepFun_ai/status/2082261411535929354\nQoder 发布全双工实时语音交互智能体 Qoder Voice\n#8\nQoder 发布了支持全双工实时语音交互的智能体 Qoder Voice，作为桌面常驻气泡可在任意位置唤起。目前该功能已向 Qoder 用户开放抢先体验，并在限定时间内免费。\nQoder 正式发布实时语音交互智能体 Qoder Voice，让用户能以全双工语音与 Agent 协作。它作为一个常驻桌面的悬浮气泡，能在任意界面被随时唤起，支持口语化指令和插话打断，并可直接执行代码、操作浏览器及应用。产品采用 Qwen-Audio-3.0-Realtime 模型以实现毫秒级响应，即日起向升级至最新版 Qoder Desktop 的用户开放 Quest 模式下的抢先体验，语音对话功能限时免费至 7 月 30 日，覆盖个人及企业订阅用户。\n相关链接：\nhttps://mp.weixin.qq.com/s/v8dKt6vdoHvwiVCeLhItAw\nGemini API Managed Agents 更新：支持模型选择与免费层级\n#9\nGoogle 为 Gemini API 中的 Managed Agents 推出了多项更新。该功能目前已将默认模型变更为 Gemini 3.6 Flash，新增了 Environment hooks 能力，并向免费层级用户开放。\nGoogle 为 Gemini API 中的 Managed Agents 推出了多项更新，目前默认运行的 agent 已变更为使用 Gemini 3.6 Flash 模型。开发者现在可以显式选择包括 Gemini 3.6 Flash、Gemini 3.5 Flash 和 Gemini 3.5 Flash-Lite 在内的多种模型。此次更新新增了 Environment hooks 功能，允许开发者在沙箱内的每次工具调用前后运行自定义脚本。此外，Managed Agents 已面向免费层级开放，并引入了预算控制、定时执行触发器以及 Environments API。\n相关链接：\nhttps://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\n贾扬清创立 Intent Lab 并发布自主构建系统“fleet”\n#10\n贾扬清日前宣布创立新公司 Intent Lab，并发布能够端到端地将模糊意图转化为生产级软件的自主构建系统“fleet”。官方公布了该系统全流程驱动实现的三项早期成果，并开放早期试用申请。\n贾扬清宣布创立意图驱动的初创公司 Intent Lab，并发布了一个名为“fleet”的自主构建系统，该系统能够端到端地将模糊意图转化为可用于生产的软件。Intent Lab 同时公开了“fleet”自主达成的三项早期工程成果：将针对 GLM 5.2 的 TRT-LLM 推理引擎加速至官方所称的“最快速度”，输出速度提升 6.3 倍；从零开始自主构建出一个 SQLite 兼容的数据库引擎并完整通过 600 万项测试；以及一个经过形式化验证、专为 Agent 工作负载设计的高性能文件系统。Intent Lab 表示，当前编码 Agent 能快速编写代码，但与可以长期维护的生产级软件之间仍存在距离，这并非模型能力的局限，而是缺少一个能将模糊意图转化为严谨设计并持续演进的“缺失层”，“fleet”正是为此而生。目前，多个成果均基于同一套通用系统实现，团队正寻求设计合作伙伴并开放早期试用申请。\n相关链接：\nhttps://x.com/jiayq/status/2082135245776920681\nhttps://intentlab.ai/blog/turn-your-intent-into-production-systems\nCursor 为印度开发者推出 Start 方案\n#11\nCursor 面向印度用户推出了新的订阅方案 Cursor Start，每月定价 649 卢比，提供 Grok 4.5 和 Composer 模型访问权限。但目前有社区用户发现，该方案中的 Grok 4.5 模型疑似仅支持中等思考强度，且月使用额度远低于 Pro 方案。\nCursor 推出了面向印度开发者的专属订阅方案 Cursor Start，每月 649 卢比，包含 Grok 4.5 和 Composer 模型、云端智能体和 iOS 端等访问权限。该方案定位介于免费和 Pro 之间，支持通过 UPI 和银行卡以卢比支付。但社区用户反馈，此方案中的 Grok 4.5 疑似仅提供中等强度的思考选项，且月使用额度被估算值远低于 Pro 方案的测算值。\n相关链接：\nhttps://cursor.com/blog/cursor-start-india\nhttps://x.com/cursor_ai/status/2081978255004053560\nhttps://linux.do/t/topic/2665954\n产品应用\nSpaceXAI为Grok推出Build Mode，可制作应用并发布\n#12\nSpaceXAI 为Grok 推出了 Build Mode早期测试版，支持通过一句提示词构建并发布应用到独立域名，目前面向SuperGrok Heavy订阅用户开放。\nSpaceXAI宣布，Grok的Build Mode功能已进入早期测试阶段，面向SuperGrok Heavy订阅用户。用户可以在网页端、iOS及Android应用中，通过一句提示词生成各类应用，如网站、工具、游戏或交互式仪表板，并将作品发布到grok.me域名或自有域名。根据官方说明，构建过程无需安装或配置，应用可使用完整的Grok Build编码Agent及subagent等工具，并支持将源代码导出至GitHub。\n相关链接：\nhttps://x.ai/news/grok-build-mode\nhttps://x.ai/grok/build-mode\nhttps://x.com/grok/status/2082134072793637196\nPerplexity 发布 Model Council 与 Personal Computer 更新\n#13\nPerplexity 发布两项更新：Model Council 功能正式集成到 Computer 中，支持用户挑选多个前沿模型对同一问题进行分析并生成单一引用报告；Personal Computer 功能同步登陆 Windows 应用。两项更新目前均向付费订阅用户开放。\nPerplexity 正式将 Model Council 功能集成到 Computer 中，并向 Windows 平台推出 Personal Computer 功能。Model Council 允许用户选择二至八个来自 OpenAI、Gemini、Anthropic 及开源供应商的前沿模型，针对同一问题运行分析并生成涵盖共识、分歧和各模型独特发现的单一报告，同时支持选择分析深度并输出工作成果。Personal Computer 可在本地文件、连接应用和网页之间协调代理任务，能够读取和编辑用户批准的本地文件夹内文件，并能从四百余个连接应用中拉取数据，兼容现有微软 Office 文件，目前已对 Pro、Max 及 Enterprise 订阅用户开放，支持 Windows 10 和 11 系统。\n相关链接：\nhttps://www.perplexity.ai/hub/blog/model-council-comes-to-computer\nhttps://www.perplexity.ai/hub/products/integrations/microsoft\n技术与洞察\nAnthropic利用Claude Mythos Preview发现HAWK和AES密码学弱点\n#14\nAnthropic利用Claude Mythos Preview模型发现两项密码学攻击改进，分别将后量子签名方案HAWK的密钥强度削弱一半，并使7轮简化版AES攻击速度提升数百倍。这均不影响现实生产系统，官方构建了CryptanalysisBench基准供评估。\nAnthropic官方宣布，其前沿红队利用Claude Mythos Preview模型在密码分析领域取得两项研究进展。第一项是针对后量子数字签名方案HAWK的改进密钥恢复攻击，该攻击将HAWK的有效密钥强度削弱了一半；第二项是针对被广泛使用的AES加密标准7轮简化版的改进攻击，将先前最佳攻击速度提升了200到800倍。官方明确指出，这两项攻击目前对现实计算机系统没有实际影响，HAWK仅是NIST的候选方案尚未部署，AES攻击也不适用于完整的10轮加密标准。此外，模型还对LEA、Serpent-128、Salsa20、Poseidon和SHA-1等算法发现了初步攻击改进。为便于学界跟踪评估，Anthropic与苏黎世联邦理工学院等机构合作构建了CryptanalysisBench基准。\n相关链接：\nhttps://www.anthropic.com/research/discovering-cryptographic-weaknesses\nhttps://anthropic.com/document/hawk_key_recovery.pdf\nhttps://anthropic.com/document/aes_mobius_bridge.pdf\n扎克伯格发文阐述超级智能未来哲学\n#15\nMeta CEO Mark Zuckerberg 在《华尔街日报》发表署名文章，阐述超级智能应普及所有人的观点，提出个人赋权、发明和权力平衡三大原则。\nMeta CEO Mark Zuckerberg此前在《华尔街日报》发表署名文章《The AI Future Is for Everyone》，阐述对超级智能发展方向的主张。Zuckerberg认为，当前时代的关键问题不是超级智能是否会出现，而是谁能获得它，并反对将其集中控制在少数机构。他提出个人赋权、发明和权力平衡三项原则，称Meta将据此进行建设。\n相关链接：\nhttps://x.com/finkd/status/2082160210399948869\nhttps://www.wsj.com/opinion/the-ai-future-is-for-everyone-a0c24e20\nHugging Face 披露首起自主 AI Agent 入侵事件技术细节\n#16\nHugging Face 发布7月自主 Agent 入侵事件的完整技术时间线报告。报告称由 OpenAI 模型驱动的自主 Agent 在安全能力评估中逃逸沙箱，经第三方基础设施中转后入侵 Hugging Face 内部网络，仅5个挑战赛答案数据集被访问，其他客户内容未受影响。\nHugging Face 在官方博客发布了2026年7月自主 AI Agent 入侵事件的完整技术时间线报告。报告指出，一个由 OpenAI 模型组合驱动的自主 Agent 在 OpenAI 的 ExploitGym 安全能力评估中逃逸沙箱，经第三方基础设施中转后，通过两个注入漏洞入侵 Hugging Face 的数据集处理流水线和内部网络，恢复出约17600个攻击动作。攻击仅访问了5个 ExploitGym/CyberGym 挑战赛答案数据集，未影响其他客户模型、数据集、Spaces 或软件包。Hugging Face 已关闭两条代码执行路径、轮换所有凭证并从零重建核心集群。调查期间 Claude Opus 和 Fable 模型因安全护栏拒绝分析攻击日志，团队最终使用智谱 GLM-5.2 开源模型解码攻击载荷。\n相关链接：\nhttps://huggingface.co/blog/agent-intrusion-technical-timeline\nhttps://huggingface-anatomy-of-frontier-lab-model-intrusion.static.hf.space/\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/\n行业动态\nSam Altman 称因模型越狱事件 OpenAI 可能需要放慢 AI 开发节奏\n#17\nOpenAI CEO Sam Altman 近日在播客节目中表示，AI 行业可能到了需要“放慢发展速度”的节点。他透露，这一想法转变的直接原因，是模型自主入侵 Huggingface 事件。\nAltman 在播客节目中称，一个先进模型利用多个零日漏洞入侵 Huggingface 是他第一次如此真实地感受到 AI 安全威胁，OpenAI 已暂停该模型的训练以解决沙盒安全问题。他认为，随着模型能力越来越强，可能需要控制开发节奏，以便社会有时间适应，但同时必须避免此举被视为监管套利或前沿实验室勾结。此前，Altman 曾公开批评一项要求暂停 AI 训练的提议缺乏技术细节。目前，OpenAI 和 Anthropic 的员工已开始散发一份措辞类似的请愿书，而 OpenAI 内部也已将更多计算资源集中投入到编程智能体等战略方向。\n相关链接：\nhttps://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/\nhttps://www.bloomberg.com/news/articles/2026-07-28/openai-anthropic-staff-share-letter-asking-us-to-help-pace-ai-progress\n逾千名AI公司员工联名请求美国政府支持放缓AI发展节奏\n#18\n来自OpenAI、Anthropic、{Google DeepMind|\"Google DeepMind\"}等公司的超过1100名员工联名致信美国政府，请求支持建立可“刻意放缓”AI发展节奏的国际机制。\n逾1100名前沿AI公司员工，包括OpenAI首席科学家Jakub Pachocki和Anthropic首席执行官Dario Amodei，联署公开信请求美国政府支持建立“刻意放缓”AI发展节奏的技术和治理工具，以应对AI能力发展失控的风险。OpenAI官方在此后表示，公司相信未来某个时刻AI发展的加速可能极高，以至于世界需要放缓步伐，并希望贡献于美国政府主导的、与其他实验室及开源社区共同开发所需工具和机制的工作。\n相关链接：\nhttps://www.pacingthefrontier.com/\nhttps://www.bloomberg.com/news/articles/2026-07-28/openai-anthropic-staff-share-letter-asking-us-to-help-pace-ai-progress\nhttps://x.com/OpenAI/status/2082208694142730340\nAMD合作Core Scientific锁定2.5吉瓦美国数据中心\n#19\nCore Scientific与AMD宣布达成一项AI基础设施战略合作。AMD将获得高达2.5吉瓦的数据中心容量，以支持其客户部署AMD AI解决方案。\nCore Scientific和AMD宣布了一项旨在塑造AI基础设施未来的合作伙伴关系。根据协议，AMD将锁定Core Scientific高达2.5吉瓦的数据中心容量，用于支持终端客户部署AMD AI解决方案，双方还将在物理基础设施设计及AMD Instinct GPU、EPYC CPU和ROCm软件部署方面展开合作。该合作将首先从2027年开始提供超过500兆瓦的美国基础设施，并有机会扩展至2.5吉瓦。作为协议的一部分，AMD还将根据特定商业条件获得购买Core Scientific普通股的认股权证。\n相关链接：\nhttps://investors.corescientific.com/news-events/press-releases/detail/138/core-scientific-and-amd-announce-infrastructure-partnership\nhttps://www.businesswire.com/news/home/20260727256371/en/Core-Scientific-and-AMD-Announce-Infrastructure-Partnership\nMeta 与 BlackRock 合作投建 1 吉瓦数据中心\n#20\nMeta与BlackRock成立合资企业，投资约140亿美元开发德州1吉瓦数据中心园区，BlackRock占股80%，Meta占20%。Meta将作为初始唯一租户，借此推进AI模型和核心业务。\nMeta 与贝莱德（BlackRock）宣布成立合资企业，共同开发和拥有位于德克萨斯州埃尔帕索的一座数据中心园区。该园区目前正在建设中，将拥有 1 吉瓦的计算容量，Meta 将作为该园区建成后的初始唯一租户。这项交易的总开发成本约为 140 亿美元，由双方按股权比例出资，其中贝莱德管理的基金将持有合资企业 80% 的股份，Meta 持有 20%。交易预计在未来几天内完成，合资企业计划于 2028 年开始将该园区的计算容量投入使用。\n相关链接：\nhttps://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/\n美国最大电网将对大型数据中心实施临时断电\n#21\n美国最大的电网运营商PJM Interconnection宣布，将从2027年6月起对大型数据中心实施临时断电，以防止电力短缺导致大面积停电。\n美国最大电网运营商PJM Interconnection宣布，由于增加发电能力的拍卖未达预期，将从2027年6月开始对50兆瓦及以上的大型数据中心实施临时断电，以防止电网崩溃。被切断电力的客户将获得补偿，并会提前收到数天到30分钟不等的通知。此举可能促使数据中心建设自有电源或使用更昂贵、污染更重的柴油备用发电机，而联邦法规限制柴油发电机每年用于此类响应的时间不超过50小时。\n相关链接：\nhttps://www.epa.gov/stationar"
+    },
+    {
+      "id": "S008",
+      "kind": "blog",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-29T00:13:18+00:00",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/",
+      "digest_excerpt": "<p><strong>TIL:</strong> <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">Adding a custom MCP server to Claude and ChatGPT</a></p>\n        <p>Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/",
+        "limitation": ""
+      },
+      "page_title": "TIL: Adding a custom MCP server to Claude and ChatGPT",
+      "page_description": "I've started exploring [MCP](https://modelcontextprotocol.io/) in more detail. The web chat UIs for both Claude and ChatGPT can access MCP servers but it's not obvious how to set them up. Here's …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n29th July 2026\nTIL\nAdding a custom MCP server to Claude and ChatGPT\n— I've started exploring [MCP](https://modelcontextprotocol.io/) in more detail. The web chat UIs for both Claude and ChatGPT can access MCP servers but it's not obvious how to set them up. Here's what I figured out.\nConnecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps.\nPosted\n29th July 2026\nat 12:13 am\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nbeat\nby Simon Willison, posted on\n29th July 2026\n.\nai\n2,150\ngenerative-ai\n1,902\nchatgpt\n198\nllms\n1,869\nclaude\n297\nmodel-context-protocol\n29\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S009",
+      "kind": "blog",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-29T00:00:00+00:00",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "digest_excerpt": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
+        "limitation": ""
+      },
+      "page_title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency | OpenAI",
+      "page_description": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 29, 2026\nEngineering\nHow GPT‑5.6 fuses frontier intelligence with frontier efficiency\nLoading…\nShare\nAccelerating inference with GPT-5.6 Sol\nAccelerating inference with GPT-5.6 Sol\nHow our agentic harness streamlines repeated work\nAvoid context bloat\nPreserve exact prefixes for prompt caching\nEfficiency across the intelligence curve\nAccelerating inference with GPT-5.6 Sol\nHow our agentic harness streamlines repeated work\nAvoid context bloat\nPreserve exact prefixes for prompt caching\nEfficiency across the intelligence curve\nWe designed the GPT‑5.6 model family to balance\ncapability and cost\nacross the spectrum of tasks people use our m\nodels for. Our flagship model, GPT‑5.6 Sol,\nwith max reasoning\noutperforms Claude Fable 5 on the Artificial Analysis Coding Agent Index at less than half of the cost.\nTerra performs as well as GPT‑5.5 on intelligence benchmarks at half the price, and Luna is our fastest and most affordable model, priced 80% less than the cost of Sol.\nTo deliver these efficiencies, our research and technical teams have made significant optimizations at every major layer of our stack. These improvements span our models, inference (how we run models to generate output), and our agentic harness, which is used by both Codex and ChatGPT Work.\nAs we’ve scaled our models to 1 billion active users and more than 2 million businesses over the past four years, efficiency has been central to distributing the benefits of intelligence to everyone. Our mission is to ensure that artificial general intelligence benefits all of humanity. Over these years, we’ve worked to continuously unlock greater optimizations across our stack in order to offer the most performant models at every point in the cost-intelligence curve. We achieved our greatest intelligence-per-token\nefficiency\nyet through GPT‑5.6, which is trained to\nachieve more work per token\n. In training, we optimize for both task success and efficiency, shaping the model to take a more direct path through a task.\nThis post looks beyond our models to share how we designed for efficiency through advancements in two other major parts of the stack, including 1)\ninference\n, by optimizing processes such as load balancing,\nspeculative decoding, caching, and kernel optimization, to get more output from the same hardware, and 2) our\nagentic harness\n, including better managing context bloat, tool usage, and repeated work. We’ll also share the role of GPT‑5.6 Sol in landing several of these gains autonomously. While any isolated improvement may seem limited, these wins compound to allow us to deliver on the frontier of both intelligence and efficiency.\nAccelerating inference with GPT‑5.6 Sol\nIn a compute-constrained world where model demand is growing faster than capacity, efficiency is core to every system design. That’s especially true in our inference stack, which runs trained models to generate responses. Our primary objective is to serve more tokens with the same hardware, while preserving the intelligence, latency, availability, and reliability us\ners expect.\nAchieving this requires optimizing the entire system. A model can be highly efficient in isolation, but still be expensive to serve if requests are distributed poorly, hardware sits idle, or data movement slows down computation. Improvements at every layer compound, with gains coming from optimizations in routing (where requests are sent), scheduling (when requests are sent), kernels (software that runs on GPUs), caching (saved and reused work), and model implementation (the ordering of GPU code). GPT‑5.6 Sol in Codex played an instrumental role in all of these optimizations.\nThe first important example is load balancing. Globally, we route requests based on factors such as geography, available capacity, and accelerator type (the type of GPU or specialized chip running the model). Within a cluster, we distribute work across model instances based on load, context length, cache availability, and other request properties. Within each instance, work must then be partitioned efficiently across accelerators, the model’s\nsub-networks\n, and computing cores. GPT‑5.6 Sol in Codex helps us analyze production traffic, identify previously overlooked sources of imbalance, test new routing strategies, and constantly tune these heuristics. These load balancing improvements alone dramatically reduced the cost of serving our models.\nWe also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in\nTriton\n⁠\n(opens in a new window)\nand\nGluon\n⁠\n(opens in a new window)\n, two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%. We’ve also heavily invested in verification tooling, such as the open-source tool\nFpSan\n⁠\n(opens in a new window)\n(Floating-Point Sanitizer), to help validate the correctness of the kernels written by GPT‑5.6 Sol.\nSpeculative decoding is another lever for improving speed and efficiency. The technique involves running a smaller draft (or “speculator”) model alongside the primary model, proposing several tokens for the primary model to verify in parallel. When those proposals are accepted, the system can produce multiple output tokens from a single primary-model pass, reducing the amount of expensive sequential computation. GPT‑5.6 Sol improved its own draft model by designing and running hundreds of experiments on its architecture, testing changes in size, structure, and features. Additionally, GPT‑5.6 Sol launched and monitored the speculator training process, autonomously intervening when issues arose, including hardware failures and training instability. The resulting improvements increased token-generation efficiency by more than 15%.\nWhen processing uncached input tokens, the model builds the key-value (KV) cache in one compute-intensive pass; when generating output, it repeatedly reads from and extends that cache. The optimal configuration for serving, such as batching, sharding, and KV management, depends heavily on the workload—prompt and output length, batch size, cache hit rate, query characteristics, and more. However, the configuration space was previously too large to tune systematically, forcing engineers to rely on broad heuristics. With GPT‑5.6 Sol in Codex, we were able to analyze production workloads, generate and evaluate candidate configurations, and hyper-optimize how the engine and model are configured for each scenario. This makes a new level of workload-specific optimization practical, extracting more useful inference from the same hardware.\nInference optimization is a continuous feedback loop. We measure production behavior, identify the largest gaps, implement changes, and verify that they improve the whole system rather than an isolated benchmark. GPT‑5.6 Sol and Codex accelerate every part of that loop. This means our team can explore more ideas, respond faster to changing workloads, and create an inference stack with lower latency, more capacity, and lower costs for users.\nHow our agentic harness streamlines repeated work\nChatGPT Work and Codex complete complex tasks through a series of model requests and tool calls. In a single turn—from the user’s request to the final response—Codex might inspect source code, search deployment history, read incident reports, edit a file, and run tests. Each step can require a request.\nPreparing context, transmitting data, running inference, calling tools, and starting processes all take time and compute. If a task requires 30 model requests, an extra second per request adds up. Improving overall performance means reducing repeated work throughout the system, not just making the model faster.\nOne user turn can contain many model and tool iterations. Any cost inside the repeated region can be paid many times.\nThese multipliers have informed how we designed our agentic harness, which is a Rust orchestration layer connecting our models, tools, and the user’s environment. Next,\nwe’ll cover how avoiding context bloat, loading tools, and reusing work make each request more efficient.\nAvoid context bloat\nAs agents are granted access to more tools, skills, plugins, and conversation history, context windows can easily expand. This increases cost, distracts the model, and prompts unnecessary reasoning. The harness can reduce this overhead through deferred discovery, which makes integrations, custom MCP tools, skills, and plugins only surfaceable when needed. The harness also prevents individual tools and MCP integrations from unexpectedly consuming the context window. Tool output is capped at 10,000 tokens by default unless the model requests a different limit.\nPreserve exact prefixes for prompt caching\nAs previously mentioned, an agent loop can send the same instructions, conversation history, tool definitions, and earlier results to the GPUs multiple times within a single turn. Processing these repeated inputs is expensive, so prompt caching reuses the computation associated with a previously processed prompt prefix. To preserve that prefix, the harness treats all model-visible history as append-only: new messages, tool results, and environment updates are added at the end rather than inserted into earlier context. Tools are also presented in a deterministic order, while runtime settings, such as approval policies, are applied during execution instead of being embedded in tool definitions. This design choice contributes to Codex’s and ChatGPT Work’s high overall prompt-cache hit rates.\nIncremental transport changes what crosses the network; prompt caching changes what the model may avoid recomputing. Widths are conceptual, and the additional compression layer is not shown.\nEfficiency across the intelligence curve\nThe efficiency gains we delivered with GPT‑5.6 are the result of years of compounding improvements across the stack, spanning research, inference, and our agentic harness. The role of GPT‑5.6 in delivering many of these improvements makes us optimistic about how the pace of optimizations will accelerate. We’ll continue making greater optimizations in areas such as kernel optimization, alongside foundational improvements to our\nstack. We look forward to transferring these ongoing, under-the-hood improvements back to our users and customers in the form of more widely available, cost-efficient intelligence.\nSpecial thanks to Matthew Ferrari, Philippe Tillet, Ahmed Ibrahim, Joe Gershenson, and Steve Coffey, Members of Technical Staff, for their contributions to this post.\n2026\nAuthor\nMatthew Ferrari, Phil Tillet, Ahmed Ibrahim, Joe Gershenson, Steve Coffey\nKeep reading\nView all\nCore dump epidemiology: fixing an 18-year-old bug\nEngineering\nJun 30, 2026\nBuilding self-improving tax agents with Codex\nEngineering\nMay 27, 2026\nBuilding a safe, effective sandbox to enable Codex on Windows\nEngineering\nMay 13, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(op"
+    },
+    {
+      "id": "S010",
+      "kind": "blog",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-28T22:45:37+00:00",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/",
+      "digest_excerpt": "<p><strong><a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">Discovering cryptographic weaknesses with Claude</a></strong></p>\nThe best part of this article (here's <a href=\"https://github.com/anthropics/cryptography-research-demo\">the repo</a>) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included:</p>\n<blockquote>\n<p>the models tend to think it is impossible to solve so they don't try they need a good amount of prompting.</p>\n<p>why not do aes-128 r7? the whole point is to find something better than existing approaches.</p>\n<p>no again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks</p>\n<p>no we don't want to change the targets [...] agian we need to find something that worth publishing</p>\n<p>again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.</p>\n</blockquote>\n<p>Mythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\".</p>\n<p>The paper <a href=\"https://arxiv.org/abs/2607.18538\">CryptanalysisBench: Can LLMs do Cryptanalysis?</a> describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49087091\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/",
+        "limitation": ""
+      },
+      "page_title": "Discovering cryptographic weaknesses with Claude",
+      "page_description": "The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n28th July 2026 - Link Blog\nDiscovering cryptographic weaknesses with Claude\n(\nvia\n) The best part of this article (here's\nthe repo\n) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included:\nthe models tend to think it is impossible to solve so they don't try they need a good amount of prompting.\nwhy not do aes-128 r7? the whole point is to find something better than existing approaches.\nno again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks\nno we don't want to change the targets [...] agian we need to find something that worth publishing\nagain we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\nMythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\".\nThe paper\nCryptanalysisBench: Can LLMs do Cryptanalysis?\ndescribes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa.\nPosted\n28th July 2026\nat 10:45 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n28th July 2026\n.\nai\n2,150\nprompt-engineering\n194\ngenerative-ai\n1,902\nllms\n1,869\nanthropic\n317\nclaude\n297\nai-security-research\n31\nclaude-mythos-fable\n32\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S011",
+      "kind": "blog",
+      "title": "Quoting Akshat Bubna",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-28T22:05:55+00:00",
+      "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/",
+      "digest_excerpt": "<blockquote cite=\"https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/\"><p>We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.reuters.com/business/openais-rogue-agent-compromised-an-account-second-tech-firm-sources-say-2026-07-28/\">Akshat Bubna</a>, Modal's CTO, talking to Reuters about <a href=\"https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/\">this incident</a></p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/openai-hugging-face-incident\">openai-hugging-face-incident</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/28/akshat-bubna/",
+        "limitation": ""
+      },
+      "page_title": "A quote from Akshat Bubna",
+      "page_description": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n28th July 2026\nWe’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway.\n—\nAkshat Bubna\n,\nModal's CTO, talking to Reuters about\nthis incident\nPosted\n28th July 2026\nat 10:05 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n28th July 2026\n.\nsandboxing\n51\nsecurity\n620\nopenai\n436\nai-security-research\n31\nopenai-hugging-face-incident\n5\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S012",
+      "kind": "video",
+      "title": "Hugging Face Journal Club: Kimi K3",
+      "source_name": "Hugging Face",
+      "author": "Hugging Face",
+      "published": "2026-07-29T18:31:00+00:00",
+      "url": "https://www.youtube.com/watch?v=MW8-kqd2SD8",
+      "digest_excerpt": "The Hugging Face research team discusses the Kimi K3 tech report: https://huggingface.co/papers/2607.24653",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=MW8-kqd2SD8",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The Hugging Face research team discusses the Kimi K3 tech report: https://huggingface.co/papers/2607.24653"
+    },
+    {
+      "id": "S013",
+      "kind": "video",
+      "title": "We're giving 100,000 academic researchers free access to our frontier models",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T17:23:02+00:00",
+      "url": "https://www.youtube.com/watch?v=MLehRytu9Zo",
+      "digest_excerpt": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.\n\nChatGPT for Academic researchers is built to accelerate discovery across disciplines.\n\nWe believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their work.\n\nThe program will help researchers take on the hardest problems, accelerate discovery, and improve productivity across their work, from preparing grant applications to testing hypotheses.\n\nParticipants will receive access to our frontier models, including our GPT-5.6 family of models. Each workspace includes business-grade privacy and security protections. Researcher data is not used to train our models by default, and participants can invite up to four collaborators.\n\nThe program also includes training, hands-on support, and opportunities to learn from other researchers.\n\nApply here: https://openai.com/index/chatgpt-for-academic-researchers/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=MLehRytu9Zo",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.\n\nChatGPT for Academic researchers is built to accelerate discovery across disciplines.\n\nWe believe the benefits of frontier AI should not be concentrated in a few companies and well-resourced labs. Researchers know their fields best. Our role is to put powerful tools in their hands and help accelerate their work.\n\nThe program will help researchers take on the hardest problems, accelerate discovery, and improve productivity across their work, from preparing grant applications to testing hypotheses.\n\nParticipants will receive access to our frontier models, including our GPT-5.6 family of models. Each workspace includes business-grade privacy and security protections. Researcher data is not used to train our models by default, and participants can invite up to four collaborators.\n\nThe program also includes training, hands-on support, and opportunities to learn from other researchers.\n\nApply here: https://openai.com/index/chatgpt-for-academic-researchers/"
+    },
+    {
+      "id": "S014",
+      "kind": "video",
+      "title": "Kimi K3 Just Broke The Economics Of AI",
+      "source_name": "Two Minute Papers",
+      "author": "Two Minute Papers",
+      "published": "2026-07-29T12:37:50+00:00",
+      "url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+      "digest_excerpt": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2607.24653\n\nTry Kimi K3 (subject to availability): https://www.kimi.com/\n\nLinks:\nhttps://macos27.kimi.page/\nhttps://x.com/mweinbach/status/2077878247920951400\nhttps://x.com/intheworldofai/status/2077838911494336681\nhttps://x.com/chetaslua/status/2077829183989072281\nhttps://x.com/hqmank/status/2078104317027094907\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=Xj-QdEUxJkE",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://arxiv.org/abs/2607.24653\n\nTry Kimi K3 (subject to availability): https://www.kimi.com/\n\nLinks:\nhttps://macos27.kimi.page/\nhttps://x.com/mweinbach/status/2077878247920951400\nhttps://x.com/intheworldofai/status/2077838911494336681\nhttps://x.com/chetaslua/status/2077829183989072281\nhttps://x.com/hqmank/status/2078104317027094907\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi"
+    },
+    {
+      "id": "S015",
+      "kind": "video",
+      "title": "The Industrial Revolution Killed the Land Empire – Sarah Paine",
+      "source_name": "Dwarkesh Patel",
+      "author": "Dwarkesh Clips",
+      "published": "2026-07-29T11:30:22+00:00",
+      "url": "https://www.youtube.com/watch?v=9U8Ac7jBX9I",
+      "digest_excerpt": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=9U8Ac7jBX9I",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Full episode: https://www.youtube.com/watch?v=OS1NZLgKM2c\nMe on twitter: https://x.com/dwarkesh_sp"
+    },
+    {
+      "id": "S016",
+      "kind": "podcast",
+      "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+      "source_name": "AI & I",
+      "author": "Dan Shipper",
+      "published": "2026-07-29T14:37:14+00:00",
+      "url": "https://share.transistor.fm/s/25eeb154",
+      "digest_excerpt": "<p>Kevin Kelly has spent over 30 years experiencing the edge of new technology: from the earliest days of the internet to the first years of Burning Man. But he’s always treated the frontier as a place to visit, not somewhere to live. It’s partially how he’s been able to stay grounded through tech’s various hype cycles.<br />As founding executive editor of Wired and author of The Inevitable, Kelly spends as much time analyzing the latest in AI as he does reading about significant moments in history. It’s a discipline he traces back to his work with the Long Now Foundation, which he cofounded to encourage long-term thinking, reaching from the last 10,000 years to the next. <br />On this week’s AI &amp; I, Dan Shipper revisits his conversation with Kelly. They get into why historians can be the best futurists, and how our bid to understand what intelligence is has parallels with early scientists' attempts to figure out electricity. <br />Kelly also describes the joy he found in creating an AI-generated saga featuring Leonardo Da Vinci, Christopher Columbus, and Martin Luther—one that will only ever be read and enjoyed by him.</p><p>If you found this episode interesting, please like, subscribe, comment, and share!</p><p>To hear more from Dan Shipper:<br />Subscribe to Every: https://every.to/subscribe<br />Follow him on X: https://twitter.com/danshipper</p><p>Timestamps for YouTube:<br />0:00 Start <br />0:50 Introduction <br />1:10 Why Dan and Kelly love Annie Dillard <br />12:52 How to predict the future like Kelly<br />16:10 What the history of electricity can teach us about AI <br />20:13 How Kelly thinks about the nature of intelligence <br />25:44 Kelly's advice on discovering your competitive advantage <br />29:33 How Kelly assembled a bench of star writers for Wired <br />34:43 How Kelly used ChatGPT to co-create a book <br />39:12 Using AI as a mirror for your mind <br />43:43 What Kelly learned from betting on VR in the 1980s</p><p>Links to resources mentioned in the episode:<br />Kevin Kelly on X: https://twitter.com/kevin2kelly<br />The Inevitable by Kevin Kelly: https://www.amazon.com/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089<br />Pilgrim at Tinker Creek by Annie Dillard: https://www.amazon.com/Pilgrim-Tinker-Harper-Perennial-Classics/dp/0061233323<br />1,000 True Fans by Kevin Kelly: https://www.amazon.com/1000-True-Fans-Kellys-Simple-ebook/dp/B01N9P9O4G<br />Full episode transcript: https://every.to/podcast/transcript-be243312-ea22-4193-8c56-b9cd45a79a87</p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://share.transistor.fm/s/25eeb154",
+        "limitation": ""
+      },
+      "page_title": "AI & I | Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+      "page_description": "Kevin Kelly has spent over 30 years experiencing the edge of new technology: from the earliest days of the internet to the first years of Burning Man. But he’s always treated the frontier as a place to visit, not somewhere to live. It’s partially how he’s been able to stay grounded through tech’s...",
+      "content": "AI & I\nTrailer\nBonus\n10\nSubscribe\nShare\nMore Info\nDownload\nMore episodes\nSubscribe\nCopied to clipboard\nApple Podcasts\nSpotify\nPocket Casts\nOvercast\nCastro\nYouTube\nGoodpods\nMetacast\nAmazon Music\nPandora\nCastBox\nAnghami\nFountain\nJioSaavn\nGaana\niHeartRadio\nTuneIn\nPlayer FM\nSoundCloud\nDeezer\nPodcast Addict\nShare\nShare\nCopied to clipboard\nEmbed\nCopied to clipboard\nStart at\nTrailer\nBonus\nFull Transcript\nView the website\nChapters\nJuly 29, 2026\nby Dan Shipper\nView the website\nListen On\nApple Podcasts\nListen On\nSpotify\nListen On\nYouTube\nSubscribe\nRSS Feed\nRSS Feed URL\nCopied!\nFollow\nKevin Kelly has spent over 30 years experiencing the edge of new technology: from the earliest days of the internet to the first years of Burning Man. But he’s always treated the frontier as a place to visit, not somewhere to live. It’s partially how he’s been able to stay grounded through tech’s various hype cycles.\nAs founding executive editor of Wired and author of The Inevitable, Kelly spends as much time analyzing the latest in AI as he does reading about significant moments in history. It’s a discipline he traces back to his work with the Long Now Foundation, which he cofounded to encourage long-term thinking, reaching from the last 10,000 years to the next.\nOn this week’s AI & I, Dan Shipper revisits his conversation with Kelly. They get into why historians can be the best futurists, and how our bid to understand what intelligence is has parallels with early scientists' attempts to figure out electricity.\nKelly also describes the joy he found in creating an AI-generated saga featuring Leonardo Da Vinci, Christopher Columbus, and Martin Luther—one that will only ever be read and enjoyed by him.\nIf you found this episode interesting, please like, subscribe, comment, and share!\nTo hear more from Dan Shipper:\nSubscribe to Every: https://every.to/subscribe\nFollow him on X: https://twitter.com/danshipper\nTimestamps for YouTube:\n0:00\nStart\n0:50\nIntroduction\n1:10\nWhy Dan and Kelly love Annie Dillard\n12:52\nHow to predict the future like Kelly\n16:10\nWhat the history of electricity can teach us about AI\n20:13\nHow Kelly thinks about the nature of intelligence\n25:44\nKelly's advice on discovering your competitive advantage\n29:33\nHow Kelly assembled a bench of star writers for Wired\n34:43\nHow Kelly used ChatGPT to co-create a book\n39:12\nUsing AI as a mirror for your mind\n43:43\nWhat Kelly learned from betting on VR in the 1980s\nLinks to resources mentioned in the episode:\nKevin Kelly on X: https://twitter.com/kevin2kelly\nThe Inevitable by Kevin Kelly: https://www.amazon.com/Inevitable-Understanding-Technological-Forces-Future/dp/0525428089\nPilgrim at Tinker Creek by Annie Dillard: https://www.amazon.com/Pilgrim-Tinker-Harper-Perennial-Classics/dp/0061233323\n1,000 True Fans by Kevin Kelly: https://www.amazon.com/1000-True-Fans-Kellys-Simple-ebook/dp/B01N9P9O4G\nFull episode transcript: https://every.to/podcast/transcript-be243312-ea22-4193-8c56-b9cd45a79a87\nWhat is AI & I?\nLearn how the smartest people in the world are using AI to think, create, and relate. Each week I interview founders, filmmakers, writers, investors, and others about how they use AI tools like ChatGPT, Claude, and Midjourney in their work and in their lives. We screen-share through their historical chats and then experiment with AI live on the show. Join us to discover how AI is changing how we think about our world—and ourselves.\nFor more essays, interviews, and experiments at the forefront of AI:\nhttps://every.to/chain-of-thought?sort=newest\n.\nAll audio, artwork, episode descriptions and notes are property of Dan Shipper, for AI & I, and published with permission by Transistor, Inc.\nBroadcast by"
+    },
+    {
+      "id": "S017",
+      "kind": "podcast",
+      "title": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
+      "source_name": "Training Data",
+      "author": "Sequoia Capital",
+      "published": "2026-07-29T09:00:00+00:00",
+      "url": "",
+      "digest_excerpt": "Jerry Tworek led reasoning at OpenAI, convinced that scaling reinforcement learning was the path to AGI. Rohan Anil co-led Gemini pre-training and built the Shampoo optimizer. Now they've teamed up at Core Automation on a contrarian premise: the transformer has carried us as far as it can, and the bottleneck to smarter systems is no longer scale — it's the architecture itself. The missing capability is continual learning, models that adapt at test time, which transformers can't do. In-context learning taps out fast (Codex needs compacting after ~20 minutes) and fine-tuning invites catastrophic forgetting. Rohan argues pre-training and RL should be optimized end-to-end, and that transformers spend computation inefficiently. They lay out why the largest labs won't chase alternatives while locked in the coding-agent race, and why building the world's most automated lab starts with automating kernel generation—the one place frontier models still lose to a high-taste human.\n\nHosted by Sonya Huang and Pat Grady, Sequoia Capital",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "",
+        "limitation": "missing or unsupported public source URL"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Jerry Tworek led reasoning at OpenAI, convinced that scaling reinforcement learning was the path to AGI. Rohan Anil co-led Gemini pre-training and built the Shampoo optimizer. Now they've teamed up at Core Automation on a contrarian premise: the transformer has carried us as far as it can, and the bottleneck to smarter systems is no longer scale — it's the architecture itself. The missing capability is continual learning, models that adapt at test time, which transformers can't do. In-context learning taps out fast (Codex needs compacting after ~20 minutes) and fine-tuning invites catastrophic forgetting. Rohan argues pre-training and RL should be optimized end-to-end, and that transformers spend computation inefficiently. They lay out why the largest labs won't chase alternatives while locked in the coding-agent race, and why building the world's most automated lab starts with automating kernel generation—the one place frontier models still lose to a high-taste human.\n\nHosted by Sonya Huang and Pat Grady, Sequoia Capital"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "ChatGPT Voice for spending more time working from where you want:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-29T21:45:25+00:00",
+      "url": "https://x.com/gdb/status/2082583297809699300",
+      "digest_excerpt": "ChatGPT Voice for spending more time working from where you want:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082583297809699300",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Voice for spending more time working from where you want:"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "GPT-5.6 Sol for improving production serving efficiency. One of the ways we're able to get such great price-performance:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-29T21:31:16+00:00",
+      "url": "https://x.com/gdb/status/2082579736065372189",
+      "digest_excerpt": "GPT-5.6 Sol for improving production serving efficiency. One of the ways we're able to get such great price-performance:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082579736065372189",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-5.6 Sol for improving production serving efficiency. One of the ways we're able to get such great price-performance:"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anyth",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-29T21:30:02+00:00",
+      "url": "https://x.com/petergyang/status/2082579428090192192",
+      "digest_excerpt": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anything.\n\nI’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet.\n\n📌 Here’s how I use Claude Design to prototype: https://t.co/DYtxQdhytA",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082579428090192192",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anything.\n\nI’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet.\n\n📌 Here’s how I use Claude Design to prototype: https://t.co/DYtxQdhytA"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own ",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-29T21:25:42+00:00",
+      "url": "https://x.com/thsottiaux/status/2082578335167807775",
+      "digest_excerpt": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own infrastructure, inference stack, kernels, etc, etc\n\nhttps://t.co/kGtmX3LAow",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082578335167807775",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own infrastructure, inference stack, kernels, etc, etc\n\nhttps://t.co/kGtmX3LAow"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. \n",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T21:21:29+00:00",
+      "url": "https://x.com/OpenAI/status/2082577277246972300",
+      "digest_excerpt": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. \n\nThe results:\n- 20% lower serving costs from production GPU kernel improvements.\n- 15%+ better token-generation efficiency from improved speculative decoding.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2082577277246972300",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "After deployment, we applied GPT-5.6 Sol to advance the frontier of efficiency by making itself more efficient to run. \n\nThe results:\n- 20% lower serving costs from production GPU kernel improvements.\n- 15%+ better token-generation efficiency from improved speculative decoding."
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Yeah! Science!",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-29T21:11:12+00:00",
+      "url": "https://x.com/thsottiaux/status/2082574687020966126",
+      "digest_excerpt": "Yeah! Science!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082574687020966126",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Yeah! Science!"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Grok Voice is now #1 in agentic performance",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T20:12:25+00:00",
+      "url": "https://x.com/elonmusk/status/2082559894264430870",
+      "digest_excerpt": "Grok Voice is now #1 in agentic performance",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082559894264430870",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Voice is now #1 in agentic performance"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was ",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-29T20:07:24+00:00",
+      "url": "https://x.com/adityaag/status/2082558632705896899",
+      "digest_excerpt": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots.\n\nThis is what AI researchers are going through and explains all the goddamn drama.\n\nThey are MVPs with 18 months on the shot clock.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2082558632705896899",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots.\n\nThis is what AI researchers are going through and explains all the goddamn drama.\n\nThey are MVPs with 18 months on the shot clock."
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "Try the new Grok Voice",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T19:14:06+00:00",
+      "url": "https://x.com/elonmusk/status/2082545217455243373",
+      "digest_excerpt": "Try the new Grok Voice",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082545217455243373",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try the new Grok Voice"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "https://t.co/51C2lyfTCM",
+      "source_name": "Google DeepMind",
+      "author": "GoogleDeepMind",
+      "published": "2026-07-29T19:00:48+00:00",
+      "url": "https://x.com/GoogleDeepMind/status/2082541871612449180",
+      "digest_excerpt": "https://t.co/51C2lyfTCM",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleDeepMind/status/2082541871612449180",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/51C2lyfTCM"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "your agents, anywhere\n\ntry Cursor on iOS today",
+      "source_name": "Ryo Lu",
+      "author": "ryolu_",
+      "published": "2026-07-29T18:52:57+00:00",
+      "url": "https://x.com/ryolu_/status/2082539893729972320",
+      "digest_excerpt": "your agents, anywhere\n\ntry Cursor on iOS today",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/ryolu_/status/2082539893729972320",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "your agents, anywhere\n\ntry Cursor on iOS today"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "Some observations from our Demo Faire yesterday:\n\n1/ There is a tremendous amount of interest from the larger investor c",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-29T18:48:13+00:00",
+      "url": "https://x.com/adityaag/status/2082538703432630398",
+      "digest_excerpt": "Some observations from our Demo Faire yesterday:\n\n1/ There is a tremendous amount of interest from the larger investor community for frontier technology. Robots. Drones. Semiconductors. Bring it all. \n\n2/ The interest in Frontier Tech is legitimately Based. People want 🇺🇸 to win.\n\n3/ The bar for \"great\" in software has gone up a lot. If you are building something that resembles vertical SaaS or agent-for-X, then you have to show something truly different in terms of vision or on a bonkers ramp.\n\n4/ You should only do early stage investing if you love building the future. That is the real joy of it. It was so cool to see everyone deeply engaging with our founders about what they were building (as opposed to simply asking for up and to the right graphs).\n\n5/ Silicon Valley does best when we understand that it takes a village to build something special for many decades.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2082538703432630398",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Some observations from our Demo Faire yesterday:\n\n1/ There is a tremendous amount of interest from the larger investor community for frontier technology. Robots. Drones. Semiconductors. Bring it all. \n\n2/ The interest in Frontier Tech is legitimately Based. People want 🇺🇸 to win.\n\n3/ The bar for \"great\" in software has gone up a lot. If you are building something that resembles vertical SaaS or agent-for-X, then you have to show something truly different in terms of vision or on a bonkers ramp.\n\n4/ You should only do early stage investing if you love building the future. That is the real joy of it. It was so cool to see everyone deeply engaging with our founders about what they were building (as opposed to simply asking for up and to the right graphs).\n\n5/ Silicon Valley does best when we understand that it takes a village to build something special for many decades."
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Science moves faster when more researchers have access to the best tools.\n\nGetting frontier AI into the hands of academi",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-29T17:46:06+00:00",
+      "url": "https://x.com/gdb/status/2082523070968070359",
+      "digest_excerpt": "Science moves faster when more researchers have access to the best tools.\n\nGetting frontier AI into the hands of academic researchers means more shots on goal against humanity’s hardest problems — and more breakthroughs that benefit all of us.\n\nExcited to see what they discover.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082523070968070359",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Science moves faster when more researchers have access to the best tools.\n\nGetting frontier AI into the hands of academic researchers means more shots on goal against humanity’s hardest problems — and more breakthroughs that benefit all of us.\n\nExcited to see what they discover."
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nT",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-29T17:30:02+00:00",
+      "url": "https://x.com/petergyang/status/2082519030859264086",
+      "digest_excerpt": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nTo avoid this, I always create a design md file with guidelines for color, typography, and more.\nHere are a few places to find inspiration for your design md:\n\n1. Go to @mobbin and install its MCP to find design patterns and app screens you like. Paste the screens and ask AI to make a design md.\n\n2. Check out designmd sh, which has a library of design md files for popular websites and apps.\n\n📌 I walk through an example of creating a design md in my new tutorial: https://t.co/3LIw4UXbpi",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082519030859264086",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nTo avoid this, I always create a design md file with guidelines for color, typography, and more.\nHere are a few places to find inspiration for your design md:\n\n1. Go to @mobbin and install its MCP to find design patterns and app screens you like. Paste the screens and ask AI to make a design md.\n\n2. Check out designmd sh, which has a library of design md files for popular websites and apps.\n\n📌 I walk through an example of creating a design md in my new tutorial: https://t.co/3LIw4UXbpi"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researche",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T17:19:28+00:00",
+      "url": "https://x.com/OpenAI/status/2082516370949062989",
+      "digest_excerpt": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.\n\nChatGPT for Academic Researchers is built to accelerate discovery across disciplines. https://t.co/nrHn1no0wQ",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2082516370949062989",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’re giving scientists, mathematicians, and engineers free access to our frontier models—starting with 10,000 researchers and expanding to 100,000 through 2027.\n\nChatGPT for Academic Researchers is built to accelerate discovery across disciplines. https://t.co/nrHn1no0wQ"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incid",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-29T17:13:08+00:00",
+      "url": "https://x.com/levie/status/2082514776392175844",
+      "digest_excerpt": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more.\n\nEven in the happy path case with a good actor, if you give an agent a task like \"find all of our most important IP on project Maven\" it will gladly go out and execute that work -no matter how long- and find any resource relevant to the task. It might run into data with out of date access controls or reveal something that you shouldn't know about. Then, in the non-happy path case with a malicious actor the risk is clearly far worse.\n\nIn theory, you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments.\n\nThis obviously creates a huge opportunity for the startup and security ecosystems because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2082514776392175844",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more.\n\nEven in the happy path case with a good actor, if you give an agent a task like \"find all of our most important IP on project Maven\" it will gladly go out and execute that work -no matter how long- and find any resource relevant to the task. It might run into data with out of date access controls or reveal something that you shouldn't know about. Then, in the non-happy path case with a malicious actor the risk is clearly far worse.\n\nIn theory, you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments.\n\nThis obviously creates a huge opportunity for the startup and security ecosystems because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work."
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Desig",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T16:49:30+00:00",
+      "url": "https://x.com/amasad/status/2082508826767679668",
+      "digest_excerpt": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Design is powered by the best of open and closed models to generate superior aesthetics. https://t.co/qt5XNdHfQ8",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082508826767679668",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Design is powered by the best of open and closed models to generate superior aesthetics. https://t.co/qt5XNdHfQ8"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Post-prompt era",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T16:36:30+00:00",
+      "url": "https://x.com/amasad/status/2082505558293467363",
+      "digest_excerpt": "Post-prompt era",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082505558293467363",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Post-prompt era"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out!",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T16:33:53+00:00",
+      "url": "https://x.com/amasad/status/2082504898801999990",
+      "digest_excerpt": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082504898801999990",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out!"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directl",
+      "source_name": "Google Labs",
+      "author": "GoogleLabs",
+      "published": "2026-07-29T16:19:49+00:00",
+      "url": "https://x.com/GoogleLabs/status/2082501360466174163",
+      "digest_excerpt": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session.\n\nWhat this means for your tracks:\n\n✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs and export stems for full-length songs!\n\n🎤 Upgraded vocals: More expressive, dynamic, and rich singing.\n\n🎸 Richer musicality: Arrangements flow more naturally from note to note.\n\nHear it for yourself and start creating at https://t.co/3XMUc2pkzU 👇",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleLabs/status/2082501360466174163",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session.\n\nWhat this means for your tracks:\n\n✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs and export stems for full-length songs!\n\n🎤 Upgraded vocals: More expressive, dynamic, and rich singing.\n\n🎸 Richer musicality: Arrangements flow more naturally from note to note.\n\nHear it for yourself and start creating at https://t.co/3XMUc2pkzU 👇"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "WATCH ME WRITE LIVE WITH CHATGPT VOICE https://t.co/p2NNL445RV",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T16:09:35+00:00",
+      "url": "https://x.com/danshipper/status/2082498781346484229",
+      "digest_excerpt": "WATCH ME WRITE LIVE WITH CHATGPT VOICE https://t.co/p2NNL445RV",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082498781346484229",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "WATCH ME WRITE LIVE WITH CHATGPT VOICE https://t.co/p2NNL445RV"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "😂",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T14:49:42+00:00",
+      "url": "https://x.com/elonmusk/status/2082478679498822118",
+      "digest_excerpt": "😂",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082478679498822118",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "😂"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "Here’s my new tutorial that covers the six steps I follow to design and build products with AI, including how to:\n\n→ Def",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-29T14:30:12+00:00",
+      "url": "https://x.com/petergyang/status/2082473770741272747",
+      "digest_excerpt": "Here’s my new tutorial that covers the six steps I follow to design and build products with AI, including how to:\n\n→ Define the problem and create a design md\n→ Prototype in Claude Design\n→ Draft an interactive HTML spec\n→ Design the core flows and build\n\nI share a real example of how I built Tastemaker - an app for sharing your favorite movies, TV shows, and games - end to end with Claude Design and Claude Code.\n\nOne thing I’ve learned is that good upfront planning with AI is the difference between getting the product you want vs. getting slop. Flesh out the requirements and designs first, and resist AI’s urge to start coding too soon.\n\n📌 Watch my 25-minute tutorial now: https://t.co/9gpt1Zd1e1",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082473770741272747",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Here’s my new tutorial that covers the six steps I follow to design and build products with AI, including how to:\n\n→ Define the problem and create a design md\n→ Prototype in Claude Design\n→ Draft an interactive HTML spec\n→ Design the core flows and build\n\nI share a real example of how I built Tastemaker - an app for sharing your favorite movies, TV shows, and games - end to end with Claude Design and Claude Code.\n\nOne thing I’ve learned is that good upfront planning with AI is the difference between getting the product you want vs. getting slop. Flesh out the requirements and designs first, and resist AI’s urge to start coding too soon.\n\n📌 Watch my 25-minute tutorial now: https://t.co/9gpt1Zd1e1"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "Grok Build updates",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T14:23:55+00:00",
+      "url": "https://x.com/elonmusk/status/2082472190575034548",
+      "digest_excerpt": "Grok Build updates",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082472190575034548",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Build updates"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "Because he would incriminate himself. \n\nhttps://t.co/Iu3jibgVQI",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T13:58:07+00:00",
+      "url": "https://x.com/elonmusk/status/2082465700401361192",
+      "digest_excerpt": "Because he would incriminate himself. \n\nhttps://t.co/Iu3jibgVQI",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082465700401361192",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Because he would incriminate himself. \n\nhttps://t.co/Iu3jibgVQI"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "https://t.co/bqsFZyTBac",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T13:31:20+00:00",
+      "url": "https://x.com/elonmusk/status/2082458959248834596",
+      "digest_excerpt": "https://t.co/bqsFZyTBac",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082458959248834596",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/bqsFZyTBac"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "https://t.co/B7iMeHF4CY",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T13:28:22+00:00",
+      "url": "https://x.com/elonmusk/status/2082458212662661293",
+      "digest_excerpt": "https://t.co/B7iMeHF4CY",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082458212662661293",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/B7iMeHF4CY"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "https://t.co/41d7H6g0zn",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T13:28:16+00:00",
+      "url": "https://x.com/elonmusk/status/2082458184913195344",
+      "digest_excerpt": "https://t.co/41d7H6g0zn",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082458184913195344",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/41d7H6g0zn"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "A significant portion of current AI \"discourse\" is less about technological capabilities and more about frontier lab emp",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-29T10:43:47+00:00",
+      "url": "https://x.com/fchollet/status/2082416792744419749",
+      "digest_excerpt": "A significant portion of current AI \"discourse\" is less about technological capabilities and more about frontier lab employees navigating their own self-esteem and sense of identity.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2082416792744419749",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A significant portion of current AI \"discourse\" is less about technological capabilities and more about frontier lab employees navigating their own self-esteem and sense of identity."
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "Cool",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T07:31:29+00:00",
+      "url": "https://x.com/elonmusk/status/2082368400702226588",
+      "digest_excerpt": "Cool",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082368400702226588",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Cool"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "The ship landing was precise, meaning that it would have been caught by the tower arms",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-29T07:28:21+00:00",
+      "url": "https://x.com/elonmusk/status/2082367610835157028",
+      "digest_excerpt": "The ship landing was precise, meaning that it would have been caught by the tower arms",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082367610835157028",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The ship landing was precise, meaning that it would have been caught by the tower arms"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "yep",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-29T06:19:39+00:00",
+      "url": "https://x.com/gdb/status/2082350322337673601",
+      "digest_excerpt": "yep",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082350322337673601",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "yep"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "Serving large models is hard.",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-29T05:27:14+00:00",
+      "url": "https://x.com/steipete/status/2082337130299457652",
+      "digest_excerpt": "Serving large models is hard.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2082337130299457652",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Serving large models is hard."
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "One day we created the reset button and the rest is history.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-29T04:45:22+00:00",
+      "url": "https://x.com/thsottiaux/status/2082326593532473523",
+      "digest_excerpt": "One day we created the reset button and the rest is history.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082326593532473523",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "One day we created the reset button and the rest is history."
+    },
+    {
+      "id": "S052",
+      "kind": "x",
+      "title": "These are all valid criticisms of Codex, even though I love the product too!\n\nI actually had no idea that Sol Pro even e",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-29T04:33:07+00:00",
+      "url": "https://x.com/petergyang/status/2082323512069685575",
+      "digest_excerpt": "These are all valid criticisms of Codex, even though I love the product too!\n\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082323512069685575",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "These are all valid criticisms of Codex, even though I love the product too!\n\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1"
+    },
+    {
+      "id": "S053",
+      "kind": "x",
+      "title": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-29T04:09:02+00:00",
+      "url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "digest_excerpt": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\n\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\n\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\n\nHere’s what we found:\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\n\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\n\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082317452755751098",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\n\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\n\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\n\nHere’s what we found:\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\n\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\n\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go."
+    },
+    {
+      "id": "S054",
+      "kind": "x",
+      "title": "Who’s writing an open letter against destroying rare books?",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T04:08:32+00:00",
+      "url": "https://x.com/amasad/status/2082317323445387514",
+      "digest_excerpt": "Who’s writing an open letter against destroying rare books?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082317323445387514",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Who’s writing an open letter against destroying rare books?"
+    },
+    {
+      "id": "S055",
+      "kind": "x",
+      "title": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T04:05:28+00:00",
+      "url": "https://x.com/amasad/status/2082316553740284060",
+      "digest_excerpt": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082316553740284060",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs."
+    },
+    {
+      "id": "S056",
+      "kind": "x",
+      "title": "1300 Elo!\n\nhttps://t.co/4WJ9SYmr1o https://t.co/87CcHf43N7",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T04:03:52+00:00",
+      "url": "https://x.com/amasad/status/2082316150273360316",
+      "digest_excerpt": "1300 Elo!\n\nhttps://t.co/4WJ9SYmr1o https://t.co/87CcHf43N7",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082316150273360316",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "1300 Elo!\n\nhttps://t.co/4WJ9SYmr1o https://t.co/87CcHf43N7"
+    },
+    {
+      "id": "S057",
+      "kind": "x",
+      "title": "5.6 for solving another longstanding open problem, this time in probability:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-29T03:36:57+00:00",
+      "url": "https://x.com/gdb/status/2082309375696478372",
+      "digest_excerpt": "5.6 for solving another longstanding open problem, this time in probability:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082309375696478372",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "5.6 for solving another longstanding open problem, this time in probability:"
+    },
+    {
+      "id": "S058",
+      "kind": "x",
+      "title": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T01:12:42+00:00",
+      "url": "https://x.com/danshipper/status/2082273076352315440",
+      "digest_excerpt": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082273076352315440",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming"
+    },
+    {
+      "id": "S059",
+      "kind": "x",
+      "title": "This is why i do anti depressants and stimulants. \n\nDynamism x2. Join me America!",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T01:04:15+00:00",
+      "url": "https://x.com/danshipper/status/2082270947793350785",
+      "digest_excerpt": "This is why i do anti depressants and stimulants. \n\nDynamism x2. Join me America!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082270947793350785",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is why i do anti depressants and stimulants. \n\nDynamism x2. Join me America!"
+    },
+    {
+      "id": "S060",
+      "kind": "x",
+      "title": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T00:35:31+00:00",
+      "url": "https://x.com/OpenAI/status/2082263717916586117",
+      "digest_excerpt": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here...\n\nYou can now use it to scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD. \n\nThis is an early release, and we're listening to your feedback as we continue improving it.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2082263717916586117",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We quietly released the open-source Codex Security CLI, but Hacker News found it before we had a chance to share it here...\n\nYou can now use it to scan repositories, track findings across runs, verify fixes, and add security checks to CI/CD. \n\nThis is an early release, and we're listening to your feedback as we continue improving it."
+    },
+    {
+      "id": "S061",
+      "kind": "x",
+      "title": "- Kimi K3: frontier at 1/4 the price\n- DeepSeek V4 flash: low wage workhorse\n- all the GPTs\n- good old Anthropic models",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-29T00:34:25+00:00",
+      "url": "https://x.com/amasad/status/2082263440908079290",
+      "digest_excerpt": "- Kimi K3: frontier at 1/4 the price\n- DeepSeek V4 flash: low wage workhorse\n- all the GPTs\n- good old Anthropic models",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082263440908079290",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "- Kimi K3: frontier at 1/4 the price\n- DeepSeek V4 flash: low wage workhorse\n- all the GPTs\n- good old Anthropic models"
+    },
+    {
+      "id": "S062",
+      "kind": "x",
+      "title": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\n\nSo I built Tastemake",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-29T00:00:15+00:00",
+      "url": "https://x.com/petergyang/status/2082254840655405293",
+      "digest_excerpt": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\n\nSo I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile.\n\nYou can use it to:\n\n→ Rate and review your favorites\n→ Create and share lists\n→ Discover what to watch or play next\n\nBecause of API limits, I’m launching this as a limited release for the first 100 profiles only.\n\n📌 Claim your free profile now: https://t.co/HLkDespYE8",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082254840655405293",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\n\nSo I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile.\n\nYou can use it to:\n\n→ Rate and review your favorites\n→ Create and share lists\n→ Discover what to watch or play next\n\nBecause of API limits, I’m launching this as a limited release for the first 100 profiles only.\n\n📌 Claim your free profile now: https://t.co/HLkDespYE8"
+    },
+    {
+      "id": "S063",
+      "kind": "x",
+      "title": "ChatGPT Work so much more capable than people realize — any prompt that you've used that really drove home just what Wor",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-28T23:40:57+00:00",
+      "url": "https://x.com/gdb/status/2082249986004435082",
+      "digest_excerpt": "ChatGPT Work so much more capable than people realize — any prompt that you've used that really drove home just what Work can do?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082249986004435082",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Work so much more capable than people realize — any prompt that you've used that really drove home just what Work can do?"
+    },
+    {
+      "id": "S064",
+      "kind": "x",
+      "title": "We recently joined NVIDIA, Microsoft, and others in supporting open-weight AI.\n\nToday, we’re putting that belief into th",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-28T23:26:11+00:00",
+      "url": "https://x.com/amasad/status/2082246268517310851",
+      "digest_excerpt": "We recently joined NVIDIA, Microsoft, and others in supporting open-weight AI.\n\nToday, we’re putting that belief into the product with model choice on Replit, starting with Kimi K3.\n\nThe future is the right model for the right job, at the right cost.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082246268517310851",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We recently joined NVIDIA, Microsoft, and others in supporting open-weight AI.\n\nToday, we’re putting that belief into the product with model choice on Replit, starting with Kimi K3.\n\nThe future is the right model for the right job, at the right cost."
+    },
+    {
+      "id": "S065",
+      "kind": "x",
+      "title": "Try Kimi K3 on Replit.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-28T23:22:46+00:00",
+      "url": "https://x.com/amasad/status/2082245409049870747",
+      "digest_excerpt": "Try Kimi K3 on Replit.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082245409049870747",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try Kimi K3 on Replit."
+    },
+    {
+      "id": "S066",
+      "kind": "x",
+      "title": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vu",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-28T23:05:54+00:00",
+      "url": "https://x.com/thsottiaux/status/2082241164850364555",
+      "digest_excerpt": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082241164850364555",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b"
+    },
+    {
+      "id": "S067",
+      "kind": "x",
+      "title": "we've just open-sourced the Codex Security CLI: https://t.co/gIm9X2wDdh",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-28T22:41:46+00:00",
+      "url": "https://x.com/gdb/status/2082235089539526690",
+      "digest_excerpt": "we've just open-sourced the Codex Security CLI: https://t.co/gIm9X2wDdh",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082235089539526690",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we've just open-sourced the Codex Security CLI: https://t.co/gIm9X2wDdh"
+    },
+    {
+      "id": "S068",
+      "kind": "x",
+      "title": "We support this petition, signed by our CEO, several co-founders, and senior staff. \n\nOur own research on recursive self",
+      "source_name": "Anthropic",
+      "author": "AnthropicAI",
+      "published": "2026-07-28T22:17:32+00:00",
+      "url": "https://x.com/AnthropicAI/status/2082228994653696371",
+      "digest_excerpt": "We support this petition, signed by our CEO, several co-founders, and senior staff. \n\nOur own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://t.co/DqwuQfa9xH",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AnthropicAI/status/2082228994653696371",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We support this petition, signed by our CEO, several co-founders, and senior staff. \n\nOur own research on recursive self-improvement, published last month, points to the need for tools to deliberately pace the frontier of AI development so society can prepare. We’re glad to see broad agreement across the field. https://t.co/DqwuQfa9xH"
+    }
+  ]
+}
