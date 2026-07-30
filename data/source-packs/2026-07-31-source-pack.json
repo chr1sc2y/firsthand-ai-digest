@@ -1,0 +1,1258 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-30T23:30:05.512561+00:00",
+  "coverage": {
+    "start": "2026-07-29T22:00:00+00:00",
+    "end": "2026-07-30T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-07-30T23:27:46.444190+00:00",
+  "item_count": 62,
+  "source_count": 62,
+  "access_counts": {
+    "substantial": 4,
+    "partial": 58,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Quoting Bruce Schneier",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-30T18:25:26+00:00",
+      "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/",
+      "digest_excerpt": "<blockquote cite=\"https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html\"><p>The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are <a href=\"https://futurism.com/future-society/college-critical-thinking-ai\">already noticing</a>.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html\">Bruce Schneier</a>, Should You Use AI for a Task? Here’s a Simple Way to Decide</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/writing\">writing</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/bruce-schneier\">bruce-schneier</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/30/bruce-schneier/",
+        "limitation": ""
+      },
+      "page_title": "A quote from Bruce Schneier",
+      "page_description": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nCursor — Delegate engineering tasks to Cursor Cloud Agents—even while your laptop is closed.\nTry Cursor & get 50% off your first month\n30th July 2026\nThe writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are\nalready noticing\n.\n—\nBruce Schneier\n,\nShould You Use AI for a Task? Here’s a Simple Way to Decide\nPosted\n30th July 2026\nat 6:25 pm\nRecent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nKimi K3, and what we can still learn from the pelican benchmark\n- 16th July 2026\nThis is a\nquotation\ncollected by Simon Willison, posted on\n30th July 2026\n.\nbruce-schneier\n35\nwriting\n32\nai\n2,151\ngenerative-ai\n1,903\nllms\n1,870\nai-ethics\n328\nai-misuse\n57\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "source_name": "Google DeepMind",
+      "author": "",
+      "published": "2026-07-30T15:00:59+00:00",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "digest_excerpt": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+        "limitation": ""
+      },
+      "page_title": "Gemini Robotics ER 2",
+      "page_description": "Gemini Robotics ER 2 is a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "content": "Skip to main content\nIntroducing Gemini Robotics ER 2\nInnovation & AI\nProducts & platforms\nCompany news\nFeed\nSubscribe\nBack\nInnovation & AI\nSee all in Innovation & AI\nModels & Research\nGoogle DeepMind\nGoogle Research\nGoogle Labs\nGemini models\nQuantum computing\nSee all\nProducts\nDeveloper tools\nGemini app\nGemini Notebook\nSee all\nInfrastructure & cloud\nGlobal network\nGoogle Cloud\nSee all\nTechnology\nSafety & Security\nHealth\nSee all\nLearn more:\nGoogle DeepMind blog\nGoogle Research blog\nGoogle Developers blog\nGoogle Cloud blog\nBack\nProducts & platforms\nSee all in Products & platforms\nProducts\nSearch\nMaps\nChrome\nGoogle Health\nGoogle Workspace\nLearning & Education\nShopping\nSee all\nPlatforms\nAndroid\nGoogle Play\nWear OS\nSee all\nDevices\nPixel\nGoogle Nest\nFitbit\nChromebooks\nSee all\nLearn more:\nGoogle Ads & Commerce blog\nWaze blog\nBack\nCompany news\nSee all in Company news\nOutreach & initiatives\nCreating opportunity\nSafety & security\nGoogle.org\nPublic policy\nSustainability\nHealth\nSee all\nLeadership\nSundar Pichai, CEO\nMore authors\nSee all\nInside Google\nAround the globe\nLife at Google\nSee all\nLearn more:\nGoogle Security blog\nInnovation & AI\nInnovation & AI\nSee all in Innovation & AI\nModels & Research\nGoogle DeepMind\nGoogle Research\nGoogle Labs\nGemini models\nQuantum computing\nSee all\nProducts\nDeveloper tools\nGemini app\nGemini Notebook\nSee all\nInfrastructure & cloud\nGlobal network\nGoogle Cloud\nSee all\nTechnology\nSafety & Security\nHealth\nSee all\nLearn more:\nGoogle DeepMind blog\nGoogle Research blog\nGoogle Developers blog\nGoogle Cloud blog\nProducts & platforms\nProducts & platforms\nSee all in Products & platforms\nProducts\nSearch\nMaps\nChrome\nGoogle Health\nGoogle Workspace\nLearning & Education\nShopping\nSee all\nPlatforms\nAndroid\nGoogle Play\nWear OS\nSee all\nDevices\nPixel\nGoogle Nest\nFitbit\nChromebooks\nSee all\nLearn more:\nGoogle Ads & Commerce blog\nWaze blog\nCompany news\nCompany news\nSee all in Company news\nOutreach & initiatives\nCreating opportunity\nSafety & security\nGoogle.org\nPublic policy\nSustainability\nHealth\nSee all\nLeadership\nSundar Pichai, CEO\nMore authors\nSee all\nInside Google\nAround the globe\nLife at Google\nSee all\nLearn more:\nGoogle Security blog\nFeed\nIntroducing Gemini Robotics ER 2\nShare\nx.com\nFacebook\nLinkedIn\nMail\nCopy link\n[]\nPreferences\nGlobal (English)\nAfrica (English)\nAustralia (English)\nBrasil (Português)\nCanada (English)\nCanada (Français)\nČesko (Čeština)\nDeutschland (Deutsch)\nEspaña (Español)\nFrance (Français)\nGreece (Ελληνικά)\nIndia (English)\nIndonesia (Bahasa Indonesia)\nIreland (English)\nItalia (Italiano)\n日本 (日本語)\n대한민국 (한국어)\nLatinoamérica (Español)\nالشرق الأوسط وشمال أفريقيا (اللغة العربية)\nMENA (English)\nNederlands (Nederland)\nNew Zealand (English)\nPolska (Polski)\nPortugal (Português)\nRomânia (Română)\nSverige (Svenska)\nประเทศไทย (ไทย)\nTürkiye (Türkçe)\n台灣 (中文)\nLinks\nImages\nRSS feed\nx.com\nFacebook\nLinkedIn\nMail\nCopy link\nSubscribe\nBreadcrumb\nHome\nInnovation & AI\nModels & research\nGoogle DeepMind\nIntroducing Gemini Robotics ER 2\nJul 30, 2026\n|\nx.com\nFacebook\nLinkedIn\nMail\nCopy link\nGemini Robotics ER 2 represents a step change in powering robots with video understanding, task orchestration, and multi-robot collaboration — making it possible for robots to be more helpful in the physical world.\nSteven Hansen\nSenior Staff Software Engineer\nPeng Xu\nStaff Software Engineer\nShare\nx.com\nFacebook\nLinkedIn\nMail\nCopy link\nRead AI-generated summary\nWe are launching Gemini Robotics ER 2, a new model designed to act as a high-level brain for robots. It enables real-time spatial reasoning, multi-step task planning, and collaboration between different robots. You can access the model now via the Gemini API, Google AI Studio, or the Gemini Enterprise Agent Platform to start building your own physical AI agents.\nSummaries were generated by Google AI. Generative AI is experimental.\nGoogle just launched Gemini Robotics ER 2, which acts like a smart brain for robots. It helps them think quickly, plan multi-step tasks and even work together with other robots. The model lets robots watch video feeds to track their own progress and fix mistakes in real time. It’s designed to make robots safer and more helpful in the real world.\nSummaries were generated by Google AI. Generative AI is experimental.\nExplore other styles:\nGeneral summary\nBasic explainer\nFor robots to assist humans in everyday environments, accurate spatial reasoning is not enough. Robots must also think fast, timing their decisions and reasoning with the real-time speed of the physical world.\nThat’s why today we’re launching\nGemini Robotics ER 2\n, our most capable “embodied reasoning” model for robotics. Think of Gemini Robotics ER 2 as a high-level brain for robots. It allows robots to chat with humans, understand the physical world, and plan multi-step tasks. It then hands off motor execution to any given lower level vision-language-action (VLA) model. Gemini Robotics ER 2 can also natively call tools like Google Search to find information, or any other user-defined function. The design of Gemini Robotics ER 2 allows the robot to “think” about what comes next while simultaneously performing its actions.\nGemini Robotics ER 2 represents a significant upgrade over\nGemini Robotics ER 1.6\n. By watching continuous video feeds, robots can now track their own progress, adapt if something goes wrong, and know exactly when to move on to the next step. We are also introducing multi-robot collaboration, enabling robots to work together in shared spaces and complete complex workflows a single robot could not do alone.\nGemini Robotics ER 2 is now publicly available to developers via the\nGemini API\n,\nGoogle AI Studio\n, and in private preview on\nGemini Enterprise Agent Platform\n. To help you get started, we’re sharing\nexamples\nof how to configure the model and prompt it to power more useful physical AI tasks.\nAdvancing physical agentic capabilities\nMost tasks in the physical world are complex and require multiple steps to complete. Gemini Robotics ER 2 is a physical agent, orchestrating steps for the robot and enabling it to self-correct, and generalize to more novel situations. To build an agentic setup, developers can declare low-level control interfaces — like Vision-Language-Action (VLA) models or navigation APIs — as tools, and stream multimodal video, audio, or text directly into the model.\nGemini Robotics ER 2 improves this tool orchestration workflow. We can evaluate its performance with robots in simulation, using real-world robot control, and even pair it with a human controlling the robot remotely.\nGemini Robotics ER 2 consistently outperforms ER 1.6 for tool orchestration across three control modes: real VLA, sim VLA, and human tele-op.\nIn robotics, high-level reasoning depends on execution speed. Gemini Robotics ER 2 integrates into the\nGemini Live API\n, using a bidirectional streaming endpoint optimized for latency-sensitive tasks. The result is fluid orchestration: Gemini Robotics ER 2 commands action models and robotics APIs to complete multi-step tasks without the jarring “stop-and-think” pauses.\nTo illustrate this, we’ve built a demo with\nSpot\nfrom our partners at\nBoston Dynamics\n. We use Gemini Robotics ER 2 to orchestrate\nSpot APIs\n, such as navigation and manipulator movement, creating an interactive robot that fetches objects for you.\nGemini Robotics ER 2 powered Boston Dynamic Spot fetches a popcorn snack up on a natural language command.\nThe code is available on\nGithub\nwith other examples.\nUnlocking temporal intelligence for robust task completion\nOne of robotics’ hardest challenges is knowing when a task is done. Gemini Robotics ER 2 brings a step-change in video understanding and progress tracking to verify that complex tasks — such as tightening a light bulb or tying a trash bag — are complete to specification before switching to the next task.\nIn this update, we’ve made progress on two foundational capabilities for task progress understanding: progress classification and moment finding.\nContinuous progress classification\nProgress classification refers to a robot’s ability to track progress towards task completion. In our evaluations, we assign each frame in a video feed into five levels of progress (0-20%, 20-40%, 40-60%, 60-80%, 80-100%). By quantifying task progress, Gemini Robotics ER 2 provides robots with real-time situational awareness, and allows them to adjust actions on the fly or retry failed steps without restarting an entire workflow.\nGemini Robotics ER 2 achieves 57.4% accuracy on progress classification tasks, outperforming previous generation models and competing frontier models.\nPrecision moment-finding\nMoment-finding measures a model's ability to identify the exact video frame where a critical event takes place (i.e. when to stop pouring coffee into a cup). Gemini Robotics ER 2 achieves significant gains in performance on moment finding, enabling robots to precisely switch between tasks, verify success and suggest corrections.\nFor moment-finding tasks, Gemini Robotics ER 2 achieves 91.3% accuracy and a 0.96s mean absolute distance. It competes closely with much larger model categories, but delivers this precision at a fraction of the compute cost and 4x the execution speed—the sub-second latency actually required to safely operate physical robotics in the real world.\nMulti-robot collaboration\nNo single robot fits every task — a wheeled rover excels indoors, while a humanoid robot may excel at uneven terrain. Gemini Robotics 2 enables multi-robot collaboration, allowing diverse machines to communicate via a shared semantic understanding to handoff and complete complex tasks. See how Gemini Robotics ER 2 enables\nApptronik\n’s\nApollo 2\nand\nFranka F3 Duo\nto collaborate\nhere\n.\nImproving general spatial intelligence\nGemini Robotics ER 2 advances our core spatial reasoning capability, as measured by three benchmarks:\nSuccess/failure detection:\nNow operates on raw video feeds rather than static snapshots to catch mid-execution failures like spills, slips, or misalignments.\nGeneral instrument reading:\nExtends beyond circular dials and sight glasses to include digital displays, linear scales, rulers, and liquid thermometers. We tested it across 10 different types of instruments.\nEnhanced spatial VQA:\nImproves Visual Question Answering throughGemini’s advancements in multi-modal understanding.\nGemini Robotics ER 2 consistently achieves the highest accuracy across all core capabilities, with highlights including success detection (image/video), Question Answering (ERQA), and generalized instrument reading.\nAdvancing safety for embodied intelligence\nGemini Robotics ER 2 is our safest model, achieving significant gains on Safety Instruction Following and Human Proximity benchmarks, which evaluate how a model adheres to physical constraints during reasoning tasks and spatial awareness for detecting humans. We found that Gemini Robotics ER 2 successfully halts a humanoid robot when a person is nearby and autonomously resumes work only once the area is clear. To advance safety for physical agents, we’re introducing a benchmark that evaluates a foundation model's ability to act as a safe VLA orchestrator by testing its capacity to enforce safety constraints, monitor the environment, assess physical feasibility, and seek human clarification. For details, see our\nsafety technical report\n.\nGemini Robotics ER 2 outperforms ER 1.6 and other frontier models on Safety Instruction Following and Human Proximity benchmarks.\nLooking ahead, our plans are to push these models towards even more complex tasks to accelerate the development of helpful robots and support the robotics community.\nGet the latest news from Google in your inbox\nSign up for our newsletters with product updates, event information, special offers, and more.\nDone. Just one step more.\nCheck your inbox to confirm your subscription.\nYou can also subscribe with a\ndifferent email address\n.\nYour information will be used in accordance with\nGoogle's privacy policy.\nYou may "
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-07-30T10:00:00+00:00",
+      "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "digest_excerpt": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+        "limitation": ""
+      },
+      "page_title": "Advancing the price-performance frontier with GPT-5.6 | OpenAI",
+      "page_description": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nJuly 30, 2026\nProduct\nAdvancing the price-performance frontier with GPT‑5.6\nBy making every layer more efficient, OpenAI is delivering stronger performance per dollar across more enterprise workloads.\nLoading…\nShare\nMatching intelligence to the outcome\nMatching intelligence to the outcome\nHow we advance the efficiency frontier\nA compute strategy built for scale\nAvailability and pricing\nMatching intelligence to the outcome\nHow we advance the efficiency frontier\nA compute strategy built for scale\nAvailability and pricing\nYesterday, we shared how\nGPT‑5.6\n⁠\nhelped make itself\nmore efficient to run\n⁠\n. Today, we’re passing those gains on to customers with lower prices for GPT‑5.6\nLuna\n⁠\n(opens in a new window)\nand\nTerra\n⁠\n(opens in a new window)\nand faster performance with GPT‑5.6\nSol\n⁠\nin the API. Together, these updates help customers get more from every dollar they invest in AI and move faster when time matters.\nStarting today, GPT‑5.6 Luna, our fastest and most affordable model, will cost 80% less, while GPT‑5.6 Terra, our balanced model for everyday work, will cost 20% less. These lower prices for Luna and Terra are also reflected in how usage is counted against paid subscriptions when using Codex and ChatGPT Work. Luna gives businesses a far more cost-effective way to handle high-volume work at very high levels of quality. It can use tools and complete multi-step workflows, making a broader range of AI applications practical to run at scale.\nMaking advanced intelligence more abundant and affordable is central to OpenAI’s mission to ensure AGI benefits all of humanity. These changes put that commitment into practice. They reflect years of improvements in how our models are built, served, and put to work.\nWe’re also introducing\nFast mode\nin the API, which replaces our Priority Processing offering. For GPT‑5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than Standard processing at twice the price, with no change in intelligence. Fast mode is backward compatible: requests tagged priority will automatically use Fast mode.\n1 of 6\n“\nGPT‑5.6 Luna is the closest we've come to intelligence too cheap to meter. I've never seen a model this affordable be this powerful — it's unlocking use cases for Replit we didn't expect to build for a long time.\n”\nMichele Catasta, President & Head of AI, Replit\n“\nGPT‑5.6 Terra is a strong fit for everyday work in Notion’s personal agent, including workspace Q&A and scoped tasks where latency matters. In our evaluations, it delivered comparable quality to GPT‑5.5 at half the cost per task and in 60% less time.\n”\nHoda Noorian, AI Product, Notion\n“\nWe are focused on maximizing outcome per dollar in everything we do, and the GPT‑5.6 series has been a significant step forward in that regard. Terra and Luna lead on cost-efficiency across our internal coding benchmarks, and Luna is now our default model for background agent automations.\n”\nShaiyon Hariri, Creator of Ramp SWE-Bench\n“\nGPT‑5.6 Luna is the biggest step change in agentic behavior we’ve seen since putting GPT‑4o mini into production. Luna moved us from a single structured-output call to a full tool-calling agent loop, increasing prompt-cache reuse from 24% to 90%. Across thousands of production calls, Luna handles 2.2× more context with 8.5× fewer output tokens—at 87% lower cost than GPT‑5.4 mini.\n”\nSid Pardeshi, CTO + Co-Founder, Blitzy\n“\nGPT‑5.6 Luna is an ideal pair programmer for larger models, handling much of the routine work while striking an ideal balance between cost and intelligence. We’ve incorporated Luna into Devin Fusion to deliver significant cost savings for users without compromising quality.\n”\nWalden Yan, Co-Founder and Chief Product Officer, Cognition\n“\nWe've seen meaningful operational improvements since adopting GPT‑5.6 Luna. Given the same agentic tasks, GPT‑5.6 Luna is 40% faster and 40% cheaper than our previous default model, leading to a more responsive experience for users. It delivers an excellent balance of quality, speed and efficiency.\n”\nStanislas Polu, Co-Founder and CTO, Dust\nReplit\nNotion\nRamp\nBlitzy\nCognition\nDust\nMatching intelligence to the outcome\nUsing AI efficiently begins with the outcome. The stakes, cost of error, urgency, and scale determine the right balance of intelligence, speed, reliability, and cost. That balance can change from one step of a workflow to the next.\nGPT‑5.6 gives businesses much more room to optimize that equation. Luna delivers performance comparable to models that were frontier-class a year ago at roughly 6 cents on the dollar per task, and at nearly nine times the speed. On professional work, as measured by Agents’ Last Exam, Luna outperforms Fable 5 at an estimated cost per task nearly 99% lower.\nIn practice, businesses can define the outcome and quality standard they need, then use evaluations to determine where additional intelligence materially improves the result and where faster, lower-cost processing can deliver the same quality. A coding workflow, for example, might use Sol to resolve uncertainty and define the plan, then use Luna to implement well-specified changes, write and run tests, and evaluate the results. Another workflow may call for a different balance.\nThe GPT‑5.6 family expands the range of those choices. Businesses can apply the maximum useful intelligence at every stage while paying the right price for the value it creates.\nDelivering that flexibility starts with making every layer behind the models more efficient.\nHow we advance the efficiency frontier\nOur efficiency edge comes from improving the models, the inference systems that run them, and the agentic harness that connects them to tools and context. GPT‑5.6 models take a more direct path through work. Better routing keeps hardware productive, optimized production software generates tokens more efficiently, and smarter context management helps agents avoid repeating completed work. Together, these improvements let us complete more useful work with the same compute, reducing the time, tokens, and cost required for each result.\nGPT‑5.6 Sol is increasingly helping us find and deliver the next round of gains. Within a human-led process, Sol autonomously rewrote and optimized production kernels, designed and ran hundreds of experiments to improve token generation, and monitored training, intervening when problems arose. The kernel work helped reduce the end-to-end cost of serving the model by 20%, while its experiments increased token-generation efficiency by more than 15%. This work continues, creating a tighter feedback loop: as our models improve and are able to work more autonomously, our ability to improve efficiencies accelerates.\nRead more\n⁠\nabout the engineering behind GPT‑5.6.\nA compute strategy built for scale\nMeeting demand for abundant intelligence requires both more compute and more productive compute. We are building a resilient infrastructure portfolio and matching each workload to the systems best suited to run it. That approach supports both ends of the price-performance curve. At the lower-cost end, the new Luna and Terra prices make high-volume work economical at much greater scale. At the frontier end, Fast mode gives API customers faster access to Sol when response time is important.\nEnterprises can move more AI into everyday operations without sacrificing speed on their most consequential work. Large-scale document analysis, customer-interaction classification, and routine implementation can become economical to run broadly, while complex Sol workloads can move faster when the premium is justified.\nThe gains can compound. Within a human-led process, more capable models help our technical team find the next generation of improvements, shortening the path to better performance and lower costs. Our strategy remains focused on advancing both capability and efficiency so each generation of intelligence can accomplish more work at a lower cost.\nAvailability and pricing\nGPT‑5.6 Terra and Luna remain available in ChatGPT Work, Codex, and the OpenAI API. In ChatGPT Work and Codex, Free and Go users can access Terra, while Plus, Pro, Business, and Enterprise users can choose Terra and Luna.\nStarting July 30, API pricing is $2 per million input tokens and $12 per million output tokens for Terra, and $0.20 per million input tokens and $1.20 per million output tokens for Luna. Sol pricing remains unchanged. ChatGPT and Codex subscription prices and quota budgets remain unchanged, while Terra and Luna usage now consumes fewer credits. Pricing changes will begin rolling out in AWS later today.\nFast mode for GPT‑5.6 Sol replaces Priority Processing in the API and aligns with /fast in Codex. Existing API requests tagged priority will continue to work.\nView complete API pricing details.\n⁠\n2026\nAuthor\nOpenAI\nKeep reading\nView all\nLaunching Health in ChatGPT\nProduct\nJul 23, 2026\nIntroducing OpenAI Presence\nProduct\nJul 22, 2026\nGPT-5.6 is now the preferred model in Microsoft 365 Copilot\nProduct\nJul 9, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "2026-07-30",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-07-30T01:15:56+00:00",
+      "url": "https://daily.juya.uk/issues/2026-07-30/",
+      "digest_excerpt": "AI 早报 2026 07 30 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 OpenAI 上线 GPT 5.6 Sol 效率改进并重置 Codex 用量限制 ↗ 1 模型发布 SpaceXAI 推出 Grok Voice Think Fast 2.0 语音模型 ↗ 2 Google DeepMind 发布音乐模型 Lyria 3.5 ↗ 3 SKT 发布 688B 参数开源大模型 A.X K2 及音频版本 ↗ 4 开发生态 Cursor 官方宣布 Cursor 登陆 iPad ↗ 5 支付宝升级AI支付开发者激励计划 ↗ 6 Qoder 开源 AI 编程 Agent 评估工具 Better Harness ↗ 7 Perplexity 开源 Numbat：面向客户端终端的 Agent 安全检测与响应…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-07-30/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-07-30",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-07-30 ·\nMarkdown\nAI 早报 2026-07-30\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nOpenAI 上线 GPT-5.6 Sol 效率改进并重置 Codex 用量限制\n↗\n#1\n模型发布\nSpaceXAI 推出 Grok Voice Think Fast 2.0 语音模型\n↗\n#2\nGoogle DeepMind 发布音乐模型 Lyria 3.5\n↗\n#3\nSKT 发布 688B 参数开源大模型 A.X K2 及音频版本\n↗\n#4\n开发生态\nCursor 官方宣布 Cursor 登陆 iPad\n↗\n#5\n支付宝升级AI支付开发者激励计划\n↗\n#6\nQoder 开源 AI 编程 Agent 评估工具 Better Harness\n↗\n#7\nPerplexity 开源 Numbat：面向客户端终端的 Agent 安全检测与响应套件\n↗\n#8\n产品应用\nOpenAI推出ChatGPT for Academic Researchers计划\n↗\n#9\nGoogle为macOS版Gemini应用推出全新自然语言语音功能\n↗\n#10\nReplit 推出全新 Replit Design AI 设计工具\n↗\n#11\nHermes Agent 新增 Hey Hermes 语音唤醒词\n↗\n#12\n技术与洞察\nOpenAI称两项API设置使GPT-5.6基准得分提升三倍\n↗\n#13\nOpenAI称应用GPT-5.6 Sol优化自身运行：服务成本降20%\n↗\n#14\n腾讯混元开源 AngelSpec 推测解码框架\n↗\n#15\nMiniMax 与 Fireworks AI 联合开源 M3 稀疏注意力 GPU 内核\n↗\n#16\n行业动态\n月之暗面完成35亿美元融资，投后估值达350亿美元\n↗\n#17\nAlphaFold 团队遭解散，近四分之一研究人员离开 Google DeepMind\n↗\n#18\nSpaceXAI起诉要求阻止限制AI\"裸化\"技术新法生效\n↗\n#19\n要闻\nOpenAI 上线 GPT-5.6 Sol 效率改进并重置 Codex 用量限制\n#1\nCodex 负责人 Tibo 于北京时间 7 月 29 日中午宣布，已为所有ChatGPT Work和Codex用户重置额度，并上线效率改进。针对Sol消耗额度过快的问题，此次改进优化了工具等待和网页搜索场景，预计典型使用时长延长约18%。与此同时，此前暂停的五小时限制即将恢复。值得注意的是，Tibo 随后又回复一名社区用户的请求，暗示将于当地时间 7 月 31 日再次执行用量重置。\nCodex 负责人 Tibo 于北京时间 7 月 29 日中午宣布，已为所有ChatGPT Work和Codex用户重置额度，并上线效率改进。针对Sol消耗额度过快的问题。关于原因，Tibo说明了以下几点。GPT-5.6 Sol更愿意持续工作更长时间、发起更多工具调用，并协调跨工具和subagent的复杂工作流；在相同推理强度下比此前模型工作强度更大，High档位在Sol上消耗的token多于GPT-5.5上的High档位。编程式工具调用赋予Sol并行运行工具调用或在等待时继续工作的灵活性，但也导致每轮回复更多、缓存输入token更多、用量高于预期，这种情况在Sol等待工具调用完成或运行大量网页搜索时尤为明显。影响分布也不均匀：中位数用户实际认为Sol的token效率尚可，而一些处理更难任务的重度用户额度消耗快得多；团队在发布前过于关注平均和中位数用量，未充分考虑长尾情况。此次改进优化了工具等待和网页搜索场景，预计典型使用时长延长约18%。与此同时，此前暂停的五小时限制将于明日恢复。值得注意的是，Tibo 随后又回复一名社区用户的请求，暗示将于当地时间 7 月 31 日再次执行用量重置。\n相关链接：\nhttps://x.com/thsottiaux/status/2082317452755751098\n模型发布\nSpaceXAI 推出 Grok Voice Think Fast 2.0 语音模型\n#2\nSpaceXAI 推出新一代语音模型 Grok Voice Think Fast 2.0，官方称其在多项语音基准测试中得分显著提升。目前该模型已在 API 和 Voice Agent Builder 中可用。\nSpaceXAI 发布新一代语音模型 Grok Voice Think Fast 2.0，重点改进了智能、转写准确率和会话能力。根据官方公布的数据，该模型在多项语音基准测试中得分显著提升，官方称其在嘈杂环境中的转写准确率表现优于专用语音转文本模型。该模型目前已在 API 和 Voice Agent Builder 中提供，定价为每分钟音频 0.08 美元。\n相关链接：\nhttps://x.ai/news/grok-voice-think-fast-2\nhttps://x.ai/voice\nhttps://docs.x.ai/developers/pricing?campaign=think-fast-2-blog#voice-api-pricing\nGoogle DeepMind 发布音乐模型 Lyria 3.5\n#3\nGoogle DeepMind发布音乐生成模型Lyria 3.5并接入Google Flow Music平台。新版本提升了歌词质量与人声表现力，支持更复杂的旋律。\nGoogle DeepMind 发布最新音乐生成模型 Lyria 3.5，目前该模型已正式接入 Google Flow Music 平台供用户使用。官方称，Lyria 3.5 带来了更丰富的编曲和复杂的旋律结构，生成更高质量的歌词，并显著提升了人声的表现力、情感细腻度与发音的自然度。在创作控制方面，新模型更好地遵循用户的创作指令，支持设定精确的 BPM 与控制时长，并允许导出完整歌曲的 stems。\n相关链接：\nhttps://blog.google/innovation-and-ai/models-and-research/google-labs/lyria-3-5/\nhttp://flowmusic.google\nhttps://x.com/GoogleDeepMind/status/2082501383744364724\nSKT 发布 688B 参数开源大模型 A.X K2 及音频版本\n#4\nSKT发布了开源大语言模型A.X K2，总参数量688B，激活参数33B，采用原生FP8训练。同时推出A.X K2 ALM音频语言模型，其权重计划后续发布。\nSKT发布了开源大语言模型A.X K2及其音频版本A.X K2 ALM。A.X K2采用MoE架构，总参数量达688B，激活参数量为33B，使用原生FP8精度进行训练，并支持最长256K上下文。官方称该模型在数学和韩语领域表现突出，并在IMO 2025测试中达到金牌门槛。目前，A.X K2的权重已在Hugging Face上以Apache-2.0协议开源。A.X K2 ALM音频模型基于冻结的A.X K2 Light骨干构建，目前尚未公开权重，官方称计划后续发布。\n相关链接：\nhttps://github.com/SKT-AI/A.X-K2\nhttps://huggingface.co/skt/A.X-K2\n开发生态\nCursor 官方宣布 Cursor 登陆 iPad\n#5\nCursor 官方宣布 Cursor 已上线 iPad，具备 iPhone 版全部功能。iPhone 和 iPad 版同步新增 inbox 和完整 PR review 体验。\nCursor 官方宣布，Cursor 现已上线 iPad。iPad 版提供了与 iPhone 版相同的全部功能，并为用户提供了更多空间与 agents 进行协作。同时，iPhone 和 iPad 版均新增了用于保持条理的 inbox 功能，以及涵盖完整 PR 的 review 体验，该 review 体验支持查看评论、检查和批准。\n相关链接：\nhttps://x.com/cursor_ai/status/2082532273421955513\n支付宝升级AI支付开发者激励计划\n#6\n支付宝升级AI支付开发者激励计划，提供最高5660元Token专项补贴。即日起至8月21日，个人开发者集成指定收款产品即可参与。\n支付宝宣布升级AI支付开发者激励计划，继续为AI开发者提供最高5660元的Token专项补贴，并进一步扩展激励享受范围与降低参与门槛。即日起至8月21日，个人开发者Vibe Coding时集成支付宝AI按量付费、AI网页应用收款或AI移动应用收款任一款收款产品，即可按累计有效交易用户数解锁分档激励。此外，个人开发者使用AI按量付费还能享受0费率优惠至2026年12月31日。\n相关链接：\nhttps://mp.weixin.qq.com/s/xvvFCWkbi6aZ29HysnqFRQ\nQoder 开源 AI 编程 Agent 评估工具 Better Harness\n#7\nQoder开源了AI编程Agent评估工具Better Harness。它从任务理解等五个维度审查Agent工作流，生成带证据的报告和修复建议。\nBetter Harness 是 QoderAI 开发的 AI 编程 Agent 工作流评估工具，目前已在 GitHub 上以 MIT 协议开源。该工具通过任务理解、受控执行、变更验证、可靠交付和学习捕获五个维度审查项目，生成带证据的报告并将发现转化为优先修复建议。Better Harness 支持 Claude Code、Codex Desktop、Codex CLI、Cursor 和 Qoder。\n相关链接：\nhttps://github.com/QoderAI/better-harness\nhttps://x.com/qoder_ai_ide/status/2080660503526084830\nPerplexity 开源 Numbat：面向客户端终端的 Agent 安全检测与响应套件\n#8\nPerplexity 开源了 Numbat，一个跨 Agent 框架的安全检测与响应层，支持安全团队实时监控 Agent 行为并在危险动作执行前拦截。\nPerplexity 正式开源了 Numbat，一个面向客户端终端的 Agent 检测与响应安全套件。Numbat 跨桌面端、命令行、IDE 和网关 Agent 框架运行，通过集成 Agent 钩子子系统、会话产物和 OTLP 遥测数据，为安全团队提供实时监控、本地检测、执行前拦截和取证重建能力。Numbat 内置 52 条检测规则，覆盖 11 类行为，包括机密访问、数据外泄、权限提升和横向移动等多步骤序列检测。Perplexity 内部已使用 Numbat 保护工程师使用的 Claude Code、Codex、OpenCode 和 Pi 等编码 Agent。Numbat 目前在 Apache 2.0 许可下以单个 Go 二进制文件提供，支持 macOS、Linux 和 Windows。\n相关链接：\nhttps://github.com/perplexityai/numbat\nhttps://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat\n产品应用\nOpenAI推出ChatGPT for Academic Researchers计划\n#9\nOpenAI推出ChatGPT for Academic Researchers计划，向科学家、数学家和工程师免费提供其前沿模型的使用权限。该计划首批面向一万名研究人员，预计到2027年扩展至十万人。\nOpenAI宣布推出名为“ChatGPT for Academic Researchers”的计划，旨在为科学、数学和工程领域的研究人员提供免费访问其前沿模型的机会。根据官方信息，该计划首批将覆盖一万名研究人员，并计划在2027年将规模扩大至十万人，主要针对选定学术机构的用户。官方表示，此举旨在帮助研究人员处理高级问题、加速科学发现并提高生产力。\n相关链接：\nhttps://openai.com/index/chatgpt-for-academic-researchers/\nhttps://x.com/OpenAI/status/2082516370949062989\nGoogle为macOS版Gemini应用推出全新自然语言语音功能\n#10\nmacOS版Gemini上线全新语音功能。用户长按Fn键即可进行智能听写，开启设置后还能结合屏幕上下文执行复杂任务，目前正面向全球英语用户推出。\nGoogle正式宣布Gemini for macOS应用上线全新自然语言语音交互能力，允许用户通过语音进行内容创建、编辑和总结。在桌面任意窗口长按Fn键即可使用默认的智能听写功能，应用会自动过滤语气词并捕捉中途纠正，将格式化文本直接输出至光标处。若用户在设置中手动开启Gemini推理能力，应用便能理解当前屏幕上的上下文，并根据语音指令执行提取与总结本地文件、重写文本以及生成和编辑图像等复杂任务。该功能目前已向全球所有Gemini for macOS应用用户推出，当前仅支持英语，后续将增加更多语言支持。\n相关链接：\nhttps://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/\nhttps://gemini.google/mac/\nReplit 推出全新 Replit Design AI 设计工具\n#11\nReplit 推出 AI 设计工具 Replit Design，现已向所有用户开放。该套件内置 Ambient Intelligence，支持一键应用品牌系统。\nReplit 官方发布了全新的 AI 设计创意套件 Replit Design，目前该工具已全面上线。Replit Design 内置名为 Ambient Intelligence 的功能，在设计的每一步为用户提供可一键采纳的建议版本，用户无需输入提示词或掌握专业设计语言。在模型支持上，用户可以自由选择多款模型，并对比不同模型的输出结果。此外，该套件直接整合了 Mobbin 拥有的超过 60 万个真实应用 UI 界面，用户无需单独注册 Mobbin 账号即可调用。\n相关链接：\nhttps://replit.com/blog/introducing-replit-design\nhttps://replit.com/design\nHermes Agent 新增 Hey Hermes 语音唤醒词\n#12\nHermes Agent 推出本地语音唤醒功能。用户说出唤醒词即可免手启动新会话。该功能检测全程在本地进行，默认关闭。\nHermes Agent 正式推出语音唤醒功能，允许用户通过说出特定短语来免手启动新的语音会话。该功能支持命令行界面（CLI）、TUI 界面以及桌面应用。为确保隐私，唤醒词的检测过程完全在本地设备上运行，在用户说出实际指令前不会有任何音频离开设备。该功能目前默认关闭，且仅限于具备本地麦克风的界面使用。\n相关链接：\nhttps://hermes-agent.nousresearch.com/docs/user-guide/features/wake-word\nhttps://x.com/NousResearch/status/2082509593280688317\n技术与洞察\nOpenAI称两项API设置使GPT-5.6基准得分提升三倍\n#13\nOpenAI发文称，启用保留推理和压缩两项API设置，使GPT-5.6 Sol在ARC-AGI-3基准测试的得分提高三倍至38.3%，且输出Token减少6倍。\nOpenAI官方博客说明，通过为GPT-5.6 Sol启用保留推理和压缩两项设置，其在ARC-AGI-3基准测试的表现大幅提升。根据官方数据，该模型在最高配置下的得分从原先的13.3%升至38.3%，提升约三倍，输出Token减少6倍。OpenAI指出，此前测试工具的丢弃推理和滚动截断机制导致了低分。官方建议API开发者使用其Responses API中的相同设置以最大化性能。\n相关链接：\nhttps://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/\nOpenAI称应用GPT-5.6 Sol优化自身运行：服务成本降20%\n#14\nOpenAI 发文介绍其应用GPT-5.6 Sol优化自身运行基础设施的过程，通过重写生产核心和改进推测解码，服务成本降低20%，token生成效率提升超15%。目前优化已用于推理堆栈和Agentic harness。\nOpenAI发布了关于GPT-5.6模型家族的效率更新的文章。官方表示，他们已在Codex中应用旗舰模型GPT-5.6 Sol来优化自身的基础设施和性能。根据官方数据，通过使用Triton和Gluon语言重写生产核心，该模型使端到端服务成本降低了20%；通过改进推测解码，使token生成效率提升了15%以上。目前这些优化已应用于OpenAI的推理堆栈和由Codex及ChatGPT Work使用的Agentic harness中。\n相关链接：\nhttps://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/\n腾讯混元开源 AngelSpec 推测解码框架\n#15\n腾讯混元团队开源了 AngelSpec 推测解码框架，支持训练与部署。官方称其在 {Hy|混元}3-A21B 上可实现最高 2.4 倍的端到端加速。\n腾讯混元团队宣布开源端到端推测解码框架 AngelSpec，并发布了 v0.1.0 版本。该框架基于 torch-native，支持 MTP 和 block-parallel 推测解码训练，统一了 DFly、DFlash 等 6 种草稿架构的训练管线。官方数据显示，在 Hy3-A21B 模型和并发级别 4 到 64 的测试中，DFly 架构相比自回归解码实现了 1.98 至 2.40 倍的端到端加速，吞吐量比 DFlash 高出 10.5% 到 11.8%。\n相关链接：\nhttps://github.com/Tencent/AngelSpec\nhttps://angelspec.readthedocs.io\nMiniMax 与 Fireworks AI 联合开源 M3 稀疏注意力 GPU 内核\n#16\nMiniMax 与 Fireworks AI 联合开源了两个面向 MiniMax M3 {块稀疏注意力|\"块稀疏注意力\"}的 GPU 内核仓库。\nMiniMax 与 Fireworks AI 将双方合作开发的 MiniMax M3 块稀疏注意力 GPU 内核代码开源，两个仓库现已公开。fw-ai/minimax-kernels 由 Fireworks AI 开发，基于 NVIDIA Blackwell（SM100）CuTe-DSL 实现 KV-outer 块稀疏注意力，采用 Apache 2.0 许可证。MiniMax-AI/MSA 的 fireworks-msa 分支在原有 MSA 内核基础上集成了 Fireworks 的 KV-outer 稀疏预填充后端，采用 MIT 许可证。\n相关链接：\nhttps://github.com/MiniMax-AI/MSA/tree/fireworks-msa\nhttps://github.com/fw-ai/minimax-kernels\n行业动态\n月之暗面完成35亿美元融资，投后估值达350亿美元\n#17\n据报道，月之暗面已完成35亿美元融资，投后估值达350亿美元。报道称，该公司正以500亿美元投前估值接触投资者，计划最快今年赴港上市。\n据彭博社报道，月之暗面已完成35亿美元融资，远超原定10亿至20亿美元目标，投后估值达350亿美元。报道指出，本轮融资得益于月之暗面Kimi K3模型在硅谷引发的轰动效应。知情人士还表示，公司目前已开始接触潜在投资者，寻求以500亿美元投前估值进行新一轮融资，这将是其赴港上市前的最后一轮融资，IPO最快有望于今年完成。\n相关链接：\nhttps://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value\nhttps://www.ithome.com/0/983/170.htm\nAlphaFold 团队遭解散，近四分之一研究人员离开 Google DeepMind\n#18\n据报道，Google DeepMind解散了AlphaFold团队，近四分之一研究员离职，多数人转入Gemini项目或Isomorphic Labs。\n据媒体报道，Google DeepMind 已经解散了负责蛋白质折叠的 AlphaFold 团队。在过去一年中，大多数原论文作者被重新分配到围绕 Gemini 大语言模型的项目，或者转入专注于药物发现的 Isomorphic Labs。Google DeepMind 研究副总裁 Pushmeet Kohli 证实实验室战略已发生演变，目前正转向开发能协助科学家的系统，并与 OpenAI 和 Anthropic 竞争构建前沿 AI 智能体。此外，近四分之一的原作者已完全离职，其中包括加入 Anthropic 的核心成员 John Jumper。\n相关链接：\nhttps://www.ft.com/content/61b2953d-ee0d-45de-af6e-a9c1cf524b33\nSpaceXAI起诉要求阻止限制AI\"裸化\"技术新法生效\n#19\n据报道，SpaceXAI在美国联邦法院起诉明尼苏达州总检察长，要求阻止{限制AI\"裸化\"技术的新法|\"限制AI\"裸化\"技术的新法\"}生效。该公司认为法律范围过宽，未提供免责机制。将迫使其限制Grok Imagine功能。\n据报道，SpaceXAI已在美国联邦法院起诉明尼苏达州总检察长基思·埃里森，要求阻止该州限制人工智能\"裸化\"技术（nudification technology）的新法律生效。该法律即众议院第1606号法案（H.F. 1606），定于2026年8月1日生效，禁止网站、应用等服务的所有者允许用户使用裸化功能，违规者每次行为最高面临50万美元民事罚款及私人诉讼责任。SpaceXAI表示不反对禁止色情深伪影像，但认为法律范围过宽，未为采取合理措施的平台提供免责机制，可能覆盖经过同意或具有表达价值的影像。公司称该法将迫使其限制Grok Imagine的图像生成和编辑功能，主张该法违反美国宪法第一修正案。\n相关链接：\nhttps://www.revisor.mn.gov/bills/94/2025/0/HF/1606/\nhttps://www.theverge.com/policy/972850/xai-grok-minnesota-nudification-lawsuit\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S005",
+      "kind": "video",
+      "title": "Robots working together with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:58:16+00:00",
+      "url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
+      "digest_excerpt": "Introducing multi-robot collaboration. This enables different types of robots to communicate and work together to solve complex workflows a single robot could not do alone.\n\nLearn more about Gemini Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=fo9WirRIaVs",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Introducing multi-robot collaboration. This enables different types of robots to communicate and work together to solve complex workflows a single robot could not do alone.\n\nLearn more about Gemini Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S006",
+      "kind": "video",
+      "title": "Tasks that require whole-body control with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:58:12+00:00",
+      "url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
+      "digest_excerpt": "The world is built for human movements; it requires us to reach, bend, and balance in tight, cluttered spaces. While our previous models controlled the humanoid’s upper-body to achieve table-top tasks, Gemini Robotics 2 expands physical AI into whole-body motions. \n\nLearn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=nBftSI5mmHA",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The world is built for human movements; it requires us to reach, bend, and balance in tight, cluttered spaces. While our previous models controlled the humanoid’s upper-body to achieve table-top tasks, Gemini Robotics 2 expands physical AI into whole-body motions. \n\nLearn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "Tough dexterity tasks with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:58:10+00:00",
+      "url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
+      "digest_excerpt": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or grippers, enabling robots to be more useful than ever before.\n\nLearn more about Gemini Robotics 2: https://deepmind.google/gemini-robotics \n\n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=wYVHxw2-DP4",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or grippers, enabling robots to be more useful than ever before.\n\nLearn more about Gemini Robotics 2: https://deepmind.google/gemini-robotics \n\n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S008",
+      "kind": "video",
+      "title": "Intelligent whole-body control with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:58:07+00:00",
+      "url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
+      "digest_excerpt": "The world is built for human movements; it requires us to reach, bend, and balance in tight, cluttered spaces. While our previous models controlled the humanoid’s upper-body to achieve table-top tasks, Gemini Robotics 2 expands physical AI into whole-body motions. \n\nLearn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=9MNLEAzA59o",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The world is built for human movements; it requires us to reach, bend, and balance in tight, cluttered spaces. While our previous models controlled the humanoid’s upper-body to achieve table-top tasks, Gemini Robotics 2 expands physical AI into whole-body motions. \n\nLearn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S009",
+      "kind": "video",
+      "title": "Multi-robot collaboration with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:58:03+00:00",
+      "url": "https://www.youtube.com/watch?v=CiTPDm7PKW0",
+      "digest_excerpt": "Multi-robot collaboration enables different types of robots to communicate and work together to solve complex problems. Learn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=CiTPDm7PKW0",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Multi-robot collaboration enables different types of robots to communicate and work together to solve complex problems. Learn more about Gemini for Robotics 2: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S010",
+      "kind": "video",
+      "title": "Advanced dexterity with Gemini Robotics 2",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:57:59+00:00",
+      "url": "https://www.youtube.com/watch?v=O9-650iHAls",
+      "digest_excerpt": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or grippers, enabling robots to be more useful than ever before.\n\nLearn more: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=O9-650iHAls",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "To be genuinely useful in our homes and workplaces, robots need finesse. Gemini Robotics 2 unlocks a new level of physical dexterity across different end effectors, whether a robot is using hands or grippers, enabling robots to be more useful than ever before.\n\nLearn more: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S011",
+      "kind": "video",
+      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "source_name": "Google DeepMind",
+      "author": "Google DeepMind",
+      "published": "2026-07-30T14:57:57+00:00",
+      "url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+      "digest_excerpt": "For decades, we’ve dreamed of robots that can seamlessly step into our world and lend a hand. Now, that vision takes a significant stride forward.\n\nMost robots are pre-programmed or teleoperated for narrow, repetitive task sequences. They lack the ability to truly learn for themselves or adapt to unpredictable environments. Moreover, transferring learned skills from one robot body to another remains incredibly difficult. To take on the hardest problems at scale, robots of every shape and size need AI models giving them the ability to think, act, and interact intelligently to safely complete tasks.\n\nIntroducing Gemini Robotics 2 - the intelligence layer powering the next generation of truly adaptable robots. As it takes its first literal steps, this major advance unlocks intelligent whole-body control, advanced dexterity, and multi-robot collaboration. \n\nLearn more: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=4lSQnrMC6nY",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "For decades, we’ve dreamed of robots that can seamlessly step into our world and lend a hand. Now, that vision takes a significant stride forward.\n\nMost robots are pre-programmed or teleoperated for narrow, repetitive task sequences. They lack the ability to truly learn for themselves or adapt to unpredictable environments. Moreover, transferring learned skills from one robot body to another remains incredibly difficult. To take on the hardest problems at scale, robots of every shape and size need AI models giving them the ability to think, act, and interact intelligently to safely complete tasks.\n\nIntroducing Gemini Robotics 2 - the intelligence layer powering the next generation of truly adaptable robots. As it takes its first literal steps, this major advance unlocks intelligent whole-body control, advanced dexterity, and multi-robot collaboration. \n\nLearn more: https://deepmind.google/gemini-robotics \n\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/"
+    },
+    {
+      "id": "S012",
+      "kind": "video",
+      "title": "Using Voice in ChatGPT Work",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T22:37:43+00:00",
+      "url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
+      "digest_excerpt": "Talk through work with ChatGPT Voice while it sees your screen, works across connected apps, and keeps tasks moving in the background. See how voice helps brainstorm a DevDay activation, coordinate an off-site, prepare travel, and share finished work without breaking the user's flow.\n\nChapters:\n00:00 Brainstorming with ChatGPT Voice\n00:45 Dictation vs. ChatGPT Voice\n01:11 Working across connected apps\n02:07 Preparing travel in Navan\n02:23 Reviewing and sharing completed work\n02:57 Staying in flow",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=_Gd9yzAc-WI",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Talk through work with ChatGPT Voice while it sees your screen, works across connected apps, and keeps tasks moving in the background. See how voice helps brainstorm a DevDay activation, coordinate an off-site, prepare travel, and share finished work without breaking the user's flow.\n\nChapters:\n00:00 Brainstorming with ChatGPT Voice\n00:45 Dictation vs. ChatGPT Voice\n01:11 Working across connected apps\n02:07 Preparing travel in Navan\n02:23 Reviewing and sharing completed work\n02:57 Staying in flow"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "BC is beautiful https://t.co/xoNC9G40jr",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-30T21:20:31+00:00",
+      "url": "https://x.com/petergyang/status/2082939418315198522",
+      "digest_excerpt": "BC is beautiful https://t.co/xoNC9G40jr",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082939418315198522",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "BC is beautiful https://t.co/xoNC9G40jr"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "Wake up, before it is too late",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T21:02:13+00:00",
+      "url": "https://x.com/elonmusk/status/2082934814756282751",
+      "digest_excerpt": "Wake up, before it is too late",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082934814756282751",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Wake up, before it is too late"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "Spain’s entire budget will be destroyed by illegal migrants. \n\nIt’s basic math: if Spain offers free stuff to migrants t",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T20:32:35+00:00",
+      "url": "https://x.com/elonmusk/status/2082927356893683771",
+      "digest_excerpt": "Spain’s entire budget will be destroyed by illegal migrants. \n\nIt’s basic math: if Spain offers free stuff to migrants that is above 90% of the living standard of Earth, they create a forcing function for 90% of Earth to move to Spain, which is around 7 billion people!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082927356893683771",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Spain’s entire budget will be destroyed by illegal migrants. \n\nIt’s basic math: if Spain offers free stuff to migrants that is above 90% of the living standard of Earth, they create a forcing function for 90% of Earth to move to Spain, which is around 7 billion people!"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "My new favorite:\n\nGemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor\n\nZero editing or copy-",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-07-30T20:27:19+00:00",
+      "url": "https://x.com/joshwoodward/status/2082926031543967896",
+      "digest_excerpt": "My new favorite:\n\nGemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor\n\nZero editing or copy-pasting required\n\nGet it for free: https://t.co/Gr3KIsVhrc https://t.co/rXLLysJME5",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2082926031543967896",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "My new favorite:\n\nGemini Mac app ➔ Hold Fn ➔ Speak ➔ Clean, polished text directly at your cursor\n\nZero editing or copy-pasting required\n\nGet it for free: https://t.co/Gr3KIsVhrc https://t.co/rXLLysJME5"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "GPT-5.6 series has best price/performance",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T20:01:59+00:00",
+      "url": "https://x.com/gdb/status/2082919656403435638",
+      "digest_excerpt": "GPT-5.6 series has best price/performance",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082919656403435638",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-5.6 series has best price/performance"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "The cost of AI - normalized for the type of task - coming down is one of the most important factors in being able to dri",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-30T19:29:15+00:00",
+      "url": "https://x.com/levie/status/2082911418349920617",
+      "digest_excerpt": "The cost of AI - normalized for the type of task - coming down is one of the most important factors in being able to drive further AI diffusion in the economy.\n\nThe general trend we should expect is that frontier AI models will continue to become more capable, and will look very expensive because the tasks that they can take on are more advanced. \n\nThen, shortly after, AI models will get more efficient or competition will drive more aggressive pricing dynamics, thus reducing the cost per task for anything other than the peak of the frontier.\n\nThis cycle will continue over and over again, which ultimately leads to tasks becoming cheaper on a like for like basis. And by doing so you will get even more AI adoption because now AI is more affordable for a wider variety of use-cases.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2082911418349920617",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The cost of AI - normalized for the type of task - coming down is one of the most important factors in being able to drive further AI diffusion in the economy.\n\nThe general trend we should expect is that frontier AI models will continue to become more capable, and will look very expensive because the tasks that they can take on are more advanced. \n\nThen, shortly after, AI models will get more efficient or competition will drive more aggressive pricing dynamics, thus reducing the cost per task for anything other than the peak of the frontier.\n\nThis cycle will continue over and over again, which ultimately leads to tasks becoming cheaper on a like for like basis. And by doing so you will get even more AI adoption because now AI is more affordable for a wider variety of use-cases."
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "This is how Gemini Robotics 2 helps @Apptronik’s Apollo 2 use whole body intelligence to pack for a sports game ↓ https:",
+      "source_name": "Google DeepMind",
+      "author": "GoogleDeepMind",
+      "published": "2026-07-30T19:00:52+00:00",
+      "url": "https://x.com/GoogleDeepMind/status/2082904276293062994",
+      "digest_excerpt": "This is how Gemini Robotics 2 helps @Apptronik’s Apollo 2 use whole body intelligence to pack for a sports game ↓ https://t.co/rPYsclzJHR",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleDeepMind/status/2082904276293062994",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is how Gemini Robotics 2 helps @Apptronik’s Apollo 2 use whole body intelligence to pack for a sports game ↓ https://t.co/rPYsclzJHR"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "luna is a thing of beauty, incredibly capable and low-cost",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T18:53:29+00:00",
+      "url": "https://x.com/gdb/status/2082902415855202686",
+      "digest_excerpt": "luna is a thing of beauty, incredibly capable and low-cost",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082902415855202686",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "luna is a thing of beauty, incredibly capable and low-cost"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "Inkling-Small is comparable to Inkling at a quarter the size. Weights are open, fine-tunable on Tinker today. Look forwa",
+      "source_name": "Mira Murati",
+      "author": "miramurati",
+      "published": "2026-07-30T17:51:55+00:00",
+      "url": "https://x.com/miramurati/status/2082886925988598138",
+      "digest_excerpt": "Inkling-Small is comparable to Inkling at a quarter the size. Weights are open, fine-tunable on Tinker today. Look forward to seeing what people make with it.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/miramurati/status/2082886925988598138",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Inkling-Small is comparable to Inkling at a quarter the size. Weights are open, fine-tunable on Tinker today. Look forward to seeing what people make with it."
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "we've cut prices on luna by 80%, making it by far the most price-efficient model in its class.\n\na lot of our research is",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T17:47:15+00:00",
+      "url": "https://x.com/gdb/status/2082885748337115632",
+      "digest_excerpt": "we've cut prices on luna by 80%, making it by far the most price-efficient model in its class.\n\na lot of our research is about how to create incredibly efficient models for any given level of intelligence.\n\nexcited to see what you all do with intelligence too cheap to meter!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082885748337115632",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we've cut prices on luna by 80%, making it by far the most price-efficient model in its class.\n\na lot of our research is about how to create incredibly efficient models for any given level of intelligence.\n\nexcited to see what you all do with intelligence too cheap to meter!"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Gemini Robotics 2 is here, with our new suite of models, robots can now reason through every movement to manage tasks th",
+      "source_name": "Demis Hassabis",
+      "author": "demishassabis",
+      "published": "2026-07-30T17:39:32+00:00",
+      "url": "https://x.com/demishassabis/status/2082883806323728416",
+      "digest_excerpt": "Gemini Robotics 2 is here, with our new suite of models, robots can now reason through every movement to manage tasks that weren’t possible before, like tying delicate knots - and even team up to solve complex workflows. Huge congrats to the robotics team on this great milestone!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/demishassabis/status/2082883806323728416",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Gemini Robotics 2 is here, with our new suite of models, robots can now reason through every movement to manage tasks that weren’t possible before, like tying delicate knots - and even team up to solve complex workflows. Huge congrats to the robotics team on this great milestone!"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "We kept ourselves busy with GPT-5.6 Sol. It's pretty good at things.\n\nRolling out\n- 80% lower prices on Luna\n- 20% lower",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-07-30T17:38:51+00:00",
+      "url": "https://x.com/thsottiaux/status/2082883636177916306",
+      "digest_excerpt": "We kept ourselves busy with GPT-5.6 Sol. It's pretty good at things.\n\nRolling out\n- 80% lower prices on Luna\n- 20% lower prices on Terra\n- faster speeds on GPT-5.6 Sol in /fast mode\n- ~ 10X cheaper auto-approve mode (\"review for me\" in the app), which now uses Luna to prevent many high risk actions from the main agent\n\nTowards intelligence too cheap to meter and many more breakthroughs ahead.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2082883636177916306",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We kept ourselves busy with GPT-5.6 Sol. It's pretty good at things.\n\nRolling out\n- 80% lower prices on Luna\n- 20% lower prices on Terra\n- faster speeds on GPT-5.6 Sol in /fast mode\n- ~ 10X cheaper auto-approve mode (\"review for me\" in the app), which now uses Luna to prevent many high risk actions from the main agent\n\nTowards intelligence too cheap to meter and many more breakthroughs ahead."
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end.\n",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-30T17:30:02+00:00",
+      "url": "https://x.com/petergyang/status/2082881415478415682",
+      "digest_excerpt": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end.\n\n📌 Watch it here: https://t.co/u6roGLgYu5 https://t.co/hCNn6QOlt4",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082881415478415682",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Getting some great feedback on my latest tutorial on how to use Claude to design and build a full-stack app end to end.\n\n📌 Watch it here: https://t.co/u6roGLgYu5 https://t.co/hCNn6QOlt4"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "good job little bro",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-30T17:29:25+00:00",
+      "url": "https://x.com/sama/status/2082881262679642281",
+      "digest_excerpt": "good job little bro",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2082881262679642281",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "good job little bro"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "major price cuts today:\n\n*80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output\n*20",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-30T17:27:16+00:00",
+      "url": "https://x.com/sama/status/2082880720989532597",
+      "digest_excerpt": "major price cuts today:\n\n*80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output\n*20% drop for GPT-5.6 Terra, to $2/$12\n*GPT-5.6 Sol gets Fast mode in the API, up to 2.5x the speed for 2x the price, same intelligence https://t.co/erC6u4VoDR",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2082880720989532597",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "major price cuts today:\n\n*80% drop for GPT-5.6 Luna, now $0.20 per million input tokens and $1.20 per million output\n*20% drop for GPT-5.6 Terra, to $2/$12\n*GPT-5.6 Sol gets Fast mode in the API, up to 2.5x the speed for 2x the price, same intelligence https://t.co/erC6u4VoDR"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "We are committed to pushing the model frontier across cost efficiency, capability, and speed.\n\nStarting today, we are re",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-30T17:17:05+00:00",
+      "url": "https://x.com/OpenAI/status/2082878156483219672",
+      "digest_excerpt": "We are committed to pushing the model frontier across cost efficiency, capability, and speed.\n\nStarting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20% , and offering a faster option for GPT-5.6 Sol in the API.\n\nLuna and Terra’s lower prices are reflected in how usage is counted in Codex and ChatGPT Work, so your usage goes further.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2082878156483219672",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We are committed to pushing the model frontier across cost efficiency, capability, and speed.\n\nStarting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20% , and offering a faster option for GPT-5.6 Sol in the API.\n\nLuna and Terra’s lower prices are reflected in how usage is counted in Codex and ChatGPT Work, so your usage goes further."
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "We just shaved off up to ~𝟽𝚜 of the end-to-end CLI → Live URL deploy process for many apps.\n\nThis is specially cool when",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-30T17:09:58+00:00",
+      "url": "https://x.com/rauchg/status/2082876367629381719",
+      "digest_excerpt": "We just shaved off up to ~𝟽𝚜 of the end-to-end CLI → Live URL deploy process for many apps.\n\nThis is specially cool when you consider you can integrate all of Vercel's infra via CLI/MCP/API and build your own custom software factory on top.\n\nMy DMs are open if you're building an agent or platform that builds and deploys software autonomously.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2082876367629381719",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We just shaved off up to ~𝟽𝚜 of the end-to-end CLI → Live URL deploy process for many apps.\n\nThis is specially cool when you consider you can integrate all of Vercel's infra via CLI/MCP/API and build your own custom software factory on top.\n\nMy DMs are open if you're building an agent or platform that builds and deploys software autonomously."
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Introducing Projects on Perplexity Computer. With the launch of Projects, we're turning Computer into a multiplayer agen",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-07-30T16:54:48+00:00",
+      "url": "https://x.com/AravSrinivas/status/2082872551538380939",
+      "digest_excerpt": "Introducing Projects on Perplexity Computer. With the launch of Projects, we're turning Computer into a multiplayer agentic operating system for work with persistent memory, files, and sessions scoped across hubs and users. Available to all users! https://t.co/5JCBpzslmG",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2082872551538380939",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Introducing Projects on Perplexity Computer. With the launch of Projects, we're turning Computer into a multiplayer agentic operating system for work with persistent memory, files, and sessions scoped across hubs and users. Available to all users! https://t.co/5JCBpzslmG"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "Elons law strikes again! https://t.co/V9EpSUgRfl",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-30T16:22:23+00:00",
+      "url": "https://x.com/danshipper/status/2082864391519682993",
+      "digest_excerpt": "Elons law strikes again! https://t.co/V9EpSUgRfl",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082864391519682993",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Elons law strikes again! https://t.co/V9EpSUgRfl"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "try asking codex to go beyond what you think possible",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T16:21:15+00:00",
+      "url": "https://x.com/gdb/status/2082864105883586798",
+      "digest_excerpt": "try asking codex to go beyond what you think possible",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082864105883586798",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "try asking codex to go beyond what you think possible"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "be careful of leverage folks!",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-30T16:14:09+00:00",
+      "url": "https://x.com/danshipper/status/2082862319265050962",
+      "digest_excerpt": "be careful of leverage folks!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082862319265050962",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "be careful of leverage folks!"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "If Situational Awareness was blindsided, the AI naming curse strikes again.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-07-30T15:50:02+00:00",
+      "url": "https://x.com/amasad/status/2082856252888211851",
+      "digest_excerpt": "If Situational Awareness was blindsided, the AI naming curse strikes again.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2082856252888211851",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "If Situational Awareness was blindsided, the AI naming curse strikes again."
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Given that AI from 2 years ago feels so old that it should be in a museum, then obviously AI 2 years from now will be mi",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T15:21:21+00:00",
+      "url": "https://x.com/elonmusk/status/2082849031483470066",
+      "digest_excerpt": "Given that AI from 2 years ago feels so old that it should be in a museum, then obviously AI 2 years from now will be mind-blowing",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082849031483470066",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Given that AI from 2 years ago feels so old that it should be in a museum, then obviously AI 2 years from now will be mind-blowing"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "Big difference",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T15:16:11+00:00",
+      "url": "https://x.com/elonmusk/status/2082847730653610409",
+      "digest_excerpt": "Big difference",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082847730653610409",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Big difference"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "A good game is so much more than just graphics.\n\nCore loops, progression systems, story, etc.\n\nThese are the things that",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-30T15:08:07+00:00",
+      "url": "https://x.com/petergyang/status/2082845703072837692",
+      "digest_excerpt": "A good game is so much more than just graphics.\n\nCore loops, progression systems, story, etc.\n\nThese are the things that really matter and they're not easy to get right.\n\nAI being able to one shot fancy graphics is super cool but one-shotting a good game is a whole different story. \n\nA more realistic near-term outcome is game studios and developers using this tech to reduce busy work while still applying their human taste to make great games.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082845703072837692",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A good game is so much more than just graphics.\n\nCore loops, progression systems, story, etc.\n\nThese are the things that really matter and they're not easy to get right.\n\nAI being able to one shot fancy graphics is super cool but one-shotting a good game is a whole different story. \n\nA more realistic near-term outcome is game studios and developers using this tech to reduce busy work while still applying their human taste to make great games."
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "One brain. For any robot. 🤖\n\nWe’re launching Gemini Robotics 2: our next-generation physical AI bringing full body intel",
+      "source_name": "Google DeepMind",
+      "author": "GoogleDeepMind",
+      "published": "2026-07-30T15:02:00+00:00",
+      "url": "https://x.com/GoogleDeepMind/status/2082844162928381956",
+      "digest_excerpt": "One brain. For any robot. 🤖\n\nWe’re launching Gemini Robotics 2: our next-generation physical AI bringing full body intelligence to humanoids, advanced dexterity, multi-robot teamwork and more.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleDeepMind/status/2082844162928381956",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "One brain. For any robot. 🤖\n\nWe’re launching Gemini Robotics 2: our next-generation physical AI bringing full body intelligence to humanoids, advanced dexterity, multi-robot teamwork and more."
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure.\n\nAnyone can now build software by just",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-30T14:49:34+00:00",
+      "url": "https://x.com/rauchg/status/2082841035093467229",
+      "digest_excerpt": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure.\n\nAnyone can now build software by just prompting @grok. Hit 🌐 Publish and ship to 1 user or 1 billion. Games, websites, internal apps, personal software… just @grok it.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2082841035093467229",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Build apps (*.𝚐𝚛𝚘𝚔.𝚖𝚎) are backed by @vercel hosting and CDN infrastructure.\n\nAnyone can now build software by just prompting @grok. Hit 🌐 Publish and ship to 1 user or 1 billion. Games, websites, internal apps, personal software… just @grok it."
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "WATCH MY WRITING PROCESS LIVE WITH CHATGPT FOR WORK https://t.co/lYPRZQjF5o",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-30T14:44:45+00:00",
+      "url": "https://x.com/danshipper/status/2082839820657623243",
+      "digest_excerpt": "WATCH MY WRITING PROCESS LIVE WITH CHATGPT FOR WORK https://t.co/lYPRZQjF5o",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082839820657623243",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "WATCH MY WRITING PROCESS LIVE WITH CHATGPT FOR WORK https://t.co/lYPRZQjF5o"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "ChatGPT Work seems one step away from the AI product I really want - a persistent personal computer and authenticated br",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-30T13:55:03+00:00",
+      "url": "https://x.com/petergyang/status/2082827314572964276",
+      "digest_excerpt": "ChatGPT Work seems one step away from the AI product I really want - a persistent personal computer and authenticated browser in the cloud.\n\nThis is how I understand Work \"works\" today (please correct me if I’m wrong):\n\n1. It uses plugins to authenticate with apps like Gmail, Google Drive, and Slack.\n\n2. It can run scheduled tasks in the cloud without my laptop being awake.\n\n3. It also has a cloud browser for public websites, but that browser can’t sign into accounts or use my existing browser cookies and sessions.\n\nThis is how I wish it worked:\n\n1. It securely preserves my projects, files, tools, and working environment between tasks.\n\n2. It has a persistent browser profile where I can sign into specific websites once and securely reuse those sessions.\n\n3. It uses plugins when available and the authenticated browser when they aren’t.\n\nBasically, I want ChatGPT Work to have its own secure computer and browser in the cloud so that I can finally close my laptop.\n\nI'm sure the team is already working on some version of this?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082827314572964276",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ChatGPT Work seems one step away from the AI product I really want - a persistent personal computer and authenticated browser in the cloud.\n\nThis is how I understand Work \"works\" today (please correct me if I’m wrong):\n\n1. It uses plugins to authenticate with apps like Gmail, Google Drive, and Slack.\n\n2. It can run scheduled tasks in the cloud without my laptop being awake.\n\n3. It also has a cloud browser for public websites, but that browser can’t sign into accounts or use my existing browser cookies and sessions.\n\nThis is how I wish it worked:\n\n1. It securely preserves my projects, files, tools, and working environment between tasks.\n\n2. It has a persistent browser profile where I can sign into specific websites once and securely reuse those sessions.\n\n3. It uses plugins when available and the authenticated browser when they aren’t.\n\nBasically, I want ChatGPT Work to have its own secure computer and browser in the cloud so that I can finally close my laptop.\n\nI'm sure the team is already working on some version of this?"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "https://t.co/pYz1Gn9F9b has reached 1,000,000+ published skills in just six months https://t.co/dwoLpFqPQ1",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-30T12:08:25+00:00",
+      "url": "https://x.com/rauchg/status/2082800480359756069",
+      "digest_excerpt": "https://t.co/pYz1Gn9F9b has reached 1,000,000+ published skills in just six months https://t.co/dwoLpFqPQ1",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2082800480359756069",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/pYz1Gn9F9b has reached 1,000,000+ published skills in just six months https://t.co/dwoLpFqPQ1"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "Quick reminder of what's ok vs not ok with harnesses used for playing ARC-AGI-3:\n\n1. Not okay: harnesses that were custo",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-07-30T07:37:08+00:00",
+      "url": "https://x.com/fchollet/status/2082732210436575669",
+      "digest_excerpt": "Quick reminder of what's ok vs not ok with harnesses used for playing ARC-AGI-3:\n\n1. Not okay: harnesses that were custom-made to solve the benchmark or that contain knowledge about the benchmark format / contents.\n\n2. Fine: general-purpose API settings that were not developed for ARC-AGI-3 and that are available to all API users.\n\nIn the past, we've had a lot of back and forth with OpenAI about how to best test their models, especially with regard to compaction. I'm glad they're starting to figure out the answer.\n\nOf course, if each provider uses different settings when getting their model tested, it creates a potential parity issue. My take is that this is fine as long as the settings and the cost are clearly reported.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2082732210436575669",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Quick reminder of what's ok vs not ok with harnesses used for playing ARC-AGI-3:\n\n1. Not okay: harnesses that were custom-made to solve the benchmark or that contain knowledge about the benchmark format / contents.\n\n2. Fine: general-purpose API settings that were not developed for ARC-AGI-3 and that are available to all API users.\n\nIn the past, we've had a lot of back and forth with OpenAI about how to best test their models, especially with regard to compaction. I'm glad they're starting to figure out the answer.\n\nOf course, if each provider uses different settings when getting their model tested, it creates a potential parity issue. My take is that this is fine as long as the settings and the cost are clearly reported."
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "Congratulations to the Tesla Team!\n\n10 million vehicles manufactured is an incredible amount of work.",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T06:17:39+00:00",
+      "url": "https://x.com/elonmusk/status/2082712206169256279",
+      "digest_excerpt": "Congratulations to the Tesla Team!\n\n10 million vehicles manufactured is an incredible amount of work.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082712206169256279",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Congratulations to the Tesla Team!\n\n10 million vehicles manufactured is an incredible amount of work."
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "And Grok 4.6 comes out in a week",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T05:59:08+00:00",
+      "url": "https://x.com/elonmusk/status/2082707547203518569",
+      "digest_excerpt": "And Grok 4.6 comes out in a week",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082707547203518569",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "And Grok 4.6 comes out in a week"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "Grok Build update",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T05:50:34+00:00",
+      "url": "https://x.com/elonmusk/status/2082705390358212687",
+      "digest_excerpt": "Grok Build update",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082705390358212687",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Build update"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "connect your airtable and chatgpt:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T05:06:21+00:00",
+      "url": "https://x.com/gdb/status/2082694260969902087",
+      "digest_excerpt": "connect your airtable and chatgpt:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082694260969902087",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "connect your airtable and chatgpt:"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "And Grok 4.6 is a significant improvement",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T04:05:46+00:00",
+      "url": "https://x.com/elonmusk/status/2082679015161069831",
+      "digest_excerpt": "And Grok 4.6 is a significant improvement",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082679015161069831",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "And Grok 4.6 is a significant improvement"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "True",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T03:45:38+00:00",
+      "url": "https://x.com/elonmusk/status/2082673948404208034",
+      "digest_excerpt": "True",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082673948404208034",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "True"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "No kidding …",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-07-30T03:36:40+00:00",
+      "url": "https://x.com/elonmusk/status/2082671693806379245",
+      "digest_excerpt": "No kidding …",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2082671693806379245",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "No kidding …"
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "the tokens must flow",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-07-30T03:30:20+00:00",
+      "url": "https://x.com/gdb/status/2082670099723628916",
+      "digest_excerpt": "the tokens must flow",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2082670099723628916",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "the tokens must flow"
+    },
+    {
+      "id": "S052",
+      "kind": "x",
+      "title": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inferenc",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-07-30T02:45:43+00:00",
+      "url": "https://x.com/levie/status/2082658870523248967",
+      "digest_excerpt": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. \n\nThis in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. \n\nBut I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuing to drive down prices until capacity can catch up.\n\nThere are too many model providers and infra players that want these workloads to cause the effect that’s proposed here. But will see!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2082658870523248967",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. \n\nThis in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. \n\nBut I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuing to drive down prices until capacity can catch up.\n\nThere are too many model providers and infra players that want these workloads to cause the effect that’s proposed here. But will see!"
+    },
+    {
+      "id": "S053",
+      "kind": "x",
+      "title": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read ",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-07-30T01:39:30+00:00",
+      "url": "https://x.com/petergyang/status/2082642205811106158",
+      "digest_excerpt": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read anything\n\nIt's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did.\n\n2. Getting distracted by agents while I’m out\n\nIt’s too easy to open ChatGPT or Claude on my phone while I’m out to give feedback my agents and feel “productive,” even when I’m supposed to be watching my kids or doing literally anything else.\n\n3. Preferring to talk to the agent vs. a human\n\nThis is a new pattern with ChatGPT Voice, I sometimes find myself preferring to brainstorm with the agent instead of the actual human in the room.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2082642205811106158",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read anything\n\nIt's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did.\n\n2. Getting distracted by agents while I’m out\n\nIt’s too easy to open ChatGPT or Claude on my phone while I’m out to give feedback my agents and feel “productive,” even when I’m supposed to be watching my kids or doing literally anything else.\n\n3. Preferring to talk to the agent vs. a human\n\nThis is a new pattern with ChatGPT Voice, I sometimes find myself preferring to brainstorm with the agent instead of the actual human in the room."
+    },
+    {
+      "id": "S054",
+      "kind": "x",
+      "title": "so excited for this.\n\nvery close to models that will significantly accelerate scientific discovery; the best way to do t",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-30T00:44:41+00:00",
+      "url": "https://x.com/sama/status/2082628413769003269",
+      "digest_excerpt": "so excited for this.\n\nvery close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves.\n\nwe all deserve the benefits.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2082628413769003269",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "so excited for this.\n\nvery close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves.\n\nwe all deserve the benefits."
+    },
+    {
+      "id": "S055",
+      "kind": "x",
+      "title": "goblin-level blog post",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-07-30T00:41:57+00:00",
+      "url": "https://x.com/sama/status/2082627724040884667",
+      "digest_excerpt": "goblin-level blog post",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2082627724040884667",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "goblin-level blog post"
+    },
+    {
+      "id": "S056",
+      "kind": "x",
+      "title": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that ",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-07-30T00:02:31+00:00",
+      "url": "https://x.com/swyx/status/2082617801362313527",
+      "digest_excerpt": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that everyone hates\n\npeople who say \"make something people want\" dont have the full picture https://t.co/DHT1CcVMbk",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2082617801362313527",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that everyone hates\n\npeople who say \"make something people want\" dont have the full picture https://t.co/DHT1CcVMbk"
+    },
+    {
+      "id": "S057",
+      "kind": "x",
+      "title": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-30T00:00:58+00:00",
+      "url": "https://x.com/steipete/status/2082617409408762124",
+      "digest_excerpt": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?\nhttps://t.co/DPdPc04YZT",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2082617409408762124",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?\nhttps://t.co/DPdPc04YZT"
+    },
+    {
+      "id": "S058",
+      "kind": "x",
+      "title": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-07-29T23:57:54+00:00",
+      "url": "https://x.com/OpenAI/status/2082616636989952217",
+      "digest_excerpt": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games?\n\nWe investigated. The harness was not letting it remember what it had learned. \n\nWe found that enabling two API settings tripled our scores with 6x fewer output tokens.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2082616636989952217",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "GPT-5.6 Sol has been used to solve open problems in mathematics. So why was it struggling with ARC-AGI-3, a benchmark of 2D puzzle games?\n\nWe investigated. The harness was not letting it remember what it had learned. \n\nWe found that enabling two API settings tripled our scores with 6x fewer output tokens."
+    },
+    {
+      "id": "S059",
+      "kind": "x",
+      "title": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is\n\nHave not seen vibes ",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T23:47:05+00:00",
+      "url": "https://x.com/danshipper/status/2082613916706693560",
+      "digest_excerpt": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is\n\nHave not seen vibes this high in a while. If you haven’t tried it yet, you should https://t.co/L6c67tNeF2",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082613916706693560",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is\n\nHave not seen vibes this high in a while. If you haven’t tried it yet, you should https://t.co/L6c67tNeF2"
+    },
+    {
+      "id": "S060",
+      "kind": "x",
+      "title": "incredibly good write up \n\nbad actors will obviously try to use models to do stuff like this on purpose in the future. \n",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T23:27:31+00:00",
+      "url": "https://x.com/danshipper/status/2082608994275725650",
+      "digest_excerpt": "incredibly good write up \n\nbad actors will obviously try to use models to do stuff like this on purpose in the future. \n\non the bright side:\n\n- OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits\n- HG’s AI actually surfaced the attack automatically (though not with a high enough criticality) \n\nWill obviously require any company dealing with sensitive customer data to have automated agentic defense systems, massive opportunity and seems effective",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082608994275725650",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "incredibly good write up \n\nbad actors will obviously try to use models to do stuff like this on purpose in the future. \n\non the bright side:\n\n- OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits\n- HG’s AI actually surfaced the attack automatically (though not with a high enough criticality) \n\nWill obviously require any company dealing with sensitive customer data to have automated agentic defense systems, massive opportunity and seems effective"
+    },
+    {
+      "id": "S061",
+      "kind": "x",
+      "title": "usually the most honest answer ime",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-07-29T23:14:35+00:00",
+      "url": "https://x.com/danshipper/status/2082605739256734153",
+      "digest_excerpt": "usually the most honest answer ime",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2082605739256734153",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "usually the most honest answer ime"
+    },
+    {
+      "id": "S062",
+      "kind": "x",
+      "title": "https://t.co/j6qndgKVje",
+      "source_name": "Mustafa Suleyman",
+      "author": "mustafasuleyman",
+      "published": "2026-07-29T23:04:42+00:00",
+      "url": "https://x.com/mustafasuleyman/status/2082603251258765688",
+      "digest_excerpt": "https://t.co/j6qndgKVje",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/mustafasuleyman/status/2082603251258765688",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/j6qndgKVje"
+    }
+  ]
+}
