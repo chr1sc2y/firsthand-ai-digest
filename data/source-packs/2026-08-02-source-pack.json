@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-01T23:16:25.081607+00:00",
+  "coverage": {
+    "start": "2026-07-31T22:00:00+00:00",
+    "end": "2026-08-01T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-08-01T23:14:06.982205+00:00",
+  "item_count": 49,
+  "source_count": 49,
+  "access_counts": {
+    "substantial": 7,
+    "partial": 42,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "datasette-apps 0.2a0",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-01T21:23:56+00:00",
+      "url": "https://simonwillison.net/2026/Aug/1/datasette-apps/",
+      "digest_excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.2a0\">datasette-apps 0.2a0</a></p>\n        <blockquote>\n<p>Changes that improve Datasette Apps when created and edited using <a href=\"https://agent.datasette.io/\">Datasette Agent</a>:</p>\n<ul>\n<li>New <code>app_debug()</code> tool allowing agent to open an app (invisibly) and test it using JavaScript. <a href=\"https://github.com/datasette/datasette-apps/pull/33\">#33</a></li>\n<li>New <code>app_list()</code> tool for listing apps the user has permission to edit, so the agent can edit them. <a href=\"https://github.com/datasette/datasette-apps/issues/36\">#36</a></li>\n</ul>\n</blockquote>\n<p>The <code>app_debug()</code> tool is pretty neat: it works by displaying the app in a <code>opacity: 0</code> iframe with <code>pointer-events: none</code> (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements.</p>\n<p>This uses the new <code>context.browser_task()</code> mechanism added in <a href=\"https://simonwillison.net/2026/Jul/31/datasette-agent/\">datasette-agent 0.4a0</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/iframes\">iframes</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/datasette-apps\">datasette-apps</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/1/datasette-apps/",
+        "limitation": ""
+      },
+      "page_title": "Release: datasette-apps 0.2a0",
+      "page_description": "Apps that live inside Datasette",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack.\nExplore how AI for ISVs turns vision into results\n1st August 2026\nRelease\ndatasette-apps 0.2a0\n— Apps that live inside Datasette\nChanges that improve Datasette Apps when created and edited using\nDatasette Agent\n:\nNew\napp_debug()\ntool allowing agent to open an app (invisibly) and test it using JavaScript.\n#33\nNew\napp_list()\ntool for listing apps the user has permission to edit, so the agent can edit them.\n#36\nThe\napp_debug()\ntool is pretty neat: it works by displaying the app in a\nopacity: 0\niframe with\npointer-events: none\n(so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements.\nThis uses the new\ncontext.browser_task()\nmechanism added in\ndatasette-agent 0.4a0\n.\nPosted\n1st August 2026\nat 9:23 pm\nRecent articles\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\n- 31st July 2026\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nThis is a\nbeat\nby Simon Willison, posted on\n1st August 2026\n.\niframes\n25\ndatasette\n1,531\ndatasette-apps\n9\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-01T20:34:49+00:00",
+      "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/",
+      "digest_excerpt": "<p><strong><a href=\"https://openai.com/index/ten-advances-in-mathematics/\">Ten advances in mathematics and theoretical computer science</a></strong></p>\nA few days ago it was Anthropic <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\"</p>\n<p>Now it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.</p>\n<p>(No news on how many problems they spent $2,000 on <em>without</em> reaching a solution though.)</p>\n<p>The <a href=\"https://github.com/openai/ten-proofs\">openai/ten-proofs</a> repository has Lean 4 formalizations of their results, and there's also <a href=\"https://cdn.openai.com/pdf/ten-proofs-oai.pdf\">a paper</a> describing the solutions and an additional <a href=\"https://cdn.openai.com/pdf/reasoning-walkthroughs.pdf\">LLM-generated PDF</a> where the model \"reconstructs how the proof came together\" based on the unpublished reasoning traces.</p>\n<p>That's a decent level of transparency, but I want to see the prompts they used!</p>\n<p>A lot of mathematicians online are experiencing a collective burst of <a href=\"https://simonwillison.net/2026/Feb/15/deep-blue/\">Deep Blue</a>. Mathematician Kirwin Hampshire published an impassioned essay last week, <a href=\"https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics\">The Dark Night of Mathematics</a>, describing \"a profound spiritual crisis\" brought on by previous (and less significant) results.</p>\n<p>OpenAI's results reminds me of what Terence Tao described as \"big mathematics\" in <a href=\"https://spectrum.ieee.org/ai-in-mathematics\">IEEE Spectrum in June</a>:</p>\n<blockquote>\n<p>Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49132058\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/mathematics\">mathematics</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/deep-blue\">deep-blue</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/",
+        "limitation": ""
+      },
+      "page_title": "Ten advances in mathematics and theoretical computer science",
+      "page_description": "A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack.\nExplore how AI for ISVs turns vision into results\n1st August 2026 - Link Blog\nTen advances in mathematics and theoretical computer science\n(\nvia\n) A few days ago it was Anthropic\ndiscovering cryptographic weaknesses with Claude\nusing Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\"\nNow it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one.\n(No news on how many problems they spent $2,000 on\nwithout\nreaching a solution though.)\nThe\nopenai/ten-proofs\nrepository has Lean 4 formalizations of their results, and there's also\na paper\ndescribing the solutions and an additional\nLLM-generated PDF\nwhere the model \"reconstructs how the proof came together\" based on the unpublished reasoning traces.\nThat's a decent level of transparency, but I want to see the prompts they used!\nA lot of mathematicians online are experiencing a collective burst of\nDeep Blue\n. Mathematician Kirwin Hampshire published an impassioned essay last week,\nThe Dark Night of Mathematics\n, describing \"a profound spiritual crisis\" brought on by previous (and less significant) results.\nOpenAI's results reminds me of what Terence Tao described as \"big mathematics\" in\nIEEE Spectrum in June\n:\nUnlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work.\nPosted\n1st August 2026\nat 8:34 pm\nRecent articles\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\n- 31st July 2026\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n1st August 2026\n.\nmathematics\n20\nai\n2,159\nopenai\n440\ngenerative-ai\n1,911\nllms\n1,878\ndeep-blue\n9\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "2026-08-01",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-08-01T01:19:13+00:00",
+      "url": "https://daily.juya.uk/issues/2026-08-01/",
+      "digest_excerpt": "AI 早报 2026 08 01 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 DeepSeek V4 Flash 正式版 API 上线公测 ↗ 1 字节跳动Seed正式发布Seedance 2.5，单次视频生成时长提升至30秒 ↗ 2 开发生态 ChatGPT桌面应用支持点击宠物快捷启动语音模式 ↗ 3 Google AI Studio 取消独立移动 App，整合进 Gemini 应用 ↗ 4 GPT 5.4 系列将于 8 月 31 日从 Codex 中下线 ↗ 5 Nous Research 发布首个官方 Hermes Desktop 插件 Kanban 及配套插件 SDK ↗ 6 模型发布 千问发布Qwen Audio 3.0 ASR Flash语音识别大模型 ↗ 7 美团发布 LongCat F…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-08-01/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-08-01",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-08-01 ·\nMarkdown\nAI 早报 2026-08-01\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nDeepSeek-V4-Flash 正式版 API 上线公测\n↗\n#1\n字节跳动Seed正式发布Seedance 2.5，单次视频生成时长提升至30秒\n↗\n#2\n开发生态\nChatGPT桌面应用支持点击宠物快捷启动语音模式\n↗\n#3\nGoogle AI Studio 取消独立移动 App，整合进 Gemini 应用\n↗\n#4\nGPT-5.4 系列将于 8 月 31 日从 Codex 中下线\n↗\n#5\nNous Research 发布首个官方 Hermes Desktop 插件 Kanban 及配套插件 SDK\n↗\n#6\n模型发布\n千问发布Qwen-Audio-3.0-ASR-Flash语音识别大模型\n↗\n#7\n美团发布 LongCat-Flash-Lite-Sparse，采用全新稀疏注意力框架\n↗\n#8\n商汤开源发布 SenseNova-U1.5-8B-MoT 预览版\n↗\n#9\nLG AI研究院发布开源模型K-EXAONE 2.0\n↗\n#10\n华为开源 openPangu-2.0-Pro 模型，总参数达 5050 亿\n↗\n#11\n产品应用\nMiniMax 上线 MiniMax Hub 并推出 Media Plan 订阅方案\n↗\n#12\n行业动态\nGoogle Earth AI生图功能上线一天后被撤回\n↗\n#13\n特斯拉推送车机更新，引入豆包大模型语音助手\n↗\n#14\n技术与洞察\n数学家称 GPT-5.6 Sol 找到麦克斯韦猜想反例\n↗\n#15\n要闻\nDeepSeek-V4-Flash 正式版 API 上线公测\n#1\nDeepSeek 宣布 DeepSeek-V4-Flash 正式版 API 上线公测。目前仅 API 端更新，App 和网页端模型保持不变，同时模型权重已在相关平台开放。该模型相较预览版在架构与参数规模上一致，仅重新进行了后训练，Agent 能力大幅提升，多项 Agent 基准成绩大幅超过 V4-Pro-Preview。同时，该模型原生支持 Responses API 且适配 Codex。此外，官方称 DeepSeek-V4-Pro 正式版也将尽快发布。\nDeepSeek宣布，DeepSeek-V4-Flash正式版API已上线公测。正式版模型ID为DeepSeek-V4-Flash-0731，模型结构和尺寸与DeepSeek-V4-Flash-preview保持一致，仅重新进行了后训练。根据官方数据，正式版在多项Agent基准测试中远超V4-Pro-Preview。对于公开基准测试集中的Code Agent任务，正式版使用即将发布的DeepSeek Harness极简模式作为框架进行测试。此外，该模型支持Responses API格式并针对性适配Codex。官方文档同时显示，DeepSeek-V4-Pro API预计2026年8月初支持接入Codex。本次仅升级了DeepSeek-V4-Flash的API接口，APP及Web端模型未做更改，模型权重已在相关平台开放。\n相关链接：\nhttps://x.com/deepseek_ai/status/2083084415157022911\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\nhttps://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/codex\n字节跳动Seed正式发布Seedance 2.5，单次视频生成时长提升至30秒\n#2\n字节跳动Seed正式发布Seedance 2.5，该模型延续上代架构，重点突破长叙事能力、多模态参考能力和编辑能力，单次视频生成时长从15秒提升至30秒。模型正在即梦AI和豆包专业版陆续上线，API服务将于近期上线{火山方舟|\"火山方舟\"}。\n字节跳动Seed正式发布新一代视频生成模型Seedance 2.5，延续了Seedance 2.0的多模态音视频联合生成架构，重点突破长叙事能力、多模态参考能力和编辑能力。Seedance 2.5将单次视频生成时长从15秒提升至30秒，并支持多轮延长，用户可输入最多30张图片、10段视频和10段音频作为参考素材。模型支持通过时间戳精准编辑音视频内容，并强化了绿幕编辑、视角编辑等多种编辑能力。Seedance 2.5正在陆续上线即梦AI和豆包专业版平台，面向企业用户的API服务将在近期上线火山方舟。\n相关链接：\nhttps://mp.weixin.qq.com/s/_LtI8-8PkyQckW9CPQVw5A\n开发生态\nChatGPT桌面应用支持点击宠物快捷启动语音模式\n#3\nChatGPT桌面应用宣布新增虚拟宠物快捷功能。用户只需点击桌面端的虚拟宠物，即可快速启动ChatGPT Voice语音模式。\nChatGPT官方宣布其桌面应用程序新增了通过虚拟宠物快捷操作的功能。目前，用户在桌面应用中只需点击宠物，即可快速打开ChatGPT Voice。在此快捷方式下，用户能够检查工作进度，并批准或停止相关任务。官方表示这一更新提升了桌面端的使用体验。\n相关链接：\nhttps://x.com/ChatGPT/status/2083287694852112400\nGoogle AI Studio 取消独立移动 App，整合进 Gemini 应用\n#4\nGoogle AI Studio取消了获超80万次预约的独立移动端App。官方决定将相关能力整合进Gemini应用，让应用在日常对话中自然产生。同时，官方将继续投入优化网页版，满足用户的深层次开发需求。\nGoogle AI Studio 取消了独立移动端 App 的发布计划。此前，该应用在 iOS 和 Android 平台已获得超过 80 万次预购。官方决定采取新方案，将 AI Studio 体验直接整合进 Gemini 应用的移动端和桌面端，让应用在日常对话中自然产生。同时，Google AI Studio 将继续投入优化其网页版体验，服务于有更深层次开发需求的用户。\n相关链接：\nhttps://x.com/GoogleAIStudio/status/2083274575769473092\nGPT-5.4 系列将于 8 月 31 日从 Codex 中下线\n#5\nOpenAI 宣布 GPT-5.4 和 GPT-{5.4|五点四} mini 将于 8 月 31 日对通过 ChatGPT 登录的 Codex 用户停用，但在 API 中仍可使用。\nOpenAI 宣布 GPT-5.4 和 GPT-5.4 mini 将于 8 月 31 日正式从 Codex 中退役，不再向通过 ChatGPT 账号登录的用户提供。这两个模型在 OpenAI API 和通过 API 密钥验证的 Codex 会话中仍保持可用状态。官方建议开发者将现有的 gpt-5.4 替换为 gpt-5.6-terra，将 gpt-5.4-mini 替换为 gpt-5.6-luna，并在此期限前更新所有相关的默认设置和自定义任务。\n相关链接：\nhttps://learn.chatgpt.com/docs/changelog\nhttps://x.com/OpenAIDevs/status/2083301245390143831\nNous Research 发布首个官方 Hermes Desktop 插件 Kanban 及配套插件 SDK\n#6\nNous Research 发布首个官方 Hermes Desktop 插件 Kanban 及配套 Desktop Plugin SDK。开发者可无构建步骤加载自定义插件，为桌面应用添加扩展能力。\nNous Research 官方宣布首个 Hermes Desktop 插件 Kanban 已上线，桌面原生版本应大量用户请求推出并进行了重大升级。配套发布的 Desktop Plugin SDK 对应模块 @hermes/plugin-sdk，允许开发者为 Hermes Desktop 原生应用添加独立页面、侧边栏导航、快捷键、状态栏操作、主题和后端接口等功能。\n相关链接：\nhttps://hermes-agent.nousresearch.com/docs/developer-guide/desktop-plugin-sdk\nhttps://x.com/NousResearch/status/2083257053338898730\n模型发布\n千问发布Qwen-Audio-3.0-ASR-Flash语音识别大模型\n#7\n千问发布语音识别大模型Qwen-Audio-3.0-ASR-Flash，已上线阿里云百炼平台。官方称该模型在上下文记忆、行业词识别和语音润色等五方面完成升级，支持30种语言。\n千问正式发布语音识别大模型Qwen-Audio-3.0-ASR-Flash，目前通过阿里云百炼平台开放调用，提供Flash、Filetrans（离线文件转写）和Streaming（实时语音识别）三个版本，Flash版本支持转写最长5分钟音频。新模型在上下文一致性、行业词识别、热词定制化、语音润色和多语种识别五个维度进行了系统升级。根据官方内部评测，医疗场景专业词召回率达95.36%，工业场景达93.24%，热词召回率在多数场景突破99%，七语种平均语义错误率为17.09%。Streaming版本理论出字延迟300毫秒，中文工业场景错字率7.8%。\n相关链接：\nhttps://www.qianwenai.com/models/qwen-audio-3.0-asr-flash\nhttps://mp.weixin.qq.com/s/zjCIRJfsd22wkyjTznzreQ\n美团发布 LongCat-Flash-Lite-Sparse，采用全新稀疏注意力框架\n#8\n美团开源了{LongCat-Flash-Lite-Sparse|\"LongCat Flash Lite Sparse\"}模型。这是一个总参数量69B、激活参数约3B的MoE模型，引入了LongCat Sparse Attention，原生支持最高1M tokens上下文长度。\n美团在 Hugging Face 上发布了 LongCat-Flash-Lite-Sparse 模型。该模型为非 thinking 的 MoE 架构，总参数量达 69B，每 token 激活参数量约为 3B。它引入了 LongCat Sparse Attention (LSA)，原生支持最高 1M tokens 的上下文长度。相比前代密集模型，LongCat-Flash-Lite-Sparse 在保持推理和通用知识性能的同时，提升了长上下文推理效率和 Agentic 能力。模型权重在 MIT 许可下开源，可通过 SGLang 在单节点上进行部署。\n相关链接：\nhttps://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse\n商汤开源发布 SenseNova-U1.5-8B-MoT 预览版\n#9\nSenseNova 开源发布 SenseNova-U1.5-8B-MoT 预览版，支持原生 4K 图像生成与细粒度图像编辑，同步公开预训练脚本与配置文件。官方称更完善的正式版本将在不久后发布。\nSenseNova 发布并开源 SenseNova-U1.5-8B-MoT（预览版），这是基于 NEO-unify 架构构建的原生统一多模态模型，引入了全新 patch 编码层与 ConvDecoder 解码层。相比前代 U1，该预览版支持原生 4K 图像生成，在纹理、材质、光照和真实感方面显著提升，中英文文字渲染和密集复杂版式组织能力增强，图像编辑方面在指令遵循、主体身份保持和结构一致性上均有改进，并支持通过蒙版、边界框和视觉标记进行区域可控的细粒度编辑。官方明确，更强大、更完善的正式版本将在不久后正式发布。\n相关链接：\nhttps://huggingface.co/sensenova/SenseNova-U1.5-8B-MoT-Preview\nhttps://github.com/OpenSenseNova/SenseNova-U1\nLG AI研究院发布开源模型K-EXAONE 2.0\n#10\nLG AI研究院发布了K-EXAONE 2.0开源模型。该模型拥有7500亿总参数和370亿激活参数。据官方数据，该模型在长上下文理解和安全性等基准测试中表现突出，并支持十种语言。\nLG AI研究院在Hugging Face上正式发布K-EXAONE 2.0模型，这是韩国科技信息通信部主权人工智能基金会模型项目下开发的第二代产品。新模型采用混合注意力MoE架构，拥有7500亿总参数和370亿激活参数，规模是初代的三倍以上。模型支持多标记预测和DSpark两种投机解码方法，可加速生成约3至5倍，并将其多语言覆盖范围从六种扩展至十种。该模型采用Apache 2.0许可证完全开源，根据官方公布的基准测试数据，其长上下文检索和安全性表现优于现有的多款主流开源模型。\n相关链接：\nhttps://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B-FP8\nhttps://github.com/LG-AI-EXAONE/K-EXAONE-2.0\n华为开源 openPangu-2.0-Pro 模型，总参数达 5050 亿\n#11\n华为开源基于昇腾 NPU 训练的 open{Pangu|盘古}-2.0-Pro 模型。该模型总参数规模约 5050 亿，目前已提供模型权重、{基础推理代码|\"基础推理代码\"}及技术报告。官方指出其在复杂软件工程任务上仍与顶尖模型存在差距。\n华为开源基于昇腾 NPU 训练的大规模混合专家模型 openPangu-2.0-Pro，相关权重、推理代码和技术报告已正式上线。该模型总参数规模约 5050 亿，激活参数约 180 亿，支持 512K 上下文长度，采用了 DSA+SWA 独立分层混合架构与 Muon 优化器。技术报告披露了其包含 Thinking 和 Non-Thinking 两种模式的测评数据。官方称模型在通用能力和逻辑推理等方面表现优异，但也承认在处理复杂现实世界软件工程任务时，仍与顶尖模型存在明显差距。\n相关链接：\nhttps://huggingface.co/openpangu/openPangu-2.0-Pro\n产品应用\nMiniMax 上线 MiniMax Hub 并推出 Media Plan 订阅方案\n#12\nMiniMax 官方正式上线 MiniMax Hub，并推出了全新的 Media Plan 订阅方案。主要覆盖视频生成、图片创作、配乐制作和语音合成等核心创意场景，支持 Seedance 2.0、MiniMax H3 以及 Seedream 5.0 Pro 等主流模型。\nMiniMax 官方上线 MiniMax Hub，并针对音视频创作者、影视内容创作团队以及内容营销团队，推出了全新的 Media Plan 订阅方案。根据 MiniMax 官方平台信息，MiniMax API 开放平台目前日均处理超万亿 Token 请求，累计服务超 10 万开发者。全新的 Media Plan 主要覆盖视频生成、图片创作、配乐制作和语音合成等核心创意场景，提供 Starter、Plus 和 Pro 三个层级的按年订阅方案，支持 Seedance 2.0、MiniMax H3 以及 Seedream 5.0 Pro 等主流模型。\n相关链接：\nhttps://hub.minimaxi.com/media-plan/subscribe\n行业动态\nGoogle Earth AI生图功能上线一天后被撤回\n#13\nGoogle上线仅一天便回滚了Google Earth的AI图像生成功能。因发现有用户分享疑似违规的生成截图，Google决定在完善防护措施期间暂时撤回该功能。\nGoogle此前在Google Earth中推出了一项AI图像生成功能，允许用户使用其Nano Banana 2图像生成模型，通过提示词在卫星地图上创建虚构图像并叠加于真实地图之上。该功能上线后很快遭到批评，评论者指出该工具可能被用于制造和传播虚假地理信息。Google随后发表官方声明称，已观察到有用户分享疑似违反平台政策的生成图像截图，因此决定在实施更强护栏期间回滚该功能。Google还指出，生成的图像不会在Google Earth主界面中对其他用户可见，且已标注为AI生成的水印。\n相关链接：\nhttps://x.com/NewsFromGoogle/status/2083249962150760610\n特斯拉推送车机更新，引入豆包大模型语音助手\n#14\n据报道，特斯拉中国向 Model 3 等车型推送新版本车机软件更新，核心新增豆包大模型智能语音助手。\n特斯拉中国发布 2026.14.13 版本车机软件更新，现已分批次向 Model 3、Model Y、Model S、Model X 车型推送，这是特斯拉首次在国内车机中引入第三方大模型服务。豆包大模型智能语音助手可实现自然流畅对话和实时信息检索，提供多款音色及\"万事通\"\"音乐爱好者\"\"故事会\"等个性化角色，但需开通高级车载娱乐服务才能使用。据官方更新说明，该语音助手暂不支持车辆控制指令，无法通过语音调节空调、设置导航等车载操作。据反馈，本次更新适用于搭载 HW 3.0 及更早硬件的车辆，即非 AI4 硬件车型。\n相关链接：\nhttps://www.ithome.com/0/983/943.htm\n技术与洞察\n数学家称 GPT-5.6 Sol 找到麦克斯韦猜想反例\n#15\n数学家Philip Arathoon 称，GPT-5.6 Sol 找到麦克斯韦猜想反例——5 个点电荷的三角双锥体产生 24 个平衡点，超出猜想上限。\nPhilip Arathoon 于社交平台宣布，麦克斯韦猜想被证伪，反例由 AI（GPT-5.6 Sol）发现，并由人类数学家整理撰写论文发布于 arXiv。该反例为一个由 5 个点电荷构成的三角双锥体结构，产生 24 个平衡点，超过猜想给出的 (n-1)² 上限。Greg Brockman 转发该消息，称 GPT-5.6 Sol 可解决百年以上的数学猜想。另有用户指出，麦克斯韦原文的实际表述为 (n-1)(n-2) 而非 (n-1)²，且其本人从未将该表述称为\"猜想\"，\"猜想\"这一名称于 2007 年才被后人提出。目前该发现尚未获得独立验证。\n相关链接：\nhttps://arxiv.org/abs/2607.27197\nhttps://x.com/philarathoon/status/2082831490560262624\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-01T00:00:00+00:00",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "digest_excerpt": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/ten-advances-in-mathematics/",
+        "limitation": ""
+      },
+      "page_title": "Ten advances in mathematics and theoretical computer science | OpenAI",
+      "page_description": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 1, 2026\nPublication\nTen advances in mathematics and theoretical computer science\nRead the paper\n(opens in a new window)\nRead the reasoning walkthroughs\n(opens in a new window)\nLoading…\nShare\nThe results\nThe results\nResponsibility to the mathematical community\nThe results\nResponsibility to the mathematical community\nWe want to empower scientists and mathematicians with tools that accelerate discovery. That is why we recently announced\nChatGPT for Academic Researchers\n⁠\n, an initiative providing 100,000 scientists and mathematicians with free access to our best ChatGPT models. We also continue to evaluate our models on open research problems during development.\nIn May, we shared an\nAI-generated disproof\n⁠\nof the Erdős unit-distance conjecture, discovered while evaluating an unreleased model. This work has already inspired further developments in mathematics and theoretical computer science\n1\n. Today, we are sharing a selection of ten results to problems that have been open and have seen no progress on the main result for at least a decade, and in most cases much longer. These problems span high-dimensional geometry, coding theory, arithmetic circuit complexity, group theory, operator algebras, quantum complexity, lattice cryptography and extremal combinatorics. All of these problems are of substantial interest to their respective mathematical communities, and several are of broad interest across mathematics as a whole.\nThe results\nWe provide new results for the following problems. The results were achieved by an internal version of Astra, our next major model. The total number of tokens needed to find solutions to these problems would cost roughly $2,000 at Sol API rates. These arguments were then prepared into manuscripts by humans with the same model. Afterward, the model formalized each argument in a\nLean certificate\n⁠\n(opens in a new window)\n. We are also releasing for each solution a model’s narration of its thinking process.\nHigh-dimensional sphere packing.\nNew upper bounds on sphere-packing density down to the Cohn–Elkies threshold.\nBinary and spherical codes:\nExponentially improved bounds on the maximum size of binary codes at any prescribed minimum distance, with analogous results for high-dimensional spherical codes.\nNon-sofic groups.\nA construction establishing the existence of non-sofic groups, addressing a central open question in group theory.\nConnes’s rigidity conjecture.\nDisproof of a longstanding conjecture that certain groups are uniquely determined by their von Neumann algebras.\nArithmetic circuit complexity.\nNew lower bounds for computing the permanent using arithmetic circuits and formulas, including an arithmetic-formula lower bound of order n\n4\n/log n.\nQuantum parallel repetition.\nAn exponential parallel repetition theorem for general two-player quantum games, extending a foundational principle from classical complexity theory.\nClosest vector problem.\nPolynomial-factor hardness of approximation for the closest vector problem, a foundational lattice question related to post-quantum cryptography.\nEhrhart’s volume conjecture.\nDetermining, in every dimension, the maximum possible volume of a convex body whose centroid is its only interior lattice point.\nMulticolor Ramsey numbers.\nA superexponential lower bound for multicolor triangle Ramsey numbers, resolving Erdős problem 183.\nExtremal number conjectures.\nResults on the compactness and degeneracy conjectures in extremal graph theory, resolving Erdős problems 146 and 180.\nResponsibility to the mathematical community\nThe emergence of systems capable of contributing to mathematical research raises questions that cannot be answered by a technology company alone. There are many views as to the role of AI in mathematics, and we have deep respect and understanding for those concerned with its impact, including the signers of the\nLeiden declaration on AI and Mathematics\n⁠\n(opens in a new window)\n. We believe attribution should honestly reflect how a result was produced: claiming human authorship for a proof generated entirely by an AI system would misrepresent both the system’s contribution and the nature of genuine human intellectual work. We helped prepare the manuscripts and formalize the proofs in Lean, and we take responsibility for their correctness, while the mathematical arguments themselves were generated by our system. We hope the mathematical community will engage deeply with these results, place them in context, and bring the ideas behind them to life through new research and discovery.\nAs AI systems evolve into more sophisticated research collaborators, ensuring widespread access is fundamental to supporting scientists and mathematicians as they navigate and define the future of their disciplines during this transformative era.\n2026\nFootnote\n1\nSubsequent research includes Bloom, Sawin, Schildkraut, and Zhelezov, “\nThe sum-product conjecture is false for real numbers\n⁠\n(opens in a new window)\n”; Pohoata, “\nSplit primes and the Elekes-Rónyai problem\n⁠\n(opens in a new window)\n”; Saha, Xu, and Ye, “\nFurthest Pair Requires Quadratic Time in Superconstant Dimension under SETH\n⁠\n(opens in a new window)\n”; Goh and Hatami, “\nCommunication complexity of point-line incidences over the reals\n⁠\n(opens in a new window)\n”; and Lee, Pohoata, and Zhu, “\nThe Minkowski grid has robustly many repeated distances\n⁠\n(opens in a new window)\n.”\nKeep reading\nView all\nHow enabling two settings tripled our scores on the ARC-AGI-3 benchmark\nResearch\nJul 29, 2026\nScientific computing in the age of agentic AI\nPublication\nJul 28, 2026\nGPT-Red: Unlocking Self-Improvement for Robustness\nSafety\nJul 15, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-31T23:59:44+00:00",
+      "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/",
+      "digest_excerpt": "<p><strong><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\">deepseek-ai/DeepSeek-V4-Flash-0731</a></strong></p>\nThe latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch <em>well</em> above its weight.</p>\n<p>Artificial Analysis <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash\">rank it</a> ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs\">Intelligence Index vs. Cost per Intelligence Index Task</a> chart:</p>\n<p><img alt=\"Scatter plot from Artificial Analysis titled with axes &quot;Artificial Analysis Intelligence Index&quot; (20 to 65) and &quot;Cost per Task (USD, Log Scale)&quot; ($0.02 to $3), with a green &quot;Most attractive quadrant&quot; box in the upper left and a dotted &quot;Pareto line&quot;. DeepSeek V4 Flash 0731 (max) is highlighted in dark blue at roughly $0.028 and an intelligence score of 50, sitting alone at the far left edge of the green quadrant where the Pareto line jumps sharply upward. Models of similar or lower intelligence like MiniMax-M3, Kimi K3 (low), GLM-5.1 and Kimi K2.6 cost ten times more, and the models that beat it (Grok 4.5, Gemini 3.6 Flash, GLM-5.2, Kimi K3, Claude Opus 5, Claude Fable 5, GPT-5.6 Sol) all sit far to the right at $0.4 to $3 per task.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-chart.webp\" /></p>\n<p>I got <a href=\"https://gist.github.com/simonw/83bfb1171792f1e7a4d8935b5e82317e#prompt\">a disappointing pelican</a> from it using the default reasoning level via OpenRouter:</p>\n<p><img alt=\"Flat vector illustration of a white pelican with a long neck and large orange beak pouch, hovering above a mangled blue and orange bicycle on a dark grey road with white dashed lane markings. The bike is drawn incorrectly: the wheels are just orange arcs with no rims or spokes, the frame tubes float apart and the handlebars connect to nothing. The background is pale blue with a yellow sun in the upper left, white clouds, and grey speed lines on the left suggesting motion.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-v4-default.png\" /></p>\n<p>But when I bumped reasoning level up to high I got <a href=\"https://gist.github.com/simonw/83bfb1171792f1e7a4d8935b5e82317e#options\">something much better</a>:</p>\n<p><code>llm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high</code></p>\n<p><img alt=\"Flat vector illustration of a white pelican riding a bicycle to the right against a pink background with a lighter pink circle behind it. The pelican grips the handlebars with its wings and one orange foot rests on the pedal, and a small blue fish is visible tucked in the corner of its large orange beak pouch. The bike has a red, blue and orange frame with dark tires, and grey speed lines trail behind to suggest motion.\" src=\"https://static.simonwillison.net/static/2026/deepseek-flash-v4-high.png\" />\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49120299\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/deepseek\">deepseek</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/",
+        "limitation": ""
+      },
+      "page_title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "page_description": "The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack.\nExplore how AI for ISVs turns vision into results\n31st July 2026 - Link Blog\ndeepseek-ai/DeepSeek-V4-Flash-0731\n(\nvia\n) The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch\nwell\nabove its weight.\nArtificial Analysis\nrank it\nahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the\nIntelligence Index vs. Cost per Intelligence Index Task\nchart:\nI got\na disappointing pelican\nfrom it using the default reasoning level via OpenRouter:\nBut when I bumped reasoning level up to high I got\nsomething much better\n:\nllm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high\nPosted\n31st July 2026\nat 11:59 pm\nRecent articles\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\n- 31st July 2026\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nThis is a\nlink post\nby Simon Willison, posted on\n31st July 2026\n.\nai\n2,159\ngenerative-ai\n1,911\nllms\n1,878\npelican-riding-a-bicycle\n130\ndeepseek\n34\nllm-release\n220\nopenrouter\n28\nai-in-china\n103\nartificial-analysis\n8\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-31T23:13:22+00:00",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "digest_excerpt": "<p>Tuesday was <a href=\"https://x.com/ade_oshineye/status/2082129440943866149\">Stateless MCP day</a> - the rollout of MCP 2.0, or <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">the 2026-07-28 Model Context Protocol specification</a> to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.</p>\n<p>For background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back <a href=\"https://www.anthropic.com/news/model-context-protocol\">in November 2024</a>, had a <em>huge</em> spike of interest through much of 2025, and then became somewhat eclipsed by <a href=\"https://simonwillison.net/2025/Oct/16/claude-skills/\">Skills</a> (another Anthropic invention) when it became apparent that an agent harness with access to a terminal and <code>curl</code> could do most of what MCP did in a more flexible way. I wrote about that <a href=\"https://simonwillison.net/2025/Dec/31/the-year-in-llms/#the-only-year-of-mcp\">in my review of 2025</a>.</p>\n<p>I'm coming back around to MCP now. Giving an agent a shell environment with the ability to access the internet is <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">fraught with risk</a>, and requires a strong model that is capable of effectively driving such an environment. MCP tools are easier to audit and control, and simple enough that smaller models that run on a laptop can still drive them reasonably well.</p>\n<p>The new stateless MCP specification also greatly decreases the complexity of implementing both clients and servers for the protocol. I built three of those this week!</p>\n<h4 id=\"what-s-easier-with-stateless-mcp\">What's easier with stateless MCP</h4>\n<p>The best demonstration of the difference between stateful and stateless MCP is in this <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/\">May 21st blog post</a> that introduced the RC for the new specification. It included a clear before-and-after example.</p>\n<p>The older stateful MCP (I'm going to call it \"legacy MCP\") required two HTTP requests - the first to initialize a session and obtain a <code>Mcp-Session-Id</code>, and the second to actually call the tool:</p>\n<pre><code>POST /mcp HTTP/1.1\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"initialize\",\n  \"params\": {\n    \"protocolVersion\": \"2025-11-25\",\n    \"capabilities\": {\n    },\n    \"clientInfo\": {\n      \"name\": \"my-app\",\n      \"version\": \"1.0\"\n    }\n  }\n}\n\nPOST /mcp HTTP/1.1\nMcp-Session-Id: 1868a90c-3a3f-4f5b\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search\",\n    \"arguments\": {\n      \"q\": \"otters\"\n    }\n  }\n}\n</code></pre>\n<p>The new stateless way uses a single HTTP request which looks like this:</p>\n<pre><code>POST /mcp HTTP/1.1\nMCP-Protocol-Version: 2026-07-28\nMcp-Method: tools/call\nMcp-Name: search\nContent-Type: application/json\n\n{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search\",\n    \"arguments\": {\n      \"q\": \"otters\"\n    },\n    \"_meta\": {\n      \"io.modelcontextprotocol/clientInfo\": {\n        \"name\": \"my-app\",\n        \"version\": \"1.0\"\n      }\n    }\n  }\n}\n</code></pre>\n<p>This is so much cleaner from both a client- and server-side implementation perspective. It's also a better fit for building scalable web applications, since now you don't need to maintain server-side state to keep track of those session IDs, or worry about routing the same session to the same backend machine.</p>\n<h4 id=\"mcp-explorer\">mcp-explorer</h4>\n<p>I couldn't find a great CLI tool for interactively probing an MCP server, so I had Codex help build my own.</p>\n<p><strong><a href=\"https://github.com/simonw/mcp-explorer\">mcp-explorer</a></strong> is the result. It's a stateless Python CLI tool, so you don't even need to install it to try it out - it works with <a href=\"https://docs.astral.sh/uv/guides/tools/#running-tools\">uvx</a> like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx mcp-explorer list https://agentic-mermaid.dev/mcp</pre></div>\n<p>This queries Ade Oshineye's <a href=\"https://agentic-mermaid.dev/\">agentic-mermaid.dev</a> demo MCP. The above command returns the following list of tools:</p>\n<pre><code>execute(code: string, timeoutMs?: integer) - Execute Mermaid SDK code\n  Run JavaScript in an isolated sandbox; return a value.\n\ndescribe_sdk(family: string, detail?: string) - Describe Mermaid SDK operations\n  Return version-matched mutation operations for one diagram family.\n\nrender_svg(source: string, options?: object) - Render Mermaid as SVG\n  Render a Mermaid source string to themeable SVG. Returns { ok, svg }.\n\nrender_ascii(source: string, useAscii?: boolean, targetWidth?: integer, options?: object) - Render Mermaid as text\n  Render a Mermaid source string to text. Returns { ok, text }.\n\nrender_png(source: string, scale?: number, background?: string, fitTo?: object, options?: object) - Render Mermaid as PNG\n  Rasterize a Mermaid source string to PNG. Returns { ok, png_base64 }.\n...\n</code></pre>\n<p>Then to inspect a tool:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx mcp-explorer inspect render_svg</pre></div>\n<p>This outputs a whole bunch of information, including the JSON schema of the inputs and outputs.</p>\n<p>To call that tool and pass arguments to it:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx mcp-explorer call \\\n  https://agentic-mermaid.dev/mcp \\\n  render_svg \\\n  -a <span class=\"pl-c1\">source</span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>graph TD; A--&gt;B<span class=\"pl-pds\">'</span></span> \\\n  -a options <span class=\"pl-s\"><span class=\"pl-pds\">'</span>{\"padding\":24}<span class=\"pl-pds\">'</span></span></pre></div>\n<p>Which returns:</p>\n<pre><code>{\"ok\":true,\"svg\":\"&lt;svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=...\n</code></pre>\n<p>To get just the raw SVG try adding <code>| jq .svg -r</code> to that command. I got back <a href=\"https://gist.github.com/simonw/b07c62f0ce103be6932477659d5dd1ac\">this image</a>:</p>\n<p><img alt=\"SVG of as A box on top of a B box with an arrow from A to B\" src=\"https://static.simonwillison.net/static/2026/mermaid-example.svg\" /></p>\n<p>There are a <a href=\"https://github.com/simonw/mcp-explorer/blob/main/README.md\">few more commands</a> in the README, but you get the general idea. I find building CLI tools like this to be a really productive way to get familiar with a specification, even if an agent writes most of the actual code.</p>\n<h4 id=\"datasette-mcp\">datasette-mcp</h4>\n<p>The second project is <strong><a href=\"https://github.com/datasette/datasette-mcp\">datasette-mcp</a></strong>, a Datasette plugin which adds a <code>/-/mcp</code> endpoint to any Datasette instance.</p>\n<p>This is probably the fourth time I've tried building this plugin, but thanks to the new stateless MCP specification I finally have a version that feels good to release.</p>\n<p>It provides just three tools: <code>list_databases()</code>, <code>get_database_schema(database_name)</code>, and <code>execute_sql(database_name, sql)</code>. They do exactly what you would expect them to do - though <code>execute_sql()</code> is read-only for the moment.</p>\n<p>Wire these into an agent, or a chat tool like ChatGPT or Claude, and they'll gain the ability to run SQL queries against your hosted Datasette instance.</p>\n<p>So far I'm running it on the Datasette mirror of my blog, at <a href=\"datasette.simonwillison.net/-/mcp\">datasette.simonwillison.net/-/mcp</a>. It took a bit of fiddling to figure out how to attach that to ChatGPT and Claude, but I got there in the end. Here's <a href=\"https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt\">a new TIL</a> showing exactly how to do that.</p>\n<p>Here's <a href=\"https://claude.ai/share/de1ad9bf-f7c2-4fb9-a9a0-2a1ae39995db\">a shared Claude session</a> where I asked it:</p>\n<blockquote>\n<p><code>list tables in simonwillison.net</code></p>\n</blockquote>\n<p>And then:</p>\n<blockquote>\n<p><code>what has Simon said recently about MCP?</code></p>\n</blockquote>\n<p>It ran 7 separate SQL queries to figure out the answer.</p>\n<h4 id=\"llm-mcp-client\">llm-mcp-client</h4>\n<p>My <a href=\"https://llm.datasette.io/\">LLM tool</a> is long overdue for an official MCP integration. The new alpha <a href=\"https://github.com/simonw/llm-mcp-client\">llm-mcp-client</a> plugin is my attempt at exactly that:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm install llm-mcp-client\nllm -T <span class=\"pl-s\"><span class=\"pl-pds\">'</span>MCP(\"https://datasette.simonwillison.net/-/mcp\")<span class=\"pl-pds\">'</span></span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>count the notes<span class=\"pl-pds\">'</span></span></pre></div>\n<p>Here's the output (including reasoning trace, I'm using <a href=\"https://simonwillison.net/2026/Jul/30/llm-rc2/\">LLM 0.32rc2</a>):</p>\n<blockquote>\n<p><em><strong>Considering note count</strong></em></p>\n<p><em>I see the question \"count the notes\" is probably asking me to tally up blog notes. It could also mean published notes or drafts, so there's some ambiguity there. I'll need to figure out the total number of notes, likely by querying the count for both published notes and drafts to get a clear answer. Let's execute that count!</em></p>\n<p>There are <strong>151 notes</strong>.</p>\n</blockquote>\n<p>And <a href=\"https://gist.github.com/simonw/4e8f558766150658ce35eab4f0fc3e04\">the output of llm logs</a> for that prompt.</p>\n<p>Once this is fully baked, I'm considering bringing it directly into LLM core. I'm excited to experiment with MCP in <a href=\"https://agent.datasette.io/\">Datasette Agent</a> and <a href=\"https://github.com/simonw/llm-coding-agent\">llm-coding-agent</a> as well.</p>\n<h4 id=\"mcp-is-a-safer-way-to-build-with-agents\">MCP is a safer way to build with agents</h4>\n<p>A few months after MCP was first released, I wrote <a href=\"https://simonwillison.net/2025/Apr/9/mcp-prompt-injection/\">Model Context Protocol has prompt injection security problems</a>, where I noted that the pattern of having end users mix and match tools pushed responsibility for avoiding data exfiltration attacks out to the users themselves. I hadn't coined <a href=\"https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/\">the Lethal Trifecta</a> yet, but that was absolutely what I had in mind.</p>\n<p>Then general agents with arbitrary shell and <code>curl</code> access came along, and that's so much harder to keep secure!</p>\n<p>Something I've come to appreciate about MCP is that it's much easier to reason about agent capabilities and what might go wrong than with arbitrary command execution in an open network environment - the default for most of today's general and coding agent tools.</p>\n<p>I plan to lean into MCP a whole lot more when I'm building sensitive applications on top of LLMs.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/mermaid\">mermaid</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+        "limitation": ""
+      },
+      "page_title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "page_description": "Tuesday was Stateless MCP day—the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack.\nExplore how AI for ISVs turns vision into results\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\n31st July 2026\nTuesday was\nStateless MCP day\n—the rollout of MCP 2.0, or\nthe 2026-07-28 Model Context Protocol specification\nto use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.\nFor background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back\nin November 2024\n, had a\nhuge\nspike of interest through much of 2025, and then became somewhat eclipsed by\nSkills\n(another Anthropic invention) when it became apparent that an agent harness with access to a terminal and\ncurl\ncould do most of what MCP did in a more flexible way. I wrote about that\nin my review of 2025\n.\nI’m coming back around to MCP now. Giving an agent a shell environment with the ability to access the internet is\nfraught with risk\n, and requires a strong model that is capable of effectively driving such an environment. MCP tools are easier to audit and control, and simple enough that smaller models that run on a laptop can still drive them reasonably well.\nThe new stateless MCP specification also greatly decreases the complexity of implementing both clients and servers for the protocol. I built three of those this week!\nWhat’s easier with stateless MCP\nThe best demonstration of the difference between stateful and stateless MCP is in this\nMay 21st blog post\nthat introduced the RC for the new specification. It included a clear before-and-after example.\nThe older stateful MCP (I’m going to call it “legacy MCP”) required two HTTP requests—the first to initialize a session and obtain a\nMcp-Session-Id\n, and the second to actually call the tool:\nPOST /mcp HTTP/1.1 Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"initialize\", \"params\": { \"protocolVersion\": \"2025-11-25\", \"capabilities\": { }, \"clientInfo\": { \"name\": \"my-app\", \"version\": \"1.0\" } } } POST /mcp HTTP/1.1 Mcp-Session-Id: 1868a90c-3a3f-4f5b Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 2, \"method\": \"tools/call\", \"params\": { \"name\": \"search\", \"arguments\": { \"q\": \"otters\" } } }\nThe new stateless way uses a single HTTP request which looks like this:\nPOST /mcp HTTP/1.1 MCP-Protocol-Version: 2026-07-28 Mcp-Method: tools/call Mcp-Name: search Content-Type: application/json { \"jsonrpc\": \"2.0\", \"id\": 1, \"method\": \"tools/call\", \"params\": { \"name\": \"search\", \"arguments\": { \"q\": \"otters\" }, \"_meta\": { \"io.modelcontextprotocol/clientInfo\": { \"name\": \"my-app\", \"version\": \"1.0\" } } } }\nThis is so much cleaner from both a client- and server-side implementation perspective. It’s also a better fit for building scalable web applications, since now you don’t need to maintain server-side state to keep track of those session IDs, or worry about routing the same session to the same backend machine.\nmcp-explorer\nI couldn’t find a great CLI tool for interactively probing an MCP server, so I had Codex help build my own.\nmcp-explorer\nis the result. It’s a stateless Python CLI tool, so you don’t even need to install it to try it out—it works with\nuvx\nlike this:\nuvx mcp-explorer list https://agentic-mermaid.dev/mcp\nThis queries Ade Oshineye’s\nagentic-mermaid.dev\ndemo MCP. The above command returns the following list of tools:\nexecute(code: string, timeoutMs?: integer) - Execute Mermaid SDK code Run JavaScript in an isolated sandbox; return a value. describe_sdk(family: string, detail?: string) - Describe Mermaid SDK operations Return version-matched mutation operations for one diagram family. render_svg(source: string, options?: object) - Render Mermaid as SVG Render a Mermaid source string to themeable SVG. Returns { ok, svg }. render_ascii(source: string, useAscii?: boolean, targetWidth?: integer, options?: object) - Render Mermaid as text Render a Mermaid source string to text. Returns { ok, text }. render_png(source: string, scale?: number, background?: string, fitTo?: object, options?: object) - Render Mermaid as PNG Rasterize a Mermaid source string to PNG. Returns { ok, png_base64 }. ...\nThen to inspect a tool:\nuvx mcp-explorer inspect render_svg\nThis outputs a whole bunch of information, including the JSON schema of the inputs and outputs.\nTo call that tool and pass arguments to it:\nuvx mcp-explorer call \\ https://agentic-mermaid.dev/mcp \\ render_svg \\ -a\nsource\n'\ngraph TD; A-->B\n'\n\\ -a options\n'\n{\"padding\":24}\n'\nWhich returns:\n{\"ok\":true,\"svg\":\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=...\nTo get just the raw SVG try adding\n| jq .svg -r\nto that command. I got back\nthis image\n:\nThere are a\nfew more commands\nin the README, but you get the general idea. I find building CLI tools like this to be a really productive way to get familiar with a specification, even if an agent writes most of the actual code.\ndatasette-mcp\nThe second project is\ndatasette-mcp\n, a Datasette plugin which adds a\n/-/mcp\nendpoint to any Datasette instance.\nThis is probably the fourth time I’ve tried building this plugin, but thanks to the new stateless MCP specification I finally have a version that feels good to release.\nIt provides just three tools:\nlist_databases()\n,\nget_database_schema(database_name)\n, and\nexecute_sql(database_name, sql)\n. They do exactly what you would expect them to do—though\nexecute_sql()\nis read-only for the moment.\nWire these into an agent, or a chat tool like ChatGPT or Claude, and they’ll gain the ability to run SQL queries against your hosted Datasette instance.\nSo far I’m running it on the Datasette mirror of my blog, at\ndatasette.simonwillison.net/-/mcp\n. It took a bit of fiddling to figure out how to attach that to ChatGPT and Claude, but I got there in the end. Here’s\na new TIL\nshowing exactly how to do that.\nHere’s\na shared Claude session\nwhere I asked it:\nlist tables in simonwillison.net\nAnd then:\nwhat has Simon said recently about MCP?\nIt ran 7 separate SQL queries to figure out the answer.\nllm-mcp-client\nMy\nLLM tool\nis long overdue for an official MCP integration. The new alpha\nllm-mcp-client\nplugin is my attempt at exactly that:\nllm install llm-mcp-client llm -T\n'\nMCP(\"https://datasette.simonwillison.net/-/mcp\")\n'\n'\ncount the notes\n'\nHere’s the output (including reasoning trace, I’m using\nLLM 0.32rc2\n):\nConsidering note count\nI see the question “count the notes” is probably asking me to tally up blog notes. It could also mean published notes or drafts, so there’s some ambiguity there. I’ll need to figure out the total number of notes, likely by querying the count for both published notes and drafts to get a clear answer. Let’s execute that count!\nThere are\n151 notes\n.\nAnd\nthe output of llm logs\nfor that prompt.\nOnce this is fully baked, I’m considering bringing it directly into LLM core. I’m excited to experiment with MCP in\nDatasette Agent\nand\nllm-coding-agent\nas well.\nMCP is a safer way to build with agents\nA few months after MCP was first released, I wrote\nModel Context Protocol has prompt injection security problems\n, where I noted that the pattern of having end users mix and match tools pushed responsibility for avoiding data exfiltration attacks out to the users themselves. I hadn’t coined\nthe Lethal Trifecta\nyet, but that was absolutely what I had in mind.\nThen general agents with arbitrary shell and\ncurl\naccess came along, and that’s so much harder to keep secure!\nSomething I’ve come to appreciate about MCP is that it’s much easier to reason about agent capabilities and what might go wrong than with arbitrary command execution in an open network environment—the default for most of today’s general and coding agent tools.\nI plan to lean into MCP a whole lot more when I’m building sensitive applications on top of LLMs.\nPosted\n31st July 2026\nat 11:13 pm · Follow me on\nMastodon\n,\nBluesky\n,\nTwitter\nor\nsubscribe to my newsletter\nMore recent articles\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nThis is\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\nby Simon Willison, posted on\n31st July 2026\n.\nprojects\n549\nai\n2,159\ndatasette\n1,531\nmermaid\n5\ngenerative-ai\n1,911\nllms\n1,878\nllm\n616\nanthropic\n320\nmodel-context-protocol\n31\nPrevious:\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S007",
+      "kind": "blog",
+      "title": "llm-mcp-client 0.1a0",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-07-31T23:03:47+00:00",
+      "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/",
+      "digest_excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mcp-client/releases/tag/0.1a0\">llm-mcp-client 0.1a0</a></p>\n        <p>See <a href=\"https://simonwillison.net/2026/Jul/31/stateless-mcp/#llm-mcp-client\">this blog entry</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/",
+        "limitation": ""
+      },
+      "page_title": "Release: llm-mcp-client 0.1a0",
+      "page_description": "Access tools from MCP servers as LLM tools",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nAWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack.\nExplore how AI for ISVs turns vision into results\n31st July 2026\nRelease\nllm-mcp-client 0.1a0\n— Access tools from MCP servers as LLM tools\nSee\nthis blog entry\n.\nPosted\n31st July 2026\nat 11:03 pm\nRecent articles\nStateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)\n- 31st July 2026\nOpenAI’s accidental cyberattack against Hugging Face is science fiction that happened\n- 22nd July 2026\nA Fireside Chat with Cat and Thariq from the Claude Code team\n- 21st July 2026\nThis is a\nbeat\nby Simon Willison, posted on\n31st July 2026\n.\nllm\n616\nmodel-context-protocol\n31\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S008",
+      "kind": "x",
+      "title": "Two orders of magnitude improvements are quite rare. This is a big deal.",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-01T21:29:34+00:00",
+      "url": "https://x.com/AravSrinivas/status/2083666472052957392",
+      "digest_excerpt": "Two orders of magnitude improvements are quite rare. This is a big deal.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2083666472052957392",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Two orders of magnitude improvements are quite rare. This is a big deal."
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "They recently asked my 3-year-old at school: “what does your daddy do for work?” He answered: he exercises. That’s what ",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-01T21:23:08+00:00",
+      "url": "https://x.com/rauchg/status/2083664853256843437",
+      "digest_excerpt": "They recently asked my 3-year-old at school: “what does your daddy do for work?” He answered: he exercises. That’s what he sees. \n\nIt’s not just you who’s a byproduct of your habits, it’s your children and grandchildren too.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2083664853256843437",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "They recently asked my 3-year-old at school: “what does your daddy do for work?” He answered: he exercises. That’s what he sees. \n\nIt’s not just you who’s a byproduct of your habits, it’s your children and grandchildren too."
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "The Moon base will be even more epic",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T20:57:09+00:00",
+      "url": "https://x.com/elonmusk/status/2083658315582632272",
+      "digest_excerpt": "The Moon base will be even more epic",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083658315582632272",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The Moon base will be even more epic"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "started work on forge agents today https://t.co/u3nBCzF7sM",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-01T20:41:28+00:00",
+      "url": "https://x.com/swyx/status/2083654369095156219",
+      "digest_excerpt": "started work on forge agents today https://t.co/u3nBCzF7sM",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2083654369095156219",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "started work on forge agents today https://t.co/u3nBCzF7sM"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "chatgpt work's cloud browser is really cool to use, lets you easily monitor what your AI is up to and also intervene wit",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T19:51:38+00:00",
+      "url": "https://x.com/gdb/status/2083641828415602989",
+      "digest_excerpt": "chatgpt work's cloud browser is really cool to use, lets you easily monitor what your AI is up to and also intervene with the live application if needed",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083641828415602989",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "chatgpt work's cloud browser is really cool to use, lets you easily monitor what your AI is up to and also intervene with the live application if needed"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "I have this Padmé moment whenever I see people talk about avoiding \"the permanent underclass\". https://t.co/8Pd9bmedEZ",
+      "source_name": "Amanda Askell",
+      "author": "AmandaAskell",
+      "published": "2026-08-01T19:48:43+00:00",
+      "url": "https://x.com/AmandaAskell/status/2083641092919161017",
+      "digest_excerpt": "I have this Padmé moment whenever I see people talk about avoiding \"the permanent underclass\". https://t.co/8Pd9bmedEZ",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AmandaAskell/status/2083641092919161017",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I have this Padmé moment whenever I see people talk about avoiding \"the permanent underclass\". https://t.co/8Pd9bmedEZ"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "The number one thing I want AI to fix is to cure cancer once and for all",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-01T19:34:55+00:00",
+      "url": "https://x.com/petergyang/status/2083637620899184642",
+      "digest_excerpt": "The number one thing I want AI to fix is to cure cancer once and for all",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2083637620899184642",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The number one thing I want AI to fix is to cure cancer once and for all"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "good way to organize main chats vs /side chats:\n\ndoing the work \nvs\ndoing metawork https://t.co/2SetYdRVAa",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-01T18:13:08+00:00",
+      "url": "https://x.com/swyx/status/2083617040800342266",
+      "digest_excerpt": "good way to organize main chats vs /side chats:\n\ndoing the work \nvs\ndoing metawork https://t.co/2SetYdRVAa",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2083617040800342266",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "good way to organize main chats vs /side chats:\n\ndoing the work \nvs\ndoing metawork https://t.co/2SetYdRVAa"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "10 minutes to go!",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-08-01T18:03:48+00:00",
+      "url": "https://x.com/steipete/status/2083614690350071945",
+      "digest_excerpt": "10 minutes to go!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2083614690350071945",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "10 minutes to go!"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "&gt; Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nbo",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-01T17:47:07+00:00",
+      "url": "https://x.com/swyx/status/2083610493793845429",
+      "digest_excerpt": "&gt; Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nbookmark for the next vc that asks you \"what if &lt;incumbent&gt; builds this?\"",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2083610493793845429",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "&gt; Google was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nbookmark for the next vc that asks you \"what if &lt;incumbent&gt; builds this?\""
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "A special effect like this used to take months of effort by a specialized company https://t.co/6QgCLwangb",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T16:48:26+00:00",
+      "url": "https://x.com/elonmusk/status/2083595725552734528",
+      "digest_excerpt": "A special effect like this used to take months of effort by a specialized company https://t.co/6QgCLwangb",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083595725552734528",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "A special effect like this used to take months of effort by a specialized company https://t.co/6QgCLwangb"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "Exactly",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T16:45:52+00:00",
+      "url": "https://x.com/elonmusk/status/2083595079357239628",
+      "digest_excerpt": "Exactly",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083595079357239628",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Exactly"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "Can someone at @openai look into this bug with plugins? \n\nTry to ship my /no-ai-slop skill as a plugin and this is messi",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-01T16:43:06+00:00",
+      "url": "https://x.com/petergyang/status/2083594381748302160",
+      "digest_excerpt": "Can someone at @openai look into this bug with plugins? \n\nTry to ship my /no-ai-slop skill as a plugin and this is messing up the user experience. https://t.co/pKXFfaBChc",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2083594381748302160",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Can someone at @openai look into this bug with plugins? \n\nTry to ship my /no-ai-slop skill as a plugin and this is messing up the user experience. https://t.co/pKXFfaBChc"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "This is insane and so exciting. All ten of these are *major* results in the field. \n\nJust imagine when the whole world h",
+      "source_name": "Kevin Weil",
+      "author": "kevinweil",
+      "published": "2026-08-01T16:30:25+00:00",
+      "url": "https://x.com/kevinweil/status/2083591189136326924",
+      "digest_excerpt": "This is insane and so exciting. All ten of these are *major* results in the field. \n\nJust imagine when the whole world has access to this model. \n\nCongrats @SebastienBubeck @polynoamial @markchen90 @merettm and the whole OpenAI team. The future is going to be awesome. \n\nhttps://t.co/xqe4hdyrkq",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/kevinweil/status/2083591189136326924",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is insane and so exciting. All ten of these are *major* results in the field. \n\nJust imagine when the whole world has access to this model. \n\nCongrats @SebastienBubeck @polynoamial @markchen90 @merettm and the whole OpenAI team. The future is going to be awesome. \n\nhttps://t.co/xqe4hdyrkq"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "We’re going to see an increasing divergence between what AI does in our personal lives and in daily productivity vs. wha",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-08-01T16:22:15+00:00",
+      "url": "https://x.com/levie/status/2083589132660711452",
+      "digest_excerpt": "We’re going to see an increasing divergence between what AI does in our personal lives and in daily productivity vs. what it can do in very deep domains like math, science, legal, coding and more.\n\nUp to some threshold, capability was evenly felt across all domains because the models were just becoming mildly useful in general. Now, the deep domain work is about to go vertical. \n\nMost people won’t actually notice these benefits in their day to day life directly (indirectly they certainly will over time), but the experts in these fields will. And there’s no inherent ceiling to what capabilities are needed, unlike in the consumer space where needs can get met relatively straightforwardly.\n\nThis will often lead to a capability overhang, though, as many of these performance gains need to be applied to data sets and workflows in an applied way for that area of work. But this is ultimately how you get breakthroughs in life sciences, real world automation, new cyber capabilities, and more.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2083589132660711452",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’re going to see an increasing divergence between what AI does in our personal lives and in daily productivity vs. what it can do in very deep domains like math, science, legal, coding and more.\n\nUp to some threshold, capability was evenly felt across all domains because the models were just becoming mildly useful in general. Now, the deep domain work is about to go vertical. \n\nMost people won’t actually notice these benefits in their day to day life directly (indirectly they certainly will over time), but the experts in these fields will. And there’s no inherent ceiling to what capabilities are needed, unlike in the consumer space where needs can get met relatively straightforwardly.\n\nThis will often lead to a capability overhang, though, as many of these performance gains need to be applied to data sets and workflows in an applied way for that area of work. But this is ultimately how you get breakthroughs in life sciences, real world automation, new cyber capabilities, and more."
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Hermes is the most popular AI app on OpenRouter and I use it daily as my personal AI chief of staff.\n\nBut it all started",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-01T15:15:02+00:00",
+      "url": "https://x.com/petergyang/status/2083572219113021451",
+      "digest_excerpt": "Hermes is the most popular AI app on OpenRouter and I use it daily as my personal AI chief of staff.\n\nBut it all started with Karan and Teknium hanging out in a small Discord server.\n\nTomorrow, I’m sharing my interview with Hermes co-founder @karan4d about:\n\n→ How Hermes gets better the more you use it\n→ Advanced tips to get the most out of Hermes\n→ Why open source is essential to the future of AI\n\nKaran was incredibly down to earth and even showed me how he uses Hermes to mod his favorite childhood game, Sonic Adventure 2 😅\n\n📌 Subscribe to get our full interview tomorrow: https://t.co/NSTj7ijxE0",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2083572219113021451",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Hermes is the most popular AI app on OpenRouter and I use it daily as my personal AI chief of staff.\n\nBut it all started with Karan and Teknium hanging out in a small Discord server.\n\nTomorrow, I’m sharing my interview with Hermes co-founder @karan4d about:\n\n→ How Hermes gets better the more you use it\n→ Advanced tips to get the most out of Hermes\n→ Why open source is essential to the future of AI\n\nKaran was incredibly down to earth and even showed me how he uses Hermes to mod his favorite childhood game, Sonic Adventure 2 😅\n\n📌 Subscribe to get our full interview tomorrow: https://t.co/NSTj7ijxE0"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Grok 4.5 is Pareto #1 when considering speed &amp; cost",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T15:01:21+00:00",
+      "url": "https://x.com/elonmusk/status/2083568773294911788",
+      "digest_excerpt": "Grok 4.5 is Pareto #1 when considering speed &amp; cost",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083568773294911788",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.5 is Pareto #1 when considering speed &amp; cost"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "team humanity",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-08-01T14:29:51+00:00",
+      "url": "https://x.com/sama/status/2083560847889023219",
+      "digest_excerpt": "team humanity",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2083560847889023219",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "team humanity"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "This is the number one question I get asked by my non-AI pilled friends.\n\nMost people haven't unlocked all the amazing t",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-01T14:18:56+00:00",
+      "url": "https://x.com/petergyang/status/2083558099219251609",
+      "digest_excerpt": "This is the number one question I get asked by my non-AI pilled friends.\n\nMost people haven't unlocked all the amazing things that agents can do because they simply don't understand or trust how AI will use their personal info.\n\nThere should be more in-product education and re-assurances to overcome this hurdle.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2083558099219251609",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is the number one question I get asked by my non-AI pilled friends.\n\nMost people haven't unlocked all the amazing things that agents can do because they simply don't understand or trust how AI will use their personal info.\n\nThere should be more in-product education and re-assurances to overcome this hurdle."
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-01T14:13:07+00:00",
+      "url": "https://x.com/thsottiaux/status/2083556636455752050",
+      "digest_excerpt": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2083556636455752050",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs."
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "ten significant advances in mathematics and theoretical computer science.\n\nsolved using an internal version of Astra, ou",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T07:39:02+00:00",
+      "url": "https://x.com/gdb/status/2083457463337287721",
+      "digest_excerpt": "ten significant advances in mathematics and theoretical computer science.\n\nsolved using an internal version of Astra, our next major model, for a total cost of about $2000 at Sol API prices:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083457463337287721",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ten significant advances in mathematics and theoretical computer science.\n\nsolved using an internal version of Astra, our next major model, for a total cost of about $2000 at Sol API prices:"
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal....\n\n... and i think all",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-01T06:27:54+00:00",
+      "url": "https://x.com/swyx/status/2083439562437673053",
+      "digest_excerpt": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal....\n\n... and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on it too early in the g5.6/c5 era\n\nnow you use it when:\n1) you want the right mix of steerability and autonomy\n2) you want open ended \"loop that generates loops\" type end state without deeply specifying path to get there\n\nheres an example of when having a goal on saved my ass in a very long action-reasonining turn",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2083439562437673053",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal....\n\n... and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on it too early in the g5.6/c5 era\n\nnow you use it when:\n1) you want the right mix of steerability and autonomy\n2) you want open ended \"loop that generates loops\" type end state without deeply specifying path to get there\n\nheres an example of when having a goal on saved my ass in a very long action-reasonining turn"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "They are far along the road to extinction",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T06:13:33+00:00",
+      "url": "https://x.com/elonmusk/status/2083435949187367406",
+      "digest_excerpt": "They are far along the road to extinction",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083435949187367406",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "They are far along the road to extinction"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "at openai, many people hook their chatgpt up to slack.\n\npeople really don't like when a coworker's chatgpt contacts them",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T06:10:30+00:00",
+      "url": "https://x.com/gdb/status/2083435180392673714",
+      "digest_excerpt": "at openai, many people hook their chatgpt up to slack.\n\npeople really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.\n\nreinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083435180392673714",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "at openai, many people hook their chatgpt up to slack.\n\npeople really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.\n\nreinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people."
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "https://t.co/soOz5fNxFC",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T06:03:27+00:00",
+      "url": "https://x.com/elonmusk/status/2083433406998663647",
+      "digest_excerpt": "https://t.co/soOz5fNxFC",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083433406998663647",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "https://t.co/soOz5fNxFC"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "💯",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T06:02:35+00:00",
+      "url": "https://x.com/elonmusk/status/2083433190941691982",
+      "digest_excerpt": "💯",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083433190941691982",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "💯"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "Cool",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-01T05:52:38+00:00",
+      "url": "https://x.com/elonmusk/status/2083430685411299374",
+      "digest_excerpt": "Cool",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2083430685411299374",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Cool"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Optimize for curiosity",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-01T05:40:02+00:00",
+      "url": "https://x.com/thsottiaux/status/2083427516996292992",
+      "digest_excerpt": "Optimize for curiosity",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2083427516996292992",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Optimize for curiosity"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "~1500 Elo!\n\nConsistently beats frontier models and Stockfish level 0.\n\nFun seeing an 8b model mogging GPT 5.6 with high ",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-01T05:28:29+00:00",
+      "url": "https://x.com/amasad/status/2083424608993300824",
+      "digest_excerpt": "~1500 Elo!\n\nConsistently beats frontier models and Stockfish level 0.\n\nFun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds.\n\nPlay it: https://t.co/qRg0HNwgC4 https://t.co/w6H0MWOmPx",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2083424608993300824",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "~1500 Elo!\n\nConsistently beats frontier models and Stockfish level 0.\n\nFun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds.\n\nPlay it: https://t.co/qRg0HNwgC4 https://t.co/w6H0MWOmPx"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "openai team making git better for everyone",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T05:26:11+00:00",
+      "url": "https://x.com/gdb/status/2083424030099656806",
+      "digest_excerpt": "openai team making git better for everyone",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083424030099656806",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "openai team making git better for everyone"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "having a great experience with using chatgpt work for extremely thorough research and fact checking",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T05:07:22+00:00",
+      "url": "https://x.com/gdb/status/2083419294378209724",
+      "digest_excerpt": "having a great experience with using chatgpt work for extremely thorough research and fact checking",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083419294378209724",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "having a great experience with using chatgpt work for extremely thorough research and fact checking"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I ",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-01T03:32:37+00:00",
+      "url": "https://x.com/thsottiaux/status/2083395449814229287",
+      "digest_excerpt": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2083395449814229287",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy."
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to bec",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-08-01T03:08:49+00:00",
+      "url": "https://x.com/levie/status/2083389460679373135",
+      "digest_excerpt": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capability- in the AI stack. \n\nThe ability for harnesses to break down work in the most efficient way and route to the right model at the right time is going to be a huge variable for maximizing accuracy and reducing costs.\n\nWe’re actually still incredibly early in this journey. The harness didn’t matter that much when tasks only took hundreds of thousands or millions of tokens. But as we have tasks that take tens of millions and hundreds of millions of tokens, this becomes a major variable. Huge opportunity ahead.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2083389460679373135",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capability- in the AI stack. \n\nThe ability for harnesses to break down work in the most efficient way and route to the right model at the right time is going to be a huge variable for maximizing accuracy and reducing costs.\n\nWe’re actually still incredibly early in this journey. The harness didn’t matter that much when tasks only took hundreds of thousands or millions of tokens. But as we have tasks that take tens of millions and hundreds of millions of tokens, this becomes a major variable. Huge opportunity ahead."
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic!\n\ni stand behind this…has been pretty clear sin",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-01T02:34:06+00:00",
+      "url": "https://x.com/danshipper/status/2083380721607921904",
+      "digest_excerpt": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic!\n\ni stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai \n\nit’s a fascinating comeback story \nhttps://t.co/Aw3PCaoz1p https://t.co/wfOX44bBlt",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2083380721607921904",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic!\n\ni stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai \n\nit’s a fascinating comeback story \nhttps://t.co/Aw3PCaoz1p https://t.co/wfOX44bBlt"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "I don't come often to GMail (OpenAI is a Slack company), but I swear, every time I do open it, there is a new button som",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-01T02:05:31+00:00",
+      "url": "https://x.com/thsottiaux/status/2083373529081291076",
+      "digest_excerpt": "I don't come often to GMail (OpenAI is a Slack company), but I swear, every time I do open it, there is a new button somewhere around the top right corner. https://t.co/ZpasAaoaFl",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2083373529081291076",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I don't come often to GMail (OpenAI is a Slack company), but I swear, every time I do open it, there is a new button somewhere around the top right corner. https://t.co/ZpasAaoaFl"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-08-01T01:51:01+00:00",
+      "url": "https://x.com/steipete/status/2083369880599015713",
+      "digest_excerpt": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2083369880599015713",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it."
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "put ChatGPT to work every day",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-01T01:46:42+00:00",
+      "url": "https://x.com/gdb/status/2083368795507474844",
+      "digest_excerpt": "put ChatGPT to work every day",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2083368795507474844",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "put ChatGPT to work every day"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "this is a very good letter",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-01T00:40:41+00:00",
+      "url": "https://x.com/danshipper/status/2083352181776732326",
+      "digest_excerpt": "this is a very good letter",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2083352181776732326",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "this is a very good letter"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "We share our approach to open-weights releases, how we assessed Inkling, why safety depends on both the model and the ec",
+      "source_name": "Mira Murati",
+      "author": "miramurati",
+      "published": "2026-07-31T23:48:36+00:00",
+      "url": "https://x.com/miramurati/status/2083339072987431011",
+      "digest_excerpt": "We share our approach to open-weights releases, how we assessed Inkling, why safety depends on both the model and the ecosystem it enters, and how testing, staged access, and stronger defenses can create a path toward greater openness.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/miramurati/status/2083339072987431011",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We share our approach to open-weights releases, how we assessed Inkling, why safety depends on both the model and the ecosystem it enters, and how testing, staged access, and stronger defenses can create a path toward greater openness."
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "2 days left. Apply to @spc. https://t.co/76XRyoqwWj",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-07-31T23:14:51+00:00",
+      "url": "https://x.com/adityaag/status/2083330582210380106",
+      "digest_excerpt": "2 days left. Apply to @spc. https://t.co/76XRyoqwWj",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2083330582210380106",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "2 days left. Apply to @spc. https://t.co/76XRyoqwWj"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "will we have to wear radiation shielded underwear now?",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-07-31T23:05:41+00:00",
+      "url": "https://x.com/steipete/status/2083328272444915831",
+      "digest_excerpt": "will we have to wear radiation shielded underwear now?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2083328272444915831",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "will we have to wear radiation shielded underwear now?"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "AI Gateway gives companies the critical infra to make AI a productive investment:\n🆕 Budgets per key/team/project\n◾ Failo",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-07-31T22:32:17+00:00",
+      "url": "https://x.com/rauchg/status/2083319868766699699",
+      "digest_excerpt": "AI Gateway gives companies the critical infra to make AI a productive investment:\n🆕 Budgets per key/team/project\n◾ Failover for maximum uptime\n◾ Model and provider choice\n◾ Realtime observability\n\nIf you're still in a 'token-maxing' fever dream, it's time to wake up 😁",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2083319868766699699",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "AI Gateway gives companies the critical infra to make AI a productive investment:\n🆕 Budgets per key/team/project\n◾ Failover for maximum uptime\n◾ Model and provider choice\n◾ Realtime observability\n\nIf you're still in a 'token-maxing' fever dream, it's time to wake up 😁"
+    }
+  ]
+}
