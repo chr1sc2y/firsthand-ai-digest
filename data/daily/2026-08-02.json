@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T23:14:55.721338+00:00",
+  "source_segments": [
+    "segments/2026-08-02/06.json"
+  ],
+  "counts": {
+    "x": 34,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "The fake alive human fraud is 10 times worse in America &amp; Europe",
+        "summary": "The fake alive human fraud is 10 times worse in America &amp; Europe",
+        "link": "https://x.com/elonmusk/status/2084032763280138546",
+        "author": "elonmusk",
+        "published": "2026-08-02T21:45:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts. \n\nwe should ",
+        "summary": "if ought implies can, and technology reshapes the field of human abilities—then technology reshapes oughts. \n\nwe should expect AI to fundamentally change our moral intuitions at the same time as it changes our abilities",
+        "link": "https://x.com/danshipper/status/2084024211539116466",
+        "author": "danshipper",
+        "published": "2026-08-02T21:11:05+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "me: wtf does this response actually mean?\nfable: https://t.co/RuCJki1HnU",
+        "summary": "me: wtf does this response actually mean?\nfable: https://t.co/RuCJki1HnU",
+        "link": "https://x.com/danshipper/status/2084020645915214074",
+        "author": "danshipper",
+        "published": "2026-08-02T20:56:55+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Woah",
+        "summary": "Woah",
+        "link": "https://x.com/amasad/status/2084017252152856716",
+        "author": "amasad",
+        "published": "2026-08-02T20:43:26+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "one way i'm developing Forge (https://t.co/2x9e0oRjxQ) is to use it to host all my projects going forward. so I often fi",
+        "summary": "one way i'm developing Forge (https://t.co/2x9e0oRjxQ) is to use it to host all my projects going forward. so I often find myself having to bounce back and forth between platform and product.\n\nsharing neat trick - in @openai codex you can @ a thread + queue up the @, so if your project is blocked on a platform feature, you can actually premove your project to proceed once the platform is unblocked.\n\nnow of course.. i wasnt actually strictly necessary in this whole process, so an even better multiagent harness would seamlessly orchestrate work back and forth between platform and project... it's just not a very common usecase unless you're building a real platform (which most people dont - most people just build applications on top of platforms, or a small platform with only 1 proudct/application tenant)",
+        "link": "https://x.com/swyx/status/2083993378258288976",
+        "author": "swyx",
+        "published": "2026-08-02T19:08:34+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "just boarded plane to SF. before wheels up i set GPT-5.6 off on an interesting challenge:\n\nGiven Erdos’s planar unit dis",
+        "summary": "just boarded plane to SF. before wheels up i set GPT-5.6 off on an interesting challenge:\n\nGiven Erdos’s planar unit distance conjecture, and a hint to examine solutions involving algebraic number theory can it arrive at the same proof as Astra did?\n\nMy broader theory: weaker models can often reproduce frontier-model discoveries if they’re given the right conceptual hints. A stronger model’s advantage is that it can start farther from the answer: it has a larger basin of attraction around the correct solution.\n\nThis could generalize pretty well into a benchmark as more and more new discoveries happen that are not in the training data",
+        "link": "https://x.com/danshipper/status/2083992847091372362",
+        "author": "danshipper",
+        "published": "2026-08-02T19:06:28+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Accurate 😂 https://t.co/24UdrFlT5F",
+        "summary": "Accurate 😂 https://t.co/24UdrFlT5F",
+        "link": "https://x.com/elonmusk/status/2083979613156340154",
+        "author": "elonmusk",
+        "published": "2026-08-02T18:13:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "That's a fairly new kind of spam. https://t.co/nwdRM5e7Hv https://t.co/7hXqYZnanw",
+        "summary": "That's a fairly new kind of spam. https://t.co/nwdRM5e7Hv https://t.co/7hXqYZnanw",
+        "link": "https://x.com/steipete/status/2083976289485230449",
+        "author": "steipete",
+        "published": "2026-08-02T18:00:40+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "AI alone is cool. But mastery + creativity + AI hits on a whole different level. Don't let anyone discourage you from pu",
+        "summary": "AI alone is cool. But mastery + creativity + AI hits on a whole different level. Don't let anyone discourage you from pursuing excellence and craft. Keep studying the blade.",
+        "link": "https://x.com/rauchg/status/2083969120270450911",
+        "author": "rauchg",
+        "published": "2026-08-02T17:32:11+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "One of the biggest benefits of Hermes is that it builds its own skills to help you get work done.\n\nBut I had to ask @kar",
+        "summary": "One of the biggest benefits of Hermes is that it builds its own skills to help you get work done.\n\nBut I had to ask @karan4d, @NousResearch co-founder: \"How does Hermes avoid slop while doing this?\"\n\nHere's his response:\n\n\"Hermes Curator [a background task] runs inside your agent and cleans up your skills and memory on a schedule, asking: Where's the slop, and where can I make it more efficient?\n\nAnd because it's open source, you can hand it your own definition of slop and it rewrites its own cleanup loop your way.\"\n\n📌 Watch the full episode here: https://t.co/3E7IC0TzNr",
+        "link": "https://x.com/petergyang/status/2083968605432267139",
+        "author": "petergyang",
+        "published": "2026-08-02T17:30:08+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to au",
+        "summary": "We’re going to be in for a strange dynamic which is that some of the “hardest” work in the world is actually prone to automation first, particularly due to its verifiability. \n\nMath, cyber, and code -while being insanely hard and high value fields- have the benefit of being able to be tested that it’s correct objectively. This has two immediate benefits: the training of the models offers clearer reward signals, and then the running of the models allows you to know that it’s working properly because you can test the results in a scalable way.\n\nConversely, in other domains of work, there’s much less instant verifiability. Which legal clauses your client will agree to, what marketing campaign to run with based on changing sentiment, which message your sales prospect will want to hear, what financial targets and budget to set for a business, and so on. \n\nAll of these domains have changing internal and external factors, they don’t have “one right answer”, they rely on the opinions and risk levels of the operators, they’re highly sensitive to getting the right input context first, and in many cases the right answer can’t even be known for quite some time after the model generates the results.\n\nThe implications of this distinction are that -even as model capability continues to increase exponentially- there will be a lot done at the applied AI layer than just the the model itself, and much of the processes themselves will even need to change over time to get the full gains from automation. We may even need all new capabilities to be able to “test” knowledge work over time as we have had with software.",
+        "link": "https://x.com/levie/status/2083965372747882741",
+        "author": "levie",
+        "published": "2026-08-02T17:17:17+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Personality matters! A smart friend that's annoying to talk to is no good. https://t.co/QMkhu1mSxl",
+        "summary": "Personality matters! A smart friend that's annoying to talk to is no good. https://t.co/QMkhu1mSxl",
+        "link": "https://x.com/petergyang/status/2083947480136421384",
+        "author": "petergyang",
+        "published": "2026-08-02T16:06:11+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "my early mentors were these apps, especially Rdio, Mailbox, and Apple\n\nthey made new patterns that made software feel si",
+        "summary": "my early mentors were these apps, especially Rdio, Mailbox, and Apple\n\nthey made new patterns that made software feel simpler and intuitive to touch\n\nas we leave the world of apps behind, what parts of software will remain visible, and how could it feel?",
+        "link": "https://x.com/ryolu_/status/2083939454017053179",
+        "author": "ryolu_",
+        "published": "2026-08-02T15:34:18+00:00",
+        "source_name": "Ryo Lu",
+        "source_role": "Head of Design, Cursor",
+        "source_handle": "ryolu_"
+      },
+      {
+        "kind": "x",
+        "title": "chatgpt for building interactive educational tools",
+        "summary": "chatgpt for building interactive educational tools",
+        "link": "https://x.com/gdb/status/2083934330146197989",
+        "author": "gdb",
+        "published": "2026-08-02T15:13:56+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots. \n\n1253 Elo: https://t.co/",
+        "summary": "My LLM chess engine is now on LiChess autonomously playing real games against people and bots. \n\n1253 Elo: https://t.co/W3qp1Z1i7I",
+        "link": "https://x.com/amasad/status/2083926395403821427",
+        "author": "amasad",
+        "published": "2026-08-02T14:42:24+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "“We believe in intelligence as a public good before everything else.”\n\nHere’s my new episode with @karan4d, who co-found",
+        "summary": "“We believe in intelligence as a public good before everything else.”\n\nHere’s my new episode with @karan4d, who co-founded @NousResearch and helped build Hermes, the #1 personal agent and AI app on OpenRouter.\n\nKaran is the most down-to-earth AI founder I've interviewed. We had a great chat about:\n\n→ Why open-source AI must win\n→ How Hermes improves itself without slop\n→ How to mod your favorite games with AI\n\nSome quotes from Karan:\n\n“We need to keep giving this level of intelligence to everyone so that we're all on an even and equal playing field.”\n\n“Anytime [the model] says ‘you’re absolutely right,’ you’re being reward hacked. You are fuel for its reward function.”\n\n“Memory, skills, and the self-improvement loop are where context is stored. That’s where the actual personality you want lives. You can put that on any model.”\n\n📌 Watch now: https://t.co/3E7IC0TzNr\n\nThanks to our sponsors:\n\n@RiversidedotFM: All-in-one AI studio for podcasts and video https://t.co/uWnS6aiMPE\n\n@linear: The AI agent platform for modern teams https://t.co/tgWf9oL4bs",
+        "link": "https://x.com/petergyang/status/2083917722765947284",
+        "author": "petergyang",
+        "published": "2026-08-02T14:07:57+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "To address the limits of deep learning and avoid stalling, the field of AI started by applying patch (1), which started ",
+        "summary": "To address the limits of deep learning and avoid stalling, the field of AI started by applying patch (1), which started being demoed 9 months later in December 2024 and has now become completely ubiquitous. However, long term, it is simply inevitable that AI will move to patch (2).",
+        "link": "https://x.com/fchollet/status/2083863030589231160",
+        "author": "fchollet",
+        "published": "2026-08-02T10:30:37+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "Grok can analyze any video \nhttps://t.co/rpWSsv5C6t",
+        "summary": "Grok can analyze any video \nhttps://t.co/rpWSsv5C6t",
+        "link": "https://x.com/elonmusk/status/2083800942927839307",
+        "author": "elonmusk",
+        "published": "2026-08-02T06:23:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2083800687561908662",
+        "author": "elonmusk",
+        "published": "2026-08-02T06:22:53+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "chatgpt for empowering your dad to build:",
+        "summary": "chatgpt for empowering your dad to build:",
+        "link": "https://x.com/gdb/status/2083773552793465087",
+        "author": "gdb",
+        "published": "2026-08-02T04:35:04+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "After accepting for years that GMail is blinding me I finally asked my agent and it installed https://t.co/H432dtknkf fo",
+        "summary": "After accepting for years that GMail is blinding me I finally asked my agent and it installed https://t.co/H432dtknkf for me.",
+        "link": "https://x.com/steipete/status/2083759812970786997",
+        "author": "steipete",
+        "published": "2026-08-02T03:40:28+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "I'm feeling spicy tonight so let me just say it:\n\nI think Opus 4.6 was the Opus model with the best personality and writ",
+        "summary": "I'm feeling spicy tonight so let me just say it:\n\nI think Opus 4.6 was the Opus model with the best personality and writing style.\n\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too judgemental. \n\nOpus used to be a joy to talk to like a trusted friend. Not so much anymore.",
+        "link": "https://x.com/petergyang/status/2083755374994415904",
+        "author": "petergyang",
+        "published": "2026-08-02T03:22:50+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "one of my curses as organizer is i rarely get to attend the conference i run. so i basically 24/7 watch back talks with ",
+        "summary": "one of my curses as organizer is i rarely get to attend the conference i run. so i basically 24/7 watch back talks with everyone else after the show\n\nthis one was VERY well paced and argued: fighting slop with slop — @vaibcode, Boundary https://t.co/vRckyyntm6 \n\n@btaylor asked for an ai native programming language on our pod. as a PL fan I’m really glad someone is rethinking how code runs from first principles. Being slop-tolerant is 100x more valuable than being anti- slop",
+        "link": "https://x.com/swyx/status/2083753582160191988",
+        "author": "swyx",
+        "published": "2026-08-02T03:15:42+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "AI creates more work for human experts \n\nhttps://t.co/j3r4aTuQoi",
+        "summary": "AI creates more work for human experts \n\nhttps://t.co/j3r4aTuQoi",
+        "link": "https://x.com/danshipper/status/2083750803437724016",
+        "author": "danshipper",
+        "published": "2026-08-02T03:04:40+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "ask chatgpt work to do any recurring task",
+        "summary": "ask chatgpt work to do any recurring task",
+        "link": "https://x.com/gdb/status/2083750556062093745",
+        "author": "gdb",
+        "published": "2026-08-02T03:03:41+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one id",
+        "summary": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+        "link": "https://x.com/karpathy/status/2083749667410727319",
+        "author": "karpathy",
+        "published": "2026-08-02T03:00:09+00:00",
+        "source_name": "Andrej Karpathy",
+        "source_role": "Eureka Labs / ex-OpenAI, Tesla",
+        "source_handle": "karpathy"
+      },
+      {
+        "kind": "x",
+        "title": "Cool!",
+        "summary": "Cool!",
+        "link": "https://x.com/amasad/status/2083730074147389898",
+        "author": "amasad",
+        "published": "2026-08-02T01:42:18+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "chatgpt work is such a good thought amplifier",
+        "summary": "chatgpt work is such a good thought amplifier",
+        "link": "https://x.com/gdb/status/2083730016400195845",
+        "author": "gdb",
+        "published": "2026-08-02T01:42:04+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "this tweet under review as further details emerge",
+        "summary": "this tweet under review as further details emerge",
+        "link": "https://x.com/danshipper/status/2083727039048118304",
+        "author": "danshipper",
+        "published": "2026-08-02T01:30:14+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Do not be unkind to those who say deep learning is hitting a wall. We all need a little hope in our lives.",
+        "summary": "Do not be unkind to those who say deep learning is hitting a wall. We all need a little hope in our lives.",
+        "link": "https://x.com/AmandaAskell/status/2083713770065637511",
+        "author": "AmandaAskell",
+        "published": "2026-08-02T00:37:30+00:00",
+        "source_name": "Amanda Askell",
+        "source_role": "Philosopher, Anthropic",
+        "source_handle": "AmandaAskell"
+      },
+      {
+        "kind": "x",
+        "title": "Do you type or talk (STT) to your computer?",
+        "summary": "Do you type or talk (STT) to your computer?",
+        "link": "https://x.com/rauchg/status/2083709589862936786",
+        "author": "rauchg",
+        "published": "2026-08-02T00:20:54+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
+        "summary": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
+        "link": "https://x.com/thsottiaux/status/2083699879650463756",
+        "author": "thsottiaux",
+        "published": "2026-08-01T23:42:19+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalki",
+        "summary": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command 🙃",
+        "link": "https://x.com/steipete/status/2083694161933594703",
+        "author": "steipete",
+        "published": "2026-08-01T23:19:36+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs.\n\nModel-agnostic, self-hostable or serverlessly-dep",
+        "summary": "Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs.\n\nModel-agnostic, self-hostable or serverlessly-deployed, multi-channel, and headless. \n\nThis is the way.",
+        "link": "https://x.com/rauchg/status/2083684679362965605",
+        "author": "rauchg",
+        "published": "2026-08-01T22:41:55+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Open letters about AI development",
+        "summary": "<h4>Open letters about AI development</h4>\n<p><em>I wrote this summary of the past few weeks of open letters as a section of <a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/\">my sponsors-only newsletter</a> but I've decided to share it here as well.</em></p>\n<p><strong><a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Open Weights and American AI Leadership</a></strong> was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's <a href=\"https://twitter.com/jensenhuang/status/2080643682408321103\">first ever tweet</a>), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI.</p>\n<p>It's clearly an argument designed to counter <a href=\"https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\">any instincts</a> by the current US government to ban or limit open weight models over \"safety\" concerns - a reasonable consideration given <a href=\"https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/\">what happened to Claude Fable 5</a>!</p>\n<blockquote>\n<p>Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time.</p>\n</blockquote>\n<p>The one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models:</p>\n<blockquote>\n<p>In shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model’s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement.</p>\n</blockquote>\n<p>Notably absent from the signatures: Anthropic, who published their own response <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Our position on open-weights models</a> three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building \"AI models that are more powerful than those built by the US\", and models being \"misused to carry out cyberattacks or biological attacks\", and called for \"a crack down on industrial-scale <a href=\"https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks\">distillation operations</a>\", while also stating that \"Anthropic has never advocated for a ban on open-weights models\".</p>\n<p>Then on July 28th <a href=\"https://www.pacingthefrontier.com\">Pacing the Frontier</a> was published, featuring signatures from \"1,324 employees of frontier AI companies\" - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message:</p>\n<blockquote>\n<p>We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.</p>\n</blockquote>\n<p>Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic <a href=\"https://www.anthropic.com/institute/recursive-self-improvement\">produce 80% of their code with Claude Code</a>, OpenAI had Sol <a href=\"https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/\">reduce their end-to-end serving costs by 20%</a>, and Kimi K3 <a href=\"https://www.kimi.com/blog/kimi-k3#chip-design\">designed a chip to serve a nano model built on its own architecture</a>, you can see why people are taking that risk more seriously right now.</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/2/open-letters/",
+        "author": "",
+        "keywords": "anthropic generative-ai openai ai llms ai-ethics",
+        "published": "2026-08-02T04:16:52+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "July 2026 newsletter",
+        "summary": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-07-july.md\">access it here</a>.</p>\n<p>This month:</p>\n<ul>\n<li>Accidental cyberattacks by OpenAl and Anthropic models under test</li>\n<li>GPT-5.6 Sol, Terra, and Luna</li>\n<li>Claude Opus 5</li>\n<li>Kimi K3 and DeepSeek-V4-Flash-0731</li>\n<li>Open letters about Al development</li>\n<li>A fireside chat and a podcast</li>\n<li>Reigniting my interest in MCP</li>\n<li>Other model releases</li>\n<li>My projects</li>\n<li>What I'm using at the moment</li>\n</ul>\n<p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-06-june.md\">a copy of the June newsletter</a> as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/newsletter\">newsletter</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/",
+        "author": "",
+        "keywords": "newsletter",
+        "published": "2026-08-02T04:12:41+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-08-02",
+        "summary": "AI 早报 2026 08 02 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 OpenAI 宣布内部版 Astra 模型解决十项数学开放问题 ↗ 1 Tibo 称已重置 Codex 和 ChatGPT Work 使用限制 ↗ 2 DeepSeek Harness 面向 Agent Harness 开源项目开发者招募内测 ↗ 3 模型发布 SpaceXAI 为 Grok Imagine 新增文生视频、引用功能与原生 1080p ↗ 4 开发生态 OpenAI 团队向 Git 上游提交多项性能与正确性补丁 ↗ 5 前瞻与传闻 报道称OpenAI与Anthropic正游说要求竞争对手接受相同审查 ↗ 6 要闻 OpenAI 宣布内部版 Astra 模型解决十项数学开放问题 1 OpenAI发文，公布了被其称…",
+        "link": "https://daily.juya.uk/issues/2026-08-02/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-02T01:25:34+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Quoting Greg Brockman",
+        "summary": "<blockquote cite=\"https://twitter.com/gdb/status/2083435180392673714\"><p>at openai, many people hook their chatgpt up to slack.</p>\n<p>people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.</p>\n<p>reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://twitter.com/gdb/status/2083435180392673714\">Greg Brockman</a>, President and Co-Founder, OpenAI</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/",
+        "author": "",
+        "keywords": "ai-ethics ai-misuse generative-ai openai ai llms",
+        "published": "2026-08-01T22:29:44+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 The paper is available here:\nhttps://jiashunwang.github.io/HIL/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=8B05cy3UuSE",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-08-02T15:01:10+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  }
+}
