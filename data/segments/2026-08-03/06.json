@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-03T23:28:44.110079+00:00",
+  "counts": {
+    "x": 15,
+    "blogs": 6,
+    "podcasts": 1,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "GPT-Live can listen while it speaks.\n\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client",
+        "summary": "GPT-Live can listen while it speaks.\n\nTo make that feel natural at ChatGPT scale, we rebuilt the voice stack from client to model.\n\nThis new architecture keeps audio flowing continuously, so deeper reasoning and tool use don't interrupt the conversation. https://t.co/53VTTsqXg0",
+        "link": "https://x.com/OpenAI/status/2084378415818579975",
+        "author": "OpenAI",
+        "published": "2026-08-03T20:38:34+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "💯",
+        "summary": "💯",
+        "link": "https://x.com/elonmusk/status/2084377571429433431",
+        "author": "elonmusk",
+        "published": "2026-08-03T20:35:13+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Wow",
+        "summary": "Wow",
+        "link": "https://x.com/elonmusk/status/2084377228717010984",
+        "author": "elonmusk",
+        "published": "2026-08-03T20:33:51+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and th",
+        "summary": "An internal version of our next major model produced 10 new results on long-standing open problems in mathematics and theoretical computer science, using roughly $2,000 worth of tokens at GPT-5.6 Sol API rates. https://t.co/4cgowmPOpY",
+        "link": "https://x.com/OpenAI/status/2084352161404920316",
+        "author": "OpenAI",
+        "published": "2026-08-03T18:54:15+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "“For us, we just want open source to win at the end of the day. We want freedom to happen for people.”\n\nYou can hear the",
+        "summary": "“For us, we just want open source to win at the end of the day. We want freedom to happen for people.”\n\nYou can hear the passion for open source in this clip from my interview with @karan4d, @NousResearch co-founder:\n\n“We need to give this level of intelligence to everyone so they can be on an even and equal playing field.”\n\nKaran's vision for Hermes is to give everyone access to intelligent AI, then let each person shape it into an agent that’s uniquely theirs.\n\n📌 Watch the full episode here: https://t.co/3E7IC0TzNr",
+        "link": "https://x.com/petergyang/status/2084330985689428290",
+        "author": "petergyang",
+        "published": "2026-08-03T17:30:06+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "This is exactly right. Source code is on the verge of becoming like assembly. \n\nThe next step is getting rid of “source ",
+        "summary": "This is exactly right. Source code is on the verge of becoming like assembly. \n\nThe next step is getting rid of “source code” entirely and just making an efficient binary directly with AI.",
+        "link": "https://x.com/elonmusk/status/2084304083851034949",
+        "author": "elonmusk",
+        "published": "2026-08-03T15:43:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Slavery was ended primarily by Britain",
+        "summary": "Slavery was ended primarily by Britain",
+        "link": "https://x.com/elonmusk/status/2084303392935936255",
+        "author": "elonmusk",
+        "published": "2026-08-03T15:40:28+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Nice work",
+        "summary": "Nice work",
+        "link": "https://x.com/elonmusk/status/2084299948531531869",
+        "author": "elonmusk",
+        "published": "2026-08-03T15:26:46+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the most out of Hermes Agent:\n\n1. The “person",
+        "summary": "My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the most out of Hermes Agent:\n\n1. The “personal” in personal agent is not the model\n\nIt’s the agent’s memory of your conversations and the skills you’ve built with it. Karan barely notices when he swaps models because his Hermes already has so much context about him.\n\n2. Try different Hermes personalities\n\nUse /personality to switch response styles. Try “teacher” when learning something new, “concise” when you want crisp answers, and even “kawaii” or “pirate” for fun.\n\n3. Use separate agents to do the work and evaluate it\n\nKaran calls “you’re absolutely right” reward hacking because the model is optimizing for your approval. Have one agent do the work and a fresh agent with no previous context evaluate it independently for errors, weak assumptions, and missing evidence.\n\n4. A self-improving agent needs to clean up after itself\n\nHermes Curator tracks skill usage, marks inactive skills as stale, and moves long-unused ones into a recoverable archive. This prevents agent-created skills from piling up forever.\n\n5. Intelligence should be a public good\n\nKaran believes people should be able to run Hermes locally or use it with whichever model works best. He worries about a future where only a handful of companies dominate AI and open source gets squeezed out.\n\n6. Go weird and make your childhood dreams come true\n\nKaran uses Hermes to mod Chao Garden, the virtual-pet mode inside Sonic Adventure 2. He asked it to bring a location from Sonic Adventure 1 into the sequel and add features that he’s always wanted since childhood.\n\n📌 Watch the full episode here: https://t.co/3E7IC0TzNr",
+        "link": "https://x.com/petergyang/status/2084289426012897433",
+        "author": "petergyang",
+        "published": "2026-08-03T14:44:58+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Oh, the irony is too much … https://t.co/k0NgRxMoLT",
+        "summary": "Oh, the irony is too much … https://t.co/k0NgRxMoLT",
+        "link": "https://x.com/elonmusk/status/2084277243585384481",
+        "author": "elonmusk",
+        "published": "2026-08-03T13:56:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "As I was saying …",
+        "summary": "As I was saying …",
+        "link": "https://x.com/elonmusk/status/2084276821722272149",
+        "author": "elonmusk",
+        "published": "2026-08-03T13:54:52+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was ",
+        "summary": "Worth noting that any USAID funding that appeared to have the slightest merit whatsoever for helping people in need was moved to the State Department. \n\nOnly the funding where they provided no evidence at all for who would receive the money was stopped.\n\nhttps://t.co/qGUew8TyKD",
+        "link": "https://x.com/elonmusk/status/2084274899065897011",
+        "author": "elonmusk",
+        "published": "2026-08-03T13:47:14+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Ju",
+        "summary": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.",
+        "link": "https://x.com/thsottiaux/status/2084196918071357707",
+        "author": "thsottiaux",
+        "published": "2026-08-03T08:37:22+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "lol what are we even doing here anymore guys https://t.co/fqu3W2tMm4",
+        "summary": "lol what are we even doing here anymore guys https://t.co/fqu3W2tMm4",
+        "link": "https://x.com/swyx/status/2084185368950456421",
+        "author": "swyx",
+        "published": "2026-08-03T07:51:28+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Went to a community center in Canada and it has a full swimming pool, jacuzzi, sauna, and even lazy river.\n\nIn the most ",
+        "summary": "Went to a community center in Canada and it has a full swimming pool, jacuzzi, sauna, and even lazy river.\n\nIn the most expensive Bay Area neighborhoods, the community center is just a fancy building with empty rooms that you can rent.",
+        "link": "https://x.com/petergyang/status/2084065527081980285",
+        "author": "petergyang",
+        "published": "2026-08-02T23:55:16+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Quoting David Crawshaw's prompt",
+        "summary": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/",
+        "author": "",
+        "keywords": "prompt-engineering coding-agents generative-ai ai llms open-source",
+        "published": "2026-08-03T16:15:27+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Devtools must be open source (exe.dev)",
+        "summary": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p>\n<p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on <em>other people</em> to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p>\n<p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.</p>\n<p>Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\".</p>\n<p>Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on.</p>\n<p>I'm not habitually <em>modifying</em> the software I use yet, but I can see a path to that which didn't exist a year or so ago.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/hacker-news\">hacker-news</a>, <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/",
+        "author": "",
+        "keywords": "hacker-news open-source ai generative-ai llms ai-assisted-programming",
+        "published": "2026-08-03T15:30:38+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/08/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-2OSHWi.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Self-sustaining and self-replicating AI viruses are here:…Open weight LLMs + a well-designed harness = a persistent, self-sufficient virus…AI researchers have built a prototype computer virus which [&#8230;]",
+        "link": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-08-03T13:31:22+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "How we built a realtime system for responsive voice AI in six months",
+        "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+        "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "author": "",
+        "keywords": "Engineering",
+        "published": "2026-08-03T07:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "2026-08-03",
+        "summary": "AI 早报 2026 08 03 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 MiniMax H3 多模态视频模型预计将于今日发布权重 ↗ 1 行业动态 FFmpeg感谢Cursor AI为多名开发者提供免费额度 ↗ 2 前谷歌团队成员称谷歌在 ChatGPT 前已有类似产品 LMChat ↗ 3 技术与洞察 Andrej Karpathy 称不该再用鹈鹕骑自行车测 LLM ↗ 4 模型发布 Qwen 等联合发布原生 Computer Use agent Qwen CUA ↗ 5 要闻 MiniMax H3 多模态视频模型预计将于今日发布权重 1 MiniMax预计将于今日发布新一代多模态视频模型MiniMax H3的模型权重，截至本期内容发出前，相关页面显示仍处于即将开源状态。 MiniMax即将开…",
+        "link": "https://daily.juya.uk/issues/2026-08-03/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-03T01:18:49+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "condense-json 1.0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p>\n        <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p>\n<p>Here's an example of what it can do, lifted from the README:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string with foxes in it<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another with foxes in it too<span class=\"pl-pds\">\"</span></span>]\n      }\n    }\n  }\n}</pre></div>\n<p>Combine that with a replacements object:</p>\n<div class=\"highlight highlight-source-json\"><pre>{<span class=\"pl-ent\">\"1\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>with foxes in it<span class=\"pl-pds\">\"</span></span>}</pre></div>\n<p>And <code>condense_json(input_json, replacements)</code> produces the following:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"foo\"</span>: {\n    <span class=\"pl-ent\">\"bar\"</span>: {\n      <span class=\"pl-ent\">\"string\"</span>: {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}]},\n      <span class=\"pl-ent\">\"nested\"</span>: {\n        <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is a string<span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$r\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>another <span class=\"pl-pds\">\"</span></span>, {<span class=\"pl-ent\">\"$\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>1<span class=\"pl-pds\">\"</span></span>}, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span> too<span class=\"pl-pds\">\"</span></span>]}]\n      }\n    }\n  }\n}</pre></div>\n<p>It scans for strings or substrings that are present in that replacements object and replaces those with a special <code>{\"$r\": ...}</code> syntax in the output.</p>\n<p>You can reverse the effect with <code>uncondense_json(condensed, replacements)</code>.</p>\n\n<p>The idea is to make it easier to store JSON that includes duplicated data from other related structures. I use it to save space in the SQLite logs generated by <a href=\"https://llm.datasette.io/\">LLM</a> - see <a href=\"https://github.com/simonw/llm/pull/1586\">PR #1586</a> for the latest iteration of that.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/json\">json</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/2/condense-json/",
+        "author": "",
+        "keywords": "json projects python llm",
+        "published": "2026-08-02T22:19:59+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "AI Vibe Check: Chinese Open Models, Distillation & The Hugging Face Breach",
+        "summary": "In this installment of their recurring roundtable, Jacob, Ari, and Rob dig into the accelerating Chinese open-source model race, debating whether Kimi K3 has actually closed the gap with the US frontier or just looks like it has, and whether distillation fully explains China's progress. That opens into the messier fight over open-weight models generally, with the group dissecting the backlash against Anthropic's stance and asking whether powerful open models are inherently dangerous or actually a necessary part of collective defense. They connect this directly to the Fable ban episode as a possible preview of a coming frontier-model licensing regime, then turn to the OpenAI and Hugging Face security incident as a landmark, publicly legible moment of autonomous AI causing real-world harm. From there the conversation shifts to business strategy: how much value are companies actually handing over to frontier labs by building on their APIs, and what does the Grok and Cursor data advantage really tell us about the future value of real-world usage data versus purchased training data. They close with a rapid-fire tour of the news cycle, covering SSI's mysterious $5B raise, the rumored Stripe and OpenRouter acquisition, Google's continued underperformance despite structural advantages, and OpenAI's leadership speculation, plus a reflection on venture's swing back toward deep tech and physical infrastructure.",
+        "link": "https://unsupervised-learning.simplecast.com/episodes/ai-vibe-check-chinese-open-models-distillation-the-hugging-face-breach-GcKLYFVG",
+        "author": "Jacob Effron, Ari Morcos, Rob Toews",
+        "keywords": "",
+        "published": "2026-08-03T12:55:21+00:00",
+        "kind": "podcast",
+        "source_name": "Unsupervised Learning",
+        "source_role": "Featuring Google Labs",
+        "source_handle": "Unsupervised Learning"
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Most Important Theory Ever Was Built on Almost No Data",
+        "summary": "Full episode: https://www.youtube.com/watch?v=QbdbAhaJoCQ\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=ErrVeBde1Wk",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-08-03T16:23:43+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Another DeepSeek Moment Has Arrived",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 DeepSeek v4 Flash 0731:\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\n\nDeepSeek API: https://platform.deepseek.com/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=bm1BjOjS7sQ",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-08-03T09:47:34+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-08-02T22:00:00+00:00",
+    "end": "2026-08-03T22:00:00+00:00"
+  }
+}
