@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-05T23:25:50.929070+00:00",
+  "counts": {
+    "x": 39,
+    "blogs": 4,
+    "podcasts": 1,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "full house for the team’s talk at Black Hat on the OpenAI-Hugging Face Incident https://t.co/vf52ssLZZc",
+        "summary": "full house for the team’s talk at Black Hat on the OpenAI-Hugging Face Incident https://t.co/vf52ssLZZc",
+        "link": "https://x.com/gdb/status/2085095110921097243",
+        "author": "gdb",
+        "published": "2026-08-05T20:06:28+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Infinite agent compute\n10,000 concurrent + 5,000 CPU cores per minute\nand these quotas are raisable",
+        "summary": "Infinite agent compute\n10,000 concurrent + 5,000 CPU cores per minute\nand these quotas are raisable",
+        "link": "https://x.com/rauchg/status/2085077900190208080",
+        "author": "rauchg",
+        "published": "2026-08-05T18:58:04+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I’ll totally use this in my next presentation.",
+        "summary": "I’ll totally use this in my next presentation.",
+        "link": "https://x.com/steipete/status/2085074976290505090",
+        "author": "steipete",
+        "published": "2026-08-05T18:46:27+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2085074791648948401",
+        "author": "elonmusk",
+        "published": "2026-08-05T18:45:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Critical feedback for the Grok Build harness, Grok foundation model and Imagine is super appreciated",
+        "summary": "Critical feedback for the Grok Build harness, Grok foundation model and Imagine is super appreciated",
+        "link": "https://x.com/elonmusk/status/2085074733532590531",
+        "author": "elonmusk",
+        "published": "2026-08-05T18:45:29+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "if you have been following his excellent work, @shloked has been breaking down every frontier labs' harness engineering ",
+        "summary": "if you have been following his excellent work, @shloked has been breaking down every frontier labs' harness engineering for the last few months.\n\nexcited to publish his deepest dive into ChatGPT yet as our newest guest on @Latentspacepod! https://t.co/MEuW0VzYBA",
+        "link": "https://x.com/swyx/status/2085073764551962960",
+        "author": "swyx",
+        "published": "2026-08-05T18:41:38+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Congratulations @JeffDean, @Sanjay_Ghemawat,\n@OriolVinyalsML and @quocleix! Knowing you guys, this will be amazing. Chee",
+        "summary": "Congratulations @JeffDean, @Sanjay_Ghemawat,\n@OriolVinyalsML and @quocleix! Knowing you guys, this will be amazing. Cheering you on and wishing you well on your important work!",
+        "link": "https://x.com/AndrewYNg/status/2085056542341271840",
+        "author": "AndrewYNg",
+        "published": "2026-08-05T17:33:12+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "How to use my new /human-review skill to edit HTML and Markdown files directly:\n\n1. Tell Codex or Claude Code: “Install ",
+        "summary": "How to use my new /human-review skill to edit HTML and Markdown files directly:\n\n1. Tell Codex or Claude Code: “Install this: https://t.co/VDArIG0lxf”\n\n2. Type “/human-review (your doc name)”\n\n3. It’ll open a visual editor where you can edit and format text directly, resize images, and leave feedback for AI like comments in a Google Doc\n\n4. When you’re done, click “Send to agent” and watch it apply all the updates\n\nUse it to edit PRDs, landing pages, and more.\n\nI know we all like making our agents work for us, but sometimes a “human review” is needed for that final 10% of polish :)\n\n⭐ the skill on GitHub if you like it:  https://t.co/VDArIG0lxf",
+        "link": "https://x.com/petergyang/status/2085055745410945126",
+        "author": "petergyang",
+        "published": "2026-08-05T17:30:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "truly strange choice of headline here https://t.co/pJGNrtPxJz",
+        "summary": "truly strange choice of headline here https://t.co/pJGNrtPxJz",
+        "link": "https://x.com/danshipper/status/2085054338594930925",
+        "author": "danshipper",
+        "published": "2026-08-05T17:24:27+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "even the best founding team with all the money in the world is rate limited by bay area real estate smh https://t.co/6r8",
+        "summary": "even the best founding team with all the money in the world is rate limited by bay area real estate smh https://t.co/6r81RY7o2b",
+        "link": "https://x.com/swyx/status/2085053971090321773",
+        "author": "swyx",
+        "published": "2026-08-05T17:22:59+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Tea leaves: \n\nIn order to be competitive today Google needs to catch up on frontier coding. \n\nDemis believes different f",
+        "summary": "Tea leaves: \n\nIn order to be competitive today Google needs to catch up on frontier coding. \n\nDemis believes different fundamental research directions (like world models) are more important to his long term goal even if they’re less impt competitively today",
+        "link": "https://x.com/danshipper/status/2085048990899315142",
+        "author": "danshipper",
+        "published": "2026-08-05T17:03:12+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Time to spill the (Dream)beans.\n\nDreambeans is expanding! Joining our US-based AI Ultra users, AI Pro subscribers in the",
+        "summary": "Time to spill the (Dream)beans.\n\nDreambeans is expanding! Joining our US-based AI Ultra users, AI Pro subscribers in the US can now also get in on the action.\n\nGet ready for your fresh, daily collection of personalized stories. We’re surfacing the deep dives and hidden gems you actually want to read.\n\nDive in: https://t.co/jCdAzMHvOD",
+        "link": "https://x.com/GoogleLabs/status/2085048743322345545",
+        "author": "GoogleLabs",
+        "published": "2026-08-05T17:02:13+00:00",
+        "source_name": "Google Labs",
+        "source_role": "Google's AI experiments group",
+        "source_handle": "GoogleLabs"
+      },
+      {
+        "kind": "x",
+        "title": "It will and then to the Moon too",
+        "summary": "It will and then to the Moon too",
+        "link": "https://x.com/elonmusk/status/2085045708844134423",
+        "author": "elonmusk",
+        "published": "2026-08-05T16:50:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Exactly",
+        "summary": "Exactly",
+        "link": "https://x.com/elonmusk/status/2085044909351047205",
+        "author": "elonmusk",
+        "published": "2026-08-05T16:46:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "end of an era https://t.co/Jq5ybzVnuW",
+        "summary": "end of an era https://t.co/Jq5ybzVnuW",
+        "link": "https://x.com/danshipper/status/2085042391275205060",
+        "author": "danshipper",
+        "published": "2026-08-05T16:36:58+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Always striking the amount of founder talent I see in such a small space every time I visit SPC.",
+        "summary": "Always striking the amount of founder talent I see in such a small space every time I visit SPC.",
+        "link": "https://x.com/amasad/status/2085041697155932506",
+        "author": "amasad",
+        "published": "2026-08-05T16:34:13+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "I also want to give a huge thanks to the incomparable @JeffDean after an incredible 27-year run at Google. He’s off to s",
+        "summary": "I also want to give a huge thanks to the incomparable @JeffDean after an incredible 27-year run at Google. He’s off to start his own public benefit corporation with @Sanjay_Ghemawat focused on accelerating discoveries across ML, science, & engineering. @Google will support as a founding investor and Cloud partner. On a personal note, it’s been a privilege to work with Jeff and Sanjay, and I wish them all the best. Thank you for everything!",
+        "link": "https://x.com/sundarpichai/status/2085035222391984183",
+        "author": "sundarpichai",
+        "published": "2026-08-05T16:08:29+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "Today we’re announcing SPC Fund IV: $575M to help founders find their life’s work.\n\nA decade of guiding founders through",
+        "summary": "Today we’re announcing SPC Fund IV: $575M to help founders find their life’s work.\n\nA decade of guiding founders through -1 to 0 brings @SPC to $2B in AUM and, more importantly, a 1200 member community of the world’s most talented technologists. We strongly believe that:\n\n→ The person comes before the idea. At -1, generational founders are often busy reading, prototyping, discarding, and earning the right to their own conviction.\n→ Ambition is social. The people you surround yourself with in the early days play a big part in inflecting your ambition.\n→ Patience compounds. It is better to work on something you have deep conviction in rather than simply sprint at the first idea.\n\nThe quiet months we protect at the beginning have produced three funds in the top 10% of their vintages, and companies like @baseten, @GammaApp, @render, @GoodfireAI, @LumaLabsAI, and @tryprofound. We are proud to have worked with all these founders in their -1 phase and beyond.\n\nWhile we defined -1 to 0, we're no longer bound by it. Fund IV allows us to partner with companies well beyond launch.\n\nWe're doing this now because we've never seen a wider gap between what's possible and what's being attempted. Intelligence is abundant. The cost of trying ideas keeps falling, and problems that seemed insurmountable a few years ago are quickly becoming solvable.\n\nTo our members, to the founders who trusted us before anyone else did, and to the LPs who had conviction in our own -1 journey: thank you. This milestone belongs to you as much as to us.\n\nTo the builders looking to find your life’s work: let’s get started.",
+        "link": "https://x.com/adityaag/status/2085034980866998632",
+        "author": "adityaag",
+        "published": "2026-08-05T16:07:32+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "I’ve been working towards AGI my whole life, and as we enter this pivotal moment, I’m stepping into a new role as Chair ",
+        "summary": "I’ve been working towards AGI my whole life, and as we enter this pivotal moment, I’m stepping into a new role as Chair of Google DeepMind & Chief Scientist of Alphabet. This will allow me to focus on long-term strategy, and accelerating scientific breakthroughs, including leaning into my work at Isomorphic to help cure disease.\n\nI’m excited that @koraykv will be stepping up to lead GDM as SVP, alongside @joshwoodward and our exec team. I could not be more excited and confident about our amazing next chapter! 🚀\n\nhttps://t.co/2WtlIIlTUa",
+        "link": "https://x.com/demishassabis/status/2085034334914769203",
+        "author": "demishassabis",
+        "published": "2026-08-05T16:04:58+00:00",
+        "source_name": "Demis Hassabis",
+        "source_role": "CEO, Google DeepMind",
+        "source_handle": "demishassabis"
+      },
+      {
+        "kind": "x",
+        "title": "Just shared some changes we’re making to the teams at @GoogleDeepMind.\n\n@DemisHassabis is stepping up to become Chair of",
+        "summary": "Just shared some changes we’re making to the teams at @GoogleDeepMind.\n\n@DemisHassabis is stepping up to become Chair of @GoogleDeepMind & Chief Scientist of Alphabet, in addition to leading @IsomorphicLabs. He’ll be able to dedicate his time and focus on shaping the future of AGI and scientific discovery. It’s work that is vitally important to Alphabet and humanity, and I can’t imagine a better person than Demis to do it. He’ll stay closely connected to Koray and the GDM teams.\n\n@Koraykv will become the SVP, @GoogleDeepMind, responsible for all aspects of model development, GDM research, and @Geminiapp & dev teams. Koray has been at GDM for 13 years and is a world-renowned expert in the field, starting our deep learning team and driving breakthroughs like WaveNet & DQN. GDM is in great hands!\n\nExcited for this next chapter. You can read my note along with the message Demis sent to @GoogleDeepMind here: https://t.co/mvsvrDUai7",
+        "link": "https://x.com/sundarpichai/status/2085033425736745093",
+        "author": "sundarpichai",
+        "published": "2026-08-05T16:01:21+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "We spent our entire lives, and human history, under the assumption intelligence was a scarce resource. Now, everyone can",
+        "summary": "We spent our entire lives, and human history, under the assumption intelligence was a scarce resource. Now, everyone can summon an inexhaustible IQ machine like it's tap water. And incidentally, the change is so profound our own brains can barely comprehend it.",
+        "link": "https://x.com/rauchg/status/2085021395797614803",
+        "author": "rauchg",
+        "published": "2026-08-05T15:13:33+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Next.js 16.3 is radically more efficient to serve and faster to build. Massive cost reductions on compute and data trans",
+        "summary": "Next.js 16.3 is radically more efficient to serve and faster to build. Massive cost reductions on compute and data transfer at scale. Easy upgrade path.",
+        "link": "https://x.com/rauchg/status/2085019036849770642",
+        "author": "rauchg",
+        "published": "2026-08-05T15:04:10+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Hard times waiting for limit reset 😅 https://t.co/mHC8hxbaAF",
+        "summary": "Hard times waiting for limit reset 😅 https://t.co/mHC8hxbaAF",
+        "link": "https://x.com/petergyang/status/2085017542565998737",
+        "author": "petergyang",
+        "published": "2026-08-05T14:58:14+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "My last open-source skill, /no-ai-slop, clearly hit a nerve with 4K GitHub stars.\n\nToday, I’m introducing /human-review,",
+        "summary": "My last open-source skill, /no-ai-slop, clearly hit a nerve with 4K GitHub stars.\n\nToday, I’m introducing /human-review, another free AI skill I think you’ll love.\n\nLet’s face it - giving feedback to AI in chat is painful. Asking it to “update the 3rd paragraph” or “update image size to X” is annoying when I just want to edit the text myself or give feedback to AI directly on the page.\n\n/human-review opens HTML and Markdown files in a visual editor that lets you:\n\n→ Edit and format text directly\n→ Resize images\n→ Leave comments for AI like a Google Doc\n\nI've been using it to edit PRDs, landing pages, product copy, and much more. The whole review loop runs locally, so your data is safe and nothing is uploaded to the cloud.\n\n📌 Get /human-review for free on GitHub:\nhttps://t.co/VDArIG0lxf\n\nIf you find it useful, please ⭐ the repo so more people can find it.\n\n📌 Read my full post here for more on how I use /human-review:\nhttps://t.co/PAcWYDxugn",
+        "link": "https://x.com/petergyang/status/2085006701984698712",
+        "author": "petergyang",
+        "published": "2026-08-05T14:15:09+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Build",
+        "summary": "Grok Build",
+        "link": "https://x.com/elonmusk/status/2084989366590742585",
+        "author": "elonmusk",
+        "published": "2026-08-05T13:06:16+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I gave codex a video-enabled remote KVM so it can automate e2e test the iMessage-integration on OpenClaw.\n\n(iMessage is ",
+        "summary": "I gave codex a video-enabled remote KVM so it can automate e2e test the iMessage-integration on OpenClaw.\n\n(iMessage is unreliable in VMs, and certain features such as read receipts require SIP to be disabled)",
+        "link": "https://x.com/steipete/status/2084988316324397312",
+        "author": "steipete",
+        "published": "2026-08-05T13:02:06+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
+        "summary": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
+        "link": "https://x.com/thsottiaux/status/2084859308165271658",
+        "author": "thsottiaux",
+        "published": "2026-08-05T04:29:28+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Best way to use Grok is via our Build harness. \n\nDownload at https://t.co/lOJK57xbED",
+        "summary": "Best way to use Grok is via our Build harness. \n\nDownload at https://t.co/lOJK57xbED",
+        "link": "https://x.com/elonmusk/status/2084857373555101726",
+        "author": "elonmusk",
+        "published": "2026-08-05T04:21:47+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I think if you vibe code a SaaS these days it can just be a self-serve funnel into a more expensive services offering vs",
+        "summary": "I think if you vibe code a SaaS these days it can just be a self-serve funnel into a more expensive services offering vs. trying to make alot of money with the SaaS itself.\n\nBut the only thing about services is it feels like consulting and selling \"time for money\" again.",
+        "link": "https://x.com/petergyang/status/2084855632029774167",
+        "author": "petergyang",
+        "published": "2026-08-05T04:14:52+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Bring any idea to life with Imagine",
+        "summary": "Bring any idea to life with Imagine",
+        "link": "https://x.com/elonmusk/status/2084854619675754599",
+        "author": "elonmusk",
+        "published": "2026-08-05T04:10:50+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Beautiful art from Imagine",
+        "summary": "Beautiful art from Imagine",
+        "link": "https://x.com/elonmusk/status/2084853838381711435",
+        "author": "elonmusk",
+        "published": "2026-08-05T04:07:44+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "My favorite piece of merch other than the (not a) flamethrower",
+        "summary": "My favorite piece of merch other than the (not a) flamethrower",
+        "link": "https://x.com/elonmusk/status/2084853510756282452",
+        "author": "elonmusk",
+        "published": "2026-08-05T04:06:26+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Hearing that GPT 5.6 Luna High is much cheaper and basically unlimited usage and I'm running low on Sol :P \n\nCan it do c",
+        "summary": "Hearing that GPT 5.6 Luna High is much cheaper and basically unlimited usage and I'm running low on Sol :P \n\nCan it do complex browser automation tasks? That's 50% of my Codex usage. https://t.co/v6nEn0z9Rc",
+        "link": "https://x.com/petergyang/status/2084849701351035182",
+        "author": "petergyang",
+        "published": "2026-08-05T03:51:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Easier to make more money from @X payouts than from a micro SaaS these days",
+        "summary": "Easier to make more money from @X payouts than from a micro SaaS these days",
+        "link": "https://x.com/petergyang/status/2084846191456751725",
+        "author": "petergyang",
+        "published": "2026-08-05T03:37:21+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "One might say, the investigation was Bari’d.",
+        "summary": "One might say, the investigation was Bari’d.",
+        "link": "https://x.com/amasad/status/2084843512496034002",
+        "author": "amasad",
+        "published": "2026-08-05T03:26:42+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "One fun benefit of spending so much time with enterprises is you get to see the array of AI implementation strategies th",
+        "summary": "One fun benefit of spending so much time with enterprises is you get to see the array of AI implementation strategies that exist in companies right now. \n\nUnlike the early innings of cloud where there were really only a couple deployment patterns available -including being limited by only a couple infra vendors existing- AI actually has a much wider range of approaches in the enterprise.\n\nIf you ask 10 IT leaders what their coding agent strategy looks like, you get at least 5 different answers. If you ask about their end-user productivity agents, some have standardized on ChatGPT or Claude, others offer a choice of multiple solutions, and many have built their own orchestration layers for employees to use any model. \n\nFor models, we know the big ones, but increasingly enterprises are experimenting with OSS models, or are at least immensely curious about OSS and would jump at the right offering that felt safe. And increasingly there’s a set of vertical models and agents that equally show up in enterprises for a range of tailored use-cases.\n\nFor accessing data, some enterprises just have agents take on the role of the user, and others are setting up agent users that have their own identities. Some companies are setting up substantial guardrails on what agents can do, and others are putting responsibility on the user.\n\nGiven this heterogeneity this early on at the start, it means we’re in for years of landscape changes. Anyone who’s predicting ultimate market outcomes already probably will be wrong as nothing has formally settled in yet. Lots of opportunity ahead.",
+        "link": "https://x.com/levie/status/2084828773808239080",
+        "author": "levie",
+        "published": "2026-08-05T02:28:08+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel is the Vercel for backends.\n\n@FactoryAI powers their API services with Fluid compute, with billions of requests p",
+        "summary": "Vercel is the Vercel for backends.\n\n@FactoryAI powers their API services with Fluid compute, with billions of requests per month.",
+        "link": "https://x.com/rauchg/status/2084804138169446449",
+        "author": "rauchg",
+        "published": "2026-08-05T00:50:14+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "1 line of code in @aisdk saves you 90% or more in DeepSeek v4 Flash AI Gateway tokens",
+        "summary": "1 line of code in @aisdk saves you 90% or more in DeepSeek v4 Flash AI Gateway tokens",
+        "link": "https://x.com/rauchg/status/2084779435866398801",
+        "author": "rauchg",
+        "published": "2026-08-04T23:12:05+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Luna’s price-performance is incredible",
+        "summary": "Luna’s price-performance is incredible",
+        "link": "https://x.com/gdb/status/2084770040281211043",
+        "author": "gdb",
+        "published": "2026-08-04T22:34:45+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+        "summary": "<p>Back in 2024 <a href=\"https://twitter.com/simonw/status/1555626060384911360\">I tweeted</a> screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in <a href=\"https://code.claude.com/docs/en/claude-code-on-the-web\">Claude Code for web</a>) could build the entire game from the content of that tweet. It did a pretty good job of it!</p>\n<p>You can <a href=\"https://simonw.github.io/raccoon-heist/\">play the game here</a>. Here's <a href=\"https://github.com/simonw/raccoon-heist/\">the GitHub repo</a>, and a short video demo:</p>\n\n<p><video controls=\"controls\" height=\"720\" poster=\"https://static.simonwillison.net/static/2026/raccoon-heist-poster.jpg\" preload=\"none\" style=\"display: block; width: 100%; height: auto;\" width=\"1280\">\n    <source src=\"https://static.simonwillison.net/static/2026/raccoon-heist-720p.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n\n\n<h4 id=\"how-i-built-this\">How I built this</h4>\n<p>This is <a href=\"https://twitter.com/simonw/status/1555626060384911360\">the August 5th, 2022 tweet</a>:</p>\n<p><img alt=\"Simon Willison @simonw - New hobby: prototyping video games in 60 seconds using a combination of GPT-3 and DALL-E Here's &quot;Raccoon Heist&quot;. Two images - the first is a screenshot of the GPT-3 playground, prompt below. On the right is a very clearly DALL-E generated image of an almost-isometric 3D computer game, with two raccoons sneaking down a street past a futuristic looking building, looking like they want to steal something.\" src=\"https://static.simonwillison.net/static/2026/raccoon-heist-tweet.webp\" /></p>\n<p>My GPT-3 prompt back then was:</p>\n<blockquote>\n<p><code>Write a detailed product description of a computer game where a team of raccoons go on heists.</code></p>\n</blockquote>\n<p>This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed:</p>\n<blockquote>\n<p>In \"Raccoon Heist\", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid the police and make a clean getaway with the loot. With exciting gameplay and a charming cast of characters, \"Raccoon Heist\" is the perfect game for anyone looking for a light-hearted caper.</p>\n</blockquote>\n<p>My prompt to DALL-E was short:</p>\n<blockquote>\n<p><code>Screenshot from a video game where a team of raccoons go on a heist</code></p>\n</blockquote>\n<p>Today's experiment: can I dump those screenshots into Fable 5 with a prompt telling it to write a game, then leave it to its own devices and get a working game at the end?</p>\n<h4 id=\"setting-claude-code-for-web-up-to-use-github-pages\">Setting Claude Code for web up to use GitHub Pages</h4>\n<p>A frustrating thing about Claude Code for web is that it can be hard to test what it's working on while it's still working.</p>\n<p>I've been using GitHub Pages to work around that limitation, and found it to work really well.</p>\n<p>Here's my process:</p>\n<ol>\n<li>Create a new repository for the project at <a href=\"https://github.com/new\">https://github.com/new</a> - this can be public or private, the trick works equally well for both.</li>\n<li>Start a Claude Code for web session, in the Claude iPhone or Desktop apps or in the browser at <a href=\"https://claude.ai/code\">https://claude.ai/code</a>\n</li>\n<li>Tell Claude what to work on, and encourage it to commit an <code>index.html</code> page as quickly as possible. This will create a branch with a name like <code>claude/3d-raccoon-heist-game-50n293</code>\n</li>\n<li>Navigate to the Settings -&gt; Pages area for the repository (<code>github.com/simonw/raccoon-heist/settings/pages</code> in my case), select \"Deploy from a branch\", pick the branch name, and hit Save.</li>\n</ol>\n<p>That's all it takes! Within about 30 seconds of each push the latest content will be visible at <code>yourname.github.io/your-repo/</code>.</p>\n<p>If you do this with a private repo, anyone who can guess the name of the repo will be able to view the published content. I don't worry much about this myself.</p>\n<h4 id=\"the-fable-5-prompt\">The Fable 5 prompt</h4>\n<p>Here's the prompt I gave Fable 5 (written in the notes app on my phone - this entire project was conducted on mobile). I accompanied it with the two images from the original tweet.</p>\n<blockquote>\n<p><code>Build this 3D game, for the browser.</code></p>\n<p><code>This repo is configured to serve static files so make sure there is an index.html that loads everything else.</code></p>\n<p><code>Make sure it is mobile-friendly (touch controls, works well on small screens).</code></p>\n<p><code>You have an OpenAI API key and access to their image generation model APIs, use that for textures to use with your 3D models. Docs here: https://developers.openai.com/api/docs/guides/image-generation - use gpt-image-2</code></p>\n<p><code>Work independently - do not ask me to make any further design decisions. Make sure the game is fun, a little surprising, has good raccoon heist vibes, and is visually pleasing.</code></p>\n<p><code>Commit and push as often as possible so I can preview your work - start with an index.html that presents a title screen, then build from there.</code></p>\n<p><code>Append to a notes.md file as you work, including your changes to that as part of every commit.</code></p>\n</blockquote>\n<p>I didn't make any technology choices. I assumed (correctly) that it would probably use <a href=\"https://threejs.org/\">Three.js</a> based on previous experiments.</p>\n<p>Giving Claude access to an OpenAI key turns out to work really well for filling in gaps in its capabilities - in this case we needed some way to generate images to use as textures. Fable is very good at prompting image generators!</p>\n<p>I said \"Work independently - do not ask me to make any further design decisions\" because I wanted to see if it could produce a full, working game without any further input from me.</p>\n<p>I also said \"Commit and push as often as possible so I can preview your work\". When you use Claude Code in the Claude iPhone app you give it a GitHub repository and it works in a branch. Telling it to \"push as often as possible\" means commits start landing in that branch straight away.</p>\n<p>I like asking for <code>notes.md</code> as a bit of added flavor - here's <a href=\"https://github.com/simonw/raccoon-heist/blob/main/notes.md\">that finished file</a>, and the entry it made when it added the dog:</p>\n<blockquote>\n<p>New escalation: from night 3 the yards get a patrolling guard dog — a low-poly brown hound with a spiked red collar and a wagging tail. It wanders between random spots, and within 12 units it catches your scent and tracks you by smell (line of sight is irrelevant — it's all nose, shown by a 👃 over its head and barking). It gives up if you open a 17-unit gap. Getting caught messages are now source-specific: guard / headlights / hound. Verified wander → track → caught with an automated test.</p>\n</blockquote>\n<h4 id=\"reviewing-the-transcript\">Reviewing the transcript</h4>\n<p>You can access <a href=\"https://claude.ai/code/session_01NUBoCfnhGETcCDyEUPS8jp\">the Claude Code shared session</a>, and I also used my <a href=\"https://github.com/simonw/claude-code-transcripts\">claude-code-transcripts</a> tool to export my own HTML version which you <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html\">can find here</a>.</p>\n<p>Fable started with an index page, <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T14-55-13-304Z\">vendored a copy</a> of Three.js, then wrote its own <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T14-55-49-064Z\">gen_textures.py script</a> (<a href=\"https://github.com/simonw/raccoon-heist/blob/main/gen_textures.py\">copy here</a>).</p>\n<p>It generated the textures and <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T14-59-07-900Z\">spot-checked them</a> to make sure they looked OK. The <a href=\"https://github.com/simonw/raccoon-heist/blob/main/textures/metal.jpg\">metal.jpg file</a> it generated for the trash can looks like this, though I don't think it was applied exactly right in the game itself:\n\n<p><img alt=\"A game texture atlas of dark blue-grey riveted metal panels, showing a circular hatch with a handle in the top left, ribbed corrugated panels across the middle, a plain circular plate bottom left, and flat banded strips at top and bottom. No text visible.\" src=\"https://raw.githubusercontent.com/simonw/raccoon-heist/refs/heads/main/textures/metal.jpg\" /></p>\n\nThen it built out the first basic version of the game, then <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-04-51-625Z\">decided to</a> \"smoke-test in the pre-installed Chromium\" using Playwright. This meant it could take screenshots of its own work and <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-05-53-823Z\">eyeball them</a>. It did that for both desktop and mobile widths of the page, then noticed that <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-09-33-406Z\">the raccoon was invisible</a> at mobile widths, so it <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-14-39-180Z\">fixed that</a>:</p>\n<blockquote>\n<p>The raccoon, dumpster hideout, and both crew raccoons are now perfectly visible on mobile. Committing this critical fix.</p>\n</blockquote>\n<p>It decided to generate a title screen, which <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-15-02-574Z\">it did</a> using this <a href=\"https://github.com/simonw/raccoon-heist/blob/main/gen_title.py\">gen_title.py</a> script. Here's the <code>gpt-image-2</code> prompt it used for that:</p>\n<blockquote>\n<p><code>Video game key art, low-poly 3D render style, moody nighttime scene: a cute low-poly raccoon wearing a tiny black burglar mask sneaking on its hind legs carrying a glowing gold coin, next to a tipped-over metal trash can, suburban house with warm glowing windows in the background, deep blue night, full moon, fireflies, cinematic rim lighting, charming heist caper mood. No text, no words, no logos.</code></p>\n</blockquote>\n<p>And the resulting image (which Claude <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-16-42-176Z\">thought was \"gorgeous\"</a>) - though I note that when it's shown on desktop it gets cropped to just the top third without the raccoon!</p>\n<p><img alt=\"Polygon raccoon holding a gold coin next to an overturned trash can, a house and the moon in the background.\" src=\"https://static.simonwillison.net/static/2026/raccoon-heist-title.jpeg\" /></p>\n<p>Then my favorite change: it <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-23-00-850Z\">added the dog</a>:</p>\n<div class=\"highlight highlight-source-js\"><pre><span class=\"pl-k\">export</span> <span class=\"pl-k\">function</span> <span class=\"pl-en\">makeDog</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">g</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Group</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-c1\">BROWN</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0x8a6440</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">DARK</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0x5e4128</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">body</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.42</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">8</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">BROWN</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">body</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">scale</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.9</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.8</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1.5</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">body</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">y</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0.55</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">body</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">castShadow</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">true</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">body</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">head</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.3</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">8</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">BROWN</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">head</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.85</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.62</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">head</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">snout</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.16</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">8</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">DARK</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">snout</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">scale</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.9</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.7</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1.3</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">snout</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.76</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.9</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">snout</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">nose</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.06</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">BLACK</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">nose</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.78</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1.08</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">nose</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">for</span> <span class=\"pl-kos\">(</span><span class=\"pl-k\">const</span> <span class=\"pl-s1\">s</span> <span class=\"pl-k\">of</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">-</span><span class=\"pl-c1\">1</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-k\">const</span> <span class=\"pl-s1\">ear</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.12</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">DARK</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">ear</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">scale</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.7</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1.3</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.5</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">ear</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.2</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">s</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">1.08</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.55</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">ear</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-k\">const</span> <span class=\"pl-s1\">eye</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">SphereGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.05</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0x1a1a1a</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">emissive</span>: <span class=\"pl-c1\">0x331111</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">eye</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.13</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">s</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.92</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.86</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">eye</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-kos\">}</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">tail</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">CylinderGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.05</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.09</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.5</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">DARK</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">tail</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.8</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.62</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">tail</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0.8</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">tail</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-c\">// spiked collar</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">collar</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">TorusGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.22</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.05</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">12</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0xc0392b</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">collar</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.78</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.5</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">collar</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">PI</span> <span class=\"pl-c1\">/</span> <span class=\"pl-c1\">2.4</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">collar</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">legGeo</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">CylinderGeometry</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.07</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.09</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.34</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">const</span> <span class=\"pl-s1\">legs</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">[</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">for</span> <span class=\"pl-kos\">(</span><span class=\"pl-k\">const</span> <span class=\"pl-kos\">[</span><span class=\"pl-s1\">x</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">z</span><span class=\"pl-kos\">]</span> <span class=\"pl-k\">of</span> <span class=\"pl-kos\">[</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.22</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.35</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">0.22</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.35</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.22</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.35</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-kos\">[</span><span class=\"pl-c1\">0.22</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.35</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-k\">const</span> <span class=\"pl-s1\">leg</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">new</span> <span class=\"pl-c1\">THREE</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">Mesh</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">legGeo</span><span class=\"pl-kos\">,</span> <span class=\"pl-v\">M</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">DARK</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">leg</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">set</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">x</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.17</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">z</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">g</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">add</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">leg</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-s1\">legs</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">push</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">leg</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-kos\">}</span>\n  <span class=\"pl-k\">let</span> <span class=\"pl-s1\">phase</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">random</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">return</span> <span class=\"pl-kos\">{</span>\n    <span class=\"pl-c1\">group</span>: <span class=\"pl-s1\">g</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-en\">animate</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">dt</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">speed</span><span class=\"pl-kos\">)</span> <span class=\"pl-kos\">{</span>\n      <span class=\"pl-s1\">phase</span> <span class=\"pl-c1\">+=</span> <span class=\"pl-s1\">dt</span> <span class=\"pl-c1\">*</span> <span class=\"pl-kos\">(</span><span class=\"pl-c1\">3</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">speed</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">10</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-k\">const</span> <span class=\"pl-s1\">amp</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">min</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.6</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">0.1</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">speed</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">0.6</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">legs</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">0</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">amp</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">legs</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">3</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">amp</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">legs</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">1</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">-</span><span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">amp</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">legs</span><span class=\"pl-kos\">[</span><span class=\"pl-c1\">2</span><span class=\"pl-kos\">]</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">-</span><span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">amp</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">tail</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">rotation</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">z</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">1.5</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">0.4</span><span class=\"pl-kos\">;</span>\n      <span class=\"pl-s1\">body</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">position</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">y</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0.55</span> <span class=\"pl-c1\">+</span> <span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">abs</span><span class=\"pl-kos\">(</span><span class=\"pl-v\">Math</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">sin</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">phase</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">*</span> <span class=\"pl-c1\">0.04</span> <span class=\"pl-c1\">*</span> <span class=\"pl-kos\">(</span><span class=\"pl-c1\">0.3</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">speed</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n    <span class=\"pl-kos\">}</span><span class=\"pl-kos\">,</span>\n  <span class=\"pl-kos\">}</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-kos\">}</span></pre></div>\n<p>And did a <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-24-09-230Z\">round of testing on it</a> using Playwright, including <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-24-33-559Z\">another screenshot</a>.</p>\n<div class=\"highlight highlight-source-js\"><pre>  <span class=\"pl-c\">// walk near the dog</span>\n  <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">evaluate</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-kos\">{</span> <span class=\"pl-k\">const</span> <span class=\"pl-s1\">d</span> <span class=\"pl-c1\">=</span> <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">dog</span><span class=\"pl-kos\">;</span> <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">teleport</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">d</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">x</span> <span class=\"pl-c1\">+</span> <span class=\"pl-c1\">6</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">d</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">z</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">waitForTimeout</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">2000</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">info</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">evaluate</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-c1\">JSON</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">stringify</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">{</span> <span class=\"pl-c1\">dog</span>: <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">dog</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">state</span>: <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">state</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">player</span>: <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">debug</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">player</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-smi\">console</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">log</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'after approach:'</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">info</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">waitForTimeout</span><span class=\"pl-kos\">(</span><span class=\"pl-c1\">3000</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-s1\">info</span> <span class=\"pl-c1\">=</span> <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">evaluate</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-c1\">JSON</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">stringify</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">{</span> <span class=\"pl-c1\">dog</span>: <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">dog</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">state</span>: <span class=\"pl-smi\">window</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">__rh</span><span class=\"pl-kos\">.</span><span class=\"pl-c1\">state</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-smi\">console</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">log</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'after chase:'</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">info</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n  <span class=\"pl-k\">await</span> <span class=\"pl-s1\">page</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">screenshot</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">{</span> <span class=\"pl-c1\">path</span>: <span class=\"pl-s1\">__dirname</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s\">'/shot-dog.png'</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<p><img alt=\"Screenshot of the game. Night 3, the raccoon is in the middle intersecting with the dog. A message reads Busted! The Guard shooed you off! The screen has a red tinge around the edges.\" src=\"https://static.simonwillison.net/static/2026/shot-dog.png\" /></p>\n<p>It made a few more tweaks, then <a href=\"https://simonw.github.io/raccoon-heist/transcript/page-001.html#msg-2026-08-05T15-29-13-245Z\">declared itself done</a>:</p>\n<blockquote>\n<p><strong>Raccoon Heist is built, tested, and pushed</strong> — 7 commits on <code>claude/3d-raccoon-heist-game-50n293</code>, all verified with automated Playwright playthroughs on desktop, portrait-phone, and landscape-phone viewports.</p>\n<p><strong>The game:</strong> You're a masked raccoon sneaking out of your crew's dumpster hideout into a moonlit cul-de-sac. Grab coins, gems, rings, donuts, and fish (they visibly stack on your back and slow you down), then waddle home and bank them before dawn. Each night raises the goal and the heat: night 1 has one flashlight-sweeping guard, night 2 has two, night 3 adds a scent-tracking hound that ignores line-of-sight entirely. A police cruiser sweeps the street with headlights, homeowners randomly peek out of windows, a seagull periodically dive-bombs your unclaimed loot, pizza slices trigger a 6-second speed FRENZY, and a rare golden TV is worth 120 points if you can haul its weight home. Win ranks: TRASH PANDA ⭐ → CAT BURGLAR ⭐⭐ → MASTER OF DISGUISE ⭐⭐⭐, with your best run saved to localStorage.</p>\n<p><strong>How it's built:</strong> Vendored Three.js (no CDN), procedural low-poly characters, and a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects — zero audio files). All seven ground/wall textures and the title-screen hero art were generated with gpt-image-2 and committed as static assets, so the deployed game makes no API calls. Mobile gets a dynamic touch joystick (appears wherever you touch) plus a DASH button; desktop uses WASD/arrows and Space.</p>\n<p><strong>Testing caught two real bugs worth mentioning:</strong> the canvas rendered at 2× size on any real phone (a <code>cssText</code> assignment was wiping Three.js's inline sizing — desktop DPR-1 tests masked it completely), and the win screen's star-rating div inherited the title screen's full-screen <code>.stars</code> CSS and silently swallowed every tap on the \"next night\" button. Both are fixed and regression-tested, along with pickup, banking, chase/caught, dawn, night progression, and lose/retry flows.</p>\n<p><code>notes.md</code> has the full build log. The game is live on the branch — just serve the repo root and open <code>index.html</code>.</p>\n</blockquote>\n<h4 id=\"is-the-game-any-good-\">Is the game any good?</h4>\n<p>It's an impressive starting point, but it's not a <em>good</em> game.</p>\n<p>You move your raccoon around a yard collecting items - donuts, fish, gold coins, jewels - while avoiding guards with flashlights and, in later levels, a dog. You have a limited carrying capacity, and once that's full you need to drop stuff off at the dumpster. If you pick up a pizza slice you get a temporary speed boost.</p>\n<p>There are no team mechanics at all - there are two other static raccoons next to the dumpster but they're purely decoration.</p>\n<p>It gets slightly more challenging as the levels progress - the dog introduced in level 3 is the most interesting new mechanic - but it's very, very easy to beat. It's also pretty boring - each night has a fixed duration and you can collect all of the items and then have nothing else to do while waiting for the dawn.</p>\n<p>I was impressed by the implementation. It's fully 3D, there are trash cans, the flashlight illumination cones are fun, and it has a reasonably coherent visual style. It works on mobile. The music (\"a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects — zero audio files)\" according to Claude) is simple but feels about right.</p>\n<p>As a finished game project, it's mediocre. As a starting point from a single prompt I think it's very impressive.</p>\n<p>I've vibe coded up quite a few games now. They've all been deeply disappointing from a gameplay perspective - it turns out designing games that are <em>fun</em> remains a uniquely human trait, and one which requires significantly more skill and experience than either Claude or I can bring to bear.</p>\n<p>That said, I thoroughly recommend tinkering with game development projects as a way to explore the capabilities of agents. It's a fun, low-risk way to try out new things. If you stick at it long enough you might even produce something that's worth playing!</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/game-design\">game-design</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/text-to-image\">text-to-image</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/5/raccoon-heist/",
+        "author": "",
+        "keywords": "game-design ai prompt-engineering generative-ai llms anthropic claude text-to-image vibe-coding coding-agents claude-mythos-fable",
+        "published": "2026-08-05T19:42:38+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-08-05",
+        "summary": "AI 早报 2026 08 05 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 SpaceX 宣布联合 NVIDIA 打造太空 AI 计算卫星 Starmind AI1 ↗ 1 DeepSeek Harness招募开源项目作者参与内测 赠API额度 ↗ 2 模型发布 Black Forest Labs 正式发布 FLUX 3 Video ↗ 3 MiniMax 官方澄清 H3 可通过授权流程在美国等地区合法部署 ↗ 4 Ant Ling 发布 Ling 3.0 flash 模型权重 ↗ 5 Pokee AI 发布 Pokee Isaac 28B 模型 ↗ 6 DeepGrove开源发布20B三元权重推理模型Maple Preview ↗ 7 Liquid AI 发布端侧 Agentic 模型 LFM2.…",
+        "link": "https://daily.juya.uk/issues/2026-08-05/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-05T01:36:40+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+        "summary": "<p>I released <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a> this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic plugin</a> with substantial updates of its own.</p>\n<h4 id=\"headline-features-for-llm-cli-users\">Headline features for LLM CLI users</h4>\n<p>Running LLM against reasoning models now <strong>displays their reasoning traces</strong> to standard error, so you can see what they are \"thinking\" without that information being included in the standard output that you might pipe to another tool. Add <code>-R/--hide-reasoning</code> to turn this off.</p>\n<p><img alt=\"Running llm &quot;think about the best thing about pelicans&quot; in the macOS terminal window - grey text outputs saying Exploring pelican qualities, then after a paragraph of that a white paragraph of text comes out saying: The best thing about pelicans is their wonderfully oversized, practical design: that enormous bill and pouch look comical, but they make pelicans remarkably skilled fishers. Even better, many species cooperate—working together to herd fish before scooping them up. They’re a great mix of goofy, graceful, and surprisingly clever.\" src=\"https://static.simonwillison.net/static/2026/best-pelicans.gif\" /></p>\n<p>LLM includes support out-of-the-box for the <strong>GPT-5.6 model family</strong>, and the new default model used with <code>llm \"prompt\"</code> is now the inexpensive but capable <strong>GPT-5.6 Luna</strong>.</p>\n<p>LLM calls can now use <strong>server-side tools</strong> from various providers. OpenAI provide <a href=\"https://llm.datasette.io/en/stable/openai-models.html#code-interpreter\">a code execution environment</a> as a server-side tool; LLM can now run prompts that benefit from that like so:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm --tool CodeInterpreter <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Show current python and SQLite versions<span class=\"pl-pds\">'</span></span></pre></div>\n<p>OpenAI also gets a <a href=\"https://llm.datasette.io/en/stable/openai-models.html#web-search\">WebSearch</a> tool.</p>\n<p>The <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic</a> plugin adds <a href=\"https://github.com/simonw/llm-anthropic/blob/0.26/README.md#web-search\">WebSearch</a>, <a href=\"https://github.com/simonw/llm-anthropic/blob/0.26/README.md#web-fetch\">WebFetch</a>, <a href=\"https://github.com/simonw/llm-anthropic/blob/0.26/README.md#code-execution\">CodeExecution</a>, and <a href=\"https://github.com/simonw/llm-anthropic/blob/0.26/README.md#mcp-connector\">AnthropicMCP</a>, which looks like this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm -m claude-sonnet-5 -T <span class=\"pl-s\"><span class=\"pl-pds\">'</span>AnthropicMCP(\"https://datasette.simonwillison.net/-/mcp\")<span class=\"pl-pds\">'</span></span> \\\n  <span class=\"pl-s\"><span class=\"pl-pds\">'</span>how many rows in the blog_blogmark table?<span class=\"pl-pds\">'</span></span></pre></div>\n<p>That causes Anthropic to execute MCP calls against my new <a href=\"https://simonwillison.net/2026/Jul/31/stateless-mcp/#datasette-mcp\">datasette-mcp</a> plugin as part of a single request/response interaction with their API.</p>\n<p>The new <strong>llm openai endpoint</strong> command provides a tool for <a href=\"https://llm.datasette.io/en/stable/other-models.html#run-against-an-endpoint-without-configuring-it\">executing prompts against <em>any</em> OpenAI compatible endpoint</a> as a one-liner. These aren't logged, which makes this a handy tool for running one-off prompts against anything that speaks the lingua franca of the LLM API world.</p>\n<p>Here's how I use that to run prompts against Gemma 4 12B running in my localhost <a href=\"https://lmstudio.ai\">LM Studio</a> API, via <code>uvx</code> (no LLM installation required) and mixing in the <a href=\"https://github.com/simonw/llm-tools-quickjs\">llm-tools-quickjs</a> tool plugin for good measure:</p>\n<div class=\"highlight highlight-source-shell\"><pre>uvx --with llm-tools-quickjs \\\n  llm openai endpoint http://localhost:1234/v1 -m google/gemma-4-12b \\\n  -T QuickJS <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Use QuickJS to multiply 3434 * 2434<span class=\"pl-pds\">'</span></span> --td</pre></div>\n<p><img alt=\"Output reads Tool call: QuickJS_execute_javascript({'javascript': '3434 * 2434'})  8358356 The result of 3434 * 2434 is 8,358,356.\" src=\"https://static.simonwillison.net/static/2026/openai-endpoint-gemma.webp\" /></p>\n<h4 id=\"new-features-in-the-python-api\">New features in the Python API</h4>\n<p>LLM's Python API previously required you to create a conversation and then send messages to it one at a time. This was an abstraction over the true nature of LLMs, where each request carries a complete history of the messages that came before it. That abstraction started to get in the way for some more advanced cases, so the new release introduces a <code>model.prompt(messages=[])</code> parameter that can be used like this:</p>\n<pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">llm</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">llm</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">user</span>, <span class=\"pl-s1\">assistant</span>, <span class=\"pl-s1\">system</span>\n\n<span class=\"pl-s1\">model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">llm</span>.<span class=\"pl-c1\">get_model</span>(<span class=\"pl-s\">\"gpt-5.6-luna\"</span>)\n\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>.<span class=\"pl-c1\">prompt</span>(<span class=\"pl-s1\">messages</span><span class=\"pl-c1\">=</span>[\n    <span class=\"pl-en\">system</span>(<span class=\"pl-s\">\"You are a helpful pirate.\"</span>),\n    <span class=\"pl-en\">user</span>(<span class=\"pl-s\">\"What is the capital of France?\"</span>),\n    <span class=\"pl-en\">assistant</span>(<span class=\"pl-s\">\"Paris, matey.\"</span>),\n    <span class=\"pl-en\">user</span>(<span class=\"pl-s\">\"And Germany?\"</span>),\n])\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">response</span>.<span class=\"pl-c1\">text</span>())</pre>\n<p>LLM previously returned an iterable sequence of strings from each prompt. This worked great when models returned a string response, but failed to predict the weird shape that models would evolve towards. Today many models return a mix of reasoning text, output strings, tool calls, and even image attachments. With LLM 0.32 you can <a href=\"https://llm.datasette.io/en/stable/python-api.html#structured-messages-and-streaming-events\">do this instead</a>:</p>\n<pre><span class=\"pl-k\">for</span> <span class=\"pl-s1\">event</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">model</span>.<span class=\"pl-c1\">prompt</span>(<span class=\"pl-s\">\"Explain cats\"</span>).<span class=\"pl-c1\">stream_events</span>():\n    <span class=\"pl-k\">if</span> <span class=\"pl-s1\">event</span>.<span class=\"pl-c1\">type</span> <span class=\"pl-c1\">==</span> <span class=\"pl-s\">\"reasoning\"</span>:\n        <span class=\"pl-en\">print</span>(<span class=\"pl-s\">f\"[thinking] <span class=\"pl-s1\"><span class=\"pl-kos\">{</span><span class=\"pl-s1\">event</span>.<span class=\"pl-c1\">chunk</span><span class=\"pl-kos\">}</span></span>\"</span>, <span class=\"pl-s1\">end</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"\"</span>, <span class=\"pl-s1\">flush</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">True</span>)\n    <span class=\"pl-k\">elif</span> <span class=\"pl-s1\">event</span>.<span class=\"pl-c1\">type</span> <span class=\"pl-c1\">==</span> <span class=\"pl-s\">\"text\"</span>:\n        <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">event</span>.<span class=\"pl-c1\">chunk</span>, <span class=\"pl-s1\">end</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"\"</span>, <span class=\"pl-s1\">flush</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">True</span>)\n    <span class=\"pl-k\">else</span>:\n        <span class=\"pl-en\">print</span>(<span class=\"pl-s\">f\"Other event: <span class=\"pl-s1\"><span class=\"pl-kos\">{</span><span class=\"pl-s1\">event</span><span class=\"pl-kos\">}</span></span>\"</span>)</pre>\n<p>Combine these features and we can <em>finally</em> provide a robust implementation of the semi-standard OpenAI chat completions API, which I've now released as the <a href=\"https://github.com/simonw/llm-chat-completions-server\">llm-chat-completions-server</a> plugin:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm install llm-chat-completions-server\nllm chat-completions-server --port 9000\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Server is now running on http://127.0.0.1:9000/v1</span></pre></div>\n<p>Now you can run prompts against LLM via that server, using the new <code>llm openai endpoint</code> command!</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm openai endpoint http://127.0.0.1:9000/v1 <span class=\"pl-s\"><span class=\"pl-pds\">'</span>hello<span class=\"pl-pds\">'</span></span> -m gpt-5.4-mini</pre></div>\n<p>The bigger challenge with that kind of API concerns logging. If we're going to support the pattern where the message sequence is appended to on every request, ideally we can avoid logging all of that duplicate JSON for every turn.</p>\n<p>The solution is the new <a href=\"https://llm.datasette.io/en/stable/logging.html#the-message-store\">content-addressable message store</a>, modeled after Git. You can see the new schema for that <a href=\"https://llm.datasette.io/en/stable/logging.html#sql-schema\">in the documentation</a>, but the <code>llm logs</code> and <code>llm logs --json</code> commands have both been upgraded to convert that format back into something that's easy to consume.</p>\n<h4 id=\"and-the-rest\">And the rest</h4>\n<p>There is a whole lot more in this release. The <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">0.32 release notes</a> are pretty comprehensive, and the notes for <a href=\"https://llm.datasette.io/en/stable/changelog.html#rc2-2026-07-30\">0.32rc2</a>, <a href=\"https://llm.datasette.io/en/stable/changelog.html#rc1-2026-07-30\">0.32rc</a>, <a href=\"https://llm.datasette.io/en/stable/changelog.html#a3-2026-06-09\">0.32a3</a>, <a href=\"https://llm.datasette.io/en/stable/changelog.html#a2-2026-05-12\">0.32a2</a>, and <a href=\"https://llm.datasette.io/en/stable/changelog.html#a0-2026-04-28\">0.32a0</a> should fill in any gaps.</p>\n<p>Existing LLM plugins should all continue to work, but plugins that provide extra models will need to be upgraded to 0.32 in order to participate fully in the new streaming events system. There's a guide to implementing plugins with <a href=\"https://llm.datasette.io/en/stable/plugins/advanced-model-plugins.html#structured-messages-and-streaming-events\">Structured messages and streaming events</a> in the documentation.</p>\n<p>I've updated some of my own plugins:</p>\n<ul>\n<li>\n<a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.26\">llm-anthropic 0.26</a> adds support for the Claude 5 family of models, plus <code>WebSearch</code>, <code>WebFetch</code>, <code>CodeExecution</code>, and <code>AnthropicMCP</code> server-side tools.</li>\n<li>\n<a href=\"https://github.com/simonw/llm-gemini\">llm-gemini</a> and <a href=\"https://github.com/simonw/llm-openrouter\">llm-openrouter</a> and <a href=\"https://github.com/simonw/llm-mistral\">llm-mistral</a> are nearly there, releases coming soon.</li>\n</ul>\n<h4 id=\"i-guess-llm-is-an-agent-framework-now\">I guess LLM is an agent framework now</h4>\n<p>Quite a few of the lower-level tools changes in this release were driven by the needs of <a href=\"https://agent.datasette.io/\">Datasette Agent</a>. When I started work on LLM, the term \"agent\" had such a vague definition that I refused to use it. In <a href=\"https://simonwillison.net/2025/Sep/18/agents/\">September 2025</a> I came around to the idea that \"<strong>An LLM agent runs tools in a loop to achieve a goal</strong>\" is well established enough now that I could stop avoiding the term entirely.</p>\n<p>Tool chains can now <a href=\"https://llm.datasette.io/en/stable/python-api.html#python-api-tools-pause\">pause for human approval</a> and <a href=\"https://llm.datasette.io/en/stable/python-api.html#python-api-tools-resume\">resume from a stored message history</a> - both needed by Datasette Agent.</p>\n<p>Looking at LLM today it's beginning to look very agent-shaped to me. There's something neat about having a CLI utility that can mix and match different tools from different sources with different models all as a one-liner, and that includes a Python library powerful enough to build systems like <a href=\"https://agent.datasette.io/\">Datasette Agent</a> and <a href=\"https://github.com/simonw/llm-coding-agent\">llm-coding-agent</a>.</p>\n<p>Maybe the next version of LLM will bake the concept of an \"agent\" into the core library. I'm still trying to figure out what that would look like.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/releases\">releases</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/llm-tool-use\">llm-tool-use</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
+        "author": "",
+        "keywords": "projects releases ai openai generative-ai llms llm anthropic llm-tool-use llm-reasoning model-context-protocol",
+        "published": "2026-08-04T23:58:24+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "llm-anthropic 0.26",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.26\">llm-anthropic 0.26</a></p>\n        <p>Includes new features enabled by <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a>:</p>\n<blockquote>\n<ul>\n<li>New models: <code>claude-fable-5</code>, <code>claude-sonnet-5</code>, and <code>claude-opus-5</code>. <a href=\"https://github.com/simonw/llm-anthropic/issues/75\">#75</a>, <a href=\"https://github.com/simonw/llm-anthropic/issues/76\">#76</a></li>\n<li>Added server-side tools for <code>WebSearch</code>, <code>WebFetch</code>, <code>CodeExecution</code>, and <code>AnthropicMCP</code>, available through LLM's <code>-T</code> interface or Python <code>tools=</code>. The previous <code>-o web_search*</code> options have been removed in favor of <code>-T WebSearch</code>. <a href=\"https://github.com/simonw/llm-anthropic/issues/79\">#79</a></li>\n<li>Upgraded to <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">llm&gt;=0.32</a>. Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for <code>llm</code> CLI prompts now displays to standard error unless you pass <code>--hide-reasoning/-R</code>.</li>\n<li>Simplified extended thinking to <code>thinking</code> and <code>thinking_effort</code> (<code>low</code>, <code>medium</code>, <code>high</code>, <code>xhigh</code>, or <code>max</code>). Claude 5 models think by default; <code>-o thinking 0</code> disables thinking for Sonnet 5 and Opus 5, while Fable 5 always thinks. <code>-R/--hide-reasoning</code> now omits reasoning from responses and logs. The <code>thinking_budget</code>, <code>thinking_display</code>, and <code>thinking_adaptive</code> options have been removed. <a href=\"https://github.com/simonw/llm-anthropic/issues/80\">#80</a></li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/anthropic\">anthropic</a>, <a href=\"https://simonwillison.net/tags/claude\">claude</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
+        "author": "",
+        "keywords": "llm anthropic claude model-context-protocol",
+        "published": "2026-08-04T22:00:58+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [
+      {
+        "title": "Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)",
+        "summary": "<p>Most consumer AI so far has been single-player: you and a chatbot, alone.</p><p>Benchmark partner Sarah Tavel, one of Pinterest's first 30 employees, is betting that's about to change. She's looking for a product genius who can build an AI product with social DNA: status, network effects, and multiplayer dynamics. That'll enable users of ChatGPT and other models to learn from how others use AI and level up.</p><p>On this week’s AI &amp; I, Dan Shipper revisits his conversation with Sarah. They talk about why technical founders dominate the early days of a platform shift while product-minded founders win later, what ChatGPT is still missing, and what separates a founder's real network effect from a slide with a flywheel diagram.</p><p><br /></p><p>If you found this episode interesting, please like, subscribe, comment, and share!</p><p><br /></p><p>To hear more from Dan Shipper:</p><p>Subscribe to Every: https://every.to/subscribe</p><p>Follow him on X: https://twitter.com/danshipper</p><p><br /></p><p>Timestamps for YouTube:</p><p>0:00 Start</p><p>1:10 Introduction</p><p>2:26 Why the future of consumer AI belongs to founders with product intuition</p><p>11:09 What Sarah sees as ChatGPT's biggest weakness</p><p>18:45 How Sarah would design a consumer AI app with social DNA</p><p>24:10 The kind of founders Sarah invests in</p><p>28:33 How to know if your startup's network effects are real</p><p>35:40 What's catching Sarah's eye beyond AI</p><p>40:41 How AI will change the way top venture capitalists invest</p><p><br /></p><p>Links to resources mentioned in the episode:</p><p>Sarah Tavel on X: https://x.com/sarahtavel</p><p>Benchmark: https://benchmark.com</p><p>Agentio (marketplace for YouTube creators and brands): https://agentio.com/ </p><p>Chainalysis: https://chainalysis.com</p><p>The Five Temptations of a CEO by Patrick Lencioni: https://www.amazon.com/dp/B007BZBRB8</p><p>Thinking in Bets by Annie Duke: https://www.amazon.com/dp/B0HBBW23PM</p>",
+        "link": "https://share.transistor.fm/s/bec45ea1",
+        "author": "Dan Shipper",
+        "keywords": "868329",
+        "published": "2026-08-05T16:02:39+00:00",
+        "kind": "podcast",
+        "source_name": "AI & I",
+        "source_role": "Featuring Dan Shipper",
+        "source_handle": "AI & I"
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Billion Dollar AI Race Just Broke",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 Qwen 3.8 Max:\nhttps://qwen.ai/blog?id=qwen3.8\n\nSources:\nhttps://x.com/loktar00/status/2082589566934929750\nhttps://x.com/CommandCodeAI/status/2084293498950590839\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, Benji Rabhan, B Shang, Cameron Navor, Charles Ian Norman Venn, Christian Ahlin, Eric T, Fred R, Gordon Child, Juan Benet, Michael Tedder, Owen Skarpness, Richard Sundvall, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=ppQh4Tc9BmM",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-08-05T13:54:29+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-08-04T22:00:00+00:00",
+    "end": "2026-08-05T22:00:00+00:00"
+  }
+}
