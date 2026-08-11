@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T23:06:05.638259+00:00",
+  "source_segments": [
+    "segments/2026-08-11/06.json"
+  ],
+  "counts": {
+    "x": 46,
+    "blogs": 4,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "Looks like @cursor_ai and @grok shipped this first",
+        "summary": "Looks like @cursor_ai and @grok shipped this first",
+        "link": "https://x.com/petergyang/status/2087289714835681774",
+        "author": "petergyang",
+        "published": "2026-08-11T21:27:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/Y1Y3jTUtSq",
+        "summary": "https://t.co/Y1Y3jTUtSq",
+        "link": "https://x.com/adityaag/status/2087263990728569246",
+        "author": "adityaag",
+        "published": "2026-08-11T19:44:49+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Moonbase Alpha will be so cool. \n\nAnd we want to make it so that anyone can go to the Moon if they want.",
+        "summary": "Moonbase Alpha will be so cool. \n\nAnd we want to make it so that anyone can go to the Moon if they want.",
+        "link": "https://x.com/elonmusk/status/2087260966660759954",
+        "author": "elonmusk",
+        "published": "2026-08-11T19:32:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "You can make your own steampunk movies with Grok Imagine",
+        "summary": "You can make your own steampunk movies with Grok Imagine",
+        "link": "https://x.com/elonmusk/status/2087260262525223221",
+        "author": "elonmusk",
+        "published": "2026-08-11T19:30:00+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "1B for the @GeminiApp ! Our fastest growing product ever 🚀\n\nIncredible milestone - huge congratulations to @JoshWoodward",
+        "summary": "1B for the @GeminiApp ! Our fastest growing product ever 🚀\n\nIncredible milestone - huge congratulations to @JoshWoodward and the amazing team! Could not be prouder of all of our hard work together. \n\nAnd thank you to all our wonderful users, we can't wait to see what you'll do next with it!",
+        "link": "https://x.com/demishassabis/status/2087255967549243425",
+        "author": "demishassabis",
+        "published": "2026-08-11T19:12:56+00:00",
+        "source_name": "Demis Hassabis",
+        "source_role": "CEO, Google DeepMind",
+        "source_handle": "demishassabis"
+      },
+      {
+        "kind": "x",
+        "title": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook or",
+        "summary": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀",
+        "link": "https://x.com/thsottiaux/status/2087254026232775052",
+        "author": "thsottiaux",
+        "published": "2026-08-11T19:05:13+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "A great American open weights MoE model that can run efficiently on your laptop or local hardware like the DGX Spark! Yo",
+        "summary": "A great American open weights MoE model that can run efficiently on your laptop or local hardware like the DGX Spark! You can use the larger Nemotron Ultra on Perplexity!",
+        "link": "https://x.com/AravSrinivas/status/2087252892378112310",
+        "author": "AravSrinivas",
+        "published": "2026-08-11T19:00:43+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "Import your world. Codex. Run.",
+        "summary": "Import your world. Codex. Run.",
+        "link": "https://x.com/thsottiaux/status/2087252528513814773",
+        "author": "thsottiaux",
+        "published": "2026-08-11T18:59:16+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "They can’t handle the truth is the real issue here",
+        "summary": "They can’t handle the truth is the real issue here",
+        "link": "https://x.com/elonmusk/status/2087235939055591862",
+        "author": "elonmusk",
+        "published": "2026-08-11T17:53:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "We were promised flying cars and all we got is infinite superintelligence for everyone",
+        "summary": "We were promised flying cars and all we got is infinite superintelligence for everyone",
+        "link": "https://x.com/rauchg/status/2087234879226614210",
+        "author": "rauchg",
+        "published": "2026-08-11T17:49:08+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "We will widen the Grok Bot beta after we fix basic issues with the early beta and release Grok 4.6 later this week",
+        "summary": "We will widen the Grok Bot beta after we fix basic issues with the early beta and release Grok 4.6 later this week",
+        "link": "https://x.com/elonmusk/status/2087233507370147920",
+        "author": "elonmusk",
+        "published": "2026-08-11T17:43:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "What would you most like us to add to or fix about Grok Build?",
+        "summary": "What would you most like us to add to or fix about Grok Build?",
+        "link": "https://x.com/elonmusk/status/2087232895798616122",
+        "author": "elonmusk",
+        "published": "2026-08-11T17:41:15+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and buil",
+        "summary": "Now in preview: The ChatGPT desktop app for Linux.\n\nUse ChatGPT, ChatGPT Work, and Codex where you already work and build, with your projects and browser workflows on supported Linux systems. https://t.co/OtsPt5N5QC",
+        "link": "https://x.com/OpenAI/status/2087231350134980830",
+        "author": "OpenAI",
+        "published": "2026-08-11T17:35:07+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "There’s a cool meta to the “you’ve got this, try harder, keep going” prompts. That’s engineering management. \n\nYou know ",
+        "summary": "There’s a cool meta to the “you’ve got this, try harder, keep going” prompts. That’s engineering management. \n\nYou know the outcome is within sight, so you decide to spend more time and money chasing it. You encourage. And you also need the wisdom to know you’re chasing a deadend and have to pivot and cut losses.\n\nAgent management.",
+        "link": "https://x.com/rauchg/status/2087231188536795402",
+        "author": "rauchg",
+        "published": "2026-08-11T17:34:28+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Been testing Grok bot and it shows alot of promise plus @jenny_wen recruited an amazing design team at Cursor to improve",
+        "summary": "Been testing Grok bot and it shows alot of promise plus @jenny_wen recruited an amazing design team at Cursor to improve it over time.\n\nThe challenge with this and I'm sure upcoming products from the other major labs is:\n\n1. How do you get regular users to trust sharing their credentials and logins with a remote computer?\n\n2. How do you reassure them that this remote computer is secure and truly theirs to play with?\n\nRegardless, I think the way that we'll all use computers is changing rapidly. \n\nI wrote a post about this trend that I'll share in my newsletter tmr: https://t.co/NSo5VypmoS",
+        "link": "https://x.com/petergyang/status/2087229435976327289",
+        "author": "petergyang",
+        "published": "2026-08-11T17:27:31+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "lmao",
+        "summary": "lmao",
+        "link": "https://x.com/elonmusk/status/2087228471667781885",
+        "author": "elonmusk",
+        "published": "2026-08-11T17:23:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "i am claude's stay-at-home boyfriend",
+        "summary": "i am claude's stay-at-home boyfriend",
+        "link": "https://x.com/danshipper/status/2087226736186470821",
+        "author": "danshipper",
+        "published": "2026-08-11T17:16:47+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "🚀One billion for Gemini! Our goal remains to make it the most personal, proactive, and powerful assistant. Here’s what w",
+        "summary": "🚀One billion for Gemini! Our goal remains to make it the most personal, proactive, and powerful assistant. Here’s what we’re learning from the first billion, and what’s coming next…",
+        "link": "https://x.com/joshwoodward/status/2087223952209039755",
+        "author": "joshwoodward",
+        "published": "2026-08-11T17:05:43+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Our latest code model is 25% more efficient, higher quality, and a quarter of the cost than our model launched in June. ",
+        "summary": "Our latest code model is 25% more efficient, higher quality, and a quarter of the cost than our model launched in June. Now live in GitHub Copilot - try it out. https://t.co/cWmpop4Ia8",
+        "link": "https://x.com/mustafasuleyman/status/2087223229718917177",
+        "author": "mustafasuleyman",
+        "published": "2026-08-11T17:02:51+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "1B+ people are now using @Geminiapp every month to spark new ideas and get things done. It’s our fastest growing product",
+        "summary": "1B+ people are now using @Geminiapp every month to spark new ideas and get things done. It’s our fastest growing product ever, and our 14th to hit the 1B-user mark.\n\nKudos to @JoshWoodward & the entire Gemini team, and thank you to everyone who has been on this journey with us - much more to come!",
+        "link": "https://x.com/sundarpichai/status/2087222656819241292",
+        "author": "sundarpichai",
+        "published": "2026-08-11T17:00:34+00:00",
+        "source_name": "Sundar Pichai",
+        "source_role": "CEO, Google",
+        "source_handle": "sundarpichai"
+      },
+      {
+        "kind": "x",
+        "title": "a fun one to revisit:",
+        "summary": "a fun one to revisit:",
+        "link": "https://x.com/danshipper/status/2087219724761309288",
+        "author": "danshipper",
+        "published": "2026-08-11T16:48:55+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Founders today are tackling bolder ideas.   \n\nSpace launch, grid infrastructure, semiconductors, nuclear power.   \n\nSpok",
+        "summary": "Founders today are tackling bolder ideas.   \n\nSpace launch, grid infrastructure, semiconductors, nuclear power.   \n\nSpoke with @technology this week about supporting the most ambitious founders at @spc.\n\nhttps://t.co/cbz65x3Sce",
+        "link": "https://x.com/adityaag/status/2087201341114372441",
+        "author": "adityaag",
+        "published": "2026-08-11T15:35:52+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "this is big",
+        "summary": "this is big",
+        "link": "https://x.com/danshipper/status/2087200873868882252",
+        "author": "danshipper",
+        "published": "2026-08-11T15:34:01+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "unfortunately when examining in detail Gary's claims about neurosymbolic AI from 2023, current frontier models aren't ye",
+        "summary": "unfortunately when examining in detail Gary's claims about neurosymbolic AI from 2023, current frontier models aren't yet smart enough to sufficiently appreciate his prescience and foresight https://t.co/t7GXLbF7V0",
+        "link": "https://x.com/danshipper/status/2087200092566503637",
+        "author": "danshipper",
+        "published": "2026-08-11T15:30:55+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "fun to re-read",
+        "summary": "fun to re-read",
+        "link": "https://x.com/danshipper/status/2087195307721294116",
+        "author": "danshipper",
+        "published": "2026-08-11T15:11:54+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": ".@MaorShlomo has been incredibly generous with his time helping me, I'll definitely watch this one.",
+        "summary": ".@MaorShlomo has been incredibly generous with his time helping me, I'll definitely watch this one.",
+        "link": "https://x.com/petergyang/status/2087190402466226298",
+        "author": "petergyang",
+        "published": "2026-08-11T14:52:24+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "telling my mom im a cultural power player when she asks what i do",
+        "summary": "telling my mom im a cultural power player when she asks what i do",
+        "link": "https://x.com/danshipper/status/2087183488617201707",
+        "author": "danshipper",
+        "published": "2026-08-11T14:24:56+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "the best pop non-fiction book ive read this year: https://t.co/oJmgUvA4lD",
+        "summary": "the best pop non-fiction book ive read this year: https://t.co/oJmgUvA4lD",
+        "link": "https://x.com/danshipper/status/2087152160052011410",
+        "author": "danshipper",
+        "published": "2026-08-11T12:20:27+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Tesla",
+        "summary": "Tesla",
+        "link": "https://x.com/elonmusk/status/2087046381877833990",
+        "author": "elonmusk",
+        "published": "2026-08-11T05:20:07+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine",
+        "summary": "Grok Imagine",
+        "link": "https://x.com/elonmusk/status/2087046240353603854",
+        "author": "elonmusk",
+        "published": "2026-08-11T05:19:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "gpt luna max vs claude fable ultracode \n\nsent \"pls build a mostly faithful clone of grok imagine with open models via fa",
+        "summary": "gpt luna max vs claude fable ultracode \n\nsent \"pls build a mostly faithful clone of grok imagine with open models via fal\"\n\ni woke up to these two and assumed fable was left and luna was right\n\ni was wrong... it was the other way!!\n\nobjectively, fable did the better visual clone. but luna somehow understood intent better and created the more USABLE clone given my open model bent.",
+        "link": "https://x.com/swyx/status/2087045848022843451",
+        "author": "swyx",
+        "published": "2026-08-11T05:18:00+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "If you told someone 3 months ago that a model released by a US company with frontier-class capability would be available",
+        "summary": "If you told someone 3 months ago that a model released by a US company with frontier-class capability would be available as open weights they wouldn’t believe it. \n\nThis is very important because it opens up AI adoption in a range of scenarios that weren’t viable before. Models can be deployed on prem or in the cloud on private infra, which means use-cases in highly regulated domains can be opened up.\n\nYou can also now post-train a frontier class model on specific vertical use-cases that need extra levels of performance for their tasks, like in legal, healthcare, and other spaces. You also ensure sovereignty in case any models ever get pulled from the marketplace, which gives users more confidence in deploying in certain mission critical areas.\n\nAll of this is great news for the applied AI layer, because this is where you can route work to different model families based on the task at hand. Great time to building at the harness layer given the options available now.\n\nAnd closed frontier models will still be heavily used both due to simplicity and because you tend to need a mix of capability level for any hard problem, but having open weights in the mix helps defray costs and provides more flexibility. Great news all around.",
+        "link": "https://x.com/levie/status/2087009941806797206",
+        "author": "levie",
+        "published": "2026-08-11T02:55:19+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Funny how that headline is about OpenClaw and not Claude. As if the harness could meaningfully prevent a determined user",
+        "summary": "Funny how that headline is about OpenClaw and not Claude. As if the harness could meaningfully prevent a determined user.",
+        "link": "https://x.com/steipete/status/2087006417509405084",
+        "author": "steipete",
+        "published": "2026-08-11T02:41:19+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "This really happened",
+        "summary": "This really happened",
+        "link": "https://x.com/elonmusk/status/2086975888525066354",
+        "author": "elonmusk",
+        "published": "2026-08-11T00:40:00+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Hi.\n\nIt is done.",
+        "summary": "Hi.\n\nIt is done.",
+        "link": "https://x.com/thsottiaux/status/2086972802457063486",
+        "author": "thsottiaux",
+        "published": "2026-08-11T00:27:44+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "This tool has become so valuable for cybersecurity defensive work, that it’s become a verb within Vercel.\n\n“Did you deep",
+        "summary": "This tool has become so valuable for cybersecurity defensive work, that it’s become a verb within Vercel.\n\n“Did you deepsec it?”\n“@𝚟 can you deepsec”\n“/𝚍𝚎𝚎𝚙𝚜𝚎𝚌”\n\nIt’s a bit like /𝚝𝚑𝚎𝚛𝚖𝚘-𝚗𝚞𝚌𝚕𝚎𝚊𝚛-𝚌𝚘𝚍𝚎-𝚚𝚞𝚊𝚕𝚒𝚝𝚢-𝚛𝚎𝚟𝚒𝚎𝚠 but for the security of your code. Must have in your software factory.",
+        "link": "https://x.com/rauchg/status/2086965425968148806",
+        "author": "rauchg",
+        "published": "2026-08-10T23:58:26+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "worktrees must die\n\nthis is 20GB of repeated node_modules lol https://t.co/tyvbt1WVJm",
+        "summary": "worktrees must die\n\nthis is 20GB of repeated node_modules lol https://t.co/tyvbt1WVJm",
+        "link": "https://x.com/swyx/status/2086962980235939920",
+        "author": "swyx",
+        "published": "2026-08-10T23:48:43+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Was so fun to speak to the @speedrun @a16z startups while enjoying ▲ 🍵. Great founders and great vibes https://t.co/09k8",
+        "summary": "Was so fun to speak to the @speedrun @a16z startups while enjoying ▲ 🍵. Great founders and great vibes https://t.co/09k8SXGOxe",
+        "link": "https://x.com/rauchg/status/2086962743111016840",
+        "author": "rauchg",
+        "published": "2026-08-10T23:47:46+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "co-sign",
+        "summary": "co-sign",
+        "link": "https://x.com/danshipper/status/2086957346576626116",
+        "author": "danshipper",
+        "published": "2026-08-10T23:26:19+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Grok ftw",
+        "summary": "Grok ftw",
+        "link": "https://x.com/elonmusk/status/2086950103898603725",
+        "author": "elonmusk",
+        "published": "2026-08-10T22:57:33+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "You will be able to watch live sports in 4k or movies or games or productivity!",
+        "summary": "You will be able to watch live sports in 4k or movies or games or productivity!",
+        "link": "https://x.com/elonmusk/status/2086948687318577252",
+        "author": "elonmusk",
+        "published": "2026-08-10T22:51:55+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel Sandbox isolates both ① compute and ② network.\n\nKimi's paper shows container-based isolation is not enough for fr",
+        "summary": "Vercel Sandbox isolates both ① compute and ② network.\n\nKimi's paper shows container-based isolation is not enough for frontier models. Vercel Sandbox uses strong microVM isolation to address ①.\n\nOpenAI's escape was on ② the network path to Artifactory. Our egress firewall is now free so everyone can constrain misbehaving agents' network activity further.\n\n¹ \"in our early experiments with traditional container-based sandbox runtimes, we observed several kernel\npanics and deadlocks caused by unintended agent operations.\" \n🔗 github⁠.com/MoonshotAI/Kimi-K3/blob/master/k3_tech_report.pdf\n\n² \"to gain Internet access, the models identified and exploited a previously unknown zero-day vulnerability in Artifactory⁠, a package registry cache proxy\"\n🔗 openai⁠.com/index/hugging-face-model-evaluation-security-incident/",
+        "link": "https://x.com/rauchg/status/2086946535716393209",
+        "author": "rauchg",
+        "published": "2026-08-10T22:43:22+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "MAI-Image-2.6 is now the #2 text-to-image model in the world - beating out Nano Banana, Meta, and Grok! Fantastic moment",
+        "summary": "MAI-Image-2.6 is now the #2 text-to-image model in the world - beating out Nano Banana, Meta, and Grok! Fantastic moment for the team who've been hill climbing relentlessly. Try it out now on Arena!",
+        "link": "https://x.com/mustafasuleyman/status/2086944832258236781",
+        "author": "mustafasuleyman",
+        "published": "2026-08-10T22:36:36+00:00",
+        "source_name": "Mustafa Suleyman",
+        "source_role": "CEO, Microsoft AI",
+        "source_handle": "mustafasuleyman"
+      },
+      {
+        "kind": "x",
+        "title": "Must be load-bearing.",
+        "summary": "Must be load-bearing.",
+        "link": "https://x.com/steipete/status/2086938582825173277",
+        "author": "steipete",
+        "published": "2026-08-10T22:11:46+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "We love to test new ideas, get quick feedback from you, and learn. With this, we've gathered so many great insights from",
+        "summary": "We love to test new ideas, get quick feedback from you, and learn. With this, we've gathered so many great insights from our Portraits experiment and are concluding it on September 14.\n\nWe’ll be taking what we learned about expert-grounded AI and weaving it into other Google products.\n\nThank you for experimenting with us. Stay tuned for what's next and keep trying out our other experiments at https://t.co/TcBfiPohNK",
+        "link": "https://x.com/GoogleLabs/status/2086936798710923603",
+        "author": "GoogleLabs",
+        "published": "2026-08-10T22:04:40+00:00",
+        "source_name": "Google Labs",
+        "source_role": "Google's AI experiments group",
+        "source_handle": "GoogleLabs"
+      },
+      {
+        "kind": "x",
+        "title": "Compute is the currency",
+        "summary": "Compute is the currency",
+        "link": "https://x.com/AravSrinivas/status/2086935801397711270",
+        "author": "AravSrinivas",
+        "published": "2026-08-10T22:00:43+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Testing ads in ChatGPT",
+        "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+        "link": "https://openai.com/index/testing-ads-in-chatgpt",
+        "author": "",
+        "keywords": "Company",
+        "published": "2026-08-11T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "Daybreak models are now available on AWS",
+        "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+        "link": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+        "author": "",
+        "keywords": "Product",
+        "published": "2026-08-11T10:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "2026-08-11",
+        "summary": "AI 早报 2026 08 11 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Meta 发布 Muse Glimmer 并预告 Muse Spark 1.2 开源权重 ↗ 1 Anthropic：未发布的研究版Claude模型将黎曼零点比例下界提高至67.2% ↗ 2 Anthropic为Claude输出添加机器可读标记，覆盖所有产品线 ↗ 3 Claude Sonnet 5 定价永久保持2美元/10美元每百万token ↗ 4 模型发布 OpenAI 推出 GPT 5.6 Cyber 并扩展 Daybreak 网络安全倡议 ↗ 5 Microsoft AI 发布 MAI Image 2.6，位列 Arena 榜单第二名 ↗ 6 蚂蚁百灵开放Ling 3.0 tiny权重 7.9B总参数 ↗ 7 NV…",
+        "link": "https://daily.juya.uk/issues/2026-08-11/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-11T01:40:07+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Introducing Muse Glimmer",
+        "summary": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">Introducing Muse Glimmer</a></strong></p>\nMeta are back in the open weights game! Muse Glimmer is a brand new 30B model under a clean Apache 2.0 license (a step up from the janky Llama licenses of old).</p>\n<p>They claim to have optimized it for exactly the kind of things I'm looking for in a local model:</p>\n<blockquote>\n<ul>\n<li><strong>End-to-end Agentic Task Completion.</strong> Muse Glimmer achieves strong success rates on full-task benchmarks including DeepSearch QA, MCP-Atlas, 𝛕-Bench and SWE-Bench, which measure its ability to work within scaffolds, write and debug code, and resolve multi-turn requests from start to finish.</li>\n<li><strong>Reliable Tool Use.</strong> The model handles a wide range of function calls, invoking tools with precise schemas throughout extended workflows.</li>\n<li><strong>Multi-Step Reasoning.</strong> Muse Glimmer chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows. [...]</li>\n</ul>\n</blockquote>\n<p>Here's <a href=\"https://gist.github.com/simonw/f20d4cd0ea7596990f7910ead616493e\">a pelican</a> which I generated using LM Studio's <a href=\"https://lmstudio.ai/models/muse-glimmer\">18.16 GB version of the model</a>:</p>\n<p><img alt=\"All the pieces are there but they are pretty jumbled together.\" src=\"https://static.simonwillison.net/static/2026/glimmer-pelican.png\" /></p>\n<p>I also tried it out with my <a href=\"https://github.com/simonw/llm-coding-agent\">llm-coding-agent</a> plugin, running against a fresh checkout of Datasette with the prompt:</p>\n<blockquote>\n<p><code>how does auth work?</code></p>\n</blockquote>\n<p><a href=\"https://gist.github.com/simonw/3623676275da1a6078b2500dcc78116f#response-24\">Here's the response</a>, at the end of a long transcript showing all of the tool calls it made to explore the codebase. I ran this using <code>llm-lmstudio</code> with <a href=\"https://github.com/agustif/llm-lmstudio/pull/14\">this patch applied</a> to upgrade it for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</p>\n<p>I really like this size of model, because if a machine has 32 GB of RAM or more (mine has 128GB) it leaves plenty of space for running other applications at the same time.</p>\n<p>Glimmer is a vision model, so I asked it to describe this image:</p>\n<p><code>llm -m lmstudio/meta/muse-glimmer -a https://static.inaturalist.org/photos/714731804/large.jpg 'describe image'</code></p>\n<p><img alt=\"Two pelicans on some rocks\" src=\"https://static.simonwillison.net/static/2026/pelicans-on-rocks.jpg\" /></p>\n<p>Here's <a href=\"https://gist.github.com/simonw/288ef0dd33a913455d1b1ecc329637e0#response\">what I got back</a>:</p>\n<blockquote>\n<p>The photograph shows a rocky, breakwater-style shoreline on an overcast day with a smooth, gray body of water and a faint dock/pier line in the soft-focused background.</p>\n<p>In the foreground two large brown pelicans, <em>Pelecanus occidentalis</em>, are perched on the jumbled gray-white stones. They have the species’ characteristic long, down-curved yellow-orange bills with a large throat pouch, long slender necks and mottled brown-gray plumage on the back and wings. The pelican on the left is turned slightly toward the camera and appears to be preening or resting its bill against its chest; a pale, whitish patch is visible on the crown and nape and a small crest of feathers is raised. The pelican on the right faces mostly forward/right, its head up, bill pointing down and to the right, with the same pale head markings and the barred, darker wing feathers clearly visible.</p>\n<p>Scattered among the rocks around the two pelicans are several much smaller dark birds — gulls/tern-like birds in muted brown-gray plumage. One dark bird sits on the far left on a rock, another brownish bird stands to the right of the right-hand pelican, a grayish bird with a reddish bill is in the lower right foreground, and a further small dark bird is at the extreme right edge of the frame. </p>\n<p>The overall light is flat and diffused, giving the water and sky a muted, almost monochromatic palette that contrasts with the textured rock and the detailed feathering of the pelicans. The composition places the two big birds as the dominant subjects, framed against the calm water and the low, rocky perch.</p>\n</blockquote>\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llama\">llama</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/vision-llms\">vision-llms</a>, <a href=\"https://simonwillison.net/tags/meta\">meta</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/",
+        "author": "",
+        "keywords": "ai generative-ai llama local-llms llms llm vision-llms meta pelican-riding-a-bicycle llm-release",
+        "published": "2026-08-10T23:56:03+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Hugging Face Journal Club: Direct On-Policy Distillation",
+        "summary": "The Hugging Face research team discusses the paper \"Weak-to-Strong Generalization via Direct On-Policy Distillation\" which proposes a cheap way to transfer the benefits of reinforcement learning from small models to much larger ones. Instead of imitating the smaller model directly, it measures how RL changed the small model’s policy and uses that change as a dense reward signal to train the larger model. The result is a form of weak-to-strong generalization that can match or outperform direct RL on the larger model at a fraction of the compute cost.\n\nPaper link: https://huggingface.co/papers/2607.05394",
+        "link": "https://www.youtube.com/watch?v=S5wE1sjyiQY",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-08-11T18:05:57+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      },
+      {
+        "title": "OpenAI’s AI Agents Just Crossed A Line",
+        "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers\n\n📝 More reports are available here:\nhttps://openai.com/index/hugging-face-model-evaluation-security-incident/\nhttps://huggingface.co/blog/security-incident-july-2026\nhttps://huggingface.co/blog/agent-intrusion-technical-timeline\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=JQ97GiDwPxc",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-08-11T15:35:35+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      }
+    ]
+  }
+}
