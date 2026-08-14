@@ -1,0 +1,1038 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-14T22:45:49.228971+00:00",
+  "coverage": {
+    "start": "2026-08-13T22:00:00+00:00",
+    "end": "2026-08-14T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-08-14T22:43:06.901198+00:00",
+  "item_count": 51,
+  "source_count": 51,
+  "access_counts": {
+    "substantial": 3,
+    "partial": 48,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Don't classify. Hallucinate!",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-14T21:54:35+00:00",
+      "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+      "digest_excerpt": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p>\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p>\n<p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!</p>\n<p>His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:</p>\n<blockquote>\n<p><code>Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.</code></p>\n<p><code>Product classifications might look like:</code></p>\n<p><code>Furniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables</code><br />\n<code>Décor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows</code><br />\n<code>Furniture / Bedroom Furniture / Dressers &amp; Chests</code><br />\n<code>Kitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters</code><br />\n<code>School Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs</code><br />\n<code>Baby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds</code></p>\n<p><code>Here's the query to generate classifications for:</code></p>\n<p><code>brown coffee table</code></p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/search\">search</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/embeddings\">embeddings</a>, <a href=\"https://simonwillison.net/tags/doug-turnbull\">doug-turnbull</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+        "limitation": ""
+      },
+      "page_title": "Don't classify. Hallucinate!",
+      "page_description": "I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nWorkOS —\nauth.md\nby WorkOS: agents register users, no sign-up form.\nTry it!\n14th August 2026 - Link Blog\nDon't classify. Hallucinate!\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has\n1,856 tags\n- likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".\nDoug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!\nHis example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:\nYour task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.\nProduct classifications might look like:\nFurniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables\nDécor & Pillows / Decorative Pillows & Blankets / Throw Pillows\nFurniture / Bedroom Furniture / Dressers & Chests\nKitchen & Tabletop / Kitchen Organization / Food Storage & Canisters\nSchool Furniture and Supplies / School Furniture / School Chairs & Seating / Stackable Chairs\nBaby & Kids / Toddler & Kids Bedroom Furniture / Kids Beds\nHere's the query to generate classifications for:\nbrown coffee table\nPosted\n14th August 2026\nat 9:54 pm\nRecent articles\nNow we have a timeline of the OpenAI accidental attack against Hugging Face\n- 7th August 2026\nOne-shotting a Raccoon Heist game using Claude Fable 5\n- 5th August 2026\nNew release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging\n- 4th August 2026\nThis is a\nlink post\nby Simon Willison, posted on\n14th August 2026\n.\nsearch\n94\nai\n2,186\ngenerative-ai\n1,937\nllms\n1,904\nembeddings\n61\ndoug-turnbull\n3\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "2026-08-14",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-08-14T01:38:34+00:00",
+      "url": "https://daily.juya.uk/issues/2026-08-14/",
+      "digest_excerpt": "AI 早报 2026 08 14 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Google 发布 Gemini 3.7 Flash 模型 ↗ 1 DeepSeek 发布开源智能体框架 DeepSeek Harness 开发者预览版 ↗ 2 DeepSeek V4 Pro正式版官宣发布，API涨价8月17日生效 ↗ 3 OpenAI 联合 Cerebras 推出 GPT 5.6 Sol Ultrafast 模式 ↗ 4 ChatGPT 桌面应用上线 Computer History ↗ 5 模型发布 MiniMax 发布并开源 Music 3.0 音乐生成模型 ↗ 6 小红书 dots studio 发布开放权重模型 dots3 note preview ↗ 7 开发生态 OpenRouter 推出 G…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-08-14/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-08-14",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-08-14 ·\nMarkdown\nAI 早报 2026-08-14\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nGoogle 发布 Gemini 3.7 Flash 模型\n↗\n#1\nDeepSeek 发布开源智能体框架 DeepSeek Harness 开发者预览版\n↗\n#2\nDeepSeek V4 Pro正式版官宣发布，API涨价8月17日生效\n↗\n#3\nOpenAI 联合 Cerebras 推出 GPT-5.6 Sol Ultrafast 模式\n↗\n#4\nChatGPT 桌面应用上线 Computer History\n↗\n#5\n模型发布\nMiniMax 发布并开源 Music 3.0 音乐生成模型\n↗\n#6\n小红书 dots studio 发布开放权重模型 dots3-note preview\n↗\n#7\n开发生态\nOpenRouter 推出 Gemini 3.7 Flash 独家额外 50% 折扣至 8 月 27 日\n↗\n#8\nLongCat-2.0 上线 Nous Portal 限免一周\n↗\n#9\nClaude Code desktop 推出 auto-continue 选项\n↗\n#10\n快手 streamlake 宣布 KwaiKAT 系列模型及订阅方案将停服\n↗\n#11\nNousResearch 推出 Hermes Agent Bot Mode 插件并开启公测\n↗\n#12\nArtificial Analysis推出自定义基准测试平台Optima\n↗\n#13\n产品应用\nChatGPT 支持网页端直接打开并处理 Google Drive 文档\n↗\n#14\nAnthropic 优化 Slack 中的 Claude Tag 主动回应能力\n↗\n#15\nGoogle Sheets 上线 Sheets canvas\n↗\n#16\n微软将合并消费者版与企业版 Copilot 应用\n↗\n#17\n千问开放平台上线菜鸟智能体 支持对话寄快递\n↗\n#18\n超级小爱2.0“专家模式”上线 推出积分会员订阅方案\n↗\n#19\n行业动态\nIBM宣布与OpenAI达成战略合作，推进企业级AI规模化部署\n↗\n#20\n报道称 Databricks 完成 50 亿美元融资\n↗\n#21\n要闻\nGoogle 发布 Gemini 3.7 Flash 模型\n#1\nGoogle 发布了 Gemini 3.7 Flash 模型。官方称其在软件工程、Web开发和复杂知识工作流程上取得了显著提升，在多项基准测试中超越了前代模型。目前该模型已通过API、AI Studio等多平台全面上线，并在年底前提供半价优惠，同时3.6 Flash价格也已同步下调。\nGoogle宣布发布Gemini 3.7 Flash模型，此次更新距离上一版本3.6 Flash发布仅相隔约3周。官方表示，该模型在软件工程、Web开发和复杂知识工作流程上取得了显著提升，并在多项基准测试中超越了前代模型。目前，Gemini 3.7 Flash已通过Gemini API、Google AI Studio、Antigravity、Android Studio及Gemini Enterprise等平台向开发者、企业和部分个人用户开放。截至今年年底前，该模型的输入和输出Token价格分别为0.75美元和3.75美元每百万，且3.6 Flash的价格也已同步下调至该水平。\n相关链接：\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/\nhttps://deepmind.google/models/model-cards/gemini-3-7-flash\nhttps://ai.google.dev/gemini-api/docs/pricing\nDeepSeek 发布开源智能体框架 DeepSeek Harness 开发者预览版\n#2\nDeepSeek 发布了开源智能体框架 DeepSeek Harness 开发者预览版。该框架采用一切皆插件架构，模型、工具及 UI 等组件均可自由替换。框架支持标准、PTC、极简及创造四种模式，现已开放安装使用。\nDeepSeek 推出了开源智能体框架 DeepSeek Harness 的开发者预览版，并以 MIT 协议开放了源代码。该框架采用“一切皆插件”的架构，模型、工具、技能、会话、沙箱、存储、循环、调度和 UI 等所有组件均作为插件存在，开发者无需改动源码即可独立替换或扩展，并支持标准、PTC、极简和创造四种不同的运行模式。\n相关链接：\nhttps://mp.weixin.qq.com/s/mANdGRI4fO_sEbC1ECEoZQ\nhttps://github.com/deepseek-ai/deepseek-harness\nDeepSeek V4 Pro正式版官宣发布，API涨价8月17日生效\n#3\nDeepSeek 正式发布 DeepSeek V4 Pro 正式版，确认全端同步上线，并已在相关平台发布模型权重。与此同时，DeepSeek API 将于 8月17日0时启用新定价，并引入峰谷定价机制。\n深度求索正式发布DeepSeek V4 Pro正式版（DeepSeek-V4-Pro-0813），已同步在APP、网页端和API更新上线，用户可通过“专家模式”使用新模型，API模型名保持deepseek-v4-pro不变。官方称其Agent能力大幅提升，API 新增原生支持OpenAI Responses API格式并适配Codex，思考强度支持low/high/max三档。API定价将于北京时间2026年8月17日0时起涨价，并引入峰谷定价，高峰时段价格翻倍。\n相关链接：\nhttps://mp.weixin.qq.com/s/XGzdn5Kk5jmaM9XYAy9JMg\nhttps://api-docs.deepseek.com/zh-cn/quick_start/pricing\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813\nOpenAI 联合 Cerebras 推出 GPT-5.6 Sol Ultrafast 模式\n#4\nOpenAI 推出全新 API 服务层级 Ultrafast 模式，由 Cerebras 提供算力支持，使 GPT-5.6 Sol 的生成速度最高达到每秒 750 个输出 token，比标准模式快达 14 倍。该模式目前处于有限预览阶段，仅向部分客户开放。\nOpenAI 推出 Ultrafast 模式，作为 OpenAI API 中的新服务层级，专门运行 GPT-5.6 Sol 模型。该模式由 Cerebras 的 Wafer-Scale Engine 架构提供算力。根据 OpenAI 官方数据，Ultrafast 模式最高可生成每秒 750 个输出 token，速度比标准模式快达 14 倍。目前 Ultrafast 模式处于有限预览阶段，仅向选定客户群体开放，OpenAI 将根据工作负载匹配度和可用容量评估客户纳入，并随产能增长逐步扩大访问范围。\n相关链接：\nhttps://openai.com/index/previewing-ultrafast/\nhttps://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai\nhttps://openai.com/form/ultrafast/\nChatGPT 桌面应用上线 Computer History\n#5\nOpenAI 在 ChatGPT macOS 桌面应用中推出 Computer History 功能。该功能可记录用户跨应用和网站的交互活动并将其转化为记忆，目前已面向 Pro 和企业版用户推出。\nOpenAI 正式发布 ChatGPT 桌面应用的 Computer History 功能。该功能通过记录用户在授权应用和网站上的交互事件，将其转化为记忆和时间线，帮助 ChatGPT 和 Codex 理解用户近期工作并提供上下文。与此前依赖截图的 Chronicle 预览版不同，新系统不会捕获屏幕截图、屏幕录制或音频。目前该功能默认关闭，已向全球的 Pro、Business 和 Enterprise 用户推出，但要求用户主动开启并启用 Memories 功能。\n相关链接：\nhttps://learn.chatgpt.com/docs/customization/computer-history\nhttps://x.com/OpenAI/status/2087996496088297746\n模型发布\nMiniMax 发布并开源 Music 3.0 音乐生成模型\n#6\nMiniMax 官方发布并开源了 MiniMax Music 3.0 音乐生成模型。该模型可根据创意描述和歌词，单次生成包含人声与编曲、最长 5 分钟的完整歌曲。\nMiniMax 发布并开源了全新一代音乐生成模型 MiniMax Music 3.0，目前模型权重已在 Hugging Face 公开。该模型采用由 8B Global LLM 和 0.6B Local LLM 组成的混合架构，输出 32 kHz 立体声音频，旨在提升长篇音乐的结构稳定性与人声自然度。目前，模型支持通过 diffusers 等多种框架进行本地部署。\n相关链接：\nhttps://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model\nhttps://huggingface.co/MiniMaxAI/MiniMax-Music3\nhttps://github.com/MiniMax-AI/MiniMax-Music3\n小红书 dots studio 发布开放权重模型 dots3-note preview\n#7\n小红书 dots studio 发布 dots3-note preview 模型，280B 总参数，16B 激活参数，支持 512K 上下文及图像、视频、音频理解。模型已按 Apache 2.0 在相关平台发布权重。\n小红书旗下 dots studio 发布 dots3-note preview，这是 dots3 系列首个开放权重模型，采用 MoE 架构，总参数 280B、激活参数 16B，支持最长 512K token 上下文，可理解文本、图像、视频和音频并输出文本。该模型已按 Apache 2.0 协议开源至 Hugging Face、ModelScope 和 GitHub，并提供 BF16 与 FP8 两个版本。官方称配套开源了 VibeSearchBench 与 VibeLifeBench 两个面向真实生活场景的评测环境。\n相关链接：\nhttps://studio.dots.ai/dots/dots3-zh.html\nhttps://github.com/studio-dots-ai/dots3-note-prev\nhttps://huggingface.co/dots-studio/dots3-note-prev\n开发生态\nOpenRouter 推出 Gemini 3.7 Flash 独家额外 50% 折扣至 8 月 27 日\n#8\nOpenRouter 宣布 Gemini 3.7 Flash 在其平台享额外 50% 独家折扣，持续至 8 月 27 日。\nOpenRouter 官方宣布，Gemini 3.7 Flash 模型在其平台享有额外 50% 的独家折扣，优惠期持续至 8 月 27 日。优惠期定价为每百万 token 输入约 0.375 美元、输出 1.88 美元。\n相关链接：\nhttps://x.com/OpenRouter/status/2087952866409656733\nLongCat-2.0 上线 Nous Portal 限免一周\n#9\nNous Research宣布LongCat-2.0模型在Nous Portal上提供为期一周的免费使用。\nNous Research 宣布 Meituan LongCat的LongCat-2.0模型，在Nous Portal上提供为期一周的免费访问。\n相关链接：\nhttps://portal.nousresearch.com\nhttps://x.com/NousResearch/status/2087974207766339949\nClaude Code desktop 推出 auto-continue 选项\n#10\nClaude Code desktop 新增 auto-continue 复选框。用户开启该功能后，一旦{使用限额|\"使用限额\"}发生重置，系统将自动从中断处继续运行。\nClaudeDevs 宣布，Claude Code desktop 现已新增 auto-continue 复选框功能。这一功能主要针对用户在使用过程中达到使用限额的情况。当用户开启该选项后，无需手动重启任务。一旦系统使用限额发生重置，Claude Code desktop 会自动从上次中断的地方继续运行。\n相关链接：\nhttps://x.com/ClaudeDevs/status/2088014831605702937\n快手 streamlake 宣布 KwaiKAT 系列模型及订阅方案将停服\n#11\n快手 streamlake 发布通知，因业务{升级调整|\"升级调整\"}，KwaiKAT 系列模型及 Coding Plan 将于 2026 年 8 月 31 日停止服务。\n快手 streamlake 发布最新通知，因业务升级调整，决定正式下线 KwaiKAT 系列模型及配套的订阅方案。本次受影响的具体对象包括 KAT-Coder-Pro V2.5 与 KAT-Coder-Air V2.5 两款模型，以及 KwaiKAT Coding Plan。上述模型和订阅方案将于 2026 年 8 月 31 日 23:59:59 正式停止服务，届时相关能力将不再对用户开放。\n相关链接：\nhttps://linux.do/t/topic/2747238\nNousResearch 推出 Hermes Agent Bot Mode 插件并开启公测\n#12\nNousResearch 推出 Hermes Agent 的 Bot Mode 桌面插件并开启公测。该插件将配置文件转化为具名 bot，每个 bot 具备独立聊天、头像、人设与例行任务，且支持 bot 间相互通讯。\nNousResearch 宣布发布 Hermes Agent 的 Bot Mode 桌面插件并启动公测。作为一种新的替代模式，Bot Mode 在界面侧边栏提供 Bot 列表，将原有的 agent profile 转换为独立的具名 bot。每个 bot 拥有专属的聊天记录、头像、SOUL.md 人设文件、技能和记忆，用户可直接在列表中点击切换，无需再手动切换配置文件。该插件目前不需要核心代码补丁，要求用户更新至最新的 Hermes 桌面应用。\n相关链接：\nhttps://github.com/NousResearch/Hermes-Bot-Mode\nhttps://github.com/NousResearch/hermes-agent/issues/64182#issuecomment-5275487630\nArtificial Analysis推出自定义基准测试平台Optima\n#13\nArtificial Analysis推出模型基准测试平台Optima。用户可利用自身数据构建专属测试，比较多款模型的质量、成本与耗时。\nArtificial Analysis宣布正式推出自定义基准测试平台Optima，帮助用户寻找最适合自身特定任务的模型。该平台允许用户通过上传文件、导入Agent轨迹、安装编程环境插件或直接描述用例来构建专属基准测试。用户可以一键运行多个前沿模型进行对比，并使用标准评分或配对评分等方式评估其在质量、每项任务成本和耗时方面的表现。Optima采用基于token使用量的计费方式，同时为限时注册的新用户提供10美元体验额度。\n相关链接：\nhttps://artificialanalysis.ai/optima\nhttps://x.com/ArtificialAnlys/status/2087930781050322977\n产品应用\nChatGPT 支持网页端直接打开并处理 Google Drive 文档\n#14\nChatGPT 网页端现已支持直接打开 Google Drive 的文档、表格和幻灯片。此功能正逐步向 ChatGPT 及 ChatGPT Work 的 Plus、{Pro|\"Pro\"}、Business 和 {Enterprise |\"Enterprise \"}订阅用户推出。\nChatGPT 现已支持用户在网页端直接打开 Google Drive 的文档、表格或幻灯片，允许用户在不切换网页标签页的情况下进行并排工作。这项新功能目前正在网页端逐步推出，适用范围涵盖 ChatGPT 和 ChatGPT Work 的 Plus、Pro、Business 以及 Enterprise 用户。\n相关链接：\nhttps://x.com/ChatGPT/status/2088044956091089281\nAnthropic 优化 Slack 中的 Claude Tag 主动回应能力\n#15\nAnthropic 更新了 Slack 中的 Claude Tag 功能，使其能够利用整个频道的上下文来决定何时主动参与对话。该功能目前已向 Claude Teams 和 Enterprise 客户开放。\nAnthropic 宣布更新其集成在 Slack 中的 Claude Tag 功能，去除了原先仅能逐条判断消息的分类器，转而使用整个频道的上下文及用户提供的持久指令来决定行动。更新后的 Claude Tag 加快了首次响应速度，并能在持续无实质内容可添加时进入休眠，直至被用户 @ 提及。此更新目前已在 Claude Tag 中上线，专门面向 Claude Teams 和 Enterprise 客户。官方明确表示，此次更新今天不收取额外费用，且额外的上下文消耗不会计入任何订阅方案的用量或支出限制。\n相关链接：\nhttps://claude.com/blog/claude-tag-now-reads-even-more-of-the-room\nhttps://x.com/bullbear_info/status/2087991323676770561\nGoogle Sheets 上线 Sheets canvas\n#16\nGoogle 推出 Google 表格新功能 Sheets canvas。用户通过提示词可将表格数据转化为交互式应用。该功能现面向 Google AI Pro 和 Ultra 订阅用户等开放。\nGoogle 推出了 Google 表格中的新功能 Sheets canvas。这是一项基于 Gemini 构建的功能，用户只需使用简单的自然语言提示词，即可将静态的表格数据转化为交互式仪表板等可视化界面，整个过程无需编写公式或代码。Sheets canvas 作为读写层与原始数据实时同步，并支持像普通表格一样进行协作分享。该功能目前面向 Google AI Pro 和 Ultra 订阅者全球提供英文版本，同时开始向使用特定套餐的 Google Workspace 客户以及相关教育版附加组件订阅者陆续推出。\n相关链接：\nhttps://x.com/Google/status/2087988848227705022\nhttps://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/\n微软将合并消费者版与企业版 Copilot 应用\n#17\n微软正合并消费者版和企业版 Copilot 应用，将下线群聊、AI 播客、Deep Research 等多项功能。独立应用文件将迁移至 OneDrive。\n微软正在合并面向消费者的 Copilot 应用与面向企业的 Microsoft 365 Copilot 应用，并将逐步淘汰一批使用效果不佳的 AI 功能。根据微软支持文档，普通用户将于 2026 年 8 月 18 日前失去群聊、AI 生成播客、Copilot Labs 实验功能及 Deep Research 的访问权限。独立 Copilot 应用生成的文件将迁移至 OneDrive。\n相关链接：\nhttps://support.microsoft.com/en-us/microsoft-365-copilot/learning/changes-microsoft-copilot-app\nhttps://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/\n千问开放平台上线菜鸟智能体 支持对话寄快递\n#18\n千问宣布千问开放平台上线菜鸟智能体，用户通过对话提出寄件需求，智能体即可推荐合适的寄件方案及快递公司。\n千问开放平台正式上线菜鸟智能体，用户可通过对话方式寄送快递。该智能体能根据物品类型、价格和上门时间等需求，推荐合适的寄件方案及快递公司，并支持寄件政策答疑、大件寄送推荐和历史地址自动补全等功能。目前，用户需将千问更新至最新版，即可通过@菜鸟或直接提出需求等方式调用该智能体。\n相关链接：\nhttps://mp.weixin.qq.com/s/SIziGfNymECoydXcEu_Apg\n超级小爱2.0“专家模式”上线 推出积分会员订阅方案\n#19\n超级小爱2.0在小米澎湃OS 4 Beta版上线“专家模式”及积分订阅方案。该模式接入Xiaomi MiMo模型，支持复杂任务编排与文档生成，每月提供1000积分。用户可购买付费方案获取更多积分及专属权益。\n超级小爱2.0正式上线了“专家模式”，并采用统一积分制推出相应的会员订阅方案。该模式接入Xiaomi MiMo模型，支持复杂任务编排、跨设备联动及文档生成，每月为所有用户免费提供1,000积分。重度AI用户可按需选择连续包月19元至99元不等的付费订阅方案，以获取更多积分及专属权益。目前，超级小爱2.0“专家模式”已面向测试用户在小米澎湃OS 4 Beta版中开放报名体验。\n相关链接：\nhttps://mp.weixin.qq.com/s/N8_NxWt6tnEysgfuTCVy7A\n行业动态\nIBM宣布与OpenAI达成战略合作，推进企业级AI规模化部署\n#20\nIBM宣布与OpenAI达成战略合作，帮助相关行业推进核心业务流程的AI规模化部署。合作聚焦传统运营转型、应用现代化和网络安全三大方向，IBM将设立专门的OpenAI业务部并加入OpenAI精英合作伙伴层级。\nIBM日前宣布与OpenAI建立战略合作伙伴关系，将GPT-5.6、Codex和ChatGPT Work等OpenAI前沿模型及产品嵌入IBM Consulting Advantage，帮助企业面向金融、政府、电信和零售等行业，以及财务、采购、客户运营和人力资源等领域推进AI规模化部署。合作覆盖三大重点方向：将传统运营流程改造为AI就绪工作流、应用现代化与产品开发、网络安全与AI风险管理。IBM将设立专属的OpenAI业务部，数千名顾问和工程师将通过OpenAI合作伙伴网络考核获取专家级认证；作为合作的一部分，IBM将加入OpenAI精英合作伙伴层级，双方还将共同打造面向重点行业的解决方案。\n相关链接：\nhttps://newsroom.ibm.com/2026-08-13-ibm-partners-with-openai-to-accelerate-secure-ai-deployment-for-enterprises-across-core-operations\n报道称 Databricks 完成 50 亿美元融资\n#21\n据报道，Databricks 完成 50 亿美元融资，估值达 1900 亿美元，资金将用于投资企业级 AI 能力。\n据媒体报道，Databricks 宣布完成 50 亿美元融资，公司估值达到 1900 亿美元，本轮融资由 Coatue 和 Blackstone 等机构领投。Databricks 表示，公司第二季度营收运行率已超过 70 亿美元，同比增长超过 80%，融资所得将专门用于投资企业级 AI 能力。首席执行官 Ali Ghodsi 透露，受市场波动及专注 AI 产品投资的影响，Databricks 虽有上市打算，但目前暂缓了该计划。\n相关链接：\nhttps://www.databricks.com/blog/databricks-lakebase-generally-available\nhttps://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "sqlite-utils 4.2.1",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-13T23:53:47+00:00",
+      "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+      "digest_excerpt": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p>\n        <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p>\n<pre><code>from typing_extensions import Self\n</code></pre>\n<p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils</code> - it was installed by one of the other dependencies in the <a href=\"https://github.com/simonw/sqlite-utils/blob/56dd09702fdb9e899f577ffd51693c1f2176cb08/pyproject.toml#L34-L55\">dev dependency group</a>, but when you <code>uvx sqlite-utils</code> directly you don't get those dependencies.</p>\n<p>As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:</p>\n<pre><code>uv run --isolated --no-default-groups sqlite-utils --help\n</code></pre>\n<p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+        "limitation": ""
+      },
+      "page_title": "Release: sqlite-utils 4.2.1",
+      "page_description": "Python CLI utility and library for manipulating SQLite databases",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nWorkOS —\nauth.md\nby WorkOS: agents register users, no sign-up form.\nTry it!\n13th August 2026\nRelease\nsqlite-utils 4.2.1\n— Python CLI utility and library for manipulating SQLite databases\nFixes a crashing bug in\nsqlite-utils 4.2\n. I'd introduced code that looks like this:\nfrom typing_extensions import Self\nIt turned out the\ntyping-extensions\npackage was not listed as a dependency for\nsqlite-utils\n- it was installed by one of the other dependencies in the\ndev dependency group\n, but when you\nuvx sqlite-utils\ndirectly you don't get those dependencies.\nAs part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:\nuv run --isolated --no-default-groups sqlite-utils --help\nThe\n--no-default-groups\nargument prevents it from installing that default\ndev\ngroup, and\n--isolated\nmeans that even if there is a\n.venv/\nfolder containing extra dependencies they will be ignored for the duration of that\nuv run\ncommand.\nPosted\n13th August 2026\nat 11:53 pm\nRecent articles\nNow we have a timeline of the OpenAI accidental attack against Hugging Face\n- 7th August 2026\nOne-shotting a Raccoon Heist game using Claude Fable 5\n- 5th August 2026\nNew release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging\n- 4th August 2026\nThis is a\nbeat\nby Simon Willison, posted on\n13th August 2026\n.\npackaging\n53\npython\n1,274\nsqlite-utils\n237\nuv\n99\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S004",
+      "kind": "video",
+      "title": "Why Can't We Raise AI Like We Raise Kids? - Ryan Greenblatt",
+      "source_name": "Dwarkesh Patel",
+      "author": "Dwarkesh Clips",
+      "published": "2026-08-14T20:03:23+00:00",
+      "url": "https://www.youtube.com/watch?v=wSX0jXBAxwA",
+      "digest_excerpt": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=wSX0jXBAxwA",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp"
+    },
+    {
+      "id": "S005",
+      "kind": "video",
+      "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-14T17:19:17+00:00",
+      "url": "https://www.youtube.com/watch?v=EDWbX_-RYws",
+      "digest_excerpt": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second.\n\nOpenAI technical staff are already seeing what that speed changes. One security investigation workflow that once took one to two hours now takes 10–15 minutes, sometimes approaching real time. In other workflows, staff use Ultrafast to investigate root causes, search systems in parallel, and stay in flow while coding.\n\nUltrafast is available to a select group of API customers, with access expanding as capacity grows.\n\nLearn more: https://openai.com/index/previewing-ultrafast/",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=EDWbX_-RYws",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second.\n\nOpenAI technical staff are already seeing what that speed changes. One security investigation workflow that once took one to two hours now takes 10–15 minutes, sometimes approaching real time. In other workflows, staff use Ultrafast to investigate root causes, search systems in parallel, and stay in flow while coding.\n\nUltrafast is available to a select group of API customers, with access expanding as capacity grows.\n\nLearn more: https://openai.com/index/previewing-ultrafast/"
+    },
+    {
+      "id": "S006",
+      "kind": "video",
+      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+      "source_name": "Two Minute Papers",
+      "author": "Two Minute Papers",
+      "published": "2026-08-14T08:42:07+00:00",
+      "url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+      "digest_excerpt": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/riemann-zeta\n\nSource:\nhttps://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/riemann-zeta\n\nSource:\nhttps://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi"
+    },
+    {
+      "id": "S007",
+      "kind": "video",
+      "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-14T06:30:28+00:00",
+      "url": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
+      "digest_excerpt": "What gives one of cricket’s smartest teams its edge before the first ball is bowled?\n\nGo behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, and creative work across the organization.",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "What gives one of cricket’s smartest teams its edge before the first ball is bowled?\n\nGo behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, and creative work across the organization."
+    },
+    {
+      "id": "S008",
+      "kind": "x",
+      "title": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stand",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-14T21:46:07+00:00",
+      "url": "https://x.com/swyx/status/2088381680478540096",
+      "digest_excerpt": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stands for \"we are going to kill so many meetings\" https://t.co/sQsoPICYzT",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088381680478540096",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stands for \"we are going to kill so many meetings\" https://t.co/sQsoPICYzT"
+    },
+    {
+      "id": "S009",
+      "kind": "x",
+      "title": "ask away",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-14T20:14:31+00:00",
+      "url": "https://x.com/swyx/status/2088358628000768263",
+      "digest_excerpt": "ask away",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088358628000768263",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ask away"
+    },
+    {
+      "id": "S010",
+      "kind": "x",
+      "title": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-08-14T19:19:30+00:00",
+      "url": "https://x.com/joshwoodward/status/2088344782821326980",
+      "digest_excerpt": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2088344782821326980",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo"
+    },
+    {
+      "id": "S011",
+      "kind": "x",
+      "title": "We’ve written an FAQ to answer some of the questions we've received about watermarking. \n\nIn summary:\n\n• We’re implement",
+      "source_name": "Anthropic",
+      "author": "AnthropicAI",
+      "published": "2026-08-14T19:16:18+00:00",
+      "url": "https://x.com/AnthropicAI/status/2088343978873966687",
+      "digest_excerpt": "We’ve written an FAQ to answer some of the questions we've received about watermarking. \n\nIn summary:\n\n• We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking;\n• Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs;\n• The difference between watermarked and un-watermarked text will not be distinguishable to readers;\n• Nothing is added to the text and there are no hidden characters;\n• Watermarking doesn’t require extra tokens, and will not be more expensive;\n• Watermarks can’t be traced to a specific person, organization, or chat.\n\nRead more: https://t.co/G76iUOJ7Hu",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AnthropicAI/status/2088343978873966687",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We’ve written an FAQ to answer some of the questions we've received about watermarking. \n\nIn summary:\n\n• We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking;\n• Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs;\n• The difference between watermarked and un-watermarked text will not be distinguishable to readers;\n• Nothing is added to the text and there are no hidden characters;\n• Watermarking doesn’t require extra tokens, and will not be more expensive;\n• Watermarks can’t be traced to a specific person, organization, or chat.\n\nRead more: https://t.co/G76iUOJ7Hu"
+    },
+    {
+      "id": "S012",
+      "kind": "x",
+      "title": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risk",
+      "source_name": "Anthropic",
+      "author": "AnthropicAI",
+      "published": "2026-08-14T18:00:12+00:00",
+      "url": "https://x.com/AnthropicAI/status/2088324824863236248",
+      "digest_excerpt": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them.\n\nOur second Risk Report is now available: https://t.co/NgWnDmXZD3",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AnthropicAI/status/2088324824863236248",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them.\n\nOur second Risk Report is now available: https://t.co/NgWnDmXZD3"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "Vercel is the fastest [AI Gateway] infrastructure in the world",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-14T17:54:44+00:00",
+      "url": "https://x.com/rauchg/status/2088323451132199338",
+      "digest_excerpt": "Vercel is the fastest [AI Gateway] infrastructure in the world",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2088323451132199338",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Vercel is the fastest [AI Gateway] infrastructure in the world"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour N",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-14T17:49:48+00:00",
+      "url": "https://x.com/swyx/status/2088322211241447801",
+      "digest_excerpt": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour NYC event last year was the most successful summit we've ever had. excited to head back to 🗽 bigger and better than ever - note the special requirements for our mainstage finance keynotes",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088322211241447801",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour NYC event last year was the most successful summit we've ever had. excited to head back to 🗽 bigger and better than ever - note the special requirements for our mainstage finance keynotes"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "Perplexity's Search SDK, which makes Perplexity Computer the best-in-class product for wide and deep research, is now av",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-14T17:05:32+00:00",
+      "url": "https://x.com/AravSrinivas/status/2088311070368870873",
+      "digest_excerpt": "Perplexity's Search SDK, which makes Perplexity Computer the best-in-class product for wide and deep research, is now available to use inside any agentic harness!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2088311070368870873",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Perplexity's Search SDK, which makes Perplexity Computer the best-in-class product for wide and deep research, is now available to use inside any agentic harness!"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of o",
+      "source_name": "Google Labs",
+      "author": "GoogleLabs",
+      "published": "2026-08-14T16:50:50+00:00",
+      "url": "https://x.com/GoogleLabs/status/2088307370787328223",
+      "digest_excerpt": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of our AI models to all kinds of users. Try out these two (if you haven't already!):\n\n@PomellibyGoogle - build captivating marketing campaigns tailored to your brand and your business at scale\n\n@FlowbyGoogle - craft visual stories that channel your imagination and draw the attention of your audience",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleLabs/status/2088307370787328223",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of our AI models to all kinds of users. Try out these two (if you haven't already!):\n\n@PomellibyGoogle - build captivating marketing campaigns tailored to your brand and your business at scale\n\n@FlowbyGoogle - craft visual stories that channel your imagination and draw the attention of your audience"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting pro",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T16:49:04+00:00",
+      "url": "https://x.com/elonmusk/status/2088306926442430578",
+      "digest_excerpt": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting problems on land",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088306926442430578",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting problems on land"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "damn deepseek moves fast on roon tweets https://t.co/PSvo3MaDPJ",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-14T16:30:10+00:00",
+      "url": "https://x.com/swyx/status/2088302169166622739",
+      "digest_excerpt": "damn deepseek moves fast on roon tweets https://t.co/PSvo3MaDPJ",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088302169166622739",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "damn deepseek moves fast on roon tweets https://t.co/PSvo3MaDPJ"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N",
+      "source_name": "Andrew Ng",
+      "author": "AndrewYNg",
+      "published": "2026-08-14T16:29:42+00:00",
+      "url": "https://x.com/AndrewYNg/status/2088302050706686198",
+      "digest_excerpt": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AndrewYNg/status/2088302050706686198",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-14T16:15:43+00:00",
+      "url": "https://x.com/danshipper/status/2088298533912989736",
+      "digest_excerpt": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2027.\n\nIf a person comes to mind—an executive, a builder, a creative—nominate them. We’ve reserved free tickets for our favorite nominees.\n\nhttps://t.co/ModuXIMpdY",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2088298533912989736",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2027.\n\nIf a person comes to mind—an executive, a builder, a creative—nominate them. We’ve reserved free tickets for our favorite nominees.\n\nhttps://t.co/ModuXIMpdY"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "Perplexity 👑 https://t.co/hLRAeRsstx",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-14T16:11:10+00:00",
+      "url": "https://x.com/AravSrinivas/status/2088297387072909345",
+      "digest_excerpt": "Perplexity 👑 https://t.co/hLRAeRsstx",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2088297387072909345",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Perplexity 👑 https://t.co/hLRAeRsstx"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founder",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-08-14T15:42:39+00:00",
+      "url": "https://x.com/adityaag/status/2088290208911675761",
+      "digest_excerpt": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founders.\n\n@evantana  doesn't like to talk about himself...but it is one of the great joys (and privileges) of my life to work with someone as driven, talented and curious as him to build SPC for many years and decades to come.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2088290208911675761",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founders.\n\n@evantana  doesn't like to talk about himself...but it is one of the great joys (and privileges) of my life to work with someone as driven, talented and curious as him to build SPC for many years and decades to come."
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "Yes",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T15:28:20+00:00",
+      "url": "https://x.com/elonmusk/status/2088286607077990820",
+      "digest_excerpt": "Yes",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088286607077990820",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Yes"
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Impressive numbers for a 700b parameter model!",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-14T15:01:20+00:00",
+      "url": "https://x.com/AravSrinivas/status/2088279811261362239",
+      "digest_excerpt": "Impressive numbers for a 700b parameter model!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2088279811261362239",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Impressive numbers for a 700b parameter model!"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "It is an honor to have such a great team join @SpaceX",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T14:36:12+00:00",
+      "url": "https://x.com/elonmusk/status/2088273489820061920",
+      "digest_excerpt": "It is an honor to have such a great team join @SpaceX",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088273489820061920",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It is an honor to have such a great team join @SpaceX"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant dea",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-14T14:25:21+00:00",
+      "url": "https://x.com/danshipper/status/2088270756043993503",
+      "digest_excerpt": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant death match with other rocketships to capture customers, sacrificing gross margin\n\nbut the rules for building a company like that are very different",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2088270756043993503",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant death match with other rocketships to capture customers, sacrificing gross margin\n\nbut the rules for building a company like that are very different"
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest wa",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-08-14T13:49:22+00:00",
+      "url": "https://x.com/joshwoodward/status/2088261701028503965",
+      "digest_excerpt": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest ways to make your products look good in any setting.\n\nWith this launch, turn those amazing photoshoots into short videos or gifs with that same ease!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2088261701028503965",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest ways to make your products look good in any setting.\n\nWith this launch, turn those amazing photoshoots into short videos or gifs with that same ease!"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called Twe",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-14T13:46:58+00:00",
+      "url": "https://x.com/petergyang/status/2088261100202868768",
+      "digest_excerpt": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions.\n\nThe model is trained to recognize patterns such as:\n\n→ TWEET_CREATE_BURST\n→ QUOTE_TWEET_SPAMMER\n→ CONTENT_AMPLIFIER\n\nA high score on the above can feed into an account challenge but doesn't seem to downrank the slop posts themselves.\n\nI think the gap here is that the model doesn’t read the actual post content.\n\nSo a sophisticated AI content mill can still post slop all day long:\n\n1. Find viral posts\n2. Quote tweet with the same template each time: hook → numbers → backstory → takeaway\n3. Repeat 10+ times a day across unrelated topics\n\nIf @X doesn't want to become like LinkedIn, I think it should consider looking at accounts that repeatedly turn unrelated viral posts into the same templated quote tweet slop at high volume.\n\nRight now the guardrails above are too easy to bypass.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2088261100202868768",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions.\n\nThe model is trained to recognize patterns such as:\n\n→ TWEET_CREATE_BURST\n→ QUOTE_TWEET_SPAMMER\n→ CONTENT_AMPLIFIER\n\nA high score on the above can feed into an account challenge but doesn't seem to downrank the slop posts themselves.\n\nI think the gap here is that the model doesn’t read the actual post content.\n\nSo a sophisticated AI content mill can still post slop all day long:\n\n1. Find viral posts\n2. Quote tweet with the same template each time: hook → numbers → backstory → takeaway\n3. Repeat 10+ times a day across unrelated topics\n\nIf @X doesn't want to become like LinkedIn, I think it should consider looking at accounts that repeatedly turn unrelated viral posts into the same templated quote tweet slop at high volume.\n\nRight now the guardrails above are too easy to bypass."
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.\n\nThis app",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-08-14T13:39:36+00:00",
+      "url": "https://x.com/joshwoodward/status/2088259242423968162",
+      "digest_excerpt": "✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.\n\nThis applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it’s required by law to keep them. https://t.co/utHN0yDmD3",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2088259242423968162",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.\n\nThis applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it’s required by law to keep them. https://t.co/utHN0yDmD3"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It i",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-08-14T13:21:07+00:00",
+      "url": "https://x.com/fchollet/status/2088254592182305165",
+      "digest_excerpt": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It is not meant to be used as training data, and it is not meant to be used as an eval. Scores on the public demonstration set are not indicative of scores on the actual benchmark.\n\nThe demonstration set is intended to demonstrate the format and drive human engagement.\n\nThe private eval set is substantially more difficult and more novel.\n\nThe top score on the Kaggle leaderboard today is 2.70% (that's the semi-private set -- at the end of the competition, the submissions are scored on the fully private set).",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2088254592182305165",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It is not meant to be used as training data, and it is not meant to be used as an eval. Scores on the public demonstration set are not indicative of scores on the actual benchmark.\n\nThe demonstration set is intended to demonstrate the format and drive human engagement.\n\nThe private eval set is substantially more difficult and more novel.\n\nThe top score on the Kaggle leaderboard today is 2.70% (that's the semi-private set -- at the end of the competition, the submissions are scored on the fully private set)."
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one r",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-14T12:48:56+00:00",
+      "url": "https://x.com/danshipper/status/2088246494885302639",
+      "digest_excerpt": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one room \n\nif you’re a business interested in being part of this event DM @itsbdell",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2088246494885302639",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one room \n\nif you’re a business interested in being part of this event DM @itsbdell"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesi",
+      "source_name": "François Chollet",
+      "author": "fchollet",
+      "published": "2026-08-14T12:37:51+00:00",
+      "url": "https://x.com/fchollet/status/2088243704603824311",
+      "digest_excerpt": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic world model, i.e. making sense of the world by writing executable code that encodes your understanding of the causal mechanics of the world.\n\nSo far, all of the top-performing harnesses on ARC-AGI-3 use this style of approach. Which is also the approach we recommended when we initially released the benchmark (Jeremy would know this better than most, as a former Ndea member of technical staff).\n\nI'm happy that ARC 3 has incentivized more research and more progress in this area.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/fchollet/status/2088243704603824311",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic world model, i.e. making sense of the world by writing executable code that encodes your understanding of the causal mechanics of the world.\n\nSo far, all of the top-performing harnesses on ARC-AGI-3 use this style of approach. Which is also the approach we recommended when we initially released the benchmark (Jeremy would know this better than most, as a former Ndea member of technical staff).\n\nI'm happy that ARC 3 has incentivized more research and more progress in this area."
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "How to use @bot",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T06:23:06+00:00",
+      "url": "https://x.com/elonmusk/status/2088149393731981516",
+      "digest_excerpt": "How to use @bot",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088149393731981516",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "How to use @bot"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "Grok 4.6 ranks #1 on CursorBench for real-world coding",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T05:40:35+00:00",
+      "url": "https://x.com/elonmusk/status/2088138697002668110",
+      "digest_excerpt": "Grok 4.6 ranks #1 on CursorBench for real-world coding",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088138697002668110",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok 4.6 ranks #1 on CursorBench for real-world coding"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "Grok Imagine",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T05:35:06+00:00",
+      "url": "https://x.com/elonmusk/status/2088137315109449870",
+      "digest_excerpt": "Grok Imagine",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088137315109449870",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok Imagine"
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-14T05:21:13+00:00",
+      "url": "https://x.com/thsottiaux/status/2088133823619895712",
+      "digest_excerpt": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2088133823619895712",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints."
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade!",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-14T04:55:56+00:00",
+      "url": "https://x.com/elonmusk/status/2088127459971522726",
+      "digest_excerpt": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2088127459971522726",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade!"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVk",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-14T04:45:16+00:00",
+      "url": "https://x.com/amasad/status/2088124774824521786",
+      "digest_excerpt": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVkdObE",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2088124774824521786",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVkdObE"
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "It’s certainly true at Replit.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-14T03:58:05+00:00",
+      "url": "https://x.com/amasad/status/2088112901852971056",
+      "digest_excerpt": "It’s certainly true at Replit.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2088112901852971056",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It’s certainly true at Replit."
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "wild to see Sol at 14x speed:",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-14T03:53:27+00:00",
+      "url": "https://x.com/gdb/status/2088111733973934346",
+      "digest_excerpt": "wild to see Sol at 14x speed:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2088111733973934346",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "wild to see Sol at 14x speed:"
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "chatgpt for saving you money",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-14T03:50:33+00:00",
+      "url": "https://x.com/gdb/status/2088111005297471894",
+      "digest_excerpt": "chatgpt for saving you money",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2088111005297471894",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "chatgpt for saving you money"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "By next year, using a computer will be optional. Work will radically change.",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-14T03:49:56+00:00",
+      "url": "https://x.com/amasad/status/2088110851681386864",
+      "digest_excerpt": "By next year, using a computer will be optional. Work will radically change.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2088110851681386864",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "By next year, using a computer will be optional. Work will radically change."
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? O",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-14T03:39:49+00:00",
+      "url": "https://x.com/petergyang/status/2088108304274960667",
+      "digest_excerpt": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? Or two separate sections for each?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2088108304274960667",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? Or two separate sections for each?"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineer",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-08-14T03:28:05+00:00",
+      "url": "https://x.com/levie/status/2088105350201270529",
+      "digest_excerpt": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineers a power tool that can accelerate the development of whatever we want. \n\nOf course their value not only remains critical in that world, but actually goes up in many domains because we can apply engineering to far more work than before.\n\nIf you’re trying to automate drug discovery, you need engineers. If you’re trying to automate manufacturing, you need engineers. If you’re taking on larger and larger software projects, you need engineers.\n\nThis will happen in domains beyond engineering too. AI causes companies to take on way more work than before, which leads to needing more experts to oversee the work. \n\nEven as models get better and better, they can be better utilized by the experts in those fields than the novices. Great time to be an expert.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2088105350201270529",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineers a power tool that can accelerate the development of whatever we want. \n\nOf course their value not only remains critical in that world, but actually goes up in many domains because we can apply engineering to far more work than before.\n\nIf you’re trying to automate drug discovery, you need engineers. If you’re trying to automate manufacturing, you need engineers. If you’re taking on larger and larger software projects, you need engineers.\n\nThis will happen in domains beyond engineering too. AI causes companies to take on way more work than before, which leads to needing more experts to oversee the work. \n\nEven as models get better and better, they can be better utilized by the experts in those fields than the novices. Great time to be an expert."
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or pr",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-14T03:21:10+00:00",
+      "url": "https://x.com/thsottiaux/status/2088103609477238858",
+      "digest_excerpt": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2088103609477238858",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow."
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "/ultrafast",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-08-14T03:12:45+00:00",
+      "url": "https://x.com/sama/status/2088101491802243121",
+      "digest_excerpt": "/ultrafast",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2088101491802243121",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "/ultrafast"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "Perplexity Agent API is the best for web search and browsing agents",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-14T02:19:06+00:00",
+      "url": "https://x.com/AravSrinivas/status/2088087990048600107",
+      "digest_excerpt": "Perplexity Agent API is the best for web search and browsing agents",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2088087990048600107",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Perplexity Agent API is the best for web search and browsing agents"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for b",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-14T01:22:37+00:00",
+      "url": "https://x.com/swyx/status/2088073777779515615",
+      "digest_excerpt": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps\n\nworks INCREDIBLY for design explorations",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088073777779515615",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps\n\nworks INCREDIBLY for design explorations"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?",
+      "source_name": "Aditya Agarwal",
+      "author": "adityaag",
+      "published": "2026-08-14T00:23:02+00:00",
+      "url": "https://x.com/adityaag/status/2088058783767658541",
+      "digest_excerpt": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/adityaag/status/2088058783767658541",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "!!!!!\n\nit's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better p",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-13T23:44:48+00:00",
+      "url": "https://x.com/swyx/status/2088049159509344265",
+      "digest_excerpt": "!!!!!\n\nit's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better people. Dynarize is now a globally trusted $14B observability powerhouse that just got one of the best AI-native US teams in this business. \n\nif you're interested to learn more, come to @aidotengineer NYC this fall: https://t.co/9j7D5tVfOg where they are the first non-bigcloud to be an AIE presenting sponsor!!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2088049159509344265",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "!!!!!\n\nit's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better people. Dynarize is now a globally trusted $14B observability powerhouse that just got one of the best AI-native US teams in this business. \n\nif you're interested to learn more, come to @aidotengineer NYC this fall: https://t.co/9j7D5tVfOg where they are the first non-bigcloud to be an AIE presenting sponsor!!"
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but kee",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-13T22:53:43+00:00",
+      "url": "https://x.com/petergyang/status/2088036303816519734",
+      "digest_excerpt": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but keeps our floors super clean. 😅",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2088036303816519734",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but keeps our floors super clean. 😅"
+    }
+  ]
+}

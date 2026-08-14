@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-14T22:43:06.901198+00:00",
+  "counts": {
+    "x": 44,
+    "blogs": 3,
+    "podcasts": 0,
+    "videos": 4
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stand",
+        "summary": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stands for \"we are going to kill so many meetings\" https://t.co/sQsoPICYzT",
+        "link": "https://x.com/swyx/status/2088381680478540096",
+        "author": "swyx",
+        "published": "2026-08-14T21:46:07+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "ask away",
+        "summary": "ask away",
+        "link": "https://x.com/swyx/status/2088358628000768263",
+        "author": "swyx",
+        "published": "2026-08-14T20:14:31+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
+        "summary": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
+        "link": "https://x.com/joshwoodward/status/2088344782821326980",
+        "author": "joshwoodward",
+        "published": "2026-08-14T19:19:30+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "We’ve written an FAQ to answer some of the questions we've received about watermarking. \n\nIn summary:\n\n• We’re implement",
+        "summary": "We’ve written an FAQ to answer some of the questions we've received about watermarking. \n\nIn summary:\n\n• We’re implementing watermarking to comply with the EU AI Act. Other major model developers have signed the same Code of Practice and will also be implementing watermarking;\n• Our watermarking method doesn’t have any practical impact on the quality or content of Claude’s outputs;\n• The difference between watermarked and un-watermarked text will not be distinguishable to readers;\n• Nothing is added to the text and there are no hidden characters;\n• Watermarking doesn’t require extra tokens, and will not be more expensive;\n• Watermarks can’t be traced to a specific person, organization, or chat.\n\nRead more: https://t.co/G76iUOJ7Hu",
+        "link": "https://x.com/AnthropicAI/status/2088343978873966687",
+        "author": "AnthropicAI",
+        "published": "2026-08-14T19:16:18+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risk",
+        "summary": "As part of our Responsible Scaling Policy, we publish regular Risk Reports. These share detailed information on the risks of our systems and how prepared we are to address them.\n\nOur second Risk Report is now available: https://t.co/NgWnDmXZD3",
+        "link": "https://x.com/AnthropicAI/status/2088324824863236248",
+        "author": "AnthropicAI",
+        "published": "2026-08-14T18:00:12+00:00",
+        "source_name": "Anthropic",
+        "source_role": "Anthropic (official)",
+        "source_handle": "AnthropicAI"
+      },
+      {
+        "kind": "x",
+        "title": "Vercel is the fastest [AI Gateway] infrastructure in the world",
+        "summary": "Vercel is the fastest [AI Gateway] infrastructure in the world",
+        "link": "https://x.com/rauchg/status/2088323451132199338",
+        "author": "rauchg",
+        "published": "2026-08-14T17:54:44+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour N",
+        "summary": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour NYC event last year was the most successful summit we've ever had. excited to head back to 🗽 bigger and better than ever - note the special requirements for our mainstage finance keynotes",
+        "link": "https://x.com/swyx/status/2088322211241447801",
+        "author": "swyx",
+        "published": "2026-08-14T17:49:48+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Perplexity's Search SDK, which makes Perplexity Computer the best-in-class product for wide and deep research, is now av",
+        "summary": "Perplexity's Search SDK, which makes Perplexity Computer the best-in-class product for wide and deep research, is now available to use inside any agentic harness!",
+        "link": "https://x.com/AravSrinivas/status/2088311070368870873",
+        "author": "AravSrinivas",
+        "published": "2026-08-14T17:05:32+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of o",
+        "summary": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of our AI models to all kinds of users. Try out these two (if you haven't already!):\n\n@PomellibyGoogle - build captivating marketing campaigns tailored to your brand and your business at scale\n\n@FlowbyGoogle - craft visual stories that channel your imagination and draw the attention of your audience",
+        "link": "https://x.com/GoogleLabs/status/2088307370787328223",
+        "author": "GoogleLabs",
+        "published": "2026-08-14T16:50:50+00:00",
+        "source_name": "Google Labs",
+        "source_role": "Google's AI experiments group",
+        "source_handle": "GoogleLabs"
+      },
+      {
+        "kind": "x",
+        "title": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting pro",
+        "summary": "Orbital compute will be the only way to scale AI probably sometime in 2029 due to power availability&amp; permitting problems on land",
+        "link": "https://x.com/elonmusk/status/2088306926442430578",
+        "author": "elonmusk",
+        "published": "2026-08-14T16:49:04+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "damn deepseek moves fast on roon tweets https://t.co/PSvo3MaDPJ",
+        "summary": "damn deepseek moves fast on roon tweets https://t.co/PSvo3MaDPJ",
+        "link": "https://x.com/swyx/status/2088302169166622739",
+        "author": "swyx",
+        "published": "2026-08-14T16:30:10+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N",
+        "summary": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N",
+        "link": "https://x.com/AndrewYNg/status/2088302050706686198",
+        "author": "AndrewYNg",
+        "published": "2026-08-14T16:29:42+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2",
+        "summary": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2027.\n\nIf a person comes to mind—an executive, a builder, a creative—nominate them. We’ve reserved free tickets for our favorite nominees.\n\nhttps://t.co/ModuXIMpdY",
+        "link": "https://x.com/danshipper/status/2088298533912989736",
+        "author": "danshipper",
+        "published": "2026-08-14T16:15:43+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Perplexity 👑 https://t.co/hLRAeRsstx",
+        "summary": "Perplexity 👑 https://t.co/hLRAeRsstx",
+        "link": "https://x.com/AravSrinivas/status/2088297387072909345",
+        "author": "AravSrinivas",
+        "published": "2026-08-14T16:11:10+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founder",
+        "summary": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founders.\n\n@evantana  doesn't like to talk about himself...but it is one of the great joys (and privileges) of my life to work with someone as driven, talented and curious as him to build SPC for many years and decades to come.",
+        "link": "https://x.com/adityaag/status/2088290208911675761",
+        "author": "adityaag",
+        "published": "2026-08-14T15:42:39+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2088286607077990820",
+        "author": "elonmusk",
+        "published": "2026-08-14T15:28:20+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Impressive numbers for a 700b parameter model!",
+        "summary": "Impressive numbers for a 700b parameter model!",
+        "link": "https://x.com/AravSrinivas/status/2088279811261362239",
+        "author": "AravSrinivas",
+        "published": "2026-08-14T15:01:20+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "It is an honor to have such a great team join @SpaceX",
+        "summary": "It is an honor to have such a great team join @SpaceX",
+        "link": "https://x.com/elonmusk/status/2088273489820061920",
+        "author": "elonmusk",
+        "published": "2026-08-14T14:36:12+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant dea",
+        "summary": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant death match with other rocketships to capture customers, sacrificing gross margin\n\nbut the rules for building a company like that are very different",
+        "link": "https://x.com/danshipper/status/2088270756043993503",
+        "author": "danshipper",
+        "published": "2026-08-14T14:25:21+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest wa",
+        "summary": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest ways to make your products look good in any setting.\n\nWith this launch, turn those amazing photoshoots into short videos or gifs with that same ease!",
+        "link": "https://x.com/joshwoodward/status/2088261701028503965",
+        "author": "joshwoodward",
+        "published": "2026-08-14T13:49:22+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called Twe",
+        "summary": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions.\n\nThe model is trained to recognize patterns such as:\n\n→ TWEET_CREATE_BURST\n→ QUOTE_TWEET_SPAMMER\n→ CONTENT_AMPLIFIER\n\nA high score on the above can feed into an account challenge but doesn't seem to downrank the slop posts themselves.\n\nI think the gap here is that the model doesn’t read the actual post content.\n\nSo a sophisticated AI content mill can still post slop all day long:\n\n1. Find viral posts\n2. Quote tweet with the same template each time: hook → numbers → backstory → takeaway\n3. Repeat 10+ times a day across unrelated topics\n\nIf @X doesn't want to become like LinkedIn, I think it should consider looking at accounts that repeatedly turn unrelated viral posts into the same templated quote tweet slop at high volume.\n\nRight now the guardrails above are too easy to bypass.",
+        "link": "https://x.com/petergyang/status/2088261100202868768",
+        "author": "petergyang",
+        "published": "2026-08-14T13:46:58+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.\n\nThis app",
+        "summary": "✅ Papercut fixed: You can now toggle visible watermarks on or off in Gemini and Flow, with Search coming next.\n\nThis applies to watermarks on all images (Nano Banana), videos (Omni), and songs (Lyria) except in countries where it’s required by law to keep them. https://t.co/utHN0yDmD3",
+        "link": "https://x.com/joshwoodward/status/2088259242423968162",
+        "author": "joshwoodward",
+        "published": "2026-08-14T13:39:36+00:00",
+        "source_name": "Josh Woodward",
+        "source_role": "VP, Google Labs",
+        "source_handle": "joshwoodward"
+      },
+      {
+        "kind": "x",
+        "title": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It i",
+        "summary": "Regular reminder -- the set of public ARC 3 games is called \"demonstration set\", not \"eval set\" nor \"training set\". It is not meant to be used as training data, and it is not meant to be used as an eval. Scores on the public demonstration set are not indicative of scores on the actual benchmark.\n\nThe demonstration set is intended to demonstrate the format and drive human engagement.\n\nThe private eval set is substantially more difficult and more novel.\n\nThe top score on the Kaggle leaderboard today is 2.70% (that's the semi-private set -- at the end of the competition, the submissions are scored on the fully private set).",
+        "link": "https://x.com/fchollet/status/2088254592182305165",
+        "author": "fchollet",
+        "published": "2026-08-14T13:21:07+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one r",
+        "summary": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one room \n\nif you’re a business interested in being part of this event DM @itsbdell",
+        "link": "https://x.com/danshipper/status/2088246494885302639",
+        "author": "danshipper",
+        "published": "2026-08-14T12:48:56+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesi",
+        "summary": "Jeremy's excellent work here is a great illustration of a very powerful type of approach: LLM-guided on-the-fly synthesis of a symbolic world model, i.e. making sense of the world by writing executable code that encodes your understanding of the causal mechanics of the world.\n\nSo far, all of the top-performing harnesses on ARC-AGI-3 use this style of approach. Which is also the approach we recommended when we initially released the benchmark (Jeremy would know this better than most, as a former Ndea member of technical staff).\n\nI'm happy that ARC 3 has incentivized more research and more progress in this area.",
+        "link": "https://x.com/fchollet/status/2088243704603824311",
+        "author": "fchollet",
+        "published": "2026-08-14T12:37:51+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "How to use @bot",
+        "summary": "How to use @bot",
+        "link": "https://x.com/elonmusk/status/2088149393731981516",
+        "author": "elonmusk",
+        "published": "2026-08-14T06:23:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.6 ranks #1 on CursorBench for real-world coding",
+        "summary": "Grok 4.6 ranks #1 on CursorBench for real-world coding",
+        "link": "https://x.com/elonmusk/status/2088138697002668110",
+        "author": "elonmusk",
+        "published": "2026-08-14T05:40:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok Imagine",
+        "summary": "Grok Imagine",
+        "link": "https://x.com/elonmusk/status/2088137315109449870",
+        "author": "elonmusk",
+        "published": "2026-08-14T05:35:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly",
+        "summary": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
+        "link": "https://x.com/thsottiaux/status/2088133823619895712",
+        "author": "thsottiaux",
+        "published": "2026-08-14T05:21:13+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade!",
+        "summary": "Try Grok 4.6 image &amp; video understanding, it’s a major upgrade!",
+        "link": "https://x.com/elonmusk/status/2088127459971522726",
+        "author": "elonmusk",
+        "published": "2026-08-14T04:55:56+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVk",
+        "summary": "ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs. https://t.co/ynhHVkdObE",
+        "link": "https://x.com/amasad/status/2088124774824521786",
+        "author": "amasad",
+        "published": "2026-08-14T04:45:16+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "It’s certainly true at Replit.",
+        "summary": "It’s certainly true at Replit.",
+        "link": "https://x.com/amasad/status/2088112901852971056",
+        "author": "amasad",
+        "published": "2026-08-14T03:58:05+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "wild to see Sol at 14x speed:",
+        "summary": "wild to see Sol at 14x speed:",
+        "link": "https://x.com/gdb/status/2088111733973934346",
+        "author": "gdb",
+        "published": "2026-08-14T03:53:27+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "chatgpt for saving you money",
+        "summary": "chatgpt for saving you money",
+        "link": "https://x.com/gdb/status/2088111005297471894",
+        "author": "gdb",
+        "published": "2026-08-14T03:50:33+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "By next year, using a computer will be optional. Work will radically change.",
+        "summary": "By next year, using a computer will be optional. Work will radically change.",
+        "link": "https://x.com/amasad/status/2088110851681386864",
+        "author": "amasad",
+        "published": "2026-08-14T03:49:56+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? O",
+        "summary": "What do people include in their product specs these days to make them friendly and concise for both humans and agents? Or two separate sections for each?",
+        "link": "https://x.com/petergyang/status/2088108304274960667",
+        "author": "petergyang",
+        "published": "2026-08-14T03:39:49+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineer",
+        "summary": "The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineers a power tool that can accelerate the development of whatever we want. \n\nOf course their value not only remains critical in that world, but actually goes up in many domains because we can apply engineering to far more work than before.\n\nIf you’re trying to automate drug discovery, you need engineers. If you’re trying to automate manufacturing, you need engineers. If you’re taking on larger and larger software projects, you need engineers.\n\nThis will happen in domains beyond engineering too. AI causes companies to take on way more work than before, which leads to needing more experts to oversee the work. \n\nEven as models get better and better, they can be better utilized by the experts in those fields than the novices. Great time to be an expert.",
+        "link": "https://x.com/levie/status/2088105350201270529",
+        "author": "levie",
+        "published": "2026-08-14T03:28:05+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or pr",
+        "summary": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+        "link": "https://x.com/thsottiaux/status/2088103609477238858",
+        "author": "thsottiaux",
+        "published": "2026-08-14T03:21:10+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "/ultrafast",
+        "summary": "/ultrafast",
+        "link": "https://x.com/sama/status/2088101491802243121",
+        "author": "sama",
+        "published": "2026-08-14T03:12:45+00:00",
+        "source_name": "Sam Altman",
+        "source_role": "CEO, OpenAI",
+        "source_handle": "sama"
+      },
+      {
+        "kind": "x",
+        "title": "Perplexity Agent API is the best for web search and browsing agents",
+        "summary": "Perplexity Agent API is the best for web search and browsing agents",
+        "link": "https://x.com/AravSrinivas/status/2088087990048600107",
+        "author": "AravSrinivas",
+        "published": "2026-08-14T02:19:06+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for b",
+        "summary": "human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps\n\nworks INCREDIBLY for design explorations",
+        "link": "https://x.com/swyx/status/2088073777779515615",
+        "author": "swyx",
+        "published": "2026-08-14T01:22:37+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?",
+        "summary": "It would be amazing to host @JeffDean at @spc for a fireside chat.\n\nHow do we make that happen?",
+        "link": "https://x.com/adityaag/status/2088058783767658541",
+        "author": "adityaag",
+        "published": "2026-08-14T00:23:02+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "!!!!!\n\nit's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better p",
+        "summary": "!!!!!\n\nit's been a huge huge pleasure to serve @arizeai these past years with AIE, and this could not happen to better people. Dynarize is now a globally trusted $14B observability powerhouse that just got one of the best AI-native US teams in this business. \n\nif you're interested to learn more, come to @aidotengineer NYC this fall: https://t.co/9j7D5tVfOg where they are the first non-bigcloud to be an AIE presenting sponsor!!",
+        "link": "https://x.com/swyx/status/2088049159509344265",
+        "author": "swyx",
+        "published": "2026-08-13T23:44:48+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but kee",
+        "summary": "The biggest compliment I can give @maticrobots is that my wife runs it non-stop which is getting pretty annoying but keeps our floors super clean. 😅",
+        "link": "https://x.com/petergyang/status/2088036303816519734",
+        "author": "petergyang",
+        "published": "2026-08-13T22:53:43+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Don't classify. Hallucinate!",
+        "summary": "<p><strong><a href=\"https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications\">Don&#x27;t classify. Hallucinate!</a></strong></p>\nI still have quite a bit of older content on my blog that I never got round to tagging. My blog has <a href=\"https://simonwillison.net/\">1,856 tags</a> - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\".</p>\n<p>Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit!</p>\n<p>His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess:</p>\n<blockquote>\n<p><code>Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query.</code></p>\n<p><code>Product classifications might look like:</code></p>\n<p><code>Furniture / Living Room Furniture / Coffee Tables &amp; End Tables / Coffee Tables</code><br />\n<code>Décor &amp; Pillows / Decorative Pillows &amp; Blankets / Throw Pillows</code><br />\n<code>Furniture / Bedroom Furniture / Dressers &amp; Chests</code><br />\n<code>Kitchen &amp; Tabletop / Kitchen Organization / Food Storage &amp; Canisters</code><br />\n<code>School Furniture and Supplies / School Furniture / School Chairs &amp; Seating / Stackable Chairs</code><br />\n<code>Baby &amp; Kids / Toddler &amp; Kids Bedroom Furniture / Kids Beds</code></p>\n<p><code>Here's the query to generate classifications for:</code></p>\n<p><code>brown coffee table</code></p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/search\">search</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/embeddings\">embeddings</a>, <a href=\"https://simonwillison.net/tags/doug-turnbull\">doug-turnbull</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+        "author": "",
+        "keywords": "search ai generative-ai llms embeddings doug-turnbull",
+        "published": "2026-08-14T21:54:35+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-08-14",
+        "summary": "AI 早报 2026 08 14 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Google 发布 Gemini 3.7 Flash 模型 ↗ 1 DeepSeek 发布开源智能体框架 DeepSeek Harness 开发者预览版 ↗ 2 DeepSeek V4 Pro正式版官宣发布，API涨价8月17日生效 ↗ 3 OpenAI 联合 Cerebras 推出 GPT 5.6 Sol Ultrafast 模式 ↗ 4 ChatGPT 桌面应用上线 Computer History ↗ 5 模型发布 MiniMax 发布并开源 Music 3.0 音乐生成模型 ↗ 6 小红书 dots studio 发布开放权重模型 dots3 note preview ↗ 7 开发生态 OpenRouter 推出 G…",
+        "link": "https://daily.juya.uk/issues/2026-08-14/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-14T01:38:34+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "sqlite-utils 4.2.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.2.1\">sqlite-utils 4.2.1</a></p>\n        <p>Fixes a crashing bug in <a href=\"https://simonwillison.net/2026/Aug/13/sqlite-utils/\">sqlite-utils 4.2</a>. I'd introduced code that looks like this:</p>\n<pre><code>from typing_extensions import Self\n</code></pre>\n<p>It turned out the <a href=\"https://pypi.org/project/typing-extensions/\">typing-extensions</a> package was not listed as a dependency for <code>sqlite-utils</code> - it was installed by one of the other dependencies in the <a href=\"https://github.com/simonw/sqlite-utils/blob/56dd09702fdb9e899f577ffd51693c1f2176cb08/pyproject.toml#L34-L55\">dev dependency group</a>, but when you <code>uvx sqlite-utils</code> directly you don't get those dependencies.</p>\n<p>As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout:</p>\n<pre><code>uv run --isolated --no-default-groups sqlite-utils --help\n</code></pre>\n<p>The <code>--no-default-groups</code> argument prevents it from installing that default <code>dev</code> group, and <code>--isolated</code> means that even if there is a <code>.venv/</code> folder containing extra dependencies they will be ignored for the duration of that <code>uv run</code> command.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/packaging\">packaging</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/uv\">uv</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+        "author": "",
+        "keywords": "packaging python sqlite-utils uv",
+        "published": "2026-08-13T23:53:47+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Can't We Raise AI Like We Raise Kids? - Ryan Greenblatt",
+        "summary": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=wSX0jXBAxwA",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-08-14T20:03:23+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed",
+        "summary": "Today we’re previewing Ultrafast mode, a new service tier in the OpenAI API for GPT‑5.6 Sol. Powered by Cerebras, Ultrafast runs up to 14x faster than Standard processing and generates up to 750 output tokens per second.\n\nOpenAI technical staff are already seeing what that speed changes. One security investigation workflow that once took one to two hours now takes 10–15 minutes, sometimes approaching real time. In other workflows, staff use Ultrafast to investigate root causes, search systems in parallel, and stay in flow while coding.\n\nUltrafast is available to a select group of API customers, with access expanding as capacity grows.\n\nLearn more: https://openai.com/index/previewing-ultrafast/",
+        "link": "https://www.youtube.com/watch?v=EDWbX_-RYws",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-08-14T17:19:17+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+        "summary": "❤️ Check out Weights & Biases and sign up for a free demo here: https://wandb.me/papers\n\n📝 The paper is available here:\nhttps://www.anthropic.com/research/riemann-zeta\n\nSource:\nhttps://www.scientificamerican.com/article/no-ai-didnt-just-solve-the-thorniest-problem-in-math/\n\n🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible:\nAdam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas Biewald, Michael Tedder, Owen Skarpness, Ryan Stankye, Shawn Becker, Steef, Taras Bobrovytsky, Tazaur Sagenclaw, Tybie Fitzhugh, Ueli Gallizzi",
+        "link": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+        "author": "Two Minute Papers",
+        "keywords": "",
+        "published": "2026-08-14T08:42:07+00:00",
+        "kind": "video",
+        "source_name": "Two Minute Papers",
+        "source_handle": "Two Minute Papers",
+        "source_role": "Channel · Two Minute Papers"
+      },
+      {
+        "title": "Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals",
+        "summary": "What gives one of cricket’s smartest teams its edge before the first ball is bowled?\n\nGo behind the scenes with Rajasthan Royals as Kumar Sangakkara and the franchise’s analytics and technology teams reveal how ChatGPT and OpenAI tools support auction strategy, player analysis, match preparation, and creative work across the organization.",
+        "link": "https://www.youtube.com/watch?v=0XPk_MAwCW4",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-08-14T06:30:28+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-08-13T22:00:00+00:00",
+    "end": "2026-08-14T22:00:00+00:00"
+  }
+}
