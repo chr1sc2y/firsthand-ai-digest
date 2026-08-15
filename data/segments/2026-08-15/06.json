@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-15T22:41:01.611869+00:00",
+  "counts": {
+    "x": 22,
+    "blogs": 2,
+    "podcasts": 0,
+    "videos": 1
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "https://t.co/lYRtCtIkYF",
+        "summary": "https://t.co/lYRtCtIkYF",
+        "link": "https://x.com/elonmusk/status/2088747465482912152",
+        "author": "elonmusk",
+        "published": "2026-08-15T21:59:37+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok has improved massively",
+        "summary": "Grok has improved massively",
+        "link": "https://x.com/elonmusk/status/2088736114739917130",
+        "author": "elonmusk",
+        "published": "2026-08-15T21:14:31+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "I’m interested in finding and funding the next Disney. \n\nTrue to its original values, focused on the American spirit. Me",
+        "summary": "I’m interested in finding and funding the next Disney. \n\nTrue to its original values, focused on the American spirit. Merit, family, overcoming of adversity, optimism, the pursuit of happiness.\n\nAI makes everyone able to create. What will define our next generation is *what* we create with it. The next icons. The next unique brand that goes further than how it’s drawn or rendered.\n\nMickey Mouse survived several technological revolutions because of what it represented. I think most big entertainment companies have forgotten that.\n\nIf you’re creating something cool in this space and need help, technologically or financially, slide into my DMs.",
+        "link": "https://x.com/rauchg/status/2088735125744070932",
+        "author": "rauchg",
+        "published": "2026-08-15T21:10:35+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "America turned 250 years old earlier this year. \n\nIndia turns 80 today...80 years young.\n\nBuilding countries is really h",
+        "summary": "America turned 250 years old earlier this year. \n\nIndia turns 80 today...80 years young.\n\nBuilding countries is really hard. 80 years in...America was struggling with a civil war.\n\nIndians should be damn proud of the country they have built. \n\nLike America, India wants more. She wants to be better and stronger and more successful. She will get there.",
+        "link": "https://x.com/adityaag/status/2088734739893293175",
+        "author": "adityaag",
+        "published": "2026-08-15T21:09:03+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Incredible things are happening at OpenAI right now. Energy is high.",
+        "summary": "Incredible things are happening at OpenAI right now. Energy is high.",
+        "link": "https://x.com/thsottiaux/status/2088725514542575903",
+        "author": "thsottiaux",
+        "published": "2026-08-15T20:32:23+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve ",
+        "summary": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
+        "link": "https://x.com/thsottiaux/status/2088725163923984638",
+        "author": "thsottiaux",
+        "published": "2026-08-15T20:31:00+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "towards never having to manually select a model again",
+        "summary": "towards never having to manually select a model again",
+        "link": "https://x.com/gdb/status/2088658133971509640",
+        "author": "gdb",
+        "published": "2026-08-15T16:04:39+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "This is remarkably well done.\n\nAnd of course featuring our very own @shreepoorna365.\n\nLet's go.",
+        "summary": "This is remarkably well done.\n\nAnd of course featuring our very own @shreepoorna365.\n\nLet's go.",
+        "link": "https://x.com/adityaag/status/2088629172512195035",
+        "author": "adityaag",
+        "published": "2026-08-15T14:09:34+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Tomorrow, I’m really excited to share a new episode with @rileybrown on how he uses Codex to run his entire content busi",
+        "summary": "Tomorrow, I’m really excited to share a new episode with @rileybrown on how he uses Codex to run his entire content business.\n\nI particularly loved watching him demo how he creates YouTube thumbnails with AI:\n\n1. He uses Codex to find 100 top-performing thumbnails in his niche and add them to a Paper canvas.\n\n2. He uses Paper to mix and match those thumbnails with photos of himself until he creates something he’s happy with.\n\nHonestly, you have to watch the workflow to see how crazy it is.\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2088626815166464507",
+        "author": "petergyang",
+        "published": "2026-08-15T14:00:12+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+        "summary": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+        "link": "https://x.com/thsottiaux/status/2088500028721832432",
+        "author": "thsottiaux",
+        "published": "2026-08-15T05:36:23+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+        "summary": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+        "link": "https://x.com/thsottiaux/status/2088493756391768252",
+        "author": "thsottiaux",
+        "published": "2026-08-15T05:11:28+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "try reservation search in chatgpt!",
+        "summary": "try reservation search in chatgpt!",
+        "link": "https://x.com/gdb/status/2088489438297133066",
+        "author": "gdb",
+        "published": "2026-08-15T04:54:19+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Added a short instruction to our shared AGENTS MD file to upload videos to each PR that changes UI state. https://t.co/B",
+        "summary": "Added a short instruction to our shared AGENTS MD file to upload videos to each PR that changes UI state. https://t.co/BjpJL1qFSR https://t.co/09wZoz7X0J",
+        "link": "https://x.com/steipete/status/2088486859244741020",
+        "author": "steipete",
+        "published": "2026-08-15T04:44:04+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Maa Tujhe salaam 🇮🇳",
+        "summary": "Maa Tujhe salaam 🇮🇳",
+        "link": "https://x.com/adityaag/status/2088485865194750150",
+        "author": "adityaag",
+        "published": "2026-08-15T04:40:07+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.6 runs The Gauntlet",
+        "summary": "Grok 4.6 runs The Gauntlet",
+        "link": "https://x.com/elonmusk/status/2088484972965298489",
+        "author": "elonmusk",
+        "published": "2026-08-15T04:36:34+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Amazing outcome. Cursor executed the applied AI strategy flawlessly. \n\nMost people completely underestimated the market ",
+        "summary": "Amazing outcome. Cursor executed the applied AI strategy flawlessly. \n\nMost people completely underestimated the market size in AI coding. The biggest developer tool exits in history were on the order of low billions of dollars. And it was already assumed to be a heavily competitive and somewhat saturated space when they really got going.\n\nMultiple mental models shattered near instantly. The market sizes for agentic coding was far larger than most realized. There was actually tons and tons of room to innovate between the user and the underlying model, and even on the model itself.\n\nCursor provided out the applied AI playbook by figuring out the right product shape for agentic coding work, acting as a neutral layer between models and the workflows, post training models for the areas that make most sense to drive down costs or improve performance, building out the right infra stack for the relevant workflows, building out a strong category-aligned GTM motion, and more.\n\nGreat set of lessons for anyone doing applied AI right now. We’re going to see a lot more of these.",
+        "link": "https://x.com/levie/status/2088476232933577124",
+        "author": "levie",
+        "published": "2026-08-15T04:01:50+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "We moved the team over to build openclaw with openclaw. \nBeing able to share agent sessions as URLs is a superpower. htt",
+        "summary": "We moved the team over to build openclaw with openclaw. \nBeing able to share agent sessions as URLs is a superpower. https://t.co/peCQydXWyc",
+        "link": "https://x.com/steipete/status/2088473882357530979",
+        "author": "steipete",
+        "published": "2026-08-15T03:52:30+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "😂",
+        "summary": "😂",
+        "link": "https://x.com/elonmusk/status/2088463985938944130",
+        "author": "elonmusk",
+        "published": "2026-08-15T03:13:10+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Any censorship required by governments is now clearly visible",
+        "summary": "Any censorship required by governments is now clearly visible",
+        "link": "https://x.com/elonmusk/status/2088445767673369044",
+        "author": "elonmusk",
+        "published": "2026-08-15T02:00:47+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.6 now in Copilot",
+        "summary": "Grok 4.6 now in Copilot",
+        "link": "https://x.com/elonmusk/status/2088443051890917436",
+        "author": "elonmusk",
+        "published": "2026-08-15T01:49:59+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "hedonic treadmill of model expectations",
+        "summary": "hedonic treadmill of model expectations",
+        "link": "https://x.com/gdb/status/2088439955026825520",
+        "author": "gdb",
+        "published": "2026-08-15T01:37:41+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "Even if you don’t plan on publishing to the App Store, building personal apps via TestFlight is really great.",
+        "summary": "Even if you don’t plan on publishing to the App Store, building personal apps via TestFlight is really great.",
+        "link": "https://x.com/amasad/status/2088388714351518130",
+        "author": "amasad",
+        "published": "2026-08-14T22:14:04+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Northern Gannet",
+        "summary": "<p><img alt=\"Northern Gannet\" src=\"https://static.inaturalist.org/photos/716984157/large.jpg\" /></p><p>Northern Gannet, in Pillar Point Harbor, CA, US</p><p>This is Morris.</p>\n<p>Morris is a local celebrity: the only known Northern Gannet (<em>Morus bassanus</em>) in the entire Pacific Ocean.</p>\n<p>They showed up in the Farallon Islands off the coast of San Francisco <a href=\"https://baynature.org/magazine/spring2017/atlantic-bird-makes-home-california-maybe-melting-arctic-ice/\">14 years ago</a>. They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a>, <a href=\"https://simonwillison.net/tags/half-moon-bay\">half-moon-bay</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+        "author": "",
+        "keywords": "photography wildlife half-moon-bay",
+        "published": "2026-08-15T03:22:00+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "2026-08-15",
+        "summary": "AI 早报 2026 08 15 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 GLM 5.3上线GLM Coding Plan全量用户，API和权重即将推出 ↗ 1 阿里千问发布并开源Qwen3.8 27B ↗ 2 SpaceX 完成对 Cursor 的收购 团队并入 SpaceXAI ↗ 3 Anthropic 发布文解释 Claude 文本水印机制 ↗ 4 产品应用 Google Gemini 开放生成内容可见水印开关 ↗ 5 Pomelli Photoshoot 模板升级支持上传图片与 Animate 动效 ↗ 6 ChatGPT 每周功能更新：测验生成与预订搜索等上线 ↗ 7 WorkBuddy 联手腾讯电子签上线合同法务专家 ↗ 8 开发生态 Claude Code 正式将 Auto mod…",
+        "link": "https://daily.juya.uk/issues/2026-08-15/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-15T02:09:11+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "How Reward Hacking Could Escalate Into AI Takeover - Ryan Greenblatt",
+        "summary": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=0BDdiGQUp7M",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-08-15T21:13:47+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-08-14T22:00:00+00:00",
+    "end": "2026-08-15T22:00:00+00:00"
+  }
+}
