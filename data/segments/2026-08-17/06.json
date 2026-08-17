@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-17T22:44:15.415902+00:00",
+  "counts": {
+    "x": 33,
+    "blogs": 8,
+    "podcasts": 0,
+    "videos": 4
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "I live on an extremely normal street in brooklyn and I am continually awed at how beautiful it is at this time of year h",
+        "summary": "I live on an extremely normal street in brooklyn and I am continually awed at how beautiful it is at this time of year https://t.co/5eCPIZTI6n",
+        "link": "https://x.com/danshipper/status/2089470371774734537",
+        "author": "danshipper",
+        "published": "2026-08-17T21:52:11+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "Dense models are slow to run on local hardware, but this is incredible and a sign of things to come soon-ish.",
+        "summary": "Dense models are slow to run on local hardware, but this is incredible and a sign of things to come soon-ish.",
+        "link": "https://x.com/AravSrinivas/status/2089451933321052366",
+        "author": "AravSrinivas",
+        "published": "2026-08-17T20:38:55+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "my proposal was if you spend a billion tokens in a day you have to answer a quiz about the details of what you built and",
+        "summary": "my proposal was if you spend a billion tokens in a day you have to answer a quiz about the details of what you built and why\n\nif you fail you go on a wall of shame. if you pass you get to be a Token Billionaire for the day\n\nstill waiting for @ArielleShipper to get back to me on that one...",
+        "link": "https://x.com/danshipper/status/2089449356781048041",
+        "author": "danshipper",
+        "published": "2026-08-17T20:28:41+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "one of the great things about having my sister @ArielleShipper as head of operations @every is i get to regularly horrif",
+        "summary": "one of the great things about having my sister @ArielleShipper as head of operations @every is i get to regularly horrify her by how much i spend on tokens\n\nshe wrote an incredible article about it (her first one for every!) and about what she's doing to allow us to continue to experiment at the frontier without wasting tokens\n\nnecessary reading:\nhttps://t.co/RfI8Cv9Vrm",
+        "link": "https://x.com/danshipper/status/2089447407880737123",
+        "author": "danshipper",
+        "published": "2026-08-17T20:20:56+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "My comparison of Grok Bot vs. Hermes vs. ChatGPT Work:\n\nHermes:\n\n- Pros: Open source and very customizable\n\n- Cons: Requ",
+        "summary": "My comparison of Grok Bot vs. Hermes vs. ChatGPT Work:\n\nHermes:\n\n- Pros: Open source and very customizable\n\n- Cons: Requires DIY setup on Mac Mini or virtual private server\n\nChatGPT Work\n\n- Pros: Browser use and voice features are best-in-class, great for power users\n\n- Cons: UX is confusing across Chat, Work, and Codex. Browser cannot auth to your favorite apps (yet)\n\nGrok Bot\n\n- Pros: Has a built in persistent cloud computer. UX is simple, focused, and delightful\n\n- Cons: Less flexible than the other options (I typically want multiple threads with the same bot or workflow). Starts at $200/mo (you can get decent usage out of ChatGPT Work for $20/mo)\n\nOverall, I'm still using ChatGPT as my daily driver but my bet is that OpenAI, Anthropic, and others will soon follow Grok Bot's steps with the persistent cloud computer.\n\nI also think that Grok Bot will improve rapidly - the team knows how to ship fast and iterate.\n\n📌 Watch my full tutorial here: https://t.co/gqQ4TclPtM",
+        "link": "https://x.com/petergyang/status/2089442169509806152",
+        "author": "petergyang",
+        "published": "2026-08-17T20:00:07+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing.",
+        "summary": "It’s not enough to scan your code for vulnerabilities; it’s important to try to break them with pen testing.",
+        "link": "https://x.com/amasad/status/2089435606338416884",
+        "author": "amasad",
+        "published": "2026-08-17T19:34:03+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.6 is smart, super fast &amp; affordable",
+        "summary": "Grok 4.6 is smart, super fast &amp; affordable",
+        "link": "https://x.com/elonmusk/status/2089416747720061154",
+        "author": "elonmusk",
+        "published": "2026-08-17T18:19:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "❤️",
+        "summary": "❤️",
+        "link": "https://x.com/elonmusk/status/2089416526894141748",
+        "author": "elonmusk",
+        "published": "2026-08-17T18:18:14+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "come work at the most AI-pilled company in the world:",
+        "summary": "come work at the most AI-pilled company in the world:",
+        "link": "https://x.com/danshipper/status/2089410833180717365",
+        "author": "danshipper",
+        "published": "2026-08-17T17:55:36+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel. An",
+        "summary": "You can now host your repos in Cursor Origin and deploy to Vercel via Cursor Origin which is itself hosted on Vercel. And unlike GitHub, it's online 😁",
+        "link": "https://x.com/rauchg/status/2089409162270965858",
+        "author": "rauchg",
+        "published": "2026-08-17T17:48:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I think Grok @Bot is a glimpse into the future of personal AI agents.\n\nHere's my new tutorial where I show you how to se",
+        "summary": "I think Grok @Bot is a glimpse into the future of personal AI agents.\n\nHere's my new tutorial where I show you how to set up 5 useful bots:\n\n1. An advisor to create and manage your bots\n2. A YouTube researcher to find outlier videos\n3. An X scout to find viral and funny tweets\n4. A digital Marie Kondo to clean up your inbox and save money on paid subscriptions\n5. A personal concierge to save money on trips\n\nI also tested a Gamer bot to see if Grok Bot can install and play classic games like Doom, Red Alert, and Commander Keen.\n\nPlus, I discuss the biggest barrier to Grok Bot adoption and whether it can replace ChatGPT as my daily driver.\n\n📌 Watch now: https://t.co/gqQ4TclPtM",
+        "link": "https://x.com/petergyang/status/2089401696946634801",
+        "author": "petergyang",
+        "published": "2026-08-17T17:19:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Trajectory have generally impressed me with their tasteful execution on ambitious goals. on our Continual Learning track",
+        "summary": "Trajectory have generally impressed me with their tasteful execution on ambitious goals. on our Continual Learning track, @rronak_ gave a very thoughtful overview on how they're tackling the main data problems left in CL, including why GRPO isn't enough and they had to go on-policy.... and then subsequently fix all the issues that come up with it\n\nnice overview from one of the early leaders in this field!\n\n(see the rest of the track for more, this one was quite stacked)",
+        "link": "https://x.com/swyx/status/2089393073327653344",
+        "author": "swyx",
+        "published": "2026-08-17T16:45:02+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Grok @Bot",
+        "summary": "Grok @Bot",
+        "link": "https://x.com/elonmusk/status/2089388021154283625",
+        "author": "elonmusk",
+        "published": "2026-08-17T16:24:57+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "“I’ve never looked at a skill file once.”\n\nFrom @rileybrown:\n\n“Ask AI to do a thing using a skill. If it doesn’t do a go",
+        "summary": "“I’ve never looked at a skill file once.”\n\nFrom @rileybrown:\n\n“Ask AI to do a thing using a skill. If it doesn’t do a good job, tell it to change the skill so it doesn’t make that mistake again. Then test the agent in a new chat with clean context.”\n\n“Hold your AI to a standard, then improve the skill by measuring the outcomes.”\n\n📌 Watch the full episode here: https://t.co/64oSt6njQu",
+        "link": "https://x.com/petergyang/status/2089385622402445791",
+        "author": "petergyang",
+        "published": "2026-08-17T16:15:25+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The free* healthcare system in Canada just means that you'll need to wait forever to receive any healthcare",
+        "summary": "The free* healthcare system in Canada just means that you'll need to wait forever to receive any healthcare",
+        "link": "https://x.com/petergyang/status/2089382067213853000",
+        "author": "petergyang",
+        "published": "2026-08-17T16:01:18+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "Wow",
+        "summary": "Wow",
+        "link": "https://x.com/rauchg/status/2089373735002526018",
+        "author": "rauchg",
+        "published": "2026-08-17T15:28:11+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "My 6 biggest takeaways from @rileybrown on how he uses Codex to run his 1.5M+ follower content business:\n\n1. Remix prove",
+        "summary": "My 6 biggest takeaways from @rileybrown on how he uses Codex to run his 1.5M+ follower content business:\n\n1. Remix proven thumbnails with Codex and Paper\n\nRiley asks Codex to collect thumbnail formats from top YouTube channels in his niche and place them in Paper. He then uses Paper’s image-generation tools to mix his face with proven formats, giving him several directions to compare before choosing what to go with.\n\n2. Riley's AI stack for end to end video creation\n\nRiley uses Codex and Supadata to research topics and pull transcripts from top-performing videos. He dictates ideas with @wisprflow, turns them into diagrams in @excalidraw, pulls logos with SerpAPI, and creates animations and B-roll with @Remotion.\n\n3. Reverse-engineer a winning YouTube hook, then remix it\n\nRiley’s research AI skill finds and pulls written hooks from successful videos in his niche. He then  works with Codex to adapt the structure to the video he wants to make. He scripts the hook because it matters most, then talks naturally for the rest.\n\n4. Make the video you want first, then package it\n\nRiley starts with what he wants to learn or explain and saves the title, thumbnail, and hook for the final 10% of the process. “I would rather make what I want and then package it after than to only chase viral ideas.” That runs against the usual YouTube advice to do the packaging first.\n\n5. “I’ve never looked at an AI skill file once.”\n\nRiley works with Codex until a workflow produces the result he wants, then asks it to turn that workflow into a skill. He improves the skill by judging its output instead of reading the file.\n\n6. Quality matters more than efficiency\n\nRiley resists using AI to create many videos in batches because every video still needs a strong human element. AI helps with research, hooks, diagrams, animation, and thumbnails, but Riley stays in the driver’s seat and spends time to make each video better.\n\nOverall, it was fascinating to see Riley's content creation workflow and compare it with my own.\n\n📌 Watch the full episode now: https://t.co/64oSt6njQu",
+        "link": "https://x.com/petergyang/status/2089355318514049473",
+        "author": "petergyang",
+        "published": "2026-08-17T14:15:00+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "impt read:",
+        "summary": "impt read:",
+        "link": "https://x.com/danshipper/status/2089340927772897717",
+        "author": "danshipper",
+        "published": "2026-08-17T13:17:49+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "defenders can see the future, and have a narrow window to uplevel their cybersecurity practices now.\n\nkey is to uplevel ",
+        "summary": "defenders can see the future, and have a narrow window to uplevel their cybersecurity practices now.\n\nkey is to uplevel fundamentals and apply the best AI tools.\n\nwhat we’re doing at OpenAI, and where other organizations can start: https://t.co/P3IMZkV234",
+        "link": "https://x.com/gdb/status/2089326994714763665",
+        "author": "gdb",
+        "published": "2026-08-17T12:22:28+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "all of this gets a lot easier if you are making stuff you genuinely love \n\n(though still uncomfortable because it'll loo",
+        "summary": "all of this gets a lot easier if you are making stuff you genuinely love \n\n(though still uncomfortable because it'll look small and low status for a long time)",
+        "link": "https://x.com/danshipper/status/2089324642431271133",
+        "author": "danshipper",
+        "published": "2026-08-17T12:13:07+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "5 years later and most of the best players here have been bought https://t.co/SemLNVzXXx",
+        "summary": "5 years later and most of the best players here have been bought https://t.co/SemLNVzXXx",
+        "link": "https://x.com/swyx/status/2089221797254459822",
+        "author": "swyx",
+        "published": "2026-08-17T05:24:26+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will ti",
+        "summary": "Pretty good way to think about the value of AI agents and where the opportunity lies. You have a technology that will tirelessly do all the things that you could never fully do before. Not because you didn’t want to or it wasn’t valuable, but because it was just not even remotely practical.\n\nThe upside with AI is to think about everything you can now throw intelligence at that won’t give up and what would the returns be. \n\nYou just couldn’t possibly find every security vulnerability in your codebase, because you couldn’t simulate every risk vector. You couldn’t read every contract or document to process the data and capture it to query later. You couldn’t comb through your customer base and look for every relevant data point for doing upsells. And so on. \n\nThis is a pretty clear way to think about how to deploy AI to get real gains, but also where the startup opportunities are as well. Go after the markets where more compute on a problem will qualitatively change what customers can now do in that domain.",
+        "link": "https://x.com/levie/status/2089209131391729763",
+        "author": "levie",
+        "published": "2026-08-17T04:34:07+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "I want to use this feature but I'm paranoid that it'll eat up all my tokens. Is it pretty token efficient? https://t.co/",
+        "summary": "I want to use this feature but I'm paranoid that it'll eat up all my tokens. Is it pretty token efficient? https://t.co/zjNnpGb4tJ",
+        "link": "https://x.com/petergyang/status/2089205978877268334",
+        "author": "petergyang",
+        "published": "2026-08-17T04:21:35+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "chatgpt for browser use:",
+        "summary": "chatgpt for browser use:",
+        "link": "https://x.com/gdb/status/2089181834580250870",
+        "author": "gdb",
+        "published": "2026-08-17T02:45:39+00:00",
+        "source_name": "Greg Brockman",
+        "source_role": "President, OpenAI",
+        "source_handle": "gdb"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/BaVgd3k0dc",
+        "summary": "https://t.co/BaVgd3k0dc",
+        "link": "https://x.com/rauchg/status/2089179650891432270",
+        "author": "rauchg",
+        "published": "2026-08-17T02:36:58+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2089176557747413105",
+        "author": "elonmusk",
+        "published": "2026-08-17T02:24:41+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box.\n\nTime for Chrom",
+        "summary": "Was wondering what this new icon in my menu bar is that I didn't enable and that loaded a slow html box.\n\nTime for Chrome Lite? https://t.co/4Q64q7vdfl",
+        "link": "https://x.com/steipete/status/2089154019885490449",
+        "author": "steipete",
+        "published": "2026-08-17T00:55:07+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
+        "summary": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
+        "link": "https://x.com/thsottiaux/status/2089149255382438340",
+        "author": "thsottiaux",
+        "published": "2026-08-17T00:36:11+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Two major rocket launches almost simultaneously",
+        "summary": "Two major rocket launches almost simultaneously",
+        "link": "https://x.com/elonmusk/status/2089148681887031667",
+        "author": "elonmusk",
+        "published": "2026-08-17T00:33:54+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok @Bot!",
+        "summary": "Try Grok @Bot!",
+        "link": "https://x.com/elonmusk/status/2089148540039901185",
+        "author": "elonmusk",
+        "published": "2026-08-17T00:33:21+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through",
+        "summary": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+        "link": "https://x.com/thsottiaux/status/2089143488696705077",
+        "author": "thsottiaux",
+        "published": "2026-08-17T00:13:16+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "i am also skeptical of the centralization of power hypothesis\n\nit comes from Lewis Mumford in 1964 who argued:\n\n\"from la",
+        "summary": "i am also skeptical of the centralization of power hypothesis\n\nit comes from Lewis Mumford in 1964 who argued:\n\n\"from late Neolithic times in the Near East, right down to our own day, two technologies have recurrently existed side by side: one authoritarian, the other democratic, the first system-centered, immensely powerful, but inherently unstable, the other man-centered, relatively weak, but resourceful and durable.\"\n\nthis echoes around the valley. peter thiel said in 2018, \"crypto is libertarian and AI is communist\"\n\ncertainly today, it seems like we're on track for AI to look more centralized. if you are a hardcore AGI person you believe this will continue. but we're also seeing a resurgence of fine tuning models for specific purposes. and as amjad says, the human brain provides very good evidence for the benefits of decentralization. we just may not see it yet because we're still in the hyperliterate  \"bee\" or \"ant\" days of AI\n\ni'd be surprised if the optimal design continues to be maximally centralized",
+        "link": "https://x.com/danshipper/status/2089127868903375257",
+        "author": "danshipper",
+        "published": "2026-08-16T23:11:12+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis \n\nwe live in incredible",
+        "summary": "used fable to vibe code an app that visualizes and groups everyone who applied to come to Thesis \n\nwe live in incredible times where detailed understanding of each of your customers—and how they cluster together in groups—is possible with very little effort https://t.co/UBkHaDIDhK",
+        "link": "https://x.com/danshipper/status/2089121597017759800",
+        "author": "danshipper",
+        "published": "2026-08-16T22:46:17+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+        "summary": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility</a></strong></p>\nExcellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see <a href=\"https://simonwillison.net/2025/Jun/24/anthropic-training/\">my previous coverage</a> of Anthropic's book scanning from June 2025.)</p>\n<p>404 Media investigated with an AirTag!</p>\n<blockquote>\n<p>In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order.</p>\n</blockquote>\n<p>The book ended up delivered to the VGT3 corner of the <a href=\"https://maps.app.goo.gl/2hMqbHrovTSZxh1U9\">LAS8 Amazon facility</a> in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book!</p>\n<p><img alt=\"Photo of an office entrance. A logo in the window shows a red tyrannosaurus with a book, its claws clearly digging in and with a hint that it is more interested in destruction than reading.\" src=\"https://static.simonwillison.net/static/2026-08-17/IMG_7418.jpeg\" /></p>\n<p><small>Photo credit: 404 Media</small></p>\n\n<p>Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/amazon\">amazon</a>, <a href=\"https://simonwillison.net/tags/journalism\">journalism</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/training-data\">training-data</a>, <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/404-media\">404-media</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+        "author": "",
+        "keywords": "amazon journalism ai training-data ai-ethics 404-media",
+        "published": "2026-08-17T15:21:29+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Import AI 469: Science AI; RSI simulator; and Zuck’s technological pessimism",
+        "summary": "<img alt=\"\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" height=\"150\" src=\"https://i0.wp.com/jack-clark.net/wp-content/uploads/2026/08/https3A2F2Fsubstack-post-media.s3.amazonaws.com2Fpublic2Fimages2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258-arfQ8K.png?resize=150%2C150&amp;ssl=1\" width=\"150\" />Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now DiG-bench shows that Fable displays some creative intuition:…The new frontier for analyzing AI systems is understanding how good they are at inferring the unwritten rules of [&#8230;]",
+        "link": "https://jack-clark.net/2026/08/17/import-ai-469-science-ai-rsi-simulator-and-zucks-technological-pessimism/",
+        "author": "Jack Clark",
+        "keywords": "Uncategorized",
+        "published": "2026-08-17T13:05:36+00:00",
+        "kind": "blog",
+        "source_name": "Import AI (Jack Clark)",
+        "source_handle": "Import AI (Jack Clark)",
+        "source_role": "By Jack Clark"
+      },
+      {
+        "title": "The Defender’s Window",
+        "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+        "link": "https://openai.com/index/the-defenders-window",
+        "author": "",
+        "keywords": "Security",
+        "published": "2026-08-17T05:30:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "OpenAI joins PORTS-Pike project",
+        "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+        "link": "https://openai.com/index/openai-joins-ports-pike-project",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-08-17T05:00:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "New policy ideas for the Intelligence Age",
+        "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+        "link": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+        "author": "",
+        "keywords": "Global Affairs",
+        "published": "2026-08-17T03:15:00+00:00",
+        "kind": "blog",
+        "source_name": "OpenAI Blog",
+        "source_handle": "OpenAI Blog",
+        "source_role": "By OpenAI"
+      },
+      {
+        "title": "2026-08-17",
+        "summary": "AI 早报 2026 08 17 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 Codex 负责人 Tibo 发布 Codex 开启 1M 上下文教程，定价陷入争议 ↗ 1 Codex 负责人 Tibo 确认 Codex 未来将接入 Astra ↗ 2 开发生态 DeepSeek API 正式上调价格并启用峰谷定价 ↗ 3 OpenCode：DeepSeek 官方涨价后同步调整 Go 额度 ↗ 4 SuperGrok Heavy 订阅用户存续期间可免费使用 Cursor Ultra ↗ 5 技术与洞察 Dario Amodei回应AI风险沟通与监管批评 ↗ 6 前瞻与传闻 报道称 Stripe 已敲定逾 70 亿美元收购 OpenRouter 交易 ↗ 7 OpenAI 被曝解散 Preparednes…",
+        "link": "https://daily.juya.uk/issues/2026-08-17/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-17T01:45:08+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "Markdown SVG upgrades",
+        "summary": "<p>I started building my <a href=\"https://tools.simonwillison.net/markdown-svg-renderer\">markdown-svg-renderer</a> tool <a href=\"https://tools.simonwillison.net/colophon#markdown-svg-renderer.html\">in May</a>, but I've since added enough features to it that it's worth talking about here again.</p>\n<p>It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\">proclivity for drawing pelicans riding bicycles</a> this is a problem that I needed to solve!</p>\n<p>The tool is very simple. Navigate to <a href=\"https://tools.simonwillison.net/markdown-svg-renderer\">markdown-svg-renderer</a> in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document.</p>\n<p>The URL option will give you a bookmarkable page, for example <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657</a> - which bakes in the URL to <a href=\"https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657\">this Gist</a>.</p>\n<p>If you visit <a href=\"https://gist.github.com/simonw/6f9e48293be5c916652d29f0dc0b0657\">the Gist</a> you'll see raw SVG:</p>\n<p><img alt=\"beautiful-circle.md. Here's a self-contained SVG — a &quot;compass study&quot; of a circle with construction lines, a slowly rotating tick ring, and an orbiting accent dot: a block of SVG code\" src=\"https://static.simonwillison.net/static/2026/raw-svg.webp\" /></p>\n<p>In the rendered tool that <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">looks like this</a> instead:</p>\n<p><img alt=\"The same text, but now the code block has been replaced by a tabbed panel. The selected tab reads &quot;Rendered&quot; and shows the rendered PNG. The other tabs are PNG, JPEG, MP4, and Code\" src=\"https://static.simonwillison.net/static/2026/rendered-svg.webp\" /></p>\n<p>As you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs.</p>\n<p>The tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly.</p>\n<p>The MP4 tab is <a href=\"https://github.com/simonw/tools/commit/73e0327f6df9887ba2a9f9f16a2d06a45451d248\">new today</a> - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of <a href=\"https://github.com/ffmpegwasm/ffmpeg.wasm\">ffmpeg.wasm</a> so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser.</p>\n<p>Being able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick!</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/svg\">svg</a>, <a href=\"https://simonwillison.net/tags/markdown\">markdown</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
+        "author": "",
+        "keywords": "svg markdown tools",
+        "published": "2026-08-16T23:59:37+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+        "summary": "<p>Friday's big release was <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B\">Qwen 3.8 27B</a>, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor <a href=\"https://simonwillison.net/2026/Apr/22/qwen36-27b/\">Qwen 3.6 27B</a> was impressive.</p>\n<p>Qwen's <a href=\"https://huggingface.co/Qwen/Qwen3.8-27B#benchmark-results\">self-reported benchmarks</a> for this model are eye-opening. They show a boost from both Qwen 3.6 27B <em>and</em> the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as <a href=\"https://qwen.ai/blog?id=qwen3.7-plus\">May this year</a>. It will be interesting to hear what independent benchmarks have to say about the model.</p>\n<p>I've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an <a href=\"https://simonwillison.net/2025/Oct/14/nvidia-dgx-spark/\">NVIDIA DGX Spark</a>. On both machines I'm running LM Studio and <a href=\"https://lmstudio.ai/models/qwen3.8\">their 17GB Q4_K_M quantized build</a>. I also tried  using <code>llama-server</code> directly on the Spark.</p>\n<h4 id=\"the-default-of-extra-high-results-in-spectacular-over-thinking\">The default of extra high results in spectacular over-thinking</h4>\n<p>Qwen's documentation describes the model as defaulting to <code>xhigh</code> for the reasoning effort, and the LM Studio GGUF I've been trying preserves that default:</p>\n<blockquote>\n<p>Qwen3.8 comes with official support for <code>reasoning_effort</code>, which can be used to adjust reasoning depth and control cost:</p>\n<ul>\n<li>\n<code>xhigh</code> (default): for complex tasks demanding thorough analysis</li>\n<li>\n<code>medium</code>: balancing accuracy and speed</li>\n<li>\n<code>low</code>: efficient reasoning optimizing for speed and cost</li>\n</ul>\n</blockquote>\n<p>This is a <em>hilarious</em> default. It's absolutely not a good way to run the model, especially on consumer hardware. I've been finding the results extremely entertaining.</p>\n<p>I quickly ran into problems with LM Studio's default context limit of 8,192 tokens - Qwen was using them all up thinking about even the most mundane of problems. I loaded the model with the full 262,144 maximum context length and that problem went away.</p>\n<p>Here's <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffc909bea4fecf752c7bf9bad0e9dbf2a\">the pelican riding a bicycle</a> SVG I got from my first attempt with that increased context length. It took <strong>21 minutes</strong> to generate, using 22,276 reasoning tokens to produce 3,223 tokens of output. You can read <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Ffc909bea4fecf752c7bf9bad0e9dbf2a\">the reasoning trace here</a>.</p>\n<p><img alt=\"A very pleasing image of a pelican riding a bicycle. The bicycle is red and has the correct frame shape. The pelican looks like a pelican and has its wing extended to the handlebars.\" src=\"https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg\" /></p>\n<p>This is by far the best pelican SVG I've been able to generate with a model that runs on a local machine - and this Qwen is pretty small, just a 17GB file on disk. There's a lot to like about this:</p>\n<ol>\n<li>The bicycle frame is the right shape</li>\n<li>It has legs on each side of the bike - that's <em>very</em> rare</li>\n<li>Good, clear pelican pouch</li>\n<li>The wings extend to touch the handlebars!</li>\n<li>The motion lines are behind, not in front</li>\n<li>It has a tasteful background - nice sun, clouds, hill, flowers and grass.</li>\n</ol>\n<p>Was that worth waiting 21 minutes for? Absolutely not.</p>\n<p>Here's that same prompt run with reasoning turned off - <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F1265cfa8dce2f9ad5eb160792ff45a49\">transcript here</a>. This one produced <strong>3,715 tokens</strong> and took 137s - just over two minutes.</p>\n<p><img alt=\"The bicycle frame is a bad shape now. The pelican remains recognizable but has a less obvious pouch. The feet miss the pedal, there is no attempt to hold the handlebars.\" src=\"https://static.simonwillison.net/static/2026/qwen-3.8-27b-no-reasoning-pelican-2.png\" />\nAnd just for completeness, I used OpenRouter to run the same prompt through the much larger Qwen 3.8 2.4T-A95B (released <a href=\"https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B\">last week</a>) and got this snazzy <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F557016f0895b2abb4b9957caec781734\">animated SVG</a>:</p>\n<p><video controls=\"controls\" height=\"548\" loop=\"loop•\" poster=\"https://static.simonwillison.net/static/2026/qwen-animated-first-frame.jpg\" preload=\"none\" style=\"display: block; width: 100%; height: auto;\" width=\"720\">\n    <source src=\"https://static.simonwillison.net/static/2026/qwen-animated-small.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\n<p>I said Qwen at xhigh has a tendency to over-think things, but how bad really is it?</p>\n<p>I tried a much simpler prompt, again with that default extra high setting:</p>\n<blockquote>\n<p><code>draw an svg of a circle</code></p>\n</blockquote>\n<p>Qwen's reasoning trace started like this:</p>\n<blockquote>\n<p>The user is asking for an SVG drawing of a circle. Simple request — but I want it to be a carefully crafted piece. Let me make something that goes beyond just <code>&lt;circle&gt;</code>: a single self-contained SVG file with character — maybe a geometric \"circle study,\" with subtle animation, layered rings, and a distinctive palette.</p>\n<p>Keep the scope right: they asked for an SVG of a circle. So the core is a circle. But I can add craft: concentric guide circles (like a compass/geometry drawing), tick marks, a soft gradient fill on the main circle, restrained ambient motion (a slowly rotating dashed ring, pulsing glow). Respect prefers-reduced-motion? That's more for CSS; SVG SMIL or CSS inside SVG will do.</p>\n<p>Palette options: deep teal ink on warm paper? Or bold vermilion circle on off-white with navy construction lines — Bauhaus/compass-drawing vibe. Let me go with a \"geometric study\" look: cool slate background, or bright paper white? Paper white is fine if it's not the cream-and-terracotta combo. [...]</p>\n</blockquote>\n<p>Several minutes later it <a href=\"https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657\">produced</a> this <em>absolutely beautiful</em> animated circle, which was entirely not what I had asked for!</p>\n<p><video controls=\"controls\" height=\"1080\" loop=\"loop\" poster=\"https://static.simonwillison.net/static/2026/circle-web-first-frame.jpg\" preload=\"none\" style=\"display: block; width: 100%; height: auto;\" width=\"1078\">\n    <source src=\"https://static.simonwillison.net/static/2026/circle-web.mp4\" type=\"video/mp4\" />\n    Your browser does not support HTML5 video.\n  </video>\n</p>\nMy strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even no reasoning levels at first. It's a great model, but wow that default setting is a bad place to start.\n<h4 id=\"it-s-very-good-at-bounding-boxes\">It's very good at bounding boxes</h4>\n<p>A fun way to test a vision model is to see how well it can return bounding boxes around items in a photograph. I've seen previous Qwen models deal well with this, so I decided to put it to the test drawing bounding boxes around some pelicans.</p>\n<p>I've seen asking for 0-1000 scale produce good results in the past. I tried this:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llm -a https://static.inaturalist.org/photos/714731804/large.jpg \\\n  -m lmstudio/qwen/qwen3.8-27b \\\n  <span class=\"pl-s\"><span class=\"pl-pds\">'</span>Return JSON bounding boxes for the pelicans in this photo, 0-1000 scale for each dimension<span class=\"pl-pds\">'</span></span></pre></div>\n<p>Here's <a href=\"https://gist.github.com/simonw/a05cc78b2061555bd61d3bb9686e689f\">the reasoning trace</a>, which produced this:</p>\n<div class=\"highlight highlight-source-json\"><pre>[\n  {<span class=\"pl-ent\">\"bbox_2d\"</span>: [<span class=\"pl-c1\">195</span>, <span class=\"pl-c1\">290</span>, <span class=\"pl-c1\">370</span>, <span class=\"pl-c1\">780</span>], <span class=\"pl-ent\">\"label\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>pelicans<span class=\"pl-pds\">\"</span></span>},\n  {<span class=\"pl-ent\">\"bbox_2d\"</span>: [<span class=\"pl-c1\">445</span>, <span class=\"pl-c1\">320</span>, <span class=\"pl-c1\">675</span>, <span class=\"pl-c1\">850</span>], <span class=\"pl-ent\">\"label\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>pelicans<span class=\"pl-pds\">\"</span></span>}\n]</pre></div>\n<p>This is <em>such a good match</em>. Here are those boxes rendered on top of the photo:</p>\n<p><img alt=\"A photograph of two pelicans on a rocky outcrop, with three other smaller birds. The pelicans both have bounding boxes exactly surrounding them, each with a label that says pelican.\" src=\"https://static.simonwillison.net/static/2026/qwen-over-engineered-bbox.webp\" /></p>\n<h4 id=\"building-a-tool-to-label-bounding-boxes\">Building a tool to label bounding boxes</h4>\n<p>That visualization of the bounding boxes was taken using a new custom tool that I had Qwen 3.8 27B build for me, running offline on my laptop.</p>\n<p>I forgot to dial down the thinking effort so it was <em>massively over-engineered</em>, but it did manage to produce <a href=\"https://static.simonwillison.net/static/2026/qwen-over-thinking-bbox.html\">this full interface</a> from <a href=\"https://gist.github.com/simonw/121ad098860028b2fab603fa12da1fd9\">this single prompt</a>:</p>\n<blockquote>\n<pre><code>[\n   {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"},\n   {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"}\n]\n</code></pre>\n<p><code>Build an HTML page which has an input box for accepting the URL to an image and a textarea for accepting the above style of JSON.</code></p>\n<p><code>It appends the image to the page, measures its width and height, then treats the coords in the bbox_2d as scaled from 0-1000 and scales them against the actual width and height, then it renders labelled boxes over the image.</code></p>\n</blockquote>\n<p>This screenshot shows one of the features I did <em>not</em> ask for - a demo scene, for if you don't have a photograph to test the tool with:</p>\n<p><img alt=\"Screenshot of bbox·lab, a dark-themed web tool that overlays object-detection bounding boxes on an image, with an input panel on the left and a stage on the right showing two labeled boxes around stylized pelicans in a sunset illustration. Header: bbox·lab — normalized 0–1000 coords → pixel overlay; status indicator: RENDERED · 2 BOXES. Panel 01 INPUT (URL + detections) contains an IMAGE URL field reading data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+, a DETECTIONS — JSON textarea reading  {&quot;bbox_2d&quot;: 195, 290, 370, 780, &quot;label&quot;: &quot;pelicans&quot;}, {&quot;bbox_2d&quot;: 445, 320, 675, 850, &quot;label&quot;: &quot;pelicans&quot;} , an orange RENDER BOXES button, and dashed boxes labeled DEMO SCENE and CLEAR. Panel 03 STAGE header: display 661 × 661 px · 1 unit = 0.661px x 0.661px · nat 1000×1000. The stage shows a flat-style illustration of two dark pelican silhouettes with orange beaks standing in calm water against an orange-to-purple sunset sky with a pale yellow sun and distant birds; an orange bounding box labeled 1 · pelicans surrounds the left pelican and a cyan bounding box labeled 2 · pelicans surrounds the right pelican. Footer: move the cursor over the image to read grid coords; boxes map 0–1000 → displayed px.\" src=\"https://static.simonwillison.net/static/2026/qwen-full-ui-with-pelicans.webp\" /></p>\n<p>Here's the relevant segment of the thinking trace, where it decided to draw its own pelicans purely because I had used the label \"pelicans\" in the example JSON I gave it in the prompt:</p>\n<blockquote>\n<p>Also a \"load sample\" that uses a known image? Can't depend on external images, but… the image URL input is user-provided; I could add a \"try with sample\" button [...] Hmm, I can draw a simple scene on canvas, export it as a data URL, and load it into the image — that's self-contained and demo-able! [...] But the user's coords are for an actual pelican image; a generated placeholder can still demo the scaling. Generate a 1000x1000 placeholder: gradient water + two blob-like \"pelican\" silhouettes placed at the given bboxes (using the same scale — cute: silhouettes at the exact 0-1000 positions, showing the boxes align). This makes for a fun, self-contained demo. Keep it simple: sky gradient, sun, water, two pelican-ish shapes (ellipse body, circle head, beak). Place at bbox centers.</p>\n</blockquote>\n<p>(I'm slightly nervous that models around the world might have a bias towards drawing pelicans at any chance they can get, brought on by nearly two years of exposure to my own stupid benchmark.)</p>\n<p>Is all that over-thinking necessary? Maybe it is, at least a bit. I tried with reasoning turned off and got <a href=\"https://static.simonwillison.net/static/2026/qwen-no-thinking-bbox.html\">this version</a>, (<a href=\"https://gist.github.com/simonw/8e78b1c64d9a56d08eedb954aa9445ee\">transcript here</a>), which nearly works but shows the boxes in the wrong place:</p>\n<p><img alt=\"BBox Studio screenshot - a solid UI but the yellow and green boxes do not cover the pelicans.\" src=\"https://static.simonwillison.net/static/2026/qwen-no-reasoning-bug.webp\" /></p>\n<p>So without reasoning it didn't quite one-shot a working tool. I'm sure it could get there with some follow-up prompts, but this is a good example of how reasoning can make a difference.</p>\n<h4 id=\"yes-it-can-drive-coding-agents\">Yes, it can drive coding agents</h4>\n<p>One of the biggest questions around local models is whether or not they have enough horsepower to successfully run a coding agent loop. Coding agents require long context, strong code generation support and reliable tool-calling. On paper Qwen 3.8 27B has all three of these, so is it up to the task?</p>\n<p>My initial experiments with <a href=\"https://pi.dev/\">Pi</a> have been very promising. I chose Pi because it has a shorter system prompt than most other options, making it a better fit for trying out smaller models.</p>\n<p>I configured Pi to use Qwen 3.8 27B running in LM Studio on the Spark (shared via <code>tailscale serve</code>) by adding this to <code>~/.pi/agent/models.json</code>:</p>\n<div class=\"highlight highlight-source-json\"><pre>{\n  <span class=\"pl-ent\">\"providers\"</span>: {\n    <span class=\"pl-ent\">\"spark\"</span>: {\n      <span class=\"pl-ent\">\"baseUrl\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://spark-18b3.tail68a31.ts.net/v1<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"api\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>openai-responses<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"apiKey\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>dummy<span class=\"pl-pds\">\"</span></span>,\n      <span class=\"pl-ent\">\"models\"</span>: [\n        {\n          <span class=\"pl-ent\">\"id\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>qwen3.8-27b<span class=\"pl-pds\">\"</span></span>,\n          <span class=\"pl-ent\">\"reasoning\"</span>: <span class=\"pl-c1\">true</span>\n        }\n      ]\n    }\n  }\n}</pre></div>\n<p>Then ran <code>pi --provider spark --model qwen3.8-27b</code> in my <code>~/dev/datasette</code> folder and prompted:</p>\n<blockquote>\n<p><code>how does auth work?</code></p>\n</blockquote>\n<p>After a sequence of reasoning and tool calls that accessed a bunch of different files it produced <a href=\"https://gist.github.com/simonw/6693d74a6bd45f641d43ceb9961dd95f#core-idea-actors--plugins-no-built-in-user-accounts\">this reply</a>, which is very solid.</p>\n<p>Just one problem: I wanted to share that transcript. So I pointed Pi and Qwen 3.8 27B at the JSONL transcript file in <code>~/.pi/agent/sessions/--Users-simon-Dropbox-dev-datasette--</code> and prompted:</p>\n<blockquote>\n<p><code>Write Python code to convert this jsonl to markdown</code></p>\n</blockquote>\n<p>And it built and tested this <a href=\"https://github.com/simonw/tools/blob/main/python/pi_jsonl_to_md.py\">pi_jsonl_to_md.py</a>, which did exactly what I needed. Here's <a href=\"https://gist.github.com/simonw/491e55ac9d741202ea0af5d9d93775d4\">that session transcript</a>, published using the tool that it created.</p>\n<h4 id=\"the-quest-for-speed\">The quest for speed</h4>\n<p>So far this is all looking <em>very</em> promising. We have a 17GB model that runs on high-end consumer hardware and can write code, drive tools, annotate images and generally do everything that I need from an LLM for getting real work done.</p>\n<p>There's one very significant catch: it feels slow - especially when it starts over-thinking, but even without that it's not particularly sprightly.</p>\n<p>I've been getting around 15-30 tokens a second from LM Studio. That's not terrible, but it's slow enough that it's going to be hard to win me away from hosted API models, which can return results a whole lot faster. Artificial Analysis <a href=\"https://artificialanalysis.ai/models#speed\">track token speed</a> and show OpenAI 5.6 Sol at 74 tokens/second and 5.6 Luna at an impressive 184/second.</p>\n<p>The good news is that the community have been exploring ways to speed things up since the model was first released two days ago.</p>\n<p>One of the most promising optimizations is baked into the model itself. Qwen supports <a href=\"https://sebastianraschka.com/llm-architecture-gallery/mtp/\">Multi-Token Prediction</a>, an architecture trick where a cheaper mechanism guesses several tokens ahead and the main model can then quickly verify if the guesses were correct. This can have quite a dramatic effect on inference performance.</p>\n<p>Based on <a href=\"https://twitter.com/ggerganov/status/2088340681701925253\">this tweet</a> from <code>llama.cpp</code> creator Georgi Gerganov I tried running the model with MTP like this on the Spark:</p>\n<div class=\"highlight highlight-source-shell\"><pre>llama serve \\\n -hf  ggml-org/Qwen3.8-27B-GGUF:Q4_K_M \\\n -hfd ggml-org/Qwen3.8-27B-GGUF:Q4_0 \\\n --spec-default \\\n --spec-type draft-mtp \\\n --reasoning-preserve</pre></div>\n<p>And sure enough, this gave me a significant boost. I had GPT-5.6 in Codex run <a href=\"https://gist.github.com/simonw/b08c7eb9c126c806ba8987e269ea736b\">a comparative benchmark on the Spark</a> and the <code>--spec-type draft-mtp</code> server outperformed the LM Studio default GGUF by around 72%.</p>\n<p>I expect we'll see a whole lot more innovation around serving this model faster over the next few weeks. The MLX community likely have some tricks brewing as well.</p>\n<h4 id=\"some-observations\">Some observations</h4>\n<p>The fact that a 17GB file can do all of this stuff on my home machines is a <em>miracle</em>. Once again, I'm delighted and amazed at how much progress local models have made this year. A year ago this would have been competitive with the best and most expensive of the proprietary models - today it can run on a capable laptop.</p>\n<p>The only thing holding this back from being a daily driver is performance. It feels pretty slow on both the M5 Mac and the DGX Spark. That's the catch with these dense (non-Mixture-of-Experts) models - they require a whole lot of memory bandwidth to perform well, and neither of the machines I have access to are top performers in that regard.</p>\n<p>The most important thing about Qwen 3.8 27B is <strong>what it demonstrates</strong>. We can have an open weights general purpose model with a long context, effective tool calling, strong vision ability, and competent code generation, and we can fit the whole thing in just a 17GB file.</p>\n<p>The models at this size continue to get better at an impressive rate. We don't need to spend half a million dollars on datacenter-class hardware just to run a competent model.</p>\n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/local-llms\">local-llms</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\">pelican-riding-a-bicycle</a>, <a href=\"https://simonwillison.net/tags/llm-reasoning\">llm-reasoning</a>, <a href=\"https://simonwillison.net/tags/llama-cpp\">llama-cpp</a>, <a href=\"https://simonwillison.net/tags/llm-release\">llm-release</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/lm-studio\">lm-studio</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/nvidia-spark\">nvidia-spark</a>, <a href=\"https://simonwillison.net/tags/pi\">pi</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+        "author": "",
+        "keywords": "ai generative-ai local-llms llms qwen pelican-riding-a-bicycle llm-reasoning llama-cpp llm-release coding-agents lm-studio ai-in-china nvidia-spark pi",
+        "published": "2026-08-16T22:00:39+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Gemini Models Kept Becoming Depressed - Ryan Greenblatt",
+        "summary": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=nf9wcF_vtr4",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-08-17T21:51:36+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "You can just keep the work moving",
+        "summary": "ChatGPT Work keeps projects moving. Monitoring what matters, surfacing what needs attention, and picking up where your team leaves off.",
+        "link": "https://www.youtube.com/watch?v=wIf9yMGalPU",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-08-17T18:25:48+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens",
+        "summary": "Base44 helps people turn natural language into production-ready applications and custom AI agents—no coding required.\n\nIn this Startup Spotlight, Yoav Farhi, Staff AI Engineer at Base44, shares how the team tested GPT-5.6 across a wide range of app-building scenarios. Compared with GPT-5.5, GPT-5.6 delivered better outcomes while using 20% fewer tokens, completed tasks faster, and produced stronger first-pass designs for complex interfaces.\n\nFor Base44’s builders, that means less time correcting and re-explaining—and a faster path from idea to a product they can put in front of customers.\n\nLearn more about GPT-5.6: https://openai.com/index/gpt-5-6/",
+        "link": "https://www.youtube.com/watch?v=Cxp2aZQqkYM",
+        "author": "OpenAI",
+        "keywords": "",
+        "published": "2026-08-17T15:22:51+00:00",
+        "kind": "video",
+        "source_name": "OpenAI",
+        "source_handle": "OpenAI",
+        "source_role": "Channel · OpenAI"
+      },
+      {
+        "title": "Agent Memory EXPLAINED - Complete Architecture",
+        "summary": "Quick case study persistent memory for AI agents featuring Mem0. The architecture of  long form memory for agents goes far beyond a vector search. This deep dive explains Mem0's memory stores, ingestion pipeline, hybrid retrieval with semantic search, BM25 and entity boosting, plus practical open models for running the system locally.\n\n---\n🔗 *Links*\n- Mem0 documentation: https://docs.mem0.ai/\n- Mem0 source code: https://github.com/mem0ai/mem0\n- Hugging Face models: https://huggingface.co/models\n- Hugging Face embedding models: https://huggingface.co/models?pipeline_tag=feature-extraction\n- MTEB leaderboard: https://huggingface.co/spaces/mteb/leaderboard\n\n---\n👋 *Connect with me*\n- My website: https://alejandro-ao.com/\n- X (Twitter): https://x.com/_alejandroao\n- LinkedIn: https://www.linkedin.com/in/alejandro-ao/\n\n---\n🤓 *Topics Covered*\n- Long-term memory architecture for AI agents\n- Mem0 ingestion, storage and hybrid retrieval\n- Local LLM and embedding model choices\n\n---\n⏱️ *Timestamps*\n0:00 Introduction\n0:55 What agent memory is\n3:28 Persistent memory across agents\n4:26 Databases used by Mem0\n8:06 Memory ingestion\n15:30 Retrieval: queries and semantic search\n19:19 Retrieval: BM25 and entity boosting\n25:38 Open models and conclusion",
+        "link": "https://www.youtube.com/watch?v=aYfZN8t6AQs",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-08-17T03:15:35+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  },
+  "window": {
+    "start": "2026-08-16T22:00:00+00:00",
+    "end": "2026-08-17T22:00:00+00:00"
+  }
+}
