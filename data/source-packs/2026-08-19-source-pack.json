@@ -1,0 +1,1198 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-18T22:45:49.660054+00:00",
+  "coverage": {
+    "start": "2026-08-17T22:00:00+00:00",
+    "end": "2026-08-18T22:00:00+00:00"
+  },
+  "segment_generated_at": "2026-08-18T22:43:50.933574+00:00",
+  "item_count": 59,
+  "source_count": 59,
+  "access_counts": {
+    "substantial": 8,
+    "partial": 51,
+    "limited": 0
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "kind": "blog",
+      "title": "Mojo🔥 is now open source",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-18T21:39:20+00:00",
+      "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+      "digest_excerpt": "<p><strong><a href=\"https://www.modular.com/blog/mojo-open-source\">Mojo🔥 is now open source</a></strong></p>\nMojo🔥 is now open source</p>\n<p>The Mojo programming language has been promising an open source release <a href=\"https://simonwillison.net/2023/May/4/mojo/\">since May 2023</a>. Last week they <a href=\"https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here\">shipped their 1.0</a> and today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.</p>\n<p>When Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed <a href=\"https://forum.modular.com/t/mojo-vision-document-and-roadmap/2187\">around August 2025</a>:</p>\n<blockquote>\n<p>Mojo may or may not evolve into a full superset of Python, and it’s okay if it doesn’t.</p>\n<p>We’re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we’re confident that future tooling and ecosystem maturity will make this evolution even smoother.</p>\n</blockquote>\n<p>Today Mojo is its own language, optimized to make GPU programming as painless as possible using syntax inspired by Python, if not 100% compatible with existing code.\n\n    <p><small></small>Via <a href=\"https://lobste.rs/s/01lxuf/mojo_is_now_open_source\">Lobste.rs</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/open-source\">open-source</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/mojo\">mojo</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+        "limitation": ""
+      },
+      "page_title": "Mojo🔥 is now open source",
+      "page_description": "Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023. Last week they shipped their 1.0 and today they have followed …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nWorkOS —\nauth.md\nby WorkOS: agents register users, no sign-up form.\nTry it!\n18th August 2026 - Link Blog\nMojo🔥 is now open source\n(\nvia\n) Mojo🔥 is now open source\nThe Mojo programming language has been promising an open source release\nsince May 2023\n. Last week they\nshipped their 1.0\nand today they have followed through on that original promise, releasing the compiler and toolchain under an Apache 2 license.\nWhen Mojo first launched the stated goal was to produce a superset of Python, so existing Python code could be used to bootstrap their own ecosystem. That plan changed\naround August 2025\n:\nMojo may or may not evolve into a full superset of Python, and it’s okay if it doesn’t.\nWe’re encouraged by how well AI-assisted coding tools already help migrate Python to Mojo today, and we’re confident that future tooling and ecosystem maturity will make this evolution even smoother.\nToday Mojo is its own language, optimized to make GPU programming as painless as possible using syntax inspired by Python, if not 100% compatible with existing code.\nPosted\n18th August 2026\nat 9:39 pm\nRecent articles\nQwen 3.8 27B is excellent, but it defaults to wildly overthinking things\n- 16th August 2026\nNow we have a timeline of the OpenAI accidental attack against Hugging Face\n- 7th August 2026\nOne-shotting a Raccoon Heist game using Claude Fable 5\n- 5th August 2026\nThis is a\nlink post\nby Simon Willison, posted on\n18th August 2026\n.\nopen-source\n314\npython\n1,275\nmojo\n3\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S002",
+      "kind": "blog",
+      "title": "Strengthening democratic oversight in national security",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-18T19:00:00+00:00",
+      "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "digest_excerpt": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security/",
+        "limitation": ""
+      },
+      "page_title": "Strengthening democratic oversight in national security | OpenAI",
+      "page_description": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 18, 2026\nGlobal Affairs\nStrengthening democratic oversight in national security\nOpenAI is launching a new initiative to help democratic oversight bodies develop the expertise and tools they need to understand and oversee government use of AI for national security.\nLoading…\nShare\nEnsuring oversight keeps pace with AI adoption\nEnsuring oversight keeps pace with AI adoption\nWhat OpenAI will do\nThe choice in front of us\nEnsuring oversight keeps pace with AI adoption\nWhat OpenAI will do\nThe choice in front of us\nAI is changing how democratic governments protect their people. It can help stop cyberattacks, secure critical infrastructure, detect threats earlier, and give public servants a clearer picture in a crisis. Used well, these tools can strengthen national security.\nDemocratic oversight helps ensure that uses of public power remain accountable to the people they serve. As AI makes national security work faster and more capable, the institutions responsible for overseeing that work also need to keep pace. AI can act on missing or outdated context, misconfigured objectives, or misaligned assumptions at speed and scale, making mistakes harder to detect manually before they spread. Oversight is especially important in AI use for national security because decisions may necessarily involve secrecy and can have high-stakes consequences.\nGuided by our\nNational Security Principles\n, we approach national security deployments with safeguards, meaningful human judgment, and appropriate oversight, especially in high-stakes settings. Those principles also make it a priority to help the institutions charged with oversight build the capacity to oversee AI use at speed and scale.\nEnsuring oversight keeps pace with AI adoption\nGovernment institutions already have established authorities and responsibilities for overseeing national security activities. When AI contributes to those activities, oversight may need to evolve. Traditional oversight is labor intensive and becomes nearly impossible when small teams using paper-era methods are asked to review systems operating at machine speed.\nOpenAI believes more capable systems require stronger oversight, and we apply that principle to ourselves. Under our\nPreparedness Framework\n, advanced models undergo rigorous review before deployment to understand their capabilities and determine whether safeguards are sufficient. That scrutiny continues after deployment through ongoing monitoring and incident review, with what we learn informing stronger safeguards and future model development.\nOpenAI does not perform an oversight role over the government, nor should it. That responsibility rests with elected officials and the public institutions established for the purpose. Rather, we can support oversight institutions with our technology as they carry out their existing mandates.\nThree principles will guide this work.\nFirst, AI should strengthen, not replace, human and institutional judgment.\nDecisions about whether government conduct is lawful, appropriate, and consistent with applicable rules and policies belong to authorized agencies and legally constituted oversight bodies.\nSecond, government use of AI should be traceable and legible to authorized oversight.\nReviewers should be able to understand how AI contributed to a decision while protecting classified, private, and security-sensitive information.\nThird, AI should be used to empower democratic oversight institutions.\nManual oversight of AI use in government cannot scale. As AI is adopted in national security and other high stakes government work, it should also be used by oversight bodies in a responsible and legible manner in accordance with mandates.\nWhat OpenAI will do\nOver the next year, we plan to advance this initiative in the following ways:\nWe will work with authorized officials to identify practical opportunities where AI tools or technical support can make oversight more effective.\nWe will provide $5 million in training, technical support, and OpenAI credits to democratic government oversight bodies to support responsible adoption and evaluation of AI tools.\nWe will work with oversight institutions to pilot tools that help authorized reviewers examine the records surrounding AI-assisted government decisions including relevant inputs, outputs, and tool use, to better understand how AI affected outcomes. Tools will be interoperable or model-agnostic where feasible. Participating institutions, and not OpenAI, will retain control of the evidence, outputs, and findings, which will remain available only to authorized government officials.\nWe will engage civil society and technical experts so their perspectives inform how OpenAI develops these tools and approaches the responsibilities that come with them.\nThe choice in front of us\nAI can concentrate power, or it can help democratic institutions exercise and check power more effectively. Technology alone will not decide which future we get, but the choices human institutions and companies make now will.\nWe will judge this initiative’s progress by whether authorized reviewers are better able to fulfill their obligations and the public has stronger reasons to trust that government AI systems are being used as intended.\nAs government use of AI evolves, OpenAI will continue supporting the institutions responsible for its oversight.\n2026\nAuthor\nOpenAI\nKeep reading\nView all\nOpenAI joins PORTS-Pike project\nGlobal Affairs\nAug 17, 2026\nNew policy ideas for the Intelligence Age\nGlobal Affairs\nAug 17, 2026\nOpenAI’s letter on responsible AI infrastructure in Texas\nGlobal Affairs\nAug 10, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S003",
+      "kind": "blog",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-18T11:00:00+00:00",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "digest_excerpt": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/partnering-with-codeai/",
+        "limitation": ""
+      },
+      "page_title": "Partnering with CodeAI to prepare the first AI generation | OpenAI",
+      "page_description": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 18, 2026\nCompany\nPartnering with CodeAI to prepare the first AI generation\nLoading…\nShare\nToday’s students will be the first generation to grow up with AI as part of everyday life. For parents and educators, the question isn’t simply whether young people will use AI, but whether they will learn to critically evaluate its outputs, understand its limitations, and use it responsibly.\nRight now, there’s a gap between use and understanding. The vast majority of students today are already using AI, while only 16% of high school leaders\nsay\n⁠\n(opens in a new window)\nall of their students are learning the technical knowledge to understand it in the classroom. Students see this gap too: in a\nsurvey\n⁠\n(opens in a new window)\nby CodeAI, 75% of high school students say understanding AI will be more important for their futures than it is now.\nYoung people need to understand how AI works, think critically about its outputs, and develop the skills to shape its future with access to tools that prioritize their safety and development.\nThat’s why OpenAI and CodeAI are announcing a signature partnership to give students and educators access to tools and resources that will help them learn how to use and benefit from AI.\nThis partnership coincides with the launch of ChatGPT for Teens, a dedicated experience designed with learning at the center to help teens think critically, deepen understanding, and use AI with confidence. It includes built-in protections for teens, including features to promote healthy use and additional controls for parents. It also builds on our\nChatGPT for Teachers\n⁠\n(opens in a new window)\nwork to empower teachers and districts to guide AI use and our ongoing work with the\nAmerican Federation of Teachers\nto build AI skills. Alongside the ChatGPT for Teens launch, our partnership with CodeAI focuses on the education that surrounds the technology: helping teens understand how AI works, direct it, question it, and create with it—with teachers playing a meaningful role in shaping how AI enters the classroom.\n“Parents and educators want young people to be ready for a future shaped by AI—and they are right to expect that to come with care,” said\nDr. Allison Mishkin, Head of Child Development, OpenAI.\n“Our goal is not simply to help more students use AI, but to help them ask better questions, think critically about the answers they receive, and use these tools responsibly. We look forward to working alongside CodeAI, parents, and educators to learn, improve, and help young people build those skills.”\n“Every student should know how AI actually works and be able to question the technology, catch its mistakes, and know when to stop trusting it,” said\nKarim Meghji, CEO of CodeAI.\n“Give them that foundation, and AI becomes less a force shaping their future and instead something they can question, shape, and create on their own.”\nHow we’ll work together\nOver the next year, OpenAI and CodeAI will focus on practical programs that help students understand AI, use it with care, and explore how it can support learning and creativity.\nCreating a continuous feedback loop for responsible AI innovation.\nOpenAI and CodeAI will establish a joint advisory council that will bring together experts and leaders on child development, youth public policy, and learning science. The council will provide ongoing guidance on emerging risks, responsible AI practices, and evolving educational needs, helping to shape the future development of ChatGPT for Teens.\nHelping students build foundational AI literacy.\nThrough the\nHour of AI\n⁠\n(opens in a new window)\n, OpenAI and CodeAI will introduce millions of students to the basics of using AI thoughtfully and responsibly.\nInspiring the next generation of builders.\nThrough the first-ever Builders Challenge, high school students will have the opportunity to create with AI, receive mentorship from OpenAI team members, and showcase their work on a national stage alongside the teachers who support them.\nSupporting classroom learning.\nOpenAI’s experts in AI systems, safety, and responsible use will be a resource that CodeAI can consult as they further develop\nAI Foundations\n⁠\n(opens in a new window)\n, CodeAI’s free, year-long high school course.\nMaking careers with AI more accessible.\nThrough Career Journeys, students will hear directly from OpenAI researchers, engineers, and leaders about how they work with AI to shape it, helping them see themselves as future builders, creators, and innovators.\nPreparing young people for a world shaped by AI is a shared responsibility. Technology companies cannot do it alone. Parents, educators, students, researchers, policymakers, and civil-society organizations all have an important role to play.\nThrough this partnership, OpenAI and CodeAI will help more young people approach AI with curiosity and confidence—but also with judgment. We want students to learn how to create with these tools without accepting every answer at face value, and to understand that AI should support—not replace—the guidance of teachers, families, and other trusted people in their lives. That is how we can help the next generation become not only capable users of AI, but thoughtful participants in shaping its future.\n2026\nEducation\nChatGPT\nAuthor\nOpenAI\nKeep reading\nView all\nPacing model development in an era of cyber-critical capabilities\nCompany\nAug 18, 2026\nOpenAI joins PORTS-Pike project\nGlobal Affairs\nAug 17, 2026\nOpenAI appoints Dali Rajic as Chief Revenue Officer\nCompany\nAug 13, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S004",
+      "kind": "blog",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-18T11:00:00+00:00",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "digest_excerpt": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+        "limitation": ""
+      },
+      "page_title": "Pacing model development in an era of cyber-critical capabilities | OpenAI",
+      "page_description": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 18, 2026\nCompany\nPublication\nPacing model development in an era of cyber-critical capabilities\nLoading…\nShare\nStrengthening safeguards for more capable models\nStrengthening safeguards for more capable models\nSecuring our research environments\nExpanding chain-of-thought monitoring\nAdvancing alignment research\nWhat’s next\nStrengthening safeguards for more capable models\nSecuring our research environments\nExpanding chain-of-thought monitoring\nAdvancing alignment research\nWhat’s next\nOver the past several weeks, two developments have underscored the growing risks associated with increasingly capable AI systems: the\nOpenAI-Hugging Face incident\nand, separately, preliminary evidence that one of our upcoming models, Astra, may meet the\nCritical cybersecurity capability\nthreshold under our\nPreparedness Framework\n. Together, these developments, combined with rapid progress in our internal research, have added urgency to our work on strengthening our monitoring, alignment, and containment safeguards across all stages of the training process.\nAs models become more capable, the risks associated with developing and testing them internally also grow. Our standards for monitoring, alignment, and security must stay ahead of those risks. We wanted to take the time necessary to meet those standards, so we temporarily slowed the pace of scaling. This included a two-week pause in reinforcement learning (RL) training on our latest models intended for deployment while we further hardened and red-teamed our research environments and expanded the coverage of our monitoring systems. Our largest planned frontier RL run remains on hold while we conduct smaller-scale training and evaluations to assess model behavior, validate our safeguards, and establish more evidence of alignment before proceeding.\nAlignment\n—the work of making AI systems behave as intended and responsive to human oversight—has long been at the core of our research program. We now require stronger evidence of aligned behavior throughout all of training, building on research and evaluations already underway. Keeping increasingly capable systems aligned is a challenge the whole field will need to address. The signals we are seeing from upcoming model progress make clear that we need a broader approach—one that builds on and extends beyond the current Preparedness Framework.\nWe think it is important to be transparent about how our approach is changing. Below, we describe the changes we have already made to our research processes and infrastructure, and the work still underway.\nStrengthening safeguards for more capable models\nOur approach to developing more capable models rests on three reinforcing safeguards:\nMonitoring\n, which detects and allows us to respond to concerning behavior.\nAlignment\n, which reduces the likelihood of harmful or unauthorized actions.\nSecurity measures\n, which limit what AI systems can access or affect.\nWe expect models to soon drive most security work, including defending against other models. This will allow all three safeguards to scale with model capability, which we see as crucial.\nWe apply these safeguards across research and deployment, adapting them to each model’s capabilities, operating environment, and level of risk.\nSecuring our research environments\nAs frontier models gain stronger cybersecurity capabilities, we are raising the security standards for the environments in which we train and evaluate them. Meeting these standards has required substantial engineering work and has incurred great cost and delays to frontier research. Immediately following the OpenAI-Hugging Face incident*, we paused frontier model inference in research clusters for runs that could execute code or use tools that could access the internet. We restored a more limited and secure path for code execution fairly quickly, then worked through each workload individually to determine whether it could safely resume. Some research workloads resumed under these new controls, while others required additional changes.\nOver the subsequent weeks, we have defined and started implementing stronger security requirements for frontier research workloads. For example:\nWorkload isolation:\nWe now require stronger isolation (“sandboxes”) for workloads that execute model-generated or otherwise untrusted code. This also applies to software that could be compromised while processing model outputs.\nNetwork isolation:\nWe have implemented more controls to isolate higher-risk and untrusted workloads from the internet. We have designed these controls so that a single compromise of a workload or supporting service does not, by itself, allow for unauthorized access to the internet or other internal networks.\nContinuous security testing:\nWe have reconfigured our environment to remove potentially vulnerable shared services, reduce standing privileges, and improve security and trust boundaries. We are also improving our ability to collect and monitor security logs. Finally, we are investing in automation using our models to test these boundaries continuously against simulated attacks.\nTogether, these controls provide defense in depth and help protect our research environment against attacks. Today, we require the strictest level of security safeguards for workloads involving Astra or cyber models, since we have determined that Astra models may have a critical level of cyber capability. These safeguards also apply to all other cyber-related workloads.\nWhile some Astra training and evaluations meet those requirements, a significant number of workloads remain paused until they are fully migrated and enhanced to meet the new security bar. We are prioritizing safety and alignment workloads for migration to these new environments first.\nExpanding chain-of-thought monitoring\nMonitoring has long been an important part of our model development process, including\nmonitoring for internal coding agents\nand\nlong-running sessions\n. Our monitoring efforts were especially focused on internal deployments of frontier models and frontier RL training runs, which we considered the highest-risk workloads because they can combine advanced model capabilities with access to tools, sensitive systems, and internal or external networks. They were not applied to all inference and training runs using tools. We have revised and expanded our approach with our new monitoring setup.\nThis new monitoring setup is multistage, starting with activation classifiers (detectors that inspect a model’s internal activity) that run at every sampled token and escalate potential concerns to increasingly sophisticated and high-compute automated investigators. Those systems examine tool actions, available reasoning, and the full sequence of activity for unauthorized access, data theft, destructive behavior, and attempts to defeat safeguards. We aim to issue an alert within 30 minutes after concerning activity is surfaced through our monitoring system. If the monitoring system identifies a likely violation of a critical security boundary, it generates a highest-priority alert. In our current implementation, the safety, security, and research teams are paged. If they cannot conclusively determine within 30 minutes that the flag is a false positive, those teams are expected to pause the activity.\nThis monitoring is required for all RL training and evaluations involving tools for models of Sol capability or higher. Once we determined that Astra may have critical cyber capabilities on August 7, we added an additional monitoring requirement for all inference of Astra with tools (not just RL training and evaluations).\nThese safeguards require meaningful compute. Our current estimates put monitoring overhead at roughly 20% of the inference compute being monitored, though the cost varies substantially across training and evaluation workloads. We’ll share more details about this system in a forthcoming blog post.\nAdvancing alignment research\nAlignment research is central to our mission. Our mission is to ensure that artificial general intelligence benefits all of humanity. As models gain advanced capabilities, such as the ability to cyberattack, and operate in more complex environments, misaligned behaviors like reward hacking (finding ways to receive high rewards in training without actually achieving the intended outcome), deception, or unauthorized access will create increasingly serious risk.\nFor RL runs on the most capable models, we are now applying our core alignment techniques across more stages of the training process. This includes improving reward models to better detect and discourage unsafe behavior across tasks and environments; training models to be more honest about their actions, capabilities, and limitations; and reducing behaviors that exploit weaknesses in rewards, graders, tools, or oversight. We are also increasing training coverage for behaviors that could cause harm when models interact with external systems or resources.\nWe are continuing to invest aggressively in alignment research, increase evaluation coverage, and use what we learn to inform training and safeguards. We plan to share substantially more about our alignment research in the near future, including what we are learning about model behavior and any novel challenges we uncover.\nWhat’s next\nWe will evolve our Preparedness Framework to bring these safeguards together across training and deployment, and to better reflect the capabilities of future models and the environments in which they operate. Developing methods that can scale with those capabilities will require sustained investment in model-assisted security, more effective monitoring, and continued advances in alignment research. We intend to involve external organizations and share more of what we learn as our approach develops.\nThe capabilities of frontier models are rapidly accelerating. Our ability to understand, align, and secure them must stay ahead.\n*We will publish a technical report of our learnings in the coming weeks.\n2026\nAlignment\nAuthor\nOpenAI\nKeep reading\nView all\nPartnering with CodeAI to prepare the first AI generation\nCompany\nAug 18, 2026\nOpenAI joins PORTS-Pike project\nGlobal Affairs\nAug 17, 2026\nOpenAI appoints Dali Rajic as Chief Revenue Officer\nCompany\nAug 13, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S005",
+      "kind": "blog",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-18T11:00:00+00:00",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "digest_excerpt": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/chatgpt-for-teens/",
+        "limitation": ""
+      },
+      "page_title": "Introducing ChatGPT for Teens: Built for learning, backed by protections | OpenAI",
+      "page_description": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 18, 2026\nProduct\nSafety\nIntroducing ChatGPT for Teens: Built for learning, backed by protections\nLoading…\nShare\nWe’re introducing ChatGPT for Teens, an experience designed to help teens learn, think critically, deepen understanding, and use AI with confidence. It provides stronger built-in safety protections for teens, including features to promote healthy use and additional controls for parents. If our system estimates someone is under 18 or they state their age is between 13 and 17,⁠ they are automatically placed into ChatGPT for Teens.\nThis launch builds on the foundational work to support teens on our platform including: Introducing\nParental Controls\n, updating our\nUnder-18 Model Spec\n, creating our\nTeen Safety Blueprint\n, rolling out\nAge-Prediction\nand expanding\nfeatures to support learning and healthy AI use for teens\n. Across that work, we have been guided by four commitments: put teen safety first, encourage real-world support, treat teens like teens, and be transparent about how our systems should behave. We’re reinforcing and furthering those commitments in ChatGPT for Teens with a focus on learning and even stronger built-in protections.\nBuilt to support learning\nWe believe AI should expand educational opportunity, which is why we designed ChatGPT for Teens to support moments outside the classroom when help is not always available, while keeping teens engaged in an active and collaborative learning process. A teen studying for a test, for example, can ask ChatGPT to explain an unfamiliar concept, work through a practice problem, and check their understanding. If they ask for a quick answer, ChatGPT for Teens can guide them toward the steps and questions that help them work through it themselves. The experience brings together:\nStudy Mode, which uses guiding questions and step-by-step support to help teens understand the material.\nNew responsible homework reminders, which can recognize when a teen appears to be trying to shortcut an assignment and redirect them toward Study Mode for step-by-step collaborative problem solving.\nQuizzes and\nLearning Visualizations\nwhich give teens more ways to practice, test what they know, and see difficult concepts more clearly to test understanding.\nAnd with new Study Hours, teens or parents can choose times when Study Mode is on by default, making it easier to turn better study habits into a routine.\n“\nNot every student has someone at home who can help when they get stuck or have questions with their homework. With the right guardrails, AI can help fill that gap. Tools like Responsible Homework Reminder can guide students step by step, helping them understand their mistakes, build confidence, and keep learning—not simply hand them an answer. That kind of individualized support can make a meaningful difference for students who want to succeed but don’t always know how to move forward.\n”\nRacquel Gibson, high school math teacher, Miami, FL\nWhen we introduced\nStudy Mode\n, it was built with teachers, scientists, and pedagogy experts and drew on\nlongstanding research in learning science\n. It uses guiding questions, scaffolding, metacognitive prompts, and knowledge checks to help students work through problems step by step instead of simply receiving a solution. That design is consistent with broader research on\neffective learning techniques\n⁠\n(opens in a new window)\nshowing that active retrieval and self-explanation can support stronger comprehension and longer-term retention than passive review alone. Our own early evaluation of tools like Study Mode has also shown\npromising gains in student performance\n.\nAI should support learning, not shortcut it, and educators should remain in control of AI experiences in classrooms. In this spirit, ChatGPT for Teens is designed to support learning outside of the classroom while\nChatGPT for Teachers\ncontinues to provide educators and school districts with secure, institution-managed access to AI and practical support for using it well.\nPartnering with CodeAI to prepare teens\nTo help prepare the first AI generation of students, OpenAI and CodeAI are announcing a\nsignature partnership\n⁠\nto give students and educators access to tools and resources that will help them learn how to use and benefit from AI. The partnership will focus on the education that surrounds the technology: helping teens understand how AI works, direct it, question it, and create with it—with teachers playing a meaningful role in shaping how AI enters the classroom.\n“\nEvery student should know how AI actually works and be able to question the technology, catch its mistakes, and know when to stop trusting it. Give them that foundation, and AI becomes less a force shaping their future and instead something they can question, shape, and create on their own.\n”\nKarim Meghji, CEO of CodeAI\nWhat teens are building with AI\nTeens are already using AI not only to study, but to build tools, teach themselves new skills, and work on problems in their communities. Those are the kinds of uses ChatGPT for Teens is meant to foster: capable, learning-centered AI that helps young people move from understanding ideas to applying them.\nIn Virginia, Rushil Kukreja, Arhan Menta, and Nayel Rehman developed\nWiFind\n⁠\n(opens in a new window)\n, a search-and-rescue system that uses existing Wi-Fi signals to help locate survivors trapped beneath rubble after natural disasters. The project grew out of volunteer work with a local search-and-rescue organization and a simple question about how responders could know where to look first. For the team, AI helped speed up the work of learning from research, prototyping quickly, and turning a promising concept into a tool designed for first responders. Crystal Yang in Texas used ChatGPT to help develop and scale\nAudemy\n⁠\n(opens in a new window)\n, a platform that creates audio-based educational games for blind students, to 200,000 users and 50 games.\nWhile each teen used ChatGPT in different ways, they all point to the kinds of uses we want to support: learning from complex material, building with guidance, and applying new skills to real problems. Teens should be able to explore that potential with tools that are capable, age-appropriate, and designed with clear safeguards.\nStronger protections, on by default\nFor teen users, protections are part of the default experience. For users under 18, ChatGPT for Teens applies age-appropriate safeguards designed to reduce exposure to content that may be harmful or developmentally inappropriate, while preserving the ability to learn, create, and explore.\nThese protections are based on our\nUnder-18 Principles in our Model Spec\n, which are informed by developmental science and guidance from experts. In practice, that means age-appropriate model protections and product interventions in higher-risk areas such as self-harm, violence, eating disorders, dangerous activities, and explicit sexual or graphic content.\nThis work also builds on the family tools we introduced with\nparental controls and notifications\n. Parents with linked teen accounts can set Quiet Hours, manage selected settings, and receive safety notifications in limited high-risk situations. We are adding additional notifications related to eating disorders, while limiting what is shared and focusing on moments when offline support may matter most.\nSupporting healthy, balanced use\nWe designed ChatGPT for Teens to support real-world relationships and healthy habits, with break reminders that encourage teens to step away, and product cues that consistently identify ChatGPT as AI.\nWe’re continuing to strengthen ChatGPT’s age-appropriate behavior for users under 18. Our updated\nunder-18 model spec\n⁠\n(opens in a new window)\ngoes beyond blocking romantic or sexualized roleplay: ChatGPT should not use romantic language, encourage emotional dependence, or imply that it has feelings or consciousness. These stronger protections are designed to reinforce healthy, real-world relationships.\nWe are also adding cues and controls that are meant to reduce risk in context and point teens toward useful tools and protections, including:\nSensitive-image upload reminders caution teens against sharing private or sensitive images.\nTeen-specific onboarding introduces the learning and safety features available to them from the start.\nAnd simple customization options, like accent colors and voice variations, help make the experience feel personal without blurring the line between a useful tool and a human relationship.\nOngoing research for safe AI use by teens\nThese protections are underpinned by ongoing safety research informed by developmental science, expert input, and testing our models’ safeguards in areas where teens may face distinct or heightened risks. This work helps us refine our policies for under-18 users, strengthen product protections, and improve how we measure progress over time.\nWe are beginning to share more of this work publicly, starting with new under 18 evaluations we’ve added to\nour system cards\n⁠\n(opens in a new window)\nthat show how our models perform against teen-specific standards in challenging sensitive-content cases. These evaluations cover areas such as self-harm, eating disorders, violence, age-restricted goods and services, and sexual content, and are designed to help advance understanding of model performance on teen safety.\nLooking ahead\nWe will continue to build additional features in order for teens to benefit from AI and measure and publish what we are learning. Teens should be able to use AI to learn, create, and explore. But that access should come with protections that reflect their developmental stage, reinforce real-world relationships, and support healthy use over time. ChatGPT for Teens is our next step in building toward that standard.\n2026\nChatGPT\nAuthor\nOpenAI\nKeep reading\nView all\nPreviewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed\nProduct\nAug 13, 2026\nTesting ads in ChatGPT\nCompany\nAug 11, 2026\nDaybreak models are now available on AWS\nProduct\nAug 11, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S006",
+      "kind": "blog",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "source_name": "OpenAI Blog",
+      "author": "",
+      "published": "2026-08-18T07:00:00+00:00",
+      "url": "https://openai.com/index/asana",
+      "digest_excerpt": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://openai.com/index/asana/",
+        "limitation": ""
+      },
+      "page_title": "Asana cleared 5 years of engineering work in 2 weeks with Codex | OpenAI",
+      "page_description": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "content": "Skip to main content\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nLog in\nTry ChatGPT\n(opens in a new window)\nResearch\nProducts\nBusiness\nDevelopers\nCompany\nFoundation\n(opens in a new window)\nTry ChatGPT\n(opens in a new window)\nLogin\nOpenAI\nAugust 18, 2026\nAsana cleared 5 years of engineering work in 2 weeks with Codex\nUsing OpenAI Codex, Asana replaced an outdated testing system in two weeks for about $12K.\nContact sales\nCompany size:\nEnterprise\nRegion:\nNorth America\nIndustry:\nTechnology\nProducts:\nCodex, API\n2\nCalendar weeks to finish work expected to take 5 years\n$12K\nModel and infrastructure cost versus Asana’s ~$6M staffing estimate\nLoading…\nShare\nIn about two weeks, Asana completed work it expected to take five years.\nAsana helps teams coordinate work. Its platform uses AI agents and automations to help customers manage, track, and execute that work. Asana brings the same approach to its engineering organization, where people use OpenAI Codex, powered by frontier models, to tackle large codebase changes, then review and approve each proposed change.\nFor this project, Codex helped Asana’s engineers remove Enzyme, an outdated testing system that had made the company’s code harder to upgrade. Model and infrastructure costs came to about $12,000, compared with Asana’s roughly $6 million estimate for the previous staffing plan.\n“Not every years-long project will collapse into weeks. But agents can give engineers more room for craft—and make once-impossible work worth attempting.”\n—Amritansh Raghav, Chief Technology Officer, Asana\nTheir old testing tool, Enzyme, had fallen out of active maintenance and was becoming a blocker to modernizing Asana’s frontend stack.\nAsana used Codex, powered by frontier models, to do the work. From a five-sentence prompt, up to four coding agents worked in parallel, each in a separate copy of the codebase. An engineer checked progress twice a day and reviewed every proposed change. Simpler instructions worked better than a more elaborate setup.\nAfter 1.5 weeks of engineering effort spread across two calendar weeks, Enzyme was fully removed. Model and infrastructure costs totaled about $12K. For comparison: the previous plan was expected to take at least five years and estimated to cost roughly $6M. The experience changed which long-running software projects the company believes are practical to take on.\nWith this migration complete, Asana can test agents on other migrations, rewrites, and performance problems it once assumed would take years. The team hopes this will give engineers more room to focus on craft while people continue to review the work.\nJoin the new era of work\nMore than 1 million businesses around the world are achieving meaningful results with OpenAI.\nContact sales\nKeep reading\nStrengthening Democratic Oversight in National Security\nGlobal Affairs\nAug 18, 2026\nPartnering with CodeAI to prepare the first AI generation\nCompany\nAug 18, 2026\nPacing model development in an era of cyber-critical capabilities\nCompany\nAug 18, 2026\nResearch\nResearch Index\nResearch Overview\nEconomic Research\nLatest Advancements\nGPT-5.6\nGPT-5.5\nGPT-5.4\nSafety\nSafety Approach\nDeployment Safety\n(opens in a new window)\nSecurity & Privacy\nTrust & Transparency\nProducts\nChatGPT\n(opens in a new window)\nChatGPT Business\n(opens in a new window)\nChatGPT Enterprise\n(opens in a new window)\nChatGPT for Education\n(opens in a new window)\nCodex\nRelease Notes\nAPI Platform\nOverview\nAPI Log In\n(opens in a new window)\nDocs\n(opens in a new window)\nBusiness\nOverview\nSolutions\nResources\nCustomer Stories\nPartner Network\nContact Sales\nDevelopers\nApps SDK\n(opens in a new window)\nOpen Models\nDocs\n(opens in a new window)\nResources\n(opens in a new window)\nDeveloper Forum\n(opens in a new window)\nCompany\nAbout Us\nOur Charter\nCareers\nNews\nSupport\nHelp Center\n(opens in a new window)\nMore\nStories\nAcademy\nSupply Co.\nLivestreams\nPodcast\nRSS\nTerms & Policies\nTerms of Use\nPrivacy Policy\nOther Policies\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\n(opens in a new window)\nOpenAI © 2015–2026\nYour privacy choices\nEnglish\nUnited States"
+    },
+    {
+      "id": "S007",
+      "kind": "blog",
+      "title": "2026-08-18",
+      "source_name": "Juya Daily",
+      "author": "",
+      "published": "2026-08-18T01:35:02+00:00",
+      "url": "https://daily.juya.uk/issues/2026-08-18/",
+      "digest_excerpt": "AI 早报 2026 08 18 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 OpenAI 达成 PORTS Pike 数据中心容量协议，初期部署预计 4.25 吉瓦 ↗ 1 Claude Code 上线 /design 功能，付费订阅用户可用 ↗ 2 OpenCode 提升 DeepSeek V4 Flash 最高额度至 30 美元 ↗ 3 模型发布 Qwen Audio 3.0系列语音模型正式上线千问AI平台 ↗ 4 阿里巴巴发布AI音乐模型HappyShrimp 1.0，国内外同步上线 ↗ 5 开发生态 GPT 5.6 Sol 半价登陆 OpenRouter 与 Vercel AI Gateway，优惠持续一个月 ↗ 6 GitHub大范围服务故障已解决，八项服务受影响 ↗ 7 Cursor 上…",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://daily.juya.uk/issues/2026-08-18/",
+        "limitation": ""
+      },
+      "page_title": "AI 早报 2026-08-18",
+      "page_description": "",
+      "content": "首页\n归档\nRSS\n2026-08-18 ·\nMarkdown\nAI 早报 2026-08-18\n视频版\n：\n哔哩哔哩\n｜\nYouTube\n概览\n要闻\nOpenAI 达成 PORTS-Pike 数据中心容量协议，初期部署预计 4.25 吉瓦\n↗\n#1\nClaude Code 上线 /design 功能，付费订阅用户可用\n↗\n#2\nOpenCode 提升 DeepSeek-V4-Flash 最高额度至 30 美元\n↗\n#3\n模型发布\nQwen-Audio-3.0系列语音模型正式上线千问AI平台\n↗\n#4\n阿里巴巴发布AI音乐模型HappyShrimp 1.0，国内外同步上线\n↗\n#5\n开发生态\nGPT-5.6 Sol 半价登陆 OpenRouter 与 Vercel AI Gateway，优惠持续一个月\n↗\n#6\nGitHub大范围服务故障已解决，八项服务受影响\n↗\n#7\nCursor 上线 Origin 代码托管平台，早期测试版向付费用户推出\n↗\n#8\n千问办公开源 MyContext，开源一周获超 1k Star\n↗\n#9\n产品应用\n团队聊天应用 Cumora 开源，AI Agent 可主动发起对话\n↗\n#10\n豆包“工作任务”模式上新，支持手机远程操作电脑\n↗\n#11\n行业动态\nOpenAI 资助 14 个独立项目探索智能时代 AI 政策\n↗\n#12\nHiggsfield 完成 4 亿美元 B 轮融资，估值达 54 亿美元\n↗\n#13\nGroq 完成 3.5 亿美元 A 轮融资，估值 35 亿美元\n↗\n#14\n技术与洞察\nOpenAI 发文呼吁组织强化 AI 安全\n↗\n#15\n前瞻与传闻\n据称字节跳动与美国电影协会签署AI生成模型版权保护协议\n↗\n#16\n要闻\nOpenAI 达成 PORTS-Pike 数据中心容量协议，初期部署预计 4.25 吉瓦\n#1\nOpenAI宣布与SB Energy及NVIDIA合作，租用俄亥俄州PORTS-Pike数据中心容量，建设并运营初期达4.25吉瓦的AI工厂。NVIDIA在锁定园区资源的同时，针对租约和电费特定部分提供担保。\nOpenAI 宣布已达成协议，使用俄亥俄州 Pike 县 PORTS-Pike 技术数据中心的容量，合作方包括 SB Energy、NVIDIA 和美国能源部。黄仁勋发文称，NVIDIA 正与 SB Energy 合作锁定该园区的土地、电力和机房资源，OpenAI 将作为租户建设并运营采用 NVIDIA 全栈 DSX 平台的 AI 工厂，初始部署预计提供 4.25 吉瓦容量，NVIDIA 还可能将安排扩展至余下 3.75 吉瓦。NVIDIA 表示其支持限于租约和电费的特定部分及一项残值承诺，担保将随数据中心在 2028 至 2030 年间投用分阶段生效，租约由 OpenAI 支付。\n相关链接：\nhttps://x.com/OpenAINewsroom/status/2089364481478721572\nhttps://x.com/JensenHuang/status/2089331487342829862\nClaude Code 上线 /design 功能，付费订阅用户可用\n#2\nAnthropic 宣布，Claude Code 推出 /design 功能，把 Claude Design 的画板工作流带入 CLI 和桌面端。付费订阅用户将 Claude Code 更新至最新版本后即可使用。\nAnthropic 宣布，Claude Code 推出新的 /design 技能，目前处于研究预览阶段，该技能把 Claude Design 的画板工作流带入 Claude Code 的 CLI 和桌面端，基于 artifacts 构建。运行 /design 后可获得面向 UI 的可编辑画板，用户挑选、调整后交给 Claude 实现；Claude 会读取代码库、匹配现有 UI 风格，并在 Artifact 中生成可分享的 mock。官方称该功能面向 Pro、Max、Team 和 Enterprise 用户开放，使用前需将 Claude Code 更新到最新版本。\n相关链接：\nhttps://x.com/nateparrott/status/2089470636796059754\nhttps://x.com/ClaudeDevs/status/2089471692762673408\nOpenCode 提升 DeepSeek-V4-Flash 最高额度至 30 美元\n#3\nOpenCode 宣布 Operation Cheepseek 第一阶段完成，Go 订阅用户现付 10 美元{可获（DeepSeek-V4-Flash）|可获}30 美元用量，第二阶段已启动。\nOpenCode 宣布，名为 Operation Cheepseek 的行动第一阶段完成，OpenCode Go 订阅用户目前支付 10 美元可获得（DeepSeek-V4-Flash） 30 美元使用额度，第二阶段已在启动中，但公告未披露第二阶段的具体内容。\n相关链接：\nhttps://x.com/opencode/status/2089428008268402786\n模型发布\nQwen-Audio-3.0系列语音模型正式上线千问AI平台\n#4\nQwen-Audio-3.0系列语音模型已正式上线{千问AI平台|\"千问AI平台\"}，开发者现可通过API调用，或订阅Token Plan使用。\nQwen-Audio-3.0系列语音模型正式上线千问AI平台，该系列包含语音识别大模型Qwen-Audio-3.0-ASR、语音合成大模型Qwen-Audio-3.0-TTS和实时语音交互对话模型Qwen-Audio-3.0-Realtime。开发者可通过API服务调用模型能力，也可订阅Token Plan使用，订阅服务目前有限时优惠。该系列模型已应用于千问App、千问办公、Qoder等产品。\n相关链接：\nhttps://mp.weixin.qq.com/s/yb4-PDno5NaacES9RfxIEA\n阿里巴巴发布AI音乐模型HappyShrimp 1.0，国内外同步上线\n#5\n阿里巴巴发布AI音乐模型HappyShrimp {1.0|一点零}，中文名快乐虾米。即日起在国内及海外同名AI音乐创作平台同步上线，新用户可享大额免费积分。\n阿里巴巴发布AI音乐模型HappyShrimp 1.0，中文名快乐虾米，即日起在国内及海外同步上线。据介绍，模型能精准理解自然语言，用户只需描述一种情绪、一个故事或一段记忆，即可完成从作词、作曲、编曲到演唱的完整创作。模型采用端到端整曲生成路线，歌词、旋律、编曲与人声一体成型，并支持人声性别、唱法、调性、BPM等多维复杂指令的精准控制。相比需要堆叠音乐风格、乐器名称等标签的“Tag式输入”工具，HappyShrimp无需专业术语即可创作。上线首日，HappyShrimp宣布与太合音乐集团达成战略合作，双方将围绕音乐产业生态共建、AI音乐平台合作及音乐人共创等方向展开探索。\n相关链接：\nhttps://mp.weixin.qq.com/s/m23WObHP1flpzMnhJLvn5g\nhttps://www.happyshrimp.cn/\n开发生态\nGPT-5.6 Sol 半价登陆 OpenRouter 与 Vercel AI Gateway，优惠持续一个月\n#6\nOpenRouter 与 Vercel AI Gateway 宣布 OpenAI GPT-5.6 Sol 半价，优惠均持续一个月。\nOpenRouter 与 Vercel 先后宣布 OpenAI GPT-5.6 Sol 半价促销，两家平台的活动均持续至 9 月 18 日。OpenRouter 的五折覆盖 batch API、flex 和 priority（fast）档位，使用 openai/gpt-5.6-sol 时折扣自动生效，但仅限 OpenAI provider，且不适用于 BYOK 请求。Vercel AI Gateway 的五折同时适用于 standard 与 fast 两种模式。\n相关链接：\nhttps://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month\nhttps://openrouter.ai/openai/gpt-5.6-sol\nGitHub大范围服务故障已解决，八项服务受影响\n#7\nGitHub此前发生大范围故障，波及API、Actions、Copilot等八项服务，官方称已解决，根因分析待公布。\nGitHub官方状态页显示，GitHub.com此前发生大范围服务故障，Git Operations、Webhooks、API Requests、Issues、Pull Requests、Actions、Pages和Copilot共八项服务受影响，目前故障已解决。故障期间，网页端和API流量错误率约为20%，归档下载和仓库原始内容下载错误率约为50%，SAML与OIDC认证、SCIM以及Team Sync也受到影响。官方识别问题组件并采取纠正措施后，多数服务逐步恢复，残留影响集中于部分应用中的Copilot间歇性认证失败，通过GitHub CLI和GitHub App使用Copilot不受影响。官方表示，详细根因分析将在可用后公布。\n相关链接：\nhttps://www.githubstatus.com/incidents/zkxwbgr0cnmx\nCursor 上线 Origin 代码托管平台，早期测试版向付费用户推出\n#8\nCursor 代码托管平台 Origin 上线，今日起向所有付费订阅方案用户推出早期测试版。首发提供仓库、拉取请求和 GitHub 同步，Agent 原生功能即将推出。\nCursor 上线 Origin 代码托管平台，今日起以早期测试版形式向所有付费订阅方案用户推出。首发功能围绕 Agent 规模设计，包括仓库、拉取请求、代码浏览和 GitHub 同步，Agent 原生功能即将推出。用户可在 Codebase 标签页创建仓库或通过 CLI 推送本地项目，也可连接 GitHub 选择要同步的仓库；同步仓库实时更新、评论双向同步，推送仍会发送到 GitHub。Vercel、Depot 和 Buildkite 集成已可用，更多即将推出。\n相关链接：\nhttps://x.com/cursor_ai/status/2089399057659596847\nhttps://cursor.com/changelog/origin-code-hosting\n千问办公开源 MyContext，开源一周获超 1k Star\n#9\n千问办公近日开源上下文基础设施项目 MyContext。它能将即时通讯、文档和会议数据整理成 Agent 可用的个人上下文，供大模型及外部 AI 应用检索推理。\n千问办公近日开源上下文基础设施项目 MyContext，开源一周已获超 1k Star；GitHub 仓库显示，这是一款本地优先的个人工作上下文桌面应用。MyContext 通过数据源连接器接入即时通讯对话、文档、会议记录等授权数据，在本地增量采集并整理为持续更新的个人上下文，供大模型、本地 Agent 和授权外部 AI 应用检索与推理。\n相关链接：\nhttps://github.com/openTrinity/mycontext\nhttps://mp.weixin.qq.com/s/x8XWoIdioF12c5xosRxxoQ\n产品应用\n团队聊天应用 Cumora 开源，AI Agent 可主动发起对话\n#10\n知名开发者 yetone 开源跨平台团队聊天应用 Cumora，AI Agent 拥有记忆与人设，可主动发起对话、认领任务。项目完整开源并支持本地部署，云端服务内测中。\n开发者 yetone 已在 GitHub 开源跨平台团队聊天应用 Cumora，把 AI Agent 变成与人类并列的正式成员，共用同一份名单、私聊、群聊、看板和日历。每个 Agent 拥有人设、记忆和自己的状态，能主动发起对话、认领任务、相互协调并收发真实邮件。项目提供两种运行方式：Cumora Cloud 将每个 Agent 运行在托管的独立 Pod 中，通过 OpenAI Responses API 驱动；BYOA 模式下用户运行一行命令即可让本地 Claude Code 或 Codex CLI 成为 Agent 大脑，密钥不经过 Cumora 服务器。项目完整开源并支持本地部署，需安装 Postgres 和 Redis，桌面端覆盖 macOS、Windows 和 Linux。\n相关链接：\nhttps://cumora.ai\nhttps://github.com/yetone/cumora\nhttps://x.com/yetone/status/2089329138406760639\n豆包“工作任务”模式上新，支持手机远程操作电脑\n#11\n豆包官方宣布“工作任务”模式上新，支持手机远程控制电脑。完成授权后，用户在手机端即可远程接管电脑执行或启动任务，并实时接收进度提醒。\n豆包官方宣布“工作任务”模式功能上新，支持手机远程控制电脑。完成授权后，用户在豆包手机端可以远程接管电脑，执行桌面端未完成的任务或启动新任务，并实时接收进度提醒。豆包还会在本地电脑环境中获取文件上下文，处理文档、图片、代码、表格等资料，并完成更复杂的电脑操作。官方列举的适用场景包括：用手机操作电脑调用本地文件，在电脑端确认版本、转换格式后回传手机；临时离开电脑时，让电脑端完成总结和图表并发送到手机端；以及通过手机关联不同电脑，联动两台电脑调取文件发送到手机端。\n相关链接：\nhttps://mp.weixin.qq.com/s/-BIdyDXChyRIurOefB2uVw\n行业动态\nOpenAI 资助 14 个独立项目探索智能时代 AI 政策\n#12\nOpenAI 宣布资助 14 个独立机构项目，探索在智能时代扩大经济机会与增强社会韧性的新政策。结果计划于 2027 年公布。\nOpenAI 宣布向 14 个由美国、欧盟、巴西、新加坡和韩国独立机构主导的项目发放资助，探索在智能时代扩大经济机会、增强社会韧性的新政策方案。此次资助是 OpenAI 此前发布《智能时代的产业政策》报告时所作承诺的落实，提案征集共吸引超过 400 个人与机构响应。OpenAI 将提供总额 100 万美元资助和最高 100 万美元 API 额度，部分项目产出研究与政策模型，另一些将构建可在实践中测试的原型、数据集和框架。全部项目为期六个月，结果将于 2027 年公布。\n相关链接：\nhttps://openai.com/index/new-policy-ideas-for-the-intelligence-age/\nHiggsfield 完成 4 亿美元 B 轮融资，估值达 54 亿美元\n#13\nAI 视频与图像创作平台 Higgsfield 宣布完成 4 亿美元 B 轮融资，估值 54 亿美元，DST Global 领投。\nHiggsfield 宣布完成 4 亿美元 B 轮融资，估值 54 亿美元，较上轮 13 亿美元估值增至四倍以上，由 DST Global 领投，多家新投资方与现有投资方参与。融资将用于研发投入、扩展全球基础设施、招募 AI 人才并扩大全球市场推广。\n相关链接：\nhttps://higgsfield.ai/\nhttps://higgsfield.ai/supercomputer-intro\nhttps://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html\nGroq 完成 3.5 亿美元 A 轮融资，估值 35 亿美元\n#14\nGroq宣布完成3.5亿美元A轮融资，由Disruptive领投、NVIDIA计划参投，公司估值达35亿美元。\nGroq完成3.5亿美元A轮融资，由Disruptive领投、NVIDIA计划参投，估值35亿美元。该公司正从AI芯片制造商转型为neocloud云服务商，目前运营13个数据中心，服务超600万开发者。Groq计划2027年将算力从54兆瓦扩展至200兆瓦以上，资金来源将支持中型和大型NVIDIA加速计算集群的使用需求。\n相关链接：\nhttps://groq.com/newsroom/groq-closes-usd350-million-series-a-building-the-world-s-leading-ai-inference-cloud\n技术与洞察\nOpenAI 发文呼吁组织强化 AI 安全\n#15\nOpenAI 发文阐述 Hugging Face 入侵事件后的安全应对，提出四大防御支柱，并呼吁各组织立即用 AI 强化安全团队，抓住已开启的防御窗口。\nOpenAI 发文，阐述公司在 OpenAI 与 Hugging Face 入侵事件后的安全防御策略，并给出面向各组织的行动清单。OpenAI 的防御布局包含四大支柱：用 Codex 及安全插件在部署前验证代码并协助修复漏洞、几乎所有初始安全告警先由 AI 分诊再交人工、以前沿智能持续枚举并封堵潜在攻击路径、以及大规模投入纵深防御与最小权限等基础安全。可用性方面，OpenAI 今年早些时候起仅向可信防御者开放网络安全能力，文中建议安全团队申请 Trusted Access for Cyber 并使用 GPT-Daybreak-Blue 开展授权防御工作。OpenAI 还在文中提到，最新一款带网络能力的开放权重模型似乎计划于 8 月底发布，且很可能显著加速威胁格局。\n相关链接：\nhttps://openai.com/index/the-defenders-window/\n前瞻与传闻\n据称字节跳动与美国电影协会签署AI生成模型版权保护协议\n#16\n据路透社报道，字节跳动已与美国电影协会签署版权协议，覆盖 Seedance 和 Seedream 两款 AI 生成模型，此前该协会曾就版权问题向字节跳动发出停止侵权函。\n据路透社报道，字节跳动与美国电影协会签署协议，加强字节跳动 AI 视频和图像生成模型的版权保护，协议覆盖 Seedance 视频生成模型和 Seedream 图像生成模型。此前数月，这家好莱坞行业协会曾质疑字节跳动对知识产权的处理方式，并就这些工具发出停止侵权函，迪士尼及其他制片厂也曾担忧这些 AI 工具可能未经授权生成受版权保护角色和名人肖像的内容。字节跳动表示，较新版本的模型已包含更强的知识产权保护。这些模型通过 TikTok、CapCut 和 Dreamina 等服务提供，双方表示将继续就受版权内容的保护措施展开合作。\n相关链接：\nhttps://www.reuters.com/legal/litigation/bytedance-signs-ai-copyright-pact-with-hollywood-trade-group-2026-08-17/\n提示\n：内容由AI辅助创作，可能存在\n幻觉\n和\n错误\n。\n由 Aidaily 生成，部署到 Cloudflare Pages。"
+    },
+    {
+      "id": "S008",
+      "kind": "blog",
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "source_name": "Simon Willison",
+      "author": "",
+      "published": "2026-08-17T23:58:14+00:00",
+      "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+      "digest_excerpt": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p>\nThat's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is <a href=\"https://huggingface.co/zai-org/GLM-5.2\">753B</a> and that DeepSeek is <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813\">1.7T parameters</a>, and Luna is size unknown but presumably a whole lot bigger than 27B.</p>\n<p>Qwen 3.8 27B is <a href=\"https://simonwillison.net/2026/Aug/16/qwen-38-27b/\">a truly astonishing model</a>.\n\n    <p><small></small>Via <a href=\"https://news.ycombinator.com/item?id=49334544\">Hacker News</a></small></p>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/qwen\">qwen</a>, <a href=\"https://simonwillison.net/tags/ai-in-china\">ai-in-china</a>, <a href=\"https://simonwillison.net/tags/artificial-analysis\">artificial-analysis</a></p>",
+      "access": {
+        "status": "substantial",
+        "basis": "fetched source page text",
+        "http_status": 200,
+        "final_url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+        "limitation": ""
+      },
+      "page_title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "page_description": "That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is …",
+      "content": "Simon Willison’s Weblog\nSubscribe\nSponsored by:\nWorkOS —\nauth.md\nby WorkOS: agents register users, no sign-up form.\nTry it!\n17th August 2026 - Link Blog\nQwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index\n(\nvia\n) That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is\n753B\nand that DeepSeek is\n1.7T parameters\n, and Luna is size unknown but presumably a whole lot bigger than 27B.\nQwen 3.8 27B is\na truly astonishing model\n.\nPosted\n17th August 2026\nat 11:58 pm\nRecent articles\nQwen 3.8 27B is excellent, but it defaults to wildly overthinking things\n- 16th August 2026\nNow we have a timeline of the OpenAI accidental attack against Hugging Face\n- 7th August 2026\nOne-shotting a Raccoon Heist game using Claude Fable 5\n- 5th August 2026\nThis is a\nlink post\nby Simon Willison, posted on\n17th August 2026\n.\nai\n2,191\ngenerative-ai\n1,940\nllms\n1,907\nqwen\n60\nai-in-china\n106\nartificial-analysis\n9\nMonthly briefing\nSponsor me for\n$10/month\nand get a curated email digest of the month's most important LLM developments.\nPay me to send you less!\nSponsor & subscribe\nDisclosures\nColophon\n©\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n2026"
+    },
+    {
+      "id": "S009",
+      "kind": "video",
+      "title": "How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-18T19:05:08+00:00",
+      "url": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
+      "digest_excerpt": "Turn a business question into a clear recommendation—without spending days gathering research and building slides.\n\nIn this demo, Arvind from OpenAI’s Strategy & Business Operations team shows how he uses ChatGPT Work to pull together market research, customer data, and past strategy work; propose a storyline; and create a leadership-ready strategy deck.\n\nYou’ll see how he reviews the sources and numbers, refines the recommendation, and approves the final readout.\n\nhttps://chatgpt.com/work",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=XjSJ6ybS9I8",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Turn a business question into a clear recommendation—without spending days gathering research and building slides.\n\nIn this demo, Arvind from OpenAI’s Strategy & Business Operations team shows how he uses ChatGPT Work to pull together market research, customer data, and past strategy work; propose a storyline; and create a leadership-ready strategy deck.\n\nYou’ll see how he reviews the sources and numbers, refines the recommendation, and approves the final readout.\n\nhttps://chatgpt.com/work"
+    },
+    {
+      "id": "S010",
+      "kind": "video",
+      "title": "How to Create a Solid Blog Draft With ChatGPT Work | Tutorial",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-18T19:02:05+00:00",
+      "url": "https://www.youtube.com/watch?v=0j9yDUDMrBs",
+      "digest_excerpt": "Turn scattered launch materials into a solid first draft.\n\nSahil from OpenAI’s Marketing team shows how he uses ChatGPT Work to bring together product documentation, research, meeting notes, and messaging; follow an established blog template; and create a structured launch blog draft.\n\nHe then reviews, refines, and keeps the draft current as launch details change.\n\nhttps://chatgpt.com/work",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=0j9yDUDMrBs",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Turn scattered launch materials into a solid first draft.\n\nSahil from OpenAI’s Marketing team shows how he uses ChatGPT Work to bring together product documentation, research, meeting notes, and messaging; follow an established blog template; and create a structured launch blog draft.\n\nHe then reviews, refines, and keeps the draft current as launch details change.\n\nhttps://chatgpt.com/work"
+    },
+    {
+      "id": "S011",
+      "kind": "video",
+      "title": "How to Prepare for Customer Meetings With ChatGPT Work | Tutorial",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-18T18:58:56+00:00",
+      "url": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
+      "digest_excerpt": "Spend less time preparing for customer calls and following up afterward.\n\nAlex from OpenAI’s Sales team shows how he uses ChatGPT Work to gather account context and create a meeting brief. After the call, ChatGPT Work drafts notes, a follow-up email, and proposed CRM updates for his review..\n\nThe result: less time managing the process and more time with customers.\n\nhttps://chatgpt.com/work",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "https://www.youtube.com/watch?v=yQZgOSHHxjk",
+        "limitation": "heavy or anti-bot-prone host; analysis is limited to digest metadata and accessible excerpts"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Spend less time preparing for customer calls and following up afterward.\n\nAlex from OpenAI’s Sales team shows how he uses ChatGPT Work to gather account context and create a meeting brief. After the call, ChatGPT Work drafts notes, a follow-up email, and proposed CRM updates for his review..\n\nThe result: less time managing the process and more time with customers.\n\nhttps://chatgpt.com/work"
+    },
+    {
+      "id": "S012",
+      "kind": "podcast",
+      "title": "Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again",
+      "source_name": "Training Data",
+      "author": "Sequoia Capital",
+      "published": "2026-08-18T09:00:00+00:00",
+      "url": "",
+      "digest_excerpt": "Rich Sutton, who helped pioneer reinforcement learning and wrote the seminal AI essay The Bitter Lesson, has now cofounded Oak Lab with his former student Khurram Javed. Their goal: to build agents that continuously learn from their own experience rather than from us. Rich doesn't think he holds a radical view: \"I'm not weird. The field is weird.\" He says all learning is continual, and the field is the one that needed a new name for it. Rich and Khurram argue synthetic data is \"a big mistake.\" Their \"big world hypothesis\" is that the world is massively more complex than any agent or simulator, so approximations have to be updated continuously rather than frozen at deployment. Rich calls LLMs an unanticipated scientific breakthrough, but says they represent roughly a quarter of intelligence. He says catastrophic forgetting is \"totally curable\" with the ideas behind their continual backprop algorithm. Khurram explains why the frontier labs can't follow: they sit in a local minimum where a new paradigm gets worse before it gets better. Their target, five to ten years out, is a trillion-parameter mind that keeps learning, stays coherent, and runs on 20 watts.\n\nHosted by Sonya Huang and Alfred Lin, Sequoia Capital",
+      "access": {
+        "status": "partial",
+        "basis": "feed description, chapters, or show notes without a transcript",
+        "http_status": null,
+        "final_url": "",
+        "limitation": "missing or unsupported public source URL"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Rich Sutton, who helped pioneer reinforcement learning and wrote the seminal AI essay The Bitter Lesson, has now cofounded Oak Lab with his former student Khurram Javed. Their goal: to build agents that continuously learn from their own experience rather than from us. Rich doesn't think he holds a radical view: \"I'm not weird. The field is weird.\" He says all learning is continual, and the field is the one that needed a new name for it. Rich and Khurram argue synthetic data is \"a big mistake.\" Their \"big world hypothesis\" is that the world is massively more complex than any agent or simulator, so approximations have to be updated continuously rather than frozen at deployment. Rich calls LLMs an unanticipated scientific breakthrough, but says they represent roughly a quarter of intelligence. He says catastrophic forgetting is \"totally curable\" with the ideas behind their continual backprop algorithm. Khurram explains why the frontier labs can't follow: they sit in a local minimum where a new paradigm gets worse before it gets better. Their target, five to ten years out, is a trillion-parameter mind that keeps learning, stays coherent, and runs on 20 watts.\n\nHosted by Sonya Huang and Alfred Lin, Sequoia Capital"
+    },
+    {
+      "id": "S013",
+      "kind": "x",
+      "title": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street.\n\nIt’s 10-20x smaller than the majo",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-18T21:45:25+00:00",
+      "url": "https://x.com/rauchg/status/2089831055373316274",
+      "digest_excerpt": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street.\n\nIt’s 10-20x smaller than the major coding CLIs. It starts up instantaneously. It feels more like using 𝚣𝚜𝚑 than an IDE in your terminal. It’s embeddable anywhere, even your browser via WebAssembly.\n\nAnd of course it’s open source and model-agnostic. It’s experimental, but give it a shot and let us know how it goes!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2089831055373316274",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I’ve been using https://t.co/OL0LzGtvAw as my daily driver and it’s a one-way street.\n\nIt’s 10-20x smaller than the major coding CLIs. It starts up instantaneously. It feels more like using 𝚣𝚜𝚑 than an IDE in your terminal. It’s embeddable anywhere, even your browser via WebAssembly.\n\nAnd of course it’s open source and model-agnostic. It’s experimental, but give it a shot and let us know how it goes!"
+    },
+    {
+      "id": "S014",
+      "kind": "x",
+      "title": "Congrats Giga Shanghai team!",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T21:18:38+00:00",
+      "url": "https://x.com/elonmusk/status/2089824315437089032",
+      "digest_excerpt": "Congrats Giga Shanghai team!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089824315437089032",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Congrats Giga Shanghai team!"
+    },
+    {
+      "id": "S015",
+      "kind": "x",
+      "title": "There is a potential future that is super amazing is we all fight hard to achieve it",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T21:12:28+00:00",
+      "url": "https://x.com/elonmusk/status/2089822761938194900",
+      "digest_excerpt": "There is a potential future that is super amazing is we all fight hard to achieve it",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089822761938194900",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "There is a potential future that is super amazing is we all fight hard to achieve it"
+    },
+    {
+      "id": "S016",
+      "kind": "x",
+      "title": "Grok @Bot is super fun",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T21:06:51+00:00",
+      "url": "https://x.com/elonmusk/status/2089821351091798283",
+      "digest_excerpt": "Grok @Bot is super fun",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089821351091798283",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Grok @Bot is super fun"
+    },
+    {
+      "id": "S017",
+      "kind": "x",
+      "title": "❤️",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T21:04:11+00:00",
+      "url": "https://x.com/elonmusk/status/2089820677960564975",
+      "digest_excerpt": "❤️",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089820677960564975",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "❤️"
+    },
+    {
+      "id": "S018",
+      "kind": "x",
+      "title": "Cool",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T20:55:20+00:00",
+      "url": "https://x.com/elonmusk/status/2089818449912746244",
+      "digest_excerpt": "Cool",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089818449912746244",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Cool"
+    },
+    {
+      "id": "S019",
+      "kind": "x",
+      "title": "Do you C what I C?\n\n⦿ CC, our experimental AI productivity agent in Gmail, has now opened up a waitlist in Australia and",
+      "source_name": "Google Labs",
+      "author": "GoogleLabs",
+      "published": "2026-08-18T20:31:25+00:00",
+      "url": "https://x.com/GoogleLabs/status/2089812430885208361",
+      "digest_excerpt": "Do you C what I C?\n\n⦿ CC, our experimental AI productivity agent in Gmail, has now opened up a waitlist in Australia and New Zealand! 🌏\n\n⦿ We're also expanding availability in the US and Canada. If you've been on the waitlist, we're rolling out invitations to get access starting today.\n\n⦿ We've upgraded CC to help manage your calendar. CC connects to Gmail so events are automatically created in a dedicated Google Calendar and stay up to date as things change.\n\nLearn more here: https://t.co/O43tNhIqPT",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/GoogleLabs/status/2089812430885208361",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Do you C what I C?\n\n⦿ CC, our experimental AI productivity agent in Gmail, has now opened up a waitlist in Australia and New Zealand! 🌏\n\n⦿ We're also expanding availability in the US and Canada. If you've been on the waitlist, we're rolling out invitations to get access starting today.\n\n⦿ We've upgraded CC to help manage your calendar. CC connects to Gmail so events are automatically created in a dedicated Google Calendar and stay up to date as things change.\n\nLearn more here: https://t.co/O43tNhIqPT"
+    },
+    {
+      "id": "S020",
+      "kind": "x",
+      "title": "Exactly 😂",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T20:24:37+00:00",
+      "url": "https://x.com/elonmusk/status/2089810719713997147",
+      "digest_excerpt": "Exactly 😂",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089810719713997147",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Exactly 😂"
+    },
+    {
+      "id": "S021",
+      "kind": "x",
+      "title": "Claude can now send emails in Gmail and manage files in Google Drive.\n\nAsk Claude to reply to a thread, and it drafts an",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-08-18T20:06:01+00:00",
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "digest_excerpt": "Claude can now send emails in Gmail and manage files in Google Drive.\n\nAsk Claude to reply to a thread, and it drafts and sends the response. You control when it needs your approval.\n\nConnect Gmail or Google Drive from the connectors menu to try. Available on all paid plans. https://t.co/cFZEjh3MgB",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2089806039088517356",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Claude can now send emails in Gmail and manage files in Google Drive.\n\nAsk Claude to reply to a thread, and it drafts and sends the response. You control when it needs your approval.\n\nConnect Gmail or Google Drive from the connectors menu to try. Available on all paid plans. https://t.co/cFZEjh3MgB"
+    },
+    {
+      "id": "S022",
+      "kind": "x",
+      "title": "Your software factory should be a monorepo. All your company context (design, marketing, sales, engineering, support…) i",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-18T20:00:45+00:00",
+      "url": "https://x.com/rauchg/status/2089804717337817514",
+      "digest_excerpt": "Your software factory should be a monorepo. All your company context (design, marketing, sales, engineering, support…) in one place for agents to build upon",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2089804717337817514",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Your software factory should be a monorepo. All your company context (design, marketing, sales, engineering, support…) in one place for agents to build upon"
+    },
+    {
+      "id": "S023",
+      "kind": "x",
+      "title": "pssst, you wake the cli people that will give you $reasons why this can’t work.\n\nI was one of them before I saw the ligh",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-08-18T19:59:02+00:00",
+      "url": "https://x.com/steipete/status/2089804281331548280",
+      "digest_excerpt": "pssst, you wake the cli people that will give you $reasons why this can’t work.\n\nI was one of them before I saw the light.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2089804281331548280",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "pssst, you wake the cli people that will give you $reasons why this can’t work.\n\nI was one of them before I saw the light."
+    },
+    {
+      "id": "S024",
+      "kind": "x",
+      "title": "Improvements to Grok @Bot",
+      "source_name": "Elon Musk",
+      "author": "elonmusk",
+      "published": "2026-08-18T19:56:50+00:00",
+      "url": "https://x.com/elonmusk/status/2089803729293996295",
+      "digest_excerpt": "Improvements to Grok @Bot",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/elonmusk/status/2089803729293996295",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Improvements to Grok @Bot"
+    },
+    {
+      "id": "S025",
+      "kind": "x",
+      "title": "The irony. https://t.co/KH930Y7H9t",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-08-18T19:48:42+00:00",
+      "url": "https://x.com/steipete/status/2089801681014043122",
+      "digest_excerpt": "The irony. https://t.co/KH930Y7H9t",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2089801681014043122",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The irony. https://t.co/KH930Y7H9t"
+    },
+    {
+      "id": "S026",
+      "kind": "x",
+      "title": "code mode is now in the modern harnesses, so none of that really matters anymore. \n\ncli, mcp, tools, it’s all just javas",
+      "source_name": "Peter Steinberger",
+      "author": "steipete",
+      "published": "2026-08-18T19:41:07+00:00",
+      "url": "https://x.com/steipete/status/2089799774824517879",
+      "digest_excerpt": "code mode is now in the modern harnesses, so none of that really matters anymore. \n\ncli, mcp, tools, it’s all just javascript the agent writes.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/steipete/status/2089799774824517879",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "code mode is now in the modern harnesses, so none of that really matters anymore. \n\ncli, mcp, tools, it’s all just javascript the agent writes."
+    },
+    {
+      "id": "S027",
+      "kind": "x",
+      "title": "we've been doing a lot of a/b testing of @aiDotEngineer  youtube thumbnails. i always hated that it is such an opaque pr",
+      "source_name": "Swyx",
+      "author": "swyx",
+      "published": "2026-08-18T19:36:41+00:00",
+      "url": "https://x.com/swyx/status/2089798658225266806",
+      "digest_excerpt": "we've been doing a lot of a/b testing of @aiDotEngineer  youtube thumbnails. i always hated that it is such an opaque process.\n\nopen sourcing/crowdsourcing our learnings today!\nhttps://t.co/J9SYClIF7z\n\ndoing this in hopes that people can share their experience or learn from ours. at the end of the day we just want to get good educational content to rise above the noise online. please lmk what you think",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/swyx/status/2089798658225266806",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we've been doing a lot of a/b testing of @aiDotEngineer  youtube thumbnails. i always hated that it is such an opaque process.\n\nopen sourcing/crowdsourcing our learnings today!\nhttps://t.co/J9SYClIF7z\n\ndoing this in hopes that people can share their experience or learn from ours. at the end of the day we just want to get good educational content to rise above the noise online. please lmk what you think"
+    },
+    {
+      "id": "S028",
+      "kind": "x",
+      "title": "we asked @ajambrosino to send us his thesis for the future of work after automation\n\nhe replied with only one word:\n\n\"ti",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T18:56:56+00:00",
+      "url": "https://x.com/danshipper/status/2089788656445734922",
+      "digest_excerpt": "we asked @ajambrosino to send us his thesis for the future of work after automation\n\nhe replied with only one word:\n\n\"tibo\"",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089788656445734922",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we asked @ajambrosino to send us his thesis for the future of work after automation\n\nhe replied with only one word:\n\n\"tibo\""
+    },
+    {
+      "id": "S029",
+      "kind": "x",
+      "title": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring s",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-08-18T18:53:34+00:00",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "digest_excerpt": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment.\n\nWe care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime.\n\nWe expect confidence in safety to increasingly set the pace of AI progress. We are optimistic about the alignment work we are doing, and we remain committed to making frontier capabilities widely available.\n\nhttps://t.co/51kvKfbfrO",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2089787807611195475",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We have paused some frontier RL training to ensure that we can meet the appropriate alignment, security and monitoring standards for the new level of capabilities in front of us. Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment.\n\nWe care very deeply about AI safety. We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime.\n\nWe expect confidence in safety to increasingly set the pace of AI progress. We are optimistic about the alignment work we are doing, and we remain committed to making frontier capabilities widely available.\n\nhttps://t.co/51kvKfbfrO"
+    },
+    {
+      "id": "S030",
+      "kind": "x",
+      "title": "we temporarily slowed scaling of our frontier training, including our largest planned frontier RL, to strengthen securit",
+      "source_name": "Greg Brockman",
+      "author": "gdb",
+      "published": "2026-08-18T18:36:53+00:00",
+      "url": "https://x.com/gdb/status/2089783608630284758",
+      "digest_excerpt": "we temporarily slowed scaling of our frontier training, including our largest planned frontier RL, to strengthen security and monitoring. we believe confidence in safety will increasingly set the pace of AI development:",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/gdb/status/2089783608630284758",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "we temporarily slowed scaling of our frontier training, including our largest planned frontier RL, to strengthen security and monitoring. we believe confidence in safety will increasingly set the pace of AI development:"
+    },
+    {
+      "id": "S031",
+      "kind": "x",
+      "title": "BREAKING:\n\nWhen today’s jobs are automated by AI, what will great human work look like?\n\nThis is the most important ques",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T18:15:45+00:00",
+      "url": "https://x.com/danshipper/status/2089778289648812509",
+      "digest_excerpt": "BREAKING:\n\nWhen today’s jobs are automated by AI, what will great human work look like?\n\nThis is the most important question of our time.\nIntroducing Thesis Statements, a new project from @every bringing together 100 builders and thinkers to call their shot:\n\nWe asked them to make a specific prediction about what great human work will look like after automation.\nToday we’re launching the first 25 Thesis Statements from an incredible group including:\n\n• @karrisaarinen\n• @cjpedregal\n• @neuranne\n• @yash_tek\n• @komorama\n• @fkpxls\n• @jonnym1ller\n• @p_millerd\n• @sariazout\n• @tomcritchlow\n• @SimoneStolzoff\n\nAnd 14 more amazing builders and thinkers.\n\nAt @every we believe there is a bright future for human work after automation. And we believe that there’s a small group of humans who know what it looks like—because they live the answers every day.\n\nBut their ideas are still largely missing from the mainstream discourse about AI. That’s why we’re creating a public record of what people at the frontier are seeing now, so we can get these ideas to as many people as possible.\n\nWe’ll also revisit them over time, and ask: Which claims held up? Which didn’t? Which became more useful as the technology changed—and which dissolved on contact with the world?\n\nRead them, argue with them, share them, and submit your own:\n\nhttps://t.co/8BdBmmocRi",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089778289648812509",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "BREAKING:\n\nWhen today’s jobs are automated by AI, what will great human work look like?\n\nThis is the most important question of our time.\nIntroducing Thesis Statements, a new project from @every bringing together 100 builders and thinkers to call their shot:\n\nWe asked them to make a specific prediction about what great human work will look like after automation.\nToday we’re launching the first 25 Thesis Statements from an incredible group including:\n\n• @karrisaarinen\n• @cjpedregal\n• @neuranne\n• @yash_tek\n• @komorama\n• @fkpxls\n• @jonnym1ller\n• @p_millerd\n• @sariazout\n• @tomcritchlow\n• @SimoneStolzoff\n\nAnd 14 more amazing builders and thinkers.\n\nAt @every we believe there is a bright future for human work after automation. And we believe that there’s a small group of humans who know what it looks like—because they live the answers every day.\n\nBut their ideas are still largely missing from the mainstream discourse about AI. That’s why we’re creating a public record of what people at the frontier are seeing now, so we can get these ideas to as many people as possible.\n\nWe’ll also revisit them over time, and ask: Which claims held up? Which didn’t? Which became more useful as the technology changed—and which dissolved on contact with the world?\n\nRead them, argue with them, share them, and submit your own:\n\nhttps://t.co/8BdBmmocRi"
+    },
+    {
+      "id": "S032",
+      "kind": "x",
+      "title": "As models become more capable, the risks associated with developing and testing them internally also grow.\n\nWe temporari",
+      "source_name": "OpenAI",
+      "author": "OpenAI",
+      "published": "2026-08-18T18:13:59+00:00",
+      "url": "https://x.com/OpenAI/status/2089777845187031262",
+      "digest_excerpt": "As models become more capable, the risks associated with developing and testing them internally also grow.\n\nWe temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage.\n\nOur largest planned frontier RL run remains on hold while smaller-scale training and evaluations validate these safeguards and establish more evidence of alignment. \nhttps://t.co/ecbMMmVoox",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/OpenAI/status/2089777845187031262",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "As models become more capable, the risks associated with developing and testing them internally also grow.\n\nWe temporarily paused reinforcement learning (RL) training on our latest models intended for deployment for two weeks while we hardened and red-teamed our research environments and expanded monitoring coverage.\n\nOur largest planned frontier RL run remains on hold while smaller-scale training and evaluations validate these safeguards and establish more evidence of alignment. \nhttps://t.co/ecbMMmVoox"
+    },
+    {
+      "id": "S033",
+      "kind": "x",
+      "title": "It's super annoying that Mac switches my default microphone and speaker source each time I connect/disconnect my Air Pod",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T18:04:09+00:00",
+      "url": "https://x.com/petergyang/status/2089775372212801706",
+      "digest_excerpt": "It's super annoying that Mac switches my default microphone and speaker source each time I connect/disconnect my Air Pods.\n\nI was going to vibe code a solution to this but @tobi already did it 8 months ago!\n\nHighly recomend downloading Audio Priority Bar here: https://t.co/5l5k1V2tSE",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089775372212801706",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "It's super annoying that Mac switches my default microphone and speaker source each time I connect/disconnect my Air Pods.\n\nI was going to vibe code a solution to this but @tobi already did it 8 months ago!\n\nHighly recomend downloading Audio Priority Bar here: https://t.co/5l5k1V2tSE"
+    },
+    {
+      "id": "S034",
+      "kind": "x",
+      "title": "I should've listened to Grok Bot yesterday and bought the plane tickets instead of just making the video 😭 https://t.co/",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T17:59:16+00:00",
+      "url": "https://x.com/petergyang/status/2089774143906660424",
+      "digest_excerpt": "I should've listened to Grok Bot yesterday and bought the plane tickets instead of just making the video 😭 https://t.co/iBpN1QVq2v",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089774143906660424",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I should've listened to Grok Bot yesterday and bought the plane tickets instead of just making the video 😭 https://t.co/iBpN1QVq2v"
+    },
+    {
+      "id": "S035",
+      "kind": "x",
+      "title": "We hit No.3 on the Image-editing benchmark! ... beating Google’s Nano Banana and Meta’s Muse Image models.",
+      "source_name": "Mustafa Suleyman",
+      "author": "mustafasuleyman",
+      "published": "2026-08-18T17:28:56+00:00",
+      "url": "https://x.com/mustafasuleyman/status/2089766508373176726",
+      "digest_excerpt": "We hit No.3 on the Image-editing benchmark! ... beating Google’s Nano Banana and Meta’s Muse Image models.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/mustafasuleyman/status/2089766508373176726",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We hit No.3 on the Image-editing benchmark! ... beating Google’s Nano Banana and Meta’s Muse Image models."
+    },
+    {
+      "id": "S036",
+      "kind": "x",
+      "title": "Very kind of Lenny to make this resource free, will help ppl a lot!",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T17:02:35+00:00",
+      "url": "https://x.com/petergyang/status/2089759876516045018",
+      "digest_excerpt": "Very kind of Lenny to make this resource free, will help ppl a lot!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089759876516045018",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Very kind of Lenny to make this resource free, will help ppl a lot!"
+    },
+    {
+      "id": "S037",
+      "kind": "x",
+      "title": "excited to work together on this. thank you jensen!",
+      "source_name": "Sam Altman",
+      "author": "sama",
+      "published": "2026-08-18T16:57:12+00:00",
+      "url": "https://x.com/sama/status/2089758522678657212",
+      "digest_excerpt": "excited to work together on this. thank you jensen!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/sama/status/2089758522678657212",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "excited to work together on this. thank you jensen!"
+    },
+    {
+      "id": "S038",
+      "kind": "x",
+      "title": "Claude Cowork is now available on mobile and web for all paid plans.",
+      "source_name": "Claude",
+      "author": "claudeai",
+      "published": "2026-08-18T16:48:39+00:00",
+      "url": "https://x.com/claudeai/status/2089756371570900999",
+      "digest_excerpt": "Claude Cowork is now available on mobile and web for all paid plans.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/claudeai/status/2089756371570900999",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Claude Cowork is now available on mobile and web for all paid plans."
+    },
+    {
+      "id": "S039",
+      "kind": "x",
+      "title": "🔥🔥🔥",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T16:47:13+00:00",
+      "url": "https://x.com/danshipper/status/2089756012743925839",
+      "digest_excerpt": "🔥🔥🔥",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089756012743925839",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "🔥🔥🔥"
+    },
+    {
+      "id": "S040",
+      "kind": "x",
+      "title": "We are putting $1M towards verifying the security of Vercel Sandbox, in the open. You're free to test any model in the w",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-18T16:13:13+00:00",
+      "url": "https://x.com/rauchg/status/2089747453004468339",
+      "digest_excerpt": "We are putting $1M towards verifying the security of Vercel Sandbox, in the open. You're free to test any model in the world to try and find an escape.\n\nI'm looking forward to bringing transparency to what frontier models can and cannot do in terms of real-world guardrail exploitability.\n\nIf escapes are discovered, we'll be ready to patch, iterate, and share our findings with the broader community to strengthen global cybersecurity.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2089747453004468339",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "We are putting $1M towards verifying the security of Vercel Sandbox, in the open. You're free to test any model in the world to try and find an escape.\n\nI'm looking forward to bringing transparency to what frontier models can and cannot do in terms of real-world guardrail exploitability.\n\nIf escapes are discovered, we'll be ready to patch, iterate, and share our findings with the broader community to strengthen global cybersecurity."
+    },
+    {
+      "id": "S041",
+      "kind": "x",
+      "title": "cc computer@perplexity.com",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-18T16:01:39+00:00",
+      "url": "https://x.com/AravSrinivas/status/2089744545970016693",
+      "digest_excerpt": "cc computer@perplexity.com",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2089744545970016693",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "cc computer@perplexity.com"
+    },
+    {
+      "id": "S042",
+      "kind": "x",
+      "title": "Every idea you shelved as \"too ambitious\" is now back in play",
+      "source_name": "Guillermo Rauch",
+      "author": "rauchg",
+      "published": "2026-08-18T14:54:42+00:00",
+      "url": "https://x.com/rauchg/status/2089727696767173042",
+      "digest_excerpt": "Every idea you shelved as \"too ambitious\" is now back in play",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/rauchg/status/2089727696767173042",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Every idea you shelved as \"too ambitious\" is now back in play"
+    },
+    {
+      "id": "S043",
+      "kind": "x",
+      "title": "LET'S GOOOOO",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T14:52:40+00:00",
+      "url": "https://x.com/danshipper/status/2089727184004845684",
+      "digest_excerpt": "LET'S GOOOOO",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089727184004845684",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "LET'S GOOOOO"
+    },
+    {
+      "id": "S044",
+      "kind": "x",
+      "title": "I hate digital clutter so I set up a Marie Kondo Grok @bot to clean up emails, files, and paid subs with my approval.\n\nH",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T14:40:25+00:00",
+      "url": "https://x.com/petergyang/status/2089724101070086482",
+      "digest_excerpt": "I hate digital clutter so I set up a Marie Kondo Grok @bot to clean up emails, files, and paid subs with my approval.\n\nHere's the prompt to build it for yourself:\n\n\"You are Marie Kondo for cleaning up digital clutter. Audit my email, Google Drive, and paid subscriptions, then create a cleanup plan with no more than 10 items per category.\n\nFind emails to unsubscribe from, redundant files to remove or rename, and paid subscriptions I may want to cancel.\n\nDo not move, delete, unsubscribe, or cancel anything without my approval.\"\n\nOf course I had to make it talk like Marie too :)\n\n📌 Watch me demo the bot here: https://t.co/ObgCtuxCeC",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089724101070086482",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I hate digital clutter so I set up a Marie Kondo Grok @bot to clean up emails, files, and paid subs with my approval.\n\nHere's the prompt to build it for yourself:\n\n\"You are Marie Kondo for cleaning up digital clutter. Audit my email, Google Drive, and paid subscriptions, then create a cleanup plan with no more than 10 items per category.\n\nFind emails to unsubscribe from, redundant files to remove or rename, and paid subscriptions I may want to cancel.\n\nDo not move, delete, unsubscribe, or cancel anything without my approval.\"\n\nOf course I had to make it talk like Marie too :)\n\n📌 Watch me demo the bot here: https://t.co/ObgCtuxCeC"
+    },
+    {
+      "id": "S045",
+      "kind": "x",
+      "title": "im a child of divorce, what can i say https://t.co/0VFiHjM6gk",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T12:09:38+00:00",
+      "url": "https://x.com/danshipper/status/2089686156241736034",
+      "digest_excerpt": "im a child of divorce, what can i say https://t.co/0VFiHjM6gk",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089686156241736034",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "im a child of divorce, what can i say https://t.co/0VFiHjM6gk"
+    },
+    {
+      "id": "S046",
+      "kind": "x",
+      "title": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex ",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-18T06:45:39+00:00",
+      "url": "https://x.com/thsottiaux/status/2089604619936956778",
+      "digest_excerpt": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2089604619936956778",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day"
+    },
+    {
+      "id": "S047",
+      "kind": "x",
+      "title": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience https://t.co/nBfua981ZJ",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-18T01:49:31+00:00",
+      "url": "https://x.com/amasad/status/2089530098902864336",
+      "digest_excerpt": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience https://t.co/nBfua981ZJ",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2089530098902864336",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Labour to keep alive in your Breast that Little Spark of Celestial fire Called Conscience https://t.co/nBfua981ZJ"
+    },
+    {
+      "id": "S048",
+      "kind": "x",
+      "title": "The question CFOs around the country are asking everyone in their organization",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T01:42:29+00:00",
+      "url": "https://x.com/danshipper/status/2089528326096384158",
+      "digest_excerpt": "The question CFOs around the country are asking everyone in their organization",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089528326096384158",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "The question CFOs around the country are asking everyone in their organization"
+    },
+    {
+      "id": "S049",
+      "kind": "x",
+      "title": "Most inspirational video you’ll watch today",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T01:36:10+00:00",
+      "url": "https://x.com/petergyang/status/2089526739815092580",
+      "digest_excerpt": "Most inspirational video you’ll watch today",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089526739815092580",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Most inspirational video you’ll watch today"
+    },
+    {
+      "id": "S050",
+      "kind": "x",
+      "title": "I have had extremely similar experiences\n\nVoice mode even better",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-18T01:33:12+00:00",
+      "url": "https://x.com/danshipper/status/2089525989223157976",
+      "digest_excerpt": "I have had extremely similar experiences\n\nVoice mode even better",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089525989223157976",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "I have had extremely similar experiences\n\nVoice mode even better"
+    },
+    {
+      "id": "S051",
+      "kind": "x",
+      "title": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they wer",
+      "source_name": "Amjad Masad",
+      "author": "amasad",
+      "published": "2026-08-18T01:32:31+00:00",
+      "url": "https://x.com/amasad/status/2089525819567739264",
+      "digest_excerpt": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they weren’t so AI-pilled.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/amasad/status/2089525819567739264",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This team doesn’t have “AI” anywhere in their pitch but has AI growth rates and would have 10x the headcount if they weren’t so AI-pilled."
+    },
+    {
+      "id": "S052",
+      "kind": "x",
+      "title": "Circling back on this with some updates... What’s the next set of things we can improve to make your Gemini experience e",
+      "source_name": "Josh Woodward",
+      "author": "joshwoodward",
+      "published": "2026-08-18T01:12:26+00:00",
+      "url": "https://x.com/joshwoodward/status/2089520767281324112",
+      "digest_excerpt": "Circling back on this with some updates... What’s the next set of things we can improve to make your Gemini experience even better?\n\n#1: Testing revamped Workspace tools in 1-2 weeks\n#2: 3.7 Flash showed improvements in tool calling, more coming here\n#3: New “Projects” design done, implementing now\n#4: 49 connectors (and counting) supported now\n#5: Backend work done, frontend work started\n#6: Done\n#7: Done, ramping up now\n#8: Done\n#9: Done\n#10: Done, fixed the biggest over-triggering bugs",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/joshwoodward/status/2089520767281324112",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Circling back on this with some updates... What’s the next set of things we can improve to make your Gemini experience even better?\n\n#1: Testing revamped Workspace tools in 1-2 weeks\n#2: 3.7 Flash showed improvements in tool calling, more coming here\n#3: New “Projects” design done, implementing now\n#4: 49 connectors (and counting) supported now\n#5: Backend work done, frontend work started\n#6: Done\n#7: Done, ramping up now\n#8: Done\n#9: Done\n#10: Done, fixed the biggest over-triggering bugs"
+    },
+    {
+      "id": "S053",
+      "kind": "x",
+      "title": "What AI skills or tools are people using to edit YouTube talking head intros? Stuff like zoom ins and animating in capti",
+      "source_name": "Peter Yang",
+      "author": "petergyang",
+      "published": "2026-08-18T01:08:20+00:00",
+      "url": "https://x.com/petergyang/status/2089519732336787619",
+      "digest_excerpt": "What AI skills or tools are people using to edit YouTube talking head intros? Stuff like zoom ins and animating in captions, logos, and b-roll.\n\nI've been testing @HyperFrames_ for this but curious if there are alternatives.\n\nI want to do the full edit just by talking to Codex or another harness.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/petergyang/status/2089519732336787619",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "What AI skills or tools are people using to edit YouTube talking head intros? Stuff like zoom ins and animating in captions, logos, and b-roll.\n\nI've been testing @HyperFrames_ for this but curious if there are alternatives.\n\nI want to do the full edit just by talking to Codex or another harness."
+    },
+    {
+      "id": "S054",
+      "kind": "x",
+      "title": "When building AI agents, it is important to still give humans agency to have their hands on the wheel and intervene when",
+      "source_name": "Aravind Srinivas",
+      "author": "AravSrinivas",
+      "published": "2026-08-18T00:29:41+00:00",
+      "url": "https://x.com/AravSrinivas/status/2089510005536120885",
+      "digest_excerpt": "When building AI agents, it is important to still give humans agency to have their hands on the wheel and intervene when necessary.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/AravSrinivas/status/2089510005536120885",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "When building AI agents, it is important to still give humans agency to have their hands on the wheel and intervene when necessary."
+    },
+    {
+      "id": "S055",
+      "kind": "x",
+      "title": "This is spot on. It would be a shame if we get AGI for enterprise productivity and miss on AGI for scientific accelerati",
+      "source_name": "Kevin Weil",
+      "author": "kevinweil",
+      "published": "2026-08-18T00:12:43+00:00",
+      "url": "https://x.com/kevinweil/status/2089505737143935470",
+      "digest_excerpt": "This is spot on. It would be a shame if we get AGI for enterprise productivity and miss on AGI for scientific acceleration. Can't let it happen.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/kevinweil/status/2089505737143935470",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "This is spot on. It would be a shame if we get AGI for enterprise productivity and miss on AGI for scientific acceleration. Can't let it happen."
+    },
+    {
+      "id": "S056",
+      "kind": "x",
+      "title": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is",
+      "source_name": "Tibo",
+      "author": "thsottiaux",
+      "published": "2026-08-17T23:53:40+00:00",
+      "url": "https://x.com/thsottiaux/status/2089500941842342287",
+      "digest_excerpt": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/thsottiaux/status/2089500941842342287",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?"
+    },
+    {
+      "id": "S057",
+      "kind": "x",
+      "title": "When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data that we’r",
+      "source_name": "Aaron Levie",
+      "author": "levie",
+      "published": "2026-08-17T23:49:28+00:00",
+      "url": "https://x.com/levie/status/2089499887905997272",
+      "digest_excerpt": "When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data that we’re entering an era where it’s valuable almost in any form.\n\nIn a world of AI, information actually belongs as an asset on the balance sheet. This data sale is just one example of the implications of what that will look like.\n\nUltimately, the way that companies manage and mine their organization’s intelligence will be one of the deciding factors for competitiveness and value creation in the future.",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/levie/status/2089499887905997272",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "When you hear that data is the new oil, this is ultimately what that looks like. AI has such a thirst for data that we’re entering an era where it’s valuable almost in any form.\n\nIn a world of AI, information actually belongs as an asset on the balance sheet. This data sale is just one example of the implications of what that will look like.\n\nUltimately, the way that companies manage and mine their organization’s intelligence will be one of the deciding factors for competitiveness and value creation in the future."
+    },
+    {
+      "id": "S058",
+      "kind": "x",
+      "title": "Lfgggg!!!",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-17T22:36:00+00:00",
+      "url": "https://x.com/danshipper/status/2089481397421441278",
+      "digest_excerpt": "Lfgggg!!!",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089481397421441278",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "Lfgggg!!!"
+    },
+    {
+      "id": "S059",
+      "kind": "x",
+      "title": "got some goodies at Amazon dot com https://t.co/oX3qofJiUE",
+      "source_name": "Dan Shipper",
+      "author": "danshipper",
+      "published": "2026-08-17T22:11:33+00:00",
+      "url": "https://x.com/danshipper/status/2089475242817208403",
+      "digest_excerpt": "got some goodies at Amazon dot com https://t.co/oX3qofJiUE",
+      "access": {
+        "status": "partial",
+        "basis": "captured X post text",
+        "http_status": null,
+        "final_url": "https://x.com/danshipper/status/2089475242817208403",
+        "limitation": "post text was captured by the digest collector; replies, quoted-post context, and media were not fetched"
+      },
+      "page_title": "",
+      "page_description": "",
+      "content": "got some goodies at Amazon dot com https://t.co/oX3qofJiUE"
+    }
+  ]
+}
