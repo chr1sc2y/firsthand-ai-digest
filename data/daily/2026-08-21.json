@@ -1,0 +1,593 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T22:44:34.687484+00:00",
+  "source_segments": [
+    "segments/2026-08-21/06.json"
+  ],
+  "counts": {
+    "x": 42,
+    "blogs": 7,
+    "podcasts": 0,
+    "videos": 2
+  },
+  "items": {
+    "x": [
+      {
+        "kind": "x",
+        "title": "This is how bad it was",
+        "summary": "This is how bad it was",
+        "link": "https://x.com/elonmusk/status/2090921783746789880",
+        "author": "elonmusk",
+        "published": "2026-08-21T21:59:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Yes",
+        "summary": "Yes",
+        "link": "https://x.com/elonmusk/status/2090918730087936317",
+        "author": "elonmusk",
+        "published": "2026-08-21T21:47:27+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Try Grok 4.6 using the Grok Build harness or Cursor app for max usefulness \n\nhttps://t.co/v7TKF3lvAF",
+        "summary": "Try Grok 4.6 using the Grok Build harness or Cursor app for max usefulness \n\nhttps://t.co/v7TKF3lvAF",
+        "link": "https://x.com/elonmusk/status/2090915155987272119",
+        "author": "elonmusk",
+        "published": "2026-08-21T21:33:15+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Use your AI to manage 𝕏 ads!",
+        "summary": "Use your AI to manage 𝕏 ads!",
+        "link": "https://x.com/elonmusk/status/2090911702879772854",
+        "author": "elonmusk",
+        "published": "2026-08-21T21:19:31+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Cool",
+        "summary": "Cool",
+        "link": "https://x.com/elonmusk/status/2090910588428013811",
+        "author": "elonmusk",
+        "published": "2026-08-21T21:15:06+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "i have another saas to kill\n\n(will share results of Kill My SaaS 1 next week!!) https://t.co/zS59XXgYDG",
+        "summary": "i have another saas to kill\n\n(will share results of Kill My SaaS 1 next week!!) https://t.co/zS59XXgYDG",
+        "link": "https://x.com/swyx/status/2090908959590740033",
+        "author": "swyx",
+        "published": "2026-08-21T21:08:37+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "I had the pleasure of speaking at the Agentic AI Summit in Berkeley alongside an incredible bunch of folks. My talk was ",
+        "summary": "I had the pleasure of speaking at the Agentic AI Summit in Berkeley alongside an incredible bunch of folks. My talk was about \"No Doors for Agents\" https://t.co/2drgrK1pia",
+        "link": "https://x.com/steipete/status/2090898421108605078",
+        "author": "steipete",
+        "published": "2026-08-21T20:26:45+00:00",
+        "source_name": "Peter Steinberger",
+        "source_role": "Indie hacker, ex-PSPDFKit",
+        "source_handle": "steipete"
+      },
+      {
+        "kind": "x",
+        "title": "Sol shines brighter today. Efficiency, reliability and performance are the name of the game.",
+        "summary": "Sol shines brighter today. Efficiency, reliability and performance are the name of the game.",
+        "link": "https://x.com/thsottiaux/status/2090887457915232269",
+        "author": "thsottiaux",
+        "published": "2026-08-21T19:43:11+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of",
+        "summary": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months. https://t.co/UoTb3hcB2t",
+        "link": "https://x.com/OpenAI/status/2090885187634905500",
+        "author": "OpenAI",
+        "published": "2026-08-21T19:34:10+00:00",
+        "source_name": "OpenAI",
+        "source_role": "OpenAI (official)",
+        "source_handle": "OpenAI"
+      },
+      {
+        "kind": "x",
+        "title": "True",
+        "summary": "True",
+        "link": "https://x.com/elonmusk/status/2090863544036397082",
+        "author": "elonmusk",
+        "published": "2026-08-21T18:08:09+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "gang gang",
+        "summary": "gang gang",
+        "link": "https://x.com/danshipper/status/2090860697504653480",
+        "author": "danshipper",
+        "published": "2026-08-21T17:56:51+00:00",
+        "source_name": "Dan Shipper",
+        "source_role": "CEO, Every",
+        "source_handle": "danshipper"
+      },
+      {
+        "kind": "x",
+        "title": "This was wild to watch unfold. We ran 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌 in a loop against https://t.co/bnjggVrBDj until it got to 100/100.\n\nIt ",
+        "summary": "This was wild to watch unfold. We ran 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌 in a loop against https://t.co/bnjggVrBDj until it got to 100/100.\n\nIt made us close quite a few gaps. We worked hard to make sure the criteria is high quality and worth your time &amp; tokens.",
+        "link": "https://x.com/rauchg/status/2090858571613470919",
+        "author": "rauchg",
+        "published": "2026-08-21T17:48:24+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Our Python team is making rapid progress",
+        "summary": "Our Python team is making rapid progress",
+        "link": "https://x.com/rauchg/status/2090856968407978031",
+        "author": "rauchg",
+        "published": "2026-08-21T17:42:02+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "Wider access to Grok @Bot",
+        "summary": "Wider access to Grok @Bot",
+        "link": "https://x.com/elonmusk/status/2090853842552578523",
+        "author": "elonmusk",
+        "published": "2026-08-21T17:29:36+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Claude Security scans now run on Claude Mythos 5, available today in public beta for all Claude Enterprise customers.\n\nP",
+        "summary": "Claude Security scans now run on Claude Mythos 5, available today in public beta for all Claude Enterprise customers.\n\nPut our most capable security model to work on your codebase, no separate model access needed. https://t.co/zJSUgGjtZF",
+        "link": "https://x.com/claudeai/status/2090852314319880425",
+        "author": "claudeai",
+        "published": "2026-08-21T17:23:32+00:00",
+        "source_name": "Claude",
+        "source_role": "Anthropic's Claude",
+        "source_handle": "claudeai"
+      },
+      {
+        "kind": "x",
+        "title": "Follow the gradient of surprise",
+        "summary": "Follow the gradient of surprise",
+        "link": "https://x.com/fchollet/status/2090848832146047155",
+        "author": "fchollet",
+        "published": "2026-08-21T17:09:42+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/OqZzvddSs4",
+        "summary": "https://t.co/OqZzvddSs4",
+        "link": "https://x.com/amasad/status/2090846057408483668",
+        "author": "amasad",
+        "published": "2026-08-21T16:58:40+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "You can just make money from your phone!",
+        "summary": "You can just make money from your phone!",
+        "link": "https://x.com/amasad/status/2090845035537522925",
+        "author": "amasad",
+        "published": "2026-08-21T16:54:37+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "The most important skills in Building and Deploying AI Applications. https://t.co/IyWIKLIzeM",
+        "summary": "The most important skills in Building and Deploying AI Applications. https://t.co/IyWIKLIzeM",
+        "link": "https://x.com/AndrewYNg/status/2090840747738374568",
+        "author": "AndrewYNg",
+        "published": "2026-08-21T16:37:34+00:00",
+        "source_name": "Andrew Ng",
+        "source_role": "Founder, DeepLearning.AI / Landing AI",
+        "source_handle": "AndrewYNg"
+      },
+      {
+        "kind": "x",
+        "title": "Grok 4.6 on extra high thinking mode now achieves #1 score on CursorBench!",
+        "summary": "Grok 4.6 on extra high thinking mode now achieves #1 score on CursorBench!",
+        "link": "https://x.com/elonmusk/status/2090840497338425739",
+        "author": "elonmusk",
+        "published": "2026-08-21T16:36:35+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Improvements to Grok Build almost every day \n\nhttps://t.co/v7TKF3lvAF",
+        "summary": "Improvements to Grok Build almost every day \n\nhttps://t.co/v7TKF3lvAF",
+        "link": "https://x.com/elonmusk/status/2090839546686767400",
+        "author": "elonmusk",
+        "published": "2026-08-21T16:32:48+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "Starlink now has 11k satellites in orbit",
+        "summary": "Starlink now has 11k satellites in orbit",
+        "link": "https://x.com/elonmusk/status/2090838266983719001",
+        "author": "elonmusk",
+        "published": "2026-08-21T16:27:43+00:00",
+        "source_name": "Elon Musk",
+        "source_role": "CEO, Tesla / xAI",
+        "source_handle": "elonmusk"
+      },
+      {
+        "kind": "x",
+        "title": "This is very nice work from NVIDIA. Like all high-performing approaches on ARC-AGI-3, it uses deep learning-guided on-th",
+        "summary": "This is very nice work from NVIDIA. Like all high-performing approaches on ARC-AGI-3, it uses deep learning-guided on-the-fly synthesis of symbolic world models, i.e. navigating the world by generating programs to represent what you know.\n\nTo be clear, like with several other recent claims, scoring 100% on the public demonstration set is not the same as \"scoring 100% on the ARC-AGI-3 benchmark\". It would be like saying you beat a videogame because you cleared the tutorial level.",
+        "link": "https://x.com/fchollet/status/2090838046937645398",
+        "author": "fchollet",
+        "published": "2026-08-21T16:26:50+00:00",
+        "source_name": "François Chollet",
+        "source_role": "Creator of Keras / ARC Prize",
+        "source_handle": "fchollet"
+      },
+      {
+        "kind": "x",
+        "title": "The sense of touch is the most criminally under-explored modality in robotics. Imagine doing sleight of hand wearing thi",
+        "summary": "The sense of touch is the most criminally under-explored modality in robotics. Imagine doing sleight of hand wearing thick oven mitts. That's exactly how a robot feels today if it were alive. A magnetic piece snapping into place, a paper cup peeling out of a stack, a USB negotiating its way into the port - all invisible to the camera.\n\nLearning how to feel must be a full-stack co-designed effort. We are open-sourcing a principled methodology called \"T-Rex\":\n\n1. Tactile as first-class citizen of the model. Our mixture-of-transformer runs two clocks asynchronously: a slow visuomotor expert plans the motion, and a fast tactile expert refines it in real time with high-frequency corrections at 4 \"touch ticks\" per vision tick. Forces change faster than frames arrive, so the architecture had to as well.\n\n2. Open data. The largest tactile dataset ever released to our knowledge: a 50-hour (~5,500 episodes) high-quality, carefully synchronized robot play corpus, collected on SOTA tactile hand hardware with 22 degrees of freedom. Available today on HuggingFace!\n\n3. Training recipe: T-Rex extends our prior work, EgoScale. Human egocentric videos for pretraining, a diverse dose of tactile robot play for mid-training. Our experiments show this bridges contact-free pretraining to contact-rich manipulation remarkably well.\n\nPixels are cheap and everywhere, but they run out of steam at the moment of contact. Tactile will carry the last mile. The next scaling curve will be measured in hours of touch.\n\nT-Rex is a great collaboration between NVIDIA and Berkeley: 🧵",
+        "link": "https://x.com/DrJimFan/status/2090832821036470626",
+        "author": "DrJimFan",
+        "published": "2026-08-21T16:06:04+00:00",
+        "source_name": "Jim Fan",
+        "source_role": "Senior Research Scientist, NVIDIA",
+        "source_handle": "DrJimFan"
+      },
+      {
+        "kind": "x",
+        "title": "Instinct is very well done.\n\nI'm particularly impressed by how smooth the onboarding experience is to connect iMessages,",
+        "summary": "Instinct is very well done.\n\nI'm particularly impressed by how smooth the onboarding experience is to connect iMessages, Google Workspace, and my MCPs. The best builder prioritize onboarding and new user needs :)\n\nInstinct also feels more proactive than some of the other assistants - it'll suggest things it can do right away after connecting a MCP.\n\nHowever, I can't see myself doing real work with Instinct since it's all just in one thread. This is the same issue I have with @bot, the UX is very clean but often I want to have multiple threads going with the same bot.\n\nI think I'll use Instinct more as an assistant for random chores and tasks.\n\nFor actual work, I'm still sticking to ChatGPT Work and Codex.\n\nP.S. I asked Instinct if I have any invites to give out and it says invites are paused, so don't ask me for any (yet) 🙂",
+        "link": "https://x.com/petergyang/status/2090814910720835633",
+        "author": "petergyang",
+        "published": "2026-08-21T14:54:54+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "The frontier model race is just getting started. https://t.co/uONWFGa9SC",
+        "summary": "The frontier model race is just getting started. https://t.co/uONWFGa9SC",
+        "link": "https://x.com/adityaag/status/2090814574400307585",
+        "author": "adityaag",
+        "published": "2026-08-21T14:53:34+00:00",
+        "source_name": "Aditya Agarwal",
+        "source_role": "Partner, South Park Commons",
+        "source_handle": "adityaag"
+      },
+      {
+        "kind": "x",
+        "title": "it was a blast covering Build Fest this year - they didnt know this but I learned to code with MongoDB over 10 years ago",
+        "summary": "it was a blast covering Build Fest this year - they didnt know this but I learned to code with MongoDB over 10 years ago (shoutout MERN stack) and now in the AI Engineering era seeing SF builders rediscover MDB was so gratifying - this was a *huge* step up from last year!",
+        "link": "https://x.com/swyx/status/2090813719018176904",
+        "author": "swyx",
+        "published": "2026-08-21T14:50:10+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "Idea to $$, fast!",
+        "summary": "Idea to $$, fast!",
+        "link": "https://x.com/amasad/status/2090810254095507820",
+        "author": "amasad",
+        "published": "2026-08-21T14:36:24+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "hell yeah",
+        "summary": "hell yeah",
+        "link": "https://x.com/amasad/status/2090809689659551868",
+        "author": "amasad",
+        "published": "2026-08-21T14:34:10+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Not bad!",
+        "summary": "Not bad!",
+        "link": "https://x.com/amasad/status/2090809505819017412",
+        "author": "amasad",
+        "published": "2026-08-21T14:33:26+00:00",
+        "source_name": "Amjad Masad",
+        "source_role": "CEO, Replit",
+        "source_handle": "amasad"
+      },
+      {
+        "kind": "x",
+        "title": "Games have been an important testbed for our AI research for over 15 years. 🎮\n\nFrom mastering Atari to reaching Grandmas",
+        "summary": "Games have been an important testbed for our AI research for over 15 years. 🎮\n\nFrom mastering Atari to reaching Grandmaster in StarCraft II, they have driven some of our biggest AI breakthroughs.\n\nOur work with SIMA taught agents how to understand 3D worlds, but learning to navigate real human dynamics takes a living, persistent universe.\n\nThrough our research partnership with @FenrisCreations, we’re exploring how to tackle open challenges in AI:\n\n🔵 Continual learning to acquire new skills without forgetting past knowledge.\n🔵 Deep memory systems that store and retrieve information far beyond today’s context windows.\n🔵 Long-horizon planning over weeks, months, or years.\n🔵 Multi-agent dynamics spanning cooperation, negotiation, economics, and emergent behaviors.\n\nOur long-term goal is to use AI to discover entirely new gameplay experiences in partnership with game developers – making games more accessible and personalized – while applying what we've learned to problems in the real world and scientific discovery.\n\nFind out more → https://t.co/fAbYdukA5A",
+        "link": "https://x.com/GoogleDeepMind/status/2090772922818286080",
+        "author": "GoogleDeepMind",
+        "published": "2026-08-21T12:08:04+00:00",
+        "source_name": "Google DeepMind",
+        "source_role": "Google DeepMind (official)",
+        "source_handle": "GoogleDeepMind"
+      },
+      {
+        "kind": "x",
+        "title": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Se",
+        "summary": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+        "link": "https://x.com/thsottiaux/status/2090766694897619318",
+        "author": "thsottiaux",
+        "published": "2026-08-21T11:43:19+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "We've investigated a few messages about codex usage limits being different. That's not something we change without engag",
+        "summary": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+        "link": "https://x.com/thsottiaux/status/2090675027670978569",
+        "author": "thsottiaux",
+        "published": "2026-08-21T05:39:04+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "Great post on what post training looks like for applied AI use-cases to bring down costs and improve accuracy on certain",
+        "summary": "Great post on what post training looks like for applied AI use-cases to bring down costs and improve accuracy on certain tasks. This will increasingly be an approach that companies that can get closer to the underlying workflow in an enterprise will take.\n\nThe key is that once you understand a domain well enough and have enough volume on a set of similar tasks, it can start to make sense to purpose design models just for that work.\n\n“In post-training, we incentivized efficient tool use and reasoning through reward shaping, preferring trajectories that would reduce tokens consumed at inference-time given equivalent performance. This allowed us to co-optimize for both cost and quality, gaining significant performance while keeping cost stable.”\n\nNow, this won’t make sense in every domain, as general purpose frontier closed or open models will be good enough out of the box -or necessary- for the work at hand. But once you have deep enough vertical expertise, and either the costs are too high to do at scale *or* you have a unique enough task type not being trained on otherwise, this will make a ton of sense. \n\nVery compelling value proposition for being an applied AI company, and awesome to see multiple paths to winning in the market right now.",
+        "link": "https://x.com/levie/status/2090664811185205722",
+        "author": "levie",
+        "published": "2026-08-21T04:58:28+00:00",
+        "source_name": "Aaron Levie",
+        "source_role": "CEO, Box",
+        "source_handle": "levie"
+      },
+      {
+        "kind": "x",
+        "title": "How dare it look me up 😅 https://t.co/t3IHhjeObV",
+        "summary": "How dare it look me up 😅 https://t.co/t3IHhjeObV",
+        "link": "https://x.com/petergyang/status/2090660707968704888",
+        "author": "petergyang",
+        "published": "2026-08-21T04:42:10+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "A rank 30 elliptic curve!!\n\nIt's gotten to the point where I'm excited to wake up each morning because we (humans + AI) ",
+        "summary": "A rank 30 elliptic curve!!\n\nIt's gotten to the point where I'm excited to wake up each morning because we (humans + AI) are learning so many new things about the world each day.",
+        "link": "https://x.com/kevinweil/status/2090655931436765598",
+        "author": "kevinweil",
+        "published": "2026-08-21T04:23:11+00:00",
+        "source_name": "Kevin Weil",
+        "source_role": "Chief Product Officer, OpenAI",
+        "source_handle": "kevinweil"
+      },
+      {
+        "kind": "x",
+        "title": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am a",
+        "summary": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y",
+        "link": "https://x.com/thsottiaux/status/2090631723302469995",
+        "author": "thsottiaux",
+        "published": "2026-08-21T02:46:59+00:00",
+        "source_name": "Tibo",
+        "source_role": "Codex, OpenAI",
+        "source_handle": "thsottiaux"
+      },
+      {
+        "kind": "x",
+        "title": "https://t.co/3Z4NESzNKd 0.0.5 gets even smaller\nfits in 2 floppy disks 💾💾😁 (𝚡𝚣-compressed)\nshipping tomorrow with our mo",
+        "summary": "https://t.co/3Z4NESzNKd 0.0.5 gets even smaller\nfits in 2 floppy disks 💾💾😁 (𝚡𝚣-compressed)\nshipping tomorrow with our most-asked feature! https://t.co/HhQ7HHIcUL",
+        "link": "https://x.com/rauchg/status/2090600467592266240",
+        "author": "rauchg",
+        "published": "2026-08-21T00:42:47+00:00",
+        "source_name": "Guillermo Rauch",
+        "source_role": "CEO, Vercel",
+        "source_handle": "rauchg"
+      },
+      {
+        "kind": "x",
+        "title": "I'm on my way back to Vancouver to be with my mom but wanted to take a moment to celebrate crossing 100K subs on YouTube",
+        "summary": "I'm on my way back to Vancouver to be with my mom but wanted to take a moment to celebrate crossing 100K subs on YouTube.\n\nExcited to share a lot more practical interviews soon to answer your most burning AI questions:\n\n1. @HamelHusain and @sh_reya (AI evals experts) on how today's AI models have changed evals completely\n\n2. @amoljain_ (Head of Product Engineering at Replit) on which vibe-coded apps have actually become real businesses\n\n3. @ebloch (Product Lead at OpenAI) on how ChatGPT Finance can help you save both time and money\n\n4. @poteto and Roman (SpaceXAI) on how the Grok Bot team uses Grok @bot\n\n📌 Subscribe to get the episodes soon:\nhttps://t.co/NSTj7ijxE0",
+        "link": "https://x.com/petergyang/status/2090589731927282021",
+        "author": "petergyang",
+        "published": "2026-08-21T00:00:08+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      },
+      {
+        "kind": "x",
+        "title": "proud that @vibhuuuus and i did the most recent pod with @eisokant on why NVIDIA just paid him $6B to buy the incredible",
+        "summary": "proud that @vibhuuuus and i did the most recent pod with @eisokant on why NVIDIA just paid him $6B to buy the incredible model factory that is pumping out Thinky-beating models (actually not exaggeration, look at the numbers)\n\ntune in / subscribe / whatever https://t.co/EsgyFnhAIy \n\nonly on @latentspacepod",
+        "link": "https://x.com/swyx/status/2090577677916807429",
+        "author": "swyx",
+        "published": "2026-08-20T23:12:14+00:00",
+        "source_name": "Swyx",
+        "source_role": "Smol AI / Latent Space",
+        "source_handle": "swyx"
+      },
+      {
+        "kind": "x",
+        "title": "A full-fledged developer platform for AI should provide you with access to various models (frontier and workhorse), as w",
+        "summary": "A full-fledged developer platform for AI should provide you with access to various models (frontier and workhorse), as well as tools for deploying them in useful production workloads. That is basically the Perplexity Agent API.",
+        "link": "https://x.com/AravSrinivas/status/2090577299838267739",
+        "author": "AravSrinivas",
+        "published": "2026-08-20T23:10:43+00:00",
+        "source_name": "Aravind Srinivas",
+        "source_role": "CEO, Perplexity",
+        "source_handle": "AravSrinivas"
+      },
+      {
+        "kind": "x",
+        "title": "My gut is that alot of AI output can be improved just by building a loop where a manager agent negs the other worker age",
+        "summary": "My gut is that alot of AI output can be improved just by building a loop where a manager agent negs the other worker agent with prompts like:\n\n\"Are you sure this is the best you can do?\"\n\"I think you can do better, try again\"\n\"Take a closer look, give me 11/10 output\"",
+        "link": "https://x.com/petergyang/status/2090564541499498919",
+        "author": "petergyang",
+        "published": "2026-08-20T22:20:02+00:00",
+        "source_name": "Peter Yang",
+        "source_role": "Product, Roblox / AI writer",
+        "source_handle": "petergyang"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "llm 0.32.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p>\n        <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p>\n<p>This dot-release fixes that for the moment by pinning to <code>openai&lt;3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>.</p>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/21/llm/",
+        "author": "",
+        "keywords": "httpx openai llm",
+        "published": "2026-08-21T17:16:13+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "llm-openrouter 0.7",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p>\n        <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p>\n<blockquote>\n<ul>\n<li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li>\n<li>Models now use OpenRouter's implementation of the <a href=\"https://openrouter.ai/docs/api_reference/responses/overview\">Responses API</a>.</li>\n<li>Three new server-side tools: <a href=\"https://github.com/simonw/llm-openrouter#shell\">Shell</a>, <a href=\"https://github.com/simonw/llm-openrouter#web-fetch\">WebFetch</a>, and <a href=\"https://github.com/simonw/llm-openrouter#web-search\">WebSearch</a>. Enable these with options like <code>-T WebSearch</code>.</li>\n</ul>\n</blockquote>\n    \n    \n        <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/openrouter\">openrouter</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+        "author": "",
+        "keywords": "llm openrouter",
+        "published": "2026-08-21T16:58:19+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Stop Making TUIs",
+        "summary": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p>\nThomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p>\n<p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, and I'm still using both of those on a daily basis.</p>\n<p>I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!</p>\n<p>Thomas:</p>\n<blockquote>\n<p>If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think.</p>\n</blockquote>\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/thomas-ptacek\">thomas-ptacek</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a>, <a href=\"https://simonwillison.net/tags/vibe-coding\">vibe-coding</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+        "author": "",
+        "keywords": "thomas-ptacek ai generative-ai llms vibe-coding coding-agents",
+        "published": "2026-08-21T16:07:32+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "Quoting Matt Webb",
+        "summary": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p>\n<p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote>\n<p class=\"cite\">&mdash; <a href=\"https://interconnected.org/home/2026/08/21/galactic\">Matt Webb</a>, Galactic Compass 2: now with new augmented reality mode</p>\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/matt-webb\">matt-webb</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/education\">education</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+        "author": "",
+        "keywords": "matt-webb generative-ai chatgpt education ai llms",
+        "published": "2026-08-21T15:06:26+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      },
+      {
+        "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+        "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+        "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-21T11:59:48+00:00",
+        "kind": "blog",
+        "source_name": "Google DeepMind",
+        "source_handle": "Google DeepMind",
+        "source_role": "By Google DeepMind"
+      },
+      {
+        "title": "2026-08-21",
+        "summary": "AI 早报 2026 08 21 视频版 ：哔哩哔哩 ｜ YouTube 概览 要闻 OpenRouter 与 OpenCode 上线免费 stealth 模型 Ox Alpha ↗ 1 Anthropic 上线AI学习平台 Claude Academy ↗ 2 开发生态 Ollama 云端订阅上线 Kimi K3，已覆盖过半订阅用户 ↗ 3 OpenCode 宣布免费提供 Muse Spark 1.2 ↗ 4 Google 推出 Antigravity IDE 扩展 ↗ 5 ChatGPT 桌面端现已支持只读对话分享 ↗ 6 ChatGPT 桌面端推出 Apple Messages 插件 ↗ 7 OpenAI 宣布 ChatGPT Sites 支持 teammates 协作编辑 ↗ 8 OpenAI 将 C…",
+        "link": "https://daily.juya.uk/issues/2026-08-21/",
+        "author": "",
+        "keywords": "",
+        "published": "2026-08-21T01:47:52+00:00",
+        "kind": "blog",
+        "source_name": "Juya Daily",
+        "source_handle": "Juya Daily",
+        "source_role": "By Juya Daily"
+      },
+      {
+        "title": "ChatGPT search now uses the site:operator at scale",
+        "summary": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p>\nPromptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p>\n<p>The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products.</p>\n<p>Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month:</p>\n<blockquote>\n<p>The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8.</p>\n</blockquote>\n<p>It's important to note that these figures only reflect the prompts for which they have automated tracking enabled.</p>\n<p>This corresponds to OpenAI's somewhat vague <a href=\"https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/\">August 6th announcement</a>:</p>\n<blockquote>\n<p>For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers.</p>\n</blockquote>\n<p>Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like <code>search(query, recency, domains)</code> rather than encouraging a <code>site:</code> operator directly.</p>\n<p>In <a href=\"https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt\">a follow-up</a> on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the <a href=\"https://github.com/asgeirtj/system_prompts_leaks/commits/main/OpenAI\">most thorough leaked system prompt</a> collection I know of doesn't yet show any relevant changes.\n\n\n    <p>Tags: <a href=\"https://simonwillison.net/tags/reddit\">reddit</a>, <a href=\"https://simonwillison.net/tags/seo\">seo</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-search\">ai-assisted-search</a>, <a href=\"https://simonwillison.net/tags/system-prompts\">system-prompts</a></p>",
+        "link": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+        "author": "",
+        "keywords": "reddit seo openai chatgpt ai-assisted-search system-prompts",
+        "published": "2026-08-20T23:57:32+00:00",
+        "kind": "blog",
+        "source_name": "Simon Willison",
+        "source_handle": "Simon Willison",
+        "source_role": "By Simon Willison"
+      }
+    ],
+    "podcasts": [],
+    "videos": [
+      {
+        "title": "Why Machine Learning Is a Much “Shallower” Field Than Math - Ryan Greenblatt",
+        "summary": "Full episode: https://www.youtube.com/watch?v=-RXD4bTuFTo\nMe on twitter: https://x.com/dwarkesh_sp",
+        "link": "https://www.youtube.com/watch?v=Fmpgmc40ErI",
+        "author": "Dwarkesh Clips",
+        "keywords": "",
+        "published": "2026-08-21T21:20:26+00:00",
+        "kind": "video",
+        "source_name": "Dwarkesh Patel",
+        "source_handle": "Dwarkesh Patel",
+        "source_role": "Channel · Dwarkesh Patel"
+      },
+      {
+        "title": "Hugging Face Journal Club: Training AI Scientists to Replicate Research",
+        "summary": "The Hugging Face research team discusses the Faraday-27B model that was post-trained to develop scientific reasoning to replicate AI papers, a key step towards full automation of AI R&amp;D.\n\nLink to the paper: https://huggingface.co/papers/2608.13331",
+        "link": "https://www.youtube.com/watch?v=HxahKqN1q2g",
+        "author": "Hugging Face",
+        "keywords": "",
+        "published": "2026-08-21T10:08:41+00:00",
+        "kind": "video",
+        "source_name": "Hugging Face",
+        "source_handle": "Hugging Face",
+        "source_role": "Channel · Hugging Face"
+      }
+    ]
+  }
+}
